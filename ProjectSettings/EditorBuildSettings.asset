@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/M1Story.unity
+    guid: 1a38e01ad715a419f81a34dc9ab48113
+  - enabled: 1
+    path: Assets/Scenes/M1Location.unity
+    guid: 2f4eae30af43e4b23b6c630d50e65b3f
+  - enabled: 1
+    path: Assets/Scenes/M1ARScan.unity
+    guid: 2f98309ce5c1f4c2aa1b8781aa61dd69
+  - enabled: 1
+    path: Assets/Scenes/M1Mission1.unity
+    guid: c99a0b83d40bf48f8809eeacf41913ce
+  - enabled: 1
+    path: Assets/Scenes/M1Mission2.unity
+    guid: 6cc5541f9cad04017a419aba3de9b7f5
+  - enabled: 1
+    path: Assets/Scenes/M1Clear.unity
+    guid: 3470c1749d0dd4a60828a8cc0524bac2
+  - enabled: 1
+    path: Assets/Scenes/AR Room.unity
+    guid: fd4bbdd254f3ff746b65ccb89f36f5ef
+  - enabled: 1
+    path: Assets/Scenes/M2Story.unity
+    guid: 9b34bea1b34dc4558945b2f1f80328ff
+  - enabled: 1
+    path: Assets/Scenes/M2Location.unity
+    guid: 46056a3f4ba5d4e45b2838aec43959d6
+  - enabled: 1
+    path: Assets/Scenes/M2ARScan.unity
+    guid: 0a13ce7dce5b945338dc995350a0aed6
+  - enabled: 1
+    path: Assets/Scenes/M2Tutorial.unity
+    guid: f3202e01388344afb8050dce5527174f
+  - enabled: 1
+    path: Assets/Scenes/DialGame2.unity
+    guid: fce94983fc0264170ab7c2c37ee7155a
+  - enabled: 1
+    path: Assets/Scenes/M2Clear.unity
+    guid: 6842826185b51404fa2ff54043829236
+  - enabled: 1
+    path: Assets/Scenes/M3Story.unity
+    guid: 61243b400736b49aabcebb093c8482ec
+  - enabled: 1
+    path: Assets/Scenes/M3Location.unity
+    guid: 8a806d0695e984ca8837d7559a663fe3
+  - enabled: 1
+    path: Assets/Scenes/M3ARScan.unity
+    guid: a3d827ba2a58b4e589bdb82a98393970
+  - enabled: 1
+    path: Assets/Scenes/M3Mission1.unity
+    guid: ee73787a6fc044f74b79190af9858d99
+  - enabled: 1
+    path: Assets/Scenes/M3MissionARScan1.unity
+    guid: a0ae1209c75224b718002fbdaea383fc
+  - enabled: 1
+    path: Assets/Scenes/M3Mission2.unity
+    guid: 069685ee357f642bbb908a7974800dbc
+  - enabled: 1
+    path: Assets/Scenes/M3MissionARScan2.unity
+    guid: 93f8098f3c63c4c349cddf1b691025b6
+  - enabled: 1
+    path: Assets/Scenes/M3Mission3.unity
+    guid: 5990e931461ce4746936eb59b447435e
+  - enabled: 1
+    path: Assets/Scenes/M3MissionARScan3.unity
+    guid: 8101cca4ce6524edbb30b70537f6611e
+  - enabled: 1
+    path: Assets/Scenes/M3Mission4.unity
+    guid: befd56800994a4c669ffeadf09709d0f
+  - enabled: 1
+    path: Assets/Scenes/M3MissionARScan4.unity
+    guid: adb7d101f1a1844a29eac04d598fa438
+  - enabled: 1
+    path: Assets/Scenes/M3DragDrop.unity
+    guid: 5099db75273134d23ac0821637709a6c
+  - enabled: 1
+    path: Assets/Scenes/M3Clear.unity
+    guid: 73267c38c25fe4fb69a212fcc31d76a2
+  - enabled: 1
+    path: Assets/Scenes/M4Story.unity
+    guid: 21736e29d1807489cb9e380089d54fd9
+  - enabled: 1
+    path: Assets/Scenes/M4Location.unity
+    guid: e89224f70497a4b65937878d0426c6f5
+  - enabled: 1
+    path: Assets/Scenes/M4ARScan.unity
+    guid: eed172aa7208640ad9d09e6543e8ea0b
+  - enabled: 1
+    path: Assets/Scenes/M4Mission1.unity
+    guid: 4e1c4c6a8da8b4876a197bd5327b90e3
+  - enabled: 1
+    path: Assets/Scenes/M4Mission2.unity
+    guid: 7001dbd4f4178444d92093a685a21bfe
+  - enabled: 1
+    path: Assets/Scenes/M4Clear.unity
+    guid: 5395cd7babe714627b0fb1048c94f325
+  m_configObjects:
+    EasyAR.Settings: {fileID: 11400000, guid: ef526d0aded28ac4191f771828a043f1, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b8b40982ece1b0048bf9002bfa7a835b, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d243505f72c11b649bf4be0972e9cd66, type: 2}

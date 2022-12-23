@@ -1,0 +1,277 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <stdint.h>
+#include <limits>
+
+
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// System.Guid
+struct Guid_t 
+{
+	// System.Int32 System.Guid::_a
+	int32_t ____a_1;
+	// System.Int16 System.Guid::_b
+	int16_t ____b_2;
+	// System.Int16 System.Guid::_c
+	int16_t ____c_3;
+	// System.Byte System.Guid::_d
+	uint8_t ____d_4;
+	// System.Byte System.Guid::_e
+	uint8_t ____e_5;
+	// System.Byte System.Guid::_f
+	uint8_t ____f_6;
+	// System.Byte System.Guid::_g
+	uint8_t ____g_7;
+	// System.Byte System.Guid::_h
+	uint8_t ____h_8;
+	// System.Byte System.Guid::_i
+	uint8_t ____i_9;
+	// System.Byte System.Guid::_j
+	uint8_t ____j_10;
+	// System.Byte System.Guid::_k
+	uint8_t ____k_11;
+};
+
+struct Guid_t_StaticFields
+{
+	// System.Guid System.Guid::Empty
+	Guid_t ___Empty_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// UnityEngine.RectInt
+struct RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 
+{
+	// System.Int32 UnityEngine.RectInt::m_XMin
+	int32_t ___m_XMin_0;
+	// System.Int32 UnityEngine.RectInt::m_YMin
+	int32_t ___m_YMin_1;
+	// System.Int32 UnityEngine.RectInt::m_Width
+	int32_t ___m_Width_2;
+	// System.Int32 UnityEngine.RectInt::m_Height
+	int32_t ___m_Height_3;
+};
+
+// UnityEngine.Vector2Int
+struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A 
+{
+	// System.Int32 UnityEngine.Vector2Int::m_X
+	int32_t ___m_X_0;
+	// System.Int32 UnityEngine.Vector2Int::m_Y
+	int32_t ___m_Y_1;
+};
+
+struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_StaticFields
+{
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Zero
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Zero_2;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_One
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_One_3;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Up
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Up_4;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Down
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Down_5;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Left
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Left_6;
+	// UnityEngine.Vector2Int UnityEngine.Vector2Int::s_Right
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Right_7;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// UnityEngine.XR.ARCore.ArCameraConfigFilter
+struct ArCameraConfigFilter_tF665AEAE3CDEB76E6485508096A093A9E0E0B607 
+{
+	// System.IntPtr UnityEngine.XR.ARCore.ArCameraConfigFilter::m_Self
+	intptr_t ___m_Self_0;
+};
+
+// UnityEngine.XR.ARCore.ArConfig
+struct ArConfig_tC991F7E3046E638B111BDBE5A2B25C4F363C4F1C 
+{
+	// System.IntPtr UnityEngine.XR.ARCore.ArConfig::m_Self
+	intptr_t ___m_Self_0;
+};
+
+// UnityEngine.XR.ARCore.ArSession
+struct ArSession_t5038012861AFE90255CCD3F97A7819940B50ECFF 
+{
+	// System.IntPtr UnityEngine.XR.ARCore.ArSession::m_Self
+	intptr_t ___m_Self_0;
+};
+
+// easyar.Detail/OptionalOfString
+struct OptionalOfString_t95FB2A250EF22B91619078D844F496EAA5F5E6D1 
+{
+	// System.Byte easyar.Detail/OptionalOfString::has_value_
+	uint8_t ___has_value__0;
+	// System.IntPtr easyar.Detail/OptionalOfString::value
+	intptr_t ___value_1;
+};
+
+// UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams
+struct ConversionParams_t062706B15E2C508C54473A1FD72013C4381CCB62 
+{
+	// UnityEngine.RectInt UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_InputRect
+	RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___m_InputRect_0;
+	// UnityEngine.Vector2Int UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_OutputDimensions
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___m_OutputDimensions_1;
+	// UnityEngine.TextureFormat UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_Format
+	int32_t ___m_Format_2;
+	// UnityEngine.XR.ARSubsystems.XRCpuImage/Transformation UnityEngine.XR.ARSubsystems.XRCpuImage/ConversionParams::m_Transformation
+	int32_t ___m_Transformation_3;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_mDBD419B094B2CFE933BB3F63886A5AB4E44D2DC0(Il2CppChar* ___language0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfOutputFrameFromListOfOutputFrame_destroy_mF1A5464EE57BB31C84BF56FE37B8216303CBCE9E(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfOutputFrameFromListOfOutputFrame_func_m8D2C75EC80DD97F91D30449C94581F212E709C4C(intptr_t ___state0, intptr_t ___arg01, intptr_t* ___Return2, intptr_t* ___exception3);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromBoolAndStringAndString_destroy_m6A47B4D9DE52BC54CC26290A51E5439F9AD7BD7E(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromBoolAndStringAndString_func_mC4BC9C9A2BB2577123B4C370F3A9081C83BDC266(intptr_t ___state0, int8_t ___arg01, intptr_t ___arg12, intptr_t ___arg23, intptr_t* ___exception4);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromBoolAndString_destroy_m296A146091B8A384D9E953B33C64C0C70C2D7738(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromBoolAndString_func_mE4D0144F3E1BE474B77ADACA14760879A02C7D97(intptr_t ___state0, int8_t ___arg01, intptr_t ___arg12, intptr_t* ___exception3);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromBool_destroy_m12E1A68BAF4A5B12827A8F826BB564DC2770ED70(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromBool_func_m15C146E55E9FEEFB127F1D868C94A243FF03ABFD(intptr_t ___state0, int8_t ___arg01, intptr_t* ___exception2);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_destroy_m956150E051D46D33D6C835806C52DB9D878384E8(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_func_m0E20234492C341A0132FE31EE48393CC1DF1C90D(intptr_t ___state0, int32_t ___arg01, OptionalOfString_t95FB2A250EF22B91619078D844F496EAA5F5E6D1 ___arg12, intptr_t* ___exception3);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromCameraState_destroy_mABCBFD76BDDF9AC8A2175B9F7A238BD6A65E53DE(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromCameraState_func_mD650B25B88459727467D4E81043A0DF2785B028C(intptr_t ___state0, int32_t ___arg01, intptr_t* ___exception2);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromCloudLocalizeResult_destroy_mC6590432763B0BC30047B24F24F0AE808680013D(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromCloudLocalizeResult_func_m59565EF3FE8BE260527646DF98C6D079BFF464E3(intptr_t ___state0, intptr_t ___arg01, intptr_t* ___exception2);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromCloudRecognizationResult_destroy_mB58D4BA7DE6FD4246AFD9469C6A50A326F30E1DF(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromCloudRecognizationResult_func_m44523CC4CB1D9428DB13CC0874B0FDD5300BF250(intptr_t ___state0, intptr_t ___arg01, intptr_t* ___exception2);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromFeedbackFrame_destroy_m5E85B54BC06925986835682FD9FB074112BB50FE(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromFeedbackFrame_func_m95A335E9E1F592E176AE16FF05D25B5EA6244F98(intptr_t ___state0, intptr_t ___arg01, intptr_t* ___exception2);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromInputFrame_destroy_m60ED302B9C246CC4E71CD3E66DDB615400013DB8(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromInputFrame_func_m13A3A5E746D82B8E57973F7F42090FCAE2538701(intptr_t ___state0, intptr_t ___arg01, intptr_t* ___exception2);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromLogLevelAndString_destroy_m35191A39C014A6C4A574F07E05B11C82EC5480C7(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromLogLevelAndString_func_m146B9A0B7CD02BC1E22221A865E217AEF6F4A182(intptr_t ___state0, int32_t ___arg01, intptr_t ___arg12, intptr_t* ___exception3);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromOutputFrame_destroy_mD420F425F20F505E4C5D043C8AD7410CBAF5EDC5(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromOutputFrame_func_mA503D140DC254EBD50B6FF51E10826AF0C772F26(intptr_t ___state0, intptr_t ___arg01, intptr_t* ___exception2);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromPermissionStatusAndString_destroy_mA11B2EC3A6F1A24515F97F2EC88046B405EC88B3(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromPermissionStatusAndString_func_mF75CF9B2CB5233199D16ABFA0D6C3E646128CCC7(intptr_t ___state0, int32_t ___arg01, intptr_t ___arg12, intptr_t* ___exception3);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromRecordStatusAndString_destroy_m5754CF07AE8DF6F757F145DE496EB4AFBE9CD64E(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromRecordStatusAndString_func_mF8F6F417420C8B60382532E66F3E212B4A246419(intptr_t ___state0, int32_t ___arg01, intptr_t ___arg12, intptr_t* ___exception3);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromTargetAndBool_destroy_m9B8753165488859C46E1FAA8DA1A2A8F2F17F7A9(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromTargetAndBool_func_m3A49203A0B28CB5C535DF756759D60767CD45DE4(intptr_t ___state0, intptr_t ___arg01, int8_t ___arg12, intptr_t* ___exception3);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromVideoStatus_destroy_m10274A0BA716DC8F2801999302489EF4FDD299AA(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoidFromVideoStatus_func_m83A0D47C1E81D24241299838F24A18F712B64318(intptr_t ___state0, int32_t ___arg01, intptr_t* ___exception2);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoid_destroy_m5E3E6D4C5E3646C932CF287C430B2BBA89AAD985(intptr_t ____state0);
+extern "C" void CDECL ReversePInvokeWrapper_Detail_FunctorOfVoid_func_m9B3A25DFCDAA1DA9B34D8C26D12720078904A7AE(intptr_t ___state0, intptr_t* ___exception1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mB85BF0265E239960FC963DCA74DC67EBCE9480AC(intptr_t ___arg0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionComplete_m7E311C07BC1C6138581C60F22191796CF029C65F(int32_t ___status0, ConversionParams_t062706B15E2C508C54473A1FD72013C4381CCB62 ___conversionParams1, intptr_t ___dataPtr2, int32_t ___dataLength3, intptr_t ___context4);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_OnBeforeGetCameraConfiguration_m2C314F5FC174CB06131BFADE7B5C0378E530C70C(intptr_t ___providerHandle0, ArSession_t5038012861AFE90255CCD3F97A7819940B50ECFF ___session1, ArCameraConfigFilter_tF665AEAE3CDEB76E6485508096A093A9E0E0B607 ___filter2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_CameraPermissionRequestProvider_m52520DB26683512123C6B56B7E2A28269DF7C310(Il2CppMethodPointer ___callback0, intptr_t ___context1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_OnApkInstallation_mE3B31805C325D8C7F0FC2BC00F8249A759AE5B98(int32_t ___status0, intptr_t ___context1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_OnCheckApkAvailability_m0C786C7B24238176AC42E8CEF62BA1D84EB9C1DB(int32_t ___availability0, intptr_t ___context1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_SetConfigurationCallback_m21110C590C44E78936908B4D2198452803E2330B(ArSession_t5038012861AFE90255CCD3F97A7819940B50ECFF ___session0, ArConfig_tC991F7E3046E638B111BDBE5A2B25C4F363C4F1C ___config1, intptr_t ___context2);
+extern "C" Guid_t DEFAULT_CALL ReversePInvokeWrapper_ARCoreProvider_GenerateGuid_m406A7A02F96253CB573818EA5FF3E5AF66B91CDC();
+extern "C" int32_t CDECL ReversePInvokeWrapper_BurstCompilerHelper_IsBurstEnabled_m5EFFD7E2094228A267B5DBC3F28B82A7FF53E733();
+
+
+IL2CPP_EXTERN_C const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[44] = 
+{
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_CultureInfo_OnCultureInfoChangedInAppX_mDBD419B094B2CFE933BB3F63886A5AB4E44D2DC0),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfOutputFrameFromListOfOutputFrame_destroy_mF1A5464EE57BB31C84BF56FE37B8216303CBCE9E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfOutputFrameFromListOfOutputFrame_func_m8D2C75EC80DD97F91D30449C94581F212E709C4C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromBoolAndStringAndString_destroy_m6A47B4D9DE52BC54CC26290A51E5439F9AD7BD7E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromBoolAndStringAndString_func_mC4BC9C9A2BB2577123B4C370F3A9081C83BDC266),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromBoolAndString_destroy_m296A146091B8A384D9E953B33C64C0C70C2D7738),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromBoolAndString_func_mE4D0144F3E1BE474B77ADACA14760879A02C7D97),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromBool_destroy_m12E1A68BAF4A5B12827A8F826BB564DC2770ED70),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromBool_func_m15C146E55E9FEEFB127F1D868C94A243FF03ABFD),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_destroy_m956150E051D46D33D6C835806C52DB9D878384E8),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_func_m0E20234492C341A0132FE31EE48393CC1DF1C90D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromCameraState_destroy_mABCBFD76BDDF9AC8A2175B9F7A238BD6A65E53DE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromCameraState_func_mD650B25B88459727467D4E81043A0DF2785B028C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromCloudLocalizeResult_destroy_mC6590432763B0BC30047B24F24F0AE808680013D),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromCloudLocalizeResult_func_m59565EF3FE8BE260527646DF98C6D079BFF464E3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromCloudRecognizationResult_destroy_mB58D4BA7DE6FD4246AFD9469C6A50A326F30E1DF),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromCloudRecognizationResult_func_m44523CC4CB1D9428DB13CC0874B0FDD5300BF250),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromFeedbackFrame_destroy_m5E85B54BC06925986835682FD9FB074112BB50FE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromFeedbackFrame_func_m95A335E9E1F592E176AE16FF05D25B5EA6244F98),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromInputFrame_destroy_m60ED302B9C246CC4E71CD3E66DDB615400013DB8),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromInputFrame_func_m13A3A5E746D82B8E57973F7F42090FCAE2538701),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromLogLevelAndString_destroy_m35191A39C014A6C4A574F07E05B11C82EC5480C7),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromLogLevelAndString_func_m146B9A0B7CD02BC1E22221A865E217AEF6F4A182),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromOutputFrame_destroy_mD420F425F20F505E4C5D043C8AD7410CBAF5EDC5),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromOutputFrame_func_mA503D140DC254EBD50B6FF51E10826AF0C772F26),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromPermissionStatusAndString_destroy_mA11B2EC3A6F1A24515F97F2EC88046B405EC88B3),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromPermissionStatusAndString_func_mF75CF9B2CB5233199D16ABFA0D6C3E646128CCC7),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromRecordStatusAndString_destroy_m5754CF07AE8DF6F757F145DE496EB4AFBE9CD64E),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromRecordStatusAndString_func_mF8F6F417420C8B60382532E66F3E212B4A246419),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromTargetAndBool_destroy_m9B8753165488859C46E1FAA8DA1A2A8F2F17F7A9),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromTargetAndBool_func_m3A49203A0B28CB5C535DF756759D60767CD45DE4),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromVideoStatus_destroy_m10274A0BA716DC8F2801999302489EF4FDD299AA),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoidFromVideoStatus_func_m83A0D47C1E81D24241299838F24A18F712B64318),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoid_destroy_m5E3E6D4C5E3646C932CF287C430B2BBA89AAD985),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Detail_FunctorOfVoid_func_m9B3A25DFCDAA1DA9B34D8C26D12720078904A7AE),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_OSSpecificSynchronizationContext_InvocationEntry_mB85BF0265E239960FC963DCA74DC67EBCE9480AC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_XRCpuImage_OnAsyncConversionComplete_m7E311C07BC1C6138581C60F22191796CF029C65F),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_OnBeforeGetCameraConfiguration_m2C314F5FC174CB06131BFADE7B5C0378E530C70C),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_CameraPermissionRequestProvider_m52520DB26683512123C6B56B7E2A28269DF7C310),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_OnApkInstallation_mE3B31805C325D8C7F0FC2BC00F8249A759AE5B98),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_OnCheckApkAvailability_m0C786C7B24238176AC42E8CEF62BA1D84EB9C1DB),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_SetConfigurationCallback_m21110C590C44E78936908B4D2198452803E2330B),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_ARCoreProvider_GenerateGuid_m406A7A02F96253CB573818EA5FF3E5AF66B91CDC),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_BurstCompilerHelper_IsBurstEnabled_m5EFFD7E2094228A267B5DBC3F28B82A7FF53E733),
+};

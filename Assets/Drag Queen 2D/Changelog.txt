@@ -1,0 +1,11 @@
+Drag Queen 2D
+by Christopher Stanley
+support@ChristopherCreates.com
+
+1.1.0
+2016-04-16
+Added "Cast Local Space" option
+
+1.0.0
+2016-03-30
+Initial release

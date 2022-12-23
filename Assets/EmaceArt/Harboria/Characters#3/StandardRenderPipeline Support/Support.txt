@@ -1,0 +1,2 @@
+Hi!
+If You have any problem with render material, please install this little fix.

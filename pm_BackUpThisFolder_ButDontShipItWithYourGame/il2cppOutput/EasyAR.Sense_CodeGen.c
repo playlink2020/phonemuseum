@@ -1,0 +1,12062 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+extern const RuntimeMethod* Detail_FunctorOfOutputFrameFromListOfOutputFrame_destroy_mF1A5464EE57BB31C84BF56FE37B8216303CBCE9E_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfOutputFrameFromListOfOutputFrame_func_m8D2C75EC80DD97F91D30449C94581F212E709C4C_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromBoolAndStringAndString_destroy_m6A47B4D9DE52BC54CC26290A51E5439F9AD7BD7E_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromBoolAndStringAndString_func_mC4BC9C9A2BB2577123B4C370F3A9081C83BDC266_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromBoolAndString_destroy_m296A146091B8A384D9E953B33C64C0C70C2D7738_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromBoolAndString_func_mE4D0144F3E1BE474B77ADACA14760879A02C7D97_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromBool_destroy_m12E1A68BAF4A5B12827A8F826BB564DC2770ED70_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromBool_func_m15C146E55E9FEEFB127F1D868C94A243FF03ABFD_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_destroy_m956150E051D46D33D6C835806C52DB9D878384E8_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_func_m0E20234492C341A0132FE31EE48393CC1DF1C90D_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromCameraState_destroy_mABCBFD76BDDF9AC8A2175B9F7A238BD6A65E53DE_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromCameraState_func_mD650B25B88459727467D4E81043A0DF2785B028C_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromCloudLocalizeResult_destroy_mC6590432763B0BC30047B24F24F0AE808680013D_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromCloudLocalizeResult_func_m59565EF3FE8BE260527646DF98C6D079BFF464E3_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromCloudRecognizationResult_destroy_mB58D4BA7DE6FD4246AFD9469C6A50A326F30E1DF_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromCloudRecognizationResult_func_m44523CC4CB1D9428DB13CC0874B0FDD5300BF250_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromFeedbackFrame_destroy_m5E85B54BC06925986835682FD9FB074112BB50FE_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromFeedbackFrame_func_m95A335E9E1F592E176AE16FF05D25B5EA6244F98_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromInputFrame_destroy_m60ED302B9C246CC4E71CD3E66DDB615400013DB8_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromInputFrame_func_m13A3A5E746D82B8E57973F7F42090FCAE2538701_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromLogLevelAndString_destroy_m35191A39C014A6C4A574F07E05B11C82EC5480C7_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromLogLevelAndString_func_m146B9A0B7CD02BC1E22221A865E217AEF6F4A182_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromOutputFrame_destroy_mD420F425F20F505E4C5D043C8AD7410CBAF5EDC5_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromOutputFrame_func_mA503D140DC254EBD50B6FF51E10826AF0C772F26_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromPermissionStatusAndString_destroy_mA11B2EC3A6F1A24515F97F2EC88046B405EC88B3_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromPermissionStatusAndString_func_mF75CF9B2CB5233199D16ABFA0D6C3E646128CCC7_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromRecordStatusAndString_destroy_m5754CF07AE8DF6F757F145DE496EB4AFBE9CD64E_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromRecordStatusAndString_func_mF8F6F417420C8B60382532E66F3E212B4A246419_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromTargetAndBool_destroy_m9B8753165488859C46E1FAA8DA1A2A8F2F17F7A9_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromTargetAndBool_func_m3A49203A0B28CB5C535DF756759D60767CD45DE4_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromVideoStatus_destroy_m10274A0BA716DC8F2801999302489EF4FDD299AA_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoidFromVideoStatus_func_m83A0D47C1E81D24241299838F24A18F712B64318_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoid_destroy_m5E3E6D4C5E3646C932CF287C430B2BBA89AAD985_RuntimeMethod_var;
+extern const RuntimeMethod* Detail_FunctorOfVoid_func_m9B3A25DFCDAA1DA9B34D8C26D12720078904A7AE_RuntimeMethod_var;
+
+
+
+// 0x00000001 System.Void easyar.Detail::easyar_String_from_utf8(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_String_from_utf8_m245B08EF9583DE8567F2A213289322424ACF35CB (void);
+// 0x00000002 System.Void easyar.Detail::easyar_String_from_utf8_begin(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_String_from_utf8_begin_mF245B95BD61E15556769EA70E369CBDD02E5F723 (void);
+// 0x00000003 System.IntPtr easyar.Detail::easyar_String_begin(System.IntPtr)
+extern void Detail_easyar_String_begin_m59E8B741BEF9EBAA63749F46AE760C246953D08B (void);
+// 0x00000004 System.IntPtr easyar.Detail::easyar_String_end(System.IntPtr)
+extern void Detail_easyar_String_end_m1B9C5CEDB5ABD9A115CA026A671016C03679ABA4 (void);
+// 0x00000005 System.Void easyar.Detail::easyar_String_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_String_copy_m2D512BC1524050C8E9C4E57F2A8378ED8942BD1D (void);
+// 0x00000006 System.Void easyar.Detail::easyar_String__dtor(System.IntPtr)
+extern void Detail_easyar_String__dtor_mCDD6DFF1D2FCAB18987A9C167C466BCADCE2027E (void);
+// 0x00000007 System.Void easyar.Detail::easyar_ObjectTargetParameters__ctor(System.IntPtr&)
+extern void Detail_easyar_ObjectTargetParameters__ctor_m96B4DB0EFC409A26B5E7F782CF651897CEEFDF73 (void);
+// 0x00000008 System.Void easyar.Detail::easyar_ObjectTargetParameters_bufferDictionary(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTargetParameters_bufferDictionary_m8398919831CA646B6F8F7D82D6F97F1F854D8CD2 (void);
+// 0x00000009 System.Void easyar.Detail::easyar_ObjectTargetParameters_setBufferDictionary(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ObjectTargetParameters_setBufferDictionary_mDCCB03EA5F43BC113A89387BDDA6E381BDB55EBC (void);
+// 0x0000000A System.Void easyar.Detail::easyar_ObjectTargetParameters_objPath(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTargetParameters_objPath_mC381A5EDCBD01A5BEED44E0A513F6AB1504E313A (void);
+// 0x0000000B System.Void easyar.Detail::easyar_ObjectTargetParameters_setObjPath(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ObjectTargetParameters_setObjPath_mEA00868DB507DB749803F1A1D48C01E640B52293 (void);
+// 0x0000000C System.Void easyar.Detail::easyar_ObjectTargetParameters_name(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTargetParameters_name_m863FCBD7AFCC1872CE55F9750F122C2FE0581D22 (void);
+// 0x0000000D System.Void easyar.Detail::easyar_ObjectTargetParameters_setName(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ObjectTargetParameters_setName_mB9EE14B189A006E5003A263F6BF962059D7297F5 (void);
+// 0x0000000E System.Void easyar.Detail::easyar_ObjectTargetParameters_uid(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTargetParameters_uid_m5C0F918E9704CEDE170F150DDABA19B9BCBA9BA4 (void);
+// 0x0000000F System.Void easyar.Detail::easyar_ObjectTargetParameters_setUid(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ObjectTargetParameters_setUid_mE4F4190B2CE5E236725BA9E81472BA4A7CA7B00D (void);
+// 0x00000010 System.Void easyar.Detail::easyar_ObjectTargetParameters_meta(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTargetParameters_meta_m1CB781B705A80D5E6F38207ED5BAC3E46B171A45 (void);
+// 0x00000011 System.Void easyar.Detail::easyar_ObjectTargetParameters_setMeta(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ObjectTargetParameters_setMeta_m8C3C5040748C58A7910FBECBE61E504D2B5E7BD3 (void);
+// 0x00000012 System.Single easyar.Detail::easyar_ObjectTargetParameters_scale(System.IntPtr)
+extern void Detail_easyar_ObjectTargetParameters_scale_m06B711AEFC9F86866A65FBDF2136740310AD1219 (void);
+// 0x00000013 System.Void easyar.Detail::easyar_ObjectTargetParameters_setScale(System.IntPtr,System.Single)
+extern void Detail_easyar_ObjectTargetParameters_setScale_mE263FFAC995AF16F5E0A4E68B3DAB4EDD65A00FC (void);
+// 0x00000014 System.Void easyar.Detail::easyar_ObjectTargetParameters__dtor(System.IntPtr)
+extern void Detail_easyar_ObjectTargetParameters__dtor_mA045F644CD0D43F772DB0A7ACFBA22917C22EEDE (void);
+// 0x00000015 System.Void easyar.Detail::easyar_ObjectTargetParameters__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTargetParameters__retain_mD4AF160397ACC032948C185BC70BB09903B8AC7B (void);
+// 0x00000016 System.IntPtr easyar.Detail::easyar_ObjectTargetParameters__typeName(System.IntPtr)
+extern void Detail_easyar_ObjectTargetParameters__typeName_mAD887E3EDABB6979967FDEA49181708A1692381F (void);
+// 0x00000017 System.Void easyar.Detail::easyar_ObjectTarget__ctor(System.IntPtr&)
+extern void Detail_easyar_ObjectTarget__ctor_mDE6FBA0C7CE77E80571A2E2A95330EB7B56CA29E (void);
+// 0x00000018 System.Void easyar.Detail::easyar_ObjectTarget_createFromParameters(System.IntPtr,easyar.Detail/OptionalOfObjectTarget&)
+extern void Detail_easyar_ObjectTarget_createFromParameters_mDAA9CE3CFEA5AAE6C0A0151F20864CD380362444 (void);
+// 0x00000019 System.Void easyar.Detail::easyar_ObjectTarget_createFromObjectFile(System.IntPtr,easyar.StorageType,System.IntPtr,System.IntPtr,System.IntPtr,System.Single,easyar.Detail/OptionalOfObjectTarget&)
+extern void Detail_easyar_ObjectTarget_createFromObjectFile_mEB45A788406CBB7C26C5B7BC2EDC405884A5F96E (void);
+// 0x0000001A System.Single easyar.Detail::easyar_ObjectTarget_scale(System.IntPtr)
+extern void Detail_easyar_ObjectTarget_scale_mCD11A1729FC83AB935E0E18B9BB04A11BA459664 (void);
+// 0x0000001B System.Void easyar.Detail::easyar_ObjectTarget_boundingBox(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTarget_boundingBox_mADEAD1D8B43BDC6F83E9E47D3B44671CA7EA6465 (void);
+// 0x0000001C System.Boolean easyar.Detail::easyar_ObjectTarget_setScale(System.IntPtr,System.Single)
+extern void Detail_easyar_ObjectTarget_setScale_m4CE75B5F09B36DE4B815E79710B59B716CA2C37E (void);
+// 0x0000001D System.Int32 easyar.Detail::easyar_ObjectTarget_runtimeID(System.IntPtr)
+extern void Detail_easyar_ObjectTarget_runtimeID_mFA438EE533E0DB21CC8AB0315E22BA12FE40965D (void);
+// 0x0000001E System.Void easyar.Detail::easyar_ObjectTarget_uid(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTarget_uid_mE3461568F378C8BABEA22783B2C2149D825B7F2A (void);
+// 0x0000001F System.Void easyar.Detail::easyar_ObjectTarget_name(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTarget_name_mB9CB10AAB9D6AB45BF20EF20D3886E52BDE0819C (void);
+// 0x00000020 System.Void easyar.Detail::easyar_ObjectTarget_setName(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ObjectTarget_setName_mF10255FF4995EDD44BB4CE14236BB57A3EC119DC (void);
+// 0x00000021 System.Void easyar.Detail::easyar_ObjectTarget_meta(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTarget_meta_m647B4B84348AA3D318CE6E4EF0A491C334CC5B9D (void);
+// 0x00000022 System.Void easyar.Detail::easyar_ObjectTarget_setMeta(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ObjectTarget_setMeta_m58EBF87CD3E8F5467A3837426573BC0864CC4B75 (void);
+// 0x00000023 System.Void easyar.Detail::easyar_ObjectTarget__dtor(System.IntPtr)
+extern void Detail_easyar_ObjectTarget__dtor_m0E67F3829532BDFA05694F97169C54F804C4A267 (void);
+// 0x00000024 System.Void easyar.Detail::easyar_ObjectTarget__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTarget__retain_m1EC94B55001B4F58F7D359A945FE03F0D73B4320 (void);
+// 0x00000025 System.IntPtr easyar.Detail::easyar_ObjectTarget__typeName(System.IntPtr)
+extern void Detail_easyar_ObjectTarget__typeName_m4E597A8BACA77FA589C49F31347DB2AC4A38B5CB (void);
+// 0x00000026 System.Void easyar.Detail::easyar_castObjectTargetToTarget(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castObjectTargetToTarget_mD8A80DDB0F397570D629D67473CDD5F57DB97057 (void);
+// 0x00000027 System.Void easyar.Detail::easyar_tryCastTargetToObjectTarget(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastTargetToObjectTarget_m619DCFFD6EEBDE3999A0A7145348DC989788EEB4 (void);
+// 0x00000028 System.Void easyar.Detail::easyar_ObjectTrackerResult_targetInstances(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTrackerResult_targetInstances_m4D29ACBB7B8561D5ABE7325367B0FD137C4E945E (void);
+// 0x00000029 System.Void easyar.Detail::easyar_ObjectTrackerResult_setTargetInstances(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ObjectTrackerResult_setTargetInstances_m6D625433BF208E1C88C0A889B526644C83D73B07 (void);
+// 0x0000002A System.Void easyar.Detail::easyar_ObjectTrackerResult__dtor(System.IntPtr)
+extern void Detail_easyar_ObjectTrackerResult__dtor_mD63EA3BA3F6B7B757FEF30DF12D1630439D390D6 (void);
+// 0x0000002B System.Void easyar.Detail::easyar_ObjectTrackerResult__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTrackerResult__retain_mDDDFF3AA6488787D8F56029F951EA3C8983D9573 (void);
+// 0x0000002C System.IntPtr easyar.Detail::easyar_ObjectTrackerResult__typeName(System.IntPtr)
+extern void Detail_easyar_ObjectTrackerResult__typeName_m7C00F6F2A651CCB609F47F38AADA1601E0D21F30 (void);
+// 0x0000002D System.Void easyar.Detail::easyar_castObjectTrackerResultToFrameFilterResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castObjectTrackerResultToFrameFilterResult_mB1D3B516D7EF716A594AB6ECA1621AD653AE71A6 (void);
+// 0x0000002E System.Void easyar.Detail::easyar_tryCastFrameFilterResultToObjectTrackerResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastFrameFilterResultToObjectTrackerResult_m2EF7ED0B460654B6971A9818F78E1595D97F0A07 (void);
+// 0x0000002F System.Void easyar.Detail::easyar_castObjectTrackerResultToTargetTrackerResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castObjectTrackerResultToTargetTrackerResult_mDBC0892C0A91625D3137A57805920189BFF685FC (void);
+// 0x00000030 System.Void easyar.Detail::easyar_tryCastTargetTrackerResultToObjectTrackerResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastTargetTrackerResultToObjectTrackerResult_m7424EB505C12A22FFFC0085F84E98232CD9B450E (void);
+// 0x00000031 System.Boolean easyar.Detail::easyar_ObjectTracker_isAvailable()
+extern void Detail_easyar_ObjectTracker_isAvailable_m728D3D036AA50B691590AEC597BE1D68E765B50E (void);
+// 0x00000032 System.Void easyar.Detail::easyar_ObjectTracker_feedbackFrameSink(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTracker_feedbackFrameSink_m96746DE0024485BF9BA32071FA6B0AC0967A20C4 (void);
+// 0x00000033 System.Int32 easyar.Detail::easyar_ObjectTracker_bufferRequirement(System.IntPtr)
+extern void Detail_easyar_ObjectTracker_bufferRequirement_mA4929E1C6FC12F073E815DF5293450D3D11B4D2D (void);
+// 0x00000034 System.Void easyar.Detail::easyar_ObjectTracker_outputFrameSource(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTracker_outputFrameSource_m06DDE2126AC04098594EEF83070D0F7A738B33C9 (void);
+// 0x00000035 System.Void easyar.Detail::easyar_ObjectTracker_create(System.IntPtr&)
+extern void Detail_easyar_ObjectTracker_create_m681A94C7E8694D18EF057A21A6F70183AA131CFE (void);
+// 0x00000036 System.Boolean easyar.Detail::easyar_ObjectTracker_start(System.IntPtr)
+extern void Detail_easyar_ObjectTracker_start_m83A7EC428800101574D15154CEAE5B9171088BDB (void);
+// 0x00000037 System.Void easyar.Detail::easyar_ObjectTracker_stop(System.IntPtr)
+extern void Detail_easyar_ObjectTracker_stop_m3EB1E19E83D5C0DEE3F8A1D97389575DA56BA061 (void);
+// 0x00000038 System.Void easyar.Detail::easyar_ObjectTracker_close(System.IntPtr)
+extern void Detail_easyar_ObjectTracker_close_mBCB1B644F304066D6E6F15427296382BB1623E84 (void);
+// 0x00000039 System.Void easyar.Detail::easyar_ObjectTracker_loadTarget(System.IntPtr,System.IntPtr,System.IntPtr,easyar.Detail/FunctorOfVoidFromTargetAndBool)
+extern void Detail_easyar_ObjectTracker_loadTarget_mECB96DEDF46798A8B1A886AFCFD186D4A98CA707 (void);
+// 0x0000003A System.Void easyar.Detail::easyar_ObjectTracker_unloadTarget(System.IntPtr,System.IntPtr,System.IntPtr,easyar.Detail/FunctorOfVoidFromTargetAndBool)
+extern void Detail_easyar_ObjectTracker_unloadTarget_m0C74ECDDDD4E26AEBB9B659621B96A2E301A3E3F (void);
+// 0x0000003B System.Void easyar.Detail::easyar_ObjectTracker_targets(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTracker_targets_mD5ED440D1B489086842F1B8799994D687AB5D6B1 (void);
+// 0x0000003C System.Boolean easyar.Detail::easyar_ObjectTracker_setSimultaneousNum(System.IntPtr,System.Int32)
+extern void Detail_easyar_ObjectTracker_setSimultaneousNum_m9AEEA70AF6C237CD6C091369AF1294FB75786893 (void);
+// 0x0000003D System.Int32 easyar.Detail::easyar_ObjectTracker_simultaneousNum(System.IntPtr)
+extern void Detail_easyar_ObjectTracker_simultaneousNum_mFF0295B64F7BC7C85C0ACFDEA90F086DC9D23995 (void);
+// 0x0000003E System.Void easyar.Detail::easyar_ObjectTracker__dtor(System.IntPtr)
+extern void Detail_easyar_ObjectTracker__dtor_m1AD9B0FC853CD9DBE43DCD9CDC40458E434CABE3 (void);
+// 0x0000003F System.Void easyar.Detail::easyar_ObjectTracker__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ObjectTracker__retain_m34A7911E093CF1AF4AFA9C5B3B3384A15F06BEB2 (void);
+// 0x00000040 System.IntPtr easyar.Detail::easyar_ObjectTracker__typeName(System.IntPtr)
+extern void Detail_easyar_ObjectTracker__typeName_m578CA53641A7603FB65882835C492CBDA68527A9 (void);
+// 0x00000041 System.Void easyar.Detail::easyar_CalibrationDownloader__ctor(System.IntPtr&)
+extern void Detail_easyar_CalibrationDownloader__ctor_m471FA09DB25D7C4675AFCAE7DAD32D42B8D1503F (void);
+// 0x00000042 System.Void easyar.Detail::easyar_CalibrationDownloader_download(System.IntPtr,easyar.Detail/OptionalOfInt,System.IntPtr,easyar.Detail/FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString)
+extern void Detail_easyar_CalibrationDownloader_download_mF0CDA454F64CE3C9ACF26989636A0C316D0F8B8F (void);
+// 0x00000043 System.Void easyar.Detail::easyar_CalibrationDownloader__dtor(System.IntPtr)
+extern void Detail_easyar_CalibrationDownloader__dtor_m4E0CAB74FF2FBE09D6E503AC2C44D72773D02BDC (void);
+// 0x00000044 System.Void easyar.Detail::easyar_CalibrationDownloader__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CalibrationDownloader__retain_mB1D4B4B64D0177BF8F82ED72CD44B61E4ADAC70A (void);
+// 0x00000045 System.IntPtr easyar.Detail::easyar_CalibrationDownloader__typeName(System.IntPtr)
+extern void Detail_easyar_CalibrationDownloader__typeName_m8A6FCFEFBDA347A759985AB3E73EDD271A786B38 (void);
+// 0x00000046 easyar.CloudLocalizeStatus easyar.Detail::easyar_CloudLocalizeResult_getLocalizeStatus(System.IntPtr)
+extern void Detail_easyar_CloudLocalizeResult_getLocalizeStatus_mCC032862C182D021D7E71046DA6B3054BD28D274 (void);
+// 0x00000047 System.Void easyar.Detail::easyar_CloudLocalizeResult_getLocalizedMapID(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult_getLocalizedMapID_mF1C4A3246C9E603DC36BACC5E817A7F325AC1390 (void);
+// 0x00000048 System.Void easyar.Detail::easyar_CloudLocalizeResult_getLocalizedMapName(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult_getLocalizedMapName_m671E921F0AF916A1EF8D30B9A376BA0518768BAE (void);
+// 0x00000049 easyar.Matrix44F easyar.Detail::easyar_CloudLocalizeResult_getPose(System.IntPtr)
+extern void Detail_easyar_CloudLocalizeResult_getPose_m7D9770E8CD60B92C987FF1C8247AA12742E76888 (void);
+// 0x0000004A easyar.Detail/OptionalOfMatrix44F easyar.Detail::easyar_CloudLocalizeResult_getDeltaT(System.IntPtr)
+extern void Detail_easyar_CloudLocalizeResult_getDeltaT_m770A8064C7AF1F65DD3C373B0AFE26D4C77F04AE (void);
+// 0x0000004B System.Void easyar.Detail::easyar_CloudLocalizeResult_getAllLocalizedMapID(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult_getAllLocalizedMapID_mDE135A756A0C37F4328A122F1677C7A50923F8A8 (void);
+// 0x0000004C System.Void easyar.Detail::easyar_CloudLocalizeResult_getAllPose(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult_getAllPose_m6AA22B770BAECE5B3C870EF887BC0A83E4B8D5A1 (void);
+// 0x0000004D System.Void easyar.Detail::easyar_CloudLocalizeResult_getAllDeltaT(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult_getAllDeltaT_mFFFC5CE67A6A6E3E904BC993CF3B8B0697F27B92 (void);
+// 0x0000004E System.Void easyar.Detail::easyar_CloudLocalizeResult_getExtraInfo(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult_getExtraInfo_m2B0B14E4CAB20EDBE03C9DE4F7296662824BC9A6 (void);
+// 0x0000004F System.Void easyar.Detail::easyar_CloudLocalizeResult_getExceptionInfo(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult_getExceptionInfo_m79A993B0D95CA918159BC00347366C6240EFE221 (void);
+// 0x00000050 System.Void easyar.Detail::easyar_CloudLocalizeResult_getLocalizedBlockId(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult_getLocalizedBlockId_mE710AF528C33FC1F0E43EC96B461E7DF6CB0F0ED (void);
+// 0x00000051 System.Void easyar.Detail::easyar_CloudLocalizeResult_getLocalizedBlockTimestamp(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult_getLocalizedBlockTimestamp_m8D00E4793BF9FDED9E5237BAC995D3384A646EA3 (void);
+// 0x00000052 easyar.Detail/OptionalOfVec3D easyar.Detail::easyar_CloudLocalizeResult_getLocalizedBlockLocation(System.IntPtr)
+extern void Detail_easyar_CloudLocalizeResult_getLocalizedBlockLocation_m439C5C41B85F77BDE4628EE7C12DE37B77735B42 (void);
+// 0x00000053 System.Void easyar.Detail::easyar_CloudLocalizeResult_getLocalizedClusterId(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult_getLocalizedClusterId_mAB5B6D18A67E80ECAB75A3C877051EBEC080B4C7 (void);
+// 0x00000054 easyar.Detail/OptionalOfVec3D easyar.Detail::easyar_CloudLocalizeResult_getLocalizedClusterLocation(System.IntPtr)
+extern void Detail_easyar_CloudLocalizeResult_getLocalizedClusterLocation_mDC86268A82F9ECDCFE0F8C763D04E0748B7BF592 (void);
+// 0x00000055 easyar.Matrix44F easyar.Detail::easyar_CloudLocalizeResult_getPoseInCluster(System.IntPtr)
+extern void Detail_easyar_CloudLocalizeResult_getPoseInCluster_mEE766CB20BA81BF2C1A9E372F6459E8ED435B27D (void);
+// 0x00000056 easyar.Detail/OptionalOfMatrix44F easyar.Detail::easyar_CloudLocalizeResult_getDeltaTForCluster(System.IntPtr)
+extern void Detail_easyar_CloudLocalizeResult_getDeltaTForCluster_mD3C79432D4F3DA72DE63BE62A52D532869B603A8 (void);
+// 0x00000057 easyar.Detail/OptionalOfVec3D easyar.Detail::easyar_CloudLocalizeResult_getDeviceLocation(System.IntPtr)
+extern void Detail_easyar_CloudLocalizeResult_getDeviceLocation_mB64B915047B5A5C3D9F730E11FBC2D4F8722680E (void);
+// 0x00000058 System.Void easyar.Detail::easyar_CloudLocalizeResult__dtor(System.IntPtr)
+extern void Detail_easyar_CloudLocalizeResult__dtor_m202EAD2AB2081981078DA9E766959924DD8F6B0E (void);
+// 0x00000059 System.Void easyar.Detail::easyar_CloudLocalizeResult__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizeResult__retain_mA9B5422290690B6394A7E29530F7B29C6F8FF94D (void);
+// 0x0000005A System.IntPtr easyar.Detail::easyar_CloudLocalizeResult__typeName(System.IntPtr)
+extern void Detail_easyar_CloudLocalizeResult__typeName_m8BC70363CA25F69F69367F8EB1DA1D76160F180D (void);
+// 0x0000005B System.Void easyar.Detail::easyar_castCloudLocalizeResultToFrameFilterResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castCloudLocalizeResultToFrameFilterResult_m905F38ADD91BE89890CA661A2CAF2EEAAF55E16E (void);
+// 0x0000005C System.Void easyar.Detail::easyar_tryCastFrameFilterResultToCloudLocalizeResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastFrameFilterResultToCloudLocalizeResult_mEDE7C7B2CA7BB0B05FC724F754328A26580D2631 (void);
+// 0x0000005D System.Boolean easyar.Detail::easyar_CloudLocalizer_isAvailable()
+extern void Detail_easyar_CloudLocalizer_isAvailable_mDCE6F29D77CDB450DD5911109D052B041FA05734 (void);
+// 0x0000005E System.Void easyar.Detail::easyar_CloudLocalizer_create(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizer_create_mF31274AF419EA290548EBA18B2C666A9048E6E47 (void);
+// 0x0000005F System.Void easyar.Detail::easyar_CloudLocalizer_resolve(System.IntPtr,System.IntPtr,System.IntPtr,easyar.Detail/OptionalOfVec3F,easyar.Detail/OptionalOfVec3D,easyar.Detail/OptionalOfInt,System.IntPtr,easyar.Detail/FunctorOfVoidFromCloudLocalizeResult)
+extern void Detail_easyar_CloudLocalizer_resolve_m41C3C7CA2583AF79A282D059D9AF383A11D8B7AD (void);
+// 0x00000060 System.Void easyar.Detail::easyar_CloudLocalizer_close(System.IntPtr)
+extern void Detail_easyar_CloudLocalizer_close_m66E5F113A40EBCDBFFBF227833AE203A551DFCF0 (void);
+// 0x00000061 System.Void easyar.Detail::easyar_CloudLocalizer__dtor(System.IntPtr)
+extern void Detail_easyar_CloudLocalizer__dtor_m4B14E60D71F7E6E9C8D8ECC9D57E0DD6B4A08056 (void);
+// 0x00000062 System.Void easyar.Detail::easyar_CloudLocalizer__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudLocalizer__retain_m3BFF1239AE8B390EAADFF33157A851835886BA3D (void);
+// 0x00000063 System.IntPtr easyar.Detail::easyar_CloudLocalizer__typeName(System.IntPtr)
+extern void Detail_easyar_CloudLocalizer__typeName_mCF263DB319EA2387A143E8C319403682CE9411F6 (void);
+// 0x00000064 easyar.CloudRecognizationStatus easyar.Detail::easyar_CloudRecognizationResult_getStatus(System.IntPtr)
+extern void Detail_easyar_CloudRecognizationResult_getStatus_mBBD96B31D3700DA83B80DFFEB44DA506EF6A8281 (void);
+// 0x00000065 System.Void easyar.Detail::easyar_CloudRecognizationResult_getTarget(System.IntPtr,easyar.Detail/OptionalOfImageTarget&)
+extern void Detail_easyar_CloudRecognizationResult_getTarget_m6FC7A4A57A4819F063FD47FB7E7A3D354F535D3B (void);
+// 0x00000066 System.Void easyar.Detail::easyar_CloudRecognizationResult_getUnknownErrorMessage(System.IntPtr,easyar.Detail/OptionalOfString&)
+extern void Detail_easyar_CloudRecognizationResult_getUnknownErrorMessage_mF0D0FABFAF357221CC8D955DAE7C30B46A3DE32B (void);
+// 0x00000067 System.Void easyar.Detail::easyar_CloudRecognizationResult__dtor(System.IntPtr)
+extern void Detail_easyar_CloudRecognizationResult__dtor_m07F9BC44B1773657033C554FE16BE8FEEA3AC37D (void);
+// 0x00000068 System.Void easyar.Detail::easyar_CloudRecognizationResult__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudRecognizationResult__retain_mD30DBD1C3965A361812BA4157C43E1D4A0FDF898 (void);
+// 0x00000069 System.IntPtr easyar.Detail::easyar_CloudRecognizationResult__typeName(System.IntPtr)
+extern void Detail_easyar_CloudRecognizationResult__typeName_m4A74E92D5B0266F0A18B4484F0214DC0C704DAAC (void);
+// 0x0000006A System.Boolean easyar.Detail::easyar_CloudRecognizer_isAvailable()
+extern void Detail_easyar_CloudRecognizer_isAvailable_m5B251B0112CC868C0F2D14B0E5A5744402E68418 (void);
+// 0x0000006B System.Void easyar.Detail::easyar_CloudRecognizer_create(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudRecognizer_create_m84B7FADD26A1C0976309789D99ADBA0CED9FD409 (void);
+// 0x0000006C System.Void easyar.Detail::easyar_CloudRecognizer_createByCloudSecret(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudRecognizer_createByCloudSecret_m453723865B44427AABD64DA117844881FF798F1E (void);
+// 0x0000006D System.Void easyar.Detail::easyar_CloudRecognizer_resolve(System.IntPtr,System.IntPtr,easyar.Detail/OptionalOfInt,System.IntPtr,easyar.Detail/FunctorOfVoidFromCloudRecognizationResult)
+extern void Detail_easyar_CloudRecognizer_resolve_m45DA5A47316E70DEFC8A6C467E1B5C5F70E3BB03 (void);
+// 0x0000006E System.Void easyar.Detail::easyar_CloudRecognizer_close(System.IntPtr)
+extern void Detail_easyar_CloudRecognizer_close_m07DF638788E9CE637BD5497B2F580C7E052E2357 (void);
+// 0x0000006F System.Void easyar.Detail::easyar_CloudRecognizer__dtor(System.IntPtr)
+extern void Detail_easyar_CloudRecognizer__dtor_m4F7CE4F2FF987E178125636087F8590DD7106D8C (void);
+// 0x00000070 System.Void easyar.Detail::easyar_CloudRecognizer__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CloudRecognizer__retain_m5A02910FCF7D1F8C8D50D0BB8CB3CAAC56DFAD7F (void);
+// 0x00000071 System.IntPtr easyar.Detail::easyar_CloudRecognizer__typeName(System.IntPtr)
+extern void Detail_easyar_CloudRecognizer__typeName_mDD2DFE18CEA7CA7B93DEACAB38D87ED9A31335F6 (void);
+// 0x00000072 System.Void easyar.Detail::easyar_Buffer_wrap(System.IntPtr,System.Int32,easyar.Detail/FunctorOfVoid,System.IntPtr&)
+extern void Detail_easyar_Buffer_wrap_mF777FCE16709E0ED32DCEADCE6E4EC022157743F (void);
+// 0x00000073 System.Void easyar.Detail::easyar_Buffer_create(System.Int32,System.IntPtr&)
+extern void Detail_easyar_Buffer_create_m3E78A8DCF79F6E12EA493554FECAA939364A45F4 (void);
+// 0x00000074 System.IntPtr easyar.Detail::easyar_Buffer_data(System.IntPtr)
+extern void Detail_easyar_Buffer_data_m28099875FF229A396334A39D1B9CC9ECC1451B93 (void);
+// 0x00000075 System.Int32 easyar.Detail::easyar_Buffer_size(System.IntPtr)
+extern void Detail_easyar_Buffer_size_m8AD828B24C5EBD9FB6F14EF5656364DE1DC5CA68 (void);
+// 0x00000076 System.Void easyar.Detail::easyar_Buffer_memoryCopy(System.IntPtr,System.IntPtr,System.Int32)
+extern void Detail_easyar_Buffer_memoryCopy_m564DAD1FBB2FDACB83CF715098A25A4DA2402D7A (void);
+// 0x00000077 System.Boolean easyar.Detail::easyar_Buffer_tryCopyFrom(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32)
+extern void Detail_easyar_Buffer_tryCopyFrom_mA2BB777496B5168F1FC8A645CA249B44326D61DA (void);
+// 0x00000078 System.Boolean easyar.Detail::easyar_Buffer_tryCopyTo(System.IntPtr,System.Int32,System.IntPtr,System.Int32,System.Int32)
+extern void Detail_easyar_Buffer_tryCopyTo_m50AFD4E84F777512F9647B7F502A00B7D07C0472 (void);
+// 0x00000079 System.Void easyar.Detail::easyar_Buffer_partition(System.IntPtr,System.Int32,System.Int32,System.IntPtr&)
+extern void Detail_easyar_Buffer_partition_m92531E5DC2522D0D5A99B10B989FB95E325D4301 (void);
+// 0x0000007A System.Void easyar.Detail::easyar_Buffer__dtor(System.IntPtr)
+extern void Detail_easyar_Buffer__dtor_mD4CDD6939AC9A223A304001A8A0D82325DF48C86 (void);
+// 0x0000007B System.Void easyar.Detail::easyar_Buffer__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_Buffer__retain_m86DB7EBC147C2C24F154FA68649EE36AF2A46812 (void);
+// 0x0000007C System.IntPtr easyar.Detail::easyar_Buffer__typeName(System.IntPtr)
+extern void Detail_easyar_Buffer__typeName_m7F3F4B579BB9680680BDCCCCA67BACBB5570E373 (void);
+// 0x0000007D System.Void easyar.Detail::easyar_BufferDictionary__ctor(System.IntPtr&)
+extern void Detail_easyar_BufferDictionary__ctor_m9611E4579ED3C3E31C101EBECE4521E0C45B416C (void);
+// 0x0000007E System.Int32 easyar.Detail::easyar_BufferDictionary_count(System.IntPtr)
+extern void Detail_easyar_BufferDictionary_count_m1762DA60D209F349068B9A49566C88010D004ED3 (void);
+// 0x0000007F System.Boolean easyar.Detail::easyar_BufferDictionary_contains(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_BufferDictionary_contains_m56D6E89BB0319D33D6889046F6B90FFEB8B18F6B (void);
+// 0x00000080 System.Void easyar.Detail::easyar_BufferDictionary_tryGet(System.IntPtr,System.IntPtr,easyar.Detail/OptionalOfBuffer&)
+extern void Detail_easyar_BufferDictionary_tryGet_mFFA79AEE73467EA32DCF921E80DD84ACF8268A6D (void);
+// 0x00000081 System.Void easyar.Detail::easyar_BufferDictionary_set(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void Detail_easyar_BufferDictionary_set_m833DCEF576570ACDAD27E786098D91604F2D0161 (void);
+// 0x00000082 System.Boolean easyar.Detail::easyar_BufferDictionary_remove(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_BufferDictionary_remove_mE4ED9B6F5C7BA88E7BD3FB5253F9A6730EC50477 (void);
+// 0x00000083 System.Void easyar.Detail::easyar_BufferDictionary_clear(System.IntPtr)
+extern void Detail_easyar_BufferDictionary_clear_m53125BDB10A59CAD92C6140AF1F49DCFB8E4EC37 (void);
+// 0x00000084 System.Void easyar.Detail::easyar_BufferDictionary__dtor(System.IntPtr)
+extern void Detail_easyar_BufferDictionary__dtor_mBE539DB8739142175FE2A503D0848D7D531AD3E0 (void);
+// 0x00000085 System.Void easyar.Detail::easyar_BufferDictionary__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_BufferDictionary__retain_m0FE92251172AFDF385C0F253986DABB6F79B3825 (void);
+// 0x00000086 System.IntPtr easyar.Detail::easyar_BufferDictionary__typeName(System.IntPtr)
+extern void Detail_easyar_BufferDictionary__typeName_mCB673F6AA183E3B8126FF2798BB2F092E118DCAE (void);
+// 0x00000087 System.Void easyar.Detail::easyar_BufferPool__ctor(System.Int32,System.Int32,System.IntPtr&)
+extern void Detail_easyar_BufferPool__ctor_m3CCDFD8064DB1EE21BF18A6EF8B7F4F7A6FC1C8E (void);
+// 0x00000088 System.Int32 easyar.Detail::easyar_BufferPool_block_size(System.IntPtr)
+extern void Detail_easyar_BufferPool_block_size_m215F33CD8C18756BA312AA38EC08B9CC2191CEDD (void);
+// 0x00000089 System.Int32 easyar.Detail::easyar_BufferPool_capacity(System.IntPtr)
+extern void Detail_easyar_BufferPool_capacity_m65E999205696A586DB11A266D84997F2F8C67D4B (void);
+// 0x0000008A System.Int32 easyar.Detail::easyar_BufferPool_size(System.IntPtr)
+extern void Detail_easyar_BufferPool_size_mC5D648A6F6D686971A5DF15352FDEDB2199FA7E8 (void);
+// 0x0000008B System.Void easyar.Detail::easyar_BufferPool_tryAcquire(System.IntPtr,easyar.Detail/OptionalOfBuffer&)
+extern void Detail_easyar_BufferPool_tryAcquire_m9AB82B50BDF08CDC67475B54326C81CE4338376E (void);
+// 0x0000008C System.Void easyar.Detail::easyar_BufferPool__dtor(System.IntPtr)
+extern void Detail_easyar_BufferPool__dtor_m56392C45B5B4AA28141072D877710132D57DCA47 (void);
+// 0x0000008D System.Void easyar.Detail::easyar_BufferPool__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_BufferPool__retain_mF448CD381D9766B87C97303C611546F842C1C8E2 (void);
+// 0x0000008E System.IntPtr easyar.Detail::easyar_BufferPool__typeName(System.IntPtr)
+extern void Detail_easyar_BufferPool__typeName_m38902EB1B5C9AAD405BE903D787E03884701E28E (void);
+// 0x0000008F System.Void easyar.Detail::easyar_CameraParameters__ctor(easyar.Vec2I,easyar.Vec2F,easyar.Vec2F,easyar.CameraDeviceType,System.Int32,System.IntPtr&)
+extern void Detail_easyar_CameraParameters__ctor_mE8FB7140C503FD2D9802D1E3180F18629BA69A5A (void);
+// 0x00000090 easyar.Vec2I easyar.Detail::easyar_CameraParameters_size(System.IntPtr)
+extern void Detail_easyar_CameraParameters_size_m17390A2D548369DF8FC39BD6A9F24520F3EDBF51 (void);
+// 0x00000091 easyar.Vec2F easyar.Detail::easyar_CameraParameters_focalLength(System.IntPtr)
+extern void Detail_easyar_CameraParameters_focalLength_m5C9C6DEB53030331DCBB013CF90839386B89FB87 (void);
+// 0x00000092 easyar.Vec2F easyar.Detail::easyar_CameraParameters_principalPoint(System.IntPtr)
+extern void Detail_easyar_CameraParameters_principalPoint_m12F2501F454760254BCBEF27315025A1C4B70134 (void);
+// 0x00000093 easyar.CameraDeviceType easyar.Detail::easyar_CameraParameters_cameraDeviceType(System.IntPtr)
+extern void Detail_easyar_CameraParameters_cameraDeviceType_mB0EB38E395DBDA65D2BAD86640959B0A74A7B5CD (void);
+// 0x00000094 System.Int32 easyar.Detail::easyar_CameraParameters_cameraOrientation(System.IntPtr)
+extern void Detail_easyar_CameraParameters_cameraOrientation_m5EAB10F82AE9EB96F2EE0874B1E5C2FF210FF765 (void);
+// 0x00000095 System.Void easyar.Detail::easyar_CameraParameters_createWithDefaultIntrinsics(easyar.Vec2I,easyar.CameraDeviceType,System.Int32,System.IntPtr&)
+extern void Detail_easyar_CameraParameters_createWithDefaultIntrinsics_m1F2AA65BA4E11FDF7B1610C6802108CB58B83645 (void);
+// 0x00000096 System.Void easyar.Detail::easyar_CameraParameters_getResized(System.IntPtr,easyar.Vec2I,System.IntPtr&)
+extern void Detail_easyar_CameraParameters_getResized_m8A8D8C4AA36001416913D504B5F5ABAC56CF9EB8 (void);
+// 0x00000097 System.Int32 easyar.Detail::easyar_CameraParameters_imageOrientation(System.IntPtr,System.Int32)
+extern void Detail_easyar_CameraParameters_imageOrientation_mB0EE0CDFB5EACEE559A80CCFA56BA6F5E039A76D (void);
+// 0x00000098 System.Boolean easyar.Detail::easyar_CameraParameters_imageHorizontalFlip(System.IntPtr,System.Boolean)
+extern void Detail_easyar_CameraParameters_imageHorizontalFlip_m4056A5A3B20730758B9894589E9D8D7F0C0C6AA4 (void);
+// 0x00000099 easyar.Matrix44F easyar.Detail::easyar_CameraParameters_projection(System.IntPtr,System.Single,System.Single,System.Single,System.Int32,System.Boolean,System.Boolean)
+extern void Detail_easyar_CameraParameters_projection_m921CE1080BE26818F2E2B1CE21871E28B6AB9FC5 (void);
+// 0x0000009A easyar.Matrix44F easyar.Detail::easyar_CameraParameters_imageProjection(System.IntPtr,System.Single,System.Int32,System.Boolean,System.Boolean)
+extern void Detail_easyar_CameraParameters_imageProjection_m29568B25B142F00A7D9D38C00D19AF879FA857A5 (void);
+// 0x0000009B easyar.Vec2F easyar.Detail::easyar_CameraParameters_screenCoordinatesFromImageCoordinates(System.IntPtr,System.Single,System.Int32,System.Boolean,System.Boolean,easyar.Vec2F)
+extern void Detail_easyar_CameraParameters_screenCoordinatesFromImageCoordinates_mB7DAACB2033F7C823443844A96B35D28478F1F97 (void);
+// 0x0000009C easyar.Vec2F easyar.Detail::easyar_CameraParameters_imageCoordinatesFromScreenCoordinates(System.IntPtr,System.Single,System.Int32,System.Boolean,System.Boolean,easyar.Vec2F)
+extern void Detail_easyar_CameraParameters_imageCoordinatesFromScreenCoordinates_m76216100D8255BE2003DDF8557828C6CCE17D766 (void);
+// 0x0000009D System.Boolean easyar.Detail::easyar_CameraParameters_equalsTo(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_CameraParameters_equalsTo_mB00983A8A2C75C951600E67B786F4797FD6C67EF (void);
+// 0x0000009E System.Void easyar.Detail::easyar_CameraParameters__dtor(System.IntPtr)
+extern void Detail_easyar_CameraParameters__dtor_m7ED77135603F0688DDA731631594F80D8BC26E43 (void);
+// 0x0000009F System.Void easyar.Detail::easyar_CameraParameters__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CameraParameters__retain_m01FA6626DF93308DB14AD1F1FC5214C6C3E7918E (void);
+// 0x000000A0 System.IntPtr easyar.Detail::easyar_CameraParameters__typeName(System.IntPtr)
+extern void Detail_easyar_CameraParameters__typeName_m9DDEC8AC4282FF5FDC51402173A2919300C87DCD (void);
+// 0x000000A1 System.Void easyar.Detail::easyar_Image__ctor(System.IntPtr,easyar.PixelFormat,System.Int32,System.Int32,System.IntPtr&)
+extern void Detail_easyar_Image__ctor_m16A3666B6CD0510316B0704E8A54A0FDF8664F8C (void);
+// 0x000000A2 System.Void easyar.Detail::easyar_Image_buffer(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_Image_buffer_m4B44C069F9220A2C5699BBC55EFF36957AE229A6 (void);
+// 0x000000A3 easyar.PixelFormat easyar.Detail::easyar_Image_format(System.IntPtr)
+extern void Detail_easyar_Image_format_m29B22380F4981B5BDDF1CCAE2E2171942D7713C3 (void);
+// 0x000000A4 System.Int32 easyar.Detail::easyar_Image_width(System.IntPtr)
+extern void Detail_easyar_Image_width_mBCC49B819FB820EF23F5E35231AB4E1A7183C2FD (void);
+// 0x000000A5 System.Int32 easyar.Detail::easyar_Image_height(System.IntPtr)
+extern void Detail_easyar_Image_height_mFA1CB867A33E99FB306888243B502A146A88A80C (void);
+// 0x000000A6 System.Int32 easyar.Detail::easyar_Image_pixelWidth(System.IntPtr)
+extern void Detail_easyar_Image_pixelWidth_mB0FA5898A5B66F1B7EF990ACD96656C8E905F373 (void);
+// 0x000000A7 System.Int32 easyar.Detail::easyar_Image_pixelHeight(System.IntPtr)
+extern void Detail_easyar_Image_pixelHeight_m089D5F7CABA0F1A7B95E18655A70F190A1DFFF0C (void);
+// 0x000000A8 System.Void easyar.Detail::easyar_Image_create(System.IntPtr,easyar.PixelFormat,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr&)
+extern void Detail_easyar_Image_create_mEBD40A7C92B45C6D079E4B595940DFEB996102A9 (void);
+// 0x000000A9 System.Void easyar.Detail::easyar_Image__dtor(System.IntPtr)
+extern void Detail_easyar_Image__dtor_mB63614684072A311156A57AEF63093A6CBA7369F (void);
+// 0x000000AA System.Void easyar.Detail::easyar_Image__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_Image__retain_mB5DB23AA9311B57671DA837BE3A6BAA558790258 (void);
+// 0x000000AB System.IntPtr easyar.Detail::easyar_Image__typeName(System.IntPtr)
+extern void Detail_easyar_Image__typeName_mB8F6D87169AFFA1640F8F12A8552324291F17C63 (void);
+// 0x000000AC System.Boolean easyar.Detail::easyar_DenseSpatialMap_isAvailable()
+extern void Detail_easyar_DenseSpatialMap_isAvailable_m47C374717D50261B454438D242FD62C287D39B5A (void);
+// 0x000000AD System.Void easyar.Detail::easyar_DenseSpatialMap_inputFrameSink(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_DenseSpatialMap_inputFrameSink_m25FC1B22350CE395CAC182DCE89608D8BCC2D17D (void);
+// 0x000000AE System.Int32 easyar.Detail::easyar_DenseSpatialMap_bufferRequirement(System.IntPtr)
+extern void Detail_easyar_DenseSpatialMap_bufferRequirement_m814D758AFB4CA051CBD79A14D0266D3D6F9BBB67 (void);
+// 0x000000AF System.Void easyar.Detail::easyar_DenseSpatialMap_create(System.IntPtr&)
+extern void Detail_easyar_DenseSpatialMap_create_m0C14307E24A71FBE4556A070C1DA824F950291E5 (void);
+// 0x000000B0 System.Boolean easyar.Detail::easyar_DenseSpatialMap_start(System.IntPtr)
+extern void Detail_easyar_DenseSpatialMap_start_m7A592A02515F6E2AA7A304F9658ED20919B4ECE7 (void);
+// 0x000000B1 System.Void easyar.Detail::easyar_DenseSpatialMap_stop(System.IntPtr)
+extern void Detail_easyar_DenseSpatialMap_stop_m6F113ECBD6A111CD8C5CA586542D3EF94C878664 (void);
+// 0x000000B2 System.Void easyar.Detail::easyar_DenseSpatialMap_close(System.IntPtr)
+extern void Detail_easyar_DenseSpatialMap_close_mCBBAB48B4AEEE391792275C9D4BC2717B4A310FB (void);
+// 0x000000B3 System.Void easyar.Detail::easyar_DenseSpatialMap_getMesh(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_DenseSpatialMap_getMesh_m330937E911043BCC8C9C486230CB56D538B46F6A (void);
+// 0x000000B4 System.Boolean easyar.Detail::easyar_DenseSpatialMap_updateSceneMesh(System.IntPtr,System.Boolean)
+extern void Detail_easyar_DenseSpatialMap_updateSceneMesh_m8C648AE66241D1F9DA8002588D3B69A6D3007731 (void);
+// 0x000000B5 System.Void easyar.Detail::easyar_DenseSpatialMap__dtor(System.IntPtr)
+extern void Detail_easyar_DenseSpatialMap__dtor_mD92A084738F5C3AE6B32F2097FBBA512FACCA7B4 (void);
+// 0x000000B6 System.Void easyar.Detail::easyar_DenseSpatialMap__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_DenseSpatialMap__retain_mCCF21BE5E99378C7FE65D0DD84678BDCF6BCA8FD (void);
+// 0x000000B7 System.IntPtr easyar.Detail::easyar_DenseSpatialMap__typeName(System.IntPtr)
+extern void Detail_easyar_DenseSpatialMap__typeName_m84506F5F6923696F047BFCE4D2539BEBF27229CA (void);
+// 0x000000B8 System.Int32 easyar.Detail::easyar_SceneMesh_getNumOfVertexAll(System.IntPtr)
+extern void Detail_easyar_SceneMesh_getNumOfVertexAll_m301F39358DB19610A0224F0F5AFF8BD09711CA2E (void);
+// 0x000000B9 System.Int32 easyar.Detail::easyar_SceneMesh_getNumOfIndexAll(System.IntPtr)
+extern void Detail_easyar_SceneMesh_getNumOfIndexAll_m23550E6E8809A4BBA2D0D04101D0869406A11ACF (void);
+// 0x000000BA System.Void easyar.Detail::easyar_SceneMesh_getVerticesAll(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SceneMesh_getVerticesAll_mF396407314C8804E3D386A847B64AD0FA02739C8 (void);
+// 0x000000BB System.Void easyar.Detail::easyar_SceneMesh_getNormalsAll(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SceneMesh_getNormalsAll_mCFD34CEEA2ECD4FFF803947F605669E96400E44A (void);
+// 0x000000BC System.Void easyar.Detail::easyar_SceneMesh_getIndicesAll(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SceneMesh_getIndicesAll_m2092689C78FAFA2E98E02B653E90C44A86369122 (void);
+// 0x000000BD System.Int32 easyar.Detail::easyar_SceneMesh_getNumOfVertexIncremental(System.IntPtr)
+extern void Detail_easyar_SceneMesh_getNumOfVertexIncremental_m8A0182FE0A2B14CC426DF0857A21C85F6FC39DC2 (void);
+// 0x000000BE System.Int32 easyar.Detail::easyar_SceneMesh_getNumOfIndexIncremental(System.IntPtr)
+extern void Detail_easyar_SceneMesh_getNumOfIndexIncremental_m6413084DB4F706AB3CF70667707AB7BE95E59A43 (void);
+// 0x000000BF System.Void easyar.Detail::easyar_SceneMesh_getVerticesIncremental(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SceneMesh_getVerticesIncremental_m5DF3F6146137B323D8603542DF5E595FC72C1B5E (void);
+// 0x000000C0 System.Void easyar.Detail::easyar_SceneMesh_getNormalsIncremental(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SceneMesh_getNormalsIncremental_m4D1936D40B23FCCA586439C45DB4FFE7095CB0E2 (void);
+// 0x000000C1 System.Void easyar.Detail::easyar_SceneMesh_getIndicesIncremental(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SceneMesh_getIndicesIncremental_m62E358B77C5B7AA2158CDD339EFBE170A8D8065A (void);
+// 0x000000C2 System.Void easyar.Detail::easyar_SceneMesh_getBlocksInfoIncremental(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SceneMesh_getBlocksInfoIncremental_mE8AB4C5165EA6ED25D3F6D7B91F01B25DAEC348C (void);
+// 0x000000C3 System.Single easyar.Detail::easyar_SceneMesh_getBlockDimensionInMeters(System.IntPtr)
+extern void Detail_easyar_SceneMesh_getBlockDimensionInMeters_m0BC45D122F6A164A9E1297B53E9CAE3F5A93D093 (void);
+// 0x000000C4 System.Void easyar.Detail::easyar_SceneMesh__dtor(System.IntPtr)
+extern void Detail_easyar_SceneMesh__dtor_mE82941A25E9E3D3E433AF5F5F0A3FB6B87B58C83 (void);
+// 0x000000C5 System.Void easyar.Detail::easyar_SceneMesh__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SceneMesh__retain_mCF89E41188F251A2294F1A62C9A163F4BDB159D1 (void);
+// 0x000000C6 System.IntPtr easyar.Detail::easyar_SceneMesh__typeName(System.IntPtr)
+extern void Detail_easyar_SceneMesh__typeName_m5174F4B391C1E65EA3EECD0CA61BC4FCEB04BD9E (void);
+// 0x000000C7 System.Void easyar.Detail::easyar_Accelerometer__ctor(System.IntPtr&)
+extern void Detail_easyar_Accelerometer__ctor_m24593608F76A03C5FBFC26566AD2FBA8E81EE7BA (void);
+// 0x000000C8 System.Boolean easyar.Detail::easyar_Accelerometer_isAvailable(System.IntPtr)
+extern void Detail_easyar_Accelerometer_isAvailable_mE3FC54B72D682585C49BDDE8497B38D258AABFB0 (void);
+// 0x000000C9 System.Boolean easyar.Detail::easyar_Accelerometer_open(System.IntPtr)
+extern void Detail_easyar_Accelerometer_open_m94E82E07172E71E9C063A98363D201BDFCA67072 (void);
+// 0x000000CA System.Boolean easyar.Detail::easyar_Accelerometer_openWithSamplingPeriod(System.IntPtr,System.Int32)
+extern void Detail_easyar_Accelerometer_openWithSamplingPeriod_mABF620349CFD4A50581A78DC300EE5D2F9119197 (void);
+// 0x000000CB System.Void easyar.Detail::easyar_Accelerometer_close(System.IntPtr)
+extern void Detail_easyar_Accelerometer_close_mCE750F0070E8F61C08E61C90C41BEBA26B256629 (void);
+// 0x000000CC easyar.Detail/OptionalOfAccelerometerResult easyar.Detail::easyar_Accelerometer_getCurrentResult(System.IntPtr)
+extern void Detail_easyar_Accelerometer_getCurrentResult_m4CEBF758AA20CA7FCC5A615385E18E446812A4AD (void);
+// 0x000000CD System.Void easyar.Detail::easyar_Accelerometer__dtor(System.IntPtr)
+extern void Detail_easyar_Accelerometer__dtor_m6054B65F5F1C26CBE170A651CE661F480B6F193A (void);
+// 0x000000CE System.Void easyar.Detail::easyar_Accelerometer__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_Accelerometer__retain_mCE776EE3F1846938AAA0F653C8EEB0100B68E634 (void);
+// 0x000000CF System.IntPtr easyar.Detail::easyar_Accelerometer__typeName(System.IntPtr)
+extern void Detail_easyar_Accelerometer__typeName_m3DD5C126ECF3641470F811C351D3A2D1F80C37C6 (void);
+// 0x000000D0 System.Void easyar.Detail::easyar_ARCoreCameraDevice__ctor(System.IntPtr&)
+extern void Detail_easyar_ARCoreCameraDevice__ctor_mFCFBC2F922A8271A3775E48D25FE3577632BE061 (void);
+// 0x000000D1 System.Boolean easyar.Detail::easyar_ARCoreCameraDevice_isAvailable()
+extern void Detail_easyar_ARCoreCameraDevice_isAvailable_mE989CE8CCB9E15FBC2BD8C9F7BAE6085E5563D9F (void);
+// 0x000000D2 System.Int32 easyar.Detail::easyar_ARCoreCameraDevice_bufferCapacity(System.IntPtr)
+extern void Detail_easyar_ARCoreCameraDevice_bufferCapacity_mD14C1F1739F0E19A90789E0B70C17A2D43C82A17 (void);
+// 0x000000D3 System.Void easyar.Detail::easyar_ARCoreCameraDevice_setBufferCapacity(System.IntPtr,System.Int32)
+extern void Detail_easyar_ARCoreCameraDevice_setBufferCapacity_m6A5A0472252288EDF028B34E401EF4ACDE95476F (void);
+// 0x000000D4 System.Void easyar.Detail::easyar_ARCoreCameraDevice_inputFrameSource(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ARCoreCameraDevice_inputFrameSource_mB8678522010D27BE4A5F580E5401D873543CDEA9 (void);
+// 0x000000D5 System.Void easyar.Detail::easyar_ARCoreCameraDevice_setFocusMode(System.IntPtr,easyar.ARCoreCameraDeviceFocusMode)
+extern void Detail_easyar_ARCoreCameraDevice_setFocusMode_mCB5B11C6A2DEDF4778215FBD95E64AB053C6434F (void);
+// 0x000000D6 System.Boolean easyar.Detail::easyar_ARCoreCameraDevice_start(System.IntPtr)
+extern void Detail_easyar_ARCoreCameraDevice_start_m0D4DECBCFD1CBC9C67126773FAA85DB5EC2E4D9A (void);
+// 0x000000D7 System.Void easyar.Detail::easyar_ARCoreCameraDevice_stop(System.IntPtr)
+extern void Detail_easyar_ARCoreCameraDevice_stop_mBBC1F43CBDB3903D8BF1D2296005EDCD8BB043D5 (void);
+// 0x000000D8 System.Void easyar.Detail::easyar_ARCoreCameraDevice_close(System.IntPtr)
+extern void Detail_easyar_ARCoreCameraDevice_close_m5D52FD47F2742AE387A60FE2E88ACBBF7A67D79A (void);
+// 0x000000D9 System.Void easyar.Detail::easyar_ARCoreCameraDevice__dtor(System.IntPtr)
+extern void Detail_easyar_ARCoreCameraDevice__dtor_mA6DF41FD752FD1E65912F4225DEC479E7934025E (void);
+// 0x000000DA System.Void easyar.Detail::easyar_ARCoreCameraDevice__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ARCoreCameraDevice__retain_m4C613960717505EC091BF53CFD729A0E3BA98855 (void);
+// 0x000000DB System.IntPtr easyar.Detail::easyar_ARCoreCameraDevice__typeName(System.IntPtr)
+extern void Detail_easyar_ARCoreCameraDevice__typeName_m3B2F02D05B5634023FE2757B35D45D56EFE3E84B (void);
+// 0x000000DC System.Void easyar.Detail::easyar_ARKitCameraDevice__ctor(System.IntPtr&)
+extern void Detail_easyar_ARKitCameraDevice__ctor_m7D731C4BD49FE207194A2C4E39488F7D710A2AF8 (void);
+// 0x000000DD System.Boolean easyar.Detail::easyar_ARKitCameraDevice_isAvailable()
+extern void Detail_easyar_ARKitCameraDevice_isAvailable_m4C963680AAF73ED1029F6C3C8898B837041CB635 (void);
+// 0x000000DE System.Int32 easyar.Detail::easyar_ARKitCameraDevice_bufferCapacity(System.IntPtr)
+extern void Detail_easyar_ARKitCameraDevice_bufferCapacity_mCAED30E9135D6D369071E5B665A0EF5523983CD7 (void);
+// 0x000000DF System.Void easyar.Detail::easyar_ARKitCameraDevice_setBufferCapacity(System.IntPtr,System.Int32)
+extern void Detail_easyar_ARKitCameraDevice_setBufferCapacity_mA5E346C4C77A756E4F76218AD435C6506282E7CA (void);
+// 0x000000E0 System.Void easyar.Detail::easyar_ARKitCameraDevice_inputFrameSource(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ARKitCameraDevice_inputFrameSource_m3361B5B6D4A55749BCA51787A5AB02FBF3497CDC (void);
+// 0x000000E1 System.Void easyar.Detail::easyar_ARKitCameraDevice_setFocusMode(System.IntPtr,easyar.ARKitCameraDeviceFocusMode)
+extern void Detail_easyar_ARKitCameraDevice_setFocusMode_m14507884758941B7C600AAE57EAE1A9C4AD349BC (void);
+// 0x000000E2 System.Boolean easyar.Detail::easyar_ARKitCameraDevice_start(System.IntPtr)
+extern void Detail_easyar_ARKitCameraDevice_start_mC1E2E5505396591A091BFAB989DDD5B52339AF01 (void);
+// 0x000000E3 System.Void easyar.Detail::easyar_ARKitCameraDevice_stop(System.IntPtr)
+extern void Detail_easyar_ARKitCameraDevice_stop_m5C1DEB7A0A7909DD047DBFA02EF4E0E8D8055235 (void);
+// 0x000000E4 System.Void easyar.Detail::easyar_ARKitCameraDevice_close(System.IntPtr)
+extern void Detail_easyar_ARKitCameraDevice_close_mFCF6EC1A95EE7DA3AEC002AE0E2E76E852034BD6 (void);
+// 0x000000E5 System.Void easyar.Detail::easyar_ARKitCameraDevice__dtor(System.IntPtr)
+extern void Detail_easyar_ARKitCameraDevice__dtor_m753D99D6E65F67D489C9C6AA642EB850B105163B (void);
+// 0x000000E6 System.Void easyar.Detail::easyar_ARKitCameraDevice__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ARKitCameraDevice__retain_m1B6349F1E3F3D067EA83ABFE83AA58890237603A (void);
+// 0x000000E7 System.IntPtr easyar.Detail::easyar_ARKitCameraDevice__typeName(System.IntPtr)
+extern void Detail_easyar_ARKitCameraDevice__typeName_m75941EB99A94672DA1AC02FA8F9AC5FA84AA25F5 (void);
+// 0x000000E8 System.Void easyar.Detail::easyar_CameraDevice__ctor(System.IntPtr&)
+extern void Detail_easyar_CameraDevice__ctor_m027C345B000150FE2E93A3483FBD25FCE3C1FD9A (void);
+// 0x000000E9 System.Boolean easyar.Detail::easyar_CameraDevice_isAvailable()
+extern void Detail_easyar_CameraDevice_isAvailable_mCE5AD0E79F655A6D3359A73539FF6010174654CE (void);
+// 0x000000EA easyar.AndroidCameraApiType easyar.Detail::easyar_CameraDevice_androidCameraApiType(System.IntPtr)
+extern void Detail_easyar_CameraDevice_androidCameraApiType_m3EF40F0C2978AD843CAE16C65E1DF7B4A1FEB514 (void);
+// 0x000000EB System.Void easyar.Detail::easyar_CameraDevice_setAndroidCameraApiType(System.IntPtr,easyar.AndroidCameraApiType)
+extern void Detail_easyar_CameraDevice_setAndroidCameraApiType_m571C56B5B90E287FC35C3CF2123DF61EB7602FC4 (void);
+// 0x000000EC System.Int32 easyar.Detail::easyar_CameraDevice_bufferCapacity(System.IntPtr)
+extern void Detail_easyar_CameraDevice_bufferCapacity_m3CFFDDC4E5D42DE65BDD8F3DD4ECD9BD100F9079 (void);
+// 0x000000ED System.Void easyar.Detail::easyar_CameraDevice_setBufferCapacity(System.IntPtr,System.Int32)
+extern void Detail_easyar_CameraDevice_setBufferCapacity_m2B346965428D8CBA6C9621ACA9BDE5E61454B916 (void);
+// 0x000000EE System.Void easyar.Detail::easyar_CameraDevice_inputFrameSource(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CameraDevice_inputFrameSource_m4A6C74E6177A57B04EFFEAF4CCE8E0FC72CDFFD7 (void);
+// 0x000000EF System.Void easyar.Detail::easyar_CameraDevice_setStateChangedCallback(System.IntPtr,System.IntPtr,easyar.Detail/OptionalOfFunctorOfVoidFromCameraState)
+extern void Detail_easyar_CameraDevice_setStateChangedCallback_m9AB79CC0B33BC4D400638BDC59E996989E14F1AF (void);
+// 0x000000F0 System.Void easyar.Detail::easyar_CameraDevice_requestPermissions(System.IntPtr,easyar.Detail/OptionalOfFunctorOfVoidFromPermissionStatusAndString)
+extern void Detail_easyar_CameraDevice_requestPermissions_m2F7AD132C37FB5C6A08609E69B80DDBED732C511 (void);
+// 0x000000F1 System.Int32 easyar.Detail::easyar_CameraDevice_cameraCount()
+extern void Detail_easyar_CameraDevice_cameraCount_m2F4EA82BE7ECD7F8DCE803B1DE707FEC418F2818 (void);
+// 0x000000F2 System.Boolean easyar.Detail::easyar_CameraDevice_openWithIndex(System.IntPtr,System.Int32)
+extern void Detail_easyar_CameraDevice_openWithIndex_mE500D65B77B68B760C44AC82EA5975725C54700E (void);
+// 0x000000F3 System.Boolean easyar.Detail::easyar_CameraDevice_openWithSpecificType(System.IntPtr,easyar.CameraDeviceType)
+extern void Detail_easyar_CameraDevice_openWithSpecificType_mF741F87BC6A8E8644B11F1A188B6D13FA689715A (void);
+// 0x000000F4 System.Boolean easyar.Detail::easyar_CameraDevice_openWithPreferredType(System.IntPtr,easyar.CameraDeviceType)
+extern void Detail_easyar_CameraDevice_openWithPreferredType_m66637DB8E5D321685846DFDC8BA124628FA42964 (void);
+// 0x000000F5 System.Boolean easyar.Detail::easyar_CameraDevice_start(System.IntPtr)
+extern void Detail_easyar_CameraDevice_start_mB6FB449869749A542C47EEAE4872A18F25AC816D (void);
+// 0x000000F6 System.Void easyar.Detail::easyar_CameraDevice_stop(System.IntPtr)
+extern void Detail_easyar_CameraDevice_stop_m38A240FDD0DB27391B45EB4D80E50D583835E459 (void);
+// 0x000000F7 System.Void easyar.Detail::easyar_CameraDevice_close(System.IntPtr)
+extern void Detail_easyar_CameraDevice_close_m6FCF60E45AA4260EDEB9271C2F7E7C89DCEF0B90 (void);
+// 0x000000F8 System.Int32 easyar.Detail::easyar_CameraDevice_index(System.IntPtr)
+extern void Detail_easyar_CameraDevice_index_mF2515A4F0A8C53BD785D1188FFBDEFBEB7C0AA11 (void);
+// 0x000000F9 easyar.CameraDeviceType easyar.Detail::easyar_CameraDevice_type(System.IntPtr)
+extern void Detail_easyar_CameraDevice_type_m51F87F835C2D0514F7F358D50A5EFC822B62B5E0 (void);
+// 0x000000FA System.Void easyar.Detail::easyar_CameraDevice_cameraParameters(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CameraDevice_cameraParameters_m31EBB6D6A2D12491BE3BFD5568D52486D8DB6A44 (void);
+// 0x000000FB System.Void easyar.Detail::easyar_CameraDevice_setCameraParameters(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_CameraDevice_setCameraParameters_mD307F0612E5B205EADB13B1DF94A3E26EFF64406 (void);
+// 0x000000FC easyar.Vec2I easyar.Detail::easyar_CameraDevice_size(System.IntPtr)
+extern void Detail_easyar_CameraDevice_size_mDF69DDFA439427A8919961560C098CE0B5D91F4A (void);
+// 0x000000FD System.Int32 easyar.Detail::easyar_CameraDevice_supportedSizeCount(System.IntPtr)
+extern void Detail_easyar_CameraDevice_supportedSizeCount_mE6D2C7CB756F58A26CC300B56C086CDF9B95C14B (void);
+// 0x000000FE easyar.Vec2I easyar.Detail::easyar_CameraDevice_supportedSize(System.IntPtr,System.Int32)
+extern void Detail_easyar_CameraDevice_supportedSize_mD38CF45097767DE518D7E03D508B9DA318AD1F03 (void);
+// 0x000000FF System.Boolean easyar.Detail::easyar_CameraDevice_setSize(System.IntPtr,easyar.Vec2I)
+extern void Detail_easyar_CameraDevice_setSize_mC6F6C5C6A79C14DE3F4B541ACCEAEBC477D8ABF0 (void);
+// 0x00000100 System.Int32 easyar.Detail::easyar_CameraDevice_supportedFrameRateRangeCount(System.IntPtr)
+extern void Detail_easyar_CameraDevice_supportedFrameRateRangeCount_mD70DA823BBF140E12ADBE6C845C946AAC8B2E1E1 (void);
+// 0x00000101 System.Single easyar.Detail::easyar_CameraDevice_supportedFrameRateRangeLower(System.IntPtr,System.Int32)
+extern void Detail_easyar_CameraDevice_supportedFrameRateRangeLower_mF7E35F8200C7E5FC6E707FBD248CADDA7F6B4907 (void);
+// 0x00000102 System.Single easyar.Detail::easyar_CameraDevice_supportedFrameRateRangeUpper(System.IntPtr,System.Int32)
+extern void Detail_easyar_CameraDevice_supportedFrameRateRangeUpper_mC33627FDB9B47799FA8BD77DA7DF4CB5F04F6130 (void);
+// 0x00000103 System.Int32 easyar.Detail::easyar_CameraDevice_frameRateRange(System.IntPtr)
+extern void Detail_easyar_CameraDevice_frameRateRange_mE3038FA3EE34CCAA96E358BBDE4ED2E26F82940E (void);
+// 0x00000104 System.Boolean easyar.Detail::easyar_CameraDevice_setFrameRateRange(System.IntPtr,System.Int32)
+extern void Detail_easyar_CameraDevice_setFrameRateRange_mFCAC4FB189F53496298BF80ECE683565AA86B633 (void);
+// 0x00000105 System.Boolean easyar.Detail::easyar_CameraDevice_setFlashTorchMode(System.IntPtr,System.Boolean)
+extern void Detail_easyar_CameraDevice_setFlashTorchMode_mC976CAE6A3C449BACD653434B17C70E9B264DE30 (void);
+// 0x00000106 System.Boolean easyar.Detail::easyar_CameraDevice_setFocusMode(System.IntPtr,easyar.CameraDeviceFocusMode)
+extern void Detail_easyar_CameraDevice_setFocusMode_m4404807803C99BD6CE3B787F0D7F922435EE1CB5 (void);
+// 0x00000107 System.Boolean easyar.Detail::easyar_CameraDevice_autoFocus(System.IntPtr)
+extern void Detail_easyar_CameraDevice_autoFocus_mDB91FF1CD260EABFC4F1548B3A95C1B297071986 (void);
+// 0x00000108 System.Void easyar.Detail::easyar_CameraDevice__dtor(System.IntPtr)
+extern void Detail_easyar_CameraDevice__dtor_mE4CA26C5D9E94AE8FA9A6A0B1CBBF52C1EE00C80 (void);
+// 0x00000109 System.Void easyar.Detail::easyar_CameraDevice__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CameraDevice__retain_mB5ECBEE57944B4A8311B4DC25AF0C0DE9E775742 (void);
+// 0x0000010A System.IntPtr easyar.Detail::easyar_CameraDevice__typeName(System.IntPtr)
+extern void Detail_easyar_CameraDevice__typeName_mD0335E01D4D0A29B6D6C56065A0A9766BEDDBD0A (void);
+// 0x0000010B easyar.AndroidCameraApiType easyar.Detail::easyar_CameraDeviceSelector_getAndroidCameraApiType(easyar.CameraDevicePreference)
+extern void Detail_easyar_CameraDeviceSelector_getAndroidCameraApiType_m86840ECE52EE214E0B0F778FB22BEEBA97CBFC0E (void);
+// 0x0000010C System.Void easyar.Detail::easyar_CameraDeviceSelector_createCameraDevice(easyar.CameraDevicePreference,System.IntPtr&)
+extern void Detail_easyar_CameraDeviceSelector_createCameraDevice_mD219A24A38436DDFDEF04CB9186C8DE99433372C (void);
+// 0x0000010D easyar.CameraDeviceFocusMode easyar.Detail::easyar_CameraDeviceSelector_getFocusMode(easyar.CameraDevicePreference)
+extern void Detail_easyar_CameraDeviceSelector_getFocusMode_mA222D6631EF61111FC891F814F34BA33EA0F8AA0 (void);
+// 0x0000010E easyar.Matrix44F easyar.Detail::easyar_SurfaceTrackerResult_transform(System.IntPtr)
+extern void Detail_easyar_SurfaceTrackerResult_transform_m1F8E6244C00AD1BCE05F0A5804D5883404FFFCC9 (void);
+// 0x0000010F System.Void easyar.Detail::easyar_SurfaceTrackerResult__dtor(System.IntPtr)
+extern void Detail_easyar_SurfaceTrackerResult__dtor_mF9366F129400F02F761DB264E66844719E351056 (void);
+// 0x00000110 System.Void easyar.Detail::easyar_SurfaceTrackerResult__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SurfaceTrackerResult__retain_m15F1B5A970F922380F874A546240118C187E0F46 (void);
+// 0x00000111 System.IntPtr easyar.Detail::easyar_SurfaceTrackerResult__typeName(System.IntPtr)
+extern void Detail_easyar_SurfaceTrackerResult__typeName_m816280606E20B5A24165C4ACD65D14953D08C001 (void);
+// 0x00000112 System.Void easyar.Detail::easyar_castSurfaceTrackerResultToFrameFilterResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castSurfaceTrackerResultToFrameFilterResult_m25547E85C18A620A56755BB29F2B8EB6B2724FF1 (void);
+// 0x00000113 System.Void easyar.Detail::easyar_tryCastFrameFilterResultToSurfaceTrackerResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastFrameFilterResultToSurfaceTrackerResult_mC5D506889FBAA6B7F67A64BA5C7FD7EAFC1701DB (void);
+// 0x00000114 System.Boolean easyar.Detail::easyar_SurfaceTracker_isAvailable()
+extern void Detail_easyar_SurfaceTracker_isAvailable_mADED874123BCECB1C8ED5083822FFAB4EDFEAD5A (void);
+// 0x00000115 System.Void easyar.Detail::easyar_SurfaceTracker_inputFrameSink(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SurfaceTracker_inputFrameSink_m62951FF5715820F1728D7A2D91E0A693B607AB55 (void);
+// 0x00000116 System.Int32 easyar.Detail::easyar_SurfaceTracker_bufferRequirement(System.IntPtr)
+extern void Detail_easyar_SurfaceTracker_bufferRequirement_mF360C7A8D67ADB77DCEF41FEE2A04B7636F99290 (void);
+// 0x00000117 System.Void easyar.Detail::easyar_SurfaceTracker_outputFrameSource(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SurfaceTracker_outputFrameSource_m7CEBB950EA897CF754FA4ACD84C05D277FA11892 (void);
+// 0x00000118 System.Void easyar.Detail::easyar_SurfaceTracker_create(System.IntPtr&)
+extern void Detail_easyar_SurfaceTracker_create_mA9044B905082690464850C1009860637C5E56416 (void);
+// 0x00000119 System.Boolean easyar.Detail::easyar_SurfaceTracker_start(System.IntPtr)
+extern void Detail_easyar_SurfaceTracker_start_m4E68BC3378B0AE5CEB48D54A9E5E0EDAA5A93FAD (void);
+// 0x0000011A System.Void easyar.Detail::easyar_SurfaceTracker_stop(System.IntPtr)
+extern void Detail_easyar_SurfaceTracker_stop_m68B36CC3AFE96AF0FAB177CD954896731E0FC2D7 (void);
+// 0x0000011B System.Void easyar.Detail::easyar_SurfaceTracker_close(System.IntPtr)
+extern void Detail_easyar_SurfaceTracker_close_m22015019C7E3E1DC85B4A526178268D4A6BE17FF (void);
+// 0x0000011C System.Void easyar.Detail::easyar_SurfaceTracker_alignTargetToCameraImagePoint(System.IntPtr,easyar.Vec2F)
+extern void Detail_easyar_SurfaceTracker_alignTargetToCameraImagePoint_m07504B69601519C5A0028432CE90781598758DC1 (void);
+// 0x0000011D System.Void easyar.Detail::easyar_SurfaceTracker__dtor(System.IntPtr)
+extern void Detail_easyar_SurfaceTracker__dtor_mF01BE98BEC98771328846141FB815D9891567E9A (void);
+// 0x0000011E System.Void easyar.Detail::easyar_SurfaceTracker__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SurfaceTracker__retain_mBB80ED390DF0FA4AC8E5B4FE022BE78531E9C183 (void);
+// 0x0000011F System.IntPtr easyar.Detail::easyar_SurfaceTracker__typeName(System.IntPtr)
+extern void Detail_easyar_SurfaceTracker__typeName_m886A7D60BDCB66D47BF2F2A0691AF2C3EB86EE72 (void);
+// 0x00000120 System.Void easyar.Detail::easyar_MotionTrackerCameraDevice__ctor(System.IntPtr&)
+extern void Detail_easyar_MotionTrackerCameraDevice__ctor_mBAB8858F35A43D1C1E06812DFBAD126555AB65F5 (void);
+// 0x00000121 System.Boolean easyar.Detail::easyar_MotionTrackerCameraDevice_isAvailable()
+extern void Detail_easyar_MotionTrackerCameraDevice_isAvailable_mF557DD4A07ED65E5C8EEECDEF0F6FBB46F6F3D72 (void);
+// 0x00000122 easyar.MotionTrackerCameraDeviceQualityLevel easyar.Detail::easyar_MotionTrackerCameraDevice_getQualityLevel()
+extern void Detail_easyar_MotionTrackerCameraDevice_getQualityLevel_mCACCFD338A5C65501599FEB51BFD1425FC867C6E (void);
+// 0x00000123 System.Boolean easyar.Detail::easyar_MotionTrackerCameraDevice_setFrameRateType(System.IntPtr,easyar.MotionTrackerCameraDeviceFPS)
+extern void Detail_easyar_MotionTrackerCameraDevice_setFrameRateType_m3D48863DCFD8E191A9D93D3C039039652F880BB9 (void);
+// 0x00000124 System.Boolean easyar.Detail::easyar_MotionTrackerCameraDevice_setFocusMode(System.IntPtr,easyar.MotionTrackerCameraDeviceFocusMode)
+extern void Detail_easyar_MotionTrackerCameraDevice_setFocusMode_mA0ED7017943E924D8F529FDC9A5F1F56731E1C01 (void);
+// 0x00000125 System.Boolean easyar.Detail::easyar_MotionTrackerCameraDevice_setFrameResolutionType(System.IntPtr,easyar.MotionTrackerCameraDeviceResolution)
+extern void Detail_easyar_MotionTrackerCameraDevice_setFrameResolutionType_m9176ED4BC8EFA5D63DEDDC5FA34FF5EB3D04ABE2 (void);
+// 0x00000126 System.Boolean easyar.Detail::easyar_MotionTrackerCameraDevice_setTrackingMode(System.IntPtr,easyar.MotionTrackerCameraDeviceTrackingMode)
+extern void Detail_easyar_MotionTrackerCameraDevice_setTrackingMode_m626D988EC348E332F716B4EFB7EE93CCD226217E (void);
+// 0x00000127 System.Void easyar.Detail::easyar_MotionTrackerCameraDevice_setBufferCapacity(System.IntPtr,System.Int32)
+extern void Detail_easyar_MotionTrackerCameraDevice_setBufferCapacity_mD430399B4F6C1F85FEDB61C6E580B0994282CB66 (void);
+// 0x00000128 System.Int32 easyar.Detail::easyar_MotionTrackerCameraDevice_bufferCapacity(System.IntPtr)
+extern void Detail_easyar_MotionTrackerCameraDevice_bufferCapacity_mE719E3305532FBE17A3BFF8FFAB8E46520740272 (void);
+// 0x00000129 System.Void easyar.Detail::easyar_MotionTrackerCameraDevice_inputFrameSource(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_MotionTrackerCameraDevice_inputFrameSource_mD2D015EF22D19E59AFE86FF243C0701A50FB2F13 (void);
+// 0x0000012A System.Boolean easyar.Detail::easyar_MotionTrackerCameraDevice_start(System.IntPtr)
+extern void Detail_easyar_MotionTrackerCameraDevice_start_m0E1FADA4B7D4B7C1A6B175BFB64DB8561B39A8AB (void);
+// 0x0000012B System.Void easyar.Detail::easyar_MotionTrackerCameraDevice_stop(System.IntPtr)
+extern void Detail_easyar_MotionTrackerCameraDevice_stop_m244E04A29074C1146286F702EB217D431F0D0ED7 (void);
+// 0x0000012C System.Void easyar.Detail::easyar_MotionTrackerCameraDevice_close(System.IntPtr)
+extern void Detail_easyar_MotionTrackerCameraDevice_close_mD05544E8E99D703FCDD81623A4FB8337514C2A77 (void);
+// 0x0000012D System.Void easyar.Detail::easyar_MotionTrackerCameraDevice_hitTestAgainstPointCloud(System.IntPtr,easyar.Vec2F,System.IntPtr&)
+extern void Detail_easyar_MotionTrackerCameraDevice_hitTestAgainstPointCloud_m34128715999462F7614D6B962A981E49399F8A6F (void);
+// 0x0000012E System.Void easyar.Detail::easyar_MotionTrackerCameraDevice_hitTestAgainstHorizontalPlane(System.IntPtr,easyar.Vec2F,System.IntPtr&)
+extern void Detail_easyar_MotionTrackerCameraDevice_hitTestAgainstHorizontalPlane_mE24E7CE4ED2B7B202B72C7CE3779A47403556A95 (void);
+// 0x0000012F System.Void easyar.Detail::easyar_MotionTrackerCameraDevice_getLocalPointsCloud(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_MotionTrackerCameraDevice_getLocalPointsCloud_mB1AF73CC3469BB1E87DA44F5CA32061303F50B5A (void);
+// 0x00000130 System.Void easyar.Detail::easyar_MotionTrackerCameraDevice__dtor(System.IntPtr)
+extern void Detail_easyar_MotionTrackerCameraDevice__dtor_m1D7212AA8B1FDC4A8861BA909D532422F27695DD (void);
+// 0x00000131 System.Void easyar.Detail::easyar_MotionTrackerCameraDevice__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_MotionTrackerCameraDevice__retain_m3A76B6DFF0D2EF4AE4C7FD7F276DCC86DB6E1C90 (void);
+// 0x00000132 System.IntPtr easyar.Detail::easyar_MotionTrackerCameraDevice__typeName(System.IntPtr)
+extern void Detail_easyar_MotionTrackerCameraDevice__typeName_m4C3B52C352A029DCB56D49F998FCEFB2A5D7D479 (void);
+// 0x00000133 System.Void easyar.Detail::easyar_InputFrameRecorder_input(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameRecorder_input_m4A5DE708F55453AD72EBFDF4B632F341B71B7FF6 (void);
+// 0x00000134 System.Int32 easyar.Detail::easyar_InputFrameRecorder_bufferRequirement(System.IntPtr)
+extern void Detail_easyar_InputFrameRecorder_bufferRequirement_m98308699A45F5032FC0EBC72B18CCB6194F395EB (void);
+// 0x00000135 System.Void easyar.Detail::easyar_InputFrameRecorder_output(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameRecorder_output_mAD019DB1A20527F3221DB2AB47045BF7207F4109 (void);
+// 0x00000136 System.Void easyar.Detail::easyar_InputFrameRecorder_create(System.IntPtr&)
+extern void Detail_easyar_InputFrameRecorder_create_mF379DC685064A26B9751C3E0B9F23F3CACF4B98E (void);
+// 0x00000137 System.Boolean easyar.Detail::easyar_InputFrameRecorder_start(System.IntPtr,System.IntPtr,System.Int32)
+extern void Detail_easyar_InputFrameRecorder_start_m103BE85FA303897109C0676D09F0D0AD9211E41B (void);
+// 0x00000138 System.Void easyar.Detail::easyar_InputFrameRecorder_stop(System.IntPtr)
+extern void Detail_easyar_InputFrameRecorder_stop_mA804D6D79523A6B792FD000B4710B3EAD227A019 (void);
+// 0x00000139 System.Void easyar.Detail::easyar_InputFrameRecorder__dtor(System.IntPtr)
+extern void Detail_easyar_InputFrameRecorder__dtor_m1C853045AB8400185480BDA13D333A91FB9580E6 (void);
+// 0x0000013A System.Void easyar.Detail::easyar_InputFrameRecorder__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameRecorder__retain_m63CBF0BC661FEB9E205CDBD09C13E31FB54571D6 (void);
+// 0x0000013B System.IntPtr easyar.Detail::easyar_InputFrameRecorder__typeName(System.IntPtr)
+extern void Detail_easyar_InputFrameRecorder__typeName_m0FB7F3BD264B53034D5439D6B647AFC5063E5C86 (void);
+// 0x0000013C System.Void easyar.Detail::easyar_InputFramePlayer_output(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFramePlayer_output_m874FD4C1130232BC52F0FDE8D86C7545B595A41F (void);
+// 0x0000013D System.Void easyar.Detail::easyar_InputFramePlayer_create(System.IntPtr&)
+extern void Detail_easyar_InputFramePlayer_create_m0647230CEF3BE961A7C94400DD97A74A7F09F104 (void);
+// 0x0000013E System.Boolean easyar.Detail::easyar_InputFramePlayer_start(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_InputFramePlayer_start_m343C88688CC89F3F19B78F5BBD6E61F7FAD6E2F7 (void);
+// 0x0000013F System.Void easyar.Detail::easyar_InputFramePlayer_stop(System.IntPtr)
+extern void Detail_easyar_InputFramePlayer_stop_mCCE36619366F32704A20B1BF8FD1B558636B63F0 (void);
+// 0x00000140 System.Void easyar.Detail::easyar_InputFramePlayer_pause(System.IntPtr)
+extern void Detail_easyar_InputFramePlayer_pause_m44AC989529FBAE72562B1E2E98FF209E1A4474F9 (void);
+// 0x00000141 System.Boolean easyar.Detail::easyar_InputFramePlayer_resume(System.IntPtr)
+extern void Detail_easyar_InputFramePlayer_resume_m6970EFD8F06DEF2AAE4059F5D4DE26DC256597A3 (void);
+// 0x00000142 System.Double easyar.Detail::easyar_InputFramePlayer_totalTime(System.IntPtr)
+extern void Detail_easyar_InputFramePlayer_totalTime_m786C01C685058ED4AAC35E505C1B4BDD1CA814CE (void);
+// 0x00000143 System.Double easyar.Detail::easyar_InputFramePlayer_currentTime(System.IntPtr)
+extern void Detail_easyar_InputFramePlayer_currentTime_m7C0DF2091CC5B3501C250C4E93313640CFBEA1E9 (void);
+// 0x00000144 System.Int32 easyar.Detail::easyar_InputFramePlayer_initalScreenRotation(System.IntPtr)
+extern void Detail_easyar_InputFramePlayer_initalScreenRotation_mD87D644E6F98AA4D5269F0AEE8E23A7453440289 (void);
+// 0x00000145 System.Boolean easyar.Detail::easyar_InputFramePlayer_isCompleted(System.IntPtr)
+extern void Detail_easyar_InputFramePlayer_isCompleted_m40FDE3EEF798180E42CC0F27AECF60514DC64BBB (void);
+// 0x00000146 System.Void easyar.Detail::easyar_InputFramePlayer__dtor(System.IntPtr)
+extern void Detail_easyar_InputFramePlayer__dtor_m75BE89586DDA248CF728F3C4E342EEA274E86DB4 (void);
+// 0x00000147 System.Void easyar.Detail::easyar_InputFramePlayer__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFramePlayer__retain_m64190757DA136E762EE0F523886EFA114F3F2915 (void);
+// 0x00000148 System.IntPtr easyar.Detail::easyar_InputFramePlayer__typeName(System.IntPtr)
+extern void Detail_easyar_InputFramePlayer__typeName_mE7DFD103CB557FF2A541122B1F3D636CAF4027F5 (void);
+// 0x00000149 System.Void easyar.Detail::easyar_CallbackScheduler__dtor(System.IntPtr)
+extern void Detail_easyar_CallbackScheduler__dtor_m5A74275AEAC8E0A328B305E31845CA35B7BD544F (void);
+// 0x0000014A System.Void easyar.Detail::easyar_CallbackScheduler__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_CallbackScheduler__retain_mB19386C87A245F08E5EFDBF7BB9E50F17BB12078 (void);
+// 0x0000014B System.IntPtr easyar.Detail::easyar_CallbackScheduler__typeName(System.IntPtr)
+extern void Detail_easyar_CallbackScheduler__typeName_m375CF9D83ADC17437B9310EA40D2088666A41211 (void);
+// 0x0000014C System.Void easyar.Detail::easyar_DelayedCallbackScheduler__ctor(System.IntPtr&)
+extern void Detail_easyar_DelayedCallbackScheduler__ctor_m24252DC0D5C351E5B194D56B713611689E2F6B1F (void);
+// 0x0000014D System.Boolean easyar.Detail::easyar_DelayedCallbackScheduler_runOne(System.IntPtr)
+extern void Detail_easyar_DelayedCallbackScheduler_runOne_mB1C190FBB27AAA0BFB199B8A79798BB5077F6287 (void);
+// 0x0000014E System.Void easyar.Detail::easyar_DelayedCallbackScheduler__dtor(System.IntPtr)
+extern void Detail_easyar_DelayedCallbackScheduler__dtor_m4B9055F7C93D8B89E9C0E2189DF7978D6B072A72 (void);
+// 0x0000014F System.Void easyar.Detail::easyar_DelayedCallbackScheduler__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_DelayedCallbackScheduler__retain_mE38E427D7A24BEFE5E598B1508A1790333EF3CA7 (void);
+// 0x00000150 System.IntPtr easyar.Detail::easyar_DelayedCallbackScheduler__typeName(System.IntPtr)
+extern void Detail_easyar_DelayedCallbackScheduler__typeName_m85CF936A13EF9E339B3FEA029BB2931E870760A9 (void);
+// 0x00000151 System.Void easyar.Detail::easyar_castDelayedCallbackSchedulerToCallbackScheduler(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castDelayedCallbackSchedulerToCallbackScheduler_mFF122AFC78AA57624E09CB3FE5C3ADB4535B9BEF (void);
+// 0x00000152 System.Void easyar.Detail::easyar_tryCastCallbackSchedulerToDelayedCallbackScheduler(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastCallbackSchedulerToDelayedCallbackScheduler_mDDD2A301E6EB3253620DCB5E9069D36976A390A2 (void);
+// 0x00000153 System.Void easyar.Detail::easyar_ImmediateCallbackScheduler_getDefault(System.IntPtr&)
+extern void Detail_easyar_ImmediateCallbackScheduler_getDefault_m725D5DC93269FA290239FFCDB9247B7BC4DF055F (void);
+// 0x00000154 System.Void easyar.Detail::easyar_ImmediateCallbackScheduler__dtor(System.IntPtr)
+extern void Detail_easyar_ImmediateCallbackScheduler__dtor_m07B064B7BA7B78AAE30D06BE9B08685EA7C0E539 (void);
+// 0x00000155 System.Void easyar.Detail::easyar_ImmediateCallbackScheduler__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImmediateCallbackScheduler__retain_mB45CCE96F57A18FA396B6ED638BB94D045DEB7DA (void);
+// 0x00000156 System.IntPtr easyar.Detail::easyar_ImmediateCallbackScheduler__typeName(System.IntPtr)
+extern void Detail_easyar_ImmediateCallbackScheduler__typeName_mE2AB755C1EF6D9BD1068A3841F9A139EE5AD498E (void);
+// 0x00000157 System.Void easyar.Detail::easyar_castImmediateCallbackSchedulerToCallbackScheduler(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castImmediateCallbackSchedulerToCallbackScheduler_m25D409951E4DF04E062BBAF1E2E0258C73F8D240 (void);
+// 0x00000158 System.Void easyar.Detail::easyar_tryCastCallbackSchedulerToImmediateCallbackScheduler(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastCallbackSchedulerToImmediateCallbackScheduler_m4D3F30EA9DF5B9F077E8C5074BE9543BE562B365 (void);
+// 0x00000159 System.Void easyar.Detail::easyar_JniUtility_wrapByteArray(System.IntPtr,System.Boolean,easyar.Detail/FunctorOfVoid,System.IntPtr&)
+extern void Detail_easyar_JniUtility_wrapByteArray_m50030C464C2B8C3A0BBCCE8CA5DE766C67101499 (void);
+// 0x0000015A System.Void easyar.Detail::easyar_JniUtility_wrapBuffer(System.IntPtr,easyar.Detail/FunctorOfVoid,System.IntPtr&)
+extern void Detail_easyar_JniUtility_wrapBuffer_mCCAF0D524737B40A6F5FE6E3067DE1C9B75DB906 (void);
+// 0x0000015B System.IntPtr easyar.Detail::easyar_JniUtility_getDirectBufferAddress(System.IntPtr)
+extern void Detail_easyar_JniUtility_getDirectBufferAddress_m653094788989987EDBACE581B1A49E6CF190CA38 (void);
+// 0x0000015C System.Void easyar.Detail::easyar_Log_setLogFunc(easyar.Detail/FunctorOfVoidFromLogLevelAndString)
+extern void Detail_easyar_Log_setLogFunc_m6706F27D9DEF1AFB173E797C8F0EFAD59333B75E (void);
+// 0x0000015D System.Void easyar.Detail::easyar_Log_setLogFuncWithScheduler(System.IntPtr,easyar.Detail/FunctorOfVoidFromLogLevelAndString)
+extern void Detail_easyar_Log_setLogFuncWithScheduler_m9B7351D03E1AC7726D87A59F6363456ACE22FDD9 (void);
+// 0x0000015E System.Void easyar.Detail::easyar_Log_resetLogFunc()
+extern void Detail_easyar_Log_resetLogFunc_m10195D3A416358590915E6B45A1B68AEBBC2BB7F (void);
+// 0x0000015F System.Void easyar.Detail::easyar_Storage_setAssetDirPath(System.IntPtr)
+extern void Detail_easyar_Storage_setAssetDirPath_m4CBD99CB5BC063C6B1DEBB2388E9C00E8A6A12C7 (void);
+// 0x00000160 System.Void easyar.Detail::easyar_ImageTargetParameters__ctor(System.IntPtr&)
+extern void Detail_easyar_ImageTargetParameters__ctor_mD29B55191D61F5D473AF2E5C97838F12DC244EC2 (void);
+// 0x00000161 System.Void easyar.Detail::easyar_ImageTargetParameters_image(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTargetParameters_image_mAD6BD27AC0BE90C699737C278B7A1A5B6600FE06 (void);
+// 0x00000162 System.Void easyar.Detail::easyar_ImageTargetParameters_setImage(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ImageTargetParameters_setImage_m26DB834DEFCC5261B2AEAA24DCC2D047690ADEF5 (void);
+// 0x00000163 System.Void easyar.Detail::easyar_ImageTargetParameters_name(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTargetParameters_name_m78F4F3BFD9DFC9502045EE049942314CFD45AA1D (void);
+// 0x00000164 System.Void easyar.Detail::easyar_ImageTargetParameters_setName(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ImageTargetParameters_setName_m9921284CF8BD70ECABFC1D994DCB80E2D755772C (void);
+// 0x00000165 System.Void easyar.Detail::easyar_ImageTargetParameters_uid(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTargetParameters_uid_m07F18ECCC92BAD22B7DB3CCF5A1808E1125175D8 (void);
+// 0x00000166 System.Void easyar.Detail::easyar_ImageTargetParameters_setUid(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ImageTargetParameters_setUid_mA3B7D0566CC0DD67522A4DC0A47F67DAD95334DA (void);
+// 0x00000167 System.Void easyar.Detail::easyar_ImageTargetParameters_meta(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTargetParameters_meta_m0C3C7978EED5E85135E7BE83F4BA8276FBA22128 (void);
+// 0x00000168 System.Void easyar.Detail::easyar_ImageTargetParameters_setMeta(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ImageTargetParameters_setMeta_mC23247D8523BA377015101EE42ED9D618DF4D594 (void);
+// 0x00000169 System.Single easyar.Detail::easyar_ImageTargetParameters_scale(System.IntPtr)
+extern void Detail_easyar_ImageTargetParameters_scale_mA5CFAC98151854BFD9FA179565F9C213C379E2F8 (void);
+// 0x0000016A System.Void easyar.Detail::easyar_ImageTargetParameters_setScale(System.IntPtr,System.Single)
+extern void Detail_easyar_ImageTargetParameters_setScale_mF18EE937DA112AA6F093F86FFA190C403A6A72A4 (void);
+// 0x0000016B System.Void easyar.Detail::easyar_ImageTargetParameters__dtor(System.IntPtr)
+extern void Detail_easyar_ImageTargetParameters__dtor_mCA44C37FCFCE09A06EED6147CC1715BB1729A967 (void);
+// 0x0000016C System.Void easyar.Detail::easyar_ImageTargetParameters__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTargetParameters__retain_mD0760AD876842CCEC26393096B617F59EF5DDC99 (void);
+// 0x0000016D System.IntPtr easyar.Detail::easyar_ImageTargetParameters__typeName(System.IntPtr)
+extern void Detail_easyar_ImageTargetParameters__typeName_m629717BB4829D21098E57F3E795E826F685CEDC0 (void);
+// 0x0000016E System.Void easyar.Detail::easyar_ImageTarget__ctor(System.IntPtr&)
+extern void Detail_easyar_ImageTarget__ctor_m21B498F52548730B4A2A793618A9FEFCA3DF5003 (void);
+// 0x0000016F System.Void easyar.Detail::easyar_ImageTarget_createFromParameters(System.IntPtr,easyar.Detail/OptionalOfImageTarget&)
+extern void Detail_easyar_ImageTarget_createFromParameters_m92BCD8D74FD2976D2CDEE81DE466F1A58300598E (void);
+// 0x00000170 System.Void easyar.Detail::easyar_ImageTarget_createFromTargetFile(System.IntPtr,easyar.StorageType,easyar.Detail/OptionalOfImageTarget&)
+extern void Detail_easyar_ImageTarget_createFromTargetFile_m60186F4D17549CF2AEB808B59767D466F816B654 (void);
+// 0x00000171 System.Void easyar.Detail::easyar_ImageTarget_createFromTargetData(System.IntPtr,easyar.Detail/OptionalOfImageTarget&)
+extern void Detail_easyar_ImageTarget_createFromTargetData_mC56A5450DDE10DA7AFC9B09B7F7169CEEDD8088F (void);
+// 0x00000172 System.Boolean easyar.Detail::easyar_ImageTarget_save(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ImageTarget_save_mF1214147A4CAC741E0EF2D09988BAA5EF93F9ED0 (void);
+// 0x00000173 System.Void easyar.Detail::easyar_ImageTarget_createFromImageFile(System.IntPtr,easyar.StorageType,System.IntPtr,System.IntPtr,System.IntPtr,System.Single,easyar.Detail/OptionalOfImageTarget&)
+extern void Detail_easyar_ImageTarget_createFromImageFile_m52FBDEACF09EC91E60873EA7B0716A521368449E (void);
+// 0x00000174 System.Single easyar.Detail::easyar_ImageTarget_scale(System.IntPtr)
+extern void Detail_easyar_ImageTarget_scale_m4F95D3226FE7A3E0013FCE95BCAAECD4430B3AA0 (void);
+// 0x00000175 System.Single easyar.Detail::easyar_ImageTarget_aspectRatio(System.IntPtr)
+extern void Detail_easyar_ImageTarget_aspectRatio_m16486B80FA234020EE82D2C63F3E78E3BF9A2CFC (void);
+// 0x00000176 System.Boolean easyar.Detail::easyar_ImageTarget_setScale(System.IntPtr,System.Single)
+extern void Detail_easyar_ImageTarget_setScale_m79B99B1BB09A51C7A33ECCB8098EC437E5511DDE (void);
+// 0x00000177 System.Void easyar.Detail::easyar_ImageTarget_images(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTarget_images_mD5D7C505F249D051163EA66EC916AA8577AEECD6 (void);
+// 0x00000178 System.Int32 easyar.Detail::easyar_ImageTarget_runtimeID(System.IntPtr)
+extern void Detail_easyar_ImageTarget_runtimeID_m347D0027EB7555C41CFA1CF4DD940587FFA3E007 (void);
+// 0x00000179 System.Void easyar.Detail::easyar_ImageTarget_uid(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTarget_uid_m0A44CFAB9908DA34B857ADEBD90D8A75CBB6F569 (void);
+// 0x0000017A System.Void easyar.Detail::easyar_ImageTarget_name(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTarget_name_mAA1164C7C6E14B941128DA8302F3762C247D0809 (void);
+// 0x0000017B System.Void easyar.Detail::easyar_ImageTarget_setName(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ImageTarget_setName_m5F22CDC160947DCAEF0721AAA8EABC56F567003E (void);
+// 0x0000017C System.Void easyar.Detail::easyar_ImageTarget_meta(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTarget_meta_m53036B68AE0F3539848B404348C4F41139DF8343 (void);
+// 0x0000017D System.Void easyar.Detail::easyar_ImageTarget_setMeta(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ImageTarget_setMeta_m28CBAF48570C205E196A92B978FD81FD3952458A (void);
+// 0x0000017E System.Void easyar.Detail::easyar_ImageTarget__dtor(System.IntPtr)
+extern void Detail_easyar_ImageTarget__dtor_m3D6B0F7D57B251E279F24D0C01721A6A497E8A62 (void);
+// 0x0000017F System.Void easyar.Detail::easyar_ImageTarget__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTarget__retain_mCD003B40A1E79AB99ACE6F956032D11CACAD0421 (void);
+// 0x00000180 System.IntPtr easyar.Detail::easyar_ImageTarget__typeName(System.IntPtr)
+extern void Detail_easyar_ImageTarget__typeName_m90F15473D8F3DFE6BE36C360B394740E3083CA13 (void);
+// 0x00000181 System.Void easyar.Detail::easyar_castImageTargetToTarget(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castImageTargetToTarget_mA0A3206EE213BE30E0148A82CA1085EFF51E2399 (void);
+// 0x00000182 System.Void easyar.Detail::easyar_tryCastTargetToImageTarget(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastTargetToImageTarget_m726B97B2A13FC2FB4820BB15C637CB3B2AEB5C65 (void);
+// 0x00000183 System.Void easyar.Detail::easyar_ImageTrackerResult_targetInstances(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTrackerResult_targetInstances_m25DA6F2A1EB8E87890011D57B11C55F8CAA29629 (void);
+// 0x00000184 System.Void easyar.Detail::easyar_ImageTrackerResult_setTargetInstances(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_ImageTrackerResult_setTargetInstances_mCAA405DAA2470AAEAFBE59200F4848AD929D2B44 (void);
+// 0x00000185 System.Void easyar.Detail::easyar_ImageTrackerResult__dtor(System.IntPtr)
+extern void Detail_easyar_ImageTrackerResult__dtor_mE18890537954FCE762E2BDF928F130D24D757E0B (void);
+// 0x00000186 System.Void easyar.Detail::easyar_ImageTrackerResult__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTrackerResult__retain_m775DC4CC8AD5F294EF9D47E7E4B22CDEC655E56E (void);
+// 0x00000187 System.IntPtr easyar.Detail::easyar_ImageTrackerResult__typeName(System.IntPtr)
+extern void Detail_easyar_ImageTrackerResult__typeName_mADFE153A98B06EC9F990313E0F0CEBA99DD42F85 (void);
+// 0x00000188 System.Void easyar.Detail::easyar_castImageTrackerResultToFrameFilterResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castImageTrackerResultToFrameFilterResult_m3E09392AC17690411C7A0C3B577395FF8406CC6F (void);
+// 0x00000189 System.Void easyar.Detail::easyar_tryCastFrameFilterResultToImageTrackerResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastFrameFilterResultToImageTrackerResult_m8DC55A4AE386A042C41013518A5AA72800858D5F (void);
+// 0x0000018A System.Void easyar.Detail::easyar_castImageTrackerResultToTargetTrackerResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castImageTrackerResultToTargetTrackerResult_mDCA4A028612C3F49D8B596DB156375E1EA7C71FD (void);
+// 0x0000018B System.Void easyar.Detail::easyar_tryCastTargetTrackerResultToImageTrackerResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastTargetTrackerResultToImageTrackerResult_m6692ABA641DE129AD59EEFD97D1DB819CC7127F9 (void);
+// 0x0000018C System.Boolean easyar.Detail::easyar_ImageTracker_isAvailable()
+extern void Detail_easyar_ImageTracker_isAvailable_m3654ECE88C5D64CA57BEB8996A593D7C4D4E4BC6 (void);
+// 0x0000018D System.Void easyar.Detail::easyar_ImageTracker_feedbackFrameSink(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTracker_feedbackFrameSink_m3E12958E19519E6A390A1CCF5A95311A88E9A0E8 (void);
+// 0x0000018E System.Int32 easyar.Detail::easyar_ImageTracker_bufferRequirement(System.IntPtr)
+extern void Detail_easyar_ImageTracker_bufferRequirement_m220E824FEE1553299F382EDD913C331762537738 (void);
+// 0x0000018F System.Void easyar.Detail::easyar_ImageTracker_outputFrameSource(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTracker_outputFrameSource_m37FC8E041513D2AAE7880B7195F1DFFAD4B3E1F4 (void);
+// 0x00000190 System.Void easyar.Detail::easyar_ImageTracker_create(System.IntPtr&)
+extern void Detail_easyar_ImageTracker_create_m256D51E7B713BE7D9A6D1AF31B552AFFBEEB8E3F (void);
+// 0x00000191 System.Void easyar.Detail::easyar_ImageTracker_createWithMode(easyar.ImageTrackerMode,System.IntPtr&)
+extern void Detail_easyar_ImageTracker_createWithMode_m377F1CC4A70200A35FBD6E1F4298AE0598540C29 (void);
+// 0x00000192 System.Boolean easyar.Detail::easyar_ImageTracker_start(System.IntPtr)
+extern void Detail_easyar_ImageTracker_start_m359BD39A698380AB6D3F5628B45C4CB507BD35AA (void);
+// 0x00000193 System.Void easyar.Detail::easyar_ImageTracker_stop(System.IntPtr)
+extern void Detail_easyar_ImageTracker_stop_m58136E3965BBA7C403E6EDE143AA670D51330151 (void);
+// 0x00000194 System.Void easyar.Detail::easyar_ImageTracker_close(System.IntPtr)
+extern void Detail_easyar_ImageTracker_close_m1C2B55BE0ADE84B8C7B066C1EB80E26E3E8ACC2D (void);
+// 0x00000195 System.Void easyar.Detail::easyar_ImageTracker_loadTarget(System.IntPtr,System.IntPtr,System.IntPtr,easyar.Detail/FunctorOfVoidFromTargetAndBool)
+extern void Detail_easyar_ImageTracker_loadTarget_m297C82873FE6899E8051E930F4B92A3CAEF4D805 (void);
+// 0x00000196 System.Void easyar.Detail::easyar_ImageTracker_unloadTarget(System.IntPtr,System.IntPtr,System.IntPtr,easyar.Detail/FunctorOfVoidFromTargetAndBool)
+extern void Detail_easyar_ImageTracker_unloadTarget_m2DD9A13EC6D88F93D132355FA7362A1B845E2EC0 (void);
+// 0x00000197 System.Void easyar.Detail::easyar_ImageTracker_targets(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTracker_targets_mB99F28786912D8D40AB46A8E5FF60E0DA143D73D (void);
+// 0x00000198 System.Boolean easyar.Detail::easyar_ImageTracker_setSimultaneousNum(System.IntPtr,System.Int32)
+extern void Detail_easyar_ImageTracker_setSimultaneousNum_mBB385A9C3BEEFE6FFE7983DE62447EDB318F9807 (void);
+// 0x00000199 System.Int32 easyar.Detail::easyar_ImageTracker_simultaneousNum(System.IntPtr)
+extern void Detail_easyar_ImageTracker_simultaneousNum_m84C60D7E9E3C9E0959006D0570E2A195CDCDE1EF (void);
+// 0x0000019A System.Void easyar.Detail::easyar_ImageTracker__dtor(System.IntPtr)
+extern void Detail_easyar_ImageTracker__dtor_mE88B550999CF8CFABA6CF088DA3F53AC4C14320B (void);
+// 0x0000019B System.Void easyar.Detail::easyar_ImageTracker__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ImageTracker__retain_mF2E03C03611D7931AE46D89D8EE12FBEDEABA448 (void);
+// 0x0000019C System.IntPtr easyar.Detail::easyar_ImageTracker__typeName(System.IntPtr)
+extern void Detail_easyar_ImageTracker__typeName_mB8CCCE199A60B61B6C68D623F0058BA54FBE4D22 (void);
+// 0x0000019D System.Void easyar.Detail::easyar_RealTimeCoordinateTransform__ctor(System.IntPtr&)
+extern void Detail_easyar_RealTimeCoordinateTransform__ctor_m65D6C4FB8F5BA9A511B1597D5821D6FE3BD8D98B (void);
+// 0x0000019E System.Void easyar.Detail::easyar_RealTimeCoordinateTransform_setBufferSize(System.IntPtr,System.Int32)
+extern void Detail_easyar_RealTimeCoordinateTransform_setBufferSize_mF3B012B0E831C4FAFE911C20302B5A6972A2033A (void);
+// 0x0000019F System.Int32 easyar.Detail::easyar_RealTimeCoordinateTransform_getBufferSize(System.IntPtr)
+extern void Detail_easyar_RealTimeCoordinateTransform_getBufferSize_mF49D250C81C1FC8644B73E87CC3407707F79CF61 (void);
+// 0x000001A0 System.Boolean easyar.Detail::easyar_RealTimeCoordinateTransform_insertData(System.IntPtr,System.Double,easyar.Matrix44F,easyar.Matrix44F)
+extern void Detail_easyar_RealTimeCoordinateTransform_insertData_m29C96CD540EB3E99E5B99885E5AC634300C1D0E2 (void);
+// 0x000001A1 easyar.Matrix44F easyar.Detail::easyar_RealTimeCoordinateTransform_getPoseInMap(System.IntPtr,System.Double,easyar.MotionTrackingStatus,easyar.Matrix44F)
+extern void Detail_easyar_RealTimeCoordinateTransform_getPoseInMap_m20399956F38812F9FA09F3BAE68617A84CB8D616 (void);
+// 0x000001A2 System.Void easyar.Detail::easyar_RealTimeCoordinateTransform__dtor(System.IntPtr)
+extern void Detail_easyar_RealTimeCoordinateTransform__dtor_mCFB852D0392E51D25E005B4FCFAA456EC4EC0084 (void);
+// 0x000001A3 System.Void easyar.Detail::easyar_RealTimeCoordinateTransform__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_RealTimeCoordinateTransform__retain_m9BAF463F68BFB9A255C549EB30EB26D7DC3EB954 (void);
+// 0x000001A4 System.IntPtr easyar.Detail::easyar_RealTimeCoordinateTransform__typeName(System.IntPtr)
+extern void Detail_easyar_RealTimeCoordinateTransform__typeName_m42B037D5F8BB78BADF14246871A48FF70361F1C3 (void);
+// 0x000001A5 System.Boolean easyar.Detail::easyar_Recorder_isAvailable()
+extern void Detail_easyar_Recorder_isAvailable_m55EEED384A6E6F1EFD53DB6A0CE8D5DADD183033 (void);
+// 0x000001A6 System.Void easyar.Detail::easyar_Recorder_requestPermissions(System.IntPtr,easyar.Detail/OptionalOfFunctorOfVoidFromPermissionStatusAndString)
+extern void Detail_easyar_Recorder_requestPermissions_m2B23BBCB7F9E756EDB4AA8A2ABA9DCE9C2987B73 (void);
+// 0x000001A7 System.Void easyar.Detail::easyar_Recorder_create(System.IntPtr,System.IntPtr,easyar.Detail/OptionalOfFunctorOfVoidFromRecordStatusAndString,System.IntPtr&)
+extern void Detail_easyar_Recorder_create_m1F030E420D8DCA0BCDA1099C6ADC355857253D29 (void);
+// 0x000001A8 System.Void easyar.Detail::easyar_Recorder_start(System.IntPtr)
+extern void Detail_easyar_Recorder_start_mA618DAD20B130B0BFCBF2077E9C8814D93597170 (void);
+// 0x000001A9 System.Void easyar.Detail::easyar_Recorder_updateFrame(System.IntPtr,System.IntPtr,System.Int32,System.Int32)
+extern void Detail_easyar_Recorder_updateFrame_m1DE101EFEA24688C1A93E37FE2ACA0A57479A5DF (void);
+// 0x000001AA System.Boolean easyar.Detail::easyar_Recorder_stop(System.IntPtr)
+extern void Detail_easyar_Recorder_stop_m230EEAC20A65A5A69E4718957E6908771F75BEF6 (void);
+// 0x000001AB System.Void easyar.Detail::easyar_Recorder__dtor(System.IntPtr)
+extern void Detail_easyar_Recorder__dtor_m5CADBD93D8943343462602512ADB43621812137A (void);
+// 0x000001AC System.Void easyar.Detail::easyar_Recorder__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_Recorder__retain_m17BEB53736CCE77B654BF69A4727B1E3A5603109 (void);
+// 0x000001AD System.IntPtr easyar.Detail::easyar_Recorder__typeName(System.IntPtr)
+extern void Detail_easyar_Recorder__typeName_m8195D4294731C602A39523DB5001D9162C22718E (void);
+// 0x000001AE System.Void easyar.Detail::easyar_RecorderConfiguration__ctor(System.IntPtr&)
+extern void Detail_easyar_RecorderConfiguration__ctor_mA234385B908DCAF3806AC784783CF18C21D29267 (void);
+// 0x000001AF System.Void easyar.Detail::easyar_RecorderConfiguration_setOutputFile(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_RecorderConfiguration_setOutputFile_m23E28D0036926E36394AB15B55A6607C34AC27DA (void);
+// 0x000001B0 System.Boolean easyar.Detail::easyar_RecorderConfiguration_setProfile(System.IntPtr,easyar.RecordProfile)
+extern void Detail_easyar_RecorderConfiguration_setProfile_m34A6C4C20A9471C7EB7A97BC4B4BA2383F81FB0A (void);
+// 0x000001B1 System.Void easyar.Detail::easyar_RecorderConfiguration_setVideoSize(System.IntPtr,easyar.RecordVideoSize)
+extern void Detail_easyar_RecorderConfiguration_setVideoSize_mC5F84344997EEF2435EE037AC061BB91AE6F9A8D (void);
+// 0x000001B2 System.Void easyar.Detail::easyar_RecorderConfiguration_setVideoBitrate(System.IntPtr,System.Int32)
+extern void Detail_easyar_RecorderConfiguration_setVideoBitrate_mA4F2B364EE48E8E190933076BB5E4069624F10A7 (void);
+// 0x000001B3 System.Void easyar.Detail::easyar_RecorderConfiguration_setChannelCount(System.IntPtr,System.Int32)
+extern void Detail_easyar_RecorderConfiguration_setChannelCount_mDBDF8633578D42DBB27DC6062EF12464ED4F214F (void);
+// 0x000001B4 System.Void easyar.Detail::easyar_RecorderConfiguration_setAudioSampleRate(System.IntPtr,System.Int32)
+extern void Detail_easyar_RecorderConfiguration_setAudioSampleRate_mAE40A152EC7AB95F9616AA9A1B400256B8FEE6BE (void);
+// 0x000001B5 System.Void easyar.Detail::easyar_RecorderConfiguration_setAudioBitrate(System.IntPtr,System.Int32)
+extern void Detail_easyar_RecorderConfiguration_setAudioBitrate_mB5FDDED660E35129E4E8F16C26958CC991DD9C85 (void);
+// 0x000001B6 System.Void easyar.Detail::easyar_RecorderConfiguration_setVideoOrientation(System.IntPtr,easyar.RecordVideoOrientation)
+extern void Detail_easyar_RecorderConfiguration_setVideoOrientation_mA46042763C3F8FB193D29393A6A7549049885C53 (void);
+// 0x000001B7 System.Void easyar.Detail::easyar_RecorderConfiguration_setZoomMode(System.IntPtr,easyar.RecordZoomMode)
+extern void Detail_easyar_RecorderConfiguration_setZoomMode_m27B9C7B35E298FF617747520229898AE8170C653 (void);
+// 0x000001B8 System.Void easyar.Detail::easyar_RecorderConfiguration__dtor(System.IntPtr)
+extern void Detail_easyar_RecorderConfiguration__dtor_mEB9060676D58F9FA48B5F33E36B83FE34BACFBF2 (void);
+// 0x000001B9 System.Void easyar.Detail::easyar_RecorderConfiguration__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_RecorderConfiguration__retain_m5B96D88BAB129FADD6C5EAEBD1791DFC6209F670 (void);
+// 0x000001BA System.IntPtr easyar.Detail::easyar_RecorderConfiguration__typeName(System.IntPtr)
+extern void Detail_easyar_RecorderConfiguration__typeName_m9BA68FB06145BDA17CE34592441EBCFF500759CA (void);
+// 0x000001BB easyar.MotionTrackingStatus easyar.Detail::easyar_SparseSpatialMapResult_getMotionTrackingStatus(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapResult_getMotionTrackingStatus_m12975CC54018AEF9B8CFE2177A93948D1B1CF580 (void);
+// 0x000001BC easyar.Detail/OptionalOfMatrix44F easyar.Detail::easyar_SparseSpatialMapResult_getVioPose(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapResult_getVioPose_mF10DF3A29827F3BCAC8ABEDF8DF79429FC1642D6 (void);
+// 0x000001BD easyar.Detail/OptionalOfMatrix44F easyar.Detail::easyar_SparseSpatialMapResult_getMapPose(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapResult_getMapPose_mD598F79995905AF99F6F34DE003B9F86B0DF42A9 (void);
+// 0x000001BE System.Boolean easyar.Detail::easyar_SparseSpatialMapResult_getLocalizationStatus(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapResult_getLocalizationStatus_m959509F53E3C3934BF34A7F5C409EB557D61FB07 (void);
+// 0x000001BF System.Void easyar.Detail::easyar_SparseSpatialMapResult_getLocalizationMapID(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMapResult_getLocalizationMapID_mED0C02D082DA9153CB19A20573FE50A8760DB1B2 (void);
+// 0x000001C0 System.Void easyar.Detail::easyar_SparseSpatialMapResult__dtor(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapResult__dtor_m8E2B0EE20EFB693ACA76F77D80F7C137962B0909 (void);
+// 0x000001C1 System.Void easyar.Detail::easyar_SparseSpatialMapResult__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMapResult__retain_m7ED69CFA899616D1550B1302E3A21673B3B3307C (void);
+// 0x000001C2 System.IntPtr easyar.Detail::easyar_SparseSpatialMapResult__typeName(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapResult__typeName_mB7228966C34DC072087D7AF13FECDE631605A88D (void);
+// 0x000001C3 System.Void easyar.Detail::easyar_castSparseSpatialMapResultToFrameFilterResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castSparseSpatialMapResultToFrameFilterResult_m8D8A7449EF79AABDB3077108F717284762D67C54 (void);
+// 0x000001C4 System.Void easyar.Detail::easyar_tryCastFrameFilterResultToSparseSpatialMapResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastFrameFilterResultToSparseSpatialMapResult_mAAB907E41A23F38E865A53101A9D357E517A8443 (void);
+// 0x000001C5 System.Void easyar.Detail::easyar_PlaneData__ctor(System.IntPtr&)
+extern void Detail_easyar_PlaneData__ctor_mD48C7682DF996A96DF9E750E255A5F65A00D6FEE (void);
+// 0x000001C6 easyar.PlaneType easyar.Detail::easyar_PlaneData_getType(System.IntPtr)
+extern void Detail_easyar_PlaneData_getType_m353BAC18F4A3D881F899F30B61F639800134CEF2 (void);
+// 0x000001C7 easyar.Matrix44F easyar.Detail::easyar_PlaneData_getPose(System.IntPtr)
+extern void Detail_easyar_PlaneData_getPose_m4322A78B93F6DB914208D7007944C746643E85FD (void);
+// 0x000001C8 System.Single easyar.Detail::easyar_PlaneData_getExtentX(System.IntPtr)
+extern void Detail_easyar_PlaneData_getExtentX_m4A19CB257F0E015F0F10388E43BB71CE1859C4F7 (void);
+// 0x000001C9 System.Single easyar.Detail::easyar_PlaneData_getExtentZ(System.IntPtr)
+extern void Detail_easyar_PlaneData_getExtentZ_mEF3216F101F31045DE09C9DA147012B5C3F3494C (void);
+// 0x000001CA System.Void easyar.Detail::easyar_PlaneData__dtor(System.IntPtr)
+extern void Detail_easyar_PlaneData__dtor_mDD5876DDAF7D22966BC36ECE012B9D421BDEE07A (void);
+// 0x000001CB System.Void easyar.Detail::easyar_PlaneData__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_PlaneData__retain_m4A58381F3FF91E08B33C6E3B983D3A481F0C059B (void);
+// 0x000001CC System.IntPtr easyar.Detail::easyar_PlaneData__typeName(System.IntPtr)
+extern void Detail_easyar_PlaneData__typeName_m26ADB09E98A294A8FF3C52B75F112F2336E41EF5 (void);
+// 0x000001CD System.Void easyar.Detail::easyar_SparseSpatialMapConfig__ctor(System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMapConfig__ctor_mC2E00B7D70B844777ABA44B5A73F3FCB1BCDD88D (void);
+// 0x000001CE System.Void easyar.Detail::easyar_SparseSpatialMapConfig_setLocalizationMode(System.IntPtr,easyar.LocalizationMode)
+extern void Detail_easyar_SparseSpatialMapConfig_setLocalizationMode_m605AE9803EF92157C4D6F928357216AF769ECA0F (void);
+// 0x000001CF easyar.LocalizationMode easyar.Detail::easyar_SparseSpatialMapConfig_getLocalizationMode(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapConfig_getLocalizationMode_m04FD0607B903E4795D7C0BA46AC6B0399497B601 (void);
+// 0x000001D0 System.Void easyar.Detail::easyar_SparseSpatialMapConfig__dtor(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapConfig__dtor_m34BE185F26F61B0A6B4CFCCCEFA91819288BB30A (void);
+// 0x000001D1 System.Void easyar.Detail::easyar_SparseSpatialMapConfig__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMapConfig__retain_mCC116AC507B75D0E8BE4BC05EA3DC182C44708B5 (void);
+// 0x000001D2 System.IntPtr easyar.Detail::easyar_SparseSpatialMapConfig__typeName(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapConfig__typeName_m7CDA429A1C0552F05C1B945CC2CF52288F6BA9FE (void);
+// 0x000001D3 System.Boolean easyar.Detail::easyar_SparseSpatialMap_isAvailable()
+extern void Detail_easyar_SparseSpatialMap_isAvailable_m780D177C5B3CBE25C90A9730671FC0C6CBBE3B2F (void);
+// 0x000001D4 System.Void easyar.Detail::easyar_SparseSpatialMap_inputFrameSink(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMap_inputFrameSink_m70441F8296BF06AA574E9B12DBFE67914C1F5E5D (void);
+// 0x000001D5 System.Int32 easyar.Detail::easyar_SparseSpatialMap_bufferRequirement(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMap_bufferRequirement_m7B82AD365A0D63E6D621B975D7A8BBC62EE2D3A1 (void);
+// 0x000001D6 System.Void easyar.Detail::easyar_SparseSpatialMap_outputFrameSource(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMap_outputFrameSource_m607840B7A2D2F098FD0D1E3434F0E591B367C274 (void);
+// 0x000001D7 System.Void easyar.Detail::easyar_SparseSpatialMap_create(System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMap_create_mFADE1586087CB3F0B9F1C4CCB6BDC9364CF7667E (void);
+// 0x000001D8 System.Boolean easyar.Detail::easyar_SparseSpatialMap_start(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMap_start_m72501E3AA93D6F5A1ABDF407BAFF5C2A52CDDC06 (void);
+// 0x000001D9 System.Void easyar.Detail::easyar_SparseSpatialMap_stop(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMap_stop_m91A3F3D7E56038DF010D44F367162C367A26B6FE (void);
+// 0x000001DA System.Void easyar.Detail::easyar_SparseSpatialMap_close(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMap_close_m46A3F9D4277EC8F96C44CA3320861E457990AB0F (void);
+// 0x000001DB System.Void easyar.Detail::easyar_SparseSpatialMap_getPointCloudBuffer(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMap_getPointCloudBuffer_m9DE583DB7022F8F24BFC9CE7BC1E2775A2520622 (void);
+// 0x000001DC System.Void easyar.Detail::easyar_SparseSpatialMap_getMapPlanes(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMap_getMapPlanes_m715D82A428740BA6B214578A929D5B49A57B0F79 (void);
+// 0x000001DD System.Void easyar.Detail::easyar_SparseSpatialMap_hitTestAgainstPointCloud(System.IntPtr,easyar.Vec2F,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMap_hitTestAgainstPointCloud_mF48543EB21DDFC6CBA0D0EF84F888873243D2987 (void);
+// 0x000001DE System.Void easyar.Detail::easyar_SparseSpatialMap_hitTestAgainstPlanes(System.IntPtr,easyar.Vec2F,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMap_hitTestAgainstPlanes_mE69BFD90C4D2120E8F32F7BC20868B744E7609AD (void);
+// 0x000001DF System.Void easyar.Detail::easyar_SparseSpatialMap_getMapVersion(System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMap_getMapVersion_mCA1177BCD3282720478155E748F45761CF8279CA (void);
+// 0x000001E0 System.Void easyar.Detail::easyar_SparseSpatialMap_unloadMap(System.IntPtr,System.IntPtr,System.IntPtr,easyar.Detail/OptionalOfFunctorOfVoidFromBool)
+extern void Detail_easyar_SparseSpatialMap_unloadMap_mB80EA6C08A53449C9CD1D72578CB6681DA18BEBA (void);
+// 0x000001E1 System.Void easyar.Detail::easyar_SparseSpatialMap_setConfig(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_SparseSpatialMap_setConfig_mF61E29D6B68B25BF63DB80300972263DC12E5139 (void);
+// 0x000001E2 System.Void easyar.Detail::easyar_SparseSpatialMap_getConfig(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMap_getConfig_mA5E4C4E0C55E911C76983B170BF39F0BDA32A2C7 (void);
+// 0x000001E3 System.Boolean easyar.Detail::easyar_SparseSpatialMap_startLocalization(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMap_startLocalization_m84E8D50B801A670C4F19902CA69A5878D97C24F8 (void);
+// 0x000001E4 System.Void easyar.Detail::easyar_SparseSpatialMap_stopLocalization(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMap_stopLocalization_mC05027468687071A212FAFEBDE6668F676F5FE07 (void);
+// 0x000001E5 System.Void easyar.Detail::easyar_SparseSpatialMap__dtor(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMap__dtor_m0E406B9BC5F3AA870CF2585EC895D13935079C30 (void);
+// 0x000001E6 System.Void easyar.Detail::easyar_SparseSpatialMap__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMap__retain_m4A107B754E64CE40C8827214862E67BA4EDEE5F9 (void);
+// 0x000001E7 System.IntPtr easyar.Detail::easyar_SparseSpatialMap__typeName(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMap__typeName_mADED1E35AC9971CAE3C0C8CA364142609889BA84 (void);
+// 0x000001E8 System.Boolean easyar.Detail::easyar_SparseSpatialMapManager_isAvailable()
+extern void Detail_easyar_SparseSpatialMapManager_isAvailable_m984090284167BE49363F679134028D005F27C1A2 (void);
+// 0x000001E9 System.Void easyar.Detail::easyar_SparseSpatialMapManager_create(System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMapManager_create_m8B94F3A394F0FF52F328DB53E0019BC9E3556CEB (void);
+// 0x000001EA System.Void easyar.Detail::easyar_SparseSpatialMapManager_host(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,easyar.Detail/OptionalOfImage,easyar.Detail/OptionalOfInt,System.IntPtr,easyar.Detail/FunctorOfVoidFromBoolAndStringAndString)
+extern void Detail_easyar_SparseSpatialMapManager_host_m0E4167F5E49BF8462156209AEFC8451DDD20DF02 (void);
+// 0x000001EB System.Void easyar.Detail::easyar_SparseSpatialMapManager_load(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,easyar.Detail/OptionalOfInt,System.IntPtr,easyar.Detail/FunctorOfVoidFromBoolAndString)
+extern void Detail_easyar_SparseSpatialMapManager_load_mA80D32454ABAA27D7D9A27C71ED0E3BFE21AAB2A (void);
+// 0x000001EC System.Void easyar.Detail::easyar_SparseSpatialMapManager_clear(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapManager_clear_m901D4A742054BE85D384FA4BBF1B0555A500480A (void);
+// 0x000001ED System.Void easyar.Detail::easyar_SparseSpatialMapManager__dtor(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapManager__dtor_m28C4F00D9C525415DB9C0C82CB725C5FD7C5683B (void);
+// 0x000001EE System.Void easyar.Detail::easyar_SparseSpatialMapManager__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SparseSpatialMapManager__retain_mF3A7440BF67DB891A3DC7FBCBF0D39A3B96845D7 (void);
+// 0x000001EF System.IntPtr easyar.Detail::easyar_SparseSpatialMapManager__typeName(System.IntPtr)
+extern void Detail_easyar_SparseSpatialMapManager__typeName_m24BCF360762EAD37EBDB664788B4983B5E993487 (void);
+// 0x000001F0 System.Int32 easyar.Detail::easyar_Engine_schemaHash()
+extern void Detail_easyar_Engine_schemaHash_m6BCAE4776B0E67E9DC7ABAA2EB95D6F2347358E7 (void);
+// 0x000001F1 System.Boolean easyar.Detail::easyar_Engine_initialize(System.IntPtr)
+extern void Detail_easyar_Engine_initialize_mD7F0733B20A8483696E2F26F7C20475A25D31AA1 (void);
+// 0x000001F2 System.Void easyar.Detail::easyar_Engine_onPause()
+extern void Detail_easyar_Engine_onPause_m99283AA2DC6F28615D9BDC701C861EF307AB94BC (void);
+// 0x000001F3 System.Void easyar.Detail::easyar_Engine_onResume()
+extern void Detail_easyar_Engine_onResume_mC6439AF642FA79E02E91084018ACF8FBC8B7A76A (void);
+// 0x000001F4 System.Void easyar.Detail::easyar_Engine_errorMessage(System.IntPtr&)
+extern void Detail_easyar_Engine_errorMessage_m67BF22C40212CD74BA88935503E6CDE1BD3073FB (void);
+// 0x000001F5 System.Void easyar.Detail::easyar_Engine_versionString(System.IntPtr&)
+extern void Detail_easyar_Engine_versionString_m307BCAE2430CFBA9FDCED699A2D0868A3650372C (void);
+// 0x000001F6 System.Void easyar.Detail::easyar_Engine_name(System.IntPtr&)
+extern void Detail_easyar_Engine_name_mC5ECCB3E1B4E20DBE1A97485AE7F70CE504F3434 (void);
+// 0x000001F7 System.Void easyar.Detail::easyar_Engine_variant(System.IntPtr&)
+extern void Detail_easyar_Engine_variant_m89DF3A784B7AA981BB143778C577218772C9FC6A (void);
+// 0x000001F8 System.Boolean easyar.Detail::easyar_Engine_isLicenseKeyMatched(System.IntPtr,System.IntPtr,System.IntPtr,easyar.EngineOperatingSystem)
+extern void Detail_easyar_Engine_isLicenseKeyMatched_m8A981CBB85BE5955A9F066965121598861B0BE0B (void);
+// 0x000001F9 System.Void easyar.Detail::easyar_VideoPlayer__ctor(System.IntPtr&)
+extern void Detail_easyar_VideoPlayer__ctor_mCF2194F3DED76A978DE66BB5426A2A58411693DB (void);
+// 0x000001FA System.Boolean easyar.Detail::easyar_VideoPlayer_isAvailable()
+extern void Detail_easyar_VideoPlayer_isAvailable_mE17FDE0C6D4818342E43D10C3AD65E4A028BE17F (void);
+// 0x000001FB System.Void easyar.Detail::easyar_VideoPlayer_setVideoType(System.IntPtr,easyar.VideoType)
+extern void Detail_easyar_VideoPlayer_setVideoType_m7D7E44071E9F133FA0DC4D0E5128893465C4BFDE (void);
+// 0x000001FC System.Void easyar.Detail::easyar_VideoPlayer_setRenderTexture(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_VideoPlayer_setRenderTexture_mF85ED19B40A2254FE9920C8EA9E4A306A50D6B58 (void);
+// 0x000001FD System.Void easyar.Detail::easyar_VideoPlayer_open(System.IntPtr,System.IntPtr,easyar.StorageType,System.IntPtr,easyar.Detail/OptionalOfFunctorOfVoidFromVideoStatus)
+extern void Detail_easyar_VideoPlayer_open_m05E27BA9567BE23D16A451BBACA51C3169A768C3 (void);
+// 0x000001FE System.Void easyar.Detail::easyar_VideoPlayer_close(System.IntPtr)
+extern void Detail_easyar_VideoPlayer_close_mB40F38CB6B0BB5775DC2B5CE2786136AA27A95FC (void);
+// 0x000001FF System.Boolean easyar.Detail::easyar_VideoPlayer_play(System.IntPtr)
+extern void Detail_easyar_VideoPlayer_play_m4D90323DE2C70CEEE6370CDEE28C7BF02349CFF3 (void);
+// 0x00000200 System.Void easyar.Detail::easyar_VideoPlayer_stop(System.IntPtr)
+extern void Detail_easyar_VideoPlayer_stop_m94FC7499FB13B1F62932FBD7C0AF08483F0BD551 (void);
+// 0x00000201 System.Void easyar.Detail::easyar_VideoPlayer_pause(System.IntPtr)
+extern void Detail_easyar_VideoPlayer_pause_m6893F52FF9B2A9458B6BAA955F8F5EEF877D3CDF (void);
+// 0x00000202 System.Boolean easyar.Detail::easyar_VideoPlayer_isRenderTextureAvailable(System.IntPtr)
+extern void Detail_easyar_VideoPlayer_isRenderTextureAvailable_m58F6D90E4051AF81628371FECF5BE795C70AFCC3 (void);
+// 0x00000203 System.Void easyar.Detail::easyar_VideoPlayer_updateFrame(System.IntPtr)
+extern void Detail_easyar_VideoPlayer_updateFrame_mDF9F9BE27358335E135A9CC1D42DC394AE12CBD2 (void);
+// 0x00000204 System.Int32 easyar.Detail::easyar_VideoPlayer_duration(System.IntPtr)
+extern void Detail_easyar_VideoPlayer_duration_m65979278DC69E7C8D24DC5DD69C3F61855073F7A (void);
+// 0x00000205 System.Int32 easyar.Detail::easyar_VideoPlayer_currentPosition(System.IntPtr)
+extern void Detail_easyar_VideoPlayer_currentPosition_m68FED22C64191DC6067FB2BD618F686F2CFB966D (void);
+// 0x00000206 System.Boolean easyar.Detail::easyar_VideoPlayer_seek(System.IntPtr,System.Int32)
+extern void Detail_easyar_VideoPlayer_seek_mA9CA74678018AE375C35E810BA31F0EB803614B8 (void);
+// 0x00000207 easyar.Vec2I easyar.Detail::easyar_VideoPlayer_size(System.IntPtr)
+extern void Detail_easyar_VideoPlayer_size_m34004DE528849B9F33A6088D10C682BA3A83612D (void);
+// 0x00000208 System.Single easyar.Detail::easyar_VideoPlayer_volume(System.IntPtr)
+extern void Detail_easyar_VideoPlayer_volume_m3258DB786E850166C438C389CEF6CAD7EA3A51F5 (void);
+// 0x00000209 System.Boolean easyar.Detail::easyar_VideoPlayer_setVolume(System.IntPtr,System.Single)
+extern void Detail_easyar_VideoPlayer_setVolume_m901A04436B6C131B5A73866C8D5B2555B57A6640 (void);
+// 0x0000020A System.Void easyar.Detail::easyar_VideoPlayer__dtor(System.IntPtr)
+extern void Detail_easyar_VideoPlayer__dtor_m044923E01FA608C169C52A37CBEC7BCEAE1E9496 (void);
+// 0x0000020B System.Void easyar.Detail::easyar_VideoPlayer__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_VideoPlayer__retain_m78E4FD05FFACED3BFA19A1B3D45D3E26694E326A (void);
+// 0x0000020C System.IntPtr easyar.Detail::easyar_VideoPlayer__typeName(System.IntPtr)
+extern void Detail_easyar_VideoPlayer__typeName_m957DAF7C3C7144CBED365E1DD56994F8F2AA3BA8 (void);
+// 0x0000020D System.Void easyar.Detail::easyar_ImageHelper_decode(System.IntPtr,easyar.Detail/OptionalOfImage&)
+extern void Detail_easyar_ImageHelper_decode_m6E64435711A5CBB3242FAE189BD1244CD457C66B (void);
+// 0x0000020E System.Void easyar.Detail::easyar_SignalSink_handle(System.IntPtr)
+extern void Detail_easyar_SignalSink_handle_m4E59050E8E26BAED949B4FBA683518BD705A9C2C (void);
+// 0x0000020F System.Void easyar.Detail::easyar_SignalSink__dtor(System.IntPtr)
+extern void Detail_easyar_SignalSink__dtor_m26C2006F4A4EFAD1F7A95BD91CF02D57A35886BF (void);
+// 0x00000210 System.Void easyar.Detail::easyar_SignalSink__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SignalSink__retain_mA27A1B74BFA558DFA13C22772AC439D430EC560C (void);
+// 0x00000211 System.IntPtr easyar.Detail::easyar_SignalSink__typeName(System.IntPtr)
+extern void Detail_easyar_SignalSink__typeName_m5C2F36B825AD384997839BE4325C0A5BDE0107E7 (void);
+// 0x00000212 System.Void easyar.Detail::easyar_SignalSource_setHandler(System.IntPtr,easyar.Detail/OptionalOfFunctorOfVoid)
+extern void Detail_easyar_SignalSource_setHandler_m8EDAE5202E02F3801811F0548FFC5D4D4CBDB3A1 (void);
+// 0x00000213 System.Void easyar.Detail::easyar_SignalSource_connect(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_SignalSource_connect_mB79A62429A970775185D30F1D6E2AE06CD63A52D (void);
+// 0x00000214 System.Void easyar.Detail::easyar_SignalSource_disconnect(System.IntPtr)
+extern void Detail_easyar_SignalSource_disconnect_mB02D3DD7359617AA5811F3B8AC5CAD786D96816A (void);
+// 0x00000215 System.Void easyar.Detail::easyar_SignalSource__dtor(System.IntPtr)
+extern void Detail_easyar_SignalSource__dtor_m8568757F2E972E92ED97DDEF276A50D71533B800 (void);
+// 0x00000216 System.Void easyar.Detail::easyar_SignalSource__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_SignalSource__retain_m61BB39A455AE5861AC70D9023AD2F69945CB2BBB (void);
+// 0x00000217 System.IntPtr easyar.Detail::easyar_SignalSource__typeName(System.IntPtr)
+extern void Detail_easyar_SignalSource__typeName_m31237C36C77C2F122C21911D0C287FAC17C35A9B (void);
+// 0x00000218 System.Void easyar.Detail::easyar_InputFrameSink_handle(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_InputFrameSink_handle_m1CDFCF5214EF1A6E2D23D658651C90BB8AEAFF18 (void);
+// 0x00000219 System.Void easyar.Detail::easyar_InputFrameSink__dtor(System.IntPtr)
+extern void Detail_easyar_InputFrameSink__dtor_mC38357FC280697697F7B9BE51EB39153E66C909E (void);
+// 0x0000021A System.Void easyar.Detail::easyar_InputFrameSink__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameSink__retain_m2DE1117C33F4C1411069A135DF2FCE5B81D0B38C (void);
+// 0x0000021B System.IntPtr easyar.Detail::easyar_InputFrameSink__typeName(System.IntPtr)
+extern void Detail_easyar_InputFrameSink__typeName_mB976EBB2E6991ED8CAD84A209DC966C0C51CEA17 (void);
+// 0x0000021C System.Void easyar.Detail::easyar_InputFrameSource_setHandler(System.IntPtr,easyar.Detail/OptionalOfFunctorOfVoidFromInputFrame)
+extern void Detail_easyar_InputFrameSource_setHandler_mF39583CD115F5018BB0472C119506CFED7A7C61F (void);
+// 0x0000021D System.Void easyar.Detail::easyar_InputFrameSource_connect(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_InputFrameSource_connect_mA415CC345BF8CF286839BDF356A3EC0A53044219 (void);
+// 0x0000021E System.Void easyar.Detail::easyar_InputFrameSource_disconnect(System.IntPtr)
+extern void Detail_easyar_InputFrameSource_disconnect_m10F2C5D18E9C17A88CA94677CD5B66E1A1697AB8 (void);
+// 0x0000021F System.Void easyar.Detail::easyar_InputFrameSource__dtor(System.IntPtr)
+extern void Detail_easyar_InputFrameSource__dtor_m34C1A5EBEF2039B8A0E8497DE7CE491BE746B95C (void);
+// 0x00000220 System.Void easyar.Detail::easyar_InputFrameSource__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameSource__retain_m96E295856C0307B72AA1FA704E3C1B25FA51492B (void);
+// 0x00000221 System.IntPtr easyar.Detail::easyar_InputFrameSource__typeName(System.IntPtr)
+extern void Detail_easyar_InputFrameSource__typeName_m30845774C5BD5F73CA6670FB99F845CF6D284D57 (void);
+// 0x00000222 System.Void easyar.Detail::easyar_OutputFrameSink_handle(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_OutputFrameSink_handle_m5D66BF5F939BC3F4F6171656BA4BB1A7D37E9EB2 (void);
+// 0x00000223 System.Void easyar.Detail::easyar_OutputFrameSink__dtor(System.IntPtr)
+extern void Detail_easyar_OutputFrameSink__dtor_mE215A4DBE59BAFA0CE98695DED125C74A04AA8FC (void);
+// 0x00000224 System.Void easyar.Detail::easyar_OutputFrameSink__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrameSink__retain_mCA9495B17D3E34B65C2A4F8B7676313405B9299C (void);
+// 0x00000225 System.IntPtr easyar.Detail::easyar_OutputFrameSink__typeName(System.IntPtr)
+extern void Detail_easyar_OutputFrameSink__typeName_mEC01DFB4300BE7F15095BBC3FF0F066198FF6296 (void);
+// 0x00000226 System.Void easyar.Detail::easyar_OutputFrameSource_setHandler(System.IntPtr,easyar.Detail/OptionalOfFunctorOfVoidFromOutputFrame)
+extern void Detail_easyar_OutputFrameSource_setHandler_m0D0F8E7B0D5D6FB77DF4D6A43F820E28B7C7AB92 (void);
+// 0x00000227 System.Void easyar.Detail::easyar_OutputFrameSource_connect(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_OutputFrameSource_connect_m63029C33159A076F855783549ACE3B431A8FFA27 (void);
+// 0x00000228 System.Void easyar.Detail::easyar_OutputFrameSource_disconnect(System.IntPtr)
+extern void Detail_easyar_OutputFrameSource_disconnect_mF9CED3DC5AC9BCBF84FE5B88B1961E9A5483CD6D (void);
+// 0x00000229 System.Void easyar.Detail::easyar_OutputFrameSource__dtor(System.IntPtr)
+extern void Detail_easyar_OutputFrameSource__dtor_m6AEA67BBB9475C01FFFDA71D3B3E56788E3237DB (void);
+// 0x0000022A System.Void easyar.Detail::easyar_OutputFrameSource__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrameSource__retain_m10030E2AB2B7BD818A1A233BA508BA24E32B5E67 (void);
+// 0x0000022B System.IntPtr easyar.Detail::easyar_OutputFrameSource__typeName(System.IntPtr)
+extern void Detail_easyar_OutputFrameSource__typeName_m413CD7FF9B025732AC138855C10B2F4A33F31017 (void);
+// 0x0000022C System.Void easyar.Detail::easyar_FeedbackFrameSink_handle(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_FeedbackFrameSink_handle_mA438C5D09D68EEF9E3ECBCAA58A42AB8697D4822 (void);
+// 0x0000022D System.Void easyar.Detail::easyar_FeedbackFrameSink__dtor(System.IntPtr)
+extern void Detail_easyar_FeedbackFrameSink__dtor_m7064631EE7E8690FDE092A6C6697E39D7BE08652 (void);
+// 0x0000022E System.Void easyar.Detail::easyar_FeedbackFrameSink__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_FeedbackFrameSink__retain_m1052977B494D7E495F1AB1259FD167D8C2B4F946 (void);
+// 0x0000022F System.IntPtr easyar.Detail::easyar_FeedbackFrameSink__typeName(System.IntPtr)
+extern void Detail_easyar_FeedbackFrameSink__typeName_m50538DADCF39C3125F042B91FD77652320D56059 (void);
+// 0x00000230 System.Void easyar.Detail::easyar_FeedbackFrameSource_setHandler(System.IntPtr,easyar.Detail/OptionalOfFunctorOfVoidFromFeedbackFrame)
+extern void Detail_easyar_FeedbackFrameSource_setHandler_mB718CAF236525924E3E89B80481902320D03ED36 (void);
+// 0x00000231 System.Void easyar.Detail::easyar_FeedbackFrameSource_connect(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_FeedbackFrameSource_connect_mD817D41B1FBD2D931E5EC757A29FB4D0F1536AC0 (void);
+// 0x00000232 System.Void easyar.Detail::easyar_FeedbackFrameSource_disconnect(System.IntPtr)
+extern void Detail_easyar_FeedbackFrameSource_disconnect_m092D277A88308EEF369987A1ECDD08DBE1ED60B9 (void);
+// 0x00000233 System.Void easyar.Detail::easyar_FeedbackFrameSource__dtor(System.IntPtr)
+extern void Detail_easyar_FeedbackFrameSource__dtor_m53A4CA2CD2FC6700E76C9DE6B43C08DFF50040C5 (void);
+// 0x00000234 System.Void easyar.Detail::easyar_FeedbackFrameSource__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_FeedbackFrameSource__retain_mB2F0411EA10C8F0F2764621073ABE0B31E49158F (void);
+// 0x00000235 System.IntPtr easyar.Detail::easyar_FeedbackFrameSource__typeName(System.IntPtr)
+extern void Detail_easyar_FeedbackFrameSource__typeName_mE4DDA49C392B330ECF3C86483AF51B3726D5F504 (void);
+// 0x00000236 System.Void easyar.Detail::easyar_InputFrameFork_input(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameFork_input_mE9B52A6A72350BE347E47B6448A32F39A36A99A4 (void);
+// 0x00000237 System.Void easyar.Detail::easyar_InputFrameFork_output(System.IntPtr,System.Int32,System.IntPtr&)
+extern void Detail_easyar_InputFrameFork_output_m769E620FFD1D6CB3EAB792BE58344098CF2D9C73 (void);
+// 0x00000238 System.Int32 easyar.Detail::easyar_InputFrameFork_outputCount(System.IntPtr)
+extern void Detail_easyar_InputFrameFork_outputCount_mB914B6B93C0F5B8533D83382A89F017AD16DCBDC (void);
+// 0x00000239 System.Void easyar.Detail::easyar_InputFrameFork_create(System.Int32,System.IntPtr&)
+extern void Detail_easyar_InputFrameFork_create_m3CF6262414127B2CF587BF72E536021233F6ED4C (void);
+// 0x0000023A System.Void easyar.Detail::easyar_InputFrameFork__dtor(System.IntPtr)
+extern void Detail_easyar_InputFrameFork__dtor_m284E0244A0D651DA1DBBFCB157147E760F3190CB (void);
+// 0x0000023B System.Void easyar.Detail::easyar_InputFrameFork__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameFork__retain_m4F713786C75E3391CF203AE2EF9CF428708A356E (void);
+// 0x0000023C System.IntPtr easyar.Detail::easyar_InputFrameFork__typeName(System.IntPtr)
+extern void Detail_easyar_InputFrameFork__typeName_m838B140EC017067AC28A10953DA8F26FAE51B858 (void);
+// 0x0000023D System.Void easyar.Detail::easyar_OutputFrameFork_input(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrameFork_input_m367E808BDD7144E5DA9BAD2ADF66E3F9AF50CB4C (void);
+// 0x0000023E System.Void easyar.Detail::easyar_OutputFrameFork_output(System.IntPtr,System.Int32,System.IntPtr&)
+extern void Detail_easyar_OutputFrameFork_output_m839FD8681AF2CD8D9E6069DDA7F6347E8E39FCAC (void);
+// 0x0000023F System.Int32 easyar.Detail::easyar_OutputFrameFork_outputCount(System.IntPtr)
+extern void Detail_easyar_OutputFrameFork_outputCount_mDF50A9F1288F7C343023F6E91B1331AC16AC5AFE (void);
+// 0x00000240 System.Void easyar.Detail::easyar_OutputFrameFork_create(System.Int32,System.IntPtr&)
+extern void Detail_easyar_OutputFrameFork_create_m145AD93F6E03C71B81D6D2313874BC3DA0A8A53F (void);
+// 0x00000241 System.Void easyar.Detail::easyar_OutputFrameFork__dtor(System.IntPtr)
+extern void Detail_easyar_OutputFrameFork__dtor_m8FFFCEC3A255B648CE69016188690119713F6BEF (void);
+// 0x00000242 System.Void easyar.Detail::easyar_OutputFrameFork__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrameFork__retain_m133CF153E6D6F4F1F120F07780090DBF1E3CBB8C (void);
+// 0x00000243 System.IntPtr easyar.Detail::easyar_OutputFrameFork__typeName(System.IntPtr)
+extern void Detail_easyar_OutputFrameFork__typeName_mD7A29D501E45907F087A925FACB8D5C6D171EE59 (void);
+// 0x00000244 System.Void easyar.Detail::easyar_OutputFrameJoin_input(System.IntPtr,System.Int32,System.IntPtr&)
+extern void Detail_easyar_OutputFrameJoin_input_m25B8B31255D18F63E457933B674F5FBE924089CC (void);
+// 0x00000245 System.Void easyar.Detail::easyar_OutputFrameJoin_output(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrameJoin_output_mC7D51A001099612BA62EBC676A4A4682FFA4F326 (void);
+// 0x00000246 System.Int32 easyar.Detail::easyar_OutputFrameJoin_inputCount(System.IntPtr)
+extern void Detail_easyar_OutputFrameJoin_inputCount_mF11B5971634E79EBAF19362C57AB0825F3B06563 (void);
+// 0x00000247 System.Void easyar.Detail::easyar_OutputFrameJoin_create(System.Int32,System.IntPtr&)
+extern void Detail_easyar_OutputFrameJoin_create_m91C43E4EE42BFCFCED7038565423A85201C2C132 (void);
+// 0x00000248 System.Void easyar.Detail::easyar_OutputFrameJoin_createWithJoiner(System.Int32,easyar.Detail/FunctorOfOutputFrameFromListOfOutputFrame,System.IntPtr&)
+extern void Detail_easyar_OutputFrameJoin_createWithJoiner_mDAD2A7D6F78720086235B026A08DE350AB22E434 (void);
+// 0x00000249 System.Void easyar.Detail::easyar_OutputFrameJoin__dtor(System.IntPtr)
+extern void Detail_easyar_OutputFrameJoin__dtor_m7E59661C1F8302671F5F36211526D5E971812AB7 (void);
+// 0x0000024A System.Void easyar.Detail::easyar_OutputFrameJoin__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrameJoin__retain_m689ABB6B9E00B4D3ECFDB1CFD8C5AE39219651AE (void);
+// 0x0000024B System.IntPtr easyar.Detail::easyar_OutputFrameJoin__typeName(System.IntPtr)
+extern void Detail_easyar_OutputFrameJoin__typeName_m31DF197489A4187CB1FB2F94C6B983C159018D14 (void);
+// 0x0000024C System.Void easyar.Detail::easyar_FeedbackFrameFork_input(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_FeedbackFrameFork_input_m16BC8AF0A25713853C8DE280EE95A5567F6D1B0C (void);
+// 0x0000024D System.Void easyar.Detail::easyar_FeedbackFrameFork_output(System.IntPtr,System.Int32,System.IntPtr&)
+extern void Detail_easyar_FeedbackFrameFork_output_mEBCBEB192284D1ED6AD520A460316F189B7FBFE9 (void);
+// 0x0000024E System.Int32 easyar.Detail::easyar_FeedbackFrameFork_outputCount(System.IntPtr)
+extern void Detail_easyar_FeedbackFrameFork_outputCount_m1B4E528ABF7F5ABDC0DF597C6F4167454D2B7F16 (void);
+// 0x0000024F System.Void easyar.Detail::easyar_FeedbackFrameFork_create(System.Int32,System.IntPtr&)
+extern void Detail_easyar_FeedbackFrameFork_create_mA8EBE15E3FCA2BAEB6F5043566D8AABC62F1832D (void);
+// 0x00000250 System.Void easyar.Detail::easyar_FeedbackFrameFork__dtor(System.IntPtr)
+extern void Detail_easyar_FeedbackFrameFork__dtor_mD3D5ED9F32ABC502C3E8C9BC417C65C61B016397 (void);
+// 0x00000251 System.Void easyar.Detail::easyar_FeedbackFrameFork__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_FeedbackFrameFork__retain_mFA8F65323468E2EDF587B0EC15E185C5E74650C4 (void);
+// 0x00000252 System.IntPtr easyar.Detail::easyar_FeedbackFrameFork__typeName(System.IntPtr)
+extern void Detail_easyar_FeedbackFrameFork__typeName_m16CE373D77D1D90D820E6474E9C9C32BA453B412 (void);
+// 0x00000253 System.Void easyar.Detail::easyar_InputFrameThrottler_input(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameThrottler_input_m241D04B605C995DA2A9924B6D1B9DEFA4EB649AE (void);
+// 0x00000254 System.Int32 easyar.Detail::easyar_InputFrameThrottler_bufferRequirement(System.IntPtr)
+extern void Detail_easyar_InputFrameThrottler_bufferRequirement_m3C1195F9E641C2E373861ACCBCE32D8F342F5367 (void);
+// 0x00000255 System.Void easyar.Detail::easyar_InputFrameThrottler_output(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameThrottler_output_m8722380E270BEE9AD96B8E52E9AD651B630ECE21 (void);
+// 0x00000256 System.Void easyar.Detail::easyar_InputFrameThrottler_signalInput(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameThrottler_signalInput_mECE5E50A679F01F49E66EDB774EA1C1F8941B86A (void);
+// 0x00000257 System.Void easyar.Detail::easyar_InputFrameThrottler_create(System.IntPtr&)
+extern void Detail_easyar_InputFrameThrottler_create_m3C34C37CE64217C9DF6B1EC9A9D6E6AA77C0F32C (void);
+// 0x00000258 System.Void easyar.Detail::easyar_InputFrameThrottler__dtor(System.IntPtr)
+extern void Detail_easyar_InputFrameThrottler__dtor_m9D09401E7BB08B85614BE0590A7AC68C8C47A71A (void);
+// 0x00000259 System.Void easyar.Detail::easyar_InputFrameThrottler__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameThrottler__retain_m70DC934100AE170F59C2A1A014989B85A443B8D5 (void);
+// 0x0000025A System.IntPtr easyar.Detail::easyar_InputFrameThrottler__typeName(System.IntPtr)
+extern void Detail_easyar_InputFrameThrottler__typeName_mB907CE5B4C69069728EB3F39E3B4DDDCB3B8CC3C (void);
+// 0x0000025B System.Void easyar.Detail::easyar_OutputFrameBuffer_input(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrameBuffer_input_m6D876AC8D1B6102526F0A447B495BC945802A815 (void);
+// 0x0000025C System.Int32 easyar.Detail::easyar_OutputFrameBuffer_bufferRequirement(System.IntPtr)
+extern void Detail_easyar_OutputFrameBuffer_bufferRequirement_mB0CDDF0ACD86C0625C09409E07D872C777D064B2 (void);
+// 0x0000025D System.Void easyar.Detail::easyar_OutputFrameBuffer_signalOutput(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrameBuffer_signalOutput_m06C674DCD542E9BF6BC1D82CD676B627C6037B71 (void);
+// 0x0000025E System.Void easyar.Detail::easyar_OutputFrameBuffer_peek(System.IntPtr,easyar.Detail/OptionalOfOutputFrame&)
+extern void Detail_easyar_OutputFrameBuffer_peek_m0CF4D4F738CE2599D71069C3F0FDA5F275AE1A63 (void);
+// 0x0000025F System.Void easyar.Detail::easyar_OutputFrameBuffer_create(System.IntPtr&)
+extern void Detail_easyar_OutputFrameBuffer_create_m1D9F19DFC7B5280A8E5AFEF90B4276384714CE25 (void);
+// 0x00000260 System.Void easyar.Detail::easyar_OutputFrameBuffer_pause(System.IntPtr)
+extern void Detail_easyar_OutputFrameBuffer_pause_m821CA8AEA87F3B07FDB0EA7EEB242C15D1C9030D (void);
+// 0x00000261 System.Void easyar.Detail::easyar_OutputFrameBuffer_resume(System.IntPtr)
+extern void Detail_easyar_OutputFrameBuffer_resume_m75F28DA763191EA00F4E7715826BF114E212218A (void);
+// 0x00000262 System.Void easyar.Detail::easyar_OutputFrameBuffer__dtor(System.IntPtr)
+extern void Detail_easyar_OutputFrameBuffer__dtor_m96315B9FF01C3CCD2C2F5B9BC54EA68C855B3BBA (void);
+// 0x00000263 System.Void easyar.Detail::easyar_OutputFrameBuffer__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrameBuffer__retain_m423618AE1E1847C2C11B08B577CC10D529FE7787 (void);
+// 0x00000264 System.IntPtr easyar.Detail::easyar_OutputFrameBuffer__typeName(System.IntPtr)
+extern void Detail_easyar_OutputFrameBuffer__typeName_m6A13E6FC89179C058EA0072B2593B81C28C7A450 (void);
+// 0x00000265 System.Void easyar.Detail::easyar_InputFrameToOutputFrameAdapter_input(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameToOutputFrameAdapter_input_m6D7BD6ED87C8023277BA622570D94EDB4CD1C503 (void);
+// 0x00000266 System.Void easyar.Detail::easyar_InputFrameToOutputFrameAdapter_output(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameToOutputFrameAdapter_output_mCB76C9B859D6CB2EE01414B31E433A82BEE604BA (void);
+// 0x00000267 System.Void easyar.Detail::easyar_InputFrameToOutputFrameAdapter_create(System.IntPtr&)
+extern void Detail_easyar_InputFrameToOutputFrameAdapter_create_m44610BE4AB931FFF17C8053E03A522450D0083EE (void);
+// 0x00000268 System.Void easyar.Detail::easyar_InputFrameToOutputFrameAdapter__dtor(System.IntPtr)
+extern void Detail_easyar_InputFrameToOutputFrameAdapter__dtor_mD68C7AC54D2861171C5781222BEADB3361DE56B8 (void);
+// 0x00000269 System.Void easyar.Detail::easyar_InputFrameToOutputFrameAdapter__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameToOutputFrameAdapter__retain_m90DFE05BC1E05EE65C54B7B9971A28EB89404468 (void);
+// 0x0000026A System.IntPtr easyar.Detail::easyar_InputFrameToOutputFrameAdapter__typeName(System.IntPtr)
+extern void Detail_easyar_InputFrameToOutputFrameAdapter__typeName_m64A5B83470B623A7B3A08B5BF1CF1AC6DCB074FE (void);
+// 0x0000026B System.Void easyar.Detail::easyar_InputFrameToFeedbackFrameAdapter_input(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameToFeedbackFrameAdapter_input_mEFBA3EF4304DC823EC188ABD5E5974DB7207625D (void);
+// 0x0000026C System.Int32 easyar.Detail::easyar_InputFrameToFeedbackFrameAdapter_bufferRequirement(System.IntPtr)
+extern void Detail_easyar_InputFrameToFeedbackFrameAdapter_bufferRequirement_mA4D5057C271FDC590B6776B784CF42C6593E8B31 (void);
+// 0x0000026D System.Void easyar.Detail::easyar_InputFrameToFeedbackFrameAdapter_sideInput(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameToFeedbackFrameAdapter_sideInput_m5A4BC0E52CF371F40A3E364AB294D5A37283A726 (void);
+// 0x0000026E System.Void easyar.Detail::easyar_InputFrameToFeedbackFrameAdapter_output(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameToFeedbackFrameAdapter_output_m4E08DDE8D750DC726842415B0AEBBE682EFF7281 (void);
+// 0x0000026F System.Void easyar.Detail::easyar_InputFrameToFeedbackFrameAdapter_create(System.IntPtr&)
+extern void Detail_easyar_InputFrameToFeedbackFrameAdapter_create_m2F3C42B08294A24C94157FA316EE3DCB276E0F0C (void);
+// 0x00000270 System.Void easyar.Detail::easyar_InputFrameToFeedbackFrameAdapter__dtor(System.IntPtr)
+extern void Detail_easyar_InputFrameToFeedbackFrameAdapter__dtor_mA5D6F888FC17045DE01388171F33F48B23156E6C (void);
+// 0x00000271 System.Void easyar.Detail::easyar_InputFrameToFeedbackFrameAdapter__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrameToFeedbackFrameAdapter__retain_m2DA3F68A912CB139E9B78F34DD9A8CED2F0B7340 (void);
+// 0x00000272 System.IntPtr easyar.Detail::easyar_InputFrameToFeedbackFrameAdapter__typeName(System.IntPtr)
+extern void Detail_easyar_InputFrameToFeedbackFrameAdapter__typeName_mC76899F336CC058E17037E7D288DE3C499B587DF (void);
+// 0x00000273 System.Int32 easyar.Detail::easyar_InputFrame_index(System.IntPtr)
+extern void Detail_easyar_InputFrame_index_m7FBFA77264CE21388B90E295F0C88193AFBC7D4B (void);
+// 0x00000274 System.Void easyar.Detail::easyar_InputFrame_image(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrame_image_mD80DFFF14419875C779CD09AE08245BEEC7B54E8 (void);
+// 0x00000275 System.Boolean easyar.Detail::easyar_InputFrame_hasCameraParameters(System.IntPtr)
+extern void Detail_easyar_InputFrame_hasCameraParameters_m6F3DD0DF2CB5C6B41B7CD8C2BFFF0335538A6D34 (void);
+// 0x00000276 System.Void easyar.Detail::easyar_InputFrame_cameraParameters(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrame_cameraParameters_mB72A5C33F3D4B20AA544EF0CD2F49978A44A8230 (void);
+// 0x00000277 System.Boolean easyar.Detail::easyar_InputFrame_hasTemporalInformation(System.IntPtr)
+extern void Detail_easyar_InputFrame_hasTemporalInformation_m0D983559CFB191563746AF6CE4B9E5AC1AE49CCD (void);
+// 0x00000278 System.Double easyar.Detail::easyar_InputFrame_timestamp(System.IntPtr)
+extern void Detail_easyar_InputFrame_timestamp_m7559ABED2DBFDA1CCF9569102988D0BD0A5FC9EA (void);
+// 0x00000279 System.Boolean easyar.Detail::easyar_InputFrame_hasSpatialInformation(System.IntPtr)
+extern void Detail_easyar_InputFrame_hasSpatialInformation_mC37DC128648A2B421D3043262F1819B4B8D190C6 (void);
+// 0x0000027A easyar.Matrix44F easyar.Detail::easyar_InputFrame_cameraTransform(System.IntPtr)
+extern void Detail_easyar_InputFrame_cameraTransform_m5F4CC0A67EF63054DBFE553FBA5A576E256BF2BD (void);
+// 0x0000027B easyar.MotionTrackingStatus easyar.Detail::easyar_InputFrame_trackingStatus(System.IntPtr)
+extern void Detail_easyar_InputFrame_trackingStatus_m576A7E3B063C4A8E4F2ABDE4DC672CC0138E1A57 (void);
+// 0x0000027C System.Void easyar.Detail::easyar_InputFrame_create(System.IntPtr,System.IntPtr,System.Double,easyar.Matrix44F,easyar.MotionTrackingStatus,System.IntPtr&)
+extern void Detail_easyar_InputFrame_create_mE1C6BDFCF8BC5AA2EAC528865D53F04D14340083 (void);
+// 0x0000027D System.Void easyar.Detail::easyar_InputFrame_createWithImageAndCameraParametersAndTemporal(System.IntPtr,System.IntPtr,System.Double,System.IntPtr&)
+extern void Detail_easyar_InputFrame_createWithImageAndCameraParametersAndTemporal_m679AF9D0515C22E2E660972BB3792774A29CD924 (void);
+// 0x0000027E System.Void easyar.Detail::easyar_InputFrame_createWithImageAndCameraParameters(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrame_createWithImageAndCameraParameters_m351DA72CA3273F90D2F0D88396EC17C33A38DF28 (void);
+// 0x0000027F System.Void easyar.Detail::easyar_InputFrame_createWithImage(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrame_createWithImage_m9C08085647B74233D7816FCE44ACCEDB82DD34B2 (void);
+// 0x00000280 System.Void easyar.Detail::easyar_InputFrame__dtor(System.IntPtr)
+extern void Detail_easyar_InputFrame__dtor_mCE347A0A63CF907233196ACFB3328696057F147B (void);
+// 0x00000281 System.Void easyar.Detail::easyar_InputFrame__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_InputFrame__retain_mC00917E89FC8203AB16426242BC131A1F28C0211 (void);
+// 0x00000282 System.IntPtr easyar.Detail::easyar_InputFrame__typeName(System.IntPtr)
+extern void Detail_easyar_InputFrame__typeName_m85B64BAD2C20604E170D1F097E6FE7B5B54A6CAC (void);
+// 0x00000283 System.Void easyar.Detail::easyar_FrameFilterResult__dtor(System.IntPtr)
+extern void Detail_easyar_FrameFilterResult__dtor_m19E78FF977C940EE1DCD7785DA515DD11B469DE6 (void);
+// 0x00000284 System.Void easyar.Detail::easyar_FrameFilterResult__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_FrameFilterResult__retain_m187A78F4F269D476213BFD36154909CCC95F158D (void);
+// 0x00000285 System.IntPtr easyar.Detail::easyar_FrameFilterResult__typeName(System.IntPtr)
+extern void Detail_easyar_FrameFilterResult__typeName_m08D2720F90A0BC9C3DF21A5F05480115ACE8971A (void);
+// 0x00000286 System.Void easyar.Detail::easyar_OutputFrame__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrame__ctor_m257487F94834369B0F4F7680E9F140B220AA2E25 (void);
+// 0x00000287 System.Int32 easyar.Detail::easyar_OutputFrame_index(System.IntPtr)
+extern void Detail_easyar_OutputFrame_index_m4AA2844FA7F2A7DD7F8BA3D0858C56FE10A03FED (void);
+// 0x00000288 System.Void easyar.Detail::easyar_OutputFrame_inputFrame(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrame_inputFrame_m1E75BDF91598A60CEFFBE8FE07723C6DBE0CE2C3 (void);
+// 0x00000289 System.Void easyar.Detail::easyar_OutputFrame_results(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrame_results_mE5A34582604F3321DF371B0CC5D1D97050C8DA8E (void);
+// 0x0000028A System.Void easyar.Detail::easyar_OutputFrame__dtor(System.IntPtr)
+extern void Detail_easyar_OutputFrame__dtor_mDA8C148293BAFB33ECF518DAB862899BEE15DFF8 (void);
+// 0x0000028B System.Void easyar.Detail::easyar_OutputFrame__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_OutputFrame__retain_mFD12A6B15C3AF3015EF82338DF33A806F4A5C72D (void);
+// 0x0000028C System.IntPtr easyar.Detail::easyar_OutputFrame__typeName(System.IntPtr)
+extern void Detail_easyar_OutputFrame__typeName_m608C3A3605CE523CBEDCA3C8F3F11BDC029A68ED (void);
+// 0x0000028D System.Void easyar.Detail::easyar_FeedbackFrame__ctor(System.IntPtr,easyar.Detail/OptionalOfOutputFrame,System.IntPtr&)
+extern void Detail_easyar_FeedbackFrame__ctor_mB0944AF12BAA7354D0A536B058EABB877FB9EBC9 (void);
+// 0x0000028E System.Void easyar.Detail::easyar_FeedbackFrame_inputFrame(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_FeedbackFrame_inputFrame_mC0072ECFDE761ECB7C8FF0E75F15F43D113AB6E5 (void);
+// 0x0000028F System.Void easyar.Detail::easyar_FeedbackFrame_previousOutputFrame(System.IntPtr,easyar.Detail/OptionalOfOutputFrame&)
+extern void Detail_easyar_FeedbackFrame_previousOutputFrame_m8A49819B9DF7C2CDF9F670F452200EBF3F12C9AE (void);
+// 0x00000290 System.Void easyar.Detail::easyar_FeedbackFrame__dtor(System.IntPtr)
+extern void Detail_easyar_FeedbackFrame__dtor_m300D6AC92BFDFBFC752C0B1044CBCC187EB73408 (void);
+// 0x00000291 System.Void easyar.Detail::easyar_FeedbackFrame__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_FeedbackFrame__retain_m41B167A476625E2489FA3E9AFD59322286CE16CB (void);
+// 0x00000292 System.IntPtr easyar.Detail::easyar_FeedbackFrame__typeName(System.IntPtr)
+extern void Detail_easyar_FeedbackFrame__typeName_mF3D618540B20BAB3E549E0679979BBEDA97F7A34 (void);
+// 0x00000293 System.Int32 easyar.Detail::easyar_Target_runtimeID(System.IntPtr)
+extern void Detail_easyar_Target_runtimeID_m797A6924FB46AE0E73AEDEA53C9DF609D99D701B (void);
+// 0x00000294 System.Void easyar.Detail::easyar_Target_uid(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_Target_uid_m9DDD51A9F7C85B3690DEB41990615D996D335F54 (void);
+// 0x00000295 System.Void easyar.Detail::easyar_Target_name(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_Target_name_m8F95FEDEDFD07B112E7DE343B0A000BD6A0689FE (void);
+// 0x00000296 System.Void easyar.Detail::easyar_Target_setName(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_Target_setName_mF75BF61D14D914BB8E3E5853F7F8184A4724214E (void);
+// 0x00000297 System.Void easyar.Detail::easyar_Target_meta(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_Target_meta_m957386115A0F516D8D3994CAE84C3A4C29F74BF8 (void);
+// 0x00000298 System.Void easyar.Detail::easyar_Target_setMeta(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_Target_setMeta_m51ED2715710649ACFC7C90B3F38041DDFAAE83E8 (void);
+// 0x00000299 System.Void easyar.Detail::easyar_Target__dtor(System.IntPtr)
+extern void Detail_easyar_Target__dtor_m09014BEF7FCD0B2BB2A96F9157978602D6623ED3 (void);
+// 0x0000029A System.Void easyar.Detail::easyar_Target__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_Target__retain_m4EDFEED0B2DA1ED5824511442D04C09193016999 (void);
+// 0x0000029B System.IntPtr easyar.Detail::easyar_Target__typeName(System.IntPtr)
+extern void Detail_easyar_Target__typeName_m5954A048B5C7A5B808935FE36A12FD17FB552F7B (void);
+// 0x0000029C System.Void easyar.Detail::easyar_TargetInstance__ctor(System.IntPtr&)
+extern void Detail_easyar_TargetInstance__ctor_mCD49E1244071524A29741469AA4B4DA5FA501783 (void);
+// 0x0000029D easyar.TargetStatus easyar.Detail::easyar_TargetInstance_status(System.IntPtr)
+extern void Detail_easyar_TargetInstance_status_m11C69900AE734E4EA2E7B365F432E403FD4B8D16 (void);
+// 0x0000029E System.Void easyar.Detail::easyar_TargetInstance_target(System.IntPtr,easyar.Detail/OptionalOfTarget&)
+extern void Detail_easyar_TargetInstance_target_m6997E86401767D9822EC3B5A97C6D6CC7BBCF512 (void);
+// 0x0000029F easyar.Matrix44F easyar.Detail::easyar_TargetInstance_pose(System.IntPtr)
+extern void Detail_easyar_TargetInstance_pose_mAB75AEA924D0AD0D74ED09DE79F7156DCB192BBB (void);
+// 0x000002A0 System.Void easyar.Detail::easyar_TargetInstance__dtor(System.IntPtr)
+extern void Detail_easyar_TargetInstance__dtor_m13BBFB5C0EF5B5FFF268C0D443C72EE71B171A1C (void);
+// 0x000002A1 System.Void easyar.Detail::easyar_TargetInstance__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_TargetInstance__retain_mABB3C8018D23214FA534667611F63A918A29337C (void);
+// 0x000002A2 System.IntPtr easyar.Detail::easyar_TargetInstance__typeName(System.IntPtr)
+extern void Detail_easyar_TargetInstance__typeName_m373D3387596C9C1A16A3341752D5B090ED669AE9 (void);
+// 0x000002A3 System.Void easyar.Detail::easyar_TargetTrackerResult_targetInstances(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_TargetTrackerResult_targetInstances_mC3D8EAF261387DA7ACBEAE70ED3D1EAB71A830CA (void);
+// 0x000002A4 System.Void easyar.Detail::easyar_TargetTrackerResult_setTargetInstances(System.IntPtr,System.IntPtr)
+extern void Detail_easyar_TargetTrackerResult_setTargetInstances_m304E6621198CD21390CD7B4DE3707110277728B5 (void);
+// 0x000002A5 System.Void easyar.Detail::easyar_TargetTrackerResult__dtor(System.IntPtr)
+extern void Detail_easyar_TargetTrackerResult__dtor_mA784508EF1ED47C03408D25CFE0350554E01DF26 (void);
+// 0x000002A6 System.Void easyar.Detail::easyar_TargetTrackerResult__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_TargetTrackerResult__retain_m95B593006ED7E495D368D48E7DBC92DC1F139B6C (void);
+// 0x000002A7 System.IntPtr easyar.Detail::easyar_TargetTrackerResult__typeName(System.IntPtr)
+extern void Detail_easyar_TargetTrackerResult__typeName_mD04F6CB12E74A513A117F9DA3A5CE46187A1C7FB (void);
+// 0x000002A8 System.Void easyar.Detail::easyar_castTargetTrackerResultToFrameFilterResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_castTargetTrackerResultToFrameFilterResult_mE67298605BA04F77787E0E28D179C6BDB1F53284 (void);
+// 0x000002A9 System.Void easyar.Detail::easyar_tryCastFrameFilterResultToTargetTrackerResult(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_tryCastFrameFilterResultToTargetTrackerResult_mCCA416030D66C2F85FFDD72DB0EF98C22FA93AFE (void);
+// 0x000002AA System.Int32 easyar.Detail::easyar_TextureId_getInt(System.IntPtr)
+extern void Detail_easyar_TextureId_getInt_m3A8622719195893E3F973C3ADA84A8FC14527D7B (void);
+// 0x000002AB System.IntPtr easyar.Detail::easyar_TextureId_getPointer(System.IntPtr)
+extern void Detail_easyar_TextureId_getPointer_mE17D5C4AF8E645CC8E1D00B728B5CCA6B4AA07D5 (void);
+// 0x000002AC System.Void easyar.Detail::easyar_TextureId_fromInt(System.Int32,System.IntPtr&)
+extern void Detail_easyar_TextureId_fromInt_mE12C2261825C5511CC2DDC52FBE0DC8C53CE312C (void);
+// 0x000002AD System.Void easyar.Detail::easyar_TextureId_fromPointer(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_TextureId_fromPointer_m7C12D195BCA95B5001929CF681E46B0AE7C18691 (void);
+// 0x000002AE System.Void easyar.Detail::easyar_TextureId__dtor(System.IntPtr)
+extern void Detail_easyar_TextureId__dtor_m015FD991B9803788EB62ABA0C4A2F84F23765FFF (void);
+// 0x000002AF System.Void easyar.Detail::easyar_TextureId__retain(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_TextureId__retain_m321D0119241301B0C1F99638E7C5FAC125A64C6D (void);
+// 0x000002B0 System.IntPtr easyar.Detail::easyar_TextureId__typeName(System.IntPtr)
+extern void Detail_easyar_TextureId__typeName_m40A7449276E55582CF78501BDD284E001A6B612A (void);
+// 0x000002B1 System.Void easyar.Detail::easyar_ListOfVec3F__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfVec3F__ctor_m9FA82066ACAD83064B7F596A6F6CCFA3272685E6 (void);
+// 0x000002B2 System.Void easyar.Detail::easyar_ListOfVec3F__dtor(System.IntPtr)
+extern void Detail_easyar_ListOfVec3F__dtor_m8244DDFF1477D22BF86EF99F6DF0346F6D98BCA3 (void);
+// 0x000002B3 System.Void easyar.Detail::easyar_ListOfVec3F_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfVec3F_copy_m01C2DD25A3B452269AA5E62F3E43DE94BECCE9C9 (void);
+// 0x000002B4 System.Int32 easyar.Detail::easyar_ListOfVec3F_size(System.IntPtr)
+extern void Detail_easyar_ListOfVec3F_size_mEA72A0E5A0899589859B9712E0C498E49573EB83 (void);
+// 0x000002B5 easyar.Vec3F easyar.Detail::easyar_ListOfVec3F_at(System.IntPtr,System.Int32)
+extern void Detail_easyar_ListOfVec3F_at_m4D070B4D1B9CAF9D8F8955DCD441F06136B51E0B (void);
+// 0x000002B6 System.Void easyar.Detail::easyar_ListOfTargetInstance__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfTargetInstance__ctor_mB9B0E3BD32541D8AD8ED7E2399C6F139100169E3 (void);
+// 0x000002B7 System.Void easyar.Detail::easyar_ListOfTargetInstance__dtor(System.IntPtr)
+extern void Detail_easyar_ListOfTargetInstance__dtor_m19B49E39C1DDB4704790531A41F63A391B06484B (void);
+// 0x000002B8 System.Void easyar.Detail::easyar_ListOfTargetInstance_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfTargetInstance_copy_mDACFEB3533B9CB5C9C85CDA434DABB8A1966A164 (void);
+// 0x000002B9 System.Int32 easyar.Detail::easyar_ListOfTargetInstance_size(System.IntPtr)
+extern void Detail_easyar_ListOfTargetInstance_size_mAF4BC7E9A017D0307CD11E1EBF238458F49CC99B (void);
+// 0x000002BA System.IntPtr easyar.Detail::easyar_ListOfTargetInstance_at(System.IntPtr,System.Int32)
+extern void Detail_easyar_ListOfTargetInstance_at_m22E3A6F19217E894C75CB1F1C235538B5869A659 (void);
+// 0x000002BB System.Void easyar.Detail::easyar_ListOfOptionalOfFrameFilterResult__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfOptionalOfFrameFilterResult__ctor_mCE07A34C5E37D1AA8D732D79D303715E7D688DDD (void);
+// 0x000002BC System.Void easyar.Detail::easyar_ListOfOptionalOfFrameFilterResult__dtor(System.IntPtr)
+extern void Detail_easyar_ListOfOptionalOfFrameFilterResult__dtor_mB22A86B7B5A617EC775E275915BD554B9AA78EB4 (void);
+// 0x000002BD System.Void easyar.Detail::easyar_ListOfOptionalOfFrameFilterResult_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfOptionalOfFrameFilterResult_copy_m47EC292540D9924A6207937A612819F3F7090E3B (void);
+// 0x000002BE System.Int32 easyar.Detail::easyar_ListOfOptionalOfFrameFilterResult_size(System.IntPtr)
+extern void Detail_easyar_ListOfOptionalOfFrameFilterResult_size_m75C6163B559166B7C134C254684F8DD6F337A2F9 (void);
+// 0x000002BF easyar.Detail/OptionalOfFrameFilterResult easyar.Detail::easyar_ListOfOptionalOfFrameFilterResult_at(System.IntPtr,System.Int32)
+extern void Detail_easyar_ListOfOptionalOfFrameFilterResult_at_m8F395CB834CF34FD0EB4D7AF588AF8049DE787F5 (void);
+// 0x000002C0 System.Void easyar.Detail::easyar_ListOfTarget__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfTarget__ctor_mE42ACCDEFF6439FDA49107120655F85FD2FC57E0 (void);
+// 0x000002C1 System.Void easyar.Detail::easyar_ListOfTarget__dtor(System.IntPtr)
+extern void Detail_easyar_ListOfTarget__dtor_m472A327D652A04B053C8CA0A5AF9BBC62AF1E9F3 (void);
+// 0x000002C2 System.Void easyar.Detail::easyar_ListOfTarget_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfTarget_copy_mC838EB1D7EDC2E472C986FD210C417536CF80AC4 (void);
+// 0x000002C3 System.Int32 easyar.Detail::easyar_ListOfTarget_size(System.IntPtr)
+extern void Detail_easyar_ListOfTarget_size_m44FCC9111D76A38A7E30CADC0046656759260C56 (void);
+// 0x000002C4 System.IntPtr easyar.Detail::easyar_ListOfTarget_at(System.IntPtr,System.Int32)
+extern void Detail_easyar_ListOfTarget_at_m8B5E9C360E3880C6C1ED3A99AEB947672F1B359A (void);
+// 0x000002C5 System.Void easyar.Detail::easyar_ListOfString__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfString__ctor_m790176A3DC01F8AB7F74C9C07A922B79A80B4A0B (void);
+// 0x000002C6 System.Void easyar.Detail::easyar_ListOfString__dtor(System.IntPtr)
+extern void Detail_easyar_ListOfString__dtor_m775A92E9E42C438108C53475168A1D806480C7F4 (void);
+// 0x000002C7 System.Void easyar.Detail::easyar_ListOfString_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfString_copy_m8ED1F9A9359ABFAEDDB3F198A6705F2A5C086A85 (void);
+// 0x000002C8 System.Int32 easyar.Detail::easyar_ListOfString_size(System.IntPtr)
+extern void Detail_easyar_ListOfString_size_m2FED7BE3F40D38848A84AAC9ED654E86CC200519 (void);
+// 0x000002C9 System.IntPtr easyar.Detail::easyar_ListOfString_at(System.IntPtr,System.Int32)
+extern void Detail_easyar_ListOfString_at_m79E5829FF28857BAE840B6153CDA78BD5A0E1B26 (void);
+// 0x000002CA System.Void easyar.Detail::easyar_ListOfMatrix44F__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfMatrix44F__ctor_mC4B2C7B0E42DC28DB214E637819D05C70E44B2F3 (void);
+// 0x000002CB System.Void easyar.Detail::easyar_ListOfMatrix44F__dtor(System.IntPtr)
+extern void Detail_easyar_ListOfMatrix44F__dtor_m815A72F5354B0C6AF4F0D42B3568109EA4F01DFF (void);
+// 0x000002CC System.Void easyar.Detail::easyar_ListOfMatrix44F_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfMatrix44F_copy_mE434DEFBB92005DD17835DD3B1756F80037CCF0F (void);
+// 0x000002CD System.Int32 easyar.Detail::easyar_ListOfMatrix44F_size(System.IntPtr)
+extern void Detail_easyar_ListOfMatrix44F_size_m4EF5D4CC03135F97D1F27D572D6383AD496F2B32 (void);
+// 0x000002CE easyar.Matrix44F easyar.Detail::easyar_ListOfMatrix44F_at(System.IntPtr,System.Int32)
+extern void Detail_easyar_ListOfMatrix44F_at_mC3F1A21204BBDA89F0C2912C3E3E19C250E9E7E9 (void);
+// 0x000002CF System.Void easyar.Detail::easyar_ListOfImage__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfImage__ctor_m67756E17E83B923A4FF1050CBBC08613DC3A759A (void);
+// 0x000002D0 System.Void easyar.Detail::easyar_ListOfImage__dtor(System.IntPtr)
+extern void Detail_easyar_ListOfImage__dtor_m54D0D451987BE3B100847BB8DE15F649EB27F8E0 (void);
+// 0x000002D1 System.Void easyar.Detail::easyar_ListOfImage_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfImage_copy_m5E0207DDDA7B8BC6E753298E4F812CAC3773706B (void);
+// 0x000002D2 System.Int32 easyar.Detail::easyar_ListOfImage_size(System.IntPtr)
+extern void Detail_easyar_ListOfImage_size_m88257F242F239002FF3D85C52798A207D8D6ED11 (void);
+// 0x000002D3 System.IntPtr easyar.Detail::easyar_ListOfImage_at(System.IntPtr,System.Int32)
+extern void Detail_easyar_ListOfImage_at_mBD369202422D87DE1BE1E59D6E1957D055D50B2E (void);
+// 0x000002D4 System.Void easyar.Detail::easyar_ListOfBlockInfo__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfBlockInfo__ctor_m030E3992376BA9377C890BB1B7E7EA3DA5F1902C (void);
+// 0x000002D5 System.Void easyar.Detail::easyar_ListOfBlockInfo__dtor(System.IntPtr)
+extern void Detail_easyar_ListOfBlockInfo__dtor_mDC7F9F1CFC6D68E17701BA58871553FD383EFF7B (void);
+// 0x000002D6 System.Void easyar.Detail::easyar_ListOfBlockInfo_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfBlockInfo_copy_m4BD8C429C853D05E626B5713F6346619DB5A2CF6 (void);
+// 0x000002D7 System.Int32 easyar.Detail::easyar_ListOfBlockInfo_size(System.IntPtr)
+extern void Detail_easyar_ListOfBlockInfo_size_m6DA7D093E8ACEE0454629609A2039DF197701295 (void);
+// 0x000002D8 easyar.BlockInfo easyar.Detail::easyar_ListOfBlockInfo_at(System.IntPtr,System.Int32)
+extern void Detail_easyar_ListOfBlockInfo_at_mE8CD79230AD9BDC767C410956C197DFC76887692 (void);
+// 0x000002D9 System.Void easyar.Detail::easyar_ListOfPlaneData__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfPlaneData__ctor_mF5B5C3CC0185870F6F9E41AB64B600C3411C7A6B (void);
+// 0x000002DA System.Void easyar.Detail::easyar_ListOfPlaneData__dtor(System.IntPtr)
+extern void Detail_easyar_ListOfPlaneData__dtor_m7185DDDC1C96B725FBD22090FE895FB6E39B2642 (void);
+// 0x000002DB System.Void easyar.Detail::easyar_ListOfPlaneData_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfPlaneData_copy_m34F07E7FB143DB5A85EB185F95B81FE5E809553F (void);
+// 0x000002DC System.Int32 easyar.Detail::easyar_ListOfPlaneData_size(System.IntPtr)
+extern void Detail_easyar_ListOfPlaneData_size_mED7D4275D133900E11C777E43B951C3C0C16A2D3 (void);
+// 0x000002DD System.IntPtr easyar.Detail::easyar_ListOfPlaneData_at(System.IntPtr,System.Int32)
+extern void Detail_easyar_ListOfPlaneData_at_mD9ECBAFAA22DF5E2F26FC24A58EBC59F024DBF33 (void);
+// 0x000002DE System.Void easyar.Detail::easyar_ListOfOutputFrame__ctor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfOutputFrame__ctor_m6CF285490FC46C6196544D37DD81BB802789F560 (void);
+// 0x000002DF System.Void easyar.Detail::easyar_ListOfOutputFrame__dtor(System.IntPtr)
+extern void Detail_easyar_ListOfOutputFrame__dtor_m1B8876C2AA464D65500E12978F236731FD877C66 (void);
+// 0x000002E0 System.Void easyar.Detail::easyar_ListOfOutputFrame_copy(System.IntPtr,System.IntPtr&)
+extern void Detail_easyar_ListOfOutputFrame_copy_mC2B2B0CDEB7B32B3CBDDCE923133AFD656DCBDC2 (void);
+// 0x000002E1 System.Int32 easyar.Detail::easyar_ListOfOutputFrame_size(System.IntPtr)
+extern void Detail_easyar_ListOfOutputFrame_size_m0A23AA7B04E7AF4189B043F2FEBDF37288132712 (void);
+// 0x000002E2 System.IntPtr easyar.Detail::easyar_ListOfOutputFrame_at(System.IntPtr,System.Int32)
+extern void Detail_easyar_ListOfOutputFrame_at_m90D13F41551571FAB28F2F4333382A83B1F50EAF (void);
+// 0x000002E3 System.IntPtr easyar.Detail::String_to_c(easyar.Detail/AutoRelease,System.String)
+extern void Detail_String_to_c_mC56EF8B231955F6B88224E4F2B9F853A20C03D30 (void);
+// 0x000002E4 System.IntPtr easyar.Detail::String_to_c_inner(System.String)
+extern void Detail_String_to_c_inner_mDB57855A5B08A44D8651416466CD6D3803A1D58B (void);
+// 0x000002E5 System.String easyar.Detail::String_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_String_from_c_m0FC0FEDE79E5D090D6FC1EA6254637E53E68B235 (void);
+// 0x000002E6 System.String easyar.Detail::String_from_cstring(System.IntPtr)
+extern void Detail_String_from_cstring_mA6EAD99A138648F89DEDD1E69176D8D356D102CC (void);
+// 0x000002E7 T easyar.Detail::Object_from_c(System.IntPtr,System.Func`2<System.IntPtr,System.IntPtr>)
+// 0x000002E8 TValue easyar.Detail::map(TKey,System.Func`2<TKey,TValue>)
+// 0x000002E9 System.Void easyar.Detail::FunctorOfVoid_func(System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoid_func_m9B3A25DFCDAA1DA9B34D8C26D12720078904A7AE (void);
+// 0x000002EA System.Void easyar.Detail::FunctorOfVoid_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoid_destroy_m5E3E6D4C5E3646C932CF287C430B2BBA89AAD985 (void);
+// 0x000002EB easyar.Detail/FunctorOfVoid easyar.Detail::FunctorOfVoid_to_c(System.Action)
+extern void Detail_FunctorOfVoid_to_c_m2D304EBD66E5B76FCE7F8150791141F10CD2C717 (void);
+// 0x000002EC System.IntPtr easyar.Detail::ListOfVec3F_to_c(easyar.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.Vec3F>)
+extern void Detail_ListOfVec3F_to_c_mBDB2A96F6152DAEE5CF47B573C8654332B6FA4F7 (void);
+// 0x000002ED System.Collections.Generic.List`1<easyar.Vec3F> easyar.Detail::ListOfVec3F_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_ListOfVec3F_from_c_m0AD5DFC54EF301677DA4AD63E6FA4DB7D018C561 (void);
+// 0x000002EE System.IntPtr easyar.Detail::ListOfTargetInstance_to_c(easyar.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.TargetInstance>)
+extern void Detail_ListOfTargetInstance_to_c_m233739332C360EC848362D6D67AB2E4E79FA6DA1 (void);
+// 0x000002EF System.Collections.Generic.List`1<easyar.TargetInstance> easyar.Detail::ListOfTargetInstance_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_ListOfTargetInstance_from_c_mC933D981B4F7E1E7960BF3F83A639F170534953E (void);
+// 0x000002F0 System.IntPtr easyar.Detail::ListOfOptionalOfFrameFilterResult_to_c(easyar.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.Optional`1<easyar.FrameFilterResult>>)
+extern void Detail_ListOfOptionalOfFrameFilterResult_to_c_m876548B7F069B82E0449D6390090C9CE832987AD (void);
+// 0x000002F1 System.Collections.Generic.List`1<easyar.Optional`1<easyar.FrameFilterResult>> easyar.Detail::ListOfOptionalOfFrameFilterResult_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_ListOfOptionalOfFrameFilterResult_from_c_mA6ACFE5E98C7B4F9C198C9F764FCC3951F8853E0 (void);
+// 0x000002F2 System.Void easyar.Detail::FunctorOfVoidFromOutputFrame_func(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromOutputFrame_func_mA503D140DC254EBD50B6FF51E10826AF0C772F26 (void);
+// 0x000002F3 System.Void easyar.Detail::FunctorOfVoidFromOutputFrame_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromOutputFrame_destroy_mD420F425F20F505E4C5D043C8AD7410CBAF5EDC5 (void);
+// 0x000002F4 easyar.Detail/FunctorOfVoidFromOutputFrame easyar.Detail::FunctorOfVoidFromOutputFrame_to_c(System.Action`1<easyar.OutputFrame>)
+extern void Detail_FunctorOfVoidFromOutputFrame_to_c_m2E9CA9299C4343F99E526B1B5A3546EEF60929C4 (void);
+// 0x000002F5 System.Void easyar.Detail::FunctorOfVoidFromTargetAndBool_func(System.IntPtr,System.IntPtr,System.Boolean,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromTargetAndBool_func_m3A49203A0B28CB5C535DF756759D60767CD45DE4 (void);
+// 0x000002F6 System.Void easyar.Detail::FunctorOfVoidFromTargetAndBool_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromTargetAndBool_destroy_m9B8753165488859C46E1FAA8DA1A2A8F2F17F7A9 (void);
+// 0x000002F7 easyar.Detail/FunctorOfVoidFromTargetAndBool easyar.Detail::FunctorOfVoidFromTargetAndBool_to_c(System.Action`2<easyar.Target,System.Boolean>)
+extern void Detail_FunctorOfVoidFromTargetAndBool_to_c_m8436C74EF7C1700E20F29DB07ADB4005097A3A8B (void);
+// 0x000002F8 System.IntPtr easyar.Detail::ListOfTarget_to_c(easyar.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.Target>)
+extern void Detail_ListOfTarget_to_c_mCC27A8F913A4E44A510A8D7F70146F06D8211512 (void);
+// 0x000002F9 System.Collections.Generic.List`1<easyar.Target> easyar.Detail::ListOfTarget_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_ListOfTarget_from_c_m1306F5F65982CDCE5DC1009B216542815AD2398D (void);
+// 0x000002FA System.Void easyar.Detail::FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_func(System.IntPtr,easyar.CalibrationDownloadStatus,easyar.Detail/OptionalOfString,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_func_m0E20234492C341A0132FE31EE48393CC1DF1C90D (void);
+// 0x000002FB System.Void easyar.Detail::FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_destroy_m956150E051D46D33D6C835806C52DB9D878384E8 (void);
+// 0x000002FC easyar.Detail/FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString easyar.Detail::FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_to_c(System.Action`2<easyar.CalibrationDownloadStatus,easyar.Optional`1<System.String>>)
+extern void Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_to_c_mC7D823B476B6C5CF9DFB08609777247F05C145F6 (void);
+// 0x000002FD System.IntPtr easyar.Detail::ListOfString_to_c(easyar.Detail/AutoRelease,System.Collections.Generic.List`1<System.String>)
+extern void Detail_ListOfString_to_c_m7D707A912645C44835A0F1368D73B75772C776A1 (void);
+// 0x000002FE System.Collections.Generic.List`1<System.String> easyar.Detail::ListOfString_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_ListOfString_from_c_m1122145FB8974F356A64ABC8277FB2EBEF4E0D09 (void);
+// 0x000002FF System.IntPtr easyar.Detail::ListOfMatrix44F_to_c(easyar.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.Matrix44F>)
+extern void Detail_ListOfMatrix44F_to_c_m9D1DF027DF8F39941950FA51DBB4209F5A3EDA72 (void);
+// 0x00000300 System.Collections.Generic.List`1<easyar.Matrix44F> easyar.Detail::ListOfMatrix44F_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_ListOfMatrix44F_from_c_mE38C8F48FAB7B5FABF77B72F12F8E4E0524746D8 (void);
+// 0x00000301 System.Void easyar.Detail::FunctorOfVoidFromCloudLocalizeResult_func(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromCloudLocalizeResult_func_m59565EF3FE8BE260527646DF98C6D079BFF464E3 (void);
+// 0x00000302 System.Void easyar.Detail::FunctorOfVoidFromCloudLocalizeResult_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromCloudLocalizeResult_destroy_mC6590432763B0BC30047B24F24F0AE808680013D (void);
+// 0x00000303 easyar.Detail/FunctorOfVoidFromCloudLocalizeResult easyar.Detail::FunctorOfVoidFromCloudLocalizeResult_to_c(System.Action`1<easyar.CloudLocalizeResult>)
+extern void Detail_FunctorOfVoidFromCloudLocalizeResult_to_c_m7A3706F5F49D337C6FE2D1382ADD1CB03294ECDA (void);
+// 0x00000304 System.IntPtr easyar.Detail::ListOfImage_to_c(easyar.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.Image>)
+extern void Detail_ListOfImage_to_c_m62021F5A23D0730FBDB1F11AB80809380B4D7734 (void);
+// 0x00000305 System.Collections.Generic.List`1<easyar.Image> easyar.Detail::ListOfImage_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_ListOfImage_from_c_m172809FDD8ACABBCDA5B266349DBFA7BAE669839 (void);
+// 0x00000306 System.Void easyar.Detail::FunctorOfVoidFromCloudRecognizationResult_func(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromCloudRecognizationResult_func_m44523CC4CB1D9428DB13CC0874B0FDD5300BF250 (void);
+// 0x00000307 System.Void easyar.Detail::FunctorOfVoidFromCloudRecognizationResult_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromCloudRecognizationResult_destroy_mB58D4BA7DE6FD4246AFD9469C6A50A326F30E1DF (void);
+// 0x00000308 easyar.Detail/FunctorOfVoidFromCloudRecognizationResult easyar.Detail::FunctorOfVoidFromCloudRecognizationResult_to_c(System.Action`1<easyar.CloudRecognizationResult>)
+extern void Detail_FunctorOfVoidFromCloudRecognizationResult_to_c_m538D05B1CDFDD6A9D402C6E9C940F7A0CB1C9D1E (void);
+// 0x00000309 System.IntPtr easyar.Detail::ListOfBlockInfo_to_c(easyar.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.BlockInfo>)
+extern void Detail_ListOfBlockInfo_to_c_m303643F15FC33276BDFB5C655F214CF77C93AA32 (void);
+// 0x0000030A System.Collections.Generic.List`1<easyar.BlockInfo> easyar.Detail::ListOfBlockInfo_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_ListOfBlockInfo_from_c_m0CBC082B70887ADE84A1A52A020FAB802E100E55 (void);
+// 0x0000030B System.Void easyar.Detail::FunctorOfVoidFromInputFrame_func(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromInputFrame_func_m13A3A5E746D82B8E57973F7F42090FCAE2538701 (void);
+// 0x0000030C System.Void easyar.Detail::FunctorOfVoidFromInputFrame_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromInputFrame_destroy_m60ED302B9C246CC4E71CD3E66DDB615400013DB8 (void);
+// 0x0000030D easyar.Detail/FunctorOfVoidFromInputFrame easyar.Detail::FunctorOfVoidFromInputFrame_to_c(System.Action`1<easyar.InputFrame>)
+extern void Detail_FunctorOfVoidFromInputFrame_to_c_m0E88A2DE55228AF3DA3040127765B9A73E0A6D00 (void);
+// 0x0000030E System.Void easyar.Detail::FunctorOfVoidFromCameraState_func(System.IntPtr,easyar.CameraState,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromCameraState_func_mD650B25B88459727467D4E81043A0DF2785B028C (void);
+// 0x0000030F System.Void easyar.Detail::FunctorOfVoidFromCameraState_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromCameraState_destroy_mABCBFD76BDDF9AC8A2175B9F7A238BD6A65E53DE (void);
+// 0x00000310 easyar.Detail/FunctorOfVoidFromCameraState easyar.Detail::FunctorOfVoidFromCameraState_to_c(System.Action`1<easyar.CameraState>)
+extern void Detail_FunctorOfVoidFromCameraState_to_c_m85AC170445AC8C0A4CE94BE0FE61B6FE68C64FF3 (void);
+// 0x00000311 System.Void easyar.Detail::FunctorOfVoidFromPermissionStatusAndString_func(System.IntPtr,easyar.PermissionStatus,System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromPermissionStatusAndString_func_mF75CF9B2CB5233199D16ABFA0D6C3E646128CCC7 (void);
+// 0x00000312 System.Void easyar.Detail::FunctorOfVoidFromPermissionStatusAndString_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromPermissionStatusAndString_destroy_mA11B2EC3A6F1A24515F97F2EC88046B405EC88B3 (void);
+// 0x00000313 easyar.Detail/FunctorOfVoidFromPermissionStatusAndString easyar.Detail::FunctorOfVoidFromPermissionStatusAndString_to_c(System.Action`2<easyar.PermissionStatus,System.String>)
+extern void Detail_FunctorOfVoidFromPermissionStatusAndString_to_c_m78E8B0DF3E1BCC18039640C3B702101723EFE393 (void);
+// 0x00000314 System.Void easyar.Detail::FunctorOfVoidFromLogLevelAndString_func(System.IntPtr,easyar.LogLevel,System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromLogLevelAndString_func_m146B9A0B7CD02BC1E22221A865E217AEF6F4A182 (void);
+// 0x00000315 System.Void easyar.Detail::FunctorOfVoidFromLogLevelAndString_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromLogLevelAndString_destroy_m35191A39C014A6C4A574F07E05B11C82EC5480C7 (void);
+// 0x00000316 easyar.Detail/FunctorOfVoidFromLogLevelAndString easyar.Detail::FunctorOfVoidFromLogLevelAndString_to_c(System.Action`2<easyar.LogLevel,System.String>)
+extern void Detail_FunctorOfVoidFromLogLevelAndString_to_c_m91B279A2AD8708E4548369AFA58B00F81BBEBEA8 (void);
+// 0x00000317 System.Void easyar.Detail::FunctorOfVoidFromRecordStatusAndString_func(System.IntPtr,easyar.RecordStatus,System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromRecordStatusAndString_func_mF8F6F417420C8B60382532E66F3E212B4A246419 (void);
+// 0x00000318 System.Void easyar.Detail::FunctorOfVoidFromRecordStatusAndString_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromRecordStatusAndString_destroy_m5754CF07AE8DF6F757F145DE496EB4AFBE9CD64E (void);
+// 0x00000319 easyar.Detail/FunctorOfVoidFromRecordStatusAndString easyar.Detail::FunctorOfVoidFromRecordStatusAndString_to_c(System.Action`2<easyar.RecordStatus,System.String>)
+extern void Detail_FunctorOfVoidFromRecordStatusAndString_to_c_m8C62AC8B88DA4D880F49942EC8C1150806726B61 (void);
+// 0x0000031A System.IntPtr easyar.Detail::ListOfPlaneData_to_c(easyar.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.PlaneData>)
+extern void Detail_ListOfPlaneData_to_c_m758D2008730B430858F71C39ED6E1CA4BFB0FAA6 (void);
+// 0x0000031B System.Collections.Generic.List`1<easyar.PlaneData> easyar.Detail::ListOfPlaneData_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_ListOfPlaneData_from_c_mEA7CB6A58626F1F659CD76B895D3914669C5F810 (void);
+// 0x0000031C System.Void easyar.Detail::FunctorOfVoidFromBool_func(System.IntPtr,System.Boolean,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromBool_func_m15C146E55E9FEEFB127F1D868C94A243FF03ABFD (void);
+// 0x0000031D System.Void easyar.Detail::FunctorOfVoidFromBool_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromBool_destroy_m12E1A68BAF4A5B12827A8F826BB564DC2770ED70 (void);
+// 0x0000031E easyar.Detail/FunctorOfVoidFromBool easyar.Detail::FunctorOfVoidFromBool_to_c(System.Action`1<System.Boolean>)
+extern void Detail_FunctorOfVoidFromBool_to_c_m1AA90A83959A5D9481E10921C9042724426D30F1 (void);
+// 0x0000031F System.Void easyar.Detail::FunctorOfVoidFromBoolAndStringAndString_func(System.IntPtr,System.Boolean,System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromBoolAndStringAndString_func_mC4BC9C9A2BB2577123B4C370F3A9081C83BDC266 (void);
+// 0x00000320 System.Void easyar.Detail::FunctorOfVoidFromBoolAndStringAndString_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromBoolAndStringAndString_destroy_m6A47B4D9DE52BC54CC26290A51E5439F9AD7BD7E (void);
+// 0x00000321 easyar.Detail/FunctorOfVoidFromBoolAndStringAndString easyar.Detail::FunctorOfVoidFromBoolAndStringAndString_to_c(System.Action`3<System.Boolean,System.String,System.String>)
+extern void Detail_FunctorOfVoidFromBoolAndStringAndString_to_c_m4E4F9D1E7E57A65ECE5FB17186D9314CA01AED77 (void);
+// 0x00000322 System.Void easyar.Detail::FunctorOfVoidFromBoolAndString_func(System.IntPtr,System.Boolean,System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromBoolAndString_func_mE4D0144F3E1BE474B77ADACA14760879A02C7D97 (void);
+// 0x00000323 System.Void easyar.Detail::FunctorOfVoidFromBoolAndString_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromBoolAndString_destroy_m296A146091B8A384D9E953B33C64C0C70C2D7738 (void);
+// 0x00000324 easyar.Detail/FunctorOfVoidFromBoolAndString easyar.Detail::FunctorOfVoidFromBoolAndString_to_c(System.Action`2<System.Boolean,System.String>)
+extern void Detail_FunctorOfVoidFromBoolAndString_to_c_m6B644A8088A46B7809B7BD3879D387FC7EB5DF71 (void);
+// 0x00000325 System.Void easyar.Detail::FunctorOfVoidFromVideoStatus_func(System.IntPtr,easyar.VideoStatus,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromVideoStatus_func_m83A0D47C1E81D24241299838F24A18F712B64318 (void);
+// 0x00000326 System.Void easyar.Detail::FunctorOfVoidFromVideoStatus_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromVideoStatus_destroy_m10274A0BA716DC8F2801999302489EF4FDD299AA (void);
+// 0x00000327 easyar.Detail/FunctorOfVoidFromVideoStatus easyar.Detail::FunctorOfVoidFromVideoStatus_to_c(System.Action`1<easyar.VideoStatus>)
+extern void Detail_FunctorOfVoidFromVideoStatus_to_c_mD662E3E8BE68D386AD9A3A8EB30E9E95B459B9EF (void);
+// 0x00000328 System.Void easyar.Detail::FunctorOfVoidFromFeedbackFrame_func(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void Detail_FunctorOfVoidFromFeedbackFrame_func_m95A335E9E1F592E176AE16FF05D25B5EA6244F98 (void);
+// 0x00000329 System.Void easyar.Detail::FunctorOfVoidFromFeedbackFrame_destroy(System.IntPtr)
+extern void Detail_FunctorOfVoidFromFeedbackFrame_destroy_m5E85B54BC06925986835682FD9FB074112BB50FE (void);
+// 0x0000032A easyar.Detail/FunctorOfVoidFromFeedbackFrame easyar.Detail::FunctorOfVoidFromFeedbackFrame_to_c(System.Action`1<easyar.FeedbackFrame>)
+extern void Detail_FunctorOfVoidFromFeedbackFrame_to_c_mC062CC9FE4D688A4BEE78DE77860EE09C88F59D5 (void);
+// 0x0000032B System.Void easyar.Detail::FunctorOfOutputFrameFromListOfOutputFrame_func(System.IntPtr,System.IntPtr,System.IntPtr&,System.IntPtr&)
+extern void Detail_FunctorOfOutputFrameFromListOfOutputFrame_func_m8D2C75EC80DD97F91D30449C94581F212E709C4C (void);
+// 0x0000032C System.Void easyar.Detail::FunctorOfOutputFrameFromListOfOutputFrame_destroy(System.IntPtr)
+extern void Detail_FunctorOfOutputFrameFromListOfOutputFrame_destroy_mF1A5464EE57BB31C84BF56FE37B8216303CBCE9E (void);
+// 0x0000032D easyar.Detail/FunctorOfOutputFrameFromListOfOutputFrame easyar.Detail::FunctorOfOutputFrameFromListOfOutputFrame_to_c(System.Func`2<System.Collections.Generic.List`1<easyar.OutputFrame>,easyar.OutputFrame>)
+extern void Detail_FunctorOfOutputFrameFromListOfOutputFrame_to_c_m548DA0C26165C2F7C7F52A6DF80A8324D97E98EA (void);
+// 0x0000032E System.IntPtr easyar.Detail::ListOfOutputFrame_to_c(easyar.Detail/AutoRelease,System.Collections.Generic.List`1<easyar.OutputFrame>)
+extern void Detail_ListOfOutputFrame_to_c_m91171736A8D1FAFA4727CF038F4612A6E9257AA2 (void);
+// 0x0000032F System.Collections.Generic.List`1<easyar.OutputFrame> easyar.Detail::ListOfOutputFrame_from_c(easyar.Detail/AutoRelease,System.IntPtr)
+extern void Detail_ListOfOutputFrame_from_c_m60FF68238C6DE4DFECA760065F94F295F519E621 (void);
+// 0x00000330 System.Void easyar.Detail::.cctor()
+extern void Detail__cctor_mB172153B01F8B3921F12E227BB7051F4E09D2990 (void);
+// 0x00000331 System.Void easyar.Detail/AutoRelease::Add(System.Action)
+extern void AutoRelease_Add_mB0EB3D7FCCE6917816123FE1F924C7A4B1F3356A (void);
+// 0x00000332 T easyar.Detail/AutoRelease::Add(T,System.Action`1<T>)
+// 0x00000333 System.Void easyar.Detail/AutoRelease::Dispose()
+extern void AutoRelease_Dispose_mA5715DF0F5164B80497142C9388EAE9FF2F93AAB (void);
+// 0x00000334 System.Void easyar.Detail/AutoRelease::.ctor()
+extern void AutoRelease__ctor_mE72EEA2DE0CC0DD5BEF361C94038E370900B2B51 (void);
+// 0x00000335 System.Void easyar.Detail/AutoRelease/<>c__DisplayClass2_0`1::.ctor()
+// 0x00000336 System.Void easyar.Detail/AutoRelease/<>c__DisplayClass2_0`1::<Add>b__0()
+// 0x00000337 System.Boolean easyar.Detail/OptionalOfBuffer::get_has_value()
+extern void OptionalOfBuffer_get_has_value_m77FBC17E0DAFB3A38B29E22B88CE8E481DC9EDF1 (void);
+// 0x00000338 System.Void easyar.Detail/OptionalOfBuffer::set_has_value(System.Boolean)
+extern void OptionalOfBuffer_set_has_value_m17019E4D30096E17664D807802593879A41D8ACE (void);
+// 0x00000339 System.Void easyar.Detail/FunctorOfVoid/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m6E49CBD31E9119C657BA2F98935A974B5BF228FB (void);
+// 0x0000033A System.Void easyar.Detail/FunctorOfVoid/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_m6B3E140D7F685A1A33A4D634808E04BEBA8D3E01 (void);
+// 0x0000033B System.IAsyncResult easyar.Detail/FunctorOfVoid/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m808F36099CFBDF4370DCCE5986A09792F39A046C (void);
+// 0x0000033C System.Void easyar.Detail/FunctorOfVoid/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m15D2BCB83BBA3311DAD25CEF6A7EB18403EE3040 (void);
+// 0x0000033D System.Void easyar.Detail/FunctorOfVoid/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m64269C058F17CD59BAD7C431C21C9C579205701A (void);
+// 0x0000033E System.Void easyar.Detail/FunctorOfVoid/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m2F7509F1753871474D27406BBD2D88A05202CE89 (void);
+// 0x0000033F System.IAsyncResult easyar.Detail/FunctorOfVoid/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_mDCF9137EEABD3B1D194FE1E6F2237D6CA31EE3E7 (void);
+// 0x00000340 System.Void easyar.Detail/FunctorOfVoid/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m869B959E501DE360EF73B6218E8A434920FB338A (void);
+// 0x00000341 System.Boolean easyar.Detail/OptionalOfObjectTarget::get_has_value()
+extern void OptionalOfObjectTarget_get_has_value_mCC0801248558F78FAAE73D673AC5DA81603E9C92 (void);
+// 0x00000342 System.Void easyar.Detail/OptionalOfObjectTarget::set_has_value(System.Boolean)
+extern void OptionalOfObjectTarget_set_has_value_mDF8C74286CCCC224C14C84E2E4D08C9F95EA8A1A (void);
+// 0x00000343 System.Boolean easyar.Detail/OptionalOfTarget::get_has_value()
+extern void OptionalOfTarget_get_has_value_mE51C341E2CA247ADD6190295388443ED3EC34BFF (void);
+// 0x00000344 System.Void easyar.Detail/OptionalOfTarget::set_has_value(System.Boolean)
+extern void OptionalOfTarget_set_has_value_mD199D24DF6F5A9B6A2F7BA8D86029392329D2031 (void);
+// 0x00000345 System.Boolean easyar.Detail/OptionalOfOutputFrame::get_has_value()
+extern void OptionalOfOutputFrame_get_has_value_mB8A678C291F4A9276447547EC402815933C53DCF (void);
+// 0x00000346 System.Void easyar.Detail/OptionalOfOutputFrame::set_has_value(System.Boolean)
+extern void OptionalOfOutputFrame_set_has_value_mB12EF0CE5B5170FDD6E5E9BCBB7BBA10C8690F01 (void);
+// 0x00000347 System.Boolean easyar.Detail/OptionalOfFrameFilterResult::get_has_value()
+extern void OptionalOfFrameFilterResult_get_has_value_m570189857259536E710422246228D05FAFDDD97E (void);
+// 0x00000348 System.Void easyar.Detail/OptionalOfFrameFilterResult::set_has_value(System.Boolean)
+extern void OptionalOfFrameFilterResult_set_has_value_m462CBB83722AD3A05AF06C774EC330E67C45ADE4 (void);
+// 0x00000349 System.Boolean easyar.Detail/OptionalOfFunctorOfVoidFromOutputFrame::get_has_value()
+extern void OptionalOfFunctorOfVoidFromOutputFrame_get_has_value_mA5BED644FB4CC48EDA59A1BC4A0CF4283A058C87 (void);
+// 0x0000034A System.Void easyar.Detail/OptionalOfFunctorOfVoidFromOutputFrame::set_has_value(System.Boolean)
+extern void OptionalOfFunctorOfVoidFromOutputFrame_set_has_value_mDBF814AD3A9228354CC0FDD54C4CE3B3EF5A25C2 (void);
+// 0x0000034B System.Void easyar.Detail/FunctorOfVoidFromOutputFrame/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_mA3355E40E079CE42407BB1FD2743DC998A7E7E30 (void);
+// 0x0000034C System.Void easyar.Detail/FunctorOfVoidFromOutputFrame/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_m2B28D7356779F21D3D1DD51D83480088FDD1CC1E (void);
+// 0x0000034D System.IAsyncResult easyar.Detail/FunctorOfVoidFromOutputFrame/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m034C5808979AAF254B5D5883562E29DA351F25EF (void);
+// 0x0000034E System.Void easyar.Detail/FunctorOfVoidFromOutputFrame/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_mFA32E4208727C9F0CA40A00AFF5315011FC3455A (void);
+// 0x0000034F System.Void easyar.Detail/FunctorOfVoidFromOutputFrame/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m555232B46367F920F3F1B1C5401C37C32884A20E (void);
+// 0x00000350 System.Void easyar.Detail/FunctorOfVoidFromOutputFrame/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m562BEE644A3CA625B9818E6780F5C4A27BFA6227 (void);
+// 0x00000351 System.IAsyncResult easyar.Detail/FunctorOfVoidFromOutputFrame/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_mCE009ED5A69D2168BA65E3B6B71482C3F59D31D7 (void);
+// 0x00000352 System.Void easyar.Detail/FunctorOfVoidFromOutputFrame/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_mF15CAFB1677ACA04EFA111BB4765AB68058AB153 (void);
+// 0x00000353 System.Void easyar.Detail/FunctorOfVoidFromTargetAndBool/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m7D87F43DDA79765159EAA5D3EF37BC2DC19C82C5 (void);
+// 0x00000354 System.Void easyar.Detail/FunctorOfVoidFromTargetAndBool/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr,System.Boolean,System.IntPtr&)
+extern void FunctionDelegate_Invoke_m9A16031A1B90FB6408B86C96F273D861CBB11DC3 (void);
+// 0x00000355 System.IAsyncResult easyar.Detail/FunctorOfVoidFromTargetAndBool/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr,System.Boolean,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m43F5CB89AF6040F9CC37865C78C02933C05E02E5 (void);
+// 0x00000356 System.Void easyar.Detail/FunctorOfVoidFromTargetAndBool/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m4BB0A30B02ADF6810FB64F53D330F9C78B113E5F (void);
+// 0x00000357 System.Void easyar.Detail/FunctorOfVoidFromTargetAndBool/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_mD61C98C1B5D7C577C56B3AC11BE2C6E27C95CC07 (void);
+// 0x00000358 System.Void easyar.Detail/FunctorOfVoidFromTargetAndBool/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_mEFFA99C90A401A8909580479C31261CFEB90EAE8 (void);
+// 0x00000359 System.IAsyncResult easyar.Detail/FunctorOfVoidFromTargetAndBool/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_m39C32EEC8C8D462A501F53FD102CBDEC3669BE46 (void);
+// 0x0000035A System.Void easyar.Detail/FunctorOfVoidFromTargetAndBool/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m8D37C3FFDFDCDA6BF3CBAE0CEB346927EEB80725 (void);
+// 0x0000035B System.Boolean easyar.Detail/OptionalOfInt::get_has_value()
+extern void OptionalOfInt_get_has_value_m95EA5D5814B1B321915E3C7724F0FE10EFBFDE2A (void);
+// 0x0000035C System.Void easyar.Detail/OptionalOfInt::set_has_value(System.Boolean)
+extern void OptionalOfInt_set_has_value_m659849AB2B4C267AF131BFE3DF40CEABA0F08573 (void);
+// 0x0000035D System.Void easyar.Detail/FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m90EF222C7CBB0517AC60EF5A0F29A9CFF477F60C (void);
+// 0x0000035E System.Void easyar.Detail/FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString/FunctionDelegate::Invoke(System.IntPtr,easyar.CalibrationDownloadStatus,easyar.Detail/OptionalOfString,System.IntPtr&)
+extern void FunctionDelegate_Invoke_mC04774BDB19666276826BFED4C414B2A16EA4773 (void);
+// 0x0000035F System.IAsyncResult easyar.Detail/FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString/FunctionDelegate::BeginInvoke(System.IntPtr,easyar.CalibrationDownloadStatus,easyar.Detail/OptionalOfString,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_mD2DB5F38915EA8286FB2F95A4A30A864DE9F5B5C (void);
+// 0x00000360 System.Void easyar.Detail/FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_mFF8E56DD4A89706CA4264C0B86FB68A56BC7E6C3 (void);
+// 0x00000361 System.Void easyar.Detail/FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m84FF08EB8D3C958DCE94B1EC1201848C78F7782D (void);
+// 0x00000362 System.Void easyar.Detail/FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m082771B36EC69984CFBD833C925BFF4FEDA22CA2 (void);
+// 0x00000363 System.IAsyncResult easyar.Detail/FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_mD99053E71FD357E94B6FD833AB848F7915EA34DE (void);
+// 0x00000364 System.Void easyar.Detail/FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_mA6CB22961E4C75A91B51E413600ED86F74DAEDD8 (void);
+// 0x00000365 System.Boolean easyar.Detail/OptionalOfString::get_has_value()
+extern void OptionalOfString_get_has_value_mC7BE094936D7977926EDDFA69A58409A0FD663E4 (void);
+// 0x00000366 System.Void easyar.Detail/OptionalOfString::set_has_value(System.Boolean)
+extern void OptionalOfString_set_has_value_m8E2C78B4A6C2556E9EF3EBF23020649118193E5E (void);
+// 0x00000367 System.Boolean easyar.Detail/OptionalOfMatrix44F::get_has_value()
+extern void OptionalOfMatrix44F_get_has_value_mEB7D753D936645EC16606584EFC54C1D89C5BE19 (void);
+// 0x00000368 System.Void easyar.Detail/OptionalOfMatrix44F::set_has_value(System.Boolean)
+extern void OptionalOfMatrix44F_set_has_value_m4A3F4A2DA877D9910090D6607D258052DA0AAE62 (void);
+// 0x00000369 System.Boolean easyar.Detail/OptionalOfVec3D::get_has_value()
+extern void OptionalOfVec3D_get_has_value_m73D356A7E1D4E269D4A8974448E96FB22889BEBE (void);
+// 0x0000036A System.Void easyar.Detail/OptionalOfVec3D::set_has_value(System.Boolean)
+extern void OptionalOfVec3D_set_has_value_m0D598BB8F044A1A9D0E566AF78D32A66FC01B7BD (void);
+// 0x0000036B System.Boolean easyar.Detail/OptionalOfVec3F::get_has_value()
+extern void OptionalOfVec3F_get_has_value_m2F947EFB0411920AE6CCF350AD8B473FBB29EB5E (void);
+// 0x0000036C System.Void easyar.Detail/OptionalOfVec3F::set_has_value(System.Boolean)
+extern void OptionalOfVec3F_set_has_value_mD7DB7F36ECDDE0BD3D193B338004F412C412807C (void);
+// 0x0000036D System.Void easyar.Detail/FunctorOfVoidFromCloudLocalizeResult/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_mCF51E3BD9AAA6A27CFAFC4B542D1B36109E24653 (void);
+// 0x0000036E System.Void easyar.Detail/FunctorOfVoidFromCloudLocalizeResult/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_mA94017F924CCAD7756525DE027D2D969362F542C (void);
+// 0x0000036F System.IAsyncResult easyar.Detail/FunctorOfVoidFromCloudLocalizeResult/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m5E4F8464BD406807CEEEF909732690F86C399434 (void);
+// 0x00000370 System.Void easyar.Detail/FunctorOfVoidFromCloudLocalizeResult/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m30F5A734603361D9A578ABE920D9E23529E888FE (void);
+// 0x00000371 System.Void easyar.Detail/FunctorOfVoidFromCloudLocalizeResult/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m7E0800F8FFB537C6CB867510F8A55208D5E15035 (void);
+// 0x00000372 System.Void easyar.Detail/FunctorOfVoidFromCloudLocalizeResult/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m3A00D7316D0A46C072086891BA451912BD07A20C (void);
+// 0x00000373 System.IAsyncResult easyar.Detail/FunctorOfVoidFromCloudLocalizeResult/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_m3AEFB7652188D0098DF0412917B37EF1FFA6BFD3 (void);
+// 0x00000374 System.Void easyar.Detail/FunctorOfVoidFromCloudLocalizeResult/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m6844CA913DFF200ECC365C357DA975D8D657C0AB (void);
+// 0x00000375 System.Boolean easyar.Detail/OptionalOfImageTarget::get_has_value()
+extern void OptionalOfImageTarget_get_has_value_m3CA15AB2279B8B0A587AB003F7C3368812D521AC (void);
+// 0x00000376 System.Void easyar.Detail/OptionalOfImageTarget::set_has_value(System.Boolean)
+extern void OptionalOfImageTarget_set_has_value_m1CA88109BF80DACEAE5A450554DF5EBD1EF747AD (void);
+// 0x00000377 System.Void easyar.Detail/FunctorOfVoidFromCloudRecognizationResult/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_mCD39474D97C8C97AB6A688C407507E47FD96BFDC (void);
+// 0x00000378 System.Void easyar.Detail/FunctorOfVoidFromCloudRecognizationResult/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_m2AFA0B3269530668620A59E1FCAA47A3107FDD98 (void);
+// 0x00000379 System.IAsyncResult easyar.Detail/FunctorOfVoidFromCloudRecognizationResult/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m380D0A5292058A1A2A055EEE7D06030CFD086D82 (void);
+// 0x0000037A System.Void easyar.Detail/FunctorOfVoidFromCloudRecognizationResult/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m286D592F2D15893BD19CDCFA62F599FAAFE4F654 (void);
+// 0x0000037B System.Void easyar.Detail/FunctorOfVoidFromCloudRecognizationResult/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m6F79E00D7E09AFD18D810EF9F4D47F5B0974519D (void);
+// 0x0000037C System.Void easyar.Detail/FunctorOfVoidFromCloudRecognizationResult/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m4A265B99C1959D339496ED3FE9F3F0E1449DB08E (void);
+// 0x0000037D System.IAsyncResult easyar.Detail/FunctorOfVoidFromCloudRecognizationResult/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_m5394DB442F9B9EAE8AAC33C0DCDF18070DA37CEB (void);
+// 0x0000037E System.Void easyar.Detail/FunctorOfVoidFromCloudRecognizationResult/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_mB89A716747DE9590A670559EFC9A55DB8805353F (void);
+// 0x0000037F System.Boolean easyar.Detail/OptionalOfAccelerometerResult::get_has_value()
+extern void OptionalOfAccelerometerResult_get_has_value_mDAB20C3900E88BF81D4AF7682DC2EC55CE411AC2 (void);
+// 0x00000380 System.Void easyar.Detail/OptionalOfAccelerometerResult::set_has_value(System.Boolean)
+extern void OptionalOfAccelerometerResult_set_has_value_mCAAD0E057899B872B5A625745CF3481077212DF0 (void);
+// 0x00000381 System.Boolean easyar.Detail/OptionalOfFunctorOfVoidFromInputFrame::get_has_value()
+extern void OptionalOfFunctorOfVoidFromInputFrame_get_has_value_m23574D1711D11A1D25EBB7C603A381FFB94CFDFC (void);
+// 0x00000382 System.Void easyar.Detail/OptionalOfFunctorOfVoidFromInputFrame::set_has_value(System.Boolean)
+extern void OptionalOfFunctorOfVoidFromInputFrame_set_has_value_m6AFD8EBA283615AA243BC82669C36DF16109920B (void);
+// 0x00000383 System.Void easyar.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_mACC2D6E5826E7CFE96B3BC73897D2DF6B8E57A4F (void);
+// 0x00000384 System.Void easyar.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_m6F2DFC1C990C6573D3EBC8425AEDE3C3F76D0AAE (void);
+// 0x00000385 System.IAsyncResult easyar.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m37200DD36BCD93AC8AA92A32F3BAD5C0C3A3089C (void);
+// 0x00000386 System.Void easyar.Detail/FunctorOfVoidFromInputFrame/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m80E2926748EB93C2896E545E42530E4353DD3704 (void);
+// 0x00000387 System.Void easyar.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m5A4FAAF97FE2AAFA6446DF93E27865A4A2E8D83B (void);
+// 0x00000388 System.Void easyar.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m917DB41BAFCDB2BCD9C91183959F84147B703B90 (void);
+// 0x00000389 System.IAsyncResult easyar.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_mF81811A22D24BFA5893746626372FFF3851E4B7F (void);
+// 0x0000038A System.Void easyar.Detail/FunctorOfVoidFromInputFrame/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_mF7ADD46929725FDD0FC2012A7BA424D690B1CF70 (void);
+// 0x0000038B System.Boolean easyar.Detail/OptionalOfFunctorOfVoidFromCameraState::get_has_value()
+extern void OptionalOfFunctorOfVoidFromCameraState_get_has_value_mB14A491DE54ED06B5711BC7A9FA49DC0A903CABD (void);
+// 0x0000038C System.Void easyar.Detail/OptionalOfFunctorOfVoidFromCameraState::set_has_value(System.Boolean)
+extern void OptionalOfFunctorOfVoidFromCameraState_set_has_value_m0241EF5EB622037D5A18FC973C5F7BE971FD1890 (void);
+// 0x0000038D System.Void easyar.Detail/FunctorOfVoidFromCameraState/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_mC6A9D168A197BE9B9C404C6F8F1D022952C7EC3F (void);
+// 0x0000038E System.Void easyar.Detail/FunctorOfVoidFromCameraState/FunctionDelegate::Invoke(System.IntPtr,easyar.CameraState,System.IntPtr&)
+extern void FunctionDelegate_Invoke_m77FC8810D2AC63C137C21CFE7E1137F2D5B85A5D (void);
+// 0x0000038F System.IAsyncResult easyar.Detail/FunctorOfVoidFromCameraState/FunctionDelegate::BeginInvoke(System.IntPtr,easyar.CameraState,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_mB9EF63103AF72BEAB5D2D16F6933EC33C4DA0847 (void);
+// 0x00000390 System.Void easyar.Detail/FunctorOfVoidFromCameraState/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m2CC66B18729CEBF5A3BD275BB3BBE8B3DD4D7396 (void);
+// 0x00000391 System.Void easyar.Detail/FunctorOfVoidFromCameraState/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_mDABCA95E2DED758BB49A0F01D9CFB4236E56323D (void);
+// 0x00000392 System.Void easyar.Detail/FunctorOfVoidFromCameraState/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_mC50287A3F5005260BB4ED1FB91B63FB86AF60C68 (void);
+// 0x00000393 System.IAsyncResult easyar.Detail/FunctorOfVoidFromCameraState/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_m0AF37583F85161A5829F12E31DEBA17D399D327C (void);
+// 0x00000394 System.Void easyar.Detail/FunctorOfVoidFromCameraState/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_mCFB930EF3582415BA58C630810E1E0AD4453065B (void);
+// 0x00000395 System.Boolean easyar.Detail/OptionalOfFunctorOfVoidFromPermissionStatusAndString::get_has_value()
+extern void OptionalOfFunctorOfVoidFromPermissionStatusAndString_get_has_value_mC7941BBDB06D03AD18E99F7C33D79E6C702D5B47 (void);
+// 0x00000396 System.Void easyar.Detail/OptionalOfFunctorOfVoidFromPermissionStatusAndString::set_has_value(System.Boolean)
+extern void OptionalOfFunctorOfVoidFromPermissionStatusAndString_set_has_value_mA9E6E25D462A4371C2618CC7BA9ADFA710D3A4D0 (void);
+// 0x00000397 System.Void easyar.Detail/FunctorOfVoidFromPermissionStatusAndString/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m7CF3E226A7734ABAC146C4DE9B5028DA4B5D0EAE (void);
+// 0x00000398 System.Void easyar.Detail/FunctorOfVoidFromPermissionStatusAndString/FunctionDelegate::Invoke(System.IntPtr,easyar.PermissionStatus,System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_m25D150AC50A7245EFDB6884E68FF1AE75A627A16 (void);
+// 0x00000399 System.IAsyncResult easyar.Detail/FunctorOfVoidFromPermissionStatusAndString/FunctionDelegate::BeginInvoke(System.IntPtr,easyar.PermissionStatus,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_mA3E558B41F17A0C261D6F12245F2F7BBE1BE4B33 (void);
+// 0x0000039A System.Void easyar.Detail/FunctorOfVoidFromPermissionStatusAndString/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m892ABEC48161B5B3FF98F591869DF366EB36898C (void);
+// 0x0000039B System.Void easyar.Detail/FunctorOfVoidFromPermissionStatusAndString/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_mB4BD92ABA3F8716777ADA1930222D477C41E2C13 (void);
+// 0x0000039C System.Void easyar.Detail/FunctorOfVoidFromPermissionStatusAndString/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m6B12C39D15344A2E50AD8D5ED8344B7077CC0F04 (void);
+// 0x0000039D System.IAsyncResult easyar.Detail/FunctorOfVoidFromPermissionStatusAndString/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_m537A46BC1596870447203BA8401A356A6CDFF36C (void);
+// 0x0000039E System.Void easyar.Detail/FunctorOfVoidFromPermissionStatusAndString/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m87A1BE5A85465AB49D7E68AFD3141AEEE4E8D522 (void);
+// 0x0000039F System.Void easyar.Detail/FunctorOfVoidFromLogLevelAndString/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m62770BBCC9831153500FCF19E77E7DD093808151 (void);
+// 0x000003A0 System.Void easyar.Detail/FunctorOfVoidFromLogLevelAndString/FunctionDelegate::Invoke(System.IntPtr,easyar.LogLevel,System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_mC47C886EA16E864946D3636E8756EF10A74EE6A7 (void);
+// 0x000003A1 System.IAsyncResult easyar.Detail/FunctorOfVoidFromLogLevelAndString/FunctionDelegate::BeginInvoke(System.IntPtr,easyar.LogLevel,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m7EDBDEB578E6953E62A56D4CA3F187234C61D355 (void);
+// 0x000003A2 System.Void easyar.Detail/FunctorOfVoidFromLogLevelAndString/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m5BF6EBFFE1F65498A181C98383889331893FD523 (void);
+// 0x000003A3 System.Void easyar.Detail/FunctorOfVoidFromLogLevelAndString/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_mAC481093091CB62D3C1C62551B2CC0C82A644BEF (void);
+// 0x000003A4 System.Void easyar.Detail/FunctorOfVoidFromLogLevelAndString/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m78C8D3413590EDC7FCEA137C40E791F7CFE2BB50 (void);
+// 0x000003A5 System.IAsyncResult easyar.Detail/FunctorOfVoidFromLogLevelAndString/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_m0C91E9DB4B0E66A38256F35C836400835F0396CF (void);
+// 0x000003A6 System.Void easyar.Detail/FunctorOfVoidFromLogLevelAndString/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m3AD848F9FFE17376496EF76DC4E8EFE31F248AA8 (void);
+// 0x000003A7 System.Boolean easyar.Detail/OptionalOfFunctorOfVoidFromRecordStatusAndString::get_has_value()
+extern void OptionalOfFunctorOfVoidFromRecordStatusAndString_get_has_value_m4AC8D7E62E782F1958C7D1DE9A5F74878EDEF399 (void);
+// 0x000003A8 System.Void easyar.Detail/OptionalOfFunctorOfVoidFromRecordStatusAndString::set_has_value(System.Boolean)
+extern void OptionalOfFunctorOfVoidFromRecordStatusAndString_set_has_value_m9407732BBB93383BC57906FAE0C346150BA38D13 (void);
+// 0x000003A9 System.Void easyar.Detail/FunctorOfVoidFromRecordStatusAndString/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m86E55233801C6ECFD055D2FB490C8736CD5C9AA0 (void);
+// 0x000003AA System.Void easyar.Detail/FunctorOfVoidFromRecordStatusAndString/FunctionDelegate::Invoke(System.IntPtr,easyar.RecordStatus,System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_m118351CC9B19FEE58D30B2664F129161620533F7 (void);
+// 0x000003AB System.IAsyncResult easyar.Detail/FunctorOfVoidFromRecordStatusAndString/FunctionDelegate::BeginInvoke(System.IntPtr,easyar.RecordStatus,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m69E57764838C0587C1FC3C8425F582795FB25E02 (void);
+// 0x000003AC System.Void easyar.Detail/FunctorOfVoidFromRecordStatusAndString/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m3E21B06C1DA20F17F1D71AF7221EFAAA2E2641D2 (void);
+// 0x000003AD System.Void easyar.Detail/FunctorOfVoidFromRecordStatusAndString/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m346D1764A90921848BD8ACEC801E8F3467F2EF05 (void);
+// 0x000003AE System.Void easyar.Detail/FunctorOfVoidFromRecordStatusAndString/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m640407C9FD35EFA8A67478DABBA0B5D8ECC0AEA1 (void);
+// 0x000003AF System.IAsyncResult easyar.Detail/FunctorOfVoidFromRecordStatusAndString/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_m93B4F8C1A0BB28FDAEED84984BB5F0EAF57FD654 (void);
+// 0x000003B0 System.Void easyar.Detail/FunctorOfVoidFromRecordStatusAndString/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_mF20416B92F42E875845A6D0C808AD49B099C9E61 (void);
+// 0x000003B1 System.Boolean easyar.Detail/OptionalOfFunctorOfVoidFromBool::get_has_value()
+extern void OptionalOfFunctorOfVoidFromBool_get_has_value_mB11F9DA29E1BBA3B9D6125B2E41CD3F94C3C6B1C (void);
+// 0x000003B2 System.Void easyar.Detail/OptionalOfFunctorOfVoidFromBool::set_has_value(System.Boolean)
+extern void OptionalOfFunctorOfVoidFromBool_set_has_value_m8DD19830D2584A2E1D09626CB4399B4317616E72 (void);
+// 0x000003B3 System.Void easyar.Detail/FunctorOfVoidFromBool/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m694F672241F41DDEA830FA01933137BBEC885C8E (void);
+// 0x000003B4 System.Void easyar.Detail/FunctorOfVoidFromBool/FunctionDelegate::Invoke(System.IntPtr,System.Boolean,System.IntPtr&)
+extern void FunctionDelegate_Invoke_m4C7B0EAA7D96CF862D096C5B4A65EE6A733E9A49 (void);
+// 0x000003B5 System.IAsyncResult easyar.Detail/FunctorOfVoidFromBool/FunctionDelegate::BeginInvoke(System.IntPtr,System.Boolean,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m5B492E1E386F1E44CB8165B2EAC9B6C6501DD348 (void);
+// 0x000003B6 System.Void easyar.Detail/FunctorOfVoidFromBool/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m98672A084E152408BC5E50CFFF56D00E46E4CBC0 (void);
+// 0x000003B7 System.Void easyar.Detail/FunctorOfVoidFromBool/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m5C4C07B469FB011021FD50BDB0DBD736C2D3EA5F (void);
+// 0x000003B8 System.Void easyar.Detail/FunctorOfVoidFromBool/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m971BC29FEB24D30694C56BC00AEFA642AA9886E6 (void);
+// 0x000003B9 System.IAsyncResult easyar.Detail/FunctorOfVoidFromBool/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_m3B1F75DA85FBB976F5D9ABE572093972E4A73CA6 (void);
+// 0x000003BA System.Void easyar.Detail/FunctorOfVoidFromBool/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m28B6C8A853CEB5C88F9D69DE5C2E5B5907B697C7 (void);
+// 0x000003BB System.Boolean easyar.Detail/OptionalOfImage::get_has_value()
+extern void OptionalOfImage_get_has_value_mB4A61B0EEA9C00DECDC24D23D96A939468AAE8EA (void);
+// 0x000003BC System.Void easyar.Detail/OptionalOfImage::set_has_value(System.Boolean)
+extern void OptionalOfImage_set_has_value_mC335593EFBE203FBFC48BBA92D02249BC87410C9 (void);
+// 0x000003BD System.Void easyar.Detail/FunctorOfVoidFromBoolAndStringAndString/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m393DA39413D4DA573B928F858004B035350EA059 (void);
+// 0x000003BE System.Void easyar.Detail/FunctorOfVoidFromBoolAndStringAndString/FunctionDelegate::Invoke(System.IntPtr,System.Boolean,System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_mD91D668E337D7BD5A2CA1DD5764DFE6A2CFC201C (void);
+// 0x000003BF System.IAsyncResult easyar.Detail/FunctorOfVoidFromBoolAndStringAndString/FunctionDelegate::BeginInvoke(System.IntPtr,System.Boolean,System.IntPtr,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m2BF14FB31CE30ACE5FF14C9187A0A46B396E1529 (void);
+// 0x000003C0 System.Void easyar.Detail/FunctorOfVoidFromBoolAndStringAndString/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_mD900F28BEFB8A395AD4FC24A08157268A2F3FD21 (void);
+// 0x000003C1 System.Void easyar.Detail/FunctorOfVoidFromBoolAndStringAndString/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_mCFC0DB48836F87035306CDF2E1568B66F656D56B (void);
+// 0x000003C2 System.Void easyar.Detail/FunctorOfVoidFromBoolAndStringAndString/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_mA5B3B990263D0B6ADCCFB82554619ED174B25A66 (void);
+// 0x000003C3 System.IAsyncResult easyar.Detail/FunctorOfVoidFromBoolAndStringAndString/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_mC32B161736D5120F2D3E67E0F3AB3D481D427C3B (void);
+// 0x000003C4 System.Void easyar.Detail/FunctorOfVoidFromBoolAndStringAndString/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m01D305C0C10754F70FBEDFBC7804204743893F1B (void);
+// 0x000003C5 System.Void easyar.Detail/FunctorOfVoidFromBoolAndString/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_mD71CCF0A9DD6D568443A7DB607E8FE747EFD86EE (void);
+// 0x000003C6 System.Void easyar.Detail/FunctorOfVoidFromBoolAndString/FunctionDelegate::Invoke(System.IntPtr,System.Boolean,System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_mE8E49A48E0D2E4CD5301CC636E966AD586D0A402 (void);
+// 0x000003C7 System.IAsyncResult easyar.Detail/FunctorOfVoidFromBoolAndString/FunctionDelegate::BeginInvoke(System.IntPtr,System.Boolean,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m71115B3D9CCA7C9C03115744DB804B86E6F97D0F (void);
+// 0x000003C8 System.Void easyar.Detail/FunctorOfVoidFromBoolAndString/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m6E3A511D8BE7CDA8C835DEC5D578412C0B974CB4 (void);
+// 0x000003C9 System.Void easyar.Detail/FunctorOfVoidFromBoolAndString/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m64E7A6AF1BCE00084D9F70C0385B046FAB5A6F8E (void);
+// 0x000003CA System.Void easyar.Detail/FunctorOfVoidFromBoolAndString/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_mB3AA33F56048B7CD6E4DCE47B8AC895D7FD0E185 (void);
+// 0x000003CB System.IAsyncResult easyar.Detail/FunctorOfVoidFromBoolAndString/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_m58E74FC4588FF433E87814EB7F447E44763C729B (void);
+// 0x000003CC System.Void easyar.Detail/FunctorOfVoidFromBoolAndString/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m0EC4855787FA18AF1D4CDDB4AF268BF5E58CC907 (void);
+// 0x000003CD System.Boolean easyar.Detail/OptionalOfFunctorOfVoidFromVideoStatus::get_has_value()
+extern void OptionalOfFunctorOfVoidFromVideoStatus_get_has_value_m6F8A2513CEF5AF14D1B54A5FF5043831B7455415 (void);
+// 0x000003CE System.Void easyar.Detail/OptionalOfFunctorOfVoidFromVideoStatus::set_has_value(System.Boolean)
+extern void OptionalOfFunctorOfVoidFromVideoStatus_set_has_value_m150E5F64F0CE891AE7B1EB89C349164558413663 (void);
+// 0x000003CF System.Void easyar.Detail/FunctorOfVoidFromVideoStatus/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m50E5030D74EACCC71B3586BCB0F719DDEAFA7B59 (void);
+// 0x000003D0 System.Void easyar.Detail/FunctorOfVoidFromVideoStatus/FunctionDelegate::Invoke(System.IntPtr,easyar.VideoStatus,System.IntPtr&)
+extern void FunctionDelegate_Invoke_mA513D63531CC1C590AC2312D4B4E763DE50624D0 (void);
+// 0x000003D1 System.IAsyncResult easyar.Detail/FunctorOfVoidFromVideoStatus/FunctionDelegate::BeginInvoke(System.IntPtr,easyar.VideoStatus,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_mA86E1BD4F62CE9BC86B096CDDCFFFA86A3C00A52 (void);
+// 0x000003D2 System.Void easyar.Detail/FunctorOfVoidFromVideoStatus/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_mBA3320DC8482F7C586D113DA001C3884D3FE3D6C (void);
+// 0x000003D3 System.Void easyar.Detail/FunctorOfVoidFromVideoStatus/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m543DC86B2F941801DFCC05667398874D912477F4 (void);
+// 0x000003D4 System.Void easyar.Detail/FunctorOfVoidFromVideoStatus/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m237A64324ECC95F13B2432D59768DB0F010FFD15 (void);
+// 0x000003D5 System.IAsyncResult easyar.Detail/FunctorOfVoidFromVideoStatus/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_m731C9B8F4CDB5E33717E613D4BEDE811BA7460D5 (void);
+// 0x000003D6 System.Void easyar.Detail/FunctorOfVoidFromVideoStatus/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m8645167E372325B6627BA9CD60D8B9475F801A4C (void);
+// 0x000003D7 System.Boolean easyar.Detail/OptionalOfFunctorOfVoid::get_has_value()
+extern void OptionalOfFunctorOfVoid_get_has_value_mE09302646C6B2FBE58B6326ECDF5F99D8CDA8EFD (void);
+// 0x000003D8 System.Void easyar.Detail/OptionalOfFunctorOfVoid::set_has_value(System.Boolean)
+extern void OptionalOfFunctorOfVoid_set_has_value_m20BDD582DF5758793006ECAA1512D748F6FDCA31 (void);
+// 0x000003D9 System.Boolean easyar.Detail/OptionalOfFunctorOfVoidFromFeedbackFrame::get_has_value()
+extern void OptionalOfFunctorOfVoidFromFeedbackFrame_get_has_value_m4D272E56883B810AFD35DA74846B12CC8E50B8CF (void);
+// 0x000003DA System.Void easyar.Detail/OptionalOfFunctorOfVoidFromFeedbackFrame::set_has_value(System.Boolean)
+extern void OptionalOfFunctorOfVoidFromFeedbackFrame_set_has_value_mB8C4B69C5C9EB38FD0C30DDDFAC621ACC185D989 (void);
+// 0x000003DB System.Void easyar.Detail/FunctorOfVoidFromFeedbackFrame/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m131B878F012C00612E00A89DEE0A110EE849D717 (void);
+// 0x000003DC System.Void easyar.Detail/FunctorOfVoidFromFeedbackFrame/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void FunctionDelegate_Invoke_mE9E960A030D1B135A9E7658B51FE80D4532210DD (void);
+// 0x000003DD System.IAsyncResult easyar.Detail/FunctorOfVoidFromFeedbackFrame/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_m1DC7C9BB94C549932030A4AF3C68690D6CD5C511 (void);
+// 0x000003DE System.Void easyar.Detail/FunctorOfVoidFromFeedbackFrame/FunctionDelegate::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_mE5A70EB2264DB3608360408513D79E28B55964A9 (void);
+// 0x000003DF System.Void easyar.Detail/FunctorOfVoidFromFeedbackFrame/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_mA5AACB3A6EA31F8E685934CC2E3C23C586E11D6D (void);
+// 0x000003E0 System.Void easyar.Detail/FunctorOfVoidFromFeedbackFrame/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_mD1CD41E50E6CD863FFBBB8A5A3F938F467A27D70 (void);
+// 0x000003E1 System.IAsyncResult easyar.Detail/FunctorOfVoidFromFeedbackFrame/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_mFB6A1AB481DC6A8B7C0A82C0E208AA936C560A89 (void);
+// 0x000003E2 System.Void easyar.Detail/FunctorOfVoidFromFeedbackFrame/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m0EF9677A5743F1912BA2353CBE1EC849859AAF68 (void);
+// 0x000003E3 System.Void easyar.Detail/FunctorOfOutputFrameFromListOfOutputFrame/FunctionDelegate::.ctor(System.Object,System.IntPtr)
+extern void FunctionDelegate__ctor_m2A98DFD900547E949783961D1F8B219D6B33A332 (void);
+// 0x000003E4 System.Void easyar.Detail/FunctorOfOutputFrameFromListOfOutputFrame/FunctionDelegate::Invoke(System.IntPtr,System.IntPtr,System.IntPtr&,System.IntPtr&)
+extern void FunctionDelegate_Invoke_m4908DB727D8FC963D87E3CBEC4E48588FF1A1652 (void);
+// 0x000003E5 System.IAsyncResult easyar.Detail/FunctorOfOutputFrameFromListOfOutputFrame/FunctionDelegate::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr&,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void FunctionDelegate_BeginInvoke_mB20B61087DFF13F703728AEE1D6B4BDCDF19FB58 (void);
+// 0x000003E6 System.Void easyar.Detail/FunctorOfOutputFrameFromListOfOutputFrame/FunctionDelegate::EndInvoke(System.IntPtr&,System.IntPtr&,System.IAsyncResult)
+extern void FunctionDelegate_EndInvoke_m0235C5F00082DB56C584A794689829694C540B01 (void);
+// 0x000003E7 System.Void easyar.Detail/FunctorOfOutputFrameFromListOfOutputFrame/DestroyDelegate::.ctor(System.Object,System.IntPtr)
+extern void DestroyDelegate__ctor_m3E2C870200F3CE409060651F96CA99EF49C1AD21 (void);
+// 0x000003E8 System.Void easyar.Detail/FunctorOfOutputFrameFromListOfOutputFrame/DestroyDelegate::Invoke(System.IntPtr)
+extern void DestroyDelegate_Invoke_m7D62C0DE77387B16EE3452FB0A937D7189868AA2 (void);
+// 0x000003E9 System.IAsyncResult easyar.Detail/FunctorOfOutputFrameFromListOfOutputFrame/DestroyDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void DestroyDelegate_BeginInvoke_mB14FD95D74617E69D905995B8523AA729ACB5901 (void);
+// 0x000003EA System.Void easyar.Detail/FunctorOfOutputFrameFromListOfOutputFrame/DestroyDelegate::EndInvoke(System.IAsyncResult)
+extern void DestroyDelegate_EndInvoke_m7902B1C7AD1AD6863E1D13564B24EDE1FA6BC79D (void);
+// 0x000003EB System.Void easyar.Detail/<>c::.cctor()
+extern void U3CU3Ec__cctor_m925061A3A7824F896BF6AEF72AAF5175DC4EF5A5 (void);
+// 0x000003EC System.Void easyar.Detail/<>c::.ctor()
+extern void U3CU3Ec__ctor_m0C3075D2CBF2B98F1A2B5DDBCBB8622D8123E2B5 (void);
+// 0x000003ED easyar.Vec3F easyar.Detail/<>c::<ListOfVec3F_to_c>b__753_0(easyar.Vec3F)
+extern void U3CU3Ec_U3CListOfVec3F_to_cU3Eb__753_0_m5C9F2BBDC13CAD22F2BEE2765F2EA7C72844A49E (void);
+// 0x000003EE System.IntPtr easyar.Detail/<>c::<ListOfTargetInstance_to_c>b__755_0(easyar.TargetInstance)
+extern void U3CU3Ec_U3CListOfTargetInstance_to_cU3Eb__755_0_mD4DBCB108ABBD5A36E6E715E2460C92E7FF477B7 (void);
+// 0x000003EF easyar.Detail/OptionalOfFrameFilterResult easyar.Detail/<>c::<ListOfOptionalOfFrameFilterResult_to_c>b__759_0(easyar.Optional`1<easyar.FrameFilterResult>)
+extern void U3CU3Ec_U3CListOfOptionalOfFrameFilterResult_to_cU3Eb__759_0_m6CE190953ECE714ACA4C26C9C58D8259F15079DB (void);
+// 0x000003F0 easyar.Detail/OptionalOfFrameFilterResult easyar.Detail/<>c::<ListOfOptionalOfFrameFilterResult_to_c>b__759_1(easyar.Optional`1<easyar.FrameFilterResult>)
+extern void U3CU3Ec_U3CListOfOptionalOfFrameFilterResult_to_cU3Eb__759_1_mC632C1AB7D49A56867947BB3AB00C959DF83FB8A (void);
+// 0x000003F1 easyar.Optional`1<easyar.FrameFilterResult> easyar.Detail/<>c::<ListOfOptionalOfFrameFilterResult_from_c>b__760_0(easyar.Detail/OptionalOfFrameFilterResult)
+extern void U3CU3Ec_U3CListOfOptionalOfFrameFilterResult_from_cU3Eb__760_0_mA19D89D05D867CB544BAFCD3A52EB577EEFE92AF (void);
+// 0x000003F2 System.IntPtr easyar.Detail/<>c::<ListOfTarget_to_c>b__771_0(easyar.Target)
+extern void U3CU3Ec_U3CListOfTarget_to_cU3Eb__771_0_m11CDE338870D5764DE2375F1A52FF60DEA876E95 (void);
+// 0x000003F3 easyar.Matrix44F easyar.Detail/<>c::<ListOfMatrix44F_to_c>b__782_0(easyar.Matrix44F)
+extern void U3CU3Ec_U3CListOfMatrix44F_to_cU3Eb__782_0_m3E6F530CF39B1EDB6128086B80BB758C5BCA3D10 (void);
+// 0x000003F4 System.IntPtr easyar.Detail/<>c::<ListOfImage_to_c>b__791_0(easyar.Image)
+extern void U3CU3Ec_U3CListOfImage_to_cU3Eb__791_0_mC0AA339734F61ACCCAFB952FB93E38B54A42E33E (void);
+// 0x000003F5 easyar.BlockInfo easyar.Detail/<>c::<ListOfBlockInfo_to_c>b__797_0(easyar.BlockInfo)
+extern void U3CU3Ec_U3CListOfBlockInfo_to_cU3Eb__797_0_m9ED9A3EEA03770D2E0324C73368F86C0EF44343C (void);
+// 0x000003F6 System.IntPtr easyar.Detail/<>c::<ListOfPlaneData_to_c>b__824_0(easyar.PlaneData)
+extern void U3CU3Ec_U3CListOfPlaneData_to_cU3Eb__824_0_mC5CE782C81FD4FF3DA7B5B621261B506F93F4E21 (void);
+// 0x000003F7 System.IntPtr easyar.Detail/<>c::<ListOfOutputFrame_to_c>b__855_0(easyar.OutputFrame)
+extern void U3CU3Ec_U3CListOfOutputFrame_to_cU3Eb__855_0_m73E9F3F4EDBD3B7BA19706344A85D91CBD1741D5 (void);
+// 0x000003F8 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_0(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_0_m3D44B19FEEBDAB664A3B13A5FC7210F70E3E01A9 (void);
+// 0x000003F9 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_1(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_1_mF79A94C154817F27B50EE5F0C8F538B1005950E1 (void);
+// 0x000003FA easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_2(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_2_mD6E37BA47389F7EFD5A568A946395C2A2AA22724 (void);
+// 0x000003FB easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_3(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_3_m33910A6634220A2B07B1C491C8286739F9AD9E8B (void);
+// 0x000003FC easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_4(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_4_m175A46929B2F772399939EDE4DA4A367F0CBE261 (void);
+// 0x000003FD easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_5(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_5_m1DDA5B881BE0ABCB40720F28D5EF5B4A1C8650ED (void);
+// 0x000003FE easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_6(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_6_mF1187818EDFA28D0E72A40F0B739E01EA97D8727 (void);
+// 0x000003FF easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_7(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_7_m115B0E263DA996CCAB864F41571B50DE755085CC (void);
+// 0x00000400 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_8(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_8_m5301FC1E7EBF6543E66E240036F925CC71228254 (void);
+// 0x00000401 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_9(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_9_mDE2AEC5144471ECFE5B96889B2B038E0A16DE176 (void);
+// 0x00000402 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_10(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_10_m1C741678E4F634D84404001F509ABA9BB1C3BA97 (void);
+// 0x00000403 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_11(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_11_mD1BF7ED144CAB6443C5818E5C0DF7251ED53C969 (void);
+// 0x00000404 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_12(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_12_m7B4DC87F17F4334ADDE2C6461D0331ED63F5E652 (void);
+// 0x00000405 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_13(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_13_m5692CF0A4D48AAB605A5251FB05ED6A8DD9F62AE (void);
+// 0x00000406 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_14(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_14_mB3ED77125E6E176692C42E3BDF690AAF5B218D8E (void);
+// 0x00000407 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_15(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_15_m29F5B5065823AB59463A4DFD0540452C5EC487B5 (void);
+// 0x00000408 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_16(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_16_m0821BDB6AC328ED9844F7D8830664C3CB35EC0C1 (void);
+// 0x00000409 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_17(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_17_mB6154E5CAE50C854C238862E6CEAC9B638293425 (void);
+// 0x0000040A easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_18(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_18_m7BB3A9D044F6261776372FE60809EFE267F43C67 (void);
+// 0x0000040B easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_19(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_19_mC32B760A087E10F29F51FC8C48991673F9A8069B (void);
+// 0x0000040C easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_20(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_20_m4EDBCACD5D41ADFA0F4B29AB8CC9EC402C2D86D7 (void);
+// 0x0000040D easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_21(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_21_mB21719F9B8F536587A16B7F0301F319780E01BAD (void);
+// 0x0000040E easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_22(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_22_mF663D2A264A7A198B3E7221CA219C9B096ED1AAE (void);
+// 0x0000040F easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_23(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_23_m578108D0C079BB474BA02090246F881972E5FCC2 (void);
+// 0x00000410 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_24(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_24_m3B7B583A2A938F45E7D82B784021EFCFE64D7309 (void);
+// 0x00000411 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_25(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_25_m11FDEA1612B7C6C85010B865F8EAFC90C7DACAA3 (void);
+// 0x00000412 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_26(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_26_mF095673AF506EDEF862A5E44469D81E3CFCBA044 (void);
+// 0x00000413 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_27(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_27_m06DD22282D450755CA109D2063303B746DBB1E57 (void);
+// 0x00000414 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_28(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_28_m67F2671B1542A1E3D9DB612258E292FB4A747C54 (void);
+// 0x00000415 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_29(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_29_mD580FB13E30E848ACE9746B74D12BB1A87BB8781 (void);
+// 0x00000416 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_30(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_30_mC7D72CC0BE0EEED88B03623F0A0300B24D04EB9F (void);
+// 0x00000417 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_31(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_31_m50F6EEB4BE9F46F91F38EAC636F41607AC9734A4 (void);
+// 0x00000418 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_32(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_32_m496474B87A4BCBD2621F7F9DC2231DE67D7628FB (void);
+// 0x00000419 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_33(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_33_m0F1CBFCB58F793F958FB2ECD13ECBC4E30944260 (void);
+// 0x0000041A easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_34(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_34_m22B11E344D95B85FB150C4C399866B3D36A2BFED (void);
+// 0x0000041B easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_35(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_35_m61C994E332635349CDFB5C2B45E002491F15EDEF (void);
+// 0x0000041C easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_36(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_36_mB8A9E959236A597D64ECBB091D9611DA146263A5 (void);
+// 0x0000041D easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_37(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_37_m6CBC73518D1DBC1DB2E7F5BAE6FF7BF19E2B15B0 (void);
+// 0x0000041E easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_38(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_38_m41B5F31F6D22F1728D8E78655FCB66BE7BCDB195 (void);
+// 0x0000041F easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_39(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_39_m7285E9502B2227DEB5C55682DB082FC3520346C7 (void);
+// 0x00000420 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_40(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_40_m4EFDD73CE6E33711AB715B0CFDB69C7F63982955 (void);
+// 0x00000421 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_41(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_41_mEDF1F3AFA78A9A3330B3F03ABDF470D3BD666783 (void);
+// 0x00000422 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_42(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_42_m3CAC4C1F2FCE2704876C52685B35A0E8FB6169ED (void);
+// 0x00000423 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_43(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_43_m3FF9CDBE647DBB4A1358C3E7B62022F7B01A7FB4 (void);
+// 0x00000424 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_44(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_44_mEF148AFABC9EAB0D1AEED538C136C21567D832A2 (void);
+// 0x00000425 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_45(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_45_m9CF776E410BBB77511E59576F88F98E6678EBE86 (void);
+// 0x00000426 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_46(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_46_mF292ABD59BDC4BA4ADC3BE38A9F169E519F64CC3 (void);
+// 0x00000427 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_47(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_47_mF55620AF4C1938923C7D926D5674FB3BA328A2F4 (void);
+// 0x00000428 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_48(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_48_m4F12DCC0A61B74104158AF993B2ADB8E846A25DF (void);
+// 0x00000429 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_49(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_49_m79C821F1EC028D6273C89AAE8C2CB41ECC5C02D8 (void);
+// 0x0000042A easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_50(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_50_m982F6964A452DFCA9205C7D75D9D5DD21D56BBBF (void);
+// 0x0000042B easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_51(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_51_mEFC1EE8FEE0EF8F943D9D3D2ABB77E9A558863A3 (void);
+// 0x0000042C easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_52(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_52_m9F83A26D9F839D03CF54C2DA0D43BA957A4205DF (void);
+// 0x0000042D easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_53(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_53_m87CE28839265B89AD50F34743E72847CAB75EC5E (void);
+// 0x0000042E easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_54(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_54_m3BC8C9AC0EAFFD0EF795C1C540394EFE30552DCF (void);
+// 0x0000042F easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_55(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_55_m60A7DF9FDE95AF87CBA13F5FA1A223E40FB0FFC1 (void);
+// 0x00000430 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_56(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_56_m82A6B051DDA26F7F02F467723C3F12AA71847F9B (void);
+// 0x00000431 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_57(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_57_mAF8C2F8A799111354AB7353C875AC57F93A2D733 (void);
+// 0x00000432 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_58(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_58_m743B771D9F21120835E0325AA2246713599DE610 (void);
+// 0x00000433 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_59(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_59_m028FF93A85CC8CC26A594D5301E103B844A9E41C (void);
+// 0x00000434 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_60(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_60_mFE10BBBBA684A828D060743669EA47AB6DDD3733 (void);
+// 0x00000435 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_61(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_61_m4B1D5F89DD8BD84E248DC2559DD9794278D28855 (void);
+// 0x00000436 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_62(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_62_m0C14BDB1C976DCF93CC618FD4B99631EA049D2A5 (void);
+// 0x00000437 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_63(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_63_m3EB83BC2ECC1A91AE4A9989DB13D0B44D46967BA (void);
+// 0x00000438 easyar.RefBase easyar.Detail/<>c::<.cctor>b__857_64(System.IntPtr)
+extern void U3CU3Ec_U3C_cctorU3Eb__857_64_m5218BDF8EA7E7DEAD30D7A220626EAA11F453C39 (void);
+// 0x00000439 System.Void easyar.Detail/<>c__DisplayClass764_0::.ctor()
+extern void U3CU3Ec__DisplayClass764_0__ctor_mC12D3C28494341A9156C0D463494C2FD8E2E7C6E (void);
+// 0x0000043A System.Void easyar.Detail/<>c__DisplayClass764_0::<FunctorOfVoidFromOutputFrame_func>b__0()
+extern void U3CU3Ec__DisplayClass764_0_U3CFunctorOfVoidFromOutputFrame_funcU3Eb__0_m7044166392CD31C23ADAD859BEFD54AF1C20FC35 (void);
+// 0x0000043B System.Void easyar.Detail/<>c__DisplayClass768_0::.ctor()
+extern void U3CU3Ec__DisplayClass768_0__ctor_m2DE5CA3AE1BB3F0AB33AA5852238BF44447BEFE6 (void);
+// 0x0000043C System.Void easyar.Detail/<>c__DisplayClass768_0::<FunctorOfVoidFromTargetAndBool_func>b__0()
+extern void U3CU3Ec__DisplayClass768_0_U3CFunctorOfVoidFromTargetAndBool_funcU3Eb__0_mC7B3304480C3394454385F9102103C292129DC01 (void);
+// 0x0000043D System.Void easyar.Detail/<>c__DisplayClass775_0::.ctor()
+extern void U3CU3Ec__DisplayClass775_0__ctor_m5C440F90E507E69C42EDD418C37BBA035D2F0445 (void);
+// 0x0000043E easyar.Optional`1<System.String> easyar.Detail/<>c__DisplayClass775_0::<FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_func>b__0(easyar.Detail/OptionalOfString)
+extern void U3CU3Ec__DisplayClass775_0_U3CFunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_funcU3Eb__0_mA5D77FE6EA17F1B326C40C0F1D81E5ADD2CEC57D (void);
+// 0x0000043F System.Void easyar.Detail/<>c__DisplayClass780_0::.ctor()
+extern void U3CU3Ec__DisplayClass780_0__ctor_m38BE9E0A267F4BDEC9E287975E90B473C65CC263 (void);
+// 0x00000440 System.IntPtr easyar.Detail/<>c__DisplayClass780_0::<ListOfString_to_c>b__0(System.String)
+extern void U3CU3Ec__DisplayClass780_0_U3CListOfString_to_cU3Eb__0_m39DD4E5CFCD96C7691404E5F51BD53BD0E1C7016 (void);
+// 0x00000441 System.Void easyar.Detail/<>c__DisplayClass787_0::.ctor()
+extern void U3CU3Ec__DisplayClass787_0__ctor_mA057929C7848BDDD1F6F51C7262C9FD4DC4C0A25 (void);
+// 0x00000442 System.Void easyar.Detail/<>c__DisplayClass787_0::<FunctorOfVoidFromCloudLocalizeResult_func>b__0()
+extern void U3CU3Ec__DisplayClass787_0_U3CFunctorOfVoidFromCloudLocalizeResult_funcU3Eb__0_m09CB474FF19782630F67CF9CE1321E046E05BF70 (void);
+// 0x00000443 System.Void easyar.Detail/<>c__DisplayClass794_0::.ctor()
+extern void U3CU3Ec__DisplayClass794_0__ctor_m096CC12DD55930E9335A8809C020297C4D86C5F0 (void);
+// 0x00000444 System.Void easyar.Detail/<>c__DisplayClass794_0::<FunctorOfVoidFromCloudRecognizationResult_func>b__0()
+extern void U3CU3Ec__DisplayClass794_0_U3CFunctorOfVoidFromCloudRecognizationResult_funcU3Eb__0_m10729FF4E449B54CF345D76BB90A3F2F2B3AA2A3 (void);
+// 0x00000445 System.Void easyar.Detail/<>c__DisplayClass802_0::.ctor()
+extern void U3CU3Ec__DisplayClass802_0__ctor_mD32E65AA4B0B355118E20F3EF5270884F23F72A4 (void);
+// 0x00000446 System.Void easyar.Detail/<>c__DisplayClass802_0::<FunctorOfVoidFromInputFrame_func>b__0()
+extern void U3CU3Ec__DisplayClass802_0_U3CFunctorOfVoidFromInputFrame_funcU3Eb__0_m16113842E66639F2DDF8EC6A177B1B7D4EF921C9 (void);
+// 0x00000447 System.Void easyar.Detail/<>c__DisplayClass848_0::.ctor()
+extern void U3CU3Ec__DisplayClass848_0__ctor_m85846EC59686B1AC2F8C167FCFD2C56F30472C8B (void);
+// 0x00000448 System.Void easyar.Detail/<>c__DisplayClass848_0::<FunctorOfVoidFromFeedbackFrame_func>b__0()
+extern void U3CU3Ec__DisplayClass848_0_U3CFunctorOfVoidFromFeedbackFrame_funcU3Eb__0_m3E022CBE85669BB9C402E5EF653807265E674A12 (void);
+// 0x00000449 System.Void easyar.Detail/<>c__DisplayClass852_0::.ctor()
+extern void U3CU3Ec__DisplayClass852_0__ctor_mC8A18FFCD2880582F521772F13D8542E04491D08 (void);
+// 0x0000044A System.Void easyar.Detail/<>c__DisplayClass852_0::<FunctorOfOutputFrameFromListOfOutputFrame_func>b__0(easyar.OutputFrame)
+extern void U3CU3Ec__DisplayClass852_0_U3CFunctorOfOutputFrameFromListOfOutputFrame_funcU3Eb__0_mD661EF141874034A65E8743D301B83544B564596 (void);
+// 0x0000044B System.Void easyar.Detail/<>c__DisplayClass852_1::.ctor()
+extern void U3CU3Ec__DisplayClass852_1__ctor_m4DFC44AFB4ED4463B64080DDECC2B1FEF8A7B193 (void);
+// 0x0000044C System.Void easyar.Detail/<>c__DisplayClass852_1::<FunctorOfOutputFrameFromListOfOutputFrame_func>b__1()
+extern void U3CU3Ec__DisplayClass852_1_U3CFunctorOfOutputFrameFromListOfOutputFrame_funcU3Eb__1_mD6BA99C3D3C161F1A0567BB70D2110058C47772A (void);
+// 0x0000044D System.Void easyar.RefBase::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void RefBase__ctor_m1F89F1D069DD380C7B51129C109F7989D854246A (void);
+// 0x0000044E System.IntPtr easyar.RefBase::get_cdata()
+extern void RefBase_get_cdata_m6BACEDB7D17969AA0151AAC1473283B95E33A87A (void);
+// 0x0000044F System.Void easyar.RefBase::Finalize()
+extern void RefBase_Finalize_m91ADEEA63DE271C576F496C0B5279A44700FABD7 (void);
+// 0x00000450 System.Void easyar.RefBase::Dispose()
+extern void RefBase_Dispose_m0C0F6CBAAFDD4D732F27B09F76D1A77AC6D44B75 (void);
+// 0x00000451 System.Object easyar.RefBase::CloneObject()
+// 0x00000452 easyar.RefBase easyar.RefBase::Clone()
+extern void RefBase_Clone_m001D1EA8E35D34434F8DA918AB0885931FC872E0 (void);
+// 0x00000453 System.Void easyar.RefBase/Retainer::.ctor(System.Object,System.IntPtr)
+extern void Retainer__ctor_m03ED548CEF1EC8A84CEC7F85CA1D8F2ADFDA20B9 (void);
+// 0x00000454 System.Void easyar.RefBase/Retainer::Invoke(System.IntPtr,System.IntPtr&)
+extern void Retainer_Invoke_mAE6440576152AFF79D3692B99D7123EB84655CA8 (void);
+// 0x00000455 System.IAsyncResult easyar.RefBase/Retainer::BeginInvoke(System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
+extern void Retainer_BeginInvoke_m4DF3F358FD6044FBD204C02A0EDAAB73DC005F64 (void);
+// 0x00000456 System.Void easyar.RefBase/Retainer::EndInvoke(System.IntPtr&,System.IAsyncResult)
+extern void Retainer_EndInvoke_mEBBBE2473B8364071DDAE4E00C7C30C2C5E033D2 (void);
+// 0x00000457 System.Void easyar.ObjectTargetParameters::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ObjectTargetParameters__ctor_m0EEB5D09DA2586ED94B2B24BCBC92D8B5349CB02 (void);
+// 0x00000458 System.Object easyar.ObjectTargetParameters::CloneObject()
+extern void ObjectTargetParameters_CloneObject_m5F41EDD4EBF42B6C1D4A6C73AAD7792D79488E42 (void);
+// 0x00000459 easyar.ObjectTargetParameters easyar.ObjectTargetParameters::Clone()
+extern void ObjectTargetParameters_Clone_m1ED737CB850C6F4A76543F0786A4C3420C6349F3 (void);
+// 0x0000045A System.Void easyar.ObjectTargetParameters::.ctor()
+extern void ObjectTargetParameters__ctor_m588A6946D595EFF494B9C914819D7ABDD9970251 (void);
+// 0x0000045B easyar.BufferDictionary easyar.ObjectTargetParameters::bufferDictionary()
+extern void ObjectTargetParameters_bufferDictionary_m09EF2CA047183F56633D7F7B50CFA3BB4B8C51DC (void);
+// 0x0000045C System.Void easyar.ObjectTargetParameters::setBufferDictionary(easyar.BufferDictionary)
+extern void ObjectTargetParameters_setBufferDictionary_m14AE86F14B3C3AAC11ADC65B04E996A6F4B8D634 (void);
+// 0x0000045D System.String easyar.ObjectTargetParameters::objPath()
+extern void ObjectTargetParameters_objPath_m755483E8773042F4EFA9F5B537C69708493A8533 (void);
+// 0x0000045E System.Void easyar.ObjectTargetParameters::setObjPath(System.String)
+extern void ObjectTargetParameters_setObjPath_m99DA24A6E69BB756964E81703707479281283313 (void);
+// 0x0000045F System.String easyar.ObjectTargetParameters::name()
+extern void ObjectTargetParameters_name_m9B80CB84375AD9BE94E1EA3C4FEE82C6F9A46312 (void);
+// 0x00000460 System.Void easyar.ObjectTargetParameters::setName(System.String)
+extern void ObjectTargetParameters_setName_mA69F1CCFC37A14916590F41C504D5A77EADB6D35 (void);
+// 0x00000461 System.String easyar.ObjectTargetParameters::uid()
+extern void ObjectTargetParameters_uid_m7AB1E5254AFEF8510D7F6F7DF5A03DC9D9F022DE (void);
+// 0x00000462 System.Void easyar.ObjectTargetParameters::setUid(System.String)
+extern void ObjectTargetParameters_setUid_mC3911C26B5CDD8162EF486417CD36B67EE6DFF12 (void);
+// 0x00000463 System.String easyar.ObjectTargetParameters::meta()
+extern void ObjectTargetParameters_meta_mA2F4CD0E19BFB20D1D28915C7613325CE8484DE7 (void);
+// 0x00000464 System.Void easyar.ObjectTargetParameters::setMeta(System.String)
+extern void ObjectTargetParameters_setMeta_m0C2436A8A92107C42A27AAFEB8A8AE6DFD786191 (void);
+// 0x00000465 System.Single easyar.ObjectTargetParameters::scale()
+extern void ObjectTargetParameters_scale_mD86F34270FE80F323A2176182D143F5F2A782541 (void);
+// 0x00000466 System.Void easyar.ObjectTargetParameters::setScale(System.Single)
+extern void ObjectTargetParameters_setScale_m0B1E23D925B59B68C99049DC48A7B17E4BFEEE65 (void);
+// 0x00000467 System.Void easyar.ObjectTarget::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ObjectTarget__ctor_mBFEE68304A2318D1A7ED9F96DA8AA45ACADA829E (void);
+// 0x00000468 System.Object easyar.ObjectTarget::CloneObject()
+extern void ObjectTarget_CloneObject_mCA31C9290346E54CD94EDE528F3EAC6D157C74DA (void);
+// 0x00000469 easyar.ObjectTarget easyar.ObjectTarget::Clone()
+extern void ObjectTarget_Clone_mEA2EE78A7833AA0BE0ECA81B71295DD92B5AD13E (void);
+// 0x0000046A System.Void easyar.ObjectTarget::.ctor()
+extern void ObjectTarget__ctor_mAEC72DC0B4390330D813FBF68AA9FEE4565352BC (void);
+// 0x0000046B easyar.Optional`1<easyar.ObjectTarget> easyar.ObjectTarget::createFromParameters(easyar.ObjectTargetParameters)
+extern void ObjectTarget_createFromParameters_m83FD34A7503D82952ADDA29D68486D2ACDEEE8A1 (void);
+// 0x0000046C easyar.Optional`1<easyar.ObjectTarget> easyar.ObjectTarget::createFromObjectFile(System.String,easyar.StorageType,System.String,System.String,System.String,System.Single)
+extern void ObjectTarget_createFromObjectFile_m64E0E8C29425663D64C103C4EE7B6DFD3FBC883C (void);
+// 0x0000046D System.Single easyar.ObjectTarget::scale()
+extern void ObjectTarget_scale_m0855EBE37D1786BAF0D89337E6D221FFC0F93EBB (void);
+// 0x0000046E System.Collections.Generic.List`1<easyar.Vec3F> easyar.ObjectTarget::boundingBox()
+extern void ObjectTarget_boundingBox_m40FE1C87961E2104101CE1E55AD82AFE9DC9523E (void);
+// 0x0000046F System.Boolean easyar.ObjectTarget::setScale(System.Single)
+extern void ObjectTarget_setScale_m204D8553A7454A3F4F3D3319440C770C1F0FFDBA (void);
+// 0x00000470 System.Int32 easyar.ObjectTarget::runtimeID()
+extern void ObjectTarget_runtimeID_m80227FCE54A748D1B88C512DE8670EF6A4C309CD (void);
+// 0x00000471 System.String easyar.ObjectTarget::uid()
+extern void ObjectTarget_uid_mAE7C7645BF23FB05C8D9283950D8374F32C41E69 (void);
+// 0x00000472 System.String easyar.ObjectTarget::name()
+extern void ObjectTarget_name_mB7E1747E826616E191AA75D9CFECD36E40A3BB87 (void);
+// 0x00000473 System.Void easyar.ObjectTarget::setName(System.String)
+extern void ObjectTarget_setName_mF6C2447349E5512891DE4DA6C06535FF151912AB (void);
+// 0x00000474 System.String easyar.ObjectTarget::meta()
+extern void ObjectTarget_meta_m4B328FDF586D7A6AF4F4B2FFA3E0C97F0132AFAC (void);
+// 0x00000475 System.Void easyar.ObjectTarget::setMeta(System.String)
+extern void ObjectTarget_setMeta_mB33085788E363F3D8F4C7AFC897DD7C1F2F001D8 (void);
+// 0x00000476 System.Void easyar.ObjectTarget/<>c::.cctor()
+extern void U3CU3Ec__cctor_mAD3E5390B37378678CBE1FF3842FE1CEAD5DEA63 (void);
+// 0x00000477 System.Void easyar.ObjectTarget/<>c::.ctor()
+extern void U3CU3Ec__ctor_m1D4A02E453FDF20529C683E4B8C26A1EC04AE7DF (void);
+// 0x00000478 easyar.Optional`1<easyar.ObjectTarget> easyar.ObjectTarget/<>c::<createFromParameters>b__4_0(easyar.Detail/OptionalOfObjectTarget)
+extern void U3CU3Ec_U3CcreateFromParametersU3Eb__4_0_m2DD54B82E09BA1D93A8CC3DEA7A375501F555980 (void);
+// 0x00000479 easyar.Optional`1<easyar.ObjectTarget> easyar.ObjectTarget/<>c::<createFromObjectFile>b__5_0(easyar.Detail/OptionalOfObjectTarget)
+extern void U3CU3Ec_U3CcreateFromObjectFileU3Eb__5_0_mA8B6D512B8EDCFFE3F9F2F61E8E2B0652E8017E8 (void);
+// 0x0000047A System.Void easyar.ObjectTrackerResult::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ObjectTrackerResult__ctor_mA16761B5F0D36A795BD629EC6777D7362BB29690 (void);
+// 0x0000047B System.Object easyar.ObjectTrackerResult::CloneObject()
+extern void ObjectTrackerResult_CloneObject_m8BF83B39AAA9AB8FCFF2C74FA8D8B9E388B4C96E (void);
+// 0x0000047C easyar.ObjectTrackerResult easyar.ObjectTrackerResult::Clone()
+extern void ObjectTrackerResult_Clone_m0468DE3422ADBA40C1141779675EFC738F136129 (void);
+// 0x0000047D System.Collections.Generic.List`1<easyar.TargetInstance> easyar.ObjectTrackerResult::targetInstances()
+extern void ObjectTrackerResult_targetInstances_mF82C17CC05BC4D28B73C0196AB457B102C439CBE (void);
+// 0x0000047E System.Void easyar.ObjectTrackerResult::setTargetInstances(System.Collections.Generic.List`1<easyar.TargetInstance>)
+extern void ObjectTrackerResult_setTargetInstances_m01BD76AF0CDACBD39FCD3750DD236BF82FBB456A (void);
+// 0x0000047F System.Void easyar.ObjectTracker::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ObjectTracker__ctor_m1EA9E3E8EE7303C2BC50007E8EE2FE424FA985E8 (void);
+// 0x00000480 System.Object easyar.ObjectTracker::CloneObject()
+extern void ObjectTracker_CloneObject_m7FFD186181B61CB8BF52883086E8CD6C4C64EF34 (void);
+// 0x00000481 easyar.ObjectTracker easyar.ObjectTracker::Clone()
+extern void ObjectTracker_Clone_m4846A06A36F1427B016A91650CB8557D5410D2BB (void);
+// 0x00000482 System.Boolean easyar.ObjectTracker::isAvailable()
+extern void ObjectTracker_isAvailable_m17607660BE010F1D6D7D734378AA3AAE86094AA0 (void);
+// 0x00000483 easyar.FeedbackFrameSink easyar.ObjectTracker::feedbackFrameSink()
+extern void ObjectTracker_feedbackFrameSink_mF123F0A3D9FC8403735340714A79796F8051ED9C (void);
+// 0x00000484 System.Int32 easyar.ObjectTracker::bufferRequirement()
+extern void ObjectTracker_bufferRequirement_m3FD68FA3B7973FB0CD0A05EFEE96559E05B389EF (void);
+// 0x00000485 easyar.OutputFrameSource easyar.ObjectTracker::outputFrameSource()
+extern void ObjectTracker_outputFrameSource_m35EED707B592B4E4535E27789190943735176580 (void);
+// 0x00000486 easyar.ObjectTracker easyar.ObjectTracker::create()
+extern void ObjectTracker_create_m76B8C6BF9D89BDB95E0309A17CFCD2FDF1A0BF58 (void);
+// 0x00000487 System.Boolean easyar.ObjectTracker::start()
+extern void ObjectTracker_start_m10668BB70850B92CFB5AACAE99C2ED612EE487C9 (void);
+// 0x00000488 System.Void easyar.ObjectTracker::stop()
+extern void ObjectTracker_stop_m3968F8FA53B6A4D034A26EEDA2CFBFC9988FC3EC (void);
+// 0x00000489 System.Void easyar.ObjectTracker::close()
+extern void ObjectTracker_close_mB86845BE996509CAEE0C1CF248123FE5FDBE9766 (void);
+// 0x0000048A System.Void easyar.ObjectTracker::loadTarget(easyar.Target,easyar.CallbackScheduler,System.Action`2<easyar.Target,System.Boolean>)
+extern void ObjectTracker_loadTarget_m56BEBC9170AA0C67F6B98D224F1406731727695B (void);
+// 0x0000048B System.Void easyar.ObjectTracker::unloadTarget(easyar.Target,easyar.CallbackScheduler,System.Action`2<easyar.Target,System.Boolean>)
+extern void ObjectTracker_unloadTarget_mD315FE0AE31CDA5E218C164520B77C2E4473EEC9 (void);
+// 0x0000048C System.Collections.Generic.List`1<easyar.Target> easyar.ObjectTracker::targets()
+extern void ObjectTracker_targets_m4BB6C06FF80C49FB8F266E24DA8E022B848A2865 (void);
+// 0x0000048D System.Boolean easyar.ObjectTracker::setSimultaneousNum(System.Int32)
+extern void ObjectTracker_setSimultaneousNum_m11E6B2F9AB71458CF926383E384B32DF97CCCCC2 (void);
+// 0x0000048E System.Int32 easyar.ObjectTracker::simultaneousNum()
+extern void ObjectTracker_simultaneousNum_m53FE7C0BF47E5855A4DC2240ADE6730CB25AD409 (void);
+// 0x0000048F System.Void easyar.CalibrationDownloader::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void CalibrationDownloader__ctor_m30FAFD2AF8F69D0039C0F5469C79A28AC66E45A9 (void);
+// 0x00000490 System.Object easyar.CalibrationDownloader::CloneObject()
+extern void CalibrationDownloader_CloneObject_m36218D46445872BD75612EEB015DCB744EE27C73 (void);
+// 0x00000491 easyar.CalibrationDownloader easyar.CalibrationDownloader::Clone()
+extern void CalibrationDownloader_Clone_mB2855C552B254DF6B6B4D2D4812C1229A9D407EC (void);
+// 0x00000492 System.Void easyar.CalibrationDownloader::.ctor()
+extern void CalibrationDownloader__ctor_m0162EE599B0DA35B15E0E5E2374F963D34565FCB (void);
+// 0x00000493 System.Void easyar.CalibrationDownloader::download(easyar.Optional`1<System.Int32>,easyar.CallbackScheduler,System.Action`2<easyar.CalibrationDownloadStatus,easyar.Optional`1<System.String>>)
+extern void CalibrationDownloader_download_mC0678B53092DFC8A264153D458456534B15E30DB (void);
+// 0x00000494 System.Void easyar.CalibrationDownloader/<>c::.cctor()
+extern void U3CU3Ec__cctor_m9FE4E50AA8A3B51B194AB08FBDD2E3672CF91EE2 (void);
+// 0x00000495 System.Void easyar.CalibrationDownloader/<>c::.ctor()
+extern void U3CU3Ec__ctor_m2E2DE6E96D661D5555E4E6ADC2690F254926A553 (void);
+// 0x00000496 easyar.Detail/OptionalOfInt easyar.CalibrationDownloader/<>c::<download>b__4_0(easyar.Optional`1<System.Int32>)
+extern void U3CU3Ec_U3CdownloadU3Eb__4_0_m7D7A05DCD69258EFBC9960F2366F7A7651BE300F (void);
+// 0x00000497 System.Void easyar.CloudLocalizeResult::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void CloudLocalizeResult__ctor_m1DA45211BBE7F3CB5DCDDFF041D6B6FD81A57441 (void);
+// 0x00000498 System.Object easyar.CloudLocalizeResult::CloneObject()
+extern void CloudLocalizeResult_CloneObject_mA4BC0F14C71DC13A36E215EE65402C81B76D91D4 (void);
+// 0x00000499 easyar.CloudLocalizeResult easyar.CloudLocalizeResult::Clone()
+extern void CloudLocalizeResult_Clone_m83F139DDF988BF27F008FA860C19ACD97C9DD320 (void);
+// 0x0000049A easyar.CloudLocalizeStatus easyar.CloudLocalizeResult::getLocalizeStatus()
+extern void CloudLocalizeResult_getLocalizeStatus_mC8FB7D529F0C9CB79C8D69C83BC1D24AD79D46DE (void);
+// 0x0000049B System.String easyar.CloudLocalizeResult::getLocalizedMapID()
+extern void CloudLocalizeResult_getLocalizedMapID_m73A48820448F8900075C7DF7874D095020B2A332 (void);
+// 0x0000049C System.String easyar.CloudLocalizeResult::getLocalizedMapName()
+extern void CloudLocalizeResult_getLocalizedMapName_mC633304441DD95DEF43D82E791BAD4CBA9F1E83E (void);
+// 0x0000049D easyar.Matrix44F easyar.CloudLocalizeResult::getPose()
+extern void CloudLocalizeResult_getPose_m8D19D70AA34134B9EE9F436EDE3615D59B63A82B (void);
+// 0x0000049E easyar.Optional`1<easyar.Matrix44F> easyar.CloudLocalizeResult::getDeltaT()
+extern void CloudLocalizeResult_getDeltaT_mEC96AA83BDF00765653FD5CD59981AE3D3CE5B3D (void);
+// 0x0000049F System.Collections.Generic.List`1<System.String> easyar.CloudLocalizeResult::getAllLocalizedMapID()
+extern void CloudLocalizeResult_getAllLocalizedMapID_m8AA50BCE3E87A32C71AB2C84FFABD51C7A38374C (void);
+// 0x000004A0 System.Collections.Generic.List`1<easyar.Matrix44F> easyar.CloudLocalizeResult::getAllPose()
+extern void CloudLocalizeResult_getAllPose_m4DCD57EE21B7004782208CD797F4F30B37265A1C (void);
+// 0x000004A1 System.Collections.Generic.List`1<easyar.Matrix44F> easyar.CloudLocalizeResult::getAllDeltaT()
+extern void CloudLocalizeResult_getAllDeltaT_m31B9D1360494A4A227532E723492EDB26340D3F5 (void);
+// 0x000004A2 System.String easyar.CloudLocalizeResult::getExtraInfo()
+extern void CloudLocalizeResult_getExtraInfo_mF3F0EEF1BBC69786267AE7F70A4B1680A01EB51B (void);
+// 0x000004A3 System.String easyar.CloudLocalizeResult::getExceptionInfo()
+extern void CloudLocalizeResult_getExceptionInfo_mA55ED102BED086DC8E22EA2ECECE605AF7CF1AAF (void);
+// 0x000004A4 System.String easyar.CloudLocalizeResult::getLocalizedBlockId()
+extern void CloudLocalizeResult_getLocalizedBlockId_m7F02C5E90485FBDE67C62CD6B4B971266F0D4216 (void);
+// 0x000004A5 System.String easyar.CloudLocalizeResult::getLocalizedBlockTimestamp()
+extern void CloudLocalizeResult_getLocalizedBlockTimestamp_m82506D9FC97657043674277A75212978A0D40E2C (void);
+// 0x000004A6 easyar.Optional`1<easyar.Vec3D> easyar.CloudLocalizeResult::getLocalizedBlockLocation()
+extern void CloudLocalizeResult_getLocalizedBlockLocation_m86B79D6A31400CAA011E590F24A125F2DD7413F0 (void);
+// 0x000004A7 System.String easyar.CloudLocalizeResult::getLocalizedClusterId()
+extern void CloudLocalizeResult_getLocalizedClusterId_mEB07EF8AC5B9898D22C451A6DFC9B6CCCA63636C (void);
+// 0x000004A8 easyar.Optional`1<easyar.Vec3D> easyar.CloudLocalizeResult::getLocalizedClusterLocation()
+extern void CloudLocalizeResult_getLocalizedClusterLocation_mB013406B90F65DA61F4897275D54BCC2FB008932 (void);
+// 0x000004A9 easyar.Matrix44F easyar.CloudLocalizeResult::getPoseInCluster()
+extern void CloudLocalizeResult_getPoseInCluster_m7718424CFA79FBBBAFB203E1897A1DC60450EAF9 (void);
+// 0x000004AA easyar.Optional`1<easyar.Matrix44F> easyar.CloudLocalizeResult::getDeltaTForCluster()
+extern void CloudLocalizeResult_getDeltaTForCluster_mA81755B33895EC5C5F9F6E00D6B963B627CD0413 (void);
+// 0x000004AB easyar.Optional`1<easyar.Vec3D> easyar.CloudLocalizeResult::getDeviceLocation()
+extern void CloudLocalizeResult_getDeviceLocation_m879202AEB62E7C78C60CA5C70784284EF1EADB89 (void);
+// 0x000004AC System.Void easyar.CloudLocalizeResult/<>c::.cctor()
+extern void U3CU3Ec__cctor_mDBD5E6E744B0BDB2A70A2C20ED1D5895E002D121 (void);
+// 0x000004AD System.Void easyar.CloudLocalizeResult/<>c::.ctor()
+extern void U3CU3Ec__ctor_mCFF8E22A34FD8F1F22E7586ABFBE1A4FF78519D5 (void);
+// 0x000004AE easyar.Optional`1<easyar.Matrix44F> easyar.CloudLocalizeResult/<>c::<getDeltaT>b__7_0(easyar.Detail/OptionalOfMatrix44F)
+extern void U3CU3Ec_U3CgetDeltaTU3Eb__7_0_m26A87F0C6A166DD030853334C7642282EE0CBA74 (void);
+// 0x000004AF easyar.Optional`1<easyar.Vec3D> easyar.CloudLocalizeResult/<>c::<getLocalizedBlockLocation>b__15_0(easyar.Detail/OptionalOfVec3D)
+extern void U3CU3Ec_U3CgetLocalizedBlockLocationU3Eb__15_0_mBAB1CF72DBB2F1D6674FEDD1BADDD8B208C968E0 (void);
+// 0x000004B0 easyar.Optional`1<easyar.Vec3D> easyar.CloudLocalizeResult/<>c::<getLocalizedClusterLocation>b__17_0(easyar.Detail/OptionalOfVec3D)
+extern void U3CU3Ec_U3CgetLocalizedClusterLocationU3Eb__17_0_m509732F9866DFCCBE591D3ACE125D56C68416F05 (void);
+// 0x000004B1 easyar.Optional`1<easyar.Matrix44F> easyar.CloudLocalizeResult/<>c::<getDeltaTForCluster>b__19_0(easyar.Detail/OptionalOfMatrix44F)
+extern void U3CU3Ec_U3CgetDeltaTForClusterU3Eb__19_0_mD3DE8AD1E4375AD63369C647B9C37338207900B2 (void);
+// 0x000004B2 easyar.Optional`1<easyar.Vec3D> easyar.CloudLocalizeResult/<>c::<getDeviceLocation>b__20_0(easyar.Detail/OptionalOfVec3D)
+extern void U3CU3Ec_U3CgetDeviceLocationU3Eb__20_0_m57715783D95195C3140439FDEAEB7B96EF8BA502 (void);
+// 0x000004B3 System.Void easyar.CloudLocalizer::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void CloudLocalizer__ctor_m5F29C9BEAA07B8D8747A1D92A8031A7A13A636A4 (void);
+// 0x000004B4 System.Object easyar.CloudLocalizer::CloneObject()
+extern void CloudLocalizer_CloneObject_mF4C1902D02B05F600841D8B6DC0289C8F9C4E653 (void);
+// 0x000004B5 easyar.CloudLocalizer easyar.CloudLocalizer::Clone()
+extern void CloudLocalizer_Clone_mCCFA6C0C70A53B3C57D4F7B1DE95AC73D1BCFCEF (void);
+// 0x000004B6 System.Boolean easyar.CloudLocalizer::isAvailable()
+extern void CloudLocalizer_isAvailable_m0E49E3C8B9AF3D9A6002D34C2367F8D1BA060E50 (void);
+// 0x000004B7 easyar.CloudLocalizer easyar.CloudLocalizer::create(System.String,System.String,System.String,System.String)
+extern void CloudLocalizer_create_m91E3E58DAC174342193D2082382AFB5293C565FC (void);
+// 0x000004B8 System.Void easyar.CloudLocalizer::resolve(easyar.InputFrame,System.String,easyar.Optional`1<easyar.Vec3F>,easyar.Optional`1<easyar.Vec3D>,easyar.Optional`1<System.Int32>,easyar.CallbackScheduler,System.Action`1<easyar.CloudLocalizeResult>)
+extern void CloudLocalizer_resolve_mB672AE956D457922F46F62268E6B2BB81CD78ADE (void);
+// 0x000004B9 System.Void easyar.CloudLocalizer::close()
+extern void CloudLocalizer_close_m128CE256723358845C7476701AC940A639FB8B53 (void);
+// 0x000004BA System.Void easyar.CloudLocalizer/<>c::.cctor()
+extern void U3CU3Ec__cctor_mC39572AD6119CE2E94EA91748C54165FC0F1D83D (void);
+// 0x000004BB System.Void easyar.CloudLocalizer/<>c::.ctor()
+extern void U3CU3Ec__ctor_m6260D2A6641320C8D1D323E0243E62742897651F (void);
+// 0x000004BC easyar.Detail/OptionalOfVec3F easyar.CloudLocalizer/<>c::<resolve>b__5_0(easyar.Optional`1<easyar.Vec3F>)
+extern void U3CU3Ec_U3CresolveU3Eb__5_0_m0E8371693097EB70E97A04BD01467FE0B1D50FF2 (void);
+// 0x000004BD easyar.Detail/OptionalOfVec3D easyar.CloudLocalizer/<>c::<resolve>b__5_1(easyar.Optional`1<easyar.Vec3D>)
+extern void U3CU3Ec_U3CresolveU3Eb__5_1_mFC67F76B6F8337725BF655846768D134F0DF447D (void);
+// 0x000004BE easyar.Detail/OptionalOfInt easyar.CloudLocalizer/<>c::<resolve>b__5_2(easyar.Optional`1<System.Int32>)
+extern void U3CU3Ec_U3CresolveU3Eb__5_2_m0590D32D88BF96E38156AC8F43E76C561DE4D5F7 (void);
+// 0x000004BF System.Void easyar.CloudRecognizationResult::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void CloudRecognizationResult__ctor_m178612828CC63D03C0FEF986A041EE8A5C3FAEBA (void);
+// 0x000004C0 System.Object easyar.CloudRecognizationResult::CloneObject()
+extern void CloudRecognizationResult_CloneObject_m7BC4E6899491D86D2D9773F78FC30873F252D7C2 (void);
+// 0x000004C1 easyar.CloudRecognizationResult easyar.CloudRecognizationResult::Clone()
+extern void CloudRecognizationResult_Clone_m7C1CA0F27EC46AAAA7638070C5523D73D10ACF77 (void);
+// 0x000004C2 easyar.CloudRecognizationStatus easyar.CloudRecognizationResult::getStatus()
+extern void CloudRecognizationResult_getStatus_mEC742A0EA16D279B91BBB0445B0EB8C9DF5E04B7 (void);
+// 0x000004C3 easyar.Optional`1<easyar.ImageTarget> easyar.CloudRecognizationResult::getTarget()
+extern void CloudRecognizationResult_getTarget_m116742FBCF35F8EC0842D7CBA4E0F1CFE83B08E4 (void);
+// 0x000004C4 easyar.Optional`1<System.String> easyar.CloudRecognizationResult::getUnknownErrorMessage()
+extern void CloudRecognizationResult_getUnknownErrorMessage_mDFF8572B70A35641CB0025AE5847978FDE233D93 (void);
+// 0x000004C5 System.Void easyar.CloudRecognizationResult/<>c::.cctor()
+extern void U3CU3Ec__cctor_m5EE00591B4F4E889F12C241BC2B512DAF27F29B9 (void);
+// 0x000004C6 System.Void easyar.CloudRecognizationResult/<>c::.ctor()
+extern void U3CU3Ec__ctor_m732ED6055AE589632016F0D05E61B353B90D6BC6 (void);
+// 0x000004C7 easyar.Optional`1<easyar.ImageTarget> easyar.CloudRecognizationResult/<>c::<getTarget>b__4_0(easyar.Detail/OptionalOfImageTarget)
+extern void U3CU3Ec_U3CgetTargetU3Eb__4_0_m7EC030F3006CA8A12247D66B411D378FE4117B1B (void);
+// 0x000004C8 System.Void easyar.CloudRecognizationResult/<>c__DisplayClass5_0::.ctor()
+extern void U3CU3Ec__DisplayClass5_0__ctor_mF3D58530E202308B3F212CC64926DE54D206E12B (void);
+// 0x000004C9 easyar.Optional`1<System.String> easyar.CloudRecognizationResult/<>c__DisplayClass5_0::<getUnknownErrorMessage>b__0(easyar.Detail/OptionalOfString)
+extern void U3CU3Ec__DisplayClass5_0_U3CgetUnknownErrorMessageU3Eb__0_m8EC3BDF495052FED9FB5F7232A73D50A6D0E9176 (void);
+// 0x000004CA System.Void easyar.CloudRecognizer::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void CloudRecognizer__ctor_mB0517C0B6E7AED872240B7C56F022BCEC7349D6B (void);
+// 0x000004CB System.Object easyar.CloudRecognizer::CloneObject()
+extern void CloudRecognizer_CloneObject_mC3F8A26B882E756296390C32876103CEA018DE4F (void);
+// 0x000004CC easyar.CloudRecognizer easyar.CloudRecognizer::Clone()
+extern void CloudRecognizer_Clone_m5349459C3F6D2831E33C5B267B33F81E49A9AAAD (void);
+// 0x000004CD System.Boolean easyar.CloudRecognizer::isAvailable()
+extern void CloudRecognizer_isAvailable_mA5E2C790C6DDA74229FA2897BD9DD704EBC3488E (void);
+// 0x000004CE easyar.CloudRecognizer easyar.CloudRecognizer::create(System.String,System.String,System.String,System.String)
+extern void CloudRecognizer_create_m64D3A5A499C005071ACAA5E3B255D6570BB65248 (void);
+// 0x000004CF easyar.CloudRecognizer easyar.CloudRecognizer::createByCloudSecret(System.String,System.String,System.String)
+extern void CloudRecognizer_createByCloudSecret_mB89F4BC43AF0E5277CDA9C6DDEBFFC6FDCA947AF (void);
+// 0x000004D0 System.Void easyar.CloudRecognizer::resolve(easyar.InputFrame,easyar.Optional`1<System.Int32>,easyar.CallbackScheduler,System.Action`1<easyar.CloudRecognizationResult>)
+extern void CloudRecognizer_resolve_mB6C231A3E375174C74A7D75343FBEF7ACDE6492E (void);
+// 0x000004D1 System.Void easyar.CloudRecognizer::close()
+extern void CloudRecognizer_close_m1534BB9A3F8ECAA842F7C9C40D03C4E89E0FEA15 (void);
+// 0x000004D2 System.Void easyar.CloudRecognizer/<>c::.cctor()
+extern void U3CU3Ec__cctor_m49ED6DF5E40C2FB5EF0C8DA14ABA359FACDBA809 (void);
+// 0x000004D3 System.Void easyar.CloudRecognizer/<>c::.ctor()
+extern void U3CU3Ec__ctor_m18BA9174E763E6E6C07CD13609BBF1CB76D91039 (void);
+// 0x000004D4 easyar.Detail/OptionalOfInt easyar.CloudRecognizer/<>c::<resolve>b__6_0(easyar.Optional`1<System.Int32>)
+extern void U3CU3Ec_U3CresolveU3Eb__6_0_m506F386F3B3611B8059AB7B1C5F30C14594E317C (void);
+// 0x000004D5 System.Void easyar.Buffer::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void Buffer__ctor_m26DC41F60DA76BDD202C86D2D4E97ADDE7C6A5BC (void);
+// 0x000004D6 System.Object easyar.Buffer::CloneObject()
+extern void Buffer_CloneObject_mA8F027F7B931565F1DB3B5601D0DEFD219DD91FA (void);
+// 0x000004D7 easyar.Buffer easyar.Buffer::Clone()
+extern void Buffer_Clone_m5FE5FFB21CD5BFF7A659CFF2CABA0615E8594CEC (void);
+// 0x000004D8 easyar.Buffer easyar.Buffer::wrap(System.IntPtr,System.Int32,System.Action)
+extern void Buffer_wrap_m929117704335F152039C2192292FF4185C123A40 (void);
+// 0x000004D9 easyar.Buffer easyar.Buffer::create(System.Int32)
+extern void Buffer_create_m2A88BD5DEA6C8E75354F888A459B78B152CF786C (void);
+// 0x000004DA System.IntPtr easyar.Buffer::data()
+extern void Buffer_data_m56F819D9485F00889A82D67988DA6191AEE37D22 (void);
+// 0x000004DB System.Int32 easyar.Buffer::size()
+extern void Buffer_size_m0CCF1E4505B512949AFAF6C25B5FB58181DA4B79 (void);
+// 0x000004DC System.Void easyar.Buffer::memoryCopy(System.IntPtr,System.IntPtr,System.Int32)
+extern void Buffer_memoryCopy_mB309138DD3E32BD3C603068E532E45AF30DDE252 (void);
+// 0x000004DD System.Boolean easyar.Buffer::tryCopyFrom(System.IntPtr,System.Int32,System.Int32,System.Int32)
+extern void Buffer_tryCopyFrom_m98CDDCBFCDD53EFE46B09AAB177D69381618C547 (void);
+// 0x000004DE System.Boolean easyar.Buffer::tryCopyTo(System.Int32,System.IntPtr,System.Int32,System.Int32)
+extern void Buffer_tryCopyTo_mD671C85684973FB5EC92E0AF10D8F83D54B7A361 (void);
+// 0x000004DF easyar.Buffer easyar.Buffer::partition(System.Int32,System.Int32)
+extern void Buffer_partition_m607E74A4C8D42050D6CA581922D92DC8CCC61D38 (void);
+// 0x000004E0 easyar.Buffer easyar.Buffer::wrapByteArray(System.Byte[])
+extern void Buffer_wrapByteArray_m58B5F3930D9359DF15A2885201DB7A0799C98621 (void);
+// 0x000004E1 easyar.Buffer easyar.Buffer::wrapByteArray(System.Byte[],System.Int32,System.Int32)
+extern void Buffer_wrapByteArray_mCA07EDE300DA4708EB5C26236CE92E0D2D1E63F8 (void);
+// 0x000004E2 easyar.Buffer easyar.Buffer::wrapByteArray(System.Byte[],System.Int32,System.Int32,System.Action)
+extern void Buffer_wrapByteArray_mE673D78D67C0E9C7F317848E84AEFFD3EA944735 (void);
+// 0x000004E3 System.Void easyar.Buffer::copyFromByteArray(System.Byte[])
+extern void Buffer_copyFromByteArray_mD050045CEB05A2AC3BF4C720D104E545423B0CFA (void);
+// 0x000004E4 System.Void easyar.Buffer::copyFromByteArray(System.Byte[],System.Int32,System.Int32,System.Int32)
+extern void Buffer_copyFromByteArray_m6A8CE20B8FBC65AD5D66F83770AF9B6D18E4EAA1 (void);
+// 0x000004E5 System.Void easyar.Buffer::copyToByteArray(System.Byte[])
+extern void Buffer_copyToByteArray_mB5D2007627835034CCB3968281D74DB9DE13312B (void);
+// 0x000004E6 System.Void easyar.Buffer::copyToByteArray(System.Int32,System.Byte[],System.Int32,System.Int32)
+extern void Buffer_copyToByteArray_m1F8700108D430A3796F9EC752009E9CADAF62407 (void);
+// 0x000004E7 System.Void easyar.Buffer/<>c__DisplayClass11_0::.ctor()
+extern void U3CU3Ec__DisplayClass11_0__ctor_mA98CBE92152C8E7842B41895533676114B8F2628 (void);
+// 0x000004E8 System.Void easyar.Buffer/<>c__DisplayClass11_0::<wrapByteArray>b__0()
+extern void U3CU3Ec__DisplayClass11_0_U3CwrapByteArrayU3Eb__0_m845779D74CD34596D858CE1A2B2905157F1B43D2 (void);
+// 0x000004E9 System.Void easyar.Buffer/<>c::.cctor()
+extern void U3CU3Ec__cctor_mE2FBFECEBEA5045ECE6C32915AD9958CAA5446FA (void);
+// 0x000004EA System.Void easyar.Buffer/<>c::.ctor()
+extern void U3CU3Ec__ctor_mC1E0D761D11F63186938FF6D513031BEF48ED3FB (void);
+// 0x000004EB System.Void easyar.Buffer/<>c::<wrapByteArray>b__12_0()
+extern void U3CU3Ec_U3CwrapByteArrayU3Eb__12_0_m0AD6AA483E3AF73751BDA3E6F8E11FD9C1EC9163 (void);
+// 0x000004EC System.Void easyar.Buffer/<>c__DisplayClass13_0::.ctor()
+extern void U3CU3Ec__DisplayClass13_0__ctor_m522C4E94E095D86B0637C614DF01E43ED843ACCA (void);
+// 0x000004ED System.Void easyar.Buffer/<>c__DisplayClass13_0::<wrapByteArray>b__0()
+extern void U3CU3Ec__DisplayClass13_0_U3CwrapByteArrayU3Eb__0_mEB10EB6BC7A10E0E5DB0FF9E0AC31D48092303D9 (void);
+// 0x000004EE System.Void easyar.BufferDictionary::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void BufferDictionary__ctor_mE93203BE36F7D3D2215B37BA8BE82F450D6030D8 (void);
+// 0x000004EF System.Object easyar.BufferDictionary::CloneObject()
+extern void BufferDictionary_CloneObject_m480D95ED71CC664260C96631400570253C67B450 (void);
+// 0x000004F0 easyar.BufferDictionary easyar.BufferDictionary::Clone()
+extern void BufferDictionary_Clone_mE614ACD3E7F243FC3CC2B03CF511BADEA3A5C09E (void);
+// 0x000004F1 System.Void easyar.BufferDictionary::.ctor()
+extern void BufferDictionary__ctor_mE62FDF347908688343AD0704EFC5B0FA64475326 (void);
+// 0x000004F2 System.Int32 easyar.BufferDictionary::count()
+extern void BufferDictionary_count_m8690F327A932FA228BA8493E664E68ABCD8A3374 (void);
+// 0x000004F3 System.Boolean easyar.BufferDictionary::contains(System.String)
+extern void BufferDictionary_contains_mDC9EA0BA61FFDB5A344F011EB712045D17DF55F1 (void);
+// 0x000004F4 easyar.Optional`1<easyar.Buffer> easyar.BufferDictionary::tryGet(System.String)
+extern void BufferDictionary_tryGet_m21D2DF520EB780DC39E31DCAEED224E48882D0C4 (void);
+// 0x000004F5 System.Void easyar.BufferDictionary::set(System.String,easyar.Buffer)
+extern void BufferDictionary_set_mDC802FFB09B4D88E329E9EAE7041DEA4975440EE (void);
+// 0x000004F6 System.Boolean easyar.BufferDictionary::remove(System.String)
+extern void BufferDictionary_remove_m1C97018CEA90D0DF4D7042927DF13DE1CFBBABFC (void);
+// 0x000004F7 System.Void easyar.BufferDictionary::clear()
+extern void BufferDictionary_clear_m47F4DEAF9D8C5D9C10863CEDD6DF2360436F5F10 (void);
+// 0x000004F8 System.Void easyar.BufferDictionary/<>c::.cctor()
+extern void U3CU3Ec__cctor_m1693AFCD1498D85866EAD45DC6A91DE29E10D1E9 (void);
+// 0x000004F9 System.Void easyar.BufferDictionary/<>c::.ctor()
+extern void U3CU3Ec__ctor_mF330F5020773E8320FE8ACFD8CD778D9E752AF91 (void);
+// 0x000004FA easyar.Optional`1<easyar.Buffer> easyar.BufferDictionary/<>c::<tryGet>b__6_0(easyar.Detail/OptionalOfBuffer)
+extern void U3CU3Ec_U3CtryGetU3Eb__6_0_mE5643E479B50BA61FAA6ECD62836FE10B43B4C5C (void);
+// 0x000004FB System.Void easyar.BufferPool::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void BufferPool__ctor_mEE73BF57F5AA80B6943CFED2D2462691CC7F7904 (void);
+// 0x000004FC System.Object easyar.BufferPool::CloneObject()
+extern void BufferPool_CloneObject_mBC011D1B2A85CE7C28025BE9C9A419470CF407CB (void);
+// 0x000004FD easyar.BufferPool easyar.BufferPool::Clone()
+extern void BufferPool_Clone_m2C95C698DAEF710E215F62AF23F5E5D9605BAABB (void);
+// 0x000004FE System.Void easyar.BufferPool::.ctor(System.Int32,System.Int32)
+extern void BufferPool__ctor_mFCFCBAF5DB3A92496E81A627C7AD4D1D8729B910 (void);
+// 0x000004FF System.Int32 easyar.BufferPool::block_size()
+extern void BufferPool_block_size_m8F7EAB42E5189A99A33B877FCBCFAE38964EDC2B (void);
+// 0x00000500 System.Int32 easyar.BufferPool::capacity()
+extern void BufferPool_capacity_m91C741702862BD13B5293BF6CEC96FF4CFE91F32 (void);
+// 0x00000501 System.Int32 easyar.BufferPool::size()
+extern void BufferPool_size_mC04F36B5A52472CDC2D4C0EB089A6478ABBCBF30 (void);
+// 0x00000502 easyar.Optional`1<easyar.Buffer> easyar.BufferPool::tryAcquire()
+extern void BufferPool_tryAcquire_mE06568EC5642C2F6D6719E08B5E73054169BBEE5 (void);
+// 0x00000503 System.Void easyar.BufferPool/<>c::.cctor()
+extern void U3CU3Ec__cctor_m8562992A45D45220C57FE7A6C6F4F57580A27E35 (void);
+// 0x00000504 System.Void easyar.BufferPool/<>c::.ctor()
+extern void U3CU3Ec__ctor_mD004FF89764517D9621DC302E16050EE84BFFEBF (void);
+// 0x00000505 easyar.Optional`1<easyar.Buffer> easyar.BufferPool/<>c::<tryAcquire>b__7_0(easyar.Detail/OptionalOfBuffer)
+extern void U3CU3Ec_U3CtryAcquireU3Eb__7_0_mBEEC7ACABA4BE9DDABCB3EAB0B22DA34D8F852D7 (void);
+// 0x00000506 System.Void easyar.CameraParameters::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void CameraParameters__ctor_mFBFACA125B023E15C6DF6EE606CD348540D3226A (void);
+// 0x00000507 System.Object easyar.CameraParameters::CloneObject()
+extern void CameraParameters_CloneObject_m71DA7CECC52DBD98A79261228BC18300713ADE84 (void);
+// 0x00000508 easyar.CameraParameters easyar.CameraParameters::Clone()
+extern void CameraParameters_Clone_m44C450C88927E940D3CCB2CA81C40256EA341F28 (void);
+// 0x00000509 System.Void easyar.CameraParameters::.ctor(easyar.Vec2I,easyar.Vec2F,easyar.Vec2F,easyar.CameraDeviceType,System.Int32)
+extern void CameraParameters__ctor_m6EBC6F4C73D67F442228E3D0BCEE522396EE8463 (void);
+// 0x0000050A easyar.Vec2I easyar.CameraParameters::size()
+extern void CameraParameters_size_mE4B2D55F83BC3A65FBAB25E1E21FA83857AB0C11 (void);
+// 0x0000050B easyar.Vec2F easyar.CameraParameters::focalLength()
+extern void CameraParameters_focalLength_m780986702E035CAA1FD0935049D4D9996A492885 (void);
+// 0x0000050C easyar.Vec2F easyar.CameraParameters::principalPoint()
+extern void CameraParameters_principalPoint_m1813D7576FA9646261E9F2FA2EBD7537A9AD3835 (void);
+// 0x0000050D easyar.CameraDeviceType easyar.CameraParameters::cameraDeviceType()
+extern void CameraParameters_cameraDeviceType_m41CA64FCEC9FDA1A15578A616E9918D23E9F11AD (void);
+// 0x0000050E System.Int32 easyar.CameraParameters::cameraOrientation()
+extern void CameraParameters_cameraOrientation_mD5D261A52179446B0EAF1A75D52C1368AC4C63FD (void);
+// 0x0000050F easyar.CameraParameters easyar.CameraParameters::createWithDefaultIntrinsics(easyar.Vec2I,easyar.CameraDeviceType,System.Int32)
+extern void CameraParameters_createWithDefaultIntrinsics_mCF43FB0C8DE020BDC8CABBA79EEBDBA55667A243 (void);
+// 0x00000510 easyar.CameraParameters easyar.CameraParameters::getResized(easyar.Vec2I)
+extern void CameraParameters_getResized_mD6F750DA00DC3A06E1CC61318999E67FA4DE24BD (void);
+// 0x00000511 System.Int32 easyar.CameraParameters::imageOrientation(System.Int32)
+extern void CameraParameters_imageOrientation_mF5835974FE4D4863C29C912D3EC34B2E8424B43E (void);
+// 0x00000512 System.Boolean easyar.CameraParameters::imageHorizontalFlip(System.Boolean)
+extern void CameraParameters_imageHorizontalFlip_m0CA9DF4DF89A1ED2D557BA4C4D60359642BB1ACB (void);
+// 0x00000513 easyar.Matrix44F easyar.CameraParameters::projection(System.Single,System.Single,System.Single,System.Int32,System.Boolean,System.Boolean)
+extern void CameraParameters_projection_mE2FAA94F2BEDA37595BCF7B51F9765715C196655 (void);
+// 0x00000514 easyar.Matrix44F easyar.CameraParameters::imageProjection(System.Single,System.Int32,System.Boolean,System.Boolean)
+extern void CameraParameters_imageProjection_mE124FBDB4C5104D3AB78F7EBC6CDA0810609AD99 (void);
+// 0x00000515 easyar.Vec2F easyar.CameraParameters::screenCoordinatesFromImageCoordinates(System.Single,System.Int32,System.Boolean,System.Boolean,easyar.Vec2F)
+extern void CameraParameters_screenCoordinatesFromImageCoordinates_m896A79E55287CC18513ECDC2BC4E723879BFAF5E (void);
+// 0x00000516 easyar.Vec2F easyar.CameraParameters::imageCoordinatesFromScreenCoordinates(System.Single,System.Int32,System.Boolean,System.Boolean,easyar.Vec2F)
+extern void CameraParameters_imageCoordinatesFromScreenCoordinates_m01E7DD368DB06820A17C168CBE57D70C729DB5B9 (void);
+// 0x00000517 System.Boolean easyar.CameraParameters::equalsTo(easyar.CameraParameters)
+extern void CameraParameters_equalsTo_m2D423D6524565855E55664481C21F4F1752E0CBE (void);
+// 0x00000518 System.Void easyar.Image::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void Image__ctor_m6617F9816C0CFAD5916AB50DF610F9E9F1BBFDDC (void);
+// 0x00000519 System.Object easyar.Image::CloneObject()
+extern void Image_CloneObject_m6F2A01127929CD1071ADC9981AED2452DEC7658E (void);
+// 0x0000051A easyar.Image easyar.Image::Clone()
+extern void Image_Clone_mC78FE31B47680B79BB9FB7F54D2166D9430275D6 (void);
+// 0x0000051B System.Void easyar.Image::.ctor(easyar.Buffer,easyar.PixelFormat,System.Int32,System.Int32)
+extern void Image__ctor_mDAC93A07D1E7B5C6ACAACAC2352F2A64059DB629 (void);
+// 0x0000051C easyar.Buffer easyar.Image::buffer()
+extern void Image_buffer_mB332AD78B51DE4D691BF8FB738B5D503BD0E8AEB (void);
+// 0x0000051D easyar.PixelFormat easyar.Image::format()
+extern void Image_format_m819C249E74DCADB13E7F5B449E94EB36C4D7F416 (void);
+// 0x0000051E System.Int32 easyar.Image::width()
+extern void Image_width_m91D699D1BCB7AAB669E4A2BBF7E1DC028B1A5143 (void);
+// 0x0000051F System.Int32 easyar.Image::height()
+extern void Image_height_mBD168B2A425D4A75DAEC6AB879C95450248E58F4 (void);
+// 0x00000520 System.Int32 easyar.Image::pixelWidth()
+extern void Image_pixelWidth_m75F090792E83A57D5DF6F3DC47187844B305FE7E (void);
+// 0x00000521 System.Int32 easyar.Image::pixelHeight()
+extern void Image_pixelHeight_mF03DBEF5187877060682572C0CB855DDEB2FFB4B (void);
+// 0x00000522 easyar.Image easyar.Image::create(easyar.Buffer,easyar.PixelFormat,System.Int32,System.Int32,System.Int32,System.Int32)
+extern void Image_create_m6F7BD4C6EE618F1C9434F07F8A95D890126EFDFE (void);
+// 0x00000523 System.Single[] easyar.Matrix44F::get_data()
+extern void Matrix44F_get_data_mE77FF5E16E55FBCAC06469C74E39437D4307BB8A (void);
+// 0x00000524 System.Void easyar.Matrix44F::set_data(System.Single[])
+extern void Matrix44F_set_data_m54597E72FA553D22B405C3EFC71564714482A0BC (void);
+// 0x00000525 System.Void easyar.Matrix44F::.ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+extern void Matrix44F__ctor_m4803E02BB0E49BAA0F6CE875B35926239625CF23 (void);
+// 0x00000526 System.Single[] easyar.Matrix33F::get_data()
+extern void Matrix33F_get_data_m74CF6765E1A0960B928A7ABBB710A8DBAEE24F0B (void);
+// 0x00000527 System.Void easyar.Matrix33F::set_data(System.Single[])
+extern void Matrix33F_set_data_mFA581D8DA48B8CDBC3483AA4211E4AC4E6E1A77F (void);
+// 0x00000528 System.Void easyar.Matrix33F::.ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+extern void Matrix33F__ctor_mA939B7CC4D5DE20F1236CD87C81C1A7BD6553135 (void);
+// 0x00000529 System.Double[] easyar.Vec3D::get_data()
+extern void Vec3D_get_data_m769BFE7AD72625C69D2146AA33AE9D0C469FE6EA (void);
+// 0x0000052A System.Void easyar.Vec3D::set_data(System.Double[])
+extern void Vec3D_set_data_mD2219E24803B8BE42977AA94655812DC6C8B66AF (void);
+// 0x0000052B System.Void easyar.Vec3D::.ctor(System.Double,System.Double,System.Double)
+extern void Vec3D__ctor_mEAB237B2AF2A488F0E49444F2FC26F25DC00CA5A (void);
+// 0x0000052C System.Single[] easyar.Vec4F::get_data()
+extern void Vec4F_get_data_m33ED9139841508EE548400F434A0B9CA007A7FDF (void);
+// 0x0000052D System.Void easyar.Vec4F::set_data(System.Single[])
+extern void Vec4F_set_data_m3E0AD7B2963637469C577153911AC872B361D807 (void);
+// 0x0000052E System.Void easyar.Vec4F::.ctor(System.Single,System.Single,System.Single,System.Single)
+extern void Vec4F__ctor_mEC76032B5DC5593D5E8CE994BE33A0489B7C0BF2 (void);
+// 0x0000052F System.Single[] easyar.Vec3F::get_data()
+extern void Vec3F_get_data_mBB2B21ACD48ABA0E855C2B471670F22439589C3A (void);
+// 0x00000530 System.Void easyar.Vec3F::set_data(System.Single[])
+extern void Vec3F_set_data_m1001214543FBB48CDF22AE2DE534027C811A52F9 (void);
+// 0x00000531 System.Void easyar.Vec3F::.ctor(System.Single,System.Single,System.Single)
+extern void Vec3F__ctor_mEEFBBF220ED8CCA58956F770B21E90DE02B58351 (void);
+// 0x00000532 System.Single[] easyar.Vec2F::get_data()
+extern void Vec2F_get_data_mCAE058FB2EF977B4A6638E262856609E49E63076 (void);
+// 0x00000533 System.Void easyar.Vec2F::set_data(System.Single[])
+extern void Vec2F_set_data_m3E46A80965D83E95C58F0C078D635694C2405A6F (void);
+// 0x00000534 System.Void easyar.Vec2F::.ctor(System.Single,System.Single)
+extern void Vec2F__ctor_m75206440B316C9C40BCC12B40D7D531200B06E01 (void);
+// 0x00000535 System.Int32[] easyar.Vec4I::get_data()
+extern void Vec4I_get_data_m67106794F8E1FEC2A5A9420744606462E3A288B9 (void);
+// 0x00000536 System.Void easyar.Vec4I::set_data(System.Int32[])
+extern void Vec4I_set_data_mE2F0FC5F4A4E35BE975BF750170832ACD9E928C7 (void);
+// 0x00000537 System.Void easyar.Vec4I::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+extern void Vec4I__ctor_m5C13AA838AB5460F49F5504F0AF3A283447FD771 (void);
+// 0x00000538 System.Int32[] easyar.Vec2I::get_data()
+extern void Vec2I_get_data_m31388735C2417E365CC82E677A5D859518E45007 (void);
+// 0x00000539 System.Void easyar.Vec2I::set_data(System.Int32[])
+extern void Vec2I_set_data_m7AEF40F2388A51351E3B36E98F356202054F2DDE (void);
+// 0x0000053A System.Void easyar.Vec2I::.ctor(System.Int32,System.Int32)
+extern void Vec2I__ctor_m19B1C050F928300518B9D0F4DEA02800F98EDAD3 (void);
+// 0x0000053B System.Void easyar.DenseSpatialMap::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void DenseSpatialMap__ctor_m85A1668DA3765C412A007608CC2004E3D03F300E (void);
+// 0x0000053C System.Object easyar.DenseSpatialMap::CloneObject()
+extern void DenseSpatialMap_CloneObject_m51D2DF98EF51801FABD938B755D3756710B7103F (void);
+// 0x0000053D easyar.DenseSpatialMap easyar.DenseSpatialMap::Clone()
+extern void DenseSpatialMap_Clone_m137DE90DB5E798A4ADAB631C7F3B17EB282F1DFE (void);
+// 0x0000053E System.Boolean easyar.DenseSpatialMap::isAvailable()
+extern void DenseSpatialMap_isAvailable_m5999C81DBEADA3ACDF5FAF5F396F386AAB319403 (void);
+// 0x0000053F easyar.InputFrameSink easyar.DenseSpatialMap::inputFrameSink()
+extern void DenseSpatialMap_inputFrameSink_m7AC70ECF43274BD3A007AB92C4014F9D68AA2930 (void);
+// 0x00000540 System.Int32 easyar.DenseSpatialMap::bufferRequirement()
+extern void DenseSpatialMap_bufferRequirement_mA9C9A55C96436FE58FBF78517D5B567BF2AF9FDF (void);
+// 0x00000541 easyar.DenseSpatialMap easyar.DenseSpatialMap::create()
+extern void DenseSpatialMap_create_m6F78259CD460B2758F3F8338B8699A0B2EAFCA27 (void);
+// 0x00000542 System.Boolean easyar.DenseSpatialMap::start()
+extern void DenseSpatialMap_start_m1F1161F4D3CB432AC36EA3085FB32C4DBB6C2C26 (void);
+// 0x00000543 System.Void easyar.DenseSpatialMap::stop()
+extern void DenseSpatialMap_stop_m3CFA3CE3FE80DF1778F3377114EDF9210FFF7DB3 (void);
+// 0x00000544 System.Void easyar.DenseSpatialMap::close()
+extern void DenseSpatialMap_close_m735EF49094391FBCAB933A559303B3EC5E3229F7 (void);
+// 0x00000545 easyar.SceneMesh easyar.DenseSpatialMap::getMesh()
+extern void DenseSpatialMap_getMesh_mB3532E616C31FDEC389D8898B30D2CE28FAD6625 (void);
+// 0x00000546 System.Boolean easyar.DenseSpatialMap::updateSceneMesh(System.Boolean)
+extern void DenseSpatialMap_updateSceneMesh_m674152D28245BE9B0298611185C2F730FD00AA05 (void);
+// 0x00000547 System.Void easyar.BlockInfo::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+extern void BlockInfo__ctor_m26EDDEE23D9260B5FCC87110BB87940C97C9988F (void);
+// 0x00000548 System.Void easyar.SceneMesh::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void SceneMesh__ctor_mDDF56D8590FCE56353EDF1836D837B91041D8C9A (void);
+// 0x00000549 System.Object easyar.SceneMesh::CloneObject()
+extern void SceneMesh_CloneObject_mDEFF1B2673CB9389E39067DFBD1353F926C893BC (void);
+// 0x0000054A easyar.SceneMesh easyar.SceneMesh::Clone()
+extern void SceneMesh_Clone_m6670B09FE9BF19133AC6F419A9FFFDD35D35A028 (void);
+// 0x0000054B System.Int32 easyar.SceneMesh::getNumOfVertexAll()
+extern void SceneMesh_getNumOfVertexAll_mD87946351E716E12838CE28E4E8C9133F94F5871 (void);
+// 0x0000054C System.Int32 easyar.SceneMesh::getNumOfIndexAll()
+extern void SceneMesh_getNumOfIndexAll_mE4F9B029CDD0CF7B0629C2C6F6A86F974C8A09CB (void);
+// 0x0000054D easyar.Buffer easyar.SceneMesh::getVerticesAll()
+extern void SceneMesh_getVerticesAll_mDACC3270F48615EAC89703EFB0D57528C4B96D08 (void);
+// 0x0000054E easyar.Buffer easyar.SceneMesh::getNormalsAll()
+extern void SceneMesh_getNormalsAll_m9068B4574BD72CAF463B2C31D0C26538EC3E8800 (void);
+// 0x0000054F easyar.Buffer easyar.SceneMesh::getIndicesAll()
+extern void SceneMesh_getIndicesAll_m92F7B39EB08D006B061E351B6152A96543FE1132 (void);
+// 0x00000550 System.Int32 easyar.SceneMesh::getNumOfVertexIncremental()
+extern void SceneMesh_getNumOfVertexIncremental_m8FC7BC2B92493A73241491284D1B85E0EB01B10D (void);
+// 0x00000551 System.Int32 easyar.SceneMesh::getNumOfIndexIncremental()
+extern void SceneMesh_getNumOfIndexIncremental_m306E5FC8DF70C7F7C5D4B10EBD1204A90F4F03B2 (void);
+// 0x00000552 easyar.Buffer easyar.SceneMesh::getVerticesIncremental()
+extern void SceneMesh_getVerticesIncremental_m7015A551665796AD16F103F8CCF029BB6ACC875C (void);
+// 0x00000553 easyar.Buffer easyar.SceneMesh::getNormalsIncremental()
+extern void SceneMesh_getNormalsIncremental_mF27A3C53FE365BA980AFBF2204A7F683B695A763 (void);
+// 0x00000554 easyar.Buffer easyar.SceneMesh::getIndicesIncremental()
+extern void SceneMesh_getIndicesIncremental_m9D43E4A19EB87F891C11B80EC807C505D02319A3 (void);
+// 0x00000555 System.Collections.Generic.List`1<easyar.BlockInfo> easyar.SceneMesh::getBlocksInfoIncremental()
+extern void SceneMesh_getBlocksInfoIncremental_m289D470AD7249CD4BAE1F350D5262558FD67812F (void);
+// 0x00000556 System.Single easyar.SceneMesh::getBlockDimensionInMeters()
+extern void SceneMesh_getBlockDimensionInMeters_m4A3A85863C1563E6CADFC639A768E2CF2F619534 (void);
+// 0x00000557 System.Void easyar.AccelerometerResult::.ctor(System.Single,System.Single,System.Single,System.Double)
+extern void AccelerometerResult__ctor_m64E9CFD846C5CD53076F3FFD23A1F6D781E2AD92 (void);
+// 0x00000558 System.Void easyar.Accelerometer::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void Accelerometer__ctor_m7B1564DA9C0FEF5970E701ED97D1CA309FE1BCF9 (void);
+// 0x00000559 System.Object easyar.Accelerometer::CloneObject()
+extern void Accelerometer_CloneObject_mF2AB281ED41FE98DEA96AC2D28CF48731E35CF58 (void);
+// 0x0000055A easyar.Accelerometer easyar.Accelerometer::Clone()
+extern void Accelerometer_Clone_m5964C26253454394EDFC0A91BB4EE4EBE95A336B (void);
+// 0x0000055B System.Void easyar.Accelerometer::.ctor()
+extern void Accelerometer__ctor_m1E5138EB92212DFCE3A75DC23C8D8F2ADD8E5AC6 (void);
+// 0x0000055C System.Boolean easyar.Accelerometer::isAvailable()
+extern void Accelerometer_isAvailable_m51549C0B634196696F127E4803ECFC2D63024F62 (void);
+// 0x0000055D System.Boolean easyar.Accelerometer::open()
+extern void Accelerometer_open_mEB20D4AF54744A32002F9156DEEC49965529A03A (void);
+// 0x0000055E System.Boolean easyar.Accelerometer::openWithSamplingPeriod(System.Int32)
+extern void Accelerometer_openWithSamplingPeriod_m0B7BB95A0E67555B2DAAA970B6E101FBE920C949 (void);
+// 0x0000055F System.Void easyar.Accelerometer::close()
+extern void Accelerometer_close_mAF80D7DAA8FF70F44DD98E15F410CB01D7C4D429 (void);
+// 0x00000560 easyar.Optional`1<easyar.AccelerometerResult> easyar.Accelerometer::getCurrentResult()
+extern void Accelerometer_getCurrentResult_m7E3E6566E5B311E4039522BA848088ADD03D5F14 (void);
+// 0x00000561 System.Void easyar.Accelerometer/<>c::.cctor()
+extern void U3CU3Ec__cctor_mCC824BFD89148E3A61876DEAF8962FC241E05779 (void);
+// 0x00000562 System.Void easyar.Accelerometer/<>c::.ctor()
+extern void U3CU3Ec__ctor_m0F7AE222A10788154E5A3AF76496C8B78291F1B7 (void);
+// 0x00000563 easyar.Optional`1<easyar.AccelerometerResult> easyar.Accelerometer/<>c::<getCurrentResult>b__8_0(easyar.Detail/OptionalOfAccelerometerResult)
+extern void U3CU3Ec_U3CgetCurrentResultU3Eb__8_0_m928A21C6053C55E3B26976A18712F3E9A6863E4F (void);
+// 0x00000564 System.Void easyar.ARCoreCameraDevice::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ARCoreCameraDevice__ctor_m3B080099B18A29B605B152CBCDEA155E259845C8 (void);
+// 0x00000565 System.Object easyar.ARCoreCameraDevice::CloneObject()
+extern void ARCoreCameraDevice_CloneObject_mF28424F9113D61F4822A45EAB2C54EB9276D92C1 (void);
+// 0x00000566 easyar.ARCoreCameraDevice easyar.ARCoreCameraDevice::Clone()
+extern void ARCoreCameraDevice_Clone_m0119AE61514BFE119296FD6D14F542AA2803601E (void);
+// 0x00000567 System.Void easyar.ARCoreCameraDevice::.ctor()
+extern void ARCoreCameraDevice__ctor_mE899A8A090C0C9536D124CD755FFFF645FFD8857 (void);
+// 0x00000568 System.Boolean easyar.ARCoreCameraDevice::isAvailable()
+extern void ARCoreCameraDevice_isAvailable_mA40A785F551C004B2B1F47B589DDFA9F9F7BC5D2 (void);
+// 0x00000569 System.Int32 easyar.ARCoreCameraDevice::bufferCapacity()
+extern void ARCoreCameraDevice_bufferCapacity_m200E382F5FBAB106E64C5EC97EBC38F6D7DE8087 (void);
+// 0x0000056A System.Void easyar.ARCoreCameraDevice::setBufferCapacity(System.Int32)
+extern void ARCoreCameraDevice_setBufferCapacity_m430C73D92485A3DFBBA4B1426B56C87E35DBC7DD (void);
+// 0x0000056B easyar.InputFrameSource easyar.ARCoreCameraDevice::inputFrameSource()
+extern void ARCoreCameraDevice_inputFrameSource_m4F385895FE85466B7AECE6D2FB8851E9BACA73D8 (void);
+// 0x0000056C System.Void easyar.ARCoreCameraDevice::setFocusMode(easyar.ARCoreCameraDeviceFocusMode)
+extern void ARCoreCameraDevice_setFocusMode_m72542F443E32B579A12A79D07FB8903AEA2ADC08 (void);
+// 0x0000056D System.Boolean easyar.ARCoreCameraDevice::start()
+extern void ARCoreCameraDevice_start_m67BC1C6279485F714E4F7DA4706DC0402ADF01B0 (void);
+// 0x0000056E System.Void easyar.ARCoreCameraDevice::stop()
+extern void ARCoreCameraDevice_stop_mD427DE76DC9312DD59C00CFE7A174B2DFA6E6DA2 (void);
+// 0x0000056F System.Void easyar.ARCoreCameraDevice::close()
+extern void ARCoreCameraDevice_close_mD8F4C965FFEC7E76A15293F2AD72A8A7B3994F90 (void);
+// 0x00000570 System.Void easyar.ARKitCameraDevice::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ARKitCameraDevice__ctor_m04CAD0ED2A74A3C49C6A073FCBB5B3C43D29BC01 (void);
+// 0x00000571 System.Object easyar.ARKitCameraDevice::CloneObject()
+extern void ARKitCameraDevice_CloneObject_m7191E7A7F58DC6888CFC1492B8A2B081A2F14747 (void);
+// 0x00000572 easyar.ARKitCameraDevice easyar.ARKitCameraDevice::Clone()
+extern void ARKitCameraDevice_Clone_mDB000935184406F50667E939FB5ACCFF8178ABC1 (void);
+// 0x00000573 System.Void easyar.ARKitCameraDevice::.ctor()
+extern void ARKitCameraDevice__ctor_mE1F6B15AA7D377C336E22ED8F004A5A4231E57F6 (void);
+// 0x00000574 System.Boolean easyar.ARKitCameraDevice::isAvailable()
+extern void ARKitCameraDevice_isAvailable_mEF0BBE6F1BB3341D348BF0B82310E27113FD33EE (void);
+// 0x00000575 System.Int32 easyar.ARKitCameraDevice::bufferCapacity()
+extern void ARKitCameraDevice_bufferCapacity_mDD3A9DA8CA82AAAB078EF789DEE2AC17DA7053E8 (void);
+// 0x00000576 System.Void easyar.ARKitCameraDevice::setBufferCapacity(System.Int32)
+extern void ARKitCameraDevice_setBufferCapacity_mFCD8C2581F72EE5136BC718362CEF744B4C2ADF2 (void);
+// 0x00000577 easyar.InputFrameSource easyar.ARKitCameraDevice::inputFrameSource()
+extern void ARKitCameraDevice_inputFrameSource_m298BF4D5B70C25E6E19B8B054FF0C96149498312 (void);
+// 0x00000578 System.Void easyar.ARKitCameraDevice::setFocusMode(easyar.ARKitCameraDeviceFocusMode)
+extern void ARKitCameraDevice_setFocusMode_m077F4A7A35A73D2045F65A99BBAC3157AE182833 (void);
+// 0x00000579 System.Boolean easyar.ARKitCameraDevice::start()
+extern void ARKitCameraDevice_start_m524542219757C44DFAA48803F306814EAFA01218 (void);
+// 0x0000057A System.Void easyar.ARKitCameraDevice::stop()
+extern void ARKitCameraDevice_stop_m60FF14BE18409D0525EE6456705C34218A5C8EE8 (void);
+// 0x0000057B System.Void easyar.ARKitCameraDevice::close()
+extern void ARKitCameraDevice_close_m765F04F25E611748425BEEC998F7EE71F8CC2A38 (void);
+// 0x0000057C System.Void easyar.CameraDevice::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void CameraDevice__ctor_mE4985F1C257011B28D71A1AC25177D9745E237EE (void);
+// 0x0000057D System.Object easyar.CameraDevice::CloneObject()
+extern void CameraDevice_CloneObject_m397FF3336160F3E22FCD75ED42CD98487AC88C4C (void);
+// 0x0000057E easyar.CameraDevice easyar.CameraDevice::Clone()
+extern void CameraDevice_Clone_m49C8505F9A170557677779C375EFE5F4EFAA6644 (void);
+// 0x0000057F System.Void easyar.CameraDevice::.ctor()
+extern void CameraDevice__ctor_m543A41D3E72251A627AB82453261948D713B20EB (void);
+// 0x00000580 System.Boolean easyar.CameraDevice::isAvailable()
+extern void CameraDevice_isAvailable_m2C2D21C5A4545B22DCA918F712C2441AC96507B4 (void);
+// 0x00000581 easyar.AndroidCameraApiType easyar.CameraDevice::androidCameraApiType()
+extern void CameraDevice_androidCameraApiType_mE85B0C46735ED6FB77630A086B9674C8C94638B4 (void);
+// 0x00000582 System.Void easyar.CameraDevice::setAndroidCameraApiType(easyar.AndroidCameraApiType)
+extern void CameraDevice_setAndroidCameraApiType_m116D3447E1C8E70F3DCEB51613C503DDB9C1D3DB (void);
+// 0x00000583 System.Int32 easyar.CameraDevice::bufferCapacity()
+extern void CameraDevice_bufferCapacity_m1FB1C489597AC3A3F66CCEE18F7DF53F778025FA (void);
+// 0x00000584 System.Void easyar.CameraDevice::setBufferCapacity(System.Int32)
+extern void CameraDevice_setBufferCapacity_m803085F021DA5BBB58892A0FB9B08F2FAB6E1C7C (void);
+// 0x00000585 easyar.InputFrameSource easyar.CameraDevice::inputFrameSource()
+extern void CameraDevice_inputFrameSource_mF83FBDA48CE4BB947199E49D3B5688429DC12839 (void);
+// 0x00000586 System.Void easyar.CameraDevice::setStateChangedCallback(easyar.CallbackScheduler,easyar.Optional`1<System.Action`1<easyar.CameraState>>)
+extern void CameraDevice_setStateChangedCallback_m049C478870C70389474E7E950541B8A46DDA6765 (void);
+// 0x00000587 System.Void easyar.CameraDevice::requestPermissions(easyar.CallbackScheduler,easyar.Optional`1<System.Action`2<easyar.PermissionStatus,System.String>>)
+extern void CameraDevice_requestPermissions_m64A213E5EC9FC67F43D668D026AE723B2E084F4B (void);
+// 0x00000588 System.Int32 easyar.CameraDevice::cameraCount()
+extern void CameraDevice_cameraCount_mEB52B8E4E10962E6687A667356587F4803CFF1F7 (void);
+// 0x00000589 System.Boolean easyar.CameraDevice::openWithIndex(System.Int32)
+extern void CameraDevice_openWithIndex_m57D8950B365DB88CCD962EA1A695AD4B303C93F0 (void);
+// 0x0000058A System.Boolean easyar.CameraDevice::openWithSpecificType(easyar.CameraDeviceType)
+extern void CameraDevice_openWithSpecificType_mFAE0E7BC045A102D71A87845F928CC52AB58EB10 (void);
+// 0x0000058B System.Boolean easyar.CameraDevice::openWithPreferredType(easyar.CameraDeviceType)
+extern void CameraDevice_openWithPreferredType_mD229731A5E32B57DEB0ABCBD8295A18DAD850F88 (void);
+// 0x0000058C System.Boolean easyar.CameraDevice::start()
+extern void CameraDevice_start_m6302AAA9FDDFFAE4AF53E3DDE94FC5D590D78612 (void);
+// 0x0000058D System.Void easyar.CameraDevice::stop()
+extern void CameraDevice_stop_mEBA78A812A63D6C6741352F3BF1D6928961685C8 (void);
+// 0x0000058E System.Void easyar.CameraDevice::close()
+extern void CameraDevice_close_m4B66F53F2FF065121112129081169B971493F4B0 (void);
+// 0x0000058F System.Int32 easyar.CameraDevice::index()
+extern void CameraDevice_index_m1F21AF87959136EA6BAC85C07AF180D3088FEE38 (void);
+// 0x00000590 easyar.CameraDeviceType easyar.CameraDevice::type()
+extern void CameraDevice_type_mB520E03F4C7C7ADF07B17564BAABFECFE362BC09 (void);
+// 0x00000591 easyar.CameraParameters easyar.CameraDevice::cameraParameters()
+extern void CameraDevice_cameraParameters_mB3F562AAB1CBD2AF5E53BDE9AC134F89B3F2E3FF (void);
+// 0x00000592 System.Void easyar.CameraDevice::setCameraParameters(easyar.CameraParameters)
+extern void CameraDevice_setCameraParameters_m3151C15820846B6D31949D66CB0B04DE2EBD522F (void);
+// 0x00000593 easyar.Vec2I easyar.CameraDevice::size()
+extern void CameraDevice_size_mF744D43F7F60E8B3B063819FA4A3573B7C26F699 (void);
+// 0x00000594 System.Int32 easyar.CameraDevice::supportedSizeCount()
+extern void CameraDevice_supportedSizeCount_mD8EF27F4291EA333B2A727EB91338B5F5A9250D5 (void);
+// 0x00000595 easyar.Vec2I easyar.CameraDevice::supportedSize(System.Int32)
+extern void CameraDevice_supportedSize_m03913BDAF5A354B82FB18BE5BA5F3C4BFF3833E9 (void);
+// 0x00000596 System.Boolean easyar.CameraDevice::setSize(easyar.Vec2I)
+extern void CameraDevice_setSize_m3F2D39A0F95D250D3066A5262CCEB6D388003547 (void);
+// 0x00000597 System.Int32 easyar.CameraDevice::supportedFrameRateRangeCount()
+extern void CameraDevice_supportedFrameRateRangeCount_m3669E66D26D64231BB8E495B987B2EDE354FDBF5 (void);
+// 0x00000598 System.Single easyar.CameraDevice::supportedFrameRateRangeLower(System.Int32)
+extern void CameraDevice_supportedFrameRateRangeLower_mA02BF11840085AFECEEC590CD9448CF46CCF3B03 (void);
+// 0x00000599 System.Single easyar.CameraDevice::supportedFrameRateRangeUpper(System.Int32)
+extern void CameraDevice_supportedFrameRateRangeUpper_m61338A3D8794BA6544B6831F139373FFAC945561 (void);
+// 0x0000059A System.Int32 easyar.CameraDevice::frameRateRange()
+extern void CameraDevice_frameRateRange_mEFC03A551AC25E57BFE695DA8C4FFE40A4B72AE6 (void);
+// 0x0000059B System.Boolean easyar.CameraDevice::setFrameRateRange(System.Int32)
+extern void CameraDevice_setFrameRateRange_m071BC243A5F70674B60C9A571D0B43A042D27798 (void);
+// 0x0000059C System.Boolean easyar.CameraDevice::setFlashTorchMode(System.Boolean)
+extern void CameraDevice_setFlashTorchMode_m3357C279EDF382CDAE6067C7DBFD5D18A7E9F70B (void);
+// 0x0000059D System.Boolean easyar.CameraDevice::setFocusMode(easyar.CameraDeviceFocusMode)
+extern void CameraDevice_setFocusMode_mE0BAE42108D1E1A87B17E1758B55507059EA74B2 (void);
+// 0x0000059E System.Boolean easyar.CameraDevice::autoFocus()
+extern void CameraDevice_autoFocus_m90BC6B819E10CA2D7D9795AD03136584A81C17FF (void);
+// 0x0000059F System.Void easyar.CameraDevice/<>c::.cctor()
+extern void U3CU3Ec__cctor_mBBA7C0243C50B82883F4CB990A368FDE1E6C1892 (void);
+// 0x000005A0 System.Void easyar.CameraDevice/<>c::.ctor()
+extern void U3CU3Ec__ctor_m4CAB6616B57FB3DAA67989448EE7DE654A4748D6 (void);
+// 0x000005A1 easyar.Detail/OptionalOfFunctorOfVoidFromCameraState easyar.CameraDevice/<>c::<setStateChangedCallback>b__10_0(easyar.Optional`1<System.Action`1<easyar.CameraState>>)
+extern void U3CU3Ec_U3CsetStateChangedCallbackU3Eb__10_0_m4100D7FE0A3A9D5E11A71F665C980E4E05EFCA83 (void);
+// 0x000005A2 easyar.Detail/OptionalOfFunctorOfVoidFromPermissionStatusAndString easyar.CameraDevice/<>c::<requestPermissions>b__11_0(easyar.Optional`1<System.Action`2<easyar.PermissionStatus,System.String>>)
+extern void U3CU3Ec_U3CrequestPermissionsU3Eb__11_0_m13D728ABF942A88BC4FAEFEB1D42965CE423BAC9 (void);
+// 0x000005A3 easyar.AndroidCameraApiType easyar.CameraDeviceSelector::getAndroidCameraApiType(easyar.CameraDevicePreference)
+extern void CameraDeviceSelector_getAndroidCameraApiType_m7267BC6BA65C1D88E8432C25A046818339D4F7D5 (void);
+// 0x000005A4 easyar.CameraDevice easyar.CameraDeviceSelector::createCameraDevice(easyar.CameraDevicePreference)
+extern void CameraDeviceSelector_createCameraDevice_mDD800E19CB4877097279EB323C285C7C3CAE68C5 (void);
+// 0x000005A5 easyar.CameraDeviceFocusMode easyar.CameraDeviceSelector::getFocusMode(easyar.CameraDevicePreference)
+extern void CameraDeviceSelector_getFocusMode_m9A34547D4BF4EF2047613498E7812C314C8BF081 (void);
+// 0x000005A6 System.Void easyar.CameraDeviceSelector::.ctor()
+extern void CameraDeviceSelector__ctor_mA2200F29F3DFD70955D0F7B34BF4C85D463F44E3 (void);
+// 0x000005A7 System.Void easyar.MagnetometerResult::.ctor(System.Single,System.Single,System.Single,System.Double)
+extern void MagnetometerResult__ctor_mD0948B897C36EF739B9B9ED9686B854CAEBD9954 (void);
+// 0x000005A8 System.Void easyar.SurfaceTrackerResult::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void SurfaceTrackerResult__ctor_mE4DC10A0416CA3085ADA3495CD6FDB402B6EF396 (void);
+// 0x000005A9 System.Object easyar.SurfaceTrackerResult::CloneObject()
+extern void SurfaceTrackerResult_CloneObject_mB1DAFBB0C3199577605864B36E81D727527802D1 (void);
+// 0x000005AA easyar.SurfaceTrackerResult easyar.SurfaceTrackerResult::Clone()
+extern void SurfaceTrackerResult_Clone_m47A217554830D8675C96519862732B78C24FB2CF (void);
+// 0x000005AB easyar.Matrix44F easyar.SurfaceTrackerResult::transform()
+extern void SurfaceTrackerResult_transform_mFFD875EE0298781A9986D4574619A42BD2EF2D7D (void);
+// 0x000005AC System.Void easyar.SurfaceTracker::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void SurfaceTracker__ctor_m25527FEF9E045AE61CF1A51E8DA2BD1A32568EDC (void);
+// 0x000005AD System.Object easyar.SurfaceTracker::CloneObject()
+extern void SurfaceTracker_CloneObject_m94C7882F10F9B8CB256CCF046A6036BE722F5381 (void);
+// 0x000005AE easyar.SurfaceTracker easyar.SurfaceTracker::Clone()
+extern void SurfaceTracker_Clone_mE59B7AB1319D67E37139F3ABADE82E8EE6F0C930 (void);
+// 0x000005AF System.Boolean easyar.SurfaceTracker::isAvailable()
+extern void SurfaceTracker_isAvailable_mC826307F8EC4986CFF96E70A1F1E3EF52847D443 (void);
+// 0x000005B0 easyar.InputFrameSink easyar.SurfaceTracker::inputFrameSink()
+extern void SurfaceTracker_inputFrameSink_mB5CECC8CB96F2D84643B3E35F9B6BE3803A2E6B3 (void);
+// 0x000005B1 System.Int32 easyar.SurfaceTracker::bufferRequirement()
+extern void SurfaceTracker_bufferRequirement_m9B2CB71B6C874D373D18452D1F736392FE8F03CA (void);
+// 0x000005B2 easyar.OutputFrameSource easyar.SurfaceTracker::outputFrameSource()
+extern void SurfaceTracker_outputFrameSource_mCC75F1793DB1327113CC5BE0F82BE7D6C1E2233B (void);
+// 0x000005B3 easyar.SurfaceTracker easyar.SurfaceTracker::create()
+extern void SurfaceTracker_create_mBE5266F3251E0BF2DD27A0B36074A5FEB4E882FC (void);
+// 0x000005B4 System.Boolean easyar.SurfaceTracker::start()
+extern void SurfaceTracker_start_m2157EDF18E41FAE18336FDE2F18681A9C1B55961 (void);
+// 0x000005B5 System.Void easyar.SurfaceTracker::stop()
+extern void SurfaceTracker_stop_mBA50EA07C3FA842199725C77BF62659461C9751A (void);
+// 0x000005B6 System.Void easyar.SurfaceTracker::close()
+extern void SurfaceTracker_close_m9D29D9A1E12EC042FEC0F043596EC121607F0088 (void);
+// 0x000005B7 System.Void easyar.SurfaceTracker::alignTargetToCameraImagePoint(easyar.Vec2F)
+extern void SurfaceTracker_alignTargetToCameraImagePoint_m4C423DF1DBF0786334894EFFC502A488F70EA75A (void);
+// 0x000005B8 System.Void easyar.MotionTrackerCameraDevice::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void MotionTrackerCameraDevice__ctor_m15AD438A899F161BA05C4AB104D635430A5FABAC (void);
+// 0x000005B9 System.Object easyar.MotionTrackerCameraDevice::CloneObject()
+extern void MotionTrackerCameraDevice_CloneObject_m39DF31BA97973EF7A77E1BF9D5EA075C638C7620 (void);
+// 0x000005BA easyar.MotionTrackerCameraDevice easyar.MotionTrackerCameraDevice::Clone()
+extern void MotionTrackerCameraDevice_Clone_mB80D2C0707F793880910D5AEA054A9963A619D73 (void);
+// 0x000005BB System.Void easyar.MotionTrackerCameraDevice::.ctor()
+extern void MotionTrackerCameraDevice__ctor_mABCFD839D1194A3D16F5576AF88FBCA914C51D0E (void);
+// 0x000005BC System.Boolean easyar.MotionTrackerCameraDevice::isAvailable()
+extern void MotionTrackerCameraDevice_isAvailable_m8456E208701C46204CBB0A7264DFF1BD43078640 (void);
+// 0x000005BD easyar.MotionTrackerCameraDeviceQualityLevel easyar.MotionTrackerCameraDevice::getQualityLevel()
+extern void MotionTrackerCameraDevice_getQualityLevel_mC7EE0BA229C5BC1E0647F7CD968D674F7107B141 (void);
+// 0x000005BE System.Boolean easyar.MotionTrackerCameraDevice::setFrameRateType(easyar.MotionTrackerCameraDeviceFPS)
+extern void MotionTrackerCameraDevice_setFrameRateType_m5FCACB7F04D11C383AA1A2F934A288348FEEE217 (void);
+// 0x000005BF System.Boolean easyar.MotionTrackerCameraDevice::setFocusMode(easyar.MotionTrackerCameraDeviceFocusMode)
+extern void MotionTrackerCameraDevice_setFocusMode_mF87615FE335A8672B5B570DAD459BC1AD74B457B (void);
+// 0x000005C0 System.Boolean easyar.MotionTrackerCameraDevice::setFrameResolutionType(easyar.MotionTrackerCameraDeviceResolution)
+extern void MotionTrackerCameraDevice_setFrameResolutionType_m48987224A8EBEAF1824B1D50885370A660E05B66 (void);
+// 0x000005C1 System.Boolean easyar.MotionTrackerCameraDevice::setTrackingMode(easyar.MotionTrackerCameraDeviceTrackingMode)
+extern void MotionTrackerCameraDevice_setTrackingMode_m2EE5986E8F4A09B83C5E7EBC1DFF1AE2A8F80587 (void);
+// 0x000005C2 System.Void easyar.MotionTrackerCameraDevice::setBufferCapacity(System.Int32)
+extern void MotionTrackerCameraDevice_setBufferCapacity_mC864962FB18410BC6F121E476F07361FCB7737DD (void);
+// 0x000005C3 System.Int32 easyar.MotionTrackerCameraDevice::bufferCapacity()
+extern void MotionTrackerCameraDevice_bufferCapacity_m8140910D868AB17C56AC8131154432E79245F359 (void);
+// 0x000005C4 easyar.InputFrameSource easyar.MotionTrackerCameraDevice::inputFrameSource()
+extern void MotionTrackerCameraDevice_inputFrameSource_mFB6857EECD65269E9D86E959F6C587FD3297AE31 (void);
+// 0x000005C5 System.Boolean easyar.MotionTrackerCameraDevice::start()
+extern void MotionTrackerCameraDevice_start_mBC5E45E4DC5BA9B304A45E3F659D18599AB3614F (void);
+// 0x000005C6 System.Void easyar.MotionTrackerCameraDevice::stop()
+extern void MotionTrackerCameraDevice_stop_mD275F60428DE3D5D8EB53A61208F061AF543BB3B (void);
+// 0x000005C7 System.Void easyar.MotionTrackerCameraDevice::close()
+extern void MotionTrackerCameraDevice_close_mFA43DBF7D8260140F5B515465AB827CF8F4DF5BF (void);
+// 0x000005C8 System.Collections.Generic.List`1<easyar.Vec3F> easyar.MotionTrackerCameraDevice::hitTestAgainstPointCloud(easyar.Vec2F)
+extern void MotionTrackerCameraDevice_hitTestAgainstPointCloud_m1CFAB28361B14348FDBA05FDD945877C8DB15AA7 (void);
+// 0x000005C9 System.Collections.Generic.List`1<easyar.Vec3F> easyar.MotionTrackerCameraDevice::hitTestAgainstHorizontalPlane(easyar.Vec2F)
+extern void MotionTrackerCameraDevice_hitTestAgainstHorizontalPlane_m6D11BE3BA3BE77766A3945B35AAE1AF868148DF5 (void);
+// 0x000005CA System.Collections.Generic.List`1<easyar.Vec3F> easyar.MotionTrackerCameraDevice::getLocalPointsCloud()
+extern void MotionTrackerCameraDevice_getLocalPointsCloud_m1196D352403DA900341D8F2FAF6E932DFA7797D5 (void);
+// 0x000005CB System.Void easyar.InputFrameRecorder::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void InputFrameRecorder__ctor_m9EC35CE3568614CC21D5EA2C97DF12BAB2092736 (void);
+// 0x000005CC System.Object easyar.InputFrameRecorder::CloneObject()
+extern void InputFrameRecorder_CloneObject_mD9C81E0196A2EBF1EC5C70D003CBED931F61FD92 (void);
+// 0x000005CD easyar.InputFrameRecorder easyar.InputFrameRecorder::Clone()
+extern void InputFrameRecorder_Clone_m3F05CAB34B127FB374283B205F4EA0E2E0B53473 (void);
+// 0x000005CE easyar.InputFrameSink easyar.InputFrameRecorder::input()
+extern void InputFrameRecorder_input_mB6BEFCD20CDE70A6F8A77A8AEBAFA03B2315A501 (void);
+// 0x000005CF System.Int32 easyar.InputFrameRecorder::bufferRequirement()
+extern void InputFrameRecorder_bufferRequirement_mEA38CFD0C0DE5180B721F53BB8BFA75FD675DBA8 (void);
+// 0x000005D0 easyar.InputFrameSource easyar.InputFrameRecorder::output()
+extern void InputFrameRecorder_output_m95A787A25BBE97EBD765C2A17387B035F66764D6 (void);
+// 0x000005D1 easyar.InputFrameRecorder easyar.InputFrameRecorder::create()
+extern void InputFrameRecorder_create_m3F1B3B112A6BE8C30F0B8D1ADE2141B22DAFFD1F (void);
+// 0x000005D2 System.Boolean easyar.InputFrameRecorder::start(System.String,System.Int32)
+extern void InputFrameRecorder_start_mD4E91DC76367D273B2765E3517BC7492A080A47E (void);
+// 0x000005D3 System.Void easyar.InputFrameRecorder::stop()
+extern void InputFrameRecorder_stop_m9BF020736695B8852824B9A9514D1BEC71CC74BC (void);
+// 0x000005D4 System.Void easyar.InputFramePlayer::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void InputFramePlayer__ctor_mE1AC4F9B77AAAEA27C6726A7092960948FF23D73 (void);
+// 0x000005D5 System.Object easyar.InputFramePlayer::CloneObject()
+extern void InputFramePlayer_CloneObject_mA9E5C1F04BA786EBB7CF12D2DB597D5CA937DD28 (void);
+// 0x000005D6 easyar.InputFramePlayer easyar.InputFramePlayer::Clone()
+extern void InputFramePlayer_Clone_mA6CE16DD950F728A27D2DB72BECAD55C6B5F2E61 (void);
+// 0x000005D7 easyar.InputFrameSource easyar.InputFramePlayer::output()
+extern void InputFramePlayer_output_m8260453790642DD9E2659C1AF98653965A5B064B (void);
+// 0x000005D8 easyar.InputFramePlayer easyar.InputFramePlayer::create()
+extern void InputFramePlayer_create_m92CAD1F5AB4B84D33E9077E93A7737A09711CBE8 (void);
+// 0x000005D9 System.Boolean easyar.InputFramePlayer::start(System.String)
+extern void InputFramePlayer_start_mF400B9D537F4405C8D2DA8A35DD62115379FD10A (void);
+// 0x000005DA System.Void easyar.InputFramePlayer::stop()
+extern void InputFramePlayer_stop_m153447216C7E8FA48F87DE3E2449E9B6C4AC853E (void);
+// 0x000005DB System.Void easyar.InputFramePlayer::pause()
+extern void InputFramePlayer_pause_mE8039F5B7420C41A73C11098C21F11BBA0270BCF (void);
+// 0x000005DC System.Boolean easyar.InputFramePlayer::resume()
+extern void InputFramePlayer_resume_m2C08CD48CD5C3485F04F99410AAE46A6EDB9BF1F (void);
+// 0x000005DD System.Double easyar.InputFramePlayer::totalTime()
+extern void InputFramePlayer_totalTime_m7378C7288BF0C33EAA1CECAFA4E4237B3DEB5578 (void);
+// 0x000005DE System.Double easyar.InputFramePlayer::currentTime()
+extern void InputFramePlayer_currentTime_m0CE5D16C073A65162C842331B8CC4BF030EC8EB9 (void);
+// 0x000005DF System.Int32 easyar.InputFramePlayer::initalScreenRotation()
+extern void InputFramePlayer_initalScreenRotation_mCBB6AAA340096070A0A6CB7C9E36FB357F726F14 (void);
+// 0x000005E0 System.Boolean easyar.InputFramePlayer::isCompleted()
+extern void InputFramePlayer_isCompleted_m4B7C618D2400B86399F01DD726544BFFCD2FB923 (void);
+// 0x000005E1 System.Void easyar.CallbackScheduler::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void CallbackScheduler__ctor_m4B8975B6F0630B472C5981A144978E0D7CC11FDE (void);
+// 0x000005E2 System.Object easyar.CallbackScheduler::CloneObject()
+extern void CallbackScheduler_CloneObject_m9B3B3A5BFEE4E64A8DD36E278EC013C95D0C69A0 (void);
+// 0x000005E3 easyar.CallbackScheduler easyar.CallbackScheduler::Clone()
+extern void CallbackScheduler_Clone_mCD53C4949418E06096A175502CAB1DA22B984C60 (void);
+// 0x000005E4 System.Void easyar.DelayedCallbackScheduler::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void DelayedCallbackScheduler__ctor_m4A14C6D833A070FCCAE452A055B987E09C6BCAB4 (void);
+// 0x000005E5 System.Object easyar.DelayedCallbackScheduler::CloneObject()
+extern void DelayedCallbackScheduler_CloneObject_m8F687D70521E7B02FAA4E49FDA7C6A76098D65B1 (void);
+// 0x000005E6 easyar.DelayedCallbackScheduler easyar.DelayedCallbackScheduler::Clone()
+extern void DelayedCallbackScheduler_Clone_mD80E45CDEF1E8F170B6001794796D6D5ABECFEB6 (void);
+// 0x000005E7 System.Void easyar.DelayedCallbackScheduler::.ctor()
+extern void DelayedCallbackScheduler__ctor_m8279AA3A0FA97EF6D909B976B380F08AEA02F1B5 (void);
+// 0x000005E8 System.Boolean easyar.DelayedCallbackScheduler::runOne()
+extern void DelayedCallbackScheduler_runOne_m538BB256BC607329018029843D26A433B0CD20A5 (void);
+// 0x000005E9 System.Void easyar.ImmediateCallbackScheduler::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ImmediateCallbackScheduler__ctor_m2FC6C9F75121151BF2E54BB43DD90913976C5435 (void);
+// 0x000005EA System.Object easyar.ImmediateCallbackScheduler::CloneObject()
+extern void ImmediateCallbackScheduler_CloneObject_mC2BCBF1E6710E128FA637D8C85E6BF7446A88E1B (void);
+// 0x000005EB easyar.ImmediateCallbackScheduler easyar.ImmediateCallbackScheduler::Clone()
+extern void ImmediateCallbackScheduler_Clone_m9717491F5B2AF6E12FBB7A35D9B40FE3D6497091 (void);
+// 0x000005EC easyar.ImmediateCallbackScheduler easyar.ImmediateCallbackScheduler::getDefault()
+extern void ImmediateCallbackScheduler_getDefault_m7360F21B65B7FDF5259B72A7DE54DBA7DFC462FA (void);
+// 0x000005ED easyar.Buffer easyar.JniUtility::wrapByteArray(System.IntPtr,System.Boolean,System.Action)
+extern void JniUtility_wrapByteArray_m835FDC5FFB1FCEB6CAE15422AB78B898C325399D (void);
+// 0x000005EE easyar.Buffer easyar.JniUtility::wrapBuffer(System.IntPtr,System.Action)
+extern void JniUtility_wrapBuffer_mD577DDC80EED1D4BD06A8453F75D9050762CE6E7 (void);
+// 0x000005EF System.IntPtr easyar.JniUtility::getDirectBufferAddress(System.IntPtr)
+extern void JniUtility_getDirectBufferAddress_m02D9099E6B566EF4A0732E51D3D19C154DE21DD4 (void);
+// 0x000005F0 System.Void easyar.JniUtility::.ctor()
+extern void JniUtility__ctor_mF2A55E9C18704A7B753A109FCFE60B7A31563F8D (void);
+// 0x000005F1 System.Void easyar.Log::setLogFunc(System.Action`2<easyar.LogLevel,System.String>)
+extern void Log_setLogFunc_m7913D44D35F742D1133D339365ED8AFEAB407B91 (void);
+// 0x000005F2 System.Void easyar.Log::setLogFuncWithScheduler(easyar.CallbackScheduler,System.Action`2<easyar.LogLevel,System.String>)
+extern void Log_setLogFuncWithScheduler_m15B290DFDF572ED472103FE44D11D634E6D5934A (void);
+// 0x000005F3 System.Void easyar.Log::resetLogFunc()
+extern void Log_resetLogFunc_m4AE932015018983394C5CBE1D6675DDB6DCC4DBC (void);
+// 0x000005F4 System.Void easyar.Log::.ctor()
+extern void Log__ctor_m68D097B5BB2DDC53D30D7A6C727C19AA1ACB9FFC (void);
+// 0x000005F5 System.Void easyar.Storage::setAssetDirPath(System.String)
+extern void Storage_setAssetDirPath_m6AA764F8CEA5706F76DFBE20D92935A003F1A9D2 (void);
+// 0x000005F6 System.Void easyar.Storage::.ctor()
+extern void Storage__ctor_mE51FA537D4AB875D80B26169A8FF20FD2D3092B6 (void);
+// 0x000005F7 System.Void easyar.ImageTargetParameters::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ImageTargetParameters__ctor_m67BCAFFB16FC9EC81A3FA64FE630DEEF53316EE0 (void);
+// 0x000005F8 System.Object easyar.ImageTargetParameters::CloneObject()
+extern void ImageTargetParameters_CloneObject_m7D25BB6B637E481C0FA2B89F623558697E6550E3 (void);
+// 0x000005F9 easyar.ImageTargetParameters easyar.ImageTargetParameters::Clone()
+extern void ImageTargetParameters_Clone_mEDA1A852B216E4E06924C4A6B9BD5134AA670105 (void);
+// 0x000005FA System.Void easyar.ImageTargetParameters::.ctor()
+extern void ImageTargetParameters__ctor_m51DAFFAA165CEA8ED16F7D23D24AC3A69D4D45A0 (void);
+// 0x000005FB easyar.Image easyar.ImageTargetParameters::image()
+extern void ImageTargetParameters_image_mD97F69F8C4835C701BD241F580F6238EA290BEA9 (void);
+// 0x000005FC System.Void easyar.ImageTargetParameters::setImage(easyar.Image)
+extern void ImageTargetParameters_setImage_m00E6A72B92F8D9BC54A58BC0BD1613B0ED30F9B8 (void);
+// 0x000005FD System.String easyar.ImageTargetParameters::name()
+extern void ImageTargetParameters_name_m1D8B10AC9E93692AAD8D27D31BE78A3874BABCAC (void);
+// 0x000005FE System.Void easyar.ImageTargetParameters::setName(System.String)
+extern void ImageTargetParameters_setName_mB0E67E28FC391FA3B1A9A02CD7DCFEE69DB97904 (void);
+// 0x000005FF System.String easyar.ImageTargetParameters::uid()
+extern void ImageTargetParameters_uid_m35FCEED4751F718F8868CE34F4D544D7992CF002 (void);
+// 0x00000600 System.Void easyar.ImageTargetParameters::setUid(System.String)
+extern void ImageTargetParameters_setUid_mA63FB4238A742241EAD41B9AB95A9F69D8BD8895 (void);
+// 0x00000601 System.String easyar.ImageTargetParameters::meta()
+extern void ImageTargetParameters_meta_m81348E6F23FF89369B51D2E053647F3CB507D16F (void);
+// 0x00000602 System.Void easyar.ImageTargetParameters::setMeta(System.String)
+extern void ImageTargetParameters_setMeta_m31DE94F4483DD65DF6645FAAA9C42F57BEBB3594 (void);
+// 0x00000603 System.Single easyar.ImageTargetParameters::scale()
+extern void ImageTargetParameters_scale_m8A3E3BBB5FE32635FA3958E2090828763E7D6A97 (void);
+// 0x00000604 System.Void easyar.ImageTargetParameters::setScale(System.Single)
+extern void ImageTargetParameters_setScale_m4CD84FAC353051B6E434B3A245815AE41E730C12 (void);
+// 0x00000605 System.Void easyar.ImageTarget::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ImageTarget__ctor_mA97DC41882620A1A683AFC7439061EB8F7A2EE0E (void);
+// 0x00000606 System.Object easyar.ImageTarget::CloneObject()
+extern void ImageTarget_CloneObject_mEE9DB84A827D13579289C9E9DD6D0B58A38D523B (void);
+// 0x00000607 easyar.ImageTarget easyar.ImageTarget::Clone()
+extern void ImageTarget_Clone_mB80FB41B187C20727843FC5ACB430E7385CBC83C (void);
+// 0x00000608 System.Void easyar.ImageTarget::.ctor()
+extern void ImageTarget__ctor_mAAF5206E55E6369D57061F11DC5BC3A538312B25 (void);
+// 0x00000609 easyar.Optional`1<easyar.ImageTarget> easyar.ImageTarget::createFromParameters(easyar.ImageTargetParameters)
+extern void ImageTarget_createFromParameters_m4926D38420ABE721B7B27DE0E9621BDC7098C3DC (void);
+// 0x0000060A easyar.Optional`1<easyar.ImageTarget> easyar.ImageTarget::createFromTargetFile(System.String,easyar.StorageType)
+extern void ImageTarget_createFromTargetFile_m8DDE489316C92077E0E36F3A8D033C2599812300 (void);
+// 0x0000060B easyar.Optional`1<easyar.ImageTarget> easyar.ImageTarget::createFromTargetData(easyar.Buffer)
+extern void ImageTarget_createFromTargetData_m2CB28E1B2F98BE2AE0CA5B270E8B7492AF9580A6 (void);
+// 0x0000060C System.Boolean easyar.ImageTarget::save(System.String)
+extern void ImageTarget_save_m327C09CEDC2626B0CC7F1FE949A596B245F475FB (void);
+// 0x0000060D easyar.Optional`1<easyar.ImageTarget> easyar.ImageTarget::createFromImageFile(System.String,easyar.StorageType,System.String,System.String,System.String,System.Single)
+extern void ImageTarget_createFromImageFile_m97D0F3FC1DFB4DFFE5F43389B4464ABD23B6C44F (void);
+// 0x0000060E System.Single easyar.ImageTarget::scale()
+extern void ImageTarget_scale_m33B60BBA18499AB8842E483A6B326460E13ABB10 (void);
+// 0x0000060F System.Single easyar.ImageTarget::aspectRatio()
+extern void ImageTarget_aspectRatio_m0F45B9EDCD12832B5664377FDFF3FEFD74DC23E9 (void);
+// 0x00000610 System.Boolean easyar.ImageTarget::setScale(System.Single)
+extern void ImageTarget_setScale_m3A27430C4429DB3FB7B069D6FA2F673D8AB09556 (void);
+// 0x00000611 System.Collections.Generic.List`1<easyar.Image> easyar.ImageTarget::images()
+extern void ImageTarget_images_m6639B48DA1F04810E10E87F3C6C5B85025021D10 (void);
+// 0x00000612 System.Int32 easyar.ImageTarget::runtimeID()
+extern void ImageTarget_runtimeID_m8CD4930BE501368B9F6F9ECB4265A8460827A562 (void);
+// 0x00000613 System.String easyar.ImageTarget::uid()
+extern void ImageTarget_uid_m6CEDE400A63BDB450C3AC71890691878A6B56E9E (void);
+// 0x00000614 System.String easyar.ImageTarget::name()
+extern void ImageTarget_name_m394FBB8B662E9A79146898D6E63A67D5A3CD14D7 (void);
+// 0x00000615 System.Void easyar.ImageTarget::setName(System.String)
+extern void ImageTarget_setName_mDA48909F87DD30DFBED0667DB13EBD052B49330C (void);
+// 0x00000616 System.String easyar.ImageTarget::meta()
+extern void ImageTarget_meta_mDAD773E46863DBB8394CD75444B8E85B7118198E (void);
+// 0x00000617 System.Void easyar.ImageTarget::setMeta(System.String)
+extern void ImageTarget_setMeta_mBD63DDCCB4CBBF2D4FB1906CAB7DDF3D94E08E77 (void);
+// 0x00000618 System.Void easyar.ImageTarget/<>c::.cctor()
+extern void U3CU3Ec__cctor_mE57E54677DA12E42EB6C5E30DB1D19B797997665 (void);
+// 0x00000619 System.Void easyar.ImageTarget/<>c::.ctor()
+extern void U3CU3Ec__ctor_mDE04A73839F7C462D5EB517AB4BEC7862B4EAB08 (void);
+// 0x0000061A easyar.Optional`1<easyar.ImageTarget> easyar.ImageTarget/<>c::<createFromParameters>b__4_0(easyar.Detail/OptionalOfImageTarget)
+extern void U3CU3Ec_U3CcreateFromParametersU3Eb__4_0_mC677DEECAB70BA718EA4DB5ABF734D1D6923FE66 (void);
+// 0x0000061B easyar.Optional`1<easyar.ImageTarget> easyar.ImageTarget/<>c::<createFromTargetFile>b__5_0(easyar.Detail/OptionalOfImageTarget)
+extern void U3CU3Ec_U3CcreateFromTargetFileU3Eb__5_0_m3972FB41B02120214C92A4FCF57F20EE44CCCEA3 (void);
+// 0x0000061C easyar.Optional`1<easyar.ImageTarget> easyar.ImageTarget/<>c::<createFromTargetData>b__6_0(easyar.Detail/OptionalOfImageTarget)
+extern void U3CU3Ec_U3CcreateFromTargetDataU3Eb__6_0_mE126CE5BC6FBBD6268FA0FBC5213151F01AF8EB9 (void);
+// 0x0000061D easyar.Optional`1<easyar.ImageTarget> easyar.ImageTarget/<>c::<createFromImageFile>b__8_0(easyar.Detail/OptionalOfImageTarget)
+extern void U3CU3Ec_U3CcreateFromImageFileU3Eb__8_0_mE4B52F1B7DC35176AB3CB8821E56E92B1B28BE06 (void);
+// 0x0000061E System.Void easyar.ImageTrackerResult::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ImageTrackerResult__ctor_mAB404DA4FD0A5417887C0EBE2833C0BBF949DDE5 (void);
+// 0x0000061F System.Object easyar.ImageTrackerResult::CloneObject()
+extern void ImageTrackerResult_CloneObject_m1B9DB8CA342DEF00ECC75560A8D4AF88A9733A22 (void);
+// 0x00000620 easyar.ImageTrackerResult easyar.ImageTrackerResult::Clone()
+extern void ImageTrackerResult_Clone_m942F595DDD3EA19CC50178012A13A60E5CA836D5 (void);
+// 0x00000621 System.Collections.Generic.List`1<easyar.TargetInstance> easyar.ImageTrackerResult::targetInstances()
+extern void ImageTrackerResult_targetInstances_m98BED4B464496E04427711166B25AAA3F716A5CA (void);
+// 0x00000622 System.Void easyar.ImageTrackerResult::setTargetInstances(System.Collections.Generic.List`1<easyar.TargetInstance>)
+extern void ImageTrackerResult_setTargetInstances_m0593E360FFC46BE96E8A0763EF0C705C6DA831A3 (void);
+// 0x00000623 System.Void easyar.ImageTracker::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void ImageTracker__ctor_m88D5F8C9ACD54A6C1120A6A0D0D65420B406EDD3 (void);
+// 0x00000624 System.Object easyar.ImageTracker::CloneObject()
+extern void ImageTracker_CloneObject_m9B24D833FD7D019B5A75AA3889FA3CFA121ACE8F (void);
+// 0x00000625 easyar.ImageTracker easyar.ImageTracker::Clone()
+extern void ImageTracker_Clone_mCBA43708E38C84F188EAB2C329EF3688C37C314F (void);
+// 0x00000626 System.Boolean easyar.ImageTracker::isAvailable()
+extern void ImageTracker_isAvailable_m7B7DDC997276419F2B8DB3B52457E4A1980EC776 (void);
+// 0x00000627 easyar.FeedbackFrameSink easyar.ImageTracker::feedbackFrameSink()
+extern void ImageTracker_feedbackFrameSink_m0A834F8A72A8B8356BD7270000C155D251AF34B6 (void);
+// 0x00000628 System.Int32 easyar.ImageTracker::bufferRequirement()
+extern void ImageTracker_bufferRequirement_mA6B678F88BF52232782C6C3ACFF7D7F03BA1CA03 (void);
+// 0x00000629 easyar.OutputFrameSource easyar.ImageTracker::outputFrameSource()
+extern void ImageTracker_outputFrameSource_m40CB98093C2D917FC1FB3C9AC02F687D2F616A64 (void);
+// 0x0000062A easyar.ImageTracker easyar.ImageTracker::create()
+extern void ImageTracker_create_m33D0F266ADB80294737348159A9DE23B4D0DF634 (void);
+// 0x0000062B easyar.ImageTracker easyar.ImageTracker::createWithMode(easyar.ImageTrackerMode)
+extern void ImageTracker_createWithMode_m9C0F2AD912102297A4F2BC993A609B965FFD0B04 (void);
+// 0x0000062C System.Boolean easyar.ImageTracker::start()
+extern void ImageTracker_start_m6A8AD4F65ADCB1FB28FAE08A4312B229F72DAA8E (void);
+// 0x0000062D System.Void easyar.ImageTracker::stop()
+extern void ImageTracker_stop_m2FCFF381F09117761378B978A8DE970A2EB0FD98 (void);
+// 0x0000062E System.Void easyar.ImageTracker::close()
+extern void ImageTracker_close_m3D4CDFCED75F482DCE8B53B51E68CB8DDA349B18 (void);
+// 0x0000062F System.Void easyar.ImageTracker::loadTarget(easyar.Target,easyar.CallbackScheduler,System.Action`2<easyar.Target,System.Boolean>)
+extern void ImageTracker_loadTarget_mF3E8A477ABC0AA1A725AC4B4D213FF7E725DC06A (void);
+// 0x00000630 System.Void easyar.ImageTracker::unloadTarget(easyar.Target,easyar.CallbackScheduler,System.Action`2<easyar.Target,System.Boolean>)
+extern void ImageTracker_unloadTarget_m540E1FFFA95C235529DD3BE5F37E1F0CCFDB2154 (void);
+// 0x00000631 System.Collections.Generic.List`1<easyar.Target> easyar.ImageTracker::targets()
+extern void ImageTracker_targets_mDBE64ACA3D053626B2F7534290E2ACC53AA1AB4B (void);
+// 0x00000632 System.Boolean easyar.ImageTracker::setSimultaneousNum(System.Int32)
+extern void ImageTracker_setSimultaneousNum_mE1B53331F6D89C7114637D7FA125165BB5CA8AB8 (void);
+// 0x00000633 System.Int32 easyar.ImageTracker::simultaneousNum()
+extern void ImageTracker_simultaneousNum_mDF8DD9F12D0CC879ED70EBECD5166A589CEE833E (void);
+// 0x00000634 System.Void easyar.RealTimeCoordinateTransform::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void RealTimeCoordinateTransform__ctor_m282C5C7BB7A9185CC5C816BFF2A8623932E54591 (void);
+// 0x00000635 System.Object easyar.RealTimeCoordinateTransform::CloneObject()
+extern void RealTimeCoordinateTransform_CloneObject_m72B0F8FE005558FD149BB25AE55185E15AAB60E9 (void);
+// 0x00000636 easyar.RealTimeCoordinateTransform easyar.RealTimeCoordinateTransform::Clone()
+extern void RealTimeCoordinateTransform_Clone_m4743ECA3C80FBF02E0F0FFC34523EF42F70177A1 (void);
+// 0x00000637 System.Void easyar.RealTimeCoordinateTransform::.ctor()
+extern void RealTimeCoordinateTransform__ctor_m552918E4FC05808CEABCB65D129EB0F03654A73B (void);
+// 0x00000638 System.Void easyar.RealTimeCoordinateTransform::setBufferSize(System.Int32)
+extern void RealTimeCoordinateTransform_setBufferSize_m42EF0F704CDDE77AAECF231279F4671B51FFE2F6 (void);
+// 0x00000639 System.Int32 easyar.RealTimeCoordinateTransform::getBufferSize()
+extern void RealTimeCoordinateTransform_getBufferSize_m353B38A9226583C771BB82635DEF7DBE4F3E848D (void);
+// 0x0000063A System.Boolean easyar.RealTimeCoordinateTransform::insertData(System.Double,easyar.Matrix44F,easyar.Matrix44F)
+extern void RealTimeCoordinateTransform_insertData_m5919CD34B0E754CAF6F88DD46077DFC04230E67E (void);
+// 0x0000063B easyar.Matrix44F easyar.RealTimeCoordinateTransform::getPoseInMap(System.Double,easyar.MotionTrackingStatus,easyar.Matrix44F)
+extern void RealTimeCoordinateTransform_getPoseInMap_m8FF27FBD12F35400B0E0E06F4EAE9BF2233CC2B7 (void);
+// 0x0000063C System.Void easyar.Recorder::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void Recorder__ctor_mE5F77BD0865CA546FC00F7DA86D34B30C3723FE4 (void);
+// 0x0000063D System.Object easyar.Recorder::CloneObject()
+extern void Recorder_CloneObject_m9F44F74ED32FA60065F63A47899C9E126C3E1DDB (void);
+// 0x0000063E easyar.Recorder easyar.Recorder::Clone()
+extern void Recorder_Clone_m2DF75D4BD9C1D897C6A6501F033433997865CEE9 (void);
+// 0x0000063F System.Boolean easyar.Recorder::isAvailable()
+extern void Recorder_isAvailable_mA161F2064F3208A2926EC88CD5F78CFC02B02716 (void);
+// 0x00000640 System.Void easyar.Recorder::requestPermissions(easyar.CallbackScheduler,easyar.Optional`1<System.Action`2<easyar.PermissionStatus,System.String>>)
+extern void Recorder_requestPermissions_m0FA42D2693F8E035F80243597359FA25DA009755 (void);
+// 0x00000641 easyar.Recorder easyar.Recorder::create(easyar.RecorderConfiguration,easyar.CallbackScheduler,easyar.Optional`1<System.Action`2<easyar.RecordStatus,System.String>>)
+extern void Recorder_create_m618573E4EC835355EB63224703B79B0B5C4CB0B9 (void);
+// 0x00000642 System.Void easyar.Recorder::start()
+extern void Recorder_start_m71D5E35753F0D8D9392C41A387872D839B73F0A2 (void);
+// 0x00000643 System.Void easyar.Recorder::updateFrame(easyar.TextureId,System.Int32,System.Int32)
+extern void Recorder_updateFrame_m53364AB98404FD635FE76AF8403EB17D3BBB2152 (void);
+// 0x00000644 System.Boolean easyar.Recorder::stop()
+extern void Recorder_stop_m2D6824062047218F20D70FFA33C1EE17B1653924 (void);
+// 0x00000645 System.Void easyar.Recorder/<>c::.cctor()
+extern void U3CU3Ec__cctor_mC3450136635B7686036F8BBF92CBAE602A543BD6 (void);
+// 0x00000646 System.Void easyar.Recorder/<>c::.ctor()
+extern void U3CU3Ec__ctor_mFA29B8FEAA89A9E16EF1A0C82B80F1808FF843BF (void);
+// 0x00000647 easyar.Detail/OptionalOfFunctorOfVoidFromPermissionStatusAndString easyar.Recorder/<>c::<requestPermissions>b__4_0(easyar.Optional`1<System.Action`2<easyar.PermissionStatus,System.String>>)
+extern void U3CU3Ec_U3CrequestPermissionsU3Eb__4_0_m1E4060156B05A8C5937775A48A171816425F07C3 (void);
+// 0x00000648 easyar.Detail/OptionalOfFunctorOfVoidFromRecordStatusAndString easyar.Recorder/<>c::<create>b__5_0(easyar.Optional`1<System.Action`2<easyar.RecordStatus,System.String>>)
+extern void U3CU3Ec_U3CcreateU3Eb__5_0_mE08EBC74D63AF58DF40A06CDA2752DA14A8739D6 (void);
+// 0x00000649 System.Void easyar.RecorderConfiguration::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void RecorderConfiguration__ctor_m5F20F43F58A4B513E96A925B9E6FDD1003D6EDA1 (void);
+// 0x0000064A System.Object easyar.RecorderConfiguration::CloneObject()
+extern void RecorderConfiguration_CloneObject_m848ED15C4A8D36DF05D4C8A8DCA7205BBF94AF16 (void);
+// 0x0000064B easyar.RecorderConfiguration easyar.RecorderConfiguration::Clone()
+extern void RecorderConfiguration_Clone_m552FE1A8DAE5F8CBA8D1738F1862EE8B31F2B233 (void);
+// 0x0000064C System.Void easyar.RecorderConfiguration::.ctor()
+extern void RecorderConfiguration__ctor_mCED7B6186185F1C3E911AEB5F3CD2D2319E4F95C (void);
+// 0x0000064D System.Void easyar.RecorderConfiguration::setOutputFile(System.String)
+extern void RecorderConfiguration_setOutputFile_mC833A0D8C9946B49815C135A29EE4F7699FE8061 (void);
+// 0x0000064E System.Boolean easyar.RecorderConfiguration::setProfile(easyar.RecordProfile)
+extern void RecorderConfiguration_setProfile_m2490090113DCFAAD4D0FFDB8DEB9B48C19CFDF3A (void);
+// 0x0000064F System.Void easyar.RecorderConfiguration::setVideoSize(easyar.RecordVideoSize)
+extern void RecorderConfiguration_setVideoSize_m6A5FCF50D0C2293E5694BFE2B28CC04780BBEC9C (void);
+// 0x00000650 System.Void easyar.RecorderConfiguration::setVideoBitrate(System.Int32)
+extern void RecorderConfiguration_setVideoBitrate_mA66983F000D364B98024B54835E1243CE57FA9E7 (void);
+// 0x00000651 System.Void easyar.RecorderConfiguration::setChannelCount(System.Int32)
+extern void RecorderConfiguration_setChannelCount_mE2023F05B6D2C91A38B87E678CC709F79D2DD4D0 (void);
+// 0x00000652 System.Void easyar.RecorderConfiguration::setAudioSampleRate(System.Int32)
+extern void RecorderConfiguration_setAudioSampleRate_mFCB8C82724108EC51ECCCB20A32607A259927F1C (void);
+// 0x00000653 System.Void easyar.RecorderConfiguration::setAudioBitrate(System.Int32)
+extern void RecorderConfiguration_setAudioBitrate_m4A593F5BBE9E8B004373259C8EE8B5EFE3969430 (void);
+// 0x00000654 System.Void easyar.RecorderConfiguration::setVideoOrientation(easyar.RecordVideoOrientation)
+extern void RecorderConfiguration_setVideoOrientation_m6ED4CDA170BA7F28F129B6043EF9090F45FA07B0 (void);
+// 0x00000655 System.Void easyar.RecorderConfiguration::setZoomMode(easyar.RecordZoomMode)
+extern void RecorderConfiguration_setZoomMode_m55632BC4D6EE377F9E498159DDB4D88B3EFD614E (void);
+// 0x00000656 System.Void easyar.SparseSpatialMapResult::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void SparseSpatialMapResult__ctor_mCDCB00D08E8E6099F62F604D6D5FC77A32E3F75C (void);
+// 0x00000657 System.Object easyar.SparseSpatialMapResult::CloneObject()
+extern void SparseSpatialMapResult_CloneObject_m3386ACE0AB14B262E11B6C0ADBF06A44692F136F (void);
+// 0x00000658 easyar.SparseSpatialMapResult easyar.SparseSpatialMapResult::Clone()
+extern void SparseSpatialMapResult_Clone_m95D7020C3363851A8CB7502E9862C057C7A02702 (void);
+// 0x00000659 easyar.MotionTrackingStatus easyar.SparseSpatialMapResult::getMotionTrackingStatus()
+extern void SparseSpatialMapResult_getMotionTrackingStatus_m0592EEC771950B398894650D2E561CC0CB889FFE (void);
+// 0x0000065A easyar.Optional`1<easyar.Matrix44F> easyar.SparseSpatialMapResult::getVioPose()
+extern void SparseSpatialMapResult_getVioPose_mE9BAB795BF8CA2356F2493AB95991FFDB63A9E39 (void);
+// 0x0000065B easyar.Optional`1<easyar.Matrix44F> easyar.SparseSpatialMapResult::getMapPose()
+extern void SparseSpatialMapResult_getMapPose_mDBE16D5A914B8048FAC12D49AFED5F3584547A0F (void);
+// 0x0000065C System.Boolean easyar.SparseSpatialMapResult::getLocalizationStatus()
+extern void SparseSpatialMapResult_getLocalizationStatus_m56D250EC0AFAFCB36AC77BAF1E833C7DBC3B9AF3 (void);
+// 0x0000065D System.String easyar.SparseSpatialMapResult::getLocalizationMapID()
+extern void SparseSpatialMapResult_getLocalizationMapID_m3571F588A3BA5100B09D3160F0E2617A4CD36009 (void);
+// 0x0000065E System.Void easyar.SparseSpatialMapResult/<>c::.cctor()
+extern void U3CU3Ec__cctor_m0CB2D6118D57F59E039B613457BF10B54199B3D4 (void);
+// 0x0000065F System.Void easyar.SparseSpatialMapResult/<>c::.ctor()
+extern void U3CU3Ec__ctor_m1310A36F110EBF4FAC311CD461F44FD4C519C4DB (void);
+// 0x00000660 easyar.Optional`1<easyar.Matrix44F> easyar.SparseSpatialMapResult/<>c::<getVioPose>b__4_0(easyar.Detail/OptionalOfMatrix44F)
+extern void U3CU3Ec_U3CgetVioPoseU3Eb__4_0_m751ACD3401E7E826B204385D198AFF115EE84B63 (void);
+// 0x00000661 easyar.Optional`1<easyar.Matrix44F> easyar.SparseSpatialMapResult/<>c::<getMapPose>b__5_0(easyar.Detail/OptionalOfMatrix44F)
+extern void U3CU3Ec_U3CgetMapPoseU3Eb__5_0_m16E0CCE8B23355475769F0EA208687B5A21079D2 (void);
+// 0x00000662 System.Void easyar.PlaneData::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void PlaneData__ctor_m581568FE4C8C2B186BFA525422DF94BD86D72573 (void);
+// 0x00000663 System.Object easyar.PlaneData::CloneObject()
+extern void PlaneData_CloneObject_m86B11B239A3E8ACE6FFCF942EC49517C3B260FD8 (void);
+// 0x00000664 easyar.PlaneData easyar.PlaneData::Clone()
+extern void PlaneData_Clone_m0ED392EEDA3A90B7F13545594B29C32E570454B4 (void);
+// 0x00000665 System.Void easyar.PlaneData::.ctor()
+extern void PlaneData__ctor_m72D3E8BFBBB2E76190AB3BD893CF14EDF0242C1F (void);
+// 0x00000666 easyar.PlaneType easyar.PlaneData::getType()
+extern void PlaneData_getType_m675FF816943D4EC6384964C8D5D6DAF6D69416CE (void);
+// 0x00000667 easyar.Matrix44F easyar.PlaneData::getPose()
+extern void PlaneData_getPose_mF2A6B31837CC63CC8D87568F6421D7B1435AF9D7 (void);
+// 0x00000668 System.Single easyar.PlaneData::getExtentX()
+extern void PlaneData_getExtentX_m315C79DC127599709E861078271ADD01D7E44A95 (void);
+// 0x00000669 System.Single easyar.PlaneData::getExtentZ()
+extern void PlaneData_getExtentZ_m0D7EF207ADC19D6D75577CE50F81B1F98C8C2289 (void);
+// 0x0000066A System.Void easyar.SparseSpatialMapConfig::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void SparseSpatialMapConfig__ctor_mBDBEA223AD60D11CE4E70C49D533358B3A5CAD2B (void);
+// 0x0000066B System.Object easyar.SparseSpatialMapConfig::CloneObject()
+extern void SparseSpatialMapConfig_CloneObject_m8A836838F1AE6C343A67B5B2A59DACA87979529F (void);
+// 0x0000066C easyar.SparseSpatialMapConfig easyar.SparseSpatialMapConfig::Clone()
+extern void SparseSpatialMapConfig_Clone_m6B56583DD043B5C903B6C5D60B632BB09AF9FFCC (void);
+// 0x0000066D System.Void easyar.SparseSpatialMapConfig::.ctor()
+extern void SparseSpatialMapConfig__ctor_m7619FA68AF4DF3AD70E6549CD8AF1E316A78FC49 (void);
+// 0x0000066E System.Void easyar.SparseSpatialMapConfig::setLocalizationMode(easyar.LocalizationMode)
+extern void SparseSpatialMapConfig_setLocalizationMode_mD95E092A70C8A3960451854160AE626B2C80706E (void);
+// 0x0000066F easyar.LocalizationMode easyar.SparseSpatialMapConfig::getLocalizationMode()
+extern void SparseSpatialMapConfig_getLocalizationMode_m9DAE09A33AA78EA0D98B30DBF76E1B3D699816B5 (void);
+// 0x00000670 System.Void easyar.SparseSpatialMap::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void SparseSpatialMap__ctor_m7F73B44DA59F1723D3296C7A1BDEC8B424522C6F (void);
+// 0x00000671 System.Object easyar.SparseSpatialMap::CloneObject()
+extern void SparseSpatialMap_CloneObject_mF52FA1E48B5DD86FF6C35532A32A222F69B79B50 (void);
+// 0x00000672 easyar.SparseSpatialMap easyar.SparseSpatialMap::Clone()
+extern void SparseSpatialMap_Clone_m8F1122B0209AADAFBE62F9CF82042A57BFD4090F (void);
+// 0x00000673 System.Boolean easyar.SparseSpatialMap::isAvailable()
+extern void SparseSpatialMap_isAvailable_mE1B211FCBB978A72173E0B29F9027AEEA0A5A0E5 (void);
+// 0x00000674 easyar.InputFrameSink easyar.SparseSpatialMap::inputFrameSink()
+extern void SparseSpatialMap_inputFrameSink_m0D009EE7717E49594F3B7C499258B14360D5A568 (void);
+// 0x00000675 System.Int32 easyar.SparseSpatialMap::bufferRequirement()
+extern void SparseSpatialMap_bufferRequirement_mD68C3E378D931B1A5E267FB1874BBD44FF59CEF7 (void);
+// 0x00000676 easyar.OutputFrameSource easyar.SparseSpatialMap::outputFrameSource()
+extern void SparseSpatialMap_outputFrameSource_m19C5528E1BA621D78D0745632DABCE1E81550DF0 (void);
+// 0x00000677 easyar.SparseSpatialMap easyar.SparseSpatialMap::create()
+extern void SparseSpatialMap_create_m5DB578AB8E9EC9036EAED216E12730CB4C3E07AD (void);
+// 0x00000678 System.Boolean easyar.SparseSpatialMap::start()
+extern void SparseSpatialMap_start_m30A92A53AB15AF5B10B95339D494F632C4D7E15B (void);
+// 0x00000679 System.Void easyar.SparseSpatialMap::stop()
+extern void SparseSpatialMap_stop_m541BED4A8BDB342A91EB7F464E409B119B2F281D (void);
+// 0x0000067A System.Void easyar.SparseSpatialMap::close()
+extern void SparseSpatialMap_close_mA20BEEE73BF7A78C6D38A09D160080DE18BDACFB (void);
+// 0x0000067B easyar.Buffer easyar.SparseSpatialMap::getPointCloudBuffer()
+extern void SparseSpatialMap_getPointCloudBuffer_m7A96C879166FFF14C7BFC6E544E77C1E10645EDD (void);
+// 0x0000067C System.Collections.Generic.List`1<easyar.PlaneData> easyar.SparseSpatialMap::getMapPlanes()
+extern void SparseSpatialMap_getMapPlanes_mFE8403A99E7B43C146BA58A6F713063C84DB3FC1 (void);
+// 0x0000067D System.Collections.Generic.List`1<easyar.Vec3F> easyar.SparseSpatialMap::hitTestAgainstPointCloud(easyar.Vec2F)
+extern void SparseSpatialMap_hitTestAgainstPointCloud_mBA3AB59DAB01DDCD32C1D2E8A7FC08BE9E6AAD94 (void);
+// 0x0000067E System.Collections.Generic.List`1<easyar.Vec3F> easyar.SparseSpatialMap::hitTestAgainstPlanes(easyar.Vec2F)
+extern void SparseSpatialMap_hitTestAgainstPlanes_m7719669BB4410B75C9A27C3DC25D414EBEA59ED2 (void);
+// 0x0000067F System.String easyar.SparseSpatialMap::getMapVersion()
+extern void SparseSpatialMap_getMapVersion_m64029BA23FFFB9A060F299A6BC833D6351FE9D68 (void);
+// 0x00000680 System.Void easyar.SparseSpatialMap::unloadMap(System.String,easyar.CallbackScheduler,easyar.Optional`1<System.Action`1<System.Boolean>>)
+extern void SparseSpatialMap_unloadMap_m8BDACB760C6DBF25197813D91F1B95F972475C97 (void);
+// 0x00000681 System.Void easyar.SparseSpatialMap::setConfig(easyar.SparseSpatialMapConfig)
+extern void SparseSpatialMap_setConfig_m26B6D8D4BFA6B8C75935007D89729D0DFCF32C62 (void);
+// 0x00000682 easyar.SparseSpatialMapConfig easyar.SparseSpatialMap::getConfig()
+extern void SparseSpatialMap_getConfig_m108FAFEC3E079C9EA27EB7960CCCBA32EB2CEC5D (void);
+// 0x00000683 System.Boolean easyar.SparseSpatialMap::startLocalization()
+extern void SparseSpatialMap_startLocalization_m4D5705CA05EF37849FFDCAC7C02DDAA87C9A86B0 (void);
+// 0x00000684 System.Void easyar.SparseSpatialMap::stopLocalization()
+extern void SparseSpatialMap_stopLocalization_m60F972FE033D71DF21C42D26DB8EE742D98E5679 (void);
+// 0x00000685 System.Void easyar.SparseSpatialMap/<>c::.cctor()
+extern void U3CU3Ec__cctor_m4FAA9AFE3D433D79A56C998F5F6374215D06991E (void);
+// 0x00000686 System.Void easyar.SparseSpatialMap/<>c::.ctor()
+extern void U3CU3Ec__ctor_m5CD9929441891F6CB09948A90AF6F5E330C7A791 (void);
+// 0x00000687 easyar.Detail/OptionalOfFunctorOfVoidFromBool easyar.SparseSpatialMap/<>c::<unloadMap>b__16_0(easyar.Optional`1<System.Action`1<System.Boolean>>)
+extern void U3CU3Ec_U3CunloadMapU3Eb__16_0_mF75746009991B55138C845E20B1A05940B1F9BA0 (void);
+// 0x00000688 System.Void easyar.SparseSpatialMapManager::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void SparseSpatialMapManager__ctor_mFFE6D92AD7417E833BCB2FE6D27E5EDE2D527C1B (void);
+// 0x00000689 System.Object easyar.SparseSpatialMapManager::CloneObject()
+extern void SparseSpatialMapManager_CloneObject_m46C352A3BF804A4567AD4B8F0E63373EC9A61874 (void);
+// 0x0000068A easyar.SparseSpatialMapManager easyar.SparseSpatialMapManager::Clone()
+extern void SparseSpatialMapManager_Clone_m9A1B3495099906121F510082B6F7BAF49CD39A5B (void);
+// 0x0000068B System.Boolean easyar.SparseSpatialMapManager::isAvailable()
+extern void SparseSpatialMapManager_isAvailable_m5B9A071B68FEA769DCF0F833CADC5FD0B86ED20B (void);
+// 0x0000068C easyar.SparseSpatialMapManager easyar.SparseSpatialMapManager::create()
+extern void SparseSpatialMapManager_create_mA415B78C115724AEFA7BDAFCDB089F8641F3E317 (void);
+// 0x0000068D System.Void easyar.SparseSpatialMapManager::host(easyar.SparseSpatialMap,System.String,System.String,System.String,System.String,easyar.Optional`1<easyar.Image>,easyar.Optional`1<System.Int32>,easyar.CallbackScheduler,System.Action`3<System.Boolean,System.String,System.String>)
+extern void SparseSpatialMapManager_host_m3516056633F8D5E468B4897926FB0E4EA92B9DD2 (void);
+// 0x0000068E System.Void easyar.SparseSpatialMapManager::load(easyar.SparseSpatialMap,System.String,System.String,System.String,System.String,easyar.Optional`1<System.Int32>,easyar.CallbackScheduler,System.Action`2<System.Boolean,System.String>)
+extern void SparseSpatialMapManager_load_m66185C9B3EA13116BA28F1CCB514A9959735C9AF (void);
+// 0x0000068F System.Void easyar.SparseSpatialMapManager::clear()
+extern void SparseSpatialMapManager_clear_m53993940ECE5E8439BBB3AAA9AB4F18ED695335B (void);
+// 0x00000690 System.Void easyar.SparseSpatialMapManager/<>c::.cctor()
+extern void U3CU3Ec__cctor_mAC8B6CFCE5A5984AF78328A93B2AFFB290FC9D58 (void);
+// 0x00000691 System.Void easyar.SparseSpatialMapManager/<>c::.ctor()
+extern void U3CU3Ec__ctor_m14B31DF5D7CD0E46D11ABE3387EF30F72180938C (void);
+// 0x00000692 easyar.Detail/OptionalOfImage easyar.SparseSpatialMapManager/<>c::<host>b__5_0(easyar.Optional`1<easyar.Image>)
+extern void U3CU3Ec_U3ChostU3Eb__5_0_m6E806C4FAE1164B0D00F8B5CF7E3C130DB027A6B (void);
+// 0x00000693 easyar.Detail/OptionalOfInt easyar.SparseSpatialMapManager/<>c::<host>b__5_1(easyar.Optional`1<System.Int32>)
+extern void U3CU3Ec_U3ChostU3Eb__5_1_mDA6CDFA6A2C0FC5EF4EF120EED642F4F3740734B (void);
+// 0x00000694 easyar.Detail/OptionalOfInt easyar.SparseSpatialMapManager/<>c::<load>b__6_0(easyar.Optional`1<System.Int32>)
+extern void U3CU3Ec_U3CloadU3Eb__6_0_mAE18F814109C7316D465F28EB1F53B923511428A (void);
+// 0x00000695 System.Int32 easyar.Engine::schemaHash()
+extern void Engine_schemaHash_mDD93BA2F0DA2D767EDAAAD18AD914D80B2689B47 (void);
+// 0x00000696 System.Boolean easyar.Engine::initialize(System.String)
+extern void Engine_initialize_m319783C42D95F450CDB6AD6088FA287253D809AA (void);
+// 0x00000697 System.Void easyar.Engine::onPause()
+extern void Engine_onPause_m55F1ED94EB1CC7BCA6C101DB08DFC8D640E3CF36 (void);
+// 0x00000698 System.Void easyar.Engine::onResume()
+extern void Engine_onResume_m7951E6E148C4074AE40B3C5034218708F0BDB326 (void);
+// 0x00000699 System.String easyar.Engine::errorMessage()
+extern void Engine_errorMessage_mA1399F0A71564361CBFB87A9B28ADBB9C7979589 (void);
+// 0x0000069A System.String easyar.Engine::versionString()
+extern void Engine_versionString_m4EE56383BCF1D8355326658ED7579D6177B90D61 (void);
+// 0x0000069B System.String easyar.Engine::name()
+extern void Engine_name_mAAAEA53AE682C9CFD4F69D6829678E112EF0C44C (void);
+// 0x0000069C System.String easyar.Engine::variant()
+extern void Engine_variant_m0665395B7A9B4743499F6B08727E7AF5BEC41F44 (void);
+// 0x0000069D System.Boolean easyar.Engine::isLicenseKeyMatched(System.String,System.String,System.String,easyar.EngineOperatingSystem)
+extern void Engine_isLicenseKeyMatched_mBB184C7DE4AE7679B2FB3D301C9BDDDD1423C179 (void);
+// 0x0000069E System.Void easyar.Engine::.ctor()
+extern void Engine__ctor_m44F1610FD8150442AA26EB8115E7A410C48D9A5A (void);
+// 0x0000069F System.Void easyar.VideoPlayer::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void VideoPlayer__ctor_m5F871ECB662E4C6D6023AAF72CADC0DB4EB9E738 (void);
+// 0x000006A0 System.Object easyar.VideoPlayer::CloneObject()
+extern void VideoPlayer_CloneObject_mD6617D1D67078C0C9AF9DC195E04DF74C002D359 (void);
+// 0x000006A1 easyar.VideoPlayer easyar.VideoPlayer::Clone()
+extern void VideoPlayer_Clone_m387BBCBF28F300508139498C6E828A0DF704120D (void);
+// 0x000006A2 System.Void easyar.VideoPlayer::.ctor()
+extern void VideoPlayer__ctor_m4D75835FA914924FF9097042393597A7C172578F (void);
+// 0x000006A3 System.Boolean easyar.VideoPlayer::isAvailable()
+extern void VideoPlayer_isAvailable_mDB0275C30AD05798B43B34C33C84CDAB0767BF02 (void);
+// 0x000006A4 System.Void easyar.VideoPlayer::setVideoType(easyar.VideoType)
+extern void VideoPlayer_setVideoType_mAB32975331DD6CD5AEC9BC77B732517197267691 (void);
+// 0x000006A5 System.Void easyar.VideoPlayer::setRenderTexture(easyar.TextureId)
+extern void VideoPlayer_setRenderTexture_mF69C339088C550ED2A33E7B166968D79DE292A81 (void);
+// 0x000006A6 System.Void easyar.VideoPlayer::open(System.String,easyar.StorageType,easyar.CallbackScheduler,easyar.Optional`1<System.Action`1<easyar.VideoStatus>>)
+extern void VideoPlayer_open_m5CB41C589F4E74501AA920CEF371BE3F0379645A (void);
+// 0x000006A7 System.Void easyar.VideoPlayer::close()
+extern void VideoPlayer_close_mCE1931C09F585DAC0DB0E7C2F9BF28C619BE4877 (void);
+// 0x000006A8 System.Boolean easyar.VideoPlayer::play()
+extern void VideoPlayer_play_m1CA00BB3D27852EA7A4546D1EF07D59A001F01F7 (void);
+// 0x000006A9 System.Void easyar.VideoPlayer::stop()
+extern void VideoPlayer_stop_mEB5BFDB02F0B6C74B8A79D950F2EB99251C948B3 (void);
+// 0x000006AA System.Void easyar.VideoPlayer::pause()
+extern void VideoPlayer_pause_mFDAD8F193E6A2FE8C0C0750645A29CEA648F43F7 (void);
+// 0x000006AB System.Boolean easyar.VideoPlayer::isRenderTextureAvailable()
+extern void VideoPlayer_isRenderTextureAvailable_mD0F8DDBCED8282911504C35B87C6523C5081DB75 (void);
+// 0x000006AC System.Void easyar.VideoPlayer::updateFrame()
+extern void VideoPlayer_updateFrame_mF3724D873554FBCB7F9E46CE627F3F4AB78F34CC (void);
+// 0x000006AD System.Int32 easyar.VideoPlayer::duration()
+extern void VideoPlayer_duration_mC2EE4F63D151A286D1BFC4543FEFB52E43B1F89A (void);
+// 0x000006AE System.Int32 easyar.VideoPlayer::currentPosition()
+extern void VideoPlayer_currentPosition_m7EBD4126CC3450D040FD8DD7C2AA4EE356725B62 (void);
+// 0x000006AF System.Boolean easyar.VideoPlayer::seek(System.Int32)
+extern void VideoPlayer_seek_mF9FEAFE2FD670A7D1E936FFAA598DD270C584703 (void);
+// 0x000006B0 easyar.Vec2I easyar.VideoPlayer::size()
+extern void VideoPlayer_size_m1E078E6A28E5F6B2B409D7AB0A26DDC32C4BC8F0 (void);
+// 0x000006B1 System.Single easyar.VideoPlayer::volume()
+extern void VideoPlayer_volume_m405805739D017FAF2AC564CCB102F7A2EFC6C0DE (void);
+// 0x000006B2 System.Boolean easyar.VideoPlayer::setVolume(System.Single)
+extern void VideoPlayer_setVolume_mA4C3A48C47ECB755AF20F537FBB3D2F817D760DC (void);
+// 0x000006B3 System.Void easyar.VideoPlayer/<>c::.cctor()
+extern void U3CU3Ec__cctor_mB97C82415EB2B3A7F97EC4C55D5F91D79274C372 (void);
+// 0x000006B4 System.Void easyar.VideoPlayer/<>c::.ctor()
+extern void U3CU3Ec__ctor_m6BADC90A1BD33D9E4255952135696FE0B06BFBB4 (void);
+// 0x000006B5 easyar.Detail/OptionalOfFunctorOfVoidFromVideoStatus easyar.VideoPlayer/<>c::<open>b__7_0(easyar.Optional`1<System.Action`1<easyar.VideoStatus>>)
+extern void U3CU3Ec_U3CopenU3Eb__7_0_mA671400A2D4C507CA7C18E86D4C4B7B1899EFDED (void);
+// 0x000006B6 easyar.Optional`1<easyar.Image> easyar.ImageHelper::decode(easyar.Buffer)
+extern void ImageHelper_decode_m360429BACE4313236CAA6C2088FEF800D76A928D (void);
+// 0x000006B7 System.Void easyar.ImageHelper::.ctor()
+extern void ImageHelper__ctor_m174F3D3FD677BDB5A454A21649C11D349804798D (void);
+// 0x000006B8 System.Void easyar.ImageHelper/<>c::.cctor()
+extern void U3CU3Ec__cctor_m918CE1F02E3338A57504730233143D36388C1B9C (void);
+// 0x000006B9 System.Void easyar.ImageHelper/<>c::.ctor()
+extern void U3CU3Ec__ctor_m65A07FABCB12303A8F2EC4BBF8574400C4AAB673 (void);
+// 0x000006BA easyar.Optional`1<easyar.Image> easyar.ImageHelper/<>c::<decode>b__0_0(easyar.Detail/OptionalOfImage)
+extern void U3CU3Ec_U3CdecodeU3Eb__0_0_mA65A11EFF5290C5ECB8EAE02175D0F366BDB81A7 (void);
+// 0x000006BB System.Void easyar.SignalSink::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void SignalSink__ctor_m19C99B2254C54C1B549DC56A1A0F6B39191E85F7 (void);
+// 0x000006BC System.Object easyar.SignalSink::CloneObject()
+extern void SignalSink_CloneObject_mF7835107DD718401582388F56117C2A1F8ADA188 (void);
+// 0x000006BD easyar.SignalSink easyar.SignalSink::Clone()
+extern void SignalSink_Clone_mC3D97572FF0DADEC66C6853C882835CBD7D301B7 (void);
+// 0x000006BE System.Void easyar.SignalSink::handle()
+extern void SignalSink_handle_mE2572D5CC7AB975E59D1528C501D5C37F118B74F (void);
+// 0x000006BF System.Void easyar.SignalSource::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void SignalSource__ctor_m7E543E711B38DD870B98DDFA5183203FC59657BA (void);
+// 0x000006C0 System.Object easyar.SignalSource::CloneObject()
+extern void SignalSource_CloneObject_mC73B093E4166DA8178A658E1A04AF82F2E844425 (void);
+// 0x000006C1 easyar.SignalSource easyar.SignalSource::Clone()
+extern void SignalSource_Clone_m885B6E4E058413349EC09A54F2AD77928A1F62DF (void);
+// 0x000006C2 System.Void easyar.SignalSource::setHandler(easyar.Optional`1<System.Action>)
+extern void SignalSource_setHandler_mFB1B76277DCDA701F70E14656AE9D6C528E75A8A (void);
+// 0x000006C3 System.Void easyar.SignalSource::connect(easyar.SignalSink)
+extern void SignalSource_connect_m2F748A514223A2DA1679C504A4FDB4A418B89B5A (void);
+// 0x000006C4 System.Void easyar.SignalSource::disconnect()
+extern void SignalSource_disconnect_m46E185363069198439CF177DF48A5B7BD0E54104 (void);
+// 0x000006C5 System.Void easyar.SignalSource/<>c::.cctor()
+extern void U3CU3Ec__cctor_m11BE9301905F5CF0E15DCE43C8BA6E99BEAD52D1 (void);
+// 0x000006C6 System.Void easyar.SignalSource/<>c::.ctor()
+extern void U3CU3Ec__ctor_mCDA541F710DA62A4C3F56D2D81EBBAECDFB0AA69 (void);
+// 0x000006C7 easyar.Detail/OptionalOfFunctorOfVoid easyar.SignalSource/<>c::<setHandler>b__3_0(easyar.Optional`1<System.Action>)
+extern void U3CU3Ec_U3CsetHandlerU3Eb__3_0_m15A89729399A33DD50643EA65B0711C626D1CD31 (void);
+// 0x000006C8 System.Void easyar.InputFrameSink::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void InputFrameSink__ctor_m153177C8EA1F311628D3E53493C22E48961C1B56 (void);
+// 0x000006C9 System.Object easyar.InputFrameSink::CloneObject()
+extern void InputFrameSink_CloneObject_m205150975E0B7369F65819A580EBC72FA079892E (void);
+// 0x000006CA easyar.InputFrameSink easyar.InputFrameSink::Clone()
+extern void InputFrameSink_Clone_mA89A2CDE968B67299A79E190B30D3DE4EA34AAA6 (void);
+// 0x000006CB System.Void easyar.InputFrameSink::handle(easyar.InputFrame)
+extern void InputFrameSink_handle_mE649ABEA3F506152D8D21FB5BEF4EC63C14E10F7 (void);
+// 0x000006CC System.Void easyar.InputFrameSource::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void InputFrameSource__ctor_m0E9D1AD93F1D883A7A89B8544987A0053FB92E06 (void);
+// 0x000006CD System.Object easyar.InputFrameSource::CloneObject()
+extern void InputFrameSource_CloneObject_m86948B1A60EF391194ABDCD77105FD6C7FC92056 (void);
+// 0x000006CE easyar.InputFrameSource easyar.InputFrameSource::Clone()
+extern void InputFrameSource_Clone_mD5F6B75721C7D0038C60C2BFE4944340ADF4985C (void);
+// 0x000006CF System.Void easyar.InputFrameSource::setHandler(easyar.Optional`1<System.Action`1<easyar.InputFrame>>)
+extern void InputFrameSource_setHandler_m58E8B40A43E22A670154C41F5AEE71AA5D67715C (void);
+// 0x000006D0 System.Void easyar.InputFrameSource::connect(easyar.InputFrameSink)
+extern void InputFrameSource_connect_m2D7A7F2F7655A1D97A5A0E695AAC6419AA124DC8 (void);
+// 0x000006D1 System.Void easyar.InputFrameSource::disconnect()
+extern void InputFrameSource_disconnect_mDB6000ADE313DB3860D4729A1F7AF2D11F75BB1C (void);
+// 0x000006D2 System.Void easyar.InputFrameSource/<>c::.cctor()
+extern void U3CU3Ec__cctor_mE5194E7255AA63017BD2FA5B1CFB8E5D3DBE61AC (void);
+// 0x000006D3 System.Void easyar.InputFrameSource/<>c::.ctor()
+extern void U3CU3Ec__ctor_m965DB0AB99278F86D0E76270562D1B13013E0183 (void);
+// 0x000006D4 easyar.Detail/OptionalOfFunctorOfVoidFromInputFrame easyar.InputFrameSource/<>c::<setHandler>b__3_0(easyar.Optional`1<System.Action`1<easyar.InputFrame>>)
+extern void U3CU3Ec_U3CsetHandlerU3Eb__3_0_m2E3547E0A7484E76F3881205D2ECF01A885B25A1 (void);
+// 0x000006D5 System.Void easyar.OutputFrameSink::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void OutputFrameSink__ctor_m5129F13A052FEA9E5F18D7ED6D6DFAF8D2C24272 (void);
+// 0x000006D6 System.Object easyar.OutputFrameSink::CloneObject()
+extern void OutputFrameSink_CloneObject_mD38239BDD3006728656EE9715B3F0ABDFE8E3AC3 (void);
+// 0x000006D7 easyar.OutputFrameSink easyar.OutputFrameSink::Clone()
+extern void OutputFrameSink_Clone_m783AAF0B70A73E35F90C59B9BA017D3A13E6AD2F (void);
+// 0x000006D8 System.Void easyar.OutputFrameSink::handle(easyar.OutputFrame)
+extern void OutputFrameSink_handle_mD61983DA7644D1969246A18FC94AB109F51CF850 (void);
+// 0x000006D9 System.Void easyar.OutputFrameSource::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void OutputFrameSource__ctor_m38E2837B4CC24F177135E7C167C5DBF45C501F57 (void);
+// 0x000006DA System.Object easyar.OutputFrameSource::CloneObject()
+extern void OutputFrameSource_CloneObject_m89F389984D389860E3F9AC65A86F9BD90C4AA42E (void);
+// 0x000006DB easyar.OutputFrameSource easyar.OutputFrameSource::Clone()
+extern void OutputFrameSource_Clone_m4C9EAA7252188F1833E8745830FA9232558F806E (void);
+// 0x000006DC System.Void easyar.OutputFrameSource::setHandler(easyar.Optional`1<System.Action`1<easyar.OutputFrame>>)
+extern void OutputFrameSource_setHandler_m24D853C7D42AA53C4CD592738232146202A27BE6 (void);
+// 0x000006DD System.Void easyar.OutputFrameSource::connect(easyar.OutputFrameSink)
+extern void OutputFrameSource_connect_m66C69B8246D5AB3BB0CB5DC7BCB36F7DA2664669 (void);
+// 0x000006DE System.Void easyar.OutputFrameSource::disconnect()
+extern void OutputFrameSource_disconnect_mB1F33CEB783BD56E71997C49B379406B30679355 (void);
+// 0x000006DF System.Void easyar.OutputFrameSource/<>c::.cctor()
+extern void U3CU3Ec__cctor_mDDEF1206B234C91A54E1CF21AC4458A1640F8184 (void);
+// 0x000006E0 System.Void easyar.OutputFrameSource/<>c::.ctor()
+extern void U3CU3Ec__ctor_m4BA7C08719BF5AC43FDE2B562C660715BF28400C (void);
+// 0x000006E1 easyar.Detail/OptionalOfFunctorOfVoidFromOutputFrame easyar.OutputFrameSource/<>c::<setHandler>b__3_0(easyar.Optional`1<System.Action`1<easyar.OutputFrame>>)
+extern void U3CU3Ec_U3CsetHandlerU3Eb__3_0_mDFADEBA82A35934F63F37875BD2732E45F07EB0B (void);
+// 0x000006E2 System.Void easyar.FeedbackFrameSink::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void FeedbackFrameSink__ctor_m18AA67C34BF7830CE8E7F058F2FC814219C576DF (void);
+// 0x000006E3 System.Object easyar.FeedbackFrameSink::CloneObject()
+extern void FeedbackFrameSink_CloneObject_m6335414E22D3104C920A95AF8773F63AF9E566FA (void);
+// 0x000006E4 easyar.FeedbackFrameSink easyar.FeedbackFrameSink::Clone()
+extern void FeedbackFrameSink_Clone_mA5B9D31C9977EE01E68417A959848A1A579839AA (void);
+// 0x000006E5 System.Void easyar.FeedbackFrameSink::handle(easyar.FeedbackFrame)
+extern void FeedbackFrameSink_handle_mC2D1E5AE9EF8A0E773C78E6606AF4B91A376B94C (void);
+// 0x000006E6 System.Void easyar.FeedbackFrameSource::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void FeedbackFrameSource__ctor_m24CBE0026A86028CA448EDB163CD6595C2F8359F (void);
+// 0x000006E7 System.Object easyar.FeedbackFrameSource::CloneObject()
+extern void FeedbackFrameSource_CloneObject_m06E2F46014FCA29DED35F4547E832CD499A391EC (void);
+// 0x000006E8 easyar.FeedbackFrameSource easyar.FeedbackFrameSource::Clone()
+extern void FeedbackFrameSource_Clone_m00F7FFE8626535231984538DB706B5DB79A25534 (void);
+// 0x000006E9 System.Void easyar.FeedbackFrameSource::setHandler(easyar.Optional`1<System.Action`1<easyar.FeedbackFrame>>)
+extern void FeedbackFrameSource_setHandler_m003DE59F0DBFC9D7AC22C7F3F44170D1665C9AE4 (void);
+// 0x000006EA System.Void easyar.FeedbackFrameSource::connect(easyar.FeedbackFrameSink)
+extern void FeedbackFrameSource_connect_mFCC5DB019229528ADF58898F6BE20C314569A351 (void);
+// 0x000006EB System.Void easyar.FeedbackFrameSource::disconnect()
+extern void FeedbackFrameSource_disconnect_m004E409A33049B12A7F3A636F351F50D0EAB342B (void);
+// 0x000006EC System.Void easyar.FeedbackFrameSource/<>c::.cctor()
+extern void U3CU3Ec__cctor_mD3E9AB2F5948582F5A629A7BCCD6423E4EA8FD99 (void);
+// 0x000006ED System.Void easyar.FeedbackFrameSource/<>c::.ctor()
+extern void U3CU3Ec__ctor_m73C720E9736D638B7E0C34B25037B101B3FAE0B7 (void);
+// 0x000006EE easyar.Detail/OptionalOfFunctorOfVoidFromFeedbackFrame easyar.FeedbackFrameSource/<>c::<setHandler>b__3_0(easyar.Optional`1<System.Action`1<easyar.FeedbackFrame>>)
+extern void U3CU3Ec_U3CsetHandlerU3Eb__3_0_mC57531CBA48F919303DE951AB38B1F3E63800E68 (void);
+// 0x000006EF System.Void easyar.InputFrameFork::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void InputFrameFork__ctor_m3C4DE68AC452175DA10B7E402757192E70AE1C13 (void);
+// 0x000006F0 System.Object easyar.InputFrameFork::CloneObject()
+extern void InputFrameFork_CloneObject_m1939FCC8FE555B2C8B3AECA4E4A298B42FF51876 (void);
+// 0x000006F1 easyar.InputFrameFork easyar.InputFrameFork::Clone()
+extern void InputFrameFork_Clone_m48957CA737CA98CE5BF93157C7FD0149BF547CC3 (void);
+// 0x000006F2 easyar.InputFrameSink easyar.InputFrameFork::input()
+extern void InputFrameFork_input_m4B1D370B4AFB5E226454D94A6E7BBC76512FD0E6 (void);
+// 0x000006F3 easyar.InputFrameSource easyar.InputFrameFork::output(System.Int32)
+extern void InputFrameFork_output_mBA5E09DAA94DA06D17CD742DB24BB001386C843F (void);
+// 0x000006F4 System.Int32 easyar.InputFrameFork::outputCount()
+extern void InputFrameFork_outputCount_m5A89AB971DC08F75B9EBDA4D7EBD00AF28DB2AC7 (void);
+// 0x000006F5 easyar.InputFrameFork easyar.InputFrameFork::create(System.Int32)
+extern void InputFrameFork_create_mD0E8F05EED74752A05FD021784C3F55187616870 (void);
+// 0x000006F6 System.Void easyar.OutputFrameFork::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void OutputFrameFork__ctor_mA28AFDB10619C430520255BD3D516B3A946AD6AF (void);
+// 0x000006F7 System.Object easyar.OutputFrameFork::CloneObject()
+extern void OutputFrameFork_CloneObject_mEBFCD54DEA5171A3D89F501EF31C60C868B5A390 (void);
+// 0x000006F8 easyar.OutputFrameFork easyar.OutputFrameFork::Clone()
+extern void OutputFrameFork_Clone_mAEF285C24CAE7FDC966CF26DC276D24B0BB5B28A (void);
+// 0x000006F9 easyar.OutputFrameSink easyar.OutputFrameFork::input()
+extern void OutputFrameFork_input_m9E1FA5F868EEAF359AF956B1A1A4A3320F0C8522 (void);
+// 0x000006FA easyar.OutputFrameSource easyar.OutputFrameFork::output(System.Int32)
+extern void OutputFrameFork_output_m0FF359E48DA5991A9A4D2EDABA66FA3B3D3E9D07 (void);
+// 0x000006FB System.Int32 easyar.OutputFrameFork::outputCount()
+extern void OutputFrameFork_outputCount_mD33D86018A639F5A52AE46B96DC72FA373B9E7E8 (void);
+// 0x000006FC easyar.OutputFrameFork easyar.OutputFrameFork::create(System.Int32)
+extern void OutputFrameFork_create_m73350744D8A876443155CC0A269B1E9C07081252 (void);
+// 0x000006FD System.Void easyar.OutputFrameJoin::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void OutputFrameJoin__ctor_m1687257F0EA7177E56323E91AE5830B601630854 (void);
+// 0x000006FE System.Object easyar.OutputFrameJoin::CloneObject()
+extern void OutputFrameJoin_CloneObject_mF97DC492CDEB06F00CE38EC083B6919A1763236E (void);
+// 0x000006FF easyar.OutputFrameJoin easyar.OutputFrameJoin::Clone()
+extern void OutputFrameJoin_Clone_m5195FEA99630397CE60258F5CE90C8C3A9B15BD0 (void);
+// 0x00000700 easyar.OutputFrameSink easyar.OutputFrameJoin::input(System.Int32)
+extern void OutputFrameJoin_input_m95D35B9CB211190BD8CF90C2A7A7688E698C705C (void);
+// 0x00000701 easyar.OutputFrameSource easyar.OutputFrameJoin::output()
+extern void OutputFrameJoin_output_m206F0D6C2877F0AA16DDC32695D4482A346929D8 (void);
+// 0x00000702 System.Int32 easyar.OutputFrameJoin::inputCount()
+extern void OutputFrameJoin_inputCount_mE72879D3CDF490474D2E9123F48759993A5B549A (void);
+// 0x00000703 easyar.OutputFrameJoin easyar.OutputFrameJoin::create(System.Int32)
+extern void OutputFrameJoin_create_m367B671D771396CEFAB39F911F0273DA2D368E94 (void);
+// 0x00000704 easyar.OutputFrameJoin easyar.OutputFrameJoin::createWithJoiner(System.Int32,System.Func`2<System.Collections.Generic.List`1<easyar.OutputFrame>,easyar.OutputFrame>)
+extern void OutputFrameJoin_createWithJoiner_m9B948C00F42519A46253EC511860D7E4760C1A67 (void);
+// 0x00000705 System.Void easyar.FeedbackFrameFork::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void FeedbackFrameFork__ctor_m0EFD848100F201E685341898F365E1B91DF2E4B0 (void);
+// 0x00000706 System.Object easyar.FeedbackFrameFork::CloneObject()
+extern void FeedbackFrameFork_CloneObject_mFF72FC65902BDEE6341E83DBA8E8E12A442F8952 (void);
+// 0x00000707 easyar.FeedbackFrameFork easyar.FeedbackFrameFork::Clone()
+extern void FeedbackFrameFork_Clone_mAB81C16C99998231E7307B4134998CE4F63AC898 (void);
+// 0x00000708 easyar.FeedbackFrameSink easyar.FeedbackFrameFork::input()
+extern void FeedbackFrameFork_input_m89609CDEDFC8DBCB30FBFF6102C933EB3DB75E93 (void);
+// 0x00000709 easyar.FeedbackFrameSource easyar.FeedbackFrameFork::output(System.Int32)
+extern void FeedbackFrameFork_output_mB862F9591F7DAA430E7240B48D010A622FBA0F4B (void);
+// 0x0000070A System.Int32 easyar.FeedbackFrameFork::outputCount()
+extern void FeedbackFrameFork_outputCount_mE64F6CA305322E1083E6ED1937013BD752E4609B (void);
+// 0x0000070B easyar.FeedbackFrameFork easyar.FeedbackFrameFork::create(System.Int32)
+extern void FeedbackFrameFork_create_mA30BDD2E9D0AB72B25D97E3BE1E011936951124B (void);
+// 0x0000070C System.Void easyar.InputFrameThrottler::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void InputFrameThrottler__ctor_m71072FD8DCABF6850DF29178A541B3BD6B52EBE5 (void);
+// 0x0000070D System.Object easyar.InputFrameThrottler::CloneObject()
+extern void InputFrameThrottler_CloneObject_mFDD401D2337814347B7C616DC2E3A6A4DB08D0B0 (void);
+// 0x0000070E easyar.InputFrameThrottler easyar.InputFrameThrottler::Clone()
+extern void InputFrameThrottler_Clone_m7C0CAA5558A32E541C1783B0EB6D49D880F458EC (void);
+// 0x0000070F easyar.InputFrameSink easyar.InputFrameThrottler::input()
+extern void InputFrameThrottler_input_m6587D9C08AACE34E969C9A6DC34E1FA4A89263BB (void);
+// 0x00000710 System.Int32 easyar.InputFrameThrottler::bufferRequirement()
+extern void InputFrameThrottler_bufferRequirement_m386D52DA6CC7BDB46F6CE55F50FBE581D3FE11F2 (void);
+// 0x00000711 easyar.InputFrameSource easyar.InputFrameThrottler::output()
+extern void InputFrameThrottler_output_m76832569F52918A55392F57A7CF68F38377502A8 (void);
+// 0x00000712 easyar.SignalSink easyar.InputFrameThrottler::signalInput()
+extern void InputFrameThrottler_signalInput_m9D4C90AABBC210EC74E3EC9A4FFDE4CDA0754A7F (void);
+// 0x00000713 easyar.InputFrameThrottler easyar.InputFrameThrottler::create()
+extern void InputFrameThrottler_create_mA96A2E1392722EDE77D2D61A1396FF284B43862A (void);
+// 0x00000714 System.Void easyar.OutputFrameBuffer::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void OutputFrameBuffer__ctor_m42943E55348EE5542155F023943E5FB3807B4E24 (void);
+// 0x00000715 System.Object easyar.OutputFrameBuffer::CloneObject()
+extern void OutputFrameBuffer_CloneObject_mD200C5822D29340BF34F552171E634F7995E3643 (void);
+// 0x00000716 easyar.OutputFrameBuffer easyar.OutputFrameBuffer::Clone()
+extern void OutputFrameBuffer_Clone_m8F0DDF71E0E5C99D38A64CB4E32ADA02C0312F89 (void);
+// 0x00000717 easyar.OutputFrameSink easyar.OutputFrameBuffer::input()
+extern void OutputFrameBuffer_input_m92F5F9C43F6A18BCB48AC3B59F25ABAAC6092825 (void);
+// 0x00000718 System.Int32 easyar.OutputFrameBuffer::bufferRequirement()
+extern void OutputFrameBuffer_bufferRequirement_m4EA8EF8830559A927D7BA01E8A996607A220B503 (void);
+// 0x00000719 easyar.SignalSource easyar.OutputFrameBuffer::signalOutput()
+extern void OutputFrameBuffer_signalOutput_m36D8556B8D8735C0E1A5CB2B0988B6809578B248 (void);
+// 0x0000071A easyar.Optional`1<easyar.OutputFrame> easyar.OutputFrameBuffer::peek()
+extern void OutputFrameBuffer_peek_mC1A553173F72591A3C53C425A034CB8AE89A099D (void);
+// 0x0000071B easyar.OutputFrameBuffer easyar.OutputFrameBuffer::create()
+extern void OutputFrameBuffer_create_mAAAD294053975F93F23C2A573BB4BA7CED239CED (void);
+// 0x0000071C System.Void easyar.OutputFrameBuffer::pause()
+extern void OutputFrameBuffer_pause_m83191056C0AF25662D76ABF93156A27FA9229D53 (void);
+// 0x0000071D System.Void easyar.OutputFrameBuffer::resume()
+extern void OutputFrameBuffer_resume_mA8C0DA8F24D013F1ECDB8CA140C1C3702EC0D113 (void);
+// 0x0000071E System.Void easyar.OutputFrameBuffer/<>c::.cctor()
+extern void U3CU3Ec__cctor_mD6C6703EB1F44504A2C142326D4AAFBFE19EE412 (void);
+// 0x0000071F System.Void easyar.OutputFrameBuffer/<>c::.ctor()
+extern void U3CU3Ec__ctor_m1185515936EE432C5E8905FD0F8A6A4AA97D6FF4 (void);
+// 0x00000720 easyar.Optional`1<easyar.OutputFrame> easyar.OutputFrameBuffer/<>c::<peek>b__6_0(easyar.Detail/OptionalOfOutputFrame)
+extern void U3CU3Ec_U3CpeekU3Eb__6_0_m48B5948D929E4A318ED7EAAE00ACEEE95451697D (void);
+// 0x00000721 System.Void easyar.InputFrameToOutputFrameAdapter::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void InputFrameToOutputFrameAdapter__ctor_mCC17126A0A691CBC4DDFFBDA531921E3DA4FE8E0 (void);
+// 0x00000722 System.Object easyar.InputFrameToOutputFrameAdapter::CloneObject()
+extern void InputFrameToOutputFrameAdapter_CloneObject_mCA0DFA6F303F9414043D095E06883B268F85AF86 (void);
+// 0x00000723 easyar.InputFrameToOutputFrameAdapter easyar.InputFrameToOutputFrameAdapter::Clone()
+extern void InputFrameToOutputFrameAdapter_Clone_mE80AE185A32AA0A120412E10AFB375768780134F (void);
+// 0x00000724 easyar.InputFrameSink easyar.InputFrameToOutputFrameAdapter::input()
+extern void InputFrameToOutputFrameAdapter_input_mB79E24041377FE34809C01C68820FCC5C8F61A05 (void);
+// 0x00000725 easyar.OutputFrameSource easyar.InputFrameToOutputFrameAdapter::output()
+extern void InputFrameToOutputFrameAdapter_output_m6E8151C4A1A9C040042969ADD09661295F2DA8A5 (void);
+// 0x00000726 easyar.InputFrameToOutputFrameAdapter easyar.InputFrameToOutputFrameAdapter::create()
+extern void InputFrameToOutputFrameAdapter_create_mF8EA9F19529F4B583B471BD07EE9F4A7E997FD13 (void);
+// 0x00000727 System.Void easyar.InputFrameToFeedbackFrameAdapter::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void InputFrameToFeedbackFrameAdapter__ctor_m3175DD6A1C36DEA71405410EC66B58E1405CD14B (void);
+// 0x00000728 System.Object easyar.InputFrameToFeedbackFrameAdapter::CloneObject()
+extern void InputFrameToFeedbackFrameAdapter_CloneObject_m50B1B5782D402952AE0B20AF0E7431AEB9DDED63 (void);
+// 0x00000729 easyar.InputFrameToFeedbackFrameAdapter easyar.InputFrameToFeedbackFrameAdapter::Clone()
+extern void InputFrameToFeedbackFrameAdapter_Clone_m76A081DFF4AA0633E5E9006A76CB570FF3277E29 (void);
+// 0x0000072A easyar.InputFrameSink easyar.InputFrameToFeedbackFrameAdapter::input()
+extern void InputFrameToFeedbackFrameAdapter_input_m917F5B1A80100C874850AD1F390DEB94455455AA (void);
+// 0x0000072B System.Int32 easyar.InputFrameToFeedbackFrameAdapter::bufferRequirement()
+extern void InputFrameToFeedbackFrameAdapter_bufferRequirement_m25B69AF1029084ED70DB1D5950D9B49D20583D3E (void);
+// 0x0000072C easyar.OutputFrameSink easyar.InputFrameToFeedbackFrameAdapter::sideInput()
+extern void InputFrameToFeedbackFrameAdapter_sideInput_m140A8A4F8FFE2A4EA2A762727B6F5B1AA089ED9D (void);
+// 0x0000072D easyar.FeedbackFrameSource easyar.InputFrameToFeedbackFrameAdapter::output()
+extern void InputFrameToFeedbackFrameAdapter_output_m0D8EE6B41DF172EEB02ABE251F616F871AAAE09D (void);
+// 0x0000072E easyar.InputFrameToFeedbackFrameAdapter easyar.InputFrameToFeedbackFrameAdapter::create()
+extern void InputFrameToFeedbackFrameAdapter_create_m01D26D61B76A2B9411A4ACF43A9619931C4DA956 (void);
+// 0x0000072F System.Void easyar.InputFrame::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void InputFrame__ctor_m20CC1132C2A3CB1F68EABC8E11D3DB7560051D29 (void);
+// 0x00000730 System.Object easyar.InputFrame::CloneObject()
+extern void InputFrame_CloneObject_m56502344C62CFA29DE5585BF1519D412CF3A0039 (void);
+// 0x00000731 easyar.InputFrame easyar.InputFrame::Clone()
+extern void InputFrame_Clone_m4B780666AECD883AF39FC1F0DAF43D7134564058 (void);
+// 0x00000732 System.Int32 easyar.InputFrame::index()
+extern void InputFrame_index_m461F0649929E7C8B10CBE28B0072CBDEE24324E8 (void);
+// 0x00000733 easyar.Image easyar.InputFrame::image()
+extern void InputFrame_image_m0FB03F4DDDAD622E442B0F07FDB96C384EDE8D61 (void);
+// 0x00000734 System.Boolean easyar.InputFrame::hasCameraParameters()
+extern void InputFrame_hasCameraParameters_mA559A9EB9D4B85DCC705131E78F32D15ABB1003C (void);
+// 0x00000735 easyar.CameraParameters easyar.InputFrame::cameraParameters()
+extern void InputFrame_cameraParameters_mA5FDFC2E553A78CC978A7D93F8C28EA7FE903F2C (void);
+// 0x00000736 System.Boolean easyar.InputFrame::hasTemporalInformation()
+extern void InputFrame_hasTemporalInformation_m5CCDC2357961FDA4D512DC203CD296DBA9A0AC45 (void);
+// 0x00000737 System.Double easyar.InputFrame::timestamp()
+extern void InputFrame_timestamp_m53F8C8F0FF402B3253BBEAF634426D98724EC1C0 (void);
+// 0x00000738 System.Boolean easyar.InputFrame::hasSpatialInformation()
+extern void InputFrame_hasSpatialInformation_m5477E271CDCD2D0BD5F26EE331E70831EC8AD9BB (void);
+// 0x00000739 easyar.Matrix44F easyar.InputFrame::cameraTransform()
+extern void InputFrame_cameraTransform_m5C5428BCEDE2DC3D949BE62927BBB4D97E84F1CD (void);
+// 0x0000073A easyar.MotionTrackingStatus easyar.InputFrame::trackingStatus()
+extern void InputFrame_trackingStatus_mDC21EFB90AD83427D1D1D9205043986E4204993D (void);
+// 0x0000073B easyar.InputFrame easyar.InputFrame::create(easyar.Image,easyar.CameraParameters,System.Double,easyar.Matrix44F,easyar.MotionTrackingStatus)
+extern void InputFrame_create_mB86F8409D6A36FD853772F76836BB55E6AB4EDFE (void);
+// 0x0000073C easyar.InputFrame easyar.InputFrame::createWithImageAndCameraParametersAndTemporal(easyar.Image,easyar.CameraParameters,System.Double)
+extern void InputFrame_createWithImageAndCameraParametersAndTemporal_mE50A71DE04CE85335E9868DEFAA7F57BC531FE06 (void);
+// 0x0000073D easyar.InputFrame easyar.InputFrame::createWithImageAndCameraParameters(easyar.Image,easyar.CameraParameters)
+extern void InputFrame_createWithImageAndCameraParameters_m549357F6311AAC1A91F304DB65DB914EE08B78CD (void);
+// 0x0000073E easyar.InputFrame easyar.InputFrame::createWithImage(easyar.Image)
+extern void InputFrame_createWithImage_m48E124FB8265EBEB53FD3ED488C862736D0D3A6E (void);
+// 0x0000073F System.Void easyar.FrameFilterResult::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void FrameFilterResult__ctor_m82A6974BBC521386B8BC59B6D1BA10242E574E73 (void);
+// 0x00000740 System.Object easyar.FrameFilterResult::CloneObject()
+extern void FrameFilterResult_CloneObject_m3D5456AA1335485930CF978870CE73B864C5A73D (void);
+// 0x00000741 easyar.FrameFilterResult easyar.FrameFilterResult::Clone()
+extern void FrameFilterResult_Clone_m94B0FED3F3ACC4DA64008C57A368994264E186EE (void);
+// 0x00000742 System.Void easyar.OutputFrame::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void OutputFrame__ctor_m0BB5E5CEB0A8BB436B3C0848355EA050BA8372D9 (void);
+// 0x00000743 System.Object easyar.OutputFrame::CloneObject()
+extern void OutputFrame_CloneObject_m1DDC4ABFC817F051A916A329101B1A01B6EFD2F5 (void);
+// 0x00000744 easyar.OutputFrame easyar.OutputFrame::Clone()
+extern void OutputFrame_Clone_m9DB619B44DB96789FE53B8715255301CE210E766 (void);
+// 0x00000745 System.Void easyar.OutputFrame::.ctor(easyar.InputFrame,System.Collections.Generic.List`1<easyar.Optional`1<easyar.FrameFilterResult>>)
+extern void OutputFrame__ctor_mB325F8766A616D6801D9FFE2B8F1CA3D4F76B820 (void);
+// 0x00000746 System.Int32 easyar.OutputFrame::index()
+extern void OutputFrame_index_m0C0F89A7F3BB95BA528F4443E29F4DCE41594661 (void);
+// 0x00000747 easyar.InputFrame easyar.OutputFrame::inputFrame()
+extern void OutputFrame_inputFrame_m41D93832130B34C2256325C10998F6D5AFD7E961 (void);
+// 0x00000748 System.Collections.Generic.List`1<easyar.Optional`1<easyar.FrameFilterResult>> easyar.OutputFrame::results()
+extern void OutputFrame_results_m1B612CF9FC69D708FECAFC8A5ACEB7BCC6FE9904 (void);
+// 0x00000749 System.Void easyar.FeedbackFrame::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void FeedbackFrame__ctor_m42A014055A6678508D044E2E38296AD1DB30850E (void);
+// 0x0000074A System.Object easyar.FeedbackFrame::CloneObject()
+extern void FeedbackFrame_CloneObject_m968BF1EF92D8F596A1345417596937A35A9A9830 (void);
+// 0x0000074B easyar.FeedbackFrame easyar.FeedbackFrame::Clone()
+extern void FeedbackFrame_Clone_m0006BC7CFBC2ABA288174173EC8B170045AEAC8D (void);
+// 0x0000074C System.Void easyar.FeedbackFrame::.ctor(easyar.InputFrame,easyar.Optional`1<easyar.OutputFrame>)
+extern void FeedbackFrame__ctor_mD5E0AA071A120FFCB54C75BF9A92BFD4E6DE8ED3 (void);
+// 0x0000074D easyar.InputFrame easyar.FeedbackFrame::inputFrame()
+extern void FeedbackFrame_inputFrame_m7C86ECD871328A48EC407E3383126E77C0CC6831 (void);
+// 0x0000074E easyar.Optional`1<easyar.OutputFrame> easyar.FeedbackFrame::previousOutputFrame()
+extern void FeedbackFrame_previousOutputFrame_mAA27634777B3AFFC818CA6775F5C35FA6926515D (void);
+// 0x0000074F System.Void easyar.FeedbackFrame/<>c::.cctor()
+extern void U3CU3Ec__cctor_mD59F345E6F8BD9C9A86D9583B7E3F6CC0E9A86E2 (void);
+// 0x00000750 System.Void easyar.FeedbackFrame/<>c::.ctor()
+extern void U3CU3Ec__ctor_mF5C2D9E3E45F90F887BEA41E94E2E070208786F9 (void);
+// 0x00000751 easyar.Detail/OptionalOfOutputFrame easyar.FeedbackFrame/<>c::<.ctor>b__3_0(easyar.Optional`1<easyar.OutputFrame>)
+extern void U3CU3Ec_U3C_ctorU3Eb__3_0_m83E00571206394186C8889E411C0E1D5ADA605F2 (void);
+// 0x00000752 easyar.Optional`1<easyar.OutputFrame> easyar.FeedbackFrame/<>c::<previousOutputFrame>b__5_0(easyar.Detail/OptionalOfOutputFrame)
+extern void U3CU3Ec_U3CpreviousOutputFrameU3Eb__5_0_mBDC47E2C3AF70F3FF36F13F3B1EBA7BDF364595C (void);
+// 0x00000753 System.Void easyar.Target::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void Target__ctor_m2CAD736174A25C2FDBC016E04786D3357790BCAA (void);
+// 0x00000754 System.Object easyar.Target::CloneObject()
+extern void Target_CloneObject_m3D4D5F8B71C028BDBD7EEE6557CEC5C5A2FCAEBA (void);
+// 0x00000755 easyar.Target easyar.Target::Clone()
+extern void Target_Clone_m3540538D3B9CF31B7C89469F7777D2305A7C25F5 (void);
+// 0x00000756 System.Int32 easyar.Target::runtimeID()
+extern void Target_runtimeID_mF7135F804800456CAAE0F4472CCB26E8E0B8434C (void);
+// 0x00000757 System.String easyar.Target::uid()
+extern void Target_uid_m3C68A9298250E45CB05647D50F7EBC6FCE41A56C (void);
+// 0x00000758 System.String easyar.Target::name()
+extern void Target_name_m3E61454506263D92A09EFA3EDC3FCD86BAF005D3 (void);
+// 0x00000759 System.Void easyar.Target::setName(System.String)
+extern void Target_setName_mDF24134D881521A903EC8DF9AE1F8BAFAD3B3B48 (void);
+// 0x0000075A System.String easyar.Target::meta()
+extern void Target_meta_m72F366EEDFACA48B639CE0916D1464DC663F9D16 (void);
+// 0x0000075B System.Void easyar.Target::setMeta(System.String)
+extern void Target_setMeta_m871D732023F0A7601D7B27405EDFDFBD06B7F766 (void);
+// 0x0000075C System.Void easyar.TargetInstance::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void TargetInstance__ctor_m7DA0AECB96E615D4671B3E88EB07E8A9D41C67BA (void);
+// 0x0000075D System.Object easyar.TargetInstance::CloneObject()
+extern void TargetInstance_CloneObject_mD5995A9B48A1637DA5122DE688419A708D6F3548 (void);
+// 0x0000075E easyar.TargetInstance easyar.TargetInstance::Clone()
+extern void TargetInstance_Clone_m29F5E02FFDE3F4257FF772D13359C1681FFEC8B6 (void);
+// 0x0000075F System.Void easyar.TargetInstance::.ctor()
+extern void TargetInstance__ctor_m1C02288F931EB00A3634918AECF51230FB46968F (void);
+// 0x00000760 easyar.TargetStatus easyar.TargetInstance::status()
+extern void TargetInstance_status_m0EE320F506A558CC55DC3606C1D0CA8EF9DCA2D4 (void);
+// 0x00000761 easyar.Optional`1<easyar.Target> easyar.TargetInstance::target()
+extern void TargetInstance_target_mC37BEA9D9D42A9893F846AD42386C5F0203CCCD5 (void);
+// 0x00000762 easyar.Matrix44F easyar.TargetInstance::pose()
+extern void TargetInstance_pose_m0A19B54E0EAD7AEE3E4B4AA0FD467EE79572B9B0 (void);
+// 0x00000763 System.Void easyar.TargetInstance/<>c::.cctor()
+extern void U3CU3Ec__cctor_mD3D63F8B79C7818A30978E19B23EC7C08382DB7C (void);
+// 0x00000764 System.Void easyar.TargetInstance/<>c::.ctor()
+extern void U3CU3Ec__ctor_mB8A7D7518A0C3EC8A53CFC318E9E5F2302CA3D1D (void);
+// 0x00000765 easyar.Optional`1<easyar.Target> easyar.TargetInstance/<>c::<target>b__5_0(easyar.Detail/OptionalOfTarget)
+extern void U3CU3Ec_U3CtargetU3Eb__5_0_m25E94049FC5FD166BC0515CCF1A9437C55CE9D58 (void);
+// 0x00000766 System.Void easyar.TargetTrackerResult::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void TargetTrackerResult__ctor_m330FA7122F2116E858ADB42FB911240F15FEBEAF (void);
+// 0x00000767 System.Object easyar.TargetTrackerResult::CloneObject()
+extern void TargetTrackerResult_CloneObject_m94BD03A6FE173E5E378934920C4D46AAFAE6EA78 (void);
+// 0x00000768 easyar.TargetTrackerResult easyar.TargetTrackerResult::Clone()
+extern void TargetTrackerResult_Clone_mBF7FB00A7C3F1FDD19287923240CF5D171D4A045 (void);
+// 0x00000769 System.Collections.Generic.List`1<easyar.TargetInstance> easyar.TargetTrackerResult::targetInstances()
+extern void TargetTrackerResult_targetInstances_m00D6601A69ECCC067938C174EFA3D71527646812 (void);
+// 0x0000076A System.Void easyar.TargetTrackerResult::setTargetInstances(System.Collections.Generic.List`1<easyar.TargetInstance>)
+extern void TargetTrackerResult_setTargetInstances_mB53CD85BAD0162E26612FAE1E912C7D8D75CDB9C (void);
+// 0x0000076B System.Void easyar.TextureId::.ctor(System.IntPtr,System.Action`1<System.IntPtr>,easyar.RefBase/Retainer)
+extern void TextureId__ctor_m91EDAEDD5A61BF7D26162288A5FCDA2FD8EFDB94 (void);
+// 0x0000076C System.Object easyar.TextureId::CloneObject()
+extern void TextureId_CloneObject_m4AEB0F54468BF64B5030DE4706564EF186216377 (void);
+// 0x0000076D easyar.TextureId easyar.TextureId::Clone()
+extern void TextureId_Clone_mFF5B760B88B5C4D06D4621E2ED0A1D6EC44168D4 (void);
+// 0x0000076E System.Int32 easyar.TextureId::getInt()
+extern void TextureId_getInt_m28DEFEA8979612D68B4336C737DF3E0065AF96CB (void);
+// 0x0000076F System.IntPtr easyar.TextureId::getPointer()
+extern void TextureId_getPointer_m8348ECBB81E10B082ADB15E6B550C099DEA6CCF5 (void);
+// 0x00000770 easyar.TextureId easyar.TextureId::fromInt(System.Int32)
+extern void TextureId_fromInt_m25F2ABC455D30F6F7A053AFFA19552ABD1E14826 (void);
+// 0x00000771 easyar.TextureId easyar.TextureId::fromPointer(System.IntPtr)
+extern void TextureId_fromPointer_mDA8AB7F4E373235EF7838D65598FD7CA219AEF15 (void);
+// 0x00000772 System.Void easyar.CameraImageMaterial::.ctor()
+extern void CameraImageMaterial__ctor_mC7B8EFC560BBC7325698B1F9203E09E8C9CFDF39 (void);
+// 0x00000773 System.Void easyar.CameraImageMaterial::Finalize()
+extern void CameraImageMaterial_Finalize_mCB34A9A24F708C93FC3593EDB493B6E326B56713 (void);
+// 0x00000774 System.Void easyar.CameraImageMaterial::Dispose()
+extern void CameraImageMaterial_Dispose_m6035C94A4356C43C3BA581427197F449A6BC96CC (void);
+// 0x00000775 UnityEngine.Material easyar.CameraImageMaterial::UpdateByImage(easyar.Image)
+extern void CameraImageMaterial_UpdateByImage_mD125E489D7EF75482859095860549C16CBC3A7F2 (void);
+// 0x00000776 System.Void easyar.CameraImageMaterial::DisposeResources()
+extern void CameraImageMaterial_DisposeResources_m32BFEE88E792E0FFF11822D2EDE447D4AA1D021D (void);
+// 0x00000777 System.Void easyar.CameraImageMaterial/CameraImageShaders::.ctor()
+extern void CameraImageShaders__ctor_m5A8B50C1F78BF9043F0A2AB9D24CBD33EA363D33 (void);
+// 0x00000778 System.Void easyar.CameraImageRenderer::add_OnFrameRenderUpdate(System.Action`2<UnityEngine.Material,UnityEngine.Vector2>)
+extern void CameraImageRenderer_add_OnFrameRenderUpdate_mADA632258D9442E4068E4C353B29B4C527FC1DA0 (void);
+// 0x00000779 System.Void easyar.CameraImageRenderer::remove_OnFrameRenderUpdate(System.Action`2<UnityEngine.Material,UnityEngine.Vector2>)
+extern void CameraImageRenderer_remove_OnFrameRenderUpdate_mBCBD8BCE848690C3470DFC773E69D4356E380BBA (void);
+// 0x0000077A System.Void easyar.CameraImageRenderer::add_TargetTextureChange(System.Action`2<UnityEngine.Camera,UnityEngine.RenderTexture>)
+extern void CameraImageRenderer_add_TargetTextureChange_m28403DAB30BC4BA245F4DAA0C07B7839961DCED1 (void);
+// 0x0000077B System.Void easyar.CameraImageRenderer::remove_TargetTextureChange(System.Action`2<UnityEngine.Camera,UnityEngine.RenderTexture>)
+extern void CameraImageRenderer_remove_TargetTextureChange_m6898EFA56FB05C450AAEA0C201411C6724B9661C (void);
+// 0x0000077C UnityEngine.Material easyar.CameraImageRenderer::get_Material()
+extern void CameraImageRenderer_get_Material_m76125AB90C6876E943C24BDD62A62B758EAF1C47 (void);
+// 0x0000077D easyar.Optional`1<UnityEngine.RenderTexture> easyar.CameraImageRenderer::get_UserTexture()
+extern void CameraImageRenderer_get_UserTexture_m1A0D64C7003C9673E16FB2E2E5C22D88057D2E50 (void);
+// 0x0000077E System.Void easyar.CameraImageRenderer::set_UserTexture(easyar.Optional`1<UnityEngine.RenderTexture>)
+extern void CameraImageRenderer_set_UserTexture_m845F18CD91DCCF9F937CF1C9AA1F01AB0F0C5781 (void);
+// 0x0000077F System.Boolean easyar.CameraImageRenderer::get_InvertCulling()
+extern void CameraImageRenderer_get_InvertCulling_mB7EF27859664ED8F0CEBBCC1E8A7F06400C4FCB9 (void);
+// 0x00000780 System.Void easyar.CameraImageRenderer::set_InvertCulling(System.Boolean)
+extern void CameraImageRenderer_set_InvertCulling_m0D0AE9989804E3D27DC6FD5F87293CA1B1170E59 (void);
+// 0x00000781 System.Void easyar.CameraImageRenderer::Awake()
+extern void CameraImageRenderer_Awake_m0358BF2D132CA55C44911879690AE8CEC9C11DBB (void);
+// 0x00000782 System.Void easyar.CameraImageRenderer::OnEnable()
+extern void CameraImageRenderer_OnEnable_m7B74FAFF4C19A785F1AF1FF770EC0291442A26B9 (void);
+// 0x00000783 System.Void easyar.CameraImageRenderer::OnDisable()
+extern void CameraImageRenderer_OnDisable_m53B8CDF5E4F56020D7DA69CAECB344E6EE910205 (void);
+// 0x00000784 System.Void easyar.CameraImageRenderer::OnDestroy()
+extern void CameraImageRenderer_OnDestroy_m40F0C2104F92B7252A5F1FD15333FA35F0E8B186 (void);
+// 0x00000785 System.Void easyar.CameraImageRenderer::RequestTargetTexture(System.Action`2<UnityEngine.Camera,UnityEngine.RenderTexture>)
+extern void CameraImageRenderer_RequestTargetTexture_m72CEA2C6573A1796C51105382DD370453DC0E07A (void);
+// 0x00000786 System.Void easyar.CameraImageRenderer::DropTargetTexture(System.Action`2<UnityEngine.Camera,UnityEngine.RenderTexture>)
+extern void CameraImageRenderer_DropTargetTexture_m37C9902FC34AB9975CF6CCE899706B90BF1DA88F (void);
+// 0x00000787 System.Void easyar.CameraImageRenderer::OnAssemble(easyar.ARSession)
+extern void CameraImageRenderer_OnAssemble_mC416A1F0F7D390D027AB7AD7CBEFCEF33C85ED71 (void);
+// 0x00000788 System.Void easyar.CameraImageRenderer::SetHFilp(System.Boolean)
+extern void CameraImageRenderer_SetHFilp_mB0D67898548420B378D0DE87C2E544D821231CEF (void);
+// 0x00000789 System.Void easyar.CameraImageRenderer::OnFrameChange(easyar.OutputFrame,UnityEngine.Quaternion)
+extern void CameraImageRenderer_OnFrameChange_mF077CC2D6C2C1FF244CCF01611951CB5E26A4FEE (void);
+// 0x0000078A easyar.CameraImageRenderer easyar.CameraImageRenderer::TryGetRenderer(UnityEngine.Camera)
+extern void CameraImageRenderer_TryGetRenderer_m0012DF29124DD29F03F5313E75C770BC051B0F6E (void);
+// 0x0000078B System.Void easyar.CameraImageRenderer::OnFrameUpdate(easyar.OutputFrame)
+extern void CameraImageRenderer_OnFrameUpdate_mD4A000CFA9DD2D5DB2EA655D4881EFC6A1B076E7 (void);
+// 0x0000078C UnityEngine.Matrix4x4 easyar.CameraImageRenderer::DisplayTransform(easyar.CameraParameters,System.Single,System.Int32,System.Boolean)
+extern void CameraImageRenderer_DisplayTransform_m2329BDEEA34B5C9D870ED4DED2BF8D6035838B73 (void);
+// 0x0000078D System.Void easyar.CameraImageRenderer::UpdateCommandBuffer(UnityEngine.Camera,UnityEngine.Material,System.Boolean)
+extern void CameraImageRenderer_UpdateCommandBuffer_m9BBC779174A59F146867E904C95C730AF4BA4028 (void);
+// 0x0000078E System.Void easyar.CameraImageRenderer::RemoveCommandBuffer(UnityEngine.Camera)
+extern void CameraImageRenderer_RemoveCommandBuffer_m7DC1654FDABC44108682FB075C842B18074712DD (void);
+// 0x0000078F System.Void easyar.CameraImageRenderer::.ctor()
+extern void CameraImageRenderer__ctor_m8BF36A3277D7A8054AC53240DA979C4BAD68A815 (void);
+// 0x00000790 System.Void easyar.CameraImageRenderer::.cctor()
+extern void CameraImageRenderer__cctor_m41B56F61A311213EAA00AC3FA0F5606273DD9BF2 (void);
+// 0x00000791 System.Void easyar.CameraImageRenderer/UserRequest::Finalize()
+extern void UserRequest_Finalize_m4A11F649A6CB38D958E17B8631F196954E26FDCC (void);
+// 0x00000792 System.Void easyar.CameraImageRenderer/UserRequest::Dispose()
+extern void UserRequest_Dispose_mAAEBA24314FFCFB8CB88EBDB7F789C0861C9FC53 (void);
+// 0x00000793 System.Boolean easyar.CameraImageRenderer/UserRequest::UpdateTexture(UnityEngine.Camera,UnityEngine.Material,System.Boolean,UnityEngine.RenderTexture&)
+extern void UserRequest_UpdateTexture_mDC2F56E4260D9E9A5D505D5628E67BCF2BBD4D2C (void);
+// 0x00000794 System.Void easyar.CameraImageRenderer/UserRequest::UpdateCommandBuffer(UnityEngine.Camera,UnityEngine.Material,System.Boolean)
+extern void UserRequest_UpdateCommandBuffer_m366CEC9B792FE418D39C0FCAC644A057FDE436EF (void);
+// 0x00000795 System.Void easyar.CameraImageRenderer/UserRequest::RemoveCommandBuffer(UnityEngine.Camera)
+extern void UserRequest_RemoveCommandBuffer_m0604DB28CEC37D77BCE96FE5EBC774ABC519CE34 (void);
+// 0x00000796 System.Void easyar.CameraImageRenderer/UserRequest::.ctor()
+extern void UserRequest__ctor_mB73169C2AD599618B3D62CF475CE7D13D4B18E47 (void);
+// 0x00000797 System.Void easyar.EasyARCameraImageRendererFeature::Create()
+extern void EasyARCameraImageRendererFeature_Create_mA1886DD47F6543482C9FA2E2DF78D288F933DF13 (void);
+// 0x00000798 System.Void easyar.EasyARCameraImageRendererFeature::AddRenderPasses(UnityEngine.Rendering.Universal.ScriptableRenderer,UnityEngine.Rendering.Universal.RenderingData&)
+extern void EasyARCameraImageRendererFeature_AddRenderPasses_m20A5BEDD0482FBE2E6B9DB7F4F62053E745A7CE7 (void);
+// 0x00000799 System.Void easyar.EasyARCameraImageRendererFeature::.ctor()
+extern void EasyARCameraImageRendererFeature__ctor_m17251CCF9AF2315F3ACB797213294556FEEC3A8F (void);
+// 0x0000079A System.Void easyar.EasyARCameraImageRendererFeature/CameraImageRenderPass::.ctor()
+extern void CameraImageRenderPass__ctor_m5B4F1084495D028FF000923C8B7C1BD07D22A4EB (void);
+// 0x0000079B System.Void easyar.EasyARCameraImageRendererFeature/CameraImageRenderPass::Setup(UnityEngine.Material,System.Boolean)
+extern void CameraImageRenderPass_Setup_m4AE12355D6DEAF5D371B9DCE423361B99CD2AE97 (void);
+// 0x0000079C System.Void easyar.EasyARCameraImageRendererFeature/CameraImageRenderPass::SetupTarget(UnityEngine.Rendering.RenderTargetIdentifier)
+extern void CameraImageRenderPass_SetupTarget_m247847829865DF501A855033C92BC23E2155DD7A (void);
+// 0x0000079D System.Void easyar.EasyARCameraImageRendererFeature/CameraImageRenderPass::Configure(UnityEngine.Rendering.CommandBuffer,UnityEngine.RenderTextureDescriptor)
+extern void CameraImageRenderPass_Configure_m0DC28E83B7C9E348355A73F621FF9C6898EA5717 (void);
+// 0x0000079E System.Void easyar.EasyARCameraImageRendererFeature/CameraImageRenderPass::Execute(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&)
+extern void CameraImageRenderPass_Execute_m655A0D28BA2B12A00ADA94C53467ADB7F445D162 (void);
+// 0x0000079F System.Void easyar.EasyARCameraImageRendererFeature/CameraImageRenderPass::FrameCleanup(UnityEngine.Rendering.CommandBuffer)
+extern void CameraImageRenderPass_FrameCleanup_m2424CA39841B11E1490C52F266127A4CF6A90F5B (void);
+// 0x000007A0 System.Void easyar.EasyARCameraImageRendererFeature/CameraImageRenderPass::.cctor()
+extern void CameraImageRenderPass__cctor_m633367C003207997C53EF1ED3015674092EFBF68 (void);
+// 0x000007A1 System.Int32 easyar.IDisplay::get_Rotation()
+// 0x000007A2 System.Void easyar.Display::.ctor()
+extern void Display__ctor_m638F6C87A738EF2174E467B6E3DA73A70007F0B9 (void);
+// 0x000007A3 System.Void easyar.Display::Finalize()
+extern void Display_Finalize_mA7DCD370DB360517A48F8BFB31E59EB76791F2FF (void);
+// 0x000007A4 System.Int32 easyar.Display::get_Rotation()
+extern void Display_get_Rotation_m60E305599881A31BF545FBC71835F63FEC3FCF76 (void);
+// 0x000007A5 System.Void easyar.Display::Dispose()
+extern void Display_Dispose_m4AC5F077EBAD070CCE485D86E9E62B5833D720F5 (void);
+// 0x000007A6 System.Void easyar.Display::InitializeIOS()
+extern void Display_InitializeIOS_mA0879FD01DAB767A002F40B3530AA2FFAAAC75D9 (void);
+// 0x000007A7 System.Void easyar.Display::InitializeAndroid()
+extern void Display_InitializeAndroid_m933C06CA64BE775C1D2FDC08FE8796F0350A74A6 (void);
+// 0x000007A8 System.Void easyar.Display::DeleteAndroidJavaObjects()
+extern void Display_DeleteAndroidJavaObjects_m8C1192E54A5DF766B945B16DC025371E707F5E7B (void);
+// 0x000007A9 System.Int32 easyar.DisplayEmulator::get_Rotation()
+extern void DisplayEmulator_get_Rotation_m5E08F71C4A5FFB488E2589A208E6301798026CA4 (void);
+// 0x000007AA System.Void easyar.DisplayEmulator::set_Rotation(System.Int32)
+extern void DisplayEmulator_set_Rotation_m8FB54B32051497A83C0CE0C04EEAFE8595EEF51C (void);
+// 0x000007AB System.Void easyar.DisplayEmulator::EmulateRotation(System.Int32)
+extern void DisplayEmulator_EmulateRotation_mD78C64BD198F07CDB6D709ACA0A1E46D18FF9B67 (void);
+// 0x000007AC System.Void easyar.DisplayEmulator::.ctor()
+extern void DisplayEmulator__ctor_m2E354D3E3217E5B913FE035B351E61279394E6DC (void);
+// 0x000007AD easyar.ARCoreCameraDevice easyar.ARCoreFrameSource::get_Device()
+extern void ARCoreFrameSource_get_Device_mB802624820870324F80EF334DC9642CF87903AB4 (void);
+// 0x000007AE System.Void easyar.ARCoreFrameSource::set_Device(easyar.ARCoreCameraDevice)
+extern void ARCoreFrameSource_set_Device_m9753CB07B43E0567E443251E94C751A215559688 (void);
+// 0x000007AF System.Void easyar.ARCoreFrameSource::add_DeviceCreated(System.Action)
+extern void ARCoreFrameSource_add_DeviceCreated_m0CBF85271E170D520A42D92174EDA5C4DAEA3B8C (void);
+// 0x000007B0 System.Void easyar.ARCoreFrameSource::remove_DeviceCreated(System.Action)
+extern void ARCoreFrameSource_remove_DeviceCreated_m4E98F9AE113F468F9DE5A346F5FC4066A1F25991 (void);
+// 0x000007B1 System.Void easyar.ARCoreFrameSource::add_DeviceOpened(System.Action)
+extern void ARCoreFrameSource_add_DeviceOpened_m1A3CAA67800C11522BE2CC038078A1700BD3B79D (void);
+// 0x000007B2 System.Void easyar.ARCoreFrameSource::remove_DeviceOpened(System.Action)
+extern void ARCoreFrameSource_remove_DeviceOpened_mDB1BD19DFF5D0F0D7AC6AA18FF9F4439CACF160B (void);
+// 0x000007B3 System.Void easyar.ARCoreFrameSource::add_DeviceClosed(System.Action)
+extern void ARCoreFrameSource_add_DeviceClosed_m0B6C727EDF2346F84F83B4386564A2770A280566 (void);
+// 0x000007B4 System.Void easyar.ARCoreFrameSource::remove_DeviceClosed(System.Action)
+extern void ARCoreFrameSource_remove_DeviceClosed_mCC489C1F7FC84AA09DE605F304824EEF38EF64BC (void);
+// 0x000007B5 easyar.Optional`1<System.Boolean> easyar.ARCoreFrameSource::get_IsAvailable()
+extern void ARCoreFrameSource_get_IsAvailable_m9392DDD1F37ADEA111B2BCDAE2D01FD795A4A258 (void);
+// 0x000007B6 System.Int32 easyar.ARCoreFrameSource::get_BufferCapacity()
+extern void ARCoreFrameSource_get_BufferCapacity_m525F9AA68E11E37FB58AD54AC6C0EED1D86B3AD3 (void);
+// 0x000007B7 System.Void easyar.ARCoreFrameSource::set_BufferCapacity(System.Int32)
+extern void ARCoreFrameSource_set_BufferCapacity_mD35814A1049E9B94E34D9D3772E7AC1FB1D079D5 (void);
+// 0x000007B8 easyar.WorldRootController easyar.ARCoreFrameSource::get_WorldRoot()
+extern void ARCoreFrameSource_get_WorldRoot_mDA114B7DDF8CEF81B3D753594AE0B249FF14F76D (void);
+// 0x000007B9 System.Void easyar.ARCoreFrameSource::set_WorldRoot(easyar.WorldRootController)
+extern void ARCoreFrameSource_set_WorldRoot_m5EF6A56D0DB3C2CF0B22B122918295727BCE9257 (void);
+// 0x000007BA UnityEngine.GameObject easyar.ARCoreFrameSource::get_Origin()
+extern void ARCoreFrameSource_get_Origin_mF3FB2C4BF95C638AD2E756B096C9BECF686CE694 (void);
+// 0x000007BB System.Void easyar.ARCoreFrameSource::Awake()
+extern void ARCoreFrameSource_Awake_mA095AB931D04261DC4E87A6367FE70D62B1C2EAE (void);
+// 0x000007BC System.Void easyar.ARCoreFrameSource::OnEnable()
+extern void ARCoreFrameSource_OnEnable_mFFEFC66053BAF5CD02C1FFD04C0D7D9D65A123B6 (void);
+// 0x000007BD System.Void easyar.ARCoreFrameSource::OnDisable()
+extern void ARCoreFrameSource_OnDisable_m315312598F3A42D103FEDEDF6CB60813FC06CCA5 (void);
+// 0x000007BE System.Void easyar.ARCoreFrameSource::OnDestroy()
+extern void ARCoreFrameSource_OnDestroy_mA956C4E20FF4E9AC9CC230A52DEE53B5E44843D5 (void);
+// 0x000007BF System.Void easyar.ARCoreFrameSource::OnAssemble(easyar.ARSession)
+extern void ARCoreFrameSource_OnAssemble_mDD27ECA1D274E928F4355766D2640D42BCF37A9A (void);
+// 0x000007C0 System.Void easyar.ARCoreFrameSource::Open()
+extern void ARCoreFrameSource_Open_m0314E28128B2B0E39A9F1922A7F77C07B05A4011 (void);
+// 0x000007C1 System.Void easyar.ARCoreFrameSource::Close()
+extern void ARCoreFrameSource_Close_mF5E03895144F13C9505F77B38281FEA3E3710BB0 (void);
+// 0x000007C2 System.Void easyar.ARCoreFrameSource::Connect(easyar.InputFrameSink)
+extern void ARCoreFrameSource_Connect_m2233E21736F0FB3ACF0E9333215C6A3D59F23B09 (void);
+// 0x000007C3 System.Collections.IEnumerator easyar.ARCoreFrameSource::AutoOpen()
+extern void ARCoreFrameSource_AutoOpen_mCCD5492252D92BD7E16DEAD5732FF0E913100125 (void);
+// 0x000007C4 System.Void easyar.ARCoreFrameSource::SetupOriginUsingWorldRoot()
+extern void ARCoreFrameSource_SetupOriginUsingWorldRoot_mD3989807A52AE36BA9E53EFB18D1710526E2B051 (void);
+// 0x000007C5 System.Void easyar.ARCoreFrameSource::.ctor()
+extern void ARCoreFrameSource__ctor_mB0C964E63194B06D4D25158C330A8E63D6247912 (void);
+// 0x000007C6 System.Void easyar.ARCoreFrameSource::<Open>b__36_0(easyar.PermissionStatus,System.String)
+extern void ARCoreFrameSource_U3COpenU3Eb__36_0_mFA68C2C9CE7F33B47163BFF789985BE6483BF458 (void);
+// 0x000007C7 System.Void easyar.ARCoreFrameSource/<AutoOpen>d__39::.ctor(System.Int32)
+extern void U3CAutoOpenU3Ed__39__ctor_m0DB472B5B8BD73CBBAD6968736090E53738CC913 (void);
+// 0x000007C8 System.Void easyar.ARCoreFrameSource/<AutoOpen>d__39::System.IDisposable.Dispose()
+extern void U3CAutoOpenU3Ed__39_System_IDisposable_Dispose_mA97C72F84CF63B692BA38E366A3E5FC2F92598F2 (void);
+// 0x000007C9 System.Boolean easyar.ARCoreFrameSource/<AutoOpen>d__39::MoveNext()
+extern void U3CAutoOpenU3Ed__39_MoveNext_mAD82BDD554F688477693A66FF4487A0EB0F7192F (void);
+// 0x000007CA System.Object easyar.ARCoreFrameSource/<AutoOpen>d__39::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAutoOpenU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB9BC4842ECCDA94114C0AD4F123A9B89A72E9A33 (void);
+// 0x000007CB System.Void easyar.ARCoreFrameSource/<AutoOpen>d__39::System.Collections.IEnumerator.Reset()
+extern void U3CAutoOpenU3Ed__39_System_Collections_IEnumerator_Reset_mA2D35E92F3A238BAA03C989978221875B6B6B156 (void);
+// 0x000007CC System.Object easyar.ARCoreFrameSource/<AutoOpen>d__39::System.Collections.IEnumerator.get_Current()
+extern void U3CAutoOpenU3Ed__39_System_Collections_IEnumerator_get_Current_m32038AB20AF92E37C1A5E858873E1728F7517F57 (void);
+// 0x000007CD UnityEngine.MonoBehaviour easyar.ARFoundationFrameSource::get_ARSessionOrigin()
+extern void ARFoundationFrameSource_get_ARSessionOrigin_m2A7B73E872B39FC0ED9819982B706F7C78BDEF7C (void);
+// 0x000007CE System.Void easyar.ARFoundationFrameSource::set_ARSessionOrigin(UnityEngine.MonoBehaviour)
+extern void ARFoundationFrameSource_set_ARSessionOrigin_mC4987BF164D3BE0AC4C8197637E032066B68A063 (void);
+// 0x000007CF easyar.Optional`1<System.Boolean> easyar.ARFoundationFrameSource::get_IsAvailable()
+extern void ARFoundationFrameSource_get_IsAvailable_m4C056B794A8062F7BD473E3CD76EE469FABC07F7 (void);
+// 0x000007D0 System.Void easyar.ARFoundationFrameSource::.ctor()
+extern void ARFoundationFrameSource__ctor_m66ADCF9A68D3CA9E711B4E04979728049A9394D9 (void);
+// 0x000007D1 easyar.ARKitCameraDevice easyar.ARKitFrameSource::get_Device()
+extern void ARKitFrameSource_get_Device_m1BE29AA9CA3290E3FAB1D887107D642F96C634B1 (void);
+// 0x000007D2 System.Void easyar.ARKitFrameSource::set_Device(easyar.ARKitCameraDevice)
+extern void ARKitFrameSource_set_Device_mCC1BEE4CD9E02822311B7A7A327998EEF481E591 (void);
+// 0x000007D3 System.Void easyar.ARKitFrameSource::add_DeviceCreated(System.Action)
+extern void ARKitFrameSource_add_DeviceCreated_mA2856FCFF04EB06889ADD9B9DF9E504B8AC897B5 (void);
+// 0x000007D4 System.Void easyar.ARKitFrameSource::remove_DeviceCreated(System.Action)
+extern void ARKitFrameSource_remove_DeviceCreated_m1E8BF38C88E1FEA827D7C7B61E4D9D9209BBAD4C (void);
+// 0x000007D5 System.Void easyar.ARKitFrameSource::add_DeviceOpened(System.Action)
+extern void ARKitFrameSource_add_DeviceOpened_m7DEFB1C68012F7F63C30371F1F375D7C86D4CEEA (void);
+// 0x000007D6 System.Void easyar.ARKitFrameSource::remove_DeviceOpened(System.Action)
+extern void ARKitFrameSource_remove_DeviceOpened_m0FF92C28045991FC7C1311F7FD8C3B6440EA5E06 (void);
+// 0x000007D7 System.Void easyar.ARKitFrameSource::add_DeviceClosed(System.Action)
+extern void ARKitFrameSource_add_DeviceClosed_m810FA7C4BD9669158BF2653B7E8CA2D30710B332 (void);
+// 0x000007D8 System.Void easyar.ARKitFrameSource::remove_DeviceClosed(System.Action)
+extern void ARKitFrameSource_remove_DeviceClosed_m0A77B08ACDC48F723D0A57E6667A272AA5EEE7B8 (void);
+// 0x000007D9 easyar.Optional`1<System.Boolean> easyar.ARKitFrameSource::get_IsAvailable()
+extern void ARKitFrameSource_get_IsAvailable_mA0F7F10817609F4BF82D3A964BB2129E18A4F319 (void);
+// 0x000007DA System.Int32 easyar.ARKitFrameSource::get_BufferCapacity()
+extern void ARKitFrameSource_get_BufferCapacity_m744356A0C3708AC674E94B13309F6430C62F9907 (void);
+// 0x000007DB System.Void easyar.ARKitFrameSource::set_BufferCapacity(System.Int32)
+extern void ARKitFrameSource_set_BufferCapacity_mAB5ACD78C9EF0A254EE72161781F8FB0A2F5A1FC (void);
+// 0x000007DC easyar.WorldRootController easyar.ARKitFrameSource::get_WorldRoot()
+extern void ARKitFrameSource_get_WorldRoot_mBE08372A7C3F534FE9A8FA10CAA7B20AF9A34BF8 (void);
+// 0x000007DD System.Void easyar.ARKitFrameSource::set_WorldRoot(easyar.WorldRootController)
+extern void ARKitFrameSource_set_WorldRoot_mAC0711D2A60566DC024AE71EDBB9CBDC6C01FFED (void);
+// 0x000007DE UnityEngine.GameObject easyar.ARKitFrameSource::get_Origin()
+extern void ARKitFrameSource_get_Origin_m8F8075EACCD5EDAA7BD64254C154D1AF06DD2726 (void);
+// 0x000007DF System.Void easyar.ARKitFrameSource::Awake()
+extern void ARKitFrameSource_Awake_mBFB699020F1BC7FD401C69DD97E1F494DBE71D23 (void);
+// 0x000007E0 System.Void easyar.ARKitFrameSource::OnEnable()
+extern void ARKitFrameSource_OnEnable_mCB1CA0D71FE11CB208895F301E145803679FF148 (void);
+// 0x000007E1 System.Void easyar.ARKitFrameSource::OnDisable()
+extern void ARKitFrameSource_OnDisable_mE991F10919B31F070CC275F2ECA39BDD60E2079E (void);
+// 0x000007E2 System.Void easyar.ARKitFrameSource::OnDestroy()
+extern void ARKitFrameSource_OnDestroy_mCAD07346D0A4B7BF8764B2521E10609426CB88F0 (void);
+// 0x000007E3 System.Void easyar.ARKitFrameSource::OnAssemble(easyar.ARSession)
+extern void ARKitFrameSource_OnAssemble_mB95EB60739E85053823BC10B808A5377D37B03F6 (void);
+// 0x000007E4 System.Void easyar.ARKitFrameSource::Open()
+extern void ARKitFrameSource_Open_mF89D1BD1FE09FCA1B4EE90A86F631E27224434CF (void);
+// 0x000007E5 System.Void easyar.ARKitFrameSource::Close()
+extern void ARKitFrameSource_Close_m392F6AEF79E52FD366D0DCFB505ADAECC1086F65 (void);
+// 0x000007E6 System.Void easyar.ARKitFrameSource::Connect(easyar.InputFrameSink)
+extern void ARKitFrameSource_Connect_mA6F44D58AC20EFDCC293464A4CED31CBAF708670 (void);
+// 0x000007E7 System.Collections.IEnumerator easyar.ARKitFrameSource::AutoOpen()
+extern void ARKitFrameSource_AutoOpen_mC41651BE0FAF06D67FCFA7D298F4713DDAC2AEC1 (void);
+// 0x000007E8 System.Void easyar.ARKitFrameSource::SetupOriginUsingWorldRoot()
+extern void ARKitFrameSource_SetupOriginUsingWorldRoot_mDC239D3ABE56E1E4280435B8CE00855F87ED1F70 (void);
+// 0x000007E9 System.Void easyar.ARKitFrameSource::.ctor()
+extern void ARKitFrameSource__ctor_m52203E5C68FC320572B11D1CA06FE379996C0AC3 (void);
+// 0x000007EA System.Void easyar.ARKitFrameSource::<Open>b__35_0(easyar.PermissionStatus,System.String)
+extern void ARKitFrameSource_U3COpenU3Eb__35_0_mF705645FF343C874719D782EE50CAC25B0164A50 (void);
+// 0x000007EB System.Void easyar.ARKitFrameSource/<AutoOpen>d__38::.ctor(System.Int32)
+extern void U3CAutoOpenU3Ed__38__ctor_mACDBAC5FA087457C07CF536E7959B1A2EE06AD68 (void);
+// 0x000007EC System.Void easyar.ARKitFrameSource/<AutoOpen>d__38::System.IDisposable.Dispose()
+extern void U3CAutoOpenU3Ed__38_System_IDisposable_Dispose_m52A7DDEBE410EBC6B7D007C2F74824A2722EE170 (void);
+// 0x000007ED System.Boolean easyar.ARKitFrameSource/<AutoOpen>d__38::MoveNext()
+extern void U3CAutoOpenU3Ed__38_MoveNext_m6284285E9F63E7B033C222D14D050395EFAF88B7 (void);
+// 0x000007EE System.Object easyar.ARKitFrameSource/<AutoOpen>d__38::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAutoOpenU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m057B6EE817E7AAD5F1A4D2EC9934180A84E9C9B0 (void);
+// 0x000007EF System.Void easyar.ARKitFrameSource/<AutoOpen>d__38::System.Collections.IEnumerator.Reset()
+extern void U3CAutoOpenU3Ed__38_System_Collections_IEnumerator_Reset_m42E7C5EC2F71569FAD00A3BDB4A67A9E01E129C7 (void);
+// 0x000007F0 System.Object easyar.ARKitFrameSource/<AutoOpen>d__38::System.Collections.IEnumerator.get_Current()
+extern void U3CAutoOpenU3Ed__38_System_Collections_IEnumerator_get_Current_mAD96A44DD95046A08E8506DC750842184E4D6A95 (void);
+// 0x000007F1 easyar.CameraDevice easyar.CameraDeviceFrameSource::get_Device()
+extern void CameraDeviceFrameSource_get_Device_mFBF96962AC6D4A698F2F9586D28AF1654B7F0708 (void);
+// 0x000007F2 System.Void easyar.CameraDeviceFrameSource::set_Device(easyar.CameraDevice)
+extern void CameraDeviceFrameSource_set_Device_mAE6594D620E64B812F45298BC08D47D7CFF736DB (void);
+// 0x000007F3 System.Void easyar.CameraDeviceFrameSource::add_DeviceCreated(System.Action)
+extern void CameraDeviceFrameSource_add_DeviceCreated_m603CC11D9DF9A4C99B9BC1BBBFC79E3714EC704C (void);
+// 0x000007F4 System.Void easyar.CameraDeviceFrameSource::remove_DeviceCreated(System.Action)
+extern void CameraDeviceFrameSource_remove_DeviceCreated_mAA29A4F0A63520E0851E830FCF5C9A88D07D88D8 (void);
+// 0x000007F5 System.Void easyar.CameraDeviceFrameSource::add_DeviceOpened(System.Action)
+extern void CameraDeviceFrameSource_add_DeviceOpened_mC07B3BB07D1B47CC045B017E14C283A07C589F8F (void);
+// 0x000007F6 System.Void easyar.CameraDeviceFrameSource::remove_DeviceOpened(System.Action)
+extern void CameraDeviceFrameSource_remove_DeviceOpened_m4CA048D5C7E113E6B5548097B5EB4657A45B3171 (void);
+// 0x000007F7 System.Void easyar.CameraDeviceFrameSource::add_DeviceClosed(System.Action)
+extern void CameraDeviceFrameSource_add_DeviceClosed_m28B561E3C2AE255D7DD3DC2CA5A8B79B83D1F089 (void);
+// 0x000007F8 System.Void easyar.CameraDeviceFrameSource::remove_DeviceClosed(System.Action)
+extern void CameraDeviceFrameSource_remove_DeviceClosed_mE294BFF392FA01445636A27F72AE52B76681BA40 (void);
+// 0x000007F9 easyar.Optional`1<System.Boolean> easyar.CameraDeviceFrameSource::get_IsAvailable()
+extern void CameraDeviceFrameSource_get_IsAvailable_mB38C390E59A610B7B353BF84C287C1B9964862FA (void);
+// 0x000007FA System.Collections.Generic.IReadOnlyList`1<easyar.ARSession/ARCenterMode> easyar.CameraDeviceFrameSource::get_AvailableCenterMode()
+extern void CameraDeviceFrameSource_get_AvailableCenterMode_m97876AC4988C9D6F2337EE6D3CD0DE9C586825F1 (void);
+// 0x000007FB System.Int32 easyar.CameraDeviceFrameSource::get_BufferCapacity()
+extern void CameraDeviceFrameSource_get_BufferCapacity_m85FADA48A373C166A15F3A39EE40D5CC48A24B4E (void);
+// 0x000007FC System.Void easyar.CameraDeviceFrameSource::set_BufferCapacity(System.Int32)
+extern void CameraDeviceFrameSource_set_BufferCapacity_m234876E6BEF676A441B4DFC7A1509D9430A3417F (void);
+// 0x000007FD easyar.CameraDevicePreference easyar.CameraDeviceFrameSource::get_CameraPreference()
+extern void CameraDeviceFrameSource_get_CameraPreference_mB05327374BAA6AB1AA5CF2AA8847F46916E9B578 (void);
+// 0x000007FE System.Void easyar.CameraDeviceFrameSource::set_CameraPreference(easyar.CameraDevicePreference)
+extern void CameraDeviceFrameSource_set_CameraPreference_m4EC7688BBEEFA4BEAC67A02B121FC0A5BDAE0709 (void);
+// 0x000007FF easyar.CameraParameters easyar.CameraDeviceFrameSource::get_Parameters()
+extern void CameraDeviceFrameSource_get_Parameters_mF6DD3EF25A8D7AADAC36BB9CF6C3EE455B8D5BB0 (void);
+// 0x00000800 System.Void easyar.CameraDeviceFrameSource::set_Parameters(easyar.CameraParameters)
+extern void CameraDeviceFrameSource_set_Parameters_mB55E857B8D1BAB01520ED2C7A6EFDBE231238F35 (void);
+// 0x00000801 System.Void easyar.CameraDeviceFrameSource::OnEnable()
+extern void CameraDeviceFrameSource_OnEnable_m03283B88EEB0CD4399114A8BA71E9C6775737692 (void);
+// 0x00000802 System.Void easyar.CameraDeviceFrameSource::OnDisable()
+extern void CameraDeviceFrameSource_OnDisable_m0AEA8D2A34EE4275F299B2060EE34B65739197EC (void);
+// 0x00000803 System.Void easyar.CameraDeviceFrameSource::OnDestroy()
+extern void CameraDeviceFrameSource_OnDestroy_m3F5EB9EDCE96E44115E5176B9D3513654C219BCF (void);
+// 0x00000804 System.Void easyar.CameraDeviceFrameSource::OnAssemble(easyar.ARSession)
+extern void CameraDeviceFrameSource_OnAssemble_mD223E238E402A9DB083151D808907836E65A1D8C (void);
+// 0x00000805 System.Void easyar.CameraDeviceFrameSource::Open()
+extern void CameraDeviceFrameSource_Open_mE2216EE221BA2AE360C82DCEAF46D15F5C8A5C64 (void);
+// 0x00000806 System.Void easyar.CameraDeviceFrameSource::Close()
+extern void CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F (void);
+// 0x00000807 System.Void easyar.CameraDeviceFrameSource::Connect(easyar.InputFrameSink)
+extern void CameraDeviceFrameSource_Connect_m8819CE4AB52E5C836A04149DB902095260A0967E (void);
+// 0x00000808 System.Collections.IEnumerator easyar.CameraDeviceFrameSource::AutoOpen()
+extern void CameraDeviceFrameSource_AutoOpen_m3E902B9365FB5F95FA37E6EBDA50821E9BFE7ED0 (void);
+// 0x00000809 System.Void easyar.CameraDeviceFrameSource::.ctor()
+extern void CameraDeviceFrameSource__ctor_mE6C35B41B398AB3F11D55A95EE4B1C300335A22F (void);
+// 0x0000080A System.Void easyar.CameraDeviceFrameSource::.cctor()
+extern void CameraDeviceFrameSource__cctor_m1517ABF90FB016BF7F4540518F2D54B7E8ABD9E1 (void);
+// 0x0000080B System.Void easyar.CameraDeviceFrameSource::<Open>b__41_0(easyar.PermissionStatus,System.String)
+extern void CameraDeviceFrameSource_U3COpenU3Eb__41_0_m3255FD896FFE68737A26392A0C1F7DD2124CC0AD (void);
+// 0x0000080C System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__44::.ctor(System.Int32)
+extern void U3CAutoOpenU3Ed__44__ctor_m76E7084CD9404D46BC267060E591FF50E9C2CBF5 (void);
+// 0x0000080D System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__44::System.IDisposable.Dispose()
+extern void U3CAutoOpenU3Ed__44_System_IDisposable_Dispose_m8FF55E326E2C923C175710CA9944394C10DBD715 (void);
+// 0x0000080E System.Boolean easyar.CameraDeviceFrameSource/<AutoOpen>d__44::MoveNext()
+extern void U3CAutoOpenU3Ed__44_MoveNext_m1C85E2FA45C8D6801651DD209C3118816CDABC25 (void);
+// 0x0000080F System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__44::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAutoOpenU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBE99ACC8BDCE4B92FC0FA60F910592E60C630655 (void);
+// 0x00000810 System.Void easyar.CameraDeviceFrameSource/<AutoOpen>d__44::System.Collections.IEnumerator.Reset()
+extern void U3CAutoOpenU3Ed__44_System_Collections_IEnumerator_Reset_m64B724CFFDE84CBEB10C496494FAFD44A78BA0D8 (void);
+// 0x00000811 System.Object easyar.CameraDeviceFrameSource/<AutoOpen>d__44::System.Collections.IEnumerator.get_Current()
+extern void U3CAutoOpenU3Ed__44_System_Collections_IEnumerator_get_Current_m738990CC88B6937BAC40376556E5C43A9D2571F6 (void);
+// 0x00000812 easyar.WorldRootController easyar.HuaweiAREngineFrameSource::get_WorldRoot()
+extern void HuaweiAREngineFrameSource_get_WorldRoot_m6C6DB8021433074E77379928EBD6A7258008D2E0 (void);
+// 0x00000813 System.Void easyar.HuaweiAREngineFrameSource::set_WorldRoot(easyar.WorldRootController)
+extern void HuaweiAREngineFrameSource_set_WorldRoot_mA450F39C15290A37D2D9813DF8F47BE4DA49D0AB (void);
+// 0x00000814 easyar.Optional`1<System.Boolean> easyar.HuaweiAREngineFrameSource::get_IsAvailable()
+extern void HuaweiAREngineFrameSource_get_IsAvailable_mC309B7CBB93456A9E2F01050D9B231871AC03D17 (void);
+// 0x00000815 System.Void easyar.HuaweiAREngineFrameSource::.ctor()
+extern void HuaweiAREngineFrameSource__ctor_mF82F915808BA92861A810C58D44BF896255A9905 (void);
+// 0x00000816 easyar.MotionTrackerCameraDevice easyar.MotionTrackerFrameSource::get_Device()
+extern void MotionTrackerFrameSource_get_Device_mC0E3FFC702FE8394DBEE46E8E26DFD9BD5D61518 (void);
+// 0x00000817 System.Void easyar.MotionTrackerFrameSource::set_Device(easyar.MotionTrackerCameraDevice)
+extern void MotionTrackerFrameSource_set_Device_m1C93C53A2C9FAF376ED68836300E941B440091A4 (void);
+// 0x00000818 System.Void easyar.MotionTrackerFrameSource::add_DeviceCreated(System.Action)
+extern void MotionTrackerFrameSource_add_DeviceCreated_m21D3F63B4F97BC1EC3B051283189AD81B1B92273 (void);
+// 0x00000819 System.Void easyar.MotionTrackerFrameSource::remove_DeviceCreated(System.Action)
+extern void MotionTrackerFrameSource_remove_DeviceCreated_m94031C02A19E8594DFD3C19B2510A51AA7B6D969 (void);
+// 0x0000081A System.Void easyar.MotionTrackerFrameSource::add_DeviceOpened(System.Action)
+extern void MotionTrackerFrameSource_add_DeviceOpened_m8F5D512356A5E64659E2D544F4F93042E3EDD611 (void);
+// 0x0000081B System.Void easyar.MotionTrackerFrameSource::remove_DeviceOpened(System.Action)
+extern void MotionTrackerFrameSource_remove_DeviceOpened_mE5AF4AB7A982720B82EA79A430C06C1365FEFBFB (void);
+// 0x0000081C System.Void easyar.MotionTrackerFrameSource::add_DeviceClosed(System.Action)
+extern void MotionTrackerFrameSource_add_DeviceClosed_m449F250E83D8B2B30B29658F0359FAE35C7E2530 (void);
+// 0x0000081D System.Void easyar.MotionTrackerFrameSource::remove_DeviceClosed(System.Action)
+extern void MotionTrackerFrameSource_remove_DeviceClosed_m77A8292180FCBA846A448A52E74CB495FA502D7C (void);
+// 0x0000081E easyar.Optional`1<System.Boolean> easyar.MotionTrackerFrameSource::get_IsAvailable()
+extern void MotionTrackerFrameSource_get_IsAvailable_m5C8EA316729774A5163771D168132988709DEA91 (void);
+// 0x0000081F System.Int32 easyar.MotionTrackerFrameSource::get_BufferCapacity()
+extern void MotionTrackerFrameSource_get_BufferCapacity_m041643749FBBEC59E2E9D9DE913377E69CBCD1E8 (void);
+// 0x00000820 System.Void easyar.MotionTrackerFrameSource::set_BufferCapacity(System.Int32)
+extern void MotionTrackerFrameSource_set_BufferCapacity_mA2315803750E9CF62BE690622150A21EDFA9B3DC (void);
+// 0x00000821 easyar.WorldRootController easyar.MotionTrackerFrameSource::get_WorldRoot()
+extern void MotionTrackerFrameSource_get_WorldRoot_m565C4739E69F2769D52580E2B35890F4B0B3893E (void);
+// 0x00000822 System.Void easyar.MotionTrackerFrameSource::set_WorldRoot(easyar.WorldRootController)
+extern void MotionTrackerFrameSource_set_WorldRoot_mEC8083C225A67E3D0D1D46F7ACFF82702AFC42A6 (void);
+// 0x00000823 UnityEngine.GameObject easyar.MotionTrackerFrameSource::get_Origin()
+extern void MotionTrackerFrameSource_get_Origin_m0D8090CD6DD170D6E0953CA81C2AFF39696B3C0E (void);
+// 0x00000824 System.Void easyar.MotionTrackerFrameSource::Awake()
+extern void MotionTrackerFrameSource_Awake_mF2CB447EFE19FF2EE3BF9CB40A93AD3170CB685D (void);
+// 0x00000825 System.Void easyar.MotionTrackerFrameSource::OnEnable()
+extern void MotionTrackerFrameSource_OnEnable_m3BDF8CA834343BA54A2F7CECB3771C6EC4E606CC (void);
+// 0x00000826 System.Void easyar.MotionTrackerFrameSource::OnDisable()
+extern void MotionTrackerFrameSource_OnDisable_m678E4F5EDBA14F75C9CE4B1BA9BF54C10BE1B7AD (void);
+// 0x00000827 System.Void easyar.MotionTrackerFrameSource::OnDestroy()
+extern void MotionTrackerFrameSource_OnDestroy_m6B295A9279590FACA0C8F1359A60F914BF20EC95 (void);
+// 0x00000828 System.Void easyar.MotionTrackerFrameSource::OnAssemble(easyar.ARSession)
+extern void MotionTrackerFrameSource_OnAssemble_mAB9082D2697749A34CEDE2FA9CE284D775AA3FCC (void);
+// 0x00000829 System.Collections.IEnumerator easyar.MotionTrackerFrameSource::CheckAvailability()
+extern void MotionTrackerFrameSource_CheckAvailability_mB4AD73CA1DB39613A2768912E39B5F090E4601D9 (void);
+// 0x0000082A System.Void easyar.MotionTrackerFrameSource::Open()
+extern void MotionTrackerFrameSource_Open_m9439B2166854F4926B89B1E9D7D0ECB56B5EF79A (void);
+// 0x0000082B System.Void easyar.MotionTrackerFrameSource::Close()
+extern void MotionTrackerFrameSource_Close_mC8E7D0BC0B22354BD885A8540C3F475F69E1F41D (void);
+// 0x0000082C System.Void easyar.MotionTrackerFrameSource::Connect(easyar.InputFrameSink)
+extern void MotionTrackerFrameSource_Connect_m6C754F4AE7E4B3049F31EC0F3940EDC03520616A (void);
+// 0x0000082D System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.MotionTrackerFrameSource::HitTestAgainstHorizontalPlane(UnityEngine.Vector2)
+extern void MotionTrackerFrameSource_HitTestAgainstHorizontalPlane_mA57D0D72394ABB73C4ABD0FA961D14F57CC4F09B (void);
+// 0x0000082E System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.MotionTrackerFrameSource::HitTestAgainstPointCloud(UnityEngine.Vector2)
+extern void MotionTrackerFrameSource_HitTestAgainstPointCloud_mCA46991F2C22595C4FC61B21F6975FBAEAD7DF8B (void);
+// 0x0000082F System.Collections.IEnumerator easyar.MotionTrackerFrameSource::AutoOpen()
+extern void MotionTrackerFrameSource_AutoOpen_mB82B4E39600E4E3D8238B3A551E24E545A98FE75 (void);
+// 0x00000830 System.Void easyar.MotionTrackerFrameSource::SetupOriginUsingWorldRoot()
+extern void MotionTrackerFrameSource_SetupOriginUsingWorldRoot_mD34E4B28D8866C60E9CC481BA9BE246F8603C9B3 (void);
+// 0x00000831 System.Void easyar.MotionTrackerFrameSource::.ctor()
+extern void MotionTrackerFrameSource__ctor_m88638CE5DB20220A3927EBF61FF0952BCC968446 (void);
+// 0x00000832 System.Void easyar.MotionTrackerFrameSource::<Open>b__39_0(easyar.PermissionStatus,System.String)
+extern void MotionTrackerFrameSource_U3COpenU3Eb__39_0_m615C5346B88CE0CAF29633443203DB23467C789F (void);
+// 0x00000833 System.Void easyar.MotionTrackerFrameSource/MotionTrackerCameraDeviceParameters::.ctor()
+extern void MotionTrackerCameraDeviceParameters__ctor_m5388411269A2A765305F09E3763D7A27BA52F0C7 (void);
+// 0x00000834 System.Void easyar.MotionTrackerFrameSource/<>c__DisplayClass38_0::.ctor()
+extern void U3CU3Ec__DisplayClass38_0__ctor_m68F6713911E2F8A2AF8CDB418EFABFAC6853A454 (void);
+// 0x00000835 System.Void easyar.MotionTrackerFrameSource/<>c__DisplayClass38_0::<CheckAvailability>b__0(easyar.CalibrationDownloadStatus,easyar.Optional`1<System.String>)
+extern void U3CU3Ec__DisplayClass38_0_U3CCheckAvailabilityU3Eb__0_m46555DBFC84BBAD0D68DD56A4B3437DA48E975FE (void);
+// 0x00000836 System.Void easyar.MotionTrackerFrameSource/<CheckAvailability>d__38::.ctor(System.Int32)
+extern void U3CCheckAvailabilityU3Ed__38__ctor_m7FF5BA992100A91BF3111B047AAA3921E1C87BE4 (void);
+// 0x00000837 System.Void easyar.MotionTrackerFrameSource/<CheckAvailability>d__38::System.IDisposable.Dispose()
+extern void U3CCheckAvailabilityU3Ed__38_System_IDisposable_Dispose_m3DACECAC8DBF05F3FCE7023C0DB4A2A6D055F417 (void);
+// 0x00000838 System.Boolean easyar.MotionTrackerFrameSource/<CheckAvailability>d__38::MoveNext()
+extern void U3CCheckAvailabilityU3Ed__38_MoveNext_m3287000DB6823FAC669549A678C4B1FF8A09CF28 (void);
+// 0x00000839 System.Object easyar.MotionTrackerFrameSource/<CheckAvailability>d__38::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckAvailabilityU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA5A014FE2E9D6E68E031891293F546AEC9199D12 (void);
+// 0x0000083A System.Void easyar.MotionTrackerFrameSource/<CheckAvailability>d__38::System.Collections.IEnumerator.Reset()
+extern void U3CCheckAvailabilityU3Ed__38_System_Collections_IEnumerator_Reset_m0DB7424E57EF7E2AB9283FE52DCFD1A0DFD521B0 (void);
+// 0x0000083B System.Object easyar.MotionTrackerFrameSource/<CheckAvailability>d__38::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckAvailabilityU3Ed__38_System_Collections_IEnumerator_get_Current_m6301AF5A5E425A2B5AAC654DAF0FB3B360F4D1A1 (void);
+// 0x0000083C System.Void easyar.MotionTrackerFrameSource/<AutoOpen>d__44::.ctor(System.Int32)
+extern void U3CAutoOpenU3Ed__44__ctor_m3BAFAF2986F0CF83944AB4E494AA7FB2E5473A2F (void);
+// 0x0000083D System.Void easyar.MotionTrackerFrameSource/<AutoOpen>d__44::System.IDisposable.Dispose()
+extern void U3CAutoOpenU3Ed__44_System_IDisposable_Dispose_mA05858D17B25B0740F3E0229B343A9B333421C80 (void);
+// 0x0000083E System.Boolean easyar.MotionTrackerFrameSource/<AutoOpen>d__44::MoveNext()
+extern void U3CAutoOpenU3Ed__44_MoveNext_mFCF9A74FBF7BCC03F2990E908C2A43A017FE0806 (void);
+// 0x0000083F System.Object easyar.MotionTrackerFrameSource/<AutoOpen>d__44::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAutoOpenU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m86F7922C43930E340326D231B8CC96C9417CD688 (void);
+// 0x00000840 System.Void easyar.MotionTrackerFrameSource/<AutoOpen>d__44::System.Collections.IEnumerator.Reset()
+extern void U3CAutoOpenU3Ed__44_System_Collections_IEnumerator_Reset_m9972C6825A2DAF91E940E08850E454F9FB1E67AC (void);
+// 0x00000841 System.Object easyar.MotionTrackerFrameSource/<AutoOpen>d__44::System.Collections.IEnumerator.get_Current()
+extern void U3CAutoOpenU3Ed__44_System_Collections_IEnumerator_get_Current_mB3AE66D74940F3A6BDD2A4CEC2360C59BFD446BA (void);
+// 0x00000842 UnityEngine.MonoBehaviour easyar.NrealFrameSource::get_CameraRig()
+extern void NrealFrameSource_get_CameraRig_mF515686ED1419A201F2E8214C79E9B646DA2C8E9 (void);
+// 0x00000843 System.Void easyar.NrealFrameSource::set_CameraRig(UnityEngine.MonoBehaviour)
+extern void NrealFrameSource_set_CameraRig_m675353CD914B208469C2CFBCD1FE3CACEA5AD097 (void);
+// 0x00000844 easyar.WorldRootController easyar.NrealFrameSource::get_WorldRoot()
+extern void NrealFrameSource_get_WorldRoot_m010CDC0E1AE85C0375483BDBE43B0888766FC5DC (void);
+// 0x00000845 System.Void easyar.NrealFrameSource::set_WorldRoot(easyar.WorldRootController)
+extern void NrealFrameSource_set_WorldRoot_mDA106EDDA134511E2DF244D3038CF2657A712E3B (void);
+// 0x00000846 System.Int32 easyar.NrealFrameSource::get_ReceivedFrameCount()
+extern void NrealFrameSource_get_ReceivedFrameCount_m1A7C0D301FBF7AC4B8E5491180AADB4D2F9C8A3B (void);
+// 0x00000847 System.Void easyar.NrealFrameSource::set_ReceivedFrameCount(System.Int32)
+extern void NrealFrameSource_set_ReceivedFrameCount_m04A761CA553925874D07EF00AC9EC63B726CA2E8 (void);
+// 0x00000848 easyar.Optional`1<System.Boolean> easyar.NrealFrameSource::get_IsAvailable()
+extern void NrealFrameSource_get_IsAvailable_m5D9C30489F663AC95C4BF29A5A940B2D48FA8490 (void);
+// 0x00000849 System.Void easyar.NrealFrameSource::.ctor()
+extern void NrealFrameSource__ctor_m3D4D1A232ECD4740D1E1C17A166DC77DD4961494 (void);
+// 0x0000084A System.Void easyar.VideoRecorder::add_StatusUpdate(System.Action`2<easyar.RecordStatus,System.String>)
+extern void VideoRecorder_add_StatusUpdate_m82A5B02394D08ABCC23202E2DB0E3F1B29649114 (void);
+// 0x0000084B System.Void easyar.VideoRecorder::remove_StatusUpdate(System.Action`2<easyar.RecordStatus,System.String>)
+extern void VideoRecorder_remove_StatusUpdate_m0F08AF2F520D338A23B24B5617C4F07B1B8A6504 (void);
+// 0x0000084C System.Boolean easyar.VideoRecorder::get_IsReady()
+extern void VideoRecorder_get_IsReady_m414189B01158947BCA5F7DED787FA38BD8982C8E (void);
+// 0x0000084D System.Void easyar.VideoRecorder::set_IsReady(System.Boolean)
+extern void VideoRecorder_set_IsReady_mA77771EAB389C9CB84DBD6795376B977C525BA41 (void);
+// 0x0000084E System.Void easyar.VideoRecorder::Start()
+extern void VideoRecorder_Start_m6EF77A1A4382464B8CC578BC9DBD811A9380DAA8 (void);
+// 0x0000084F System.Void easyar.VideoRecorder::OnDestroy()
+extern void VideoRecorder_OnDestroy_m7DB34D430A69EF0C480A4D3F17EE19C91C6BF51A (void);
+// 0x00000850 System.Boolean easyar.VideoRecorder::StartRecording()
+extern void VideoRecorder_StartRecording_m8030EC559BE731F50CD973FB3A676F9949000634 (void);
+// 0x00000851 System.Boolean easyar.VideoRecorder::StartRecording(easyar.RecorderConfiguration)
+extern void VideoRecorder_StartRecording_m02B3EC89BAB43054A250BF5A0D8C086381D83B0C (void);
+// 0x00000852 System.Boolean easyar.VideoRecorder::StopRecording()
+extern void VideoRecorder_StopRecording_m553456D346BCCAE32CD1815569300704A12088D1 (void);
+// 0x00000853 System.Boolean easyar.VideoRecorder::RecordFrame(UnityEngine.RenderTexture)
+extern void VideoRecorder_RecordFrame_m32A4F65299E43598CF2C1FDA21DC868D4BB7ECAB (void);
+// 0x00000854 System.Void easyar.VideoRecorder::.ctor()
+extern void VideoRecorder__ctor_m5E6559EF22C8ED00D581DE499A1C5C236837717C (void);
+// 0x00000855 System.Void easyar.VideoRecorder::<Start>b__14_0(easyar.PermissionStatus,System.String)
+extern void VideoRecorder_U3CStartU3Eb__14_0_m8EA67892A46AB5094F20E06897B0DC2FC0FB08F4 (void);
+// 0x00000856 System.Void easyar.VideoRecorder::<StartRecording>b__17_0(easyar.RecordStatus,System.String)
+extern void VideoRecorder_U3CStartRecordingU3Eb__17_0_mD5ED12BFBDF698E38A235230A14DF16F583A51D8 (void);
+// 0x00000857 System.Void easyar.EasyARController::add_PostUpdate(System.Action)
+extern void EasyARController_add_PostUpdate_m00777E3BBCEC23E277D62D7C0728C83E05214A09 (void);
+// 0x00000858 System.Void easyar.EasyARController::remove_PostUpdate(System.Action)
+extern void EasyARController_remove_PostUpdate_m98199FF80F3ED1B5F905D3206F8DA1C522F86E7D (void);
+// 0x00000859 easyar.EasyARController easyar.EasyARController::get_Instance()
+extern void EasyARController_get_Instance_mFD49136A56B9212987C8989B045D463D2841C295 (void);
+// 0x0000085A System.Void easyar.EasyARController::set_Instance(easyar.EasyARController)
+extern void EasyARController_set_Instance_m1C4B1EA692AD86008173774711884ED72E531CE6 (void);
+// 0x0000085B System.Boolean easyar.EasyARController::get_Initialized()
+extern void EasyARController_get_Initialized_m935DB2BF2CE8CA548AC7782D9785A3277D1813FD (void);
+// 0x0000085C System.Void easyar.EasyARController::set_Initialized(System.Boolean)
+extern void EasyARController_set_Initialized_m78E6205970E7A81B0E2FE484774414F574DB525B (void);
+// 0x0000085D easyar.DelayedCallbackScheduler easyar.EasyARController::get_Scheduler()
+extern void EasyARController_get_Scheduler_m46B02E14B7D33AAC9E730B677FE1CA94A28955E7 (void);
+// 0x0000085E System.Void easyar.EasyARController::set_Scheduler(easyar.DelayedCallbackScheduler)
+extern void EasyARController_set_Scheduler_m9A5FF4CBE8F1D45C03FD5E5FC2C3AD974C61B7A7 (void);
+// 0x0000085F easyar.ThreadWorker easyar.EasyARController::get_Worker()
+extern void EasyARController_get_Worker_mC0CE2BCBC0B1A9D6DCFAAE303EED4615168DD253 (void);
+// 0x00000860 System.Void easyar.EasyARController::set_Worker(easyar.ThreadWorker)
+extern void EasyARController_set_Worker_m084F9786B7042B40EA561AB6951A533C0AD506AE (void);
+// 0x00000861 easyar.Display easyar.EasyARController::get_Display()
+extern void EasyARController_get_Display_mD2AA8A02E26BAAFDB4A7F496DB6FC075D6D3CEAE (void);
+// 0x00000862 System.Void easyar.EasyARController::set_Display(easyar.Display)
+extern void EasyARController_set_Display_m0658B989504C86624A8433731D3882D0642EB2B5 (void);
+// 0x00000863 System.Boolean easyar.EasyARController::Initialize()
+extern void EasyARController_Initialize_m8B22CCA107E1673E64267B8CF2468CEE18167725 (void);
+// 0x00000864 System.Boolean easyar.EasyARController::Initialize(System.String)
+extern void EasyARController_Initialize_mD09947280F1ED5686DD4C350DB51E754FB77862F (void);
+// 0x00000865 System.Void easyar.EasyARController::Deinitialize()
+extern void EasyARController_Deinitialize_mF275433F866011FEF4C50635968A42E2B794D0D6 (void);
+// 0x00000866 System.Void easyar.EasyARController::AttemptInitializeOnLoad()
+extern void EasyARController_AttemptInitializeOnLoad_mDCA6D82F56A9597A358598CEBB435DB7E91CA0FB (void);
+// 0x00000867 System.Void easyar.EasyARController::Awake()
+extern void EasyARController_Awake_m601519A5C76AB3524B9AD0D5053B65C1A87D4213 (void);
+// 0x00000868 System.Void easyar.EasyARController::Update()
+extern void EasyARController_Update_m85082B57E8C415B1B9FE2E880F2D3BED56730AA3 (void);
+// 0x00000869 System.Void easyar.EasyARController::OnApplicationPause(System.Boolean)
+extern void EasyARController_OnApplicationPause_m62C2A18AE6C526BF0E0D1FD953D6EF9549475B24 (void);
+// 0x0000086A System.Void easyar.EasyARController::OnDestroy()
+extern void EasyARController_OnDestroy_mE6D2E57D8A0F5BF442D2C30EB769961F587E09DE (void);
+// 0x0000086B System.Void easyar.EasyARController::OnDomainUnload(System.Object,System.EventArgs)
+extern void EasyARController_OnDomainUnload_mA9642E9B44AC03E5322A4609C79FF65FF1C6FA8D (void);
+// 0x0000086C System.Void easyar.EasyARController::ShowErrorMessage()
+extern void EasyARController_ShowErrorMessage_m204C1B87EBD8DFB12C144853604AC4AD0177DE9D (void);
+// 0x0000086D System.Void easyar.EasyARController::.ctor()
+extern void EasyARController__ctor_mDABC01DBECE8F9E38A722D4EAC4D94136E9555C9 (void);
+// 0x0000086E System.Void easyar.EasyARController::.cctor()
+extern void EasyARController__cctor_m9298F4BEC4CE577F6C0E16039A0BABFE6EE4E94A (void);
+// 0x0000086F easyar.EasyARSettings easyar.EasyARSettings::get_Instance()
+extern void EasyARSettings_get_Instance_m68BACFA529C0DCF60767E7787A7A3182D8C69AE7 (void);
+// 0x00000870 System.Void easyar.EasyARSettings::set_Instance(easyar.EasyARSettings)
+extern void EasyARSettings_set_Instance_m8AE5F4D451722AD3D46DBEE7ABA986E2C8EF944E (void);
+// 0x00000871 System.Void easyar.EasyARSettings::Awake()
+extern void EasyARSettings_Awake_m5460B65B70A6DA4588C42C4EB6E208AB582D8B85 (void);
+// 0x00000872 System.Void easyar.EasyARSettings::.ctor()
+extern void EasyARSettings__ctor_m4E81829EA86690ECA623878B0425EDB81248C5F9 (void);
+// 0x00000873 System.Void easyar.EasyARSettings/TargetGizmoConfig::.ctor()
+extern void TargetGizmoConfig__ctor_m02AF7296C70852C866A18E0DE36A0CA219D0760F (void);
+// 0x00000874 System.Void easyar.EasyARSettings/TargetGizmoConfig/ImageTargetConfig::.ctor()
+extern void ImageTargetConfig__ctor_m7AC89A436AB197E26FA4A3999C37597FB60C61C0 (void);
+// 0x00000875 System.Void easyar.EasyARSettings/TargetGizmoConfig/ObjectTargetConfig::.ctor()
+extern void ObjectTargetConfig__ctor_m12DA781CC950FA5756AC34DD5F975DB22750E00E (void);
+// 0x00000876 System.Void easyar.EasyARSettings/Permission::.ctor()
+extern void Permission__ctor_mF7FD74D660BF966E3302DF05F964CD37956B4851 (void);
+// 0x00000877 System.Int32 easyar.CloudRecognizerFrameFilter::get_BufferRequirement()
+extern void CloudRecognizerFrameFilter_get_BufferRequirement_m61ED01010C26E1FE242C646A46F9AB51ABCA9C48 (void);
+// 0x00000878 System.Void easyar.CloudRecognizerFrameFilter::OnDestroy()
+extern void CloudRecognizerFrameFilter_OnDestroy_m7A1225B7CB0E6398036944E5416FA443CE0028D4 (void);
+// 0x00000879 System.Void easyar.CloudRecognizerFrameFilter::OnAssemble(easyar.ARSession)
+extern void CloudRecognizerFrameFilter_OnAssemble_m8D9932E714C473F875FEE8F35583C6009FFD7F29 (void);
+// 0x0000087A System.Void easyar.CloudRecognizerFrameFilter::Resolve(System.Action`1<easyar.InputFrame>,System.Action`2<easyar.Optional`1<easyar.CloudRecognizationResult>,System.String>)
+extern void CloudRecognizerFrameFilter_Resolve_m7DBDE2696A616BDD19BDAE6F7C98E737A2FDD888 (void);
+// 0x0000087B System.Void easyar.CloudRecognizerFrameFilter::OnFrameUpdate(easyar.OutputFrame)
+extern void CloudRecognizerFrameFilter_OnFrameUpdate_m58458D44937C6F68850080357CF64017481236C6 (void);
+// 0x0000087C System.Collections.IEnumerator easyar.CloudRecognizerFrameFilter::AutoCreate()
+extern void CloudRecognizerFrameFilter_AutoCreate_m606DC8A31BB82B96FC0F6BFF911580A9CD4FE579 (void);
+// 0x0000087D System.Collections.IEnumerator easyar.CloudRecognizerFrameFilter::CheckRequest(easyar.CloudRecognizerFrameFilter/Request)
+extern void CloudRecognizerFrameFilter_CheckRequest_mC06491E3A62BBE5AB22BA84D4473B23EE0C28CA2 (void);
+// 0x0000087E System.Void easyar.CloudRecognizerFrameFilter::NotifyEmptyConfig(easyar.CloudRecognizerFrameFilter/CloudRecognizerServiceConfig)
+extern void CloudRecognizerFrameFilter_NotifyEmptyConfig_m26969C3738B9C4803C13B71AF6243FD6F0A47A05 (void);
+// 0x0000087F System.Void easyar.CloudRecognizerFrameFilter::NotifyEmptyPrivateConfig(easyar.CloudRecognizerFrameFilter/PrivateCloudRecognizerServiceConfig)
+extern void CloudRecognizerFrameFilter_NotifyEmptyPrivateConfig_m7470361911BCCB7D9FA7C1B02AD81C308F99BF23 (void);
+// 0x00000880 System.Void easyar.CloudRecognizerFrameFilter::.ctor()
+extern void CloudRecognizerFrameFilter__ctor_mD978B3A6E11E17707CCCA0A9A858D02F0C8BDEB0 (void);
+// 0x00000881 System.Void easyar.CloudRecognizerFrameFilter/CloudRecognizerServiceConfig::.ctor()
+extern void CloudRecognizerServiceConfig__ctor_mFCC69F49222B30F8652DD295C20777BE6E69CD70 (void);
+// 0x00000882 System.Void easyar.CloudRecognizerFrameFilter/PrivateCloudRecognizerServiceConfig::.ctor()
+extern void PrivateCloudRecognizerServiceConfig__ctor_m87A67BC3C46CC4F73B2CB8647290D9E7BBBEDC3F (void);
+// 0x00000883 System.Void easyar.CloudRecognizerFrameFilter/Request::.ctor()
+extern void Request__ctor_mD6075734E30778A049C9FD391E6D7CBF706574AE (void);
+// 0x00000884 System.Void easyar.CloudRecognizerFrameFilter/<>c__DisplayClass14_0::.ctor()
+extern void U3CU3Ec__DisplayClass14_0__ctor_mD6771162042FB00F993607E35001ECD99E802F91 (void);
+// 0x00000885 System.Void easyar.CloudRecognizerFrameFilter/<>c__DisplayClass14_0::<OnFrameUpdate>b__0(easyar.CloudRecognizationResult)
+extern void U3CU3Ec__DisplayClass14_0_U3COnFrameUpdateU3Eb__0_mA23D6033EC1042F3CD3D8570C6D9090BE95D0A1E (void);
+// 0x00000886 System.Void easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::.ctor(System.Int32)
+extern void U3CAutoCreateU3Ed__15__ctor_mB1DCA8E02969AA4660BC569DFA5F359DFD22D6B6 (void);
+// 0x00000887 System.Void easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.IDisposable.Dispose()
+extern void U3CAutoCreateU3Ed__15_System_IDisposable_Dispose_m64F5F366F504D605C1665389272A8B93E8890F4B (void);
+// 0x00000888 System.Boolean easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::MoveNext()
+extern void U3CAutoCreateU3Ed__15_MoveNext_m48AE40CDFDE1A87AC0B4F16C459BA1AF5FED5021 (void);
+// 0x00000889 System.Object easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAutoCreateU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m249913B381A2327EA7656802C3F3D89282710169 (void);
+// 0x0000088A System.Void easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.Collections.IEnumerator.Reset()
+extern void U3CAutoCreateU3Ed__15_System_Collections_IEnumerator_Reset_m84F89FA67290DEA335F2B0A1C9113D6701706865 (void);
+// 0x0000088B System.Object easyar.CloudRecognizerFrameFilter/<AutoCreate>d__15::System.Collections.IEnumerator.get_Current()
+extern void U3CAutoCreateU3Ed__15_System_Collections_IEnumerator_get_Current_mC571AB893F5A23F4FA92FEF554D3A814DEDA11D8 (void);
+// 0x0000088C System.Void easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::.ctor(System.Int32)
+extern void U3CCheckRequestU3Ed__16__ctor_m8A358626118CDD6FEA7953E5BF6C13C5DD75EA9B (void);
+// 0x0000088D System.Void easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.IDisposable.Dispose()
+extern void U3CCheckRequestU3Ed__16_System_IDisposable_Dispose_m63CC08F70F4ABD5729D7E7B262195A2BDBDE38AD (void);
+// 0x0000088E System.Boolean easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::MoveNext()
+extern void U3CCheckRequestU3Ed__16_MoveNext_mBC609333EF05624FDF13F089F4E8F54677D1DE2C (void);
+// 0x0000088F System.Object easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckRequestU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCCA6140075ECF88226ECD4A160986E73075E19E0 (void);
+// 0x00000890 System.Void easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.Collections.IEnumerator.Reset()
+extern void U3CCheckRequestU3Ed__16_System_Collections_IEnumerator_Reset_mCC4D9C7EC82CB25F7BD5F9E02BB00D4128FEB3F0 (void);
+// 0x00000891 System.Object easyar.CloudRecognizerFrameFilter/<CheckRequest>d__16::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckRequestU3Ed__16_System_Collections_IEnumerator_get_Current_m29969A3417CD306871A477E3D0A541381AFD5F10 (void);
+// 0x00000892 easyar.ImageTarget easyar.ImageTargetController::get_Target()
+extern void ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95 (void);
+// 0x00000893 System.Void easyar.ImageTargetController::set_Target(easyar.ImageTarget)
+extern void ImageTargetController_set_Target_m02DC8AE90C9743C75D8502B044DA5B0EB3356E8A (void);
+// 0x00000894 System.Void easyar.ImageTargetController::add_TargetAvailable(System.Action)
+extern void ImageTargetController_add_TargetAvailable_m937FA387361513207C8AAE979D13D797A0724EA2 (void);
+// 0x00000895 System.Void easyar.ImageTargetController::remove_TargetAvailable(System.Action)
+extern void ImageTargetController_remove_TargetAvailable_m0558BAFEE1A42D0DD63F37DB135286DBAF74E199 (void);
+// 0x00000896 System.Void easyar.ImageTargetController::add_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
+extern void ImageTargetController_add_TargetLoad_m91633BAF45092ADF09E6F663EF292B891ACC505C (void);
+// 0x00000897 System.Void easyar.ImageTargetController::remove_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
+extern void ImageTargetController_remove_TargetLoad_m310D54B475130460865992875BCCC8A3C6A11F3C (void);
+// 0x00000898 System.Void easyar.ImageTargetController::add_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
+extern void ImageTargetController_add_TargetUnload_m118D9AE2DAB3F7F26C90A3D4B3F7E647503CDCF9 (void);
+// 0x00000899 System.Void easyar.ImageTargetController::remove_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
+extern void ImageTargetController_remove_TargetUnload_m7C7C2CCE318D0CF8115CE778AB0227E18E560556 (void);
+// 0x0000089A easyar.ImageTrackerFrameFilter easyar.ImageTargetController::get_Tracker()
+extern void ImageTargetController_get_Tracker_mC362601661B2A96E13FAC68FF2B09E0946BF9E73 (void);
+// 0x0000089B System.Void easyar.ImageTargetController::set_Tracker(easyar.ImageTrackerFrameFilter)
+extern void ImageTargetController_set_Tracker_mA9CCBB114C5479A0679FEF22A74B67DB9D1AD26B (void);
+// 0x0000089C UnityEngine.Vector2 easyar.ImageTargetController::get_Size()
+extern void ImageTargetController_get_Size_m81B778F198A8854934002A378CB53FF3A6D50225 (void);
+// 0x0000089D System.Void easyar.ImageTargetController::set_Size(UnityEngine.Vector2)
+extern void ImageTargetController_set_Size_mA93F24B229CA629BA077580ECE3A53A76D1CC1F8 (void);
+// 0x0000089E System.Void easyar.ImageTargetController::Start()
+extern void ImageTargetController_Start_mBD0CBD1B20D1249267C0A5D44268EE31020ED5FD (void);
+// 0x0000089F System.Void easyar.ImageTargetController::Update()
+extern void ImageTargetController_Update_m84653120D4AE5517F8225CEA13EEC106AE8866E5 (void);
+// 0x000008A0 System.Void easyar.ImageTargetController::OnDestroy()
+extern void ImageTargetController_OnDestroy_mB3E0CBA4BBA1427E4F352EC02FE87B9B8D55E9FE (void);
+// 0x000008A1 System.Void easyar.ImageTargetController::OnTracking()
+extern void ImageTargetController_OnTracking_mAD21A55082EA4D5888D5C820BEF549228E75779D (void);
+// 0x000008A2 System.Void easyar.ImageTargetController::LoadImageFile(easyar.ImageTargetController/ImageFileSourceData)
+extern void ImageTargetController_LoadImageFile_m0C96CA4B52C406C7E6E43C118DBCC8A4E65EC484 (void);
+// 0x000008A3 System.Void easyar.ImageTargetController::LoadTargetDataFile(easyar.ImageTargetController/TargetDataFileSourceData)
+extern void ImageTargetController_LoadTargetDataFile_mAA4A193BCEFA50F50A6581482E302325551EAD2F (void);
+// 0x000008A4 System.Void easyar.ImageTargetController::LoadTarget(easyar.ImageTarget)
+extern void ImageTargetController_LoadTarget_mF5B64EE4AED15B3DD9A209046D6B7BCC8CC622D0 (void);
+// 0x000008A5 System.Collections.IEnumerator easyar.ImageTargetController::LoadImageBuffer(easyar.Buffer,easyar.ImageTargetController/ImageFileSourceData)
+extern void ImageTargetController_LoadImageBuffer_m7F9B49796221F397B3DD20951D026A9C61255743 (void);
+// 0x000008A6 System.Collections.IEnumerator easyar.ImageTargetController::LoadTargetDataBuffer(easyar.Buffer)
+extern void ImageTargetController_LoadTargetDataBuffer_m77A49E66DE709773C4D9010C6C32B6F7B0719AEC (void);
+// 0x000008A7 System.Void easyar.ImageTargetController::UpdateTargetInTracker()
+extern void ImageTargetController_UpdateTargetInTracker_mA8685BBF994D73477605C7A03D93BE17304DF5A9 (void);
+// 0x000008A8 System.Void easyar.ImageTargetController::UpdateScale()
+extern void ImageTargetController_UpdateScale_m8CB7C3BBFF1AAC4589F22B56D9B843C29F8FF489 (void);
+// 0x000008A9 System.Void easyar.ImageTargetController::CheckScale()
+extern void ImageTargetController_CheckScale_mCE751A9504DDF5A8C08D9516D98674A030375D6B (void);
+// 0x000008AA System.Void easyar.ImageTargetController::.ctor()
+extern void ImageTargetController__ctor_m004DC8AA0E97C9147CFCF146D8DD207538FB052E (void);
+// 0x000008AB System.Void easyar.ImageTargetController::<LoadTargetDataFile>b__35_0(easyar.Buffer)
+extern void ImageTargetController_U3CLoadTargetDataFileU3Eb__35_0_m88987798ABB5ADF18A83E7627783F501F871E491 (void);
+// 0x000008AC System.Void easyar.ImageTargetController::<UpdateTargetInTracker>b__39_0(easyar.Target,System.Boolean)
+extern void ImageTargetController_U3CUpdateTargetInTrackerU3Eb__39_0_m1939D3182BBC11CF34DDC6687AFEEC1C11BB1E08 (void);
+// 0x000008AD System.Void easyar.ImageTargetController/ImageFileSourceData::.ctor()
+extern void ImageFileSourceData__ctor_m1FC12618D065F916C968FE7C694746EDBE03D2A8 (void);
+// 0x000008AE System.Void easyar.ImageTargetController/TargetDataFileSourceData::.ctor()
+extern void TargetDataFileSourceData__ctor_m55BE27C785B522450B12B613325E49C7731E0055 (void);
+// 0x000008AF System.Void easyar.ImageTargetController/<>c__DisplayClass34_0::.ctor()
+extern void U3CU3Ec__DisplayClass34_0__ctor_mEEE0EA8D94387806F61F425BA6D79A5198333424 (void);
+// 0x000008B0 System.Void easyar.ImageTargetController/<>c__DisplayClass34_0::<LoadImageFile>b__0(easyar.Buffer)
+extern void U3CU3Ec__DisplayClass34_0_U3CLoadImageFileU3Eb__0_m616BBCE47ECFA27A653B3C807DBDE783579D6A78 (void);
+// 0x000008B1 System.Void easyar.ImageTargetController/<>c__DisplayClass37_0::.ctor()
+extern void U3CU3Ec__DisplayClass37_0__ctor_m55CAEE5D05CF2B1BC1FC759F1151DBD249384AD0 (void);
+// 0x000008B2 System.Void easyar.ImageTargetController/<>c__DisplayClass37_0::<LoadImageBuffer>b__0()
+extern void U3CU3Ec__DisplayClass37_0_U3CLoadImageBufferU3Eb__0_m908DA97E0CF44CBB4DB8084D116E2908C745EFC8 (void);
+// 0x000008B3 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::.ctor(System.Int32)
+extern void U3CLoadImageBufferU3Ed__37__ctor_mAD7298F8B7F8975D392A33A3A50D7668B26F0879 (void);
+// 0x000008B4 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::System.IDisposable.Dispose()
+extern void U3CLoadImageBufferU3Ed__37_System_IDisposable_Dispose_m220F5BF09CE799351978CCE59ACD8830C3B20157 (void);
+// 0x000008B5 System.Boolean easyar.ImageTargetController/<LoadImageBuffer>d__37::MoveNext()
+extern void U3CLoadImageBufferU3Ed__37_MoveNext_m6CE2A3E85D2046407EBBD691BD999143B17EDE78 (void);
+// 0x000008B6 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::<>m__Finally1()
+extern void U3CLoadImageBufferU3Ed__37_U3CU3Em__Finally1_mBBC56EA8BC7B9C5F6A816F48197E78B10EDE72FD (void);
+// 0x000008B7 System.Object easyar.ImageTargetController/<LoadImageBuffer>d__37::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadImageBufferU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1571018AEBB7D7FDD8CBE5AC34A28E6AD12BC832 (void);
+// 0x000008B8 System.Void easyar.ImageTargetController/<LoadImageBuffer>d__37::System.Collections.IEnumerator.Reset()
+extern void U3CLoadImageBufferU3Ed__37_System_Collections_IEnumerator_Reset_m96AA7FEF3DC081296374215C27A186598DCF0D7D (void);
+// 0x000008B9 System.Object easyar.ImageTargetController/<LoadImageBuffer>d__37::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadImageBufferU3Ed__37_System_Collections_IEnumerator_get_Current_m79D4068A594A4DE4C1D8CC210962989F48C356E6 (void);
+// 0x000008BA System.Void easyar.ImageTargetController/<>c__DisplayClass38_0::.ctor()
+extern void U3CU3Ec__DisplayClass38_0__ctor_mDBF0C8B30A87E3FB11A4E0B5216F4257C35B4E79 (void);
+// 0x000008BB System.Void easyar.ImageTargetController/<>c__DisplayClass38_0::<LoadTargetDataBuffer>b__0()
+extern void U3CU3Ec__DisplayClass38_0_U3CLoadTargetDataBufferU3Eb__0_m2CB1073B8B676B783FDFB32C1D1F14F08AE734B3 (void);
+// 0x000008BC System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::.ctor(System.Int32)
+extern void U3CLoadTargetDataBufferU3Ed__38__ctor_mB97520DE4D20C4DB13475167C96FFDE7BA1956CE (void);
+// 0x000008BD System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.IDisposable.Dispose()
+extern void U3CLoadTargetDataBufferU3Ed__38_System_IDisposable_Dispose_m90FB65BC91CC7E1EA14679CC2B5A663B991729EF (void);
+// 0x000008BE System.Boolean easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::MoveNext()
+extern void U3CLoadTargetDataBufferU3Ed__38_MoveNext_mF7EF73B52308C200F0A2A9930FC26ECB998FA076 (void);
+// 0x000008BF System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::<>m__Finally1()
+extern void U3CLoadTargetDataBufferU3Ed__38_U3CU3Em__Finally1_mD671D788B0E9E550EB045FEBA1688343E7177F65 (void);
+// 0x000008C0 System.Object easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadTargetDataBufferU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0D9AB50CF422D2AB69329C3A13EA09A711BCEE92 (void);
+// 0x000008C1 System.Void easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.Collections.IEnumerator.Reset()
+extern void U3CLoadTargetDataBufferU3Ed__38_System_Collections_IEnumerator_Reset_mE7AAF6C8ED5FF484E0638E28FF075939FF70B1E7 (void);
+// 0x000008C2 System.Object easyar.ImageTargetController/<LoadTargetDataBuffer>d__38::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadTargetDataBufferU3Ed__38_System_Collections_IEnumerator_get_Current_m209A42BD82B9B9817C0D0FCDADBEBDB2D249248B (void);
+// 0x000008C3 System.Void easyar.ImageTargetController/<>c__DisplayClass39_0::.ctor()
+extern void U3CU3Ec__DisplayClass39_0__ctor_mBD5D59053BEF1610917495065283499B4E3CA842 (void);
+// 0x000008C4 System.Void easyar.ImageTargetController/<>c__DisplayClass39_0::<UpdateTargetInTracker>b__1(easyar.Target,System.Boolean)
+extern void U3CU3Ec__DisplayClass39_0_U3CUpdateTargetInTrackerU3Eb__1_m028FA0DB06BF9BE40C859E47761473ADABCF4D44 (void);
+// 0x000008C5 easyar.ImageTracker easyar.ImageTrackerFrameFilter::get_Tracker()
+extern void ImageTrackerFrameFilter_get_Tracker_mD35CBEDB7003023C3A0492EA90098A6677875AAD (void);
+// 0x000008C6 System.Void easyar.ImageTrackerFrameFilter::set_Tracker(easyar.ImageTracker)
+extern void ImageTrackerFrameFilter_set_Tracker_m22F80D8B8C22D223F4C38612B2C0BE20D5D3846C (void);
+// 0x000008C7 System.Void easyar.ImageTrackerFrameFilter::add_TargetLoad(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
+extern void ImageTrackerFrameFilter_add_TargetLoad_m1BC28A46E4BFD888FD8B828DA242226B5B5A4520 (void);
+// 0x000008C8 System.Void easyar.ImageTrackerFrameFilter::remove_TargetLoad(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
+extern void ImageTrackerFrameFilter_remove_TargetLoad_mAFD90E2E92CE785FBCBF7B6FE501CE9061490953 (void);
+// 0x000008C9 System.Void easyar.ImageTrackerFrameFilter::add_TargetUnload(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
+extern void ImageTrackerFrameFilter_add_TargetUnload_m7A46334F1E5B386098F2A8936B5EF6B18807B426 (void);
+// 0x000008CA System.Void easyar.ImageTrackerFrameFilter::remove_TargetUnload(System.Action`3<easyar.ImageTargetController,easyar.Target,System.Boolean>)
+extern void ImageTrackerFrameFilter_remove_TargetUnload_m14DA555B7D9A8C981840FC4050D2322A1D7DC4CD (void);
+// 0x000008CB System.Void easyar.ImageTrackerFrameFilter::add_SimultaneousNumChanged(System.Action)
+extern void ImageTrackerFrameFilter_add_SimultaneousNumChanged_mA65F772F18A27A613DED284D48B830694EB66E83 (void);
+// 0x000008CC System.Void easyar.ImageTrackerFrameFilter::remove_SimultaneousNumChanged(System.Action)
+extern void ImageTrackerFrameFilter_remove_SimultaneousNumChanged_m612F1CE2F0FD49A876063DA51F5468A83B2AE710 (void);
+// 0x000008CD System.Int32 easyar.ImageTrackerFrameFilter::get_BufferRequirement()
+extern void ImageTrackerFrameFilter_get_BufferRequirement_m93C5CC941CFE7C3FBCB2471FC5C1BB7F2C197635 (void);
+// 0x000008CE System.Int32 easyar.ImageTrackerFrameFilter::get_SimultaneousNum()
+extern void ImageTrackerFrameFilter_get_SimultaneousNum_m7E1117AC138AE194DF048CD1A260B7225ED06615 (void);
+// 0x000008CF System.Void easyar.ImageTrackerFrameFilter::set_SimultaneousNum(System.Int32)
+extern void ImageTrackerFrameFilter_set_SimultaneousNum_m85D85FBB0B69D08BF61A5BF45376983C613CD3AD (void);
+// 0x000008D0 System.Collections.Generic.List`1<easyar.TargetController> easyar.ImageTrackerFrameFilter::get_TargetControllers()
+extern void ImageTrackerFrameFilter_get_TargetControllers_m6313B7C8605D2C92100F567EF5BE221110CC327C (void);
+// 0x000008D1 System.Void easyar.ImageTrackerFrameFilter::set_TargetControllers(System.Collections.Generic.List`1<easyar.TargetController>)
+extern void ImageTrackerFrameFilter_set_TargetControllers_m079F6F6DE3E01AE9898876D9FC55E8D53F86BB68 (void);
+// 0x000008D2 System.Boolean easyar.ImageTrackerFrameFilter::get_EnableMotionFusion()
+extern void ImageTrackerFrameFilter_get_EnableMotionFusion_mC4D52F28714ABED973C7CF6FC70E7D974CC4ACCC (void);
+// 0x000008D3 System.Void easyar.ImageTrackerFrameFilter::set_EnableMotionFusion(System.Boolean)
+extern void ImageTrackerFrameFilter_set_EnableMotionFusion_m111F851A26E20E66E83F4BDE93E32D525E27884E (void);
+// 0x000008D4 System.Void easyar.ImageTrackerFrameFilter::Awake()
+extern void ImageTrackerFrameFilter_Awake_mDE685EA4923DF83CEEB77ABDF134312F1CC340A2 (void);
+// 0x000008D5 System.Void easyar.ImageTrackerFrameFilter::OnEnable()
+extern void ImageTrackerFrameFilter_OnEnable_m1127574FBB5E43B9AFFD4291E033A246B9CE44D5 (void);
+// 0x000008D6 System.Void easyar.ImageTrackerFrameFilter::OnDisable()
+extern void ImageTrackerFrameFilter_OnDisable_m180E1689FE4B350945F5DB08DBBC48750A14E11D (void);
+// 0x000008D7 System.Void easyar.ImageTrackerFrameFilter::OnDestroy()
+extern void ImageTrackerFrameFilter_OnDestroy_mBC043F5929C3C4ABC49C35CCE7625D27CAC1BFD7 (void);
+// 0x000008D8 System.Void easyar.ImageTrackerFrameFilter::LoadTarget(easyar.ImageTargetController)
+extern void ImageTrackerFrameFilter_LoadTarget_mCF99432D1E37FDB493795B7B9AAE59E7EC02BAD0 (void);
+// 0x000008D9 System.Void easyar.ImageTrackerFrameFilter::UnloadTarget(easyar.ImageTargetController)
+extern void ImageTrackerFrameFilter_UnloadTarget_m3DF61D5F6672C7B66936062F0C5214B2F4A80641 (void);
+// 0x000008DA easyar.FeedbackFrameSink easyar.ImageTrackerFrameFilter::FeedbackFrameSink()
+extern void ImageTrackerFrameFilter_FeedbackFrameSink_mA86D903FC35C37A8F7A87AE092CFD7140EAFC663 (void);
+// 0x000008DB easyar.OutputFrameSource easyar.ImageTrackerFrameFilter::OutputFrameSource()
+extern void ImageTrackerFrameFilter_OutputFrameSource_m41EA1D49D255DF5950DE6467826F7EE3716BDD24 (void);
+// 0x000008DC System.Void easyar.ImageTrackerFrameFilter::OnAssemble(easyar.ARSession)
+extern void ImageTrackerFrameFilter_OnAssemble_m91583CA9B01C6561013AF899E9BCDBA655DD19EA (void);
+// 0x000008DD System.Void easyar.ImageTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+extern void ImageTrackerFrameFilter_OnResult_m9EEE9F72A95FB8A6C43169B1A371912DCD9A4069 (void);
+// 0x000008DE System.Void easyar.ImageTrackerFrameFilter::UpdateMotion(System.Double,easyar.MotionTrackingStatus,easyar.Matrix44F)
+extern void ImageTrackerFrameFilter_UpdateMotion_mFCE6D67688E076BEEC2FF37CE9E6473235211076 (void);
+// 0x000008DF easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.ImageTrackerFrameFilter::TryGetCenter(UnityEngine.GameObject)
+extern void ImageTrackerFrameFilter_TryGetCenter_m43D74ED575255655F9B44A82C9C90A563A4080C6 (void);
+// 0x000008E0 System.Void easyar.ImageTrackerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+extern void ImageTrackerFrameFilter_UpdateTransform_m81391CE52554A3863BF61AA31F1ADFF755EBA285 (void);
+// 0x000008E1 System.Void easyar.ImageTrackerFrameFilter::LoadImageTarget(easyar.ImageTargetController,System.Action`2<easyar.Target,System.Boolean>)
+extern void ImageTrackerFrameFilter_LoadImageTarget_m1913C46E1811F7617F711317DEE0849AD59B56F1 (void);
+// 0x000008E2 System.Void easyar.ImageTrackerFrameFilter::UnloadImageTarget(easyar.ImageTargetController,System.Action`2<easyar.Target,System.Boolean>)
+extern void ImageTrackerFrameFilter_UnloadImageTarget_m140DDFA97B4C5CE3D2D0DF57B16BC7417236D115 (void);
+// 0x000008E3 System.Void easyar.ImageTrackerFrameFilter::OnHFlipChange(System.Boolean)
+extern void ImageTrackerFrameFilter_OnHFlipChange_mADC44897088650649AADE000EA05EDC6C37E221F (void);
+// 0x000008E4 easyar.TargetController easyar.ImageTrackerFrameFilter::TryGetTargetController(System.Int32)
+extern void ImageTrackerFrameFilter_TryGetTargetController_m0229449EC763B1A249355AB021F3B83BA12C13D6 (void);
+// 0x000008E5 System.Void easyar.ImageTrackerFrameFilter::.ctor()
+extern void ImageTrackerFrameFilter__ctor_m9DA1119CF91ACED35ADC96600D9719EA2741AA93 (void);
+// 0x000008E6 System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass45_0::.ctor()
+extern void U3CU3Ec__DisplayClass45_0__ctor_m92CAF5411A261422786A56EE1CF56A765A55E3E2 (void);
+// 0x000008E7 System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass45_0::<LoadImageTarget>b__0(easyar.Target,System.Boolean)
+extern void U3CU3Ec__DisplayClass45_0_U3CLoadImageTargetU3Eb__0_m871082FDED8C1C322C4E3F7850229AF4438236CD (void);
+// 0x000008E8 System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass46_0::.ctor()
+extern void U3CU3Ec__DisplayClass46_0__ctor_m6A170CAF1B2D0FBBD4924F9960EDBBD62EABCC4B (void);
+// 0x000008E9 System.Void easyar.ImageTrackerFrameFilter/<>c__DisplayClass46_0::<UnloadImageTarget>b__0(easyar.Target,System.Boolean)
+extern void U3CU3Ec__DisplayClass46_0_U3CUnloadImageTargetU3Eb__0_m3A36235677BB21F9BDB9A894407FAE5B61C64041 (void);
+// 0x000008EA easyar.ObjectTarget easyar.ObjectTargetController::get_Target()
+extern void ObjectTargetController_get_Target_m68ACD08B1961274389988847AB9C00725BF35FD1 (void);
+// 0x000008EB System.Void easyar.ObjectTargetController::set_Target(easyar.ObjectTarget)
+extern void ObjectTargetController_set_Target_m424F61A0D108DF516FFB4DCA198F9C1C99382AD6 (void);
+// 0x000008EC System.Void easyar.ObjectTargetController::add_TargetAvailable(System.Action)
+extern void ObjectTargetController_add_TargetAvailable_mDB6CB23F244357819D1FE55ACAA862C5F7E7AC3D (void);
+// 0x000008ED System.Void easyar.ObjectTargetController::remove_TargetAvailable(System.Action)
+extern void ObjectTargetController_remove_TargetAvailable_mE4C4922BD29D938A4ED7EAAF8C67E9846BC58B90 (void);
+// 0x000008EE System.Void easyar.ObjectTargetController::add_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
+extern void ObjectTargetController_add_TargetLoad_m8C34E94866C0354A070331B5FE1C383828C8AF57 (void);
+// 0x000008EF System.Void easyar.ObjectTargetController::remove_TargetLoad(System.Action`2<easyar.Target,System.Boolean>)
+extern void ObjectTargetController_remove_TargetLoad_m68F1BC759DB4442876C76409E2151900F734AFD1 (void);
+// 0x000008F0 System.Void easyar.ObjectTargetController::add_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
+extern void ObjectTargetController_add_TargetUnload_mA40853B603DD443FDA0461573E438DC5C7C92880 (void);
+// 0x000008F1 System.Void easyar.ObjectTargetController::remove_TargetUnload(System.Action`2<easyar.Target,System.Boolean>)
+extern void ObjectTargetController_remove_TargetUnload_mD48E24CF0DF5650607A67D2252CBF76AC5BA540F (void);
+// 0x000008F2 easyar.ObjectTrackerFrameFilter easyar.ObjectTargetController::get_Tracker()
+extern void ObjectTargetController_get_Tracker_m29D2CE3DE8759D95F3F6B57A86AFF0CF0FDE1229 (void);
+// 0x000008F3 System.Void easyar.ObjectTargetController::set_Tracker(easyar.ObjectTrackerFrameFilter)
+extern void ObjectTargetController_set_Tracker_mED9D067AF53EC65C87BD58724F9936358BD50FA2 (void);
+// 0x000008F4 System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.ObjectTargetController::get_BoundingBox()
+extern void ObjectTargetController_get_BoundingBox_m18B19F8D01A4AAC4C7E41419E378F6C8F34EC0B6 (void);
+// 0x000008F5 System.Void easyar.ObjectTargetController::set_BoundingBox(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void ObjectTargetController_set_BoundingBox_m6937B54CB4E041EF3ED39064F1DFF8C9DD66C646 (void);
+// 0x000008F6 System.Void easyar.ObjectTargetController::Start()
+extern void ObjectTargetController_Start_m4E08F934430E37B3A02BD5E627E9F258907EB484 (void);
+// 0x000008F7 System.Void easyar.ObjectTargetController::Update()
+extern void ObjectTargetController_Update_m823545DFFF6AA22E835D0B278F60EC618F131144 (void);
+// 0x000008F8 System.Void easyar.ObjectTargetController::OnDestroy()
+extern void ObjectTargetController_OnDestroy_mDA1A1567AD6ADC1868769975FD35AABD3EC78C55 (void);
+// 0x000008F9 System.Void easyar.ObjectTargetController::OnTracking()
+extern void ObjectTargetController_OnTracking_m55DBEBD245EEB008451E6571BCFF7ECFCD9B5E18 (void);
+// 0x000008FA System.Void easyar.ObjectTargetController::LoadObjFile(easyar.ObjectTargetController/ObjFileSourceData)
+extern void ObjectTargetController_LoadObjFile_m514FEFFD00E8C964D18C691BD967457BCB14489D (void);
+// 0x000008FB System.Void easyar.ObjectTargetController::LoadTarget(easyar.ObjectTarget)
+extern void ObjectTargetController_LoadTarget_m97DE83C58022ED98AC330EE99C7D9E1755FA4B69 (void);
+// 0x000008FC System.Collections.IEnumerator easyar.ObjectTargetController::LoadObjFileFromSource(easyar.ObjectTargetController/ObjFileSourceData)
+extern void ObjectTargetController_LoadObjFileFromSource_m161EED430F897AD636667F7AC73B7DE66863408B (void);
+// 0x000008FD System.Void easyar.ObjectTargetController::UpdateTargetInTracker()
+extern void ObjectTargetController_UpdateTargetInTracker_m7AF46A415F20D4DBC79E9BEA4C79285C50F690BE (void);
+// 0x000008FE System.Void easyar.ObjectTargetController::UpdateScale()
+extern void ObjectTargetController_UpdateScale_mA2481965F25B0A906118374F27983B633BB4A580 (void);
+// 0x000008FF System.Void easyar.ObjectTargetController::CheckScale()
+extern void ObjectTargetController_CheckScale_mE6107D0B643C1CBFD33975A732FC7238F4A5632A (void);
+// 0x00000900 System.Void easyar.ObjectTargetController::.ctor()
+extern void ObjectTargetController__ctor_m1270AF020C533B6959296716657551F9D2372370 (void);
+// 0x00000901 System.Void easyar.ObjectTargetController::<UpdateTargetInTracker>b__36_0(easyar.Target,System.Boolean)
+extern void ObjectTargetController_U3CUpdateTargetInTrackerU3Eb__36_0_m0EF159A0FF2AE08CB8BF9B968078DDF984A01EA9 (void);
+// 0x00000902 System.Void easyar.ObjectTargetController/ObjFileSourceData::.ctor()
+extern void ObjFileSourceData__ctor_mED731E21ED70A57C221B8DF9B1E97CB62C727E01 (void);
+// 0x00000903 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_0::.ctor()
+extern void U3CU3Ec__DisplayClass35_0__ctor_m323041982EBA8DC1686D8FE149F6BDBB8927189D (void);
+// 0x00000904 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_0::<LoadObjFileFromSource>b__0(easyar.Buffer)
+extern void U3CU3Ec__DisplayClass35_0_U3CLoadObjFileFromSourceU3Eb__0_mE5F673C4D64B19EC30C413B5A6823213E9E97D48 (void);
+// 0x00000905 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_1::.ctor()
+extern void U3CU3Ec__DisplayClass35_1__ctor_mED4C324C78D20DF2135734FC2FA54EB9741D639E (void);
+// 0x00000906 System.Void easyar.ObjectTargetController/<>c__DisplayClass35_1::<LoadObjFileFromSource>b__1(easyar.Buffer)
+extern void U3CU3Ec__DisplayClass35_1_U3CLoadObjFileFromSourceU3Eb__1_m5EC928183F73FC2E7A0A446D40802BA367A1E1B9 (void);
+// 0x00000907 System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::.ctor(System.Int32)
+extern void U3CLoadObjFileFromSourceU3Ed__35__ctor_mDBAECBF92D75C2CA4451954AA55633799D71C4EF (void);
+// 0x00000908 System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.IDisposable.Dispose()
+extern void U3CLoadObjFileFromSourceU3Ed__35_System_IDisposable_Dispose_m26A87B842EF470403700866A04505F3B8AE37116 (void);
+// 0x00000909 System.Boolean easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::MoveNext()
+extern void U3CLoadObjFileFromSourceU3Ed__35_MoveNext_m9E981AC03B97301ABFD11A06280ABE477C27D18E (void);
+// 0x0000090A System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::<>m__Finally1()
+extern void U3CLoadObjFileFromSourceU3Ed__35_U3CU3Em__Finally1_m5D896F038C6263FE2A76C7EFCBC9F9046AEC41E5 (void);
+// 0x0000090B System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::<>m__Finally2()
+extern void U3CLoadObjFileFromSourceU3Ed__35_U3CU3Em__Finally2_mA935AA5C1A3AADD316BFF934C98E7FFE781FD868 (void);
+// 0x0000090C System.Object easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadObjFileFromSourceU3Ed__35_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA26CEDF7C5181138F1B920F9D90A7A6DD3A6D3AE (void);
+// 0x0000090D System.Void easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.Collections.IEnumerator.Reset()
+extern void U3CLoadObjFileFromSourceU3Ed__35_System_Collections_IEnumerator_Reset_m4FD824F7F01FB0E3832B920F9B432A593145D480 (void);
+// 0x0000090E System.Object easyar.ObjectTargetController/<LoadObjFileFromSource>d__35::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadObjFileFromSourceU3Ed__35_System_Collections_IEnumerator_get_Current_m4B6543D28012C97259D791AF30A751CEE2E3ED73 (void);
+// 0x0000090F System.Void easyar.ObjectTargetController/<>c__DisplayClass36_0::.ctor()
+extern void U3CU3Ec__DisplayClass36_0__ctor_m5C414A2844BCF166ECE0BA531F0CB053FF112608 (void);
+// 0x00000910 System.Void easyar.ObjectTargetController/<>c__DisplayClass36_0::<UpdateTargetInTracker>b__1(easyar.Target,System.Boolean)
+extern void U3CU3Ec__DisplayClass36_0_U3CUpdateTargetInTrackerU3Eb__1_mE03F83BCC6599AE5A2EB68C9844365A937187919 (void);
+// 0x00000911 easyar.ObjectTracker easyar.ObjectTrackerFrameFilter::get_Tracker()
+extern void ObjectTrackerFrameFilter_get_Tracker_m92A32BAE08944E46F323C122E3C416CFC0F2D1C9 (void);
+// 0x00000912 System.Void easyar.ObjectTrackerFrameFilter::set_Tracker(easyar.ObjectTracker)
+extern void ObjectTrackerFrameFilter_set_Tracker_mDE4337E7800351B90461D568A32505738AC842A1 (void);
+// 0x00000913 System.Void easyar.ObjectTrackerFrameFilter::add_TargetLoad(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
+extern void ObjectTrackerFrameFilter_add_TargetLoad_m072EBAF8C1D02A417A8B0AE8CF3DCF9C48472750 (void);
+// 0x00000914 System.Void easyar.ObjectTrackerFrameFilter::remove_TargetLoad(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
+extern void ObjectTrackerFrameFilter_remove_TargetLoad_m84F18892E2982A9F4FC20CBBE32B19C33CF27795 (void);
+// 0x00000915 System.Void easyar.ObjectTrackerFrameFilter::add_TargetUnload(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
+extern void ObjectTrackerFrameFilter_add_TargetUnload_m6956A25317D1BF0306138308877577B6ECC51585 (void);
+// 0x00000916 System.Void easyar.ObjectTrackerFrameFilter::remove_TargetUnload(System.Action`3<easyar.ObjectTargetController,easyar.Target,System.Boolean>)
+extern void ObjectTrackerFrameFilter_remove_TargetUnload_m768F101F6B980D24CDB3AB322D4D6B2622AFF033 (void);
+// 0x00000917 System.Void easyar.ObjectTrackerFrameFilter::add_SimultaneousNumChanged(System.Action)
+extern void ObjectTrackerFrameFilter_add_SimultaneousNumChanged_m36A394540186BB9353C41417652FC0204490C208 (void);
+// 0x00000918 System.Void easyar.ObjectTrackerFrameFilter::remove_SimultaneousNumChanged(System.Action)
+extern void ObjectTrackerFrameFilter_remove_SimultaneousNumChanged_m853EA424C508DE986F70321CF822FB35B09814C4 (void);
+// 0x00000919 System.Int32 easyar.ObjectTrackerFrameFilter::get_BufferRequirement()
+extern void ObjectTrackerFrameFilter_get_BufferRequirement_mB97710256FD0511E1EFBCBE7764A4532EA377556 (void);
+// 0x0000091A System.Int32 easyar.ObjectTrackerFrameFilter::get_SimultaneousNum()
+extern void ObjectTrackerFrameFilter_get_SimultaneousNum_m8C0A051FA03C851FFCE6003DAE5D722B61043D39 (void);
+// 0x0000091B System.Void easyar.ObjectTrackerFrameFilter::set_SimultaneousNum(System.Int32)
+extern void ObjectTrackerFrameFilter_set_SimultaneousNum_mC767D106DFDA4B732C1C96E2FB9378B6D05C6BB0 (void);
+// 0x0000091C System.Collections.Generic.List`1<easyar.TargetController> easyar.ObjectTrackerFrameFilter::get_TargetControllers()
+extern void ObjectTrackerFrameFilter_get_TargetControllers_m31872F2D91399332A2264657AE5BC552E52A3702 (void);
+// 0x0000091D System.Void easyar.ObjectTrackerFrameFilter::set_TargetControllers(System.Collections.Generic.List`1<easyar.TargetController>)
+extern void ObjectTrackerFrameFilter_set_TargetControllers_mD459B0E195D9BE18B9211348C716C0DA5E0C4B9D (void);
+// 0x0000091E System.Boolean easyar.ObjectTrackerFrameFilter::get_EnableMotionFusion()
+extern void ObjectTrackerFrameFilter_get_EnableMotionFusion_mAEA63F43FBADE6433BD974C85BDF8FED34C759CB (void);
+// 0x0000091F System.Void easyar.ObjectTrackerFrameFilter::set_EnableMotionFusion(System.Boolean)
+extern void ObjectTrackerFrameFilter_set_EnableMotionFusion_mFB0B1056018F90972B7FA5901DF0F616D8507432 (void);
+// 0x00000920 System.Void easyar.ObjectTrackerFrameFilter::Awake()
+extern void ObjectTrackerFrameFilter_Awake_m28F9BDDBBC93F5E4C79BC39D611F7C337F325B3F (void);
+// 0x00000921 System.Void easyar.ObjectTrackerFrameFilter::OnEnable()
+extern void ObjectTrackerFrameFilter_OnEnable_m69BA15DB8CFC43D98ACC442EC12D9520C24D704C (void);
+// 0x00000922 System.Void easyar.ObjectTrackerFrameFilter::OnDisable()
+extern void ObjectTrackerFrameFilter_OnDisable_mE69CE7942751186A0A38D607C5820D5D3632D703 (void);
+// 0x00000923 System.Void easyar.ObjectTrackerFrameFilter::OnDestroy()
+extern void ObjectTrackerFrameFilter_OnDestroy_m3BF9BE4808FA353ECB45E8FCD07C57C752935316 (void);
+// 0x00000924 System.Void easyar.ObjectTrackerFrameFilter::LoadTarget(easyar.ObjectTargetController)
+extern void ObjectTrackerFrameFilter_LoadTarget_m19D567DFEAD310E65C64BE2F22984F98645B7721 (void);
+// 0x00000925 System.Void easyar.ObjectTrackerFrameFilter::UnloadTarget(easyar.ObjectTargetController)
+extern void ObjectTrackerFrameFilter_UnloadTarget_mA21E310D46AD0AE128DE47A6A492EEB1C1E944C8 (void);
+// 0x00000926 easyar.FeedbackFrameSink easyar.ObjectTrackerFrameFilter::FeedbackFrameSink()
+extern void ObjectTrackerFrameFilter_FeedbackFrameSink_m8AD59ACACCEA6BED01AB4677348BBC0CDBC437DC (void);
+// 0x00000927 easyar.OutputFrameSource easyar.ObjectTrackerFrameFilter::OutputFrameSource()
+extern void ObjectTrackerFrameFilter_OutputFrameSource_mB62B684E34CAB6A7D4EDF15B463CB948CBB7BDA2 (void);
+// 0x00000928 System.Void easyar.ObjectTrackerFrameFilter::OnAssemble(easyar.ARSession)
+extern void ObjectTrackerFrameFilter_OnAssemble_m07B45196243F59C6D9C9C0D6BF3ACEC857C57911 (void);
+// 0x00000929 System.Void easyar.ObjectTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+extern void ObjectTrackerFrameFilter_OnResult_mD02B9176B371950DEF1BE793B354688494688FBB (void);
+// 0x0000092A System.Void easyar.ObjectTrackerFrameFilter::UpdateMotion(System.Double,easyar.MotionTrackingStatus,easyar.Matrix44F)
+extern void ObjectTrackerFrameFilter_UpdateMotion_m48704AF84E56D44F136C4E9526E5F506795FF88B (void);
+// 0x0000092B easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.ObjectTrackerFrameFilter::TryGetCenter(UnityEngine.GameObject)
+extern void ObjectTrackerFrameFilter_TryGetCenter_m8769C189054B7453B94194655CFFFFC560CD9E7B (void);
+// 0x0000092C System.Void easyar.ObjectTrackerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+extern void ObjectTrackerFrameFilter_UpdateTransform_m64FB4B279A1BF9664C522D1B23E6024A381AA554 (void);
+// 0x0000092D System.Void easyar.ObjectTrackerFrameFilter::LoadObjectTarget(easyar.ObjectTargetController,System.Action`2<easyar.Target,System.Boolean>)
+extern void ObjectTrackerFrameFilter_LoadObjectTarget_m864D67FB3A7A21BB63350049CCAAA6047D0EAE28 (void);
+// 0x0000092E System.Void easyar.ObjectTrackerFrameFilter::UnloadObjectTarget(easyar.ObjectTargetController,System.Action`2<easyar.Target,System.Boolean>)
+extern void ObjectTrackerFrameFilter_UnloadObjectTarget_m28716FD90A62AE918D74EC84644C1B1CF420851D (void);
+// 0x0000092F System.Void easyar.ObjectTrackerFrameFilter::OnHFlipChange(System.Boolean)
+extern void ObjectTrackerFrameFilter_OnHFlipChange_m0F38AD0D30D55402EFE57F98F864A83C9704BEC8 (void);
+// 0x00000930 easyar.TargetController easyar.ObjectTrackerFrameFilter::TryGetTargetController(System.Int32)
+extern void ObjectTrackerFrameFilter_TryGetTargetController_m490FFE0027A76CFE009D4429A198A9D02DAED842 (void);
+// 0x00000931 System.Void easyar.ObjectTrackerFrameFilter::.ctor()
+extern void ObjectTrackerFrameFilter__ctor_mC60BF6D3B71CFF3767EF7956DC78B22118837796 (void);
+// 0x00000932 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass44_0::.ctor()
+extern void U3CU3Ec__DisplayClass44_0__ctor_mBDE4631C1B7528AC844052FC66EAACC1F03D76A9 (void);
+// 0x00000933 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass44_0::<LoadObjectTarget>b__0(easyar.Target,System.Boolean)
+extern void U3CU3Ec__DisplayClass44_0_U3CLoadObjectTargetU3Eb__0_mBD991C50454EA761F83E9A5652F31B88C7451290 (void);
+// 0x00000934 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass45_0::.ctor()
+extern void U3CU3Ec__DisplayClass45_0__ctor_m5CC9EA0B63B33EBC09D7F8E7C05FA717D3FC92FD (void);
+// 0x00000935 System.Void easyar.ObjectTrackerFrameFilter/<>c__DisplayClass45_0::<UnloadObjectTarget>b__0(easyar.Target,System.Boolean)
+extern void U3CU3Ec__DisplayClass45_0_U3CUnloadObjectTargetU3Eb__0_m01A7DF7B3CCBC4EA1F9DEAA93C19019875193343 (void);
+// 0x00000936 System.Void easyar.ObsoletePrefabNotifier::OnEnable()
+extern void ObsoletePrefabNotifier_OnEnable_m177908BC00FE2AA47DB3BAC2989F33003C9924A4 (void);
+// 0x00000937 System.Void easyar.ObsoletePrefabNotifier::.ctor()
+extern void ObsoletePrefabNotifier__ctor_m6AA6AB1C6D7CF76FCAB9FA3E5E8D73B629B73D66 (void);
+// 0x00000938 easyar.VIOCameraDeviceUnion/DeviceUnion easyar.VIOCameraDeviceUnion::get_Device()
+extern void VIOCameraDeviceUnion_get_Device_mFA83E8EF045F503B4A3DF2E1CB625C343A6F3218 (void);
+// 0x00000939 System.Void easyar.VIOCameraDeviceUnion::set_Device(easyar.VIOCameraDeviceUnion/DeviceUnion)
+extern void VIOCameraDeviceUnion_set_Device_m840F8C2035DC3F1DC370F13B8B0E57732344C8F4 (void);
+// 0x0000093A System.Void easyar.VIOCameraDeviceUnion::add_DeviceCreated(System.Action)
+extern void VIOCameraDeviceUnion_add_DeviceCreated_m8173B6FA4F5A390B11D95C6EAD02E8379BA74F54 (void);
+// 0x0000093B System.Void easyar.VIOCameraDeviceUnion::remove_DeviceCreated(System.Action)
+extern void VIOCameraDeviceUnion_remove_DeviceCreated_mC6E37FF807F3B668F8A52E75C2C7BA58A0DCBF6B (void);
+// 0x0000093C System.Void easyar.VIOCameraDeviceUnion::add_DeviceOpened(System.Action)
+extern void VIOCameraDeviceUnion_add_DeviceOpened_mF5F418880E4C61747A8F8112E89071A166EDC024 (void);
+// 0x0000093D System.Void easyar.VIOCameraDeviceUnion::remove_DeviceOpened(System.Action)
+extern void VIOCameraDeviceUnion_remove_DeviceOpened_mE756A1F4510EC2A3EF1970A1491203D8510BD007 (void);
+// 0x0000093E System.Void easyar.VIOCameraDeviceUnion::add_DeviceClosed(System.Action)
+extern void VIOCameraDeviceUnion_add_DeviceClosed_mC7789887E339B8F2BF48BED184614DD5457C0531 (void);
+// 0x0000093F System.Void easyar.VIOCameraDeviceUnion::remove_DeviceClosed(System.Action)
+extern void VIOCameraDeviceUnion_remove_DeviceClosed_mE1E333047F9F4B20FE8E51109E3137AFBC863E19 (void);
+// 0x00000940 easyar.Optional`1<System.Boolean> easyar.VIOCameraDeviceUnion::get_IsAvailable()
+extern void VIOCameraDeviceUnion_get_IsAvailable_m8EB1C42B654A9CA4AD7367D13881A2CA937E1829 (void);
+// 0x00000941 System.Int32 easyar.VIOCameraDeviceUnion::get_BufferCapacity()
+extern void VIOCameraDeviceUnion_get_BufferCapacity_m208E41EEA8DCAC75245822F24BC03D6EFF366FB1 (void);
+// 0x00000942 System.Void easyar.VIOCameraDeviceUnion::set_BufferCapacity(System.Int32)
+extern void VIOCameraDeviceUnion_set_BufferCapacity_mD08CAFCB38736B5A1BAD8F61D36B5E9B285B51E5 (void);
+// 0x00000943 easyar.WorldRootController easyar.VIOCameraDeviceUnion::get_WorldRoot()
+extern void VIOCameraDeviceUnion_get_WorldRoot_m7EE787C12B0A2D5A42274C182578C99FC7BF718C (void);
+// 0x00000944 System.Void easyar.VIOCameraDeviceUnion::set_WorldRoot(easyar.WorldRootController)
+extern void VIOCameraDeviceUnion_set_WorldRoot_m62C1D0816BC9CBE8FA83A0313ED4F2B823748F9E (void);
+// 0x00000945 UnityEngine.GameObject easyar.VIOCameraDeviceUnion::get_Origin()
+extern void VIOCameraDeviceUnion_get_Origin_mEAD692C2099D1F389CF7746CD319D36B6F7A0633 (void);
+// 0x00000946 System.Void easyar.VIOCameraDeviceUnion::Awake()
+extern void VIOCameraDeviceUnion_Awake_m853098ADA576A8DBF42314EAD2AE55490163DD0F (void);
+// 0x00000947 System.Void easyar.VIOCameraDeviceUnion::OnEnable()
+extern void VIOCameraDeviceUnion_OnEnable_mEA2EE77FE9F8756B7E390C47C49B5952082476EC (void);
+// 0x00000948 System.Void easyar.VIOCameraDeviceUnion::OnDisable()
+extern void VIOCameraDeviceUnion_OnDisable_m6168C86BC0A90D54FBD576D2122353DEA701AB96 (void);
+// 0x00000949 System.Void easyar.VIOCameraDeviceUnion::OnDestroy()
+extern void VIOCameraDeviceUnion_OnDestroy_m1850526D0ABC4ED80903E3AF568658E22B8FB58F (void);
+// 0x0000094A System.Void easyar.VIOCameraDeviceUnion::OnAssemble(easyar.ARSession)
+extern void VIOCameraDeviceUnion_OnAssemble_m642583715A58E0EC5CD561409D315330CA961AF8 (void);
+// 0x0000094B System.Collections.IEnumerator easyar.VIOCameraDeviceUnion::CheckAvailability()
+extern void VIOCameraDeviceUnion_CheckAvailability_m99BB54996772A8B58538D77CB7E5127BEF35F85C (void);
+// 0x0000094C System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.VIOCameraDeviceUnion::HitTestAgainstHorizontalPlane(UnityEngine.Vector2)
+extern void VIOCameraDeviceUnion_HitTestAgainstHorizontalPlane_m513A87FCC57F62E7AEA708AD577CAA58543E24C3 (void);
+// 0x0000094D System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.VIOCameraDeviceUnion::HitTestAgainstPointCloud(UnityEngine.Vector2)
+extern void VIOCameraDeviceUnion_HitTestAgainstPointCloud_m9F8AC20B7EBD7A13757F40C03675918B280B5EA3 (void);
+// 0x0000094E System.Void easyar.VIOCameraDeviceUnion::Open()
+extern void VIOCameraDeviceUnion_Open_m1025253815BF17EF047F0AB7AB6E55E0AB86090E (void);
+// 0x0000094F System.Void easyar.VIOCameraDeviceUnion::Close()
+extern void VIOCameraDeviceUnion_Close_m8B694397E7FEF145585424012C02A7785398FA10 (void);
+// 0x00000950 System.Void easyar.VIOCameraDeviceUnion::Connect(easyar.InputFrameSink)
+extern void VIOCameraDeviceUnion_Connect_m8D3A4E5E22F5C04A888C2AC162537DE5412D76FF (void);
+// 0x00000951 System.Void easyar.VIOCameraDeviceUnion::CreateMotionTrackerCameraDevice()
+extern void VIOCameraDeviceUnion_CreateMotionTrackerCameraDevice_m5538D6B4DA6C2A284CBF4F7C3A4FBE84D806E635 (void);
+// 0x00000952 System.Void easyar.VIOCameraDeviceUnion::CreateARKitCameraDevice()
+extern void VIOCameraDeviceUnion_CreateARKitCameraDevice_m20950702C1BC46A565A0172854557B927205CC04 (void);
+// 0x00000953 System.Void easyar.VIOCameraDeviceUnion::CreateARCoreCameraDevice()
+extern void VIOCameraDeviceUnion_CreateARCoreCameraDevice_m767A8D655251154A2E0292CBAAD459DD2A31E82F (void);
+// 0x00000954 System.Collections.IEnumerator easyar.VIOCameraDeviceUnion::AutoOpen()
+extern void VIOCameraDeviceUnion_AutoOpen_m2320177C38C8DDFCCA72242ED76B793BA9419997 (void);
+// 0x00000955 System.Void easyar.VIOCameraDeviceUnion::SetupOriginUsingWorldRoot()
+extern void VIOCameraDeviceUnion_SetupOriginUsingWorldRoot_mF0989FC52DEC3A228D0DBD05655276AA97AAE8FD (void);
+// 0x00000956 System.Void easyar.VIOCameraDeviceUnion::.ctor()
+extern void VIOCameraDeviceUnion__ctor_m32E07CEF426EC6E22DCFEEEE239E8728E20BE9E6 (void);
+// 0x00000957 System.Void easyar.VIOCameraDeviceUnion::.cctor()
+extern void VIOCameraDeviceUnion__cctor_mCDB035E2C735C45E019D07986343995760F2B719 (void);
+// 0x00000958 System.Void easyar.VIOCameraDeviceUnion::<Open>b__52_0(easyar.PermissionStatus,System.String)
+extern void VIOCameraDeviceUnion_U3COpenU3Eb__52_0_mD6ACA52D1F1D765A42458B358A6C4592F3E0F119 (void);
+// 0x00000959 System.Void easyar.VIOCameraDeviceUnion/DeviceUnion::.ctor(easyar.MotionTrackerCameraDevice)
+extern void DeviceUnion__ctor_m91D7599D3BBD4B9D67FEAAF42679B9EEEE276229 (void);
+// 0x0000095A System.Void easyar.VIOCameraDeviceUnion/DeviceUnion::.ctor(easyar.ARKitCameraDevice)
+extern void DeviceUnion__ctor_m6B917AFC3FFAAD7B1F403ADF9D9D0EA3EA3B2D11 (void);
+// 0x0000095B System.Void easyar.VIOCameraDeviceUnion/DeviceUnion::.ctor(easyar.ARCoreCameraDevice)
+extern void DeviceUnion__ctor_mA7EB5749B006C31947F07E5A4D71943E8518154F (void);
+// 0x0000095C easyar.VIOCameraDeviceUnion/DeviceUnion/VIODeviceType easyar.VIOCameraDeviceUnion/DeviceUnion::get_DeviceType()
+extern void DeviceUnion_get_DeviceType_m5A46E0DF928A2AB558B1A614B99623CB7634E6A1 (void);
+// 0x0000095D System.Void easyar.VIOCameraDeviceUnion/DeviceUnion::set_DeviceType(easyar.VIOCameraDeviceUnion/DeviceUnion/VIODeviceType)
+extern void DeviceUnion_set_DeviceType_m02336E185348C8C97F1B7B134F215A7A8E768701 (void);
+// 0x0000095E easyar.MotionTrackerCameraDevice easyar.VIOCameraDeviceUnion/DeviceUnion::get_MotionTrackerCameraDevice()
+extern void DeviceUnion_get_MotionTrackerCameraDevice_mF8D24938E5E967B0DF8B0314AB1717CD25505978 (void);
+// 0x0000095F System.Void easyar.VIOCameraDeviceUnion/DeviceUnion::set_MotionTrackerCameraDevice(easyar.MotionTrackerCameraDevice)
+extern void DeviceUnion_set_MotionTrackerCameraDevice_m03E5030A20A5E8980F167550645C422829143DE2 (void);
+// 0x00000960 easyar.ARKitCameraDevice easyar.VIOCameraDeviceUnion/DeviceUnion::get_ARKitCameraDevice()
+extern void DeviceUnion_get_ARKitCameraDevice_mA845CB37F2636F555986E2503B7D1BF123902446 (void);
+// 0x00000961 System.Void easyar.VIOCameraDeviceUnion/DeviceUnion::set_ARKitCameraDevice(easyar.ARKitCameraDevice)
+extern void DeviceUnion_set_ARKitCameraDevice_m2896864B2976F74D893556C3A92278F29B391153 (void);
+// 0x00000962 easyar.ARCoreCameraDevice easyar.VIOCameraDeviceUnion/DeviceUnion::get_ARCoreCameraDevice()
+extern void DeviceUnion_get_ARCoreCameraDevice_mC5000824A08E0A6CB76F0CA50B8259AD60ED3AB2 (void);
+// 0x00000963 System.Void easyar.VIOCameraDeviceUnion/DeviceUnion::set_ARCoreCameraDevice(easyar.ARCoreCameraDevice)
+extern void DeviceUnion_set_ARCoreCameraDevice_mF517223BD16736DC91BE0621ECE3DA7CF3B996B8 (void);
+// 0x00000964 easyar.MotionTrackerCameraDevice easyar.VIOCameraDeviceUnion/DeviceUnion::op_Explicit(easyar.VIOCameraDeviceUnion/DeviceUnion)
+extern void DeviceUnion_op_Explicit_mAC7182BAD6C57AC4E396CC6ECC46A2420E96FE06 (void);
+// 0x00000965 easyar.ARKitCameraDevice easyar.VIOCameraDeviceUnion/DeviceUnion::op_Explicit(easyar.VIOCameraDeviceUnion/DeviceUnion)
+extern void DeviceUnion_op_Explicit_mE2A9B7E4A97D60EE3CDE65C44E50A3652B4FE308 (void);
+// 0x00000966 easyar.ARCoreCameraDevice easyar.VIOCameraDeviceUnion/DeviceUnion::op_Explicit(easyar.VIOCameraDeviceUnion/DeviceUnion)
+extern void DeviceUnion_op_Explicit_m68D49DF6256FEA270866B41945B51F7183EBA6DE (void);
+// 0x00000967 easyar.VIOCameraDeviceUnion/DeviceUnion easyar.VIOCameraDeviceUnion/DeviceUnion::op_Implicit(easyar.MotionTrackerCameraDevice)
+extern void DeviceUnion_op_Implicit_m8869B8479DE139FAA2F96551AC6943BAB9BC5371 (void);
+// 0x00000968 easyar.VIOCameraDeviceUnion/DeviceUnion easyar.VIOCameraDeviceUnion/DeviceUnion::op_Implicit(easyar.ARKitCameraDevice)
+extern void DeviceUnion_op_Implicit_m65996D0FD2D7B4C28828D15757CB109994D7ACA7 (void);
+// 0x00000969 easyar.VIOCameraDeviceUnion/DeviceUnion easyar.VIOCameraDeviceUnion/DeviceUnion::op_Implicit(easyar.ARCoreCameraDevice)
+extern void DeviceUnion_op_Implicit_m0029E402A88E24939B732BFAC133DC46AF0AB057 (void);
+// 0x0000096A System.Type easyar.VIOCameraDeviceUnion/DeviceUnion::Type()
+extern void DeviceUnion_Type_m2F2F0EF03A8360996DAF2FCE56D2FB4CCF79CA76 (void);
+// 0x0000096B System.String easyar.VIOCameraDeviceUnion/DeviceUnion::ToString()
+extern void DeviceUnion_ToString_m0DA63FA086F4AC7CDCC3667F7DA05B0B7650497C (void);
+// 0x0000096C System.Void easyar.VIOCameraDeviceUnion/MotionTrackerCameraDeviceParameters::.ctor()
+extern void MotionTrackerCameraDeviceParameters__ctor_mF8785BB2DC350F0A95CB04BB395EF8B571EA571E (void);
+// 0x0000096D System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass49_0::.ctor()
+extern void U3CU3Ec__DisplayClass49_0__ctor_m91ECE52B3265C1E2FFE285477929E296AC082603 (void);
+// 0x0000096E System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass49_0::<CheckAvailability>b__0(easyar.CalibrationDownloadStatus,easyar.Optional`1<System.String>)
+extern void U3CU3Ec__DisplayClass49_0_U3CCheckAvailabilityU3Eb__0_m323200DA02808A6A38A1F5C5281E9DDBD68773D1 (void);
+// 0x0000096F System.Void easyar.VIOCameraDeviceUnion/<CheckAvailability>d__49::.ctor(System.Int32)
+extern void U3CCheckAvailabilityU3Ed__49__ctor_m5ECDFD62746D74C5A84A01D07D1B9C9AAEA48825 (void);
+// 0x00000970 System.Void easyar.VIOCameraDeviceUnion/<CheckAvailability>d__49::System.IDisposable.Dispose()
+extern void U3CCheckAvailabilityU3Ed__49_System_IDisposable_Dispose_m3B3F6FF62E68395E0D9EC229FD7AB173022FE39C (void);
+// 0x00000971 System.Boolean easyar.VIOCameraDeviceUnion/<CheckAvailability>d__49::MoveNext()
+extern void U3CCheckAvailabilityU3Ed__49_MoveNext_m2081A0F35746FFF5972FDD0047EDE94EAAAEEBFE (void);
+// 0x00000972 System.Object easyar.VIOCameraDeviceUnion/<CheckAvailability>d__49::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckAvailabilityU3Ed__49_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9A3C120FAAFDD7E86878C7D14E8A4D186E150692 (void);
+// 0x00000973 System.Void easyar.VIOCameraDeviceUnion/<CheckAvailability>d__49::System.Collections.IEnumerator.Reset()
+extern void U3CCheckAvailabilityU3Ed__49_System_Collections_IEnumerator_Reset_m2FD68951EE420A6CFEF676A9085D8E0A200C8016 (void);
+// 0x00000974 System.Object easyar.VIOCameraDeviceUnion/<CheckAvailability>d__49::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckAvailabilityU3Ed__49_System_Collections_IEnumerator_get_Current_mB4BEE271B9DE1911FE82F3804D8C7F6B149294B1 (void);
+// 0x00000975 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass55_0::.ctor()
+extern void U3CU3Ec__DisplayClass55_0__ctor_m0CDAA85A4174C00F5AA05CB20C2FECA1118D6200 (void);
+// 0x00000976 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass55_0::<CreateMotionTrackerCameraDevice>b__0()
+extern void U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__0_m99FAF5101F97E957B9E02D20C8B912630C3D94AA (void);
+// 0x00000977 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass55_0::<CreateMotionTrackerCameraDevice>b__1()
+extern void U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__1_m33732EFFDAAA31972E918CF730F4DF3CFB0A29AD (void);
+// 0x00000978 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass55_0::<CreateMotionTrackerCameraDevice>b__2()
+extern void U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__2_m4CBE60B3B33AE50B992877620B10ED79A6029E90 (void);
+// 0x00000979 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass55_0::<CreateMotionTrackerCameraDevice>b__3(System.Int32)
+extern void U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__3_mEE012BEC5DD046B0D75590A71EEB5F57BBD0D878 (void);
+// 0x0000097A System.Int32 easyar.VIOCameraDeviceUnion/<>c__DisplayClass55_0::<CreateMotionTrackerCameraDevice>b__4()
+extern void U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__4_mAC27636AC0B932A57F89AF9CDEF4344B34B38B1F (void);
+// 0x0000097B System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass55_0::<CreateMotionTrackerCameraDevice>b__5(easyar.InputFrameSink)
+extern void U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__5_m048DC4C503AFA5EB82A82B50157B0A75452E7C2C (void);
+// 0x0000097C System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass56_0::.ctor()
+extern void U3CU3Ec__DisplayClass56_0__ctor_mB4D06BBAFADB7DFF777D966D3567C3862AE4AE62 (void);
+// 0x0000097D System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass56_0::<CreateARKitCameraDevice>b__0()
+extern void U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__0_m314A55831D6119FA90245E157D41DFE8E6096117 (void);
+// 0x0000097E System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass56_0::<CreateARKitCameraDevice>b__1()
+extern void U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__1_mCB259ABC520CB2C8783D651C582C3CDF790D04C7 (void);
+// 0x0000097F System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass56_0::<CreateARKitCameraDevice>b__2()
+extern void U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__2_mBB6561561F306F23335BC29859F36AD83F5A5D4C (void);
+// 0x00000980 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass56_0::<CreateARKitCameraDevice>b__3(System.Int32)
+extern void U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__3_m8F1983EDD1AEDF4C494003C76E510D8AB9324F04 (void);
+// 0x00000981 System.Int32 easyar.VIOCameraDeviceUnion/<>c__DisplayClass56_0::<CreateARKitCameraDevice>b__4()
+extern void U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__4_m20AF51E1D93FCD3D3910B7383F041741BABD0BFB (void);
+// 0x00000982 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass56_0::<CreateARKitCameraDevice>b__5(easyar.InputFrameSink)
+extern void U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__5_m466480BC16D31C8A712850CDAF4F77FD352133F9 (void);
+// 0x00000983 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass57_0::.ctor()
+extern void U3CU3Ec__DisplayClass57_0__ctor_mD1AF8DD1BC98CF2457998AB269E89B90B4E86097 (void);
+// 0x00000984 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass57_0::<CreateARCoreCameraDevice>b__0()
+extern void U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__0_m451A54476A4B91057ECDA0D0465D1C7BCEAF7E37 (void);
+// 0x00000985 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass57_0::<CreateARCoreCameraDevice>b__1()
+extern void U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__1_m02FBF6F04F94B1AEE568883049ABD3DC55340472 (void);
+// 0x00000986 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass57_0::<CreateARCoreCameraDevice>b__2()
+extern void U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__2_mC11B7DD95CF292E22FC5D541ECCCAFC3AEDDB4D0 (void);
+// 0x00000987 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass57_0::<CreateARCoreCameraDevice>b__3(System.Int32)
+extern void U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__3_mC961D6A6C304812D9538DA09EF01E0A4AE1519C3 (void);
+// 0x00000988 System.Int32 easyar.VIOCameraDeviceUnion/<>c__DisplayClass57_0::<CreateARCoreCameraDevice>b__4()
+extern void U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__4_mCEC4CD6D5F0C5096BF8EA82FC843817AC85E2330 (void);
+// 0x00000989 System.Void easyar.VIOCameraDeviceUnion/<>c__DisplayClass57_0::<CreateARCoreCameraDevice>b__5(easyar.InputFrameSink)
+extern void U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__5_m14E3CD3866C121AF07682CD78DE86213D3853668 (void);
+// 0x0000098A System.Void easyar.VIOCameraDeviceUnion/<AutoOpen>d__58::.ctor(System.Int32)
+extern void U3CAutoOpenU3Ed__58__ctor_m0B1F52EC2B49CBA1A2C97B5A140C2386674687FE (void);
+// 0x0000098B System.Void easyar.VIOCameraDeviceUnion/<AutoOpen>d__58::System.IDisposable.Dispose()
+extern void U3CAutoOpenU3Ed__58_System_IDisposable_Dispose_m1F9E6AFF807930FAE5108BC7B9F52F9710A89861 (void);
+// 0x0000098C System.Boolean easyar.VIOCameraDeviceUnion/<AutoOpen>d__58::MoveNext()
+extern void U3CAutoOpenU3Ed__58_MoveNext_m2CB7FC32E0B7BE3064A5A9E0B184101B7D76A5DC (void);
+// 0x0000098D System.Object easyar.VIOCameraDeviceUnion/<AutoOpen>d__58::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAutoOpenU3Ed__58_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF3F0FD028597C00D410FF73B2E03A0AE461F6BD6 (void);
+// 0x0000098E System.Void easyar.VIOCameraDeviceUnion/<AutoOpen>d__58::System.Collections.IEnumerator.Reset()
+extern void U3CAutoOpenU3Ed__58_System_Collections_IEnumerator_Reset_m8B2652E996712745A6C90CD4B0267A0E7F9F0BC3 (void);
+// 0x0000098F System.Object easyar.VIOCameraDeviceUnion/<AutoOpen>d__58::System.Collections.IEnumerator.get_Current()
+extern void U3CAutoOpenU3Ed__58_System_Collections_IEnumerator_get_Current_mCFA419A8C6BF1B7EA41A22EE3D12EB4BA6A707C4 (void);
+// 0x00000990 System.Void easyar.AliasAttribute::.ctor()
+extern void AliasAttribute__ctor_m9EBB2AF5E9169D1200342D77E11283ECA036EE2F (void);
+// 0x00000991 System.Void easyar.RecordAttribute::.ctor()
+extern void RecordAttribute__ctor_m73F55D638982DBE053CB6A2FC0B842D53AD5463A (void);
+// 0x00000992 System.Void easyar.TaggedUnionAttribute::.ctor()
+extern void TaggedUnionAttribute__ctor_m4BBE70C6113EDBBF3DB96DFB9266E999A15B7781 (void);
+// 0x00000993 System.Void easyar.TagAttribute::.ctor()
+extern void TagAttribute__ctor_m7AE4E4D96814E796BB07F8F5FA48AB61BFD22E74 (void);
+// 0x00000994 System.Void easyar.TupleAttribute::.ctor()
+extern void TupleAttribute__ctor_mBF72C1D704258557799C79A169447A68757FB92B (void);
+// 0x00000995 easyar.Optional`1<T> easyar.Optional`1::CreateNone()
+// 0x00000996 easyar.Optional`1<T> easyar.Optional`1::CreateSome(T)
+// 0x00000997 System.Boolean easyar.Optional`1::get_OnNone()
+// 0x00000998 System.Boolean easyar.Optional`1::get_OnSome()
+// 0x00000999 easyar.Optional`1<T> easyar.Optional`1::get_Empty()
+// 0x0000099A easyar.Optional`1<T> easyar.Optional`1::op_Implicit(T)
+// 0x0000099B T easyar.Optional`1::op_Explicit(easyar.Optional`1<T>)
+// 0x0000099C System.Boolean easyar.Optional`1::op_Equality(easyar.Optional`1<T>,easyar.Optional`1<T>)
+// 0x0000099D System.Boolean easyar.Optional`1::op_Inequality(easyar.Optional`1<T>,easyar.Optional`1<T>)
+// 0x0000099E System.Boolean easyar.Optional`1::op_Equality(System.Nullable`1<easyar.Optional`1<T>>,System.Nullable`1<easyar.Optional`1<T>>)
+// 0x0000099F System.Boolean easyar.Optional`1::op_Inequality(System.Nullable`1<easyar.Optional`1<T>>,System.Nullable`1<easyar.Optional`1<T>>)
+// 0x000009A0 System.Boolean easyar.Optional`1::Equals(System.Object)
+// 0x000009A1 System.Int32 easyar.Optional`1::GetHashCode()
+// 0x000009A2 System.Boolean easyar.Optional`1::Equals(easyar.Optional`1<T>,easyar.Optional`1<T>)
+// 0x000009A3 System.Boolean easyar.Optional`1::Equals(System.Nullable`1<easyar.Optional`1<T>>,System.Nullable`1<easyar.Optional`1<T>>)
+// 0x000009A4 T easyar.Optional`1::get_Value()
+// 0x000009A5 T easyar.Optional`1::ValueOrDefault(T)
+// 0x000009A6 System.String easyar.Optional`1::ToString()
+// 0x000009A7 UnityEngine.Matrix4x4 easyar.APIExtend::ToUnityMatrix(easyar.Matrix44F)
+extern void APIExtend_ToUnityMatrix_m246EBB5E10CAFE1C74099C6CCF3D4FE39B81CB33 (void);
+// 0x000009A8 easyar.Matrix44F easyar.APIExtend::ToEasyARMatrix(UnityEngine.Matrix4x4)
+extern void APIExtend_ToEasyARMatrix_m0B3A225B96F990A9BA03CD46178F8D773088DE28 (void);
+// 0x000009A9 UnityEngine.Pose easyar.APIExtend::ToUnityPose(easyar.Matrix44F)
+extern void APIExtend_ToUnityPose_mFFF67DE2B42DCA48E0C8EE12C642ECEB8925F80D (void);
+// 0x000009AA easyar.Matrix44F easyar.APIExtend::ToEasyARPose(UnityEngine.Pose)
+extern void APIExtend_ToEasyARPose_m9C8DE87F341DB9580CC87EF48C1005F869AAB3FF (void);
+// 0x000009AB easyar.Vec2F easyar.APIExtend::ToEasyARVector(UnityEngine.Vector2)
+extern void APIExtend_ToEasyARVector_mA9BAAFC70177249A371F67ECD7DCEB93071A686F (void);
+// 0x000009AC easyar.Vec3F easyar.APIExtend::ToEasyARVector(UnityEngine.Vector3)
+extern void APIExtend_ToEasyARVector_m665D3E21E60A24CFA3A1C6C076F46C3871DFDAEF (void);
+// 0x000009AD UnityEngine.Vector2 easyar.APIExtend::ToUnityVector(easyar.Vec2F)
+extern void APIExtend_ToUnityVector_m873EAAC343F09BC9CD42EC24CACD174EE2AC9685 (void);
+// 0x000009AE UnityEngine.Vector3 easyar.APIExtend::ToUnityVector(easyar.Vec3F)
+extern void APIExtend_ToUnityVector_m218A3A2091F462A35677C7051F0E3A10EBE99326 (void);
+// 0x000009AF UnityEngine.Pose easyar.APIExtend::Inverse(UnityEngine.Pose)
+extern void APIExtend_Inverse_mBD6FABEC78A7388AAFC3C1FAEA4FAFC3D725510A (void);
+// 0x000009B0 UnityEngine.Pose easyar.APIExtend::FlipX(UnityEngine.Pose,System.Boolean)
+extern void APIExtend_FlipX_m4B1503113C6A2E5034124752AB504E8185E76D9F (void);
+// 0x000009B1 System.Collections.IEnumerator easyar.FileUtil::LoadFile(System.String,easyar.PathType,System.Action`1<easyar.Buffer>)
+extern void FileUtil_LoadFile_m610E1F14E43803D915077BB5C0E2CE4BD0481703 (void);
+// 0x000009B2 System.Collections.IEnumerator easyar.FileUtil::LoadFile(System.String,easyar.PathType,System.Action`1<System.Byte[]>,System.Action`1<System.String>)
+extern void FileUtil_LoadFile_m81391E37EAE00EA7E8EBBF9928A25D2B71AA7C49 (void);
+// 0x000009B3 System.String easyar.FileUtil::PathToUrl(System.String)
+extern void FileUtil_PathToUrl_mB231105B0AF2D403A3A9BD811921067A7112CDF1 (void);
+// 0x000009B4 System.Void easyar.FileUtil::ImportSampleStreamingAssets()
+extern void FileUtil_ImportSampleStreamingAssets_m5BA4634D419CBEECA88F006AB9614B768CF5110A (void);
+// 0x000009B5 System.Void easyar.FileUtil/<>c__DisplayClass1_0::.ctor()
+extern void U3CU3Ec__DisplayClass1_0__ctor_m154091B11FEE186F996B0920A9FC8044374314D1 (void);
+// 0x000009B6 System.Void easyar.FileUtil/<>c__DisplayClass1_0::<LoadFile>b__0(System.Byte[])
+extern void U3CU3Ec__DisplayClass1_0_U3CLoadFileU3Eb__0_mF735644B1372A8A29DBBEABD6BEC8D20C4D2EBA4 (void);
+// 0x000009B7 System.Void easyar.FileUtil/<LoadFile>d__2::.ctor(System.Int32)
+extern void U3CLoadFileU3Ed__2__ctor_mF46E3F99265D45E45F528E39E1B91D6B43C09C9D (void);
+// 0x000009B8 System.Void easyar.FileUtil/<LoadFile>d__2::System.IDisposable.Dispose()
+extern void U3CLoadFileU3Ed__2_System_IDisposable_Dispose_m7980F12FA90023EC0621C13A21B922A3A7A56ED5 (void);
+// 0x000009B9 System.Boolean easyar.FileUtil/<LoadFile>d__2::MoveNext()
+extern void U3CLoadFileU3Ed__2_MoveNext_m2528306E3AED3DE23D334F4B576E2DB09EAA7A9C (void);
+// 0x000009BA System.Void easyar.FileUtil/<LoadFile>d__2::<>m__Finally1()
+extern void U3CLoadFileU3Ed__2_U3CU3Em__Finally1_mEB59E4E60DB6374223F5553502521898F70E7BA1 (void);
+// 0x000009BB System.Object easyar.FileUtil/<LoadFile>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadFileU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m00528705AFB3952F9E3B6BBFC8A0E026C5F690F4 (void);
+// 0x000009BC System.Void easyar.FileUtil/<LoadFile>d__2::System.Collections.IEnumerator.Reset()
+extern void U3CLoadFileU3Ed__2_System_Collections_IEnumerator_Reset_mF9B5C3E4F6503E0CE41CCD802485CEA1A50C744A (void);
+// 0x000009BD System.Object easyar.FileUtil/<LoadFile>d__2::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadFileU3Ed__2_System_Collections_IEnumerator_get_Current_mF1E3BC7407B1C220DBFB40F37BFBDDC968B1A01D (void);
+// 0x000009BE System.Void easyar.GUIPopup::Start()
+extern void GUIPopup_Start_m0C82A4A8A667B4C19FE7BC84D5D1265FB493A575 (void);
+// 0x000009BF System.Void easyar.GUIPopup::OnDestroy()
+extern void GUIPopup_OnDestroy_m1FABB703528E69981FF566CD3FB6757D73372A19 (void);
+// 0x000009C0 System.Void easyar.GUIPopup::EnqueueMessage(System.String,System.Single,System.Boolean)
+extern void GUIPopup_EnqueueMessage_mE38C2A9433BEC0EDF3015528068A89C522B85139 (void);
+// 0x000009C1 System.Collections.IEnumerator easyar.GUIPopup::ShowMessage()
+extern void GUIPopup_ShowMessage_m248135411D5F3C8EA3F3A3F8F229E2B5E0109155 (void);
+// 0x000009C2 System.Void easyar.GUIPopup::OnGUI()
+extern void GUIPopup_OnGUI_mFBB72848CE3804F3C085521534F39694A1E1CEE6 (void);
+// 0x000009C3 System.Void easyar.GUIPopup::ShowMessage(easyar.Optional`1<easyar.GUIPopup/MessageData>)
+extern void GUIPopup_ShowMessage_mDF7104B94135E814850CB954C9952BDDFF1B5333 (void);
+// 0x000009C4 System.Void easyar.GUIPopup::.ctor()
+extern void GUIPopup__ctor_mBFC3EC7BDBEF74704420959C921819007C1AE56C (void);
+// 0x000009C5 System.Void easyar.GUIPopup/<ShowMessage>d__9::.ctor(System.Int32)
+extern void U3CShowMessageU3Ed__9__ctor_mE85282FBDCE17CF659885C18ADEFBDFFCA593E52 (void);
+// 0x000009C6 System.Void easyar.GUIPopup/<ShowMessage>d__9::System.IDisposable.Dispose()
+extern void U3CShowMessageU3Ed__9_System_IDisposable_Dispose_m688740C7FEB3ADD028C5B80E5110ED291CFE5CC5 (void);
+// 0x000009C7 System.Boolean easyar.GUIPopup/<ShowMessage>d__9::MoveNext()
+extern void U3CShowMessageU3Ed__9_MoveNext_m7BD048D055C1CBFFBAB2A55486DD373361AC51BF (void);
+// 0x000009C8 System.Object easyar.GUIPopup/<ShowMessage>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CShowMessageU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4EBBA75D1E500F19C2D4F0159A27C7F5CE9311AA (void);
+// 0x000009C9 System.Void easyar.GUIPopup/<ShowMessage>d__9::System.Collections.IEnumerator.Reset()
+extern void U3CShowMessageU3Ed__9_System_Collections_IEnumerator_Reset_m09A0C3BF5C45E9025C91101055E783B4E93E587F (void);
+// 0x000009CA System.Object easyar.GUIPopup/<ShowMessage>d__9::System.Collections.IEnumerator.get_Current()
+extern void U3CShowMessageU3Ed__9_System_Collections_IEnumerator_get_Current_m7F35A03744BF040DA39B1681D22C6A0576B46301 (void);
+// 0x000009CB System.Void easyar.UIPopupException::.ctor(System.String,System.Single)
+extern void UIPopupException__ctor_mD0A82FF416EEFB798E10E1C32F9EC5CE449DB258 (void);
+// 0x000009CC System.Void easyar.UIPopupException::.ctor(System.String)
+extern void UIPopupException__ctor_m2028C0A495324E4FAD33E2E48EDE7347C6BF2F6C (void);
+// 0x000009CD easyar.PixelFormat easyar.ImageUtil::CheckPixelFormat(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+extern void ImageUtil_CheckPixelFormat_mE676917F9EAD35174E4C592F568D37A3E77FCDF2 (void);
+// 0x000009CE UnityEngine.Vector2Int easyar.ImageUtil::GetPixelSize(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32)
+extern void ImageUtil_GetPixelSize_mE4DC57DA13C7FFEA87235AB77E23B502F80CC991 (void);
+// 0x000009CF System.Void easyar.ImageUtil::FillImageBuffer(System.Tuple`2<System.IntPtr,System.Int32>,System.Tuple`2<System.IntPtr,System.Int32>,System.Tuple`2<System.IntPtr,System.Int32>,UnityEngine.Vector2Int,easyar.PixelFormat,easyar.Buffer)
+extern void ImageUtil_FillImageBuffer_mFB9D84124DBBED7D64A6AF886C1CA047FE78D97A (void);
+// 0x000009D0 System.Void easyar.ThreadWorker::Finalize()
+extern void ThreadWorker_Finalize_mAF2DB6D28678A142E1A18F491CA41DF6B03CB150 (void);
+// 0x000009D1 System.Void easyar.ThreadWorker::Dispose()
+extern void ThreadWorker_Dispose_mCB163CDEF06B33B778EFDD19339F44CE7B0BF2A1 (void);
+// 0x000009D2 System.Void easyar.ThreadWorker::Run(System.Action)
+extern void ThreadWorker_Run_mE19FF9BF70FEBC298AB58494630216F2FB775F03 (void);
+// 0x000009D3 System.Void easyar.ThreadWorker::CreateThread()
+extern void ThreadWorker_CreateThread_mAA57B2B09B3ADA3CE29E8F7EBA45A2B00C9EAAE9 (void);
+// 0x000009D4 System.Void easyar.ThreadWorker::Finish()
+extern void ThreadWorker_Finish_m5A3FDD0AEFFAB94BB82B0FE7A1FD85AEE5BCA54A (void);
+// 0x000009D5 System.Void easyar.ThreadWorker::.ctor()
+extern void ThreadWorker__ctor_m7C3D8587DDFFE05853F60422C3A65F292A057E8C (void);
+// 0x000009D6 System.Void easyar.ThreadWorker::<CreateThread>b__6_0()
+extern void ThreadWorker_U3CCreateThreadU3Eb__6_0_m4BD149C1C0325DC3B62BBF637308E7A03733C84A (void);
+// 0x000009D7 System.Void easyar.EasyARVersion::.ctor()
+extern void EasyARVersion__ctor_mB8593FCE7A0F4CF143DDBC6FF60D6017435482FC (void);
+// 0x000009D8 System.Void easyar.ARAssembly::Finalize()
+extern void ARAssembly_Finalize_m071A060913C2454EF80B9F994BA5A7E3F54E4033 (void);
+// 0x000009D9 easyar.FrameSource easyar.ARAssembly::get_FrameSource()
+extern void ARAssembly_get_FrameSource_m90C2102DAB3E58792051000792948892BD1F1377 (void);
+// 0x000009DA System.Void easyar.ARAssembly::set_FrameSource(easyar.FrameSource)
+extern void ARAssembly_set_FrameSource_mCF676C86759E116F94970A77EA82DEB038DE0474 (void);
+// 0x000009DB easyar.FrameRecorder easyar.ARAssembly::get_FrameRecorder()
+extern void ARAssembly_get_FrameRecorder_m466821D55D7E6C20E6855683F0B61BAB31BC3663 (void);
+// 0x000009DC System.Void easyar.ARAssembly::set_FrameRecorder(easyar.FrameRecorder)
+extern void ARAssembly_set_FrameRecorder_m03799B51699EF19881CE19B399AB488BEED8FE68 (void);
+// 0x000009DD System.Collections.Generic.List`1<easyar.FrameFilter> easyar.ARAssembly::get_FrameFilters()
+extern void ARAssembly_get_FrameFilters_m1385B673BF63B3C979935AA0880B60C3E305174C (void);
+// 0x000009DE System.Void easyar.ARAssembly::set_FrameFilters(System.Collections.Generic.List`1<easyar.FrameFilter>)
+extern void ARAssembly_set_FrameFilters_m9CB2DD721F390B4D5239DCE7299F9C46233ADD48 (void);
+// 0x000009DF UnityEngine.Camera easyar.ARAssembly::get_Camera()
+extern void ARAssembly_get_Camera_mC6B606117E775EE115EDE9C2F99DBCE08992370A (void);
+// 0x000009E0 System.Void easyar.ARAssembly::set_Camera(UnityEngine.Camera)
+extern void ARAssembly_set_Camera_m159D5EA6B6DB6368D610DF725D56FC45C54A428E (void);
+// 0x000009E1 System.Boolean easyar.ARAssembly::get_Ready()
+extern void ARAssembly_get_Ready_m2E13F66DD9CC20F59FFCA7B7483031FD4C552690 (void);
+// 0x000009E2 System.Void easyar.ARAssembly::set_Ready(System.Boolean)
+extern void ARAssembly_set_Ready_m79EDF61D92FFBB19B0753FC4B022667CD61D9D5F (void);
+// 0x000009E3 easyar.Optional`1<easyar.OutputFrame> easyar.ARAssembly::get_OutputFrame()
+extern void ARAssembly_get_OutputFrame_m84D142561D62180449E5698D5F86D3EFE652B567 (void);
+// 0x000009E4 System.Int32 easyar.ARAssembly::get_ExtraBufferCapacity()
+extern void ARAssembly_get_ExtraBufferCapacity_m1D381FA46040088603566DB305B090EB42FB38FF (void);
+// 0x000009E5 System.Void easyar.ARAssembly::set_ExtraBufferCapacity(System.Int32)
+extern void ARAssembly_set_ExtraBufferCapacity_m1DAC470DA0AD4ECE62EACA8146A8B4E9873FDC39 (void);
+// 0x000009E6 easyar.IDisplay easyar.ARAssembly::get_Display()
+extern void ARAssembly_get_Display_m7F71F9A9B8D7AAAC1A9072887BF47E1162B1EEF2 (void);
+// 0x000009E7 System.Void easyar.ARAssembly::Dispose()
+extern void ARAssembly_Dispose_mCFDF4627BF98CB976EEE4C3A31A685C594D7F481 (void);
+// 0x000009E8 System.Void easyar.ARAssembly::Assemble(easyar.ARAssembly/Components,easyar.ARSession)
+extern void ARAssembly_Assemble_m7EFE2BDB1537EB65541AF74C9CB73268247EC25C (void);
+// 0x000009E9 System.Void easyar.ARAssembly::Break()
+extern void ARAssembly_Break_mE1A3C456E2806307DF6E8C91CD38142225207C84 (void);
+// 0x000009EA System.Void easyar.ARAssembly::Pause()
+extern void ARAssembly_Pause_m8335982C4F232C269D460E695A58A43AEFABA6B6 (void);
+// 0x000009EB System.Void easyar.ARAssembly::Resume()
+extern void ARAssembly_Resume_m73D8536F91A35F46FD54BC9552574A2CD9B2E9F2 (void);
+// 0x000009EC System.Void easyar.ARAssembly::ResetBufferCapacity()
+extern void ARAssembly_ResetBufferCapacity_m6B744F3E1C8069E4E4B28398E475848353983AC9 (void);
+// 0x000009ED System.Int32 easyar.ARAssembly::GetBufferRequirement()
+extern void ARAssembly_GetBufferRequirement_m80F55059DD7EA31BE2E49F7ABE3633C01663C74D (void);
+// 0x000009EE System.Int32 easyar.ARAssembly::GetFrameFilterCount()
+// 0x000009EF System.Void easyar.ARAssembly::Assemble()
+extern void ARAssembly_Assemble_m84029F899F2089E6ED719F01FB7026AAAB457B06 (void);
+// 0x000009F0 System.Void easyar.ARAssembly::DisposeAll()
+extern void ARAssembly_DisposeAll_m518D9EE99FF74A359C204F4FF9AC07D26F89AAD0 (void);
+// 0x000009F1 System.Void easyar.ARAssembly::.ctor()
+extern void ARAssembly__ctor_m45C2E5D2DD6A9D23FDA22288B1E58E5AFDD7EDC5 (void);
+// 0x000009F2 System.Void easyar.ARAssembly/Components::.ctor()
+extern void Components__ctor_m4D53A82CD7347BD0DC53DF4A1A9402924CA1E685 (void);
+// 0x000009F3 System.Collections.IEnumerator easyar.ARComponentPicker::Pick(System.Action`1<easyar.ARAssembly/Components>)
+extern void ARComponentPicker_Pick_mD7E53BCCC442B61B8125D9674D64E515E34150E9 (void);
+// 0x000009F4 easyar.ARAssembly/Components easyar.ARComponentPicker::Preview()
+extern void ARComponentPicker_Preview_mDD91448832626E7E0FE2BA98806E73A18742048B (void);
+// 0x000009F5 System.Collections.Generic.List`1<CType> easyar.ARComponentPicker::GetComponentsInChildrenTransformOrder()
+// 0x000009F6 System.Void easyar.ARComponentPicker::PickFrameSourceForPreview(easyar.ARAssembly/Components)
+extern void ARComponentPicker_PickFrameSourceForPreview_mAB22923F69F647BABA3D423BB121B1A43E775905 (void);
+// 0x000009F7 System.Void easyar.ARComponentPicker::PickFrameFilter(easyar.ARAssembly/Components)
+extern void ARComponentPicker_PickFrameFilter_m2B894D1958E51F93BEE265D430D3D44E6E104303 (void);
+// 0x000009F8 System.Void easyar.ARComponentPicker::PickFrameRecorder(easyar.ARAssembly/Components)
+extern void ARComponentPicker_PickFrameRecorder_m9FC9B73251905282BD82C012D4A558E55FB67ABA (void);
+// 0x000009F9 System.Boolean easyar.ARComponentPicker::PickFramePlayer(easyar.ARAssembly/Components)
+extern void ARComponentPicker_PickFramePlayer_m29128F52CFA448C1F099B7D579AACE34B99773E6 (void);
+// 0x000009FA System.Collections.IEnumerator easyar.ARComponentPicker::PickFrameSource(easyar.ARAssembly/Components)
+extern void ARComponentPicker_PickFrameSource_mC5FFF86128DEEE6C147676282FDE3B84B390D4F6 (void);
+// 0x000009FB System.Collections.IEnumerator easyar.ARComponentPicker::SelectFirstAvailableActiveFrameSource(System.Action`1<easyar.FrameSource>)
+extern void ARComponentPicker_SelectFirstAvailableActiveFrameSource_m6E0160C138331579D521C54F440810802449D812 (void);
+// 0x000009FC System.Void easyar.ARComponentPicker::GetComponentsInChildrenTransformOrder(System.Collections.Generic.List`1<CType>,UnityEngine.Transform)
+// 0x000009FD System.Void easyar.ARComponentPicker::.ctor()
+extern void ARComponentPicker__ctor_m41F61F8F9553FF5716D0C643BA66D0EF222876B5 (void);
+// 0x000009FE System.Void easyar.ARComponentPicker/<Pick>d__7::.ctor(System.Int32)
+extern void U3CPickU3Ed__7__ctor_m4EE934EB1682A77CE1BF8557C2DD73D8C54DDB96 (void);
+// 0x000009FF System.Void easyar.ARComponentPicker/<Pick>d__7::System.IDisposable.Dispose()
+extern void U3CPickU3Ed__7_System_IDisposable_Dispose_m3AC35BE30B3C853A039E7873DB26962121401ED7 (void);
+// 0x00000A00 System.Boolean easyar.ARComponentPicker/<Pick>d__7::MoveNext()
+extern void U3CPickU3Ed__7_MoveNext_m68F9A05A55B56404517B3425C7D4D4BA1A793788 (void);
+// 0x00000A01 System.Object easyar.ARComponentPicker/<Pick>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CPickU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m00B768879614670DA55E3AC6295D9F1AC5AA7489 (void);
+// 0x00000A02 System.Void easyar.ARComponentPicker/<Pick>d__7::System.Collections.IEnumerator.Reset()
+extern void U3CPickU3Ed__7_System_Collections_IEnumerator_Reset_m083C41743E441CDB9EA721895E456B24616E9E94 (void);
+// 0x00000A03 System.Object easyar.ARComponentPicker/<Pick>d__7::System.Collections.IEnumerator.get_Current()
+extern void U3CPickU3Ed__7_System_Collections_IEnumerator_get_Current_mB8ADFF3714C23FCD43170A9ECD9F08EE45BA2693 (void);
+// 0x00000A04 System.Void easyar.ARComponentPicker/<>c__DisplayClass14_0::.ctor()
+extern void U3CU3Ec__DisplayClass14_0__ctor_m4FB6D93CF3D4BAAD78764DCF284D95D39D97F0B3 (void);
+// 0x00000A05 System.Void easyar.ARComponentPicker/<>c__DisplayClass14_0::<PickFrameSource>b__0(easyar.FrameSource)
+extern void U3CU3Ec__DisplayClass14_0_U3CPickFrameSourceU3Eb__0_m14232108237D0A718278FCDB61623D2008D87FC8 (void);
+// 0x00000A06 System.Void easyar.ARComponentPicker/<PickFrameSource>d__14::.ctor(System.Int32)
+extern void U3CPickFrameSourceU3Ed__14__ctor_mA8CEB85EA7EB8C1814EB1E2BFD24495F633E123E (void);
+// 0x00000A07 System.Void easyar.ARComponentPicker/<PickFrameSource>d__14::System.IDisposable.Dispose()
+extern void U3CPickFrameSourceU3Ed__14_System_IDisposable_Dispose_m7CF6A960F1C0D570D03D912796E0F0C7B3DBBFF9 (void);
+// 0x00000A08 System.Boolean easyar.ARComponentPicker/<PickFrameSource>d__14::MoveNext()
+extern void U3CPickFrameSourceU3Ed__14_MoveNext_m62F22CE653A5E8EEC509B5CA6A28783745A03E81 (void);
+// 0x00000A09 System.Object easyar.ARComponentPicker/<PickFrameSource>d__14::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CPickFrameSourceU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD38BA6895C5CEA33E9F44B9310777961443CF73D (void);
+// 0x00000A0A System.Void easyar.ARComponentPicker/<PickFrameSource>d__14::System.Collections.IEnumerator.Reset()
+extern void U3CPickFrameSourceU3Ed__14_System_Collections_IEnumerator_Reset_mD6ED6F6D6A43B86287D57F345D9A398BAF3A749A (void);
+// 0x00000A0B System.Object easyar.ARComponentPicker/<PickFrameSource>d__14::System.Collections.IEnumerator.get_Current()
+extern void U3CPickFrameSourceU3Ed__14_System_Collections_IEnumerator_get_Current_m2F3248B140B93E998B74400B8F0FEE31D137C5C8 (void);
+// 0x00000A0C System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__15::.ctor(System.Int32)
+extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__15__ctor_mAA75564C7E7493E1B504093FE8320599BE40619F (void);
+// 0x00000A0D System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__15::System.IDisposable.Dispose()
+extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_System_IDisposable_Dispose_m2772A217D716A1854F6A6E3124F18C4B853E6A86 (void);
+// 0x00000A0E System.Boolean easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__15::MoveNext()
+extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_MoveNext_mEEA8F0D0A2DA2672601EC9624DCD4A027727312E (void);
+// 0x00000A0F System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__15::<>m__Finally1()
+extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_U3CU3Em__Finally1_mB92134C7D5FAACEC861428EB8C935510D4BBFE9C (void);
+// 0x00000A10 System.Object easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__15::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE67838EF3E39375FB8F9AE75CC05938EF2A5497B (void);
+// 0x00000A11 System.Void easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__15::System.Collections.IEnumerator.Reset()
+extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_System_Collections_IEnumerator_Reset_mADCE01B7B19AE54303D0FA7246ED8FD8F7BD6B4C (void);
+// 0x00000A12 System.Object easyar.ARComponentPicker/<SelectFirstAvailableActiveFrameSource>d__15::System.Collections.IEnumerator.get_Current()
+extern void U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_System_Collections_IEnumerator_get_Current_mE4E1EED59492E9A35BF9613410A38EE80665B177 (void);
+// 0x00000A13 System.Void easyar.ARSession::add_FrameChange(easyar.ARSession/FrameChangeAction)
+extern void ARSession_add_FrameChange_mF5107795C3D4A240E859492CFDA751E428D7C02F (void);
+// 0x00000A14 System.Void easyar.ARSession::remove_FrameChange(easyar.ARSession/FrameChangeAction)
+extern void ARSession_remove_FrameChange_m69AC18D52490B6E616B42FCE7F9E781CF7DFC459 (void);
+// 0x00000A15 System.Void easyar.ARSession::add_FrameUpdate(System.Action`1<easyar.OutputFrame>)
+extern void ARSession_add_FrameUpdate_mE9E2D5B99E1B74A74DF30DAB09A35981B0512C81 (void);
+// 0x00000A16 System.Void easyar.ARSession::remove_FrameUpdate(System.Action`1<easyar.OutputFrame>)
+extern void ARSession_remove_FrameUpdate_m070FDF096917B4C4F07FAFCB8AECA50FB66B1E6C (void);
+// 0x00000A17 System.Void easyar.ARSession::add_StateChanged(System.Action`1<easyar.ARSession/SessionState>)
+extern void ARSession_add_StateChanged_mB48474C43E473D3D6BE692B2304C4218DE66D16E (void);
+// 0x00000A18 System.Void easyar.ARSession::remove_StateChanged(System.Action`1<easyar.ARSession/SessionState>)
+extern void ARSession_remove_StateChanged_m1C2297C682430AB13D8E2EAB5829453A119D58E1 (void);
+// 0x00000A19 UnityEngine.GameObject easyar.ARSession::get_SpecificTargetCenter()
+extern void ARSession_get_SpecificTargetCenter_m073B46773B64BF6D53D8209991AAFBCCD659FD1F (void);
+// 0x00000A1A System.Void easyar.ARSession::set_SpecificTargetCenter(UnityEngine.GameObject)
+extern void ARSession_set_SpecificTargetCenter_mFF8A89316911782D564948580448B36C953EC2D2 (void);
+// 0x00000A1B UnityEngine.GameObject easyar.ARSession::get_CenterObject()
+extern void ARSession_get_CenterObject_mBB894C35750938190298F7D5FF92758174A303D5 (void);
+// 0x00000A1C System.Void easyar.ARSession::set_CenterObject(UnityEngine.GameObject)
+extern void ARSession_set_CenterObject_m5E99FC89653FF9CD078C0F7228861BF6150A33B8 (void);
+// 0x00000A1D easyar.ARAssembly easyar.ARSession::get_Assembly()
+extern void ARSession_get_Assembly_mD1EE98F79892BB336FDEB644E9E2FE68B5EF3994 (void);
+// 0x00000A1E System.Void easyar.ARSession::set_Assembly(easyar.ARAssembly)
+extern void ARSession_set_Assembly_m30CE5F39EA56E76FE3B1B96ABA52F6DC9EA308D6 (void);
+// 0x00000A1F easyar.Optional`1<easyar.CameraParameters> easyar.ARSession::get_FrameCameraParameters()
+extern void ARSession_get_FrameCameraParameters_mB35C4603E0D0ECA742D25DE6B0FF51750D69AEF9 (void);
+// 0x00000A20 System.Void easyar.ARSession::set_FrameCameraParameters(easyar.Optional`1<easyar.CameraParameters>)
+extern void ARSession_set_FrameCameraParameters_m1728242106C822603033D07AB1ED2DBE29780640 (void);
+// 0x00000A21 System.Collections.Generic.IReadOnlyList`1<easyar.ARSession/ARCenterMode> easyar.ARSession::get_AvailableCenterMode()
+extern void ARSession_get_AvailableCenterMode_mE27967E2CB5EA8A2D922FCEF0576EBB8646D2610 (void);
+// 0x00000A22 UnityEngine.GameObject easyar.ARSession::get_Origin()
+extern void ARSession_get_Origin_m45A40C95EFFF621EA4A2DA09BEA6EC5AFFFE5005 (void);
+// 0x00000A23 easyar.Optional`1<easyar.MotionTrackingStatus> easyar.ARSession::get_TrackingStatus()
+extern void ARSession_get_TrackingStatus_m52BB5973FA0C5433DB5DE85A2CC9EACEB394B0E7 (void);
+// 0x00000A24 easyar.ARSession/SessionState easyar.ARSession::get_State()
+extern void ARSession_get_State_mD075FC4C3644F367D17BE26B7D6A018925655245 (void);
+// 0x00000A25 System.Void easyar.ARSession::set_State(easyar.ARSession/SessionState)
+extern void ARSession_set_State_m94CE0C3A59F5C42DDA406E8AC4ACD45FD0A10738 (void);
+// 0x00000A26 System.Void easyar.ARSession::Start()
+extern void ARSession_Start_mF04C0150C150F06769E349547D13473F2478A7DF (void);
+// 0x00000A27 System.Void easyar.ARSession::OnDestroy()
+extern void ARSession_OnDestroy_mF5A6E1A0C48F44C4EDDFF26E8904AFD008D1E4BC (void);
+// 0x00000A28 System.Void easyar.ARSession::UpdateSession()
+extern void ARSession_UpdateSession_mAE0D223D4379B54483585D93FF9789FD56889B9D (void);
+// 0x00000A29 easyar.Optional`1<UnityEngine.Vector2> easyar.ARSession::ImageCoordinatesFromScreenCoordinates(UnityEngine.Vector2)
+extern void ARSession_ImageCoordinatesFromScreenCoordinates_mC77A19D85FCBA0836F2077706A51699A38AC65FC (void);
+// 0x00000A2A System.Void easyar.ARSession::OnFrameUpdate(easyar.OutputFrame,easyar.InputFrame,UnityEngine.Quaternion)
+extern void ARSession_OnFrameUpdate_m45173BDF97784D3262BEB637107EA7D71B779867 (void);
+// 0x00000A2B System.Void easyar.ARSession::OnEmptyFrame()
+extern void ARSession_OnEmptyFrame_mDED2C86E05C346A6B4F2834A870E7D7F99912856 (void);
+// 0x00000A2C System.Void easyar.ARSession::.ctor()
+extern void ARSession__ctor_mD69EF89E59AAF597EF5B54239387D956ED622936 (void);
+// 0x00000A2D System.Void easyar.ARSession::<Start>b__44_0(easyar.ARAssembly/Components)
+extern void ARSession_U3CStartU3Eb__44_0_m1AC676313D82D5114744DB64519CB5B313D933D2 (void);
+// 0x00000A2E System.Void easyar.ARSession::<OnFrameUpdate>g__disposeResults|48_0(easyar.ARSession/<>c__DisplayClass48_0&)
+extern void ARSession_U3COnFrameUpdateU3Eg__disposeResultsU7C48_0_mB7CC7C2255F3729057C240B282FF03CC0C3C01D3 (void);
+// 0x00000A2F System.Void easyar.ARSession/FrameChangeAction::.ctor(System.Object,System.IntPtr)
+extern void FrameChangeAction__ctor_m785D930385A2E527988D65AFC722B2B26D303ADB (void);
+// 0x00000A30 System.Void easyar.ARSession/FrameChangeAction::Invoke(easyar.OutputFrame,UnityEngine.Quaternion)
+extern void FrameChangeAction_Invoke_m29858D2C52B8F2670C6DF0702F62C57418E63E38 (void);
+// 0x00000A31 System.IAsyncResult easyar.ARSession/FrameChangeAction::BeginInvoke(easyar.OutputFrame,UnityEngine.Quaternion,System.AsyncCallback,System.Object)
+extern void FrameChangeAction_BeginInvoke_m116FC07710E85094C29C2CB56B23B191B65B6917 (void);
+// 0x00000A32 System.Void easyar.ARSession/FrameChangeAction::EndInvoke(System.IAsyncResult)
+extern void FrameChangeAction_EndInvoke_mB2B72EFBB20BE9862E2E8E7D5A502FDA1EA4F7AC (void);
+// 0x00000A33 System.Void easyar.ARSession/<>c::.cctor()
+extern void U3CU3Ec__cctor_mABC56E2BCCD266167F42369507B7CE1D09E111F3 (void);
+// 0x00000A34 System.Void easyar.ARSession/<>c::.ctor()
+extern void U3CU3Ec__ctor_m131BC1DD09E6381C0E9E66CD870427178A5AD073 (void);
+// 0x00000A35 System.Boolean easyar.ARSession/<>c::<OnFrameUpdate>b__48_1(easyar.Optional`1<easyar.FrameFilterResult>)
+extern void U3CU3Ec_U3COnFrameUpdateU3Eb__48_1_m6C06AD4F403B70AA5B52FFD059F6F9E5AEA538DD (void);
+// 0x00000A36 System.Boolean easyar.ARSession/<>c::<OnFrameUpdate>b__48_2(easyar.FrameFilter)
+extern void U3CU3Ec_U3COnFrameUpdateU3Eb__48_2_m5D25AC7172F8EEDDE7F3030790D0B129A99E5ECD (void);
+// 0x00000A37 System.Boolean easyar.ARSession/<>c::<OnEmptyFrame>b__49_0(easyar.FrameFilter)
+extern void U3CU3Ec_U3COnEmptyFrameU3Eb__49_0_m6AEC915DDE469A932A61FD961E4B3C2E8BBC7CA0 (void);
+// 0x00000A38 System.Int32 easyar.FrameFilter::get_BufferRequirement()
+// 0x00000A39 System.Void easyar.FrameFilter::OnAssemble(easyar.ARSession)
+extern void FrameFilter_OnAssemble_mFC0ACCAA2717E67A5813187806E6CC7BC54E29B6 (void);
+// 0x00000A3A System.Void easyar.FrameFilter::UpdateMotion(System.Double,easyar.MotionTrackingStatus,easyar.Matrix44F)
+extern void FrameFilter_UpdateMotion_mEF0DE3293ED0DE2A4A39C7929E2FF5C1E5B6B3A4 (void);
+// 0x00000A3B easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.FrameFilter::TryGetCenter(UnityEngine.GameObject)
+extern void FrameFilter_TryGetCenter_m56525C41F7CA38DF3EB63293C6EEA9BE04823F56 (void);
+// 0x00000A3C System.Void easyar.FrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+extern void FrameFilter_UpdateTransform_m6DF0EB6DE6A4FE9C9B608B9BF027A33C8491F6CD (void);
+// 0x00000A3D System.Void easyar.FrameFilter::SetHFlip(easyar.ARSession/ARHorizontalFlipMode)
+extern void FrameFilter_SetHFlip_mE696BC63124468018A99A51D7ECE2A9759A4A1BA (void);
+// 0x00000A3E System.Void easyar.FrameFilter::OnHFlipChange(System.Boolean)
+extern void FrameFilter_OnHFlipChange_m2B4CE814B4C3649E59C8484308C421127B92B089 (void);
+// 0x00000A3F easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.FrameFilter::TryGetCenterTarget(UnityEngine.GameObject)
+extern void FrameFilter_TryGetCenterTarget_m80F02FD5762F438788D3B765F7F1A92FE66E13B8 (void);
+// 0x00000A40 System.Void easyar.FrameFilter::UpdateTargetTransform(UnityEngine.GameObject,UnityEngine.Pose)
+extern void FrameFilter_UpdateTargetTransform_m4A7CBF9404A439EF323808B698C1F1933472C7A6 (void);
+// 0x00000A41 System.Void easyar.FrameFilter::.ctor()
+extern void FrameFilter__ctor_m3294372A748440126E65D15A1246C002035B00A0 (void);
+// 0x00000A42 easyar.FeedbackFrameSink easyar.FrameFilter/IFeedbackFrameSink::FeedbackFrameSink()
+// 0x00000A43 easyar.InputFrameSink easyar.FrameFilter/IInputFrameSink::InputFrameSink()
+// 0x00000A44 easyar.OutputFrameSource easyar.FrameFilter/IOutputFrameSource::OutputFrameSource()
+// 0x00000A45 System.Void easyar.FrameFilter/IOutputFrameSource::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+// 0x00000A46 System.Void easyar.FrameFilter/<>c__DisplayClass14_0::.ctor()
+extern void U3CU3Ec__DisplayClass14_0__ctor_mBA1D7AADFD2D9950AF092BEA80486D170188D04A (void);
+// 0x00000A47 System.Boolean easyar.FrameFilter/<>c__DisplayClass14_0::<TryGetCenterTarget>b__0(System.Tuple`2<easyar.TargetController,UnityEngine.Pose>)
+extern void U3CU3Ec__DisplayClass14_0_U3CTryGetCenterTargetU3Eb__0_m92E6D0E3B95979A1164579A767F258F7D4F27998 (void);
+// 0x00000A48 System.Void easyar.FrameFilter/<>c__DisplayClass15_0::.ctor()
+extern void U3CU3Ec__DisplayClass15_0__ctor_m98E284C43040DF5A7A0EC28319B4FC1AAA3D07BA (void);
+// 0x00000A49 System.Boolean easyar.FrameFilter/<>c__DisplayClass15_0::<UpdateTargetTransform>b__0(System.Tuple`2<easyar.TargetController,UnityEngine.Pose>)
+extern void U3CU3Ec__DisplayClass15_0_U3CUpdateTargetTransformU3Eb__0_mF6D1495E8EA5A331754ABDC6630EF1771D78660B (void);
+// 0x00000A4A easyar.Optional`1<System.Boolean> easyar.FramePlayer::get_IsAvailable()
+extern void FramePlayer_get_IsAvailable_m6AE06264FAC43BF4D293FBAFDF9B54CC20890A60 (void);
+// 0x00000A4B System.Collections.Generic.IReadOnlyList`1<easyar.ARSession/ARCenterMode> easyar.FramePlayer::get_AvailableCenterMode()
+extern void FramePlayer_get_AvailableCenterMode_m7FB89CA5361900D35AAC5CD163AD5FCCE7D2B1DC (void);
+// 0x00000A4C System.Boolean easyar.FramePlayer::get_IsCompleted()
+extern void FramePlayer_get_IsCompleted_m60683BBD7FB3ED7C9A287D98A169CF975308D8FD (void);
+// 0x00000A4D System.Single easyar.FramePlayer::get_Length()
+extern void FramePlayer_get_Length_m0519F7B87D7E4CFD016163332DB15382A6966FC1 (void);
+// 0x00000A4E System.Single easyar.FramePlayer::get_Time()
+extern void FramePlayer_get_Time_mC4E752ED506623380C3902DB6512BDE9A8C84346 (void);
+// 0x00000A4F easyar.WorldRootController easyar.FramePlayer::get_WorldRoot()
+extern void FramePlayer_get_WorldRoot_m3B89424FAD4374B85A7E7199DBD7F3F6A9794C48 (void);
+// 0x00000A50 System.Void easyar.FramePlayer::set_WorldRoot(easyar.WorldRootController)
+extern void FramePlayer_set_WorldRoot_mC470CD508089E1F9F70096FA2873058C8BD328B6 (void);
+// 0x00000A51 UnityEngine.GameObject easyar.FramePlayer::get_Origin()
+extern void FramePlayer_get_Origin_mA13D6048135EFEF6227D4064AA6ABAF61878C685 (void);
+// 0x00000A52 easyar.IDisplay easyar.FramePlayer::get_Display()
+extern void FramePlayer_get_Display_m7EA09D6046F01987860158179E4B729E1FA3A60A (void);
+// 0x00000A53 System.Void easyar.FramePlayer::Awake()
+extern void FramePlayer_Awake_m5B28F60D51E41FE2145CDFC8FCC2DC4275BB0B72 (void);
+// 0x00000A54 System.Void easyar.FramePlayer::OnEnable()
+extern void FramePlayer_OnEnable_mBE1F36134F0F8E5FF937BEEB2410E976D6245008 (void);
+// 0x00000A55 System.Void easyar.FramePlayer::OnDisable()
+extern void FramePlayer_OnDisable_mB91EE27CA27D924EAB19879911D852DA1EEDC7FC (void);
+// 0x00000A56 System.Void easyar.FramePlayer::OnDestroy()
+extern void FramePlayer_OnDestroy_mD6A947F06382027DB958E6F4A638C5F34480CD39 (void);
+// 0x00000A57 System.Void easyar.FramePlayer::OnAssemble(easyar.ARSession)
+extern void FramePlayer_OnAssemble_m10330B88303F160FCD73D1D4A78D1BB2CDADB591 (void);
+// 0x00000A58 System.Boolean easyar.FramePlayer::Play()
+extern void FramePlayer_Play_m797ACA61DD16B138C21349FD5FC17BFC9885AC98 (void);
+// 0x00000A59 System.Void easyar.FramePlayer::Stop()
+extern void FramePlayer_Stop_mC62077E600768AEB0EBB2C178594820CBCA1A304 (void);
+// 0x00000A5A System.Void easyar.FramePlayer::Pause()
+extern void FramePlayer_Pause_m9AF41889F41206FF9B962A8406A8A3F8B43EA209 (void);
+// 0x00000A5B System.Void easyar.FramePlayer::Connect(easyar.InputFrameSink)
+extern void FramePlayer_Connect_mF212FFC99EADE575C501B0B60A5D13330EDE0FF6 (void);
+// 0x00000A5C System.Void easyar.FramePlayer::RequireSpatial()
+extern void FramePlayer_RequireSpatial_mE6BC9894573F202EB85C2BFDFA47E66AC3BC7235 (void);
+// 0x00000A5D System.Collections.IEnumerator easyar.FramePlayer::AutoPlay()
+extern void FramePlayer_AutoPlay_m7209D4C5C17639865DC6E5FB31AD1639AE70EF68 (void);
+// 0x00000A5E System.Void easyar.FramePlayer::SetupOriginUsingWorldRoot()
+extern void FramePlayer_SetupOriginUsingWorldRoot_m395A57DB650FE366B5DB453BC0A02FCF5D5D1DA9 (void);
+// 0x00000A5F System.Void easyar.FramePlayer::.ctor()
+extern void FramePlayer__ctor_m7B5A2FEB32B485D16BB473C62A39EC8A3276AAFA (void);
+// 0x00000A60 System.Void easyar.FramePlayer::.cctor()
+extern void FramePlayer__cctor_mBB9666993ED9D56BB5ED06F53AD3B816D2CFFDD5 (void);
+// 0x00000A61 System.Void easyar.FramePlayer/<AutoPlay>d__40::.ctor(System.Int32)
+extern void U3CAutoPlayU3Ed__40__ctor_m63113553FC82FE11E392209BEC0B6F755BCFC33F (void);
+// 0x00000A62 System.Void easyar.FramePlayer/<AutoPlay>d__40::System.IDisposable.Dispose()
+extern void U3CAutoPlayU3Ed__40_System_IDisposable_Dispose_m4A33CAD01A5BEB054DA5816F80E594F98C873787 (void);
+// 0x00000A63 System.Boolean easyar.FramePlayer/<AutoPlay>d__40::MoveNext()
+extern void U3CAutoPlayU3Ed__40_MoveNext_mCCD02B0A1F6CB96BADC3198AA7C0E4913BB5A0F2 (void);
+// 0x00000A64 System.Object easyar.FramePlayer/<AutoPlay>d__40::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAutoPlayU3Ed__40_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD9A70A25C11D5781410DFB351E9FCE875E8439E8 (void);
+// 0x00000A65 System.Void easyar.FramePlayer/<AutoPlay>d__40::System.Collections.IEnumerator.Reset()
+extern void U3CAutoPlayU3Ed__40_System_Collections_IEnumerator_Reset_mC5E31342D1B9A818FAC98202164DDF38BC3CC547 (void);
+// 0x00000A66 System.Object easyar.FramePlayer/<AutoPlay>d__40::System.Collections.IEnumerator.get_Current()
+extern void U3CAutoPlayU3Ed__40_System_Collections_IEnumerator_get_Current_m0CE91C97DA905D54322F41457263FE9AD77DDBBD (void);
+// 0x00000A67 System.Int32 easyar.FrameRecorder::get_BufferRequirement()
+extern void FrameRecorder_get_BufferRequirement_m3E261DD8D43D619451E2F1146EE03383CAF7111D (void);
+// 0x00000A68 System.Void easyar.FrameRecorder::Awake()
+extern void FrameRecorder_Awake_m1BA3559A88628E3193BD569797EA70828CBFF7D9 (void);
+// 0x00000A69 System.Void easyar.FrameRecorder::OnEnable()
+extern void FrameRecorder_OnEnable_mA0791867B53609D17BDEB54FD922AE7878373509 (void);
+// 0x00000A6A System.Void easyar.FrameRecorder::OnDisable()
+extern void FrameRecorder_OnDisable_mDDC934AB61931454A3EF691BDFD21F16255EC023 (void);
+// 0x00000A6B System.Void easyar.FrameRecorder::OnDestroy()
+extern void FrameRecorder_OnDestroy_m529CE1A009994CD7F500FE51E1D28A95866906D7 (void);
+// 0x00000A6C System.Void easyar.FrameRecorder::OnAssemble(easyar.ARSession)
+extern void FrameRecorder_OnAssemble_m8E89ECD25D234ECBE102C526E36726951266C1C0 (void);
+// 0x00000A6D easyar.InputFrameSource easyar.FrameRecorder::Output()
+extern void FrameRecorder_Output_mF49FF71FEAC20E345A10DF412138FB1AC9ADE0F8 (void);
+// 0x00000A6E easyar.InputFrameSink easyar.FrameRecorder::Input()
+extern void FrameRecorder_Input_m4D84888D46A2E58F0AC1A1ADA0CEAEE3C0B655E1 (void);
+// 0x00000A6F System.Void easyar.FrameRecorder::.ctor()
+extern void FrameRecorder__ctor_m9FC145E10D9CA0E020A14A93202120F77027CC57 (void);
+// 0x00000A70 easyar.Optional`1<System.Boolean> easyar.FrameSource::get_IsAvailable()
+// 0x00000A71 System.Collections.Generic.IReadOnlyList`1<easyar.ARSession/ARCenterMode> easyar.FrameSource::get_AvailableCenterMode()
+extern void FrameSource_get_AvailableCenterMode_mAF1C0ABD9F5C80A7045F8FC2A1F5AF81C53B3656 (void);
+// 0x00000A72 System.Boolean easyar.FrameSource::get_IsHMD()
+extern void FrameSource_get_IsHMD_m6384BC0C41C2280F23D4CA4081FE9ED2F1DE1350 (void);
+// 0x00000A73 System.Int32 easyar.FrameSource::get_BufferCapacity()
+extern void FrameSource_get_BufferCapacity_mCC372D784110C205D976F830227352AAD80900F5 (void);
+// 0x00000A74 System.Void easyar.FrameSource::set_BufferCapacity(System.Int32)
+extern void FrameSource_set_BufferCapacity_m6A2F5CEFC52246DC2F5C7F5A38AC03EF32BED7F1 (void);
+// 0x00000A75 UnityEngine.Camera easyar.FrameSource::get_Camera()
+extern void FrameSource_get_Camera_m3AF1F542AD50439D16055E236943B5BBDB27202A (void);
+// 0x00000A76 System.Void easyar.FrameSource::set_Camera(UnityEngine.Camera)
+extern void FrameSource_set_Camera_mF11F14D8320714F3F9826EEECAF9FE114275BB5D (void);
+// 0x00000A77 System.Boolean easyar.FrameSource::get_IsCameraUnderControl()
+extern void FrameSource_get_IsCameraUnderControl_mDEBBF0D9E6763AD9794200623832FCF0607B56CB (void);
+// 0x00000A78 UnityEngine.GameObject easyar.FrameSource::get_Origin()
+extern void FrameSource_get_Origin_m4DA98EAB57568A4DE1E8E2B0117A6F6A89C6F70D (void);
+// 0x00000A79 System.Void easyar.FrameSource::Awake()
+extern void FrameSource_Awake_m11E6765105A5E748DB55E5DFC5458FBEA6962FE9 (void);
+// 0x00000A7A System.Void easyar.FrameSource::OnEnable()
+extern void FrameSource_OnEnable_mFE4B5075843171A5281632B4EDB305E63E02FFBB (void);
+// 0x00000A7B System.Void easyar.FrameSource::OnDisable()
+extern void FrameSource_OnDisable_m1972517C0BF7D983F15BACF488CCA5B8A2834167 (void);
+// 0x00000A7C System.Void easyar.FrameSource::Connect(easyar.InputFrameSink)
+extern void FrameSource_Connect_mB09DED105CF24C36911E1072F20605A273CEE7D2 (void);
+// 0x00000A7D System.Void easyar.FrameSource::OnAssemble(easyar.ARSession)
+extern void FrameSource_OnAssemble_mC11B5EA8F8B8F56A6D3EEC2D832168CEACEF575A (void);
+// 0x00000A7E System.Collections.IEnumerator easyar.FrameSource::CheckAvailability()
+extern void FrameSource_CheckAvailability_mF047C9B9D47647B036AE9A2E9847CE8C6932E516 (void);
+// 0x00000A7F UnityEngine.Camera easyar.FrameSource::PickCamera()
+extern void FrameSource_PickCamera_m2F3B812929F8B2CA84D53445F507048B4F072323 (void);
+// 0x00000A80 System.Void easyar.FrameSource::SetHFlip(easyar.ARSession/ARHorizontalFlipMode)
+extern void FrameSource_SetHFlip_m5971D2B83E282F4AF350605962B580F0CAB0318B (void);
+// 0x00000A81 System.Boolean easyar.FrameSource::IsValidCamera(UnityEngine.Camera)
+extern void FrameSource_IsValidCamera_mCF68B1F0FA0B0ED565D047CE025C660AA9F57981 (void);
+// 0x00000A82 System.Void easyar.FrameSource::.ctor()
+extern void FrameSource__ctor_mF2C3C0EA283D25EE25EC48941CA63A5F8944D3F1 (void);
+// 0x00000A83 System.Void easyar.FrameSource::.cctor()
+extern void FrameSource__cctor_m15F522F750BD45059D70111B2F78013AB5967B78 (void);
+// 0x00000A84 System.Void easyar.RenderCameraController::OnEnable()
+extern void RenderCameraController_OnEnable_mF5A417E283A29A5BF6602650F39BF1EB1D110D39 (void);
+// 0x00000A85 System.Void easyar.RenderCameraController::OnDisable()
+extern void RenderCameraController_OnDisable_mA377ED37EF2E1FAF7E1F1061A7574B744A13B46B (void);
+// 0x00000A86 System.Void easyar.RenderCameraController::OnDestroy()
+extern void RenderCameraController_OnDestroy_mBE878FFB3CD2775755EB87388E216479B64A7A7C (void);
+// 0x00000A87 System.Void easyar.RenderCameraController::OnAssemble(easyar.ARSession)
+extern void RenderCameraController_OnAssemble_m67698AC3C9B8ABA6D6EAADF72C47D15721B11D81 (void);
+// 0x00000A88 System.Void easyar.RenderCameraController::SetProjectHFlip(System.Boolean)
+extern void RenderCameraController_SetProjectHFlip_mB5075F4A143546CB7AB8A9B5F77E9F07B93A172D (void);
+// 0x00000A89 System.Void easyar.RenderCameraController::SetRenderImageHFilp(System.Boolean)
+extern void RenderCameraController_SetRenderImageHFilp_m2F0558420FE15A7C340789CD047EC847C4B48D7B (void);
+// 0x00000A8A System.Void easyar.RenderCameraController::OnFrameChange(easyar.OutputFrame,UnityEngine.Quaternion)
+extern void RenderCameraController_OnFrameChange_m4C9B9B9A6D7CDAEECABB7677BF2ED4CB641189A8 (void);
+// 0x00000A8B System.Void easyar.RenderCameraController::OnFrameUpdate(easyar.OutputFrame)
+extern void RenderCameraController_OnFrameUpdate_mC0D61175A5FB26EEC9827E1F2AC3FAC5DB1CD3D5 (void);
+// 0x00000A8C System.Void easyar.RenderCameraController::.ctor()
+extern void RenderCameraController__ctor_m681B5935656EC5DB9BD86ECED9A514EDC1688E39 (void);
+// 0x00000A8D System.Void easyar.TargetController::add_TargetFound(System.Action)
+extern void TargetController_add_TargetFound_mD4B9C4D3662E282B491F617E22AA14D3775AB57B (void);
+// 0x00000A8E System.Void easyar.TargetController::remove_TargetFound(System.Action)
+extern void TargetController_remove_TargetFound_mD5395D7D698DE8C0AFE8B4DDAF9889F087279AD6 (void);
+// 0x00000A8F System.Void easyar.TargetController::add_TargetLost(System.Action)
+extern void TargetController_add_TargetLost_mB6790A7172B5C303E3143155672D27F4BF6E4ECC (void);
+// 0x00000A90 System.Void easyar.TargetController::remove_TargetLost(System.Action)
+extern void TargetController_remove_TargetLost_mB2952BDE30C3EF2FFBCD61610F6BCB4009338D19 (void);
+// 0x00000A91 System.Boolean easyar.TargetController::get_IsTracked()
+extern void TargetController_get_IsTracked_m5D4CFC7F83447DDB475C2593BF1A1E32D412B775 (void);
+// 0x00000A92 System.Void easyar.TargetController::set_IsTracked(System.Boolean)
+extern void TargetController_set_IsTracked_m2CE4B37E2DCFDA583D608EE42E7CD482B445B2EB (void);
+// 0x00000A93 System.Boolean easyar.TargetController::get_IsLoaded()
+extern void TargetController_get_IsLoaded_m664FA600C560DDD419101466B8A4F3F61062A5FA (void);
+// 0x00000A94 System.Void easyar.TargetController::set_IsLoaded(System.Boolean)
+extern void TargetController_set_IsLoaded_mC04541B10A598C71AC8341C94B97C419089F00F1 (void);
+// 0x00000A95 System.Void easyar.TargetController::Start()
+extern void TargetController_Start_m6884CD51BDC42ADD477A0073A0F603D1E391007F (void);
+// 0x00000A96 System.Void easyar.TargetController::OnTracking(System.Boolean)
+extern void TargetController_OnTracking_m7D2AC6C286576BF1C4EBA84B0C1D484E6C096CE2 (void);
+// 0x00000A97 System.Void easyar.TargetController::OnTracking()
+// 0x00000A98 System.Void easyar.TargetController::.ctor()
+extern void TargetController__ctor_mDD9C4ABEA7BA2296F0538270A52EDECE78395AAC (void);
+// 0x00000A99 System.Void easyar.WorldRootController::add_TrackingStatusChanged(System.Action`1<easyar.MotionTrackingStatus>)
+extern void WorldRootController_add_TrackingStatusChanged_m718197BD1093B5C9C2923D23F7E4DD480F5AD832 (void);
+// 0x00000A9A System.Void easyar.WorldRootController::remove_TrackingStatusChanged(System.Action`1<easyar.MotionTrackingStatus>)
+extern void WorldRootController_remove_TrackingStatusChanged_mADB6FC26DA6FCFD87B66FBAD9814C3FA370A4417 (void);
+// 0x00000A9B easyar.MotionTrackingStatus easyar.WorldRootController::get_TrackingStatus()
+extern void WorldRootController_get_TrackingStatus_m243CCD944CB60980C159C482411724E39A787945 (void);
+// 0x00000A9C System.Void easyar.WorldRootController::set_TrackingStatus(easyar.MotionTrackingStatus)
+extern void WorldRootController_set_TrackingStatus_mB92BD9325C2E5891699476E29D28E44A5349224E (void);
+// 0x00000A9D System.Void easyar.WorldRootController::Start()
+extern void WorldRootController_Start_m338A99D7CF5960BB34C169D2A780E60E540586C5 (void);
+// 0x00000A9E System.Void easyar.WorldRootController::OnTracking(easyar.MotionTrackingStatus)
+extern void WorldRootController_OnTracking_m06EE5F55F9C297537C89103B18F5C5891B1A3FA0 (void);
+// 0x00000A9F System.Void easyar.WorldRootController::.ctor()
+extern void WorldRootController__ctor_m7FD3627D85E9CBE14CF7050B0716801D07AF782E (void);
+// 0x00000AA0 easyar.Accelerometer easyar.CloudSpatialMapLocalizerFrameFilter::get_Accelerometer()
+extern void CloudSpatialMapLocalizerFrameFilter_get_Accelerometer_mFFAFA3293B4AADFBF4668045C041A13AE6ADCCD2 (void);
+// 0x00000AA1 System.Void easyar.CloudSpatialMapLocalizerFrameFilter::set_Accelerometer(easyar.Accelerometer)
+extern void CloudSpatialMapLocalizerFrameFilter_set_Accelerometer_m0C52BA9FFFA788AB71EEB307304F3C1C95C14CCA (void);
+// 0x00000AA2 System.Int32 easyar.CloudSpatialMapLocalizerFrameFilter::get_BufferRequirement()
+extern void CloudSpatialMapLocalizerFrameFilter_get_BufferRequirement_m4EDF599C94EC167CC35146E4F740FDA256D6EAAF (void);
+// 0x00000AA3 easyar.RealTimeCoordinateTransform easyar.CloudSpatialMapLocalizerFrameFilter::get_RealTimeCoordinateTransform()
+extern void CloudSpatialMapLocalizerFrameFilter_get_RealTimeCoordinateTransform_m153C00C103C1B2632BD9C89E836A96A01362837D (void);
+// 0x00000AA4 System.Void easyar.CloudSpatialMapLocalizerFrameFilter::Awake()
+extern void CloudSpatialMapLocalizerFrameFilter_Awake_m0CA63EFC8134C82553A6E8652CD827B0AD4F26AE (void);
+// 0x00000AA5 System.Void easyar.CloudSpatialMapLocalizerFrameFilter::OnEnable()
+extern void CloudSpatialMapLocalizerFrameFilter_OnEnable_m37C983260EC4A694E4B7A211DC1633223528FC5D (void);
+// 0x00000AA6 System.Void easyar.CloudSpatialMapLocalizerFrameFilter::OnDisable()
+extern void CloudSpatialMapLocalizerFrameFilter_OnDisable_mEE5C5C3CB209B89FBD0CD37E00E2B7C645A4BA7E (void);
+// 0x00000AA7 System.Void easyar.CloudSpatialMapLocalizerFrameFilter::OnDestroy()
+extern void CloudSpatialMapLocalizerFrameFilter_OnDestroy_mDB5285506267A6E17F60A626049334AEFF1DCAC3 (void);
+// 0x00000AA8 System.Void easyar.CloudSpatialMapLocalizerFrameFilter::OnAssemble(easyar.ARSession)
+extern void CloudSpatialMapLocalizerFrameFilter_OnAssemble_m4D60083CC9E4FDE50B9C314BC7C65C14102155BB (void);
+// 0x00000AA9 System.Void easyar.CloudSpatialMapLocalizerFrameFilter::ResetRealTimeCoordinateTransform()
+extern void CloudSpatialMapLocalizerFrameFilter_ResetRealTimeCoordinateTransform_mD9389D84B235AA28E3AE6C08DF2F2C13303F3129 (void);
+// 0x00000AAA System.Void easyar.CloudSpatialMapLocalizerFrameFilter::Resolve(easyar.Optional`1<easyar.CloudSpatialMapLocalizerFrameFilter/Input>,System.Action`1<easyar.InputFrame>,System.Action`2<easyar.CloudLocalizeStatus,System.String>)
+extern void CloudSpatialMapLocalizerFrameFilter_Resolve_m422396D2B2A14219E73EC7A4D5C8E9DC357B13F5 (void);
+// 0x00000AAB System.Void easyar.CloudSpatialMapLocalizerFrameFilter::ResolveRaw(easyar.Optional`1<easyar.CloudSpatialMapLocalizerFrameFilter/Input>,System.Action`1<easyar.InputFrame>,System.Action`2<easyar.Optional`1<easyar.CloudLocalizeResult>,System.String>)
+extern void CloudSpatialMapLocalizerFrameFilter_ResolveRaw_mC24E432867CE502C087961E998CFC30D380AEF17 (void);
+// 0x00000AAC System.Void easyar.CloudSpatialMapLocalizerFrameFilter::SetMessage(System.String)
+extern void CloudSpatialMapLocalizerFrameFilter_SetMessage_mFEF60BF88039D7E15EED72CA790B1405AC8FA9B8 (void);
+// 0x00000AAD System.Void easyar.CloudSpatialMapLocalizerFrameFilter::ResetResolve()
+extern void CloudSpatialMapLocalizerFrameFilter_ResetResolve_mC6654D9827EAC4F7AE3014E3EB4E1DFAB4DE4172 (void);
+// 0x00000AAE System.Collections.IEnumerator easyar.CloudSpatialMapLocalizerFrameFilter::AutoCreate()
+extern void CloudSpatialMapLocalizerFrameFilter_AutoCreate_m7CC20988DBA1CA8EB9056778D6965BF264E3177F (void);
+// 0x00000AAF System.Collections.IEnumerator easyar.CloudSpatialMapLocalizerFrameFilter::CheckRequest(easyar.CloudSpatialMapLocalizerFrameFilter/Request)
+extern void CloudSpatialMapLocalizerFrameFilter_CheckRequest_mCDD917B9F0BA29828C28C4CB237FF01B88AB23C6 (void);
+// 0x00000AB0 System.Void easyar.CloudSpatialMapLocalizerFrameFilter::NotifyEmptyConfig(easyar.CloudSpatialMapLocalizerFrameFilter/CloudLocalizerServiceConfig)
+extern void CloudSpatialMapLocalizerFrameFilter_NotifyEmptyConfig_m69D634D0C0A91E7F4B864A2D311229633D945A65 (void);
+// 0x00000AB1 System.Void easyar.CloudSpatialMapLocalizerFrameFilter::.ctor()
+extern void CloudSpatialMapLocalizerFrameFilter__ctor_mE84E24277D29F471DCAEBED6EDDACF94E155096C (void);
+// 0x00000AB2 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/CloudLocalizerServiceConfig::.ctor()
+extern void CloudLocalizerServiceConfig__ctor_mC9CB65687D69F5BAE0E7866B30CD16F124C7F1F8 (void);
+// 0x00000AB3 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/Input::.ctor()
+extern void Input__ctor_m43800623F29B4B877B54E3583220A55145A7B6EA (void);
+// 0x00000AB4 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/Request::.ctor()
+extern void Request__ctor_mB9A9F11AA2FC2D0AE215DA10A1F9D438B8D22FAC (void);
+// 0x00000AB5 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<>c__DisplayClass22_0::.ctor()
+extern void U3CU3Ec__DisplayClass22_0__ctor_mD81A934B5A79A05CF3E723837D6B3F3BBCF23E1E (void);
+// 0x00000AB6 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<>c__DisplayClass22_0::<OnAssemble>b__0(easyar.OutputFrame)
+extern void U3CU3Ec__DisplayClass22_0_U3COnAssembleU3Eb__0_m0252A63BE9CDF695615EA3B4ED53BC647C51456F (void);
+// 0x00000AB7 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<>c__DisplayClass22_1::.ctor()
+extern void U3CU3Ec__DisplayClass22_1__ctor_mDAF71A5236B3766E0E48EAD11ADC18F24EA3D8C3 (void);
+// 0x00000AB8 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<>c__DisplayClass22_1::<OnAssemble>b__1(easyar.CloudLocalizeResult)
+extern void U3CU3Ec__DisplayClass22_1_U3COnAssembleU3Eb__1_m03B375751D41041436F1F496001837DAA9EF56FC (void);
+// 0x00000AB9 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<>c__DisplayClass24_0::.ctor()
+extern void U3CU3Ec__DisplayClass24_0__ctor_m0B42E57F53FE599870690CC94E8D12619FA19126 (void);
+// 0x00000ABA System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<>c__DisplayClass24_0::<Resolve>b__0(easyar.Optional`1<easyar.CloudLocalizeResult>,System.String)
+extern void U3CU3Ec__DisplayClass24_0_U3CResolveU3Eb__0_mEA9847CC09112D25A360CAEB1B08328226BD989F (void);
+// 0x00000ABB System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<AutoCreate>d__28::.ctor(System.Int32)
+extern void U3CAutoCreateU3Ed__28__ctor_mBE566061522BA9406170E471ECAFE8818CA22A9F (void);
+// 0x00000ABC System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<AutoCreate>d__28::System.IDisposable.Dispose()
+extern void U3CAutoCreateU3Ed__28_System_IDisposable_Dispose_m41AA00A19A70A1430896E5AE4E60C46338923F11 (void);
+// 0x00000ABD System.Boolean easyar.CloudSpatialMapLocalizerFrameFilter/<AutoCreate>d__28::MoveNext()
+extern void U3CAutoCreateU3Ed__28_MoveNext_m057DC4C3A7AB7A2304EE608B245E5583B2C0CDEB (void);
+// 0x00000ABE System.Object easyar.CloudSpatialMapLocalizerFrameFilter/<AutoCreate>d__28::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAutoCreateU3Ed__28_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB78DC72A5CBE029BB79B50127397E938F3862879 (void);
+// 0x00000ABF System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<AutoCreate>d__28::System.Collections.IEnumerator.Reset()
+extern void U3CAutoCreateU3Ed__28_System_Collections_IEnumerator_Reset_mDDDE96EC367C634B58125F6AAAA12F5308CB6FF7 (void);
+// 0x00000AC0 System.Object easyar.CloudSpatialMapLocalizerFrameFilter/<AutoCreate>d__28::System.Collections.IEnumerator.get_Current()
+extern void U3CAutoCreateU3Ed__28_System_Collections_IEnumerator_get_Current_m3D035E6BAA66F21028FC5DF6394D65BF975E26F4 (void);
+// 0x00000AC1 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<CheckRequest>d__29::.ctor(System.Int32)
+extern void U3CCheckRequestU3Ed__29__ctor_mDCA9FD7A8B90298502A02DDD871D592BA325B74E (void);
+// 0x00000AC2 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<CheckRequest>d__29::System.IDisposable.Dispose()
+extern void U3CCheckRequestU3Ed__29_System_IDisposable_Dispose_mAD294B1AF6D83BF4166DA408AAE7C4038F15396F (void);
+// 0x00000AC3 System.Boolean easyar.CloudSpatialMapLocalizerFrameFilter/<CheckRequest>d__29::MoveNext()
+extern void U3CCheckRequestU3Ed__29_MoveNext_mC1453FBEFB4C599D28D9F140364EB9D4DD638EF5 (void);
+// 0x00000AC4 System.Object easyar.CloudSpatialMapLocalizerFrameFilter/<CheckRequest>d__29::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckRequestU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m44CB1474A2C5CEC62B75AB1D522FDA481689518F (void);
+// 0x00000AC5 System.Void easyar.CloudSpatialMapLocalizerFrameFilter/<CheckRequest>d__29::System.Collections.IEnumerator.Reset()
+extern void U3CCheckRequestU3Ed__29_System_Collections_IEnumerator_Reset_mB9279A3D81945BA9AB231ABAF23B57379F629324 (void);
+// 0x00000AC6 System.Object easyar.CloudSpatialMapLocalizerFrameFilter/<CheckRequest>d__29::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckRequestU3Ed__29_System_Collections_IEnumerator_get_Current_mABDD30DC417FDA2F6D2082D56F5B06B202BEB46A (void);
+// 0x00000AC7 easyar.BlockInfo easyar.DenseSpatialMapBlockController::get_Info()
+extern void DenseSpatialMapBlockController_get_Info_m7278DD9DD8F053DBFE2E8627CC2623EBA85017A4 (void);
+// 0x00000AC8 System.Void easyar.DenseSpatialMapBlockController::set_Info(easyar.BlockInfo)
+extern void DenseSpatialMapBlockController_set_Info_m57732C5399BFAE762E1D0AF0E1455C0F6C61A1D4 (void);
+// 0x00000AC9 System.Void easyar.DenseSpatialMapBlockController::Awake()
+extern void DenseSpatialMapBlockController_Awake_m67C128FCA97A65A6AF17BEDDEFD0D2660AF2E608 (void);
+// 0x00000ACA System.Void easyar.DenseSpatialMapBlockController::OnDestroy()
+extern void DenseSpatialMapBlockController_OnDestroy_m878F28B12C7A64024DAF0B49EECD332F45CE1172 (void);
+// 0x00000ACB System.Void easyar.DenseSpatialMapBlockController::UpdateData(easyar.BlockInfo,easyar.SceneMesh)
+extern void DenseSpatialMapBlockController_UpdateData_m6526C2C26825A9C993B697449E655DA899723A1E (void);
+// 0x00000ACC System.Void easyar.DenseSpatialMapBlockController::UpdateMesh()
+extern void DenseSpatialMapBlockController_UpdateMesh_m5604B7BAD9C8976D3EC784C770D47C774FBFB9D0 (void);
+// 0x00000ACD System.Void easyar.DenseSpatialMapBlockController::CopyMeshData(easyar.SceneMesh)
+extern void DenseSpatialMapBlockController_CopyMeshData_mD26F39706665B87D4E39B9442DF9C3F20F21980E (void);
+// 0x00000ACE System.Void easyar.DenseSpatialMapBlockController::.ctor()
+extern void DenseSpatialMapBlockController__ctor_m52568E475C979BB3F47EF8295FBF536D49E10A02 (void);
+// 0x00000ACF easyar.DenseSpatialMap easyar.DenseSpatialMapBuilderFrameFilter::get_Builder()
+extern void DenseSpatialMapBuilderFrameFilter_get_Builder_mC96240A903F87859C4E27D0D20A84F7FFA6D0593 (void);
+// 0x00000AD0 System.Void easyar.DenseSpatialMapBuilderFrameFilter::set_Builder(easyar.DenseSpatialMap)
+extern void DenseSpatialMapBuilderFrameFilter_set_Builder_mEE6041945DC6D1522B163C7E2199F04C50CB2B8C (void);
+// 0x00000AD1 System.Void easyar.DenseSpatialMapBuilderFrameFilter::add_MapCreate(System.Action`1<easyar.DenseSpatialMapBlockController>)
+extern void DenseSpatialMapBuilderFrameFilter_add_MapCreate_mC25619374F8BDD9ADADE568E82CD714F222CD733 (void);
+// 0x00000AD2 System.Void easyar.DenseSpatialMapBuilderFrameFilter::remove_MapCreate(System.Action`1<easyar.DenseSpatialMapBlockController>)
+extern void DenseSpatialMapBuilderFrameFilter_remove_MapCreate_mC50280A24207A5F2BDBF987969651B9E76CDEFD3 (void);
+// 0x00000AD3 System.Void easyar.DenseSpatialMapBuilderFrameFilter::add_MapUpdate(System.Action`1<System.Collections.Generic.List`1<easyar.DenseSpatialMapBlockController>>)
+extern void DenseSpatialMapBuilderFrameFilter_add_MapUpdate_m5C45C0C9FD33CDCFF2AA4541FA0A5001D72D7E72 (void);
+// 0x00000AD4 System.Void easyar.DenseSpatialMapBuilderFrameFilter::remove_MapUpdate(System.Action`1<System.Collections.Generic.List`1<easyar.DenseSpatialMapBlockController>>)
+extern void DenseSpatialMapBuilderFrameFilter_remove_MapUpdate_m365F1929D7B83DED95808CDA0010BB8F1A33F644 (void);
+// 0x00000AD5 System.Int32 easyar.DenseSpatialMapBuilderFrameFilter::get_BufferRequirement()
+extern void DenseSpatialMapBuilderFrameFilter_get_BufferRequirement_mF2C7D1A0B5C5F4C5F38276264B739C11DFF8ECA1 (void);
+// 0x00000AD6 System.Boolean easyar.DenseSpatialMapBuilderFrameFilter::get_RenderMesh()
+extern void DenseSpatialMapBuilderFrameFilter_get_RenderMesh_mE59A90DB44443079D62EE4851DA2A4A63C567DB3 (void);
+// 0x00000AD7 System.Void easyar.DenseSpatialMapBuilderFrameFilter::set_RenderMesh(System.Boolean)
+extern void DenseSpatialMapBuilderFrameFilter_set_RenderMesh_mA6848D296CEB7490CEC5346D533F69484DF279D2 (void);
+// 0x00000AD8 UnityEngine.Color easyar.DenseSpatialMapBuilderFrameFilter::get_MeshColor()
+extern void DenseSpatialMapBuilderFrameFilter_get_MeshColor_m258BC88ECD44787198459AA862E89FC8C349FE40 (void);
+// 0x00000AD9 System.Void easyar.DenseSpatialMapBuilderFrameFilter::set_MeshColor(UnityEngine.Color)
+extern void DenseSpatialMapBuilderFrameFilter_set_MeshColor_mC8AE837D8778E40C6C4238EA0881D453849A0C7D (void);
+// 0x00000ADA System.Collections.Generic.List`1<easyar.DenseSpatialMapBlockController> easyar.DenseSpatialMapBuilderFrameFilter::get_MeshBlocks()
+extern void DenseSpatialMapBuilderFrameFilter_get_MeshBlocks_m65A1E2703288994551F68427EB3178F5AC2E27A4 (void);
+// 0x00000ADB System.Void easyar.DenseSpatialMapBuilderFrameFilter::Awake()
+extern void DenseSpatialMapBuilderFrameFilter_Awake_m814B0F1EF5C6D042BF6B55175229C85D92DEFE55 (void);
+// 0x00000ADC System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnEnable()
+extern void DenseSpatialMapBuilderFrameFilter_OnEnable_m9E59A600FEEFEF0D5232057A4EB0DD88B16E5209 (void);
+// 0x00000ADD System.Void easyar.DenseSpatialMapBuilderFrameFilter::Update()
+extern void DenseSpatialMapBuilderFrameFilter_Update_m187A7BEF684BB3C320BAD257D2CAC4BA95BD4750 (void);
+// 0x00000ADE System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnDisable()
+extern void DenseSpatialMapBuilderFrameFilter_OnDisable_m73005452F2A37AC4BB55C8EC840EF77FDE4495C2 (void);
+// 0x00000ADF System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnDestroy()
+extern void DenseSpatialMapBuilderFrameFilter_OnDestroy_m89F46707352B5CA1CC4D86708489DC9FEE8B368F (void);
+// 0x00000AE0 easyar.InputFrameSink easyar.DenseSpatialMapBuilderFrameFilter::InputFrameSink()
+extern void DenseSpatialMapBuilderFrameFilter_InputFrameSink_mCC8E09F677819229D860D2A7234A9BAC8AD8FF3A (void);
+// 0x00000AE1 System.Void easyar.DenseSpatialMapBuilderFrameFilter::OnAssemble(easyar.ARSession)
+extern void DenseSpatialMapBuilderFrameFilter_OnAssemble_mEB66833791E8F4CB7309E528C96D818BB5C03BD2 (void);
+// 0x00000AE2 System.Void easyar.DenseSpatialMapBuilderFrameFilter::.ctor()
+extern void DenseSpatialMapBuilderFrameFilter__ctor_mFB894AB92F64157F855D7565E72A187C33F75817 (void);
+// 0x00000AE3 UnityEngine.Camera easyar.DenseSpatialMapDepthRenderer::get_RenderDepthCamera()
+extern void DenseSpatialMapDepthRenderer_get_RenderDepthCamera_m3432D9FF7C2B2D746AEA34158C122AFA73E7A9EB (void);
+// 0x00000AE4 System.Void easyar.DenseSpatialMapDepthRenderer::set_RenderDepthCamera(UnityEngine.Camera)
+extern void DenseSpatialMapDepthRenderer_set_RenderDepthCamera_m92362CDCAAA748630A17FE14FD8F9258A920ACAF (void);
+// 0x00000AE5 UnityEngine.Material easyar.DenseSpatialMapDepthRenderer::get_MapMeshMaterial()
+extern void DenseSpatialMapDepthRenderer_get_MapMeshMaterial_m155E770B10D2424EBB161F5F799751BAA5BF7818 (void);
+// 0x00000AE6 System.Void easyar.DenseSpatialMapDepthRenderer::set_MapMeshMaterial(UnityEngine.Material)
+extern void DenseSpatialMapDepthRenderer_set_MapMeshMaterial_m3DBDAD505937806292A39670316850BA6A8D0931 (void);
+// 0x00000AE7 System.Void easyar.DenseSpatialMapDepthRenderer::OnEnable()
+extern void DenseSpatialMapDepthRenderer_OnEnable_mB5F9EE52496DE82DD7940BF3DF4FFD4CB269823A (void);
+// 0x00000AE8 System.Void easyar.DenseSpatialMapDepthRenderer::OnDisable()
+extern void DenseSpatialMapDepthRenderer_OnDisable_m022BF4696AD6D4534F221AE9C60A8480E3ED4CCC (void);
+// 0x00000AE9 System.Void easyar.DenseSpatialMapDepthRenderer::OnBeforeRender()
+extern void DenseSpatialMapDepthRenderer_OnBeforeRender_m8F276F4E6561F90AF2390296DD509ACEAF76382C (void);
+// 0x00000AEA System.Void easyar.DenseSpatialMapDepthRenderer::OnDestroy()
+extern void DenseSpatialMapDepthRenderer_OnDestroy_m390A0DAF3E9673290E1BFDF166F6A9886396D2B6 (void);
+// 0x00000AEB System.Void easyar.DenseSpatialMapDepthRenderer::.ctor()
+extern void DenseSpatialMapDepthRenderer__ctor_mEDAE8910C9E48CE9CD36A1E557423C373B0D9D56 (void);
+// 0x00000AEC System.Void easyar.SparseSpatialMapActiveController::Start()
+extern void SparseSpatialMapActiveController_Start_m17CB7A9E44DCAC263EBDFB44DE34EDDD33C0F27E (void);
+// 0x00000AED System.Void easyar.SparseSpatialMapActiveController::OnFound()
+extern void SparseSpatialMapActiveController_OnFound_mD3F1067B4C46B7B332070E6B2EB1AE32A8752DA5 (void);
+// 0x00000AEE System.Void easyar.SparseSpatialMapActiveController::.ctor()
+extern void SparseSpatialMapActiveController__ctor_m968CB70E63C0227B4B34797D54D4A6B1DAA3810B (void);
+// 0x00000AEF easyar.SparseSpatialMapController/SparseSpatialMapInfo easyar.SparseSpatialMapController::get_MapInfo()
+extern void SparseSpatialMapController_get_MapInfo_m12BE7B543F4E94CA1415534DBA64640E933B46FA (void);
+// 0x00000AF0 System.Void easyar.SparseSpatialMapController::set_MapInfo(easyar.SparseSpatialMapController/SparseSpatialMapInfo)
+extern void SparseSpatialMapController_set_MapInfo_m53EA02CD343CA4822495D16DB6091AFB52FAB615 (void);
+// 0x00000AF1 System.Void easyar.SparseSpatialMapController::add_MapInfoAvailable(System.Action)
+extern void SparseSpatialMapController_add_MapInfoAvailable_m4DA391BAB852D8299684B3B0570E4919B02498CC (void);
+// 0x00000AF2 System.Void easyar.SparseSpatialMapController::remove_MapInfoAvailable(System.Action)
+extern void SparseSpatialMapController_remove_MapInfoAvailable_m305DB8A58FDEFECDC54D548D69D69067E45A654D (void);
+// 0x00000AF3 System.Void easyar.SparseSpatialMapController::add_MapLocalized(System.Action)
+extern void SparseSpatialMapController_add_MapLocalized_m9318C46989E352C77AF18A79CBCA2D0447528CDD (void);
+// 0x00000AF4 System.Void easyar.SparseSpatialMapController::remove_MapLocalized(System.Action)
+extern void SparseSpatialMapController_remove_MapLocalized_m5F5CBA12C0664F98807E1C85355B4313F999FB61 (void);
+// 0x00000AF5 System.Void easyar.SparseSpatialMapController::add_MapStopLocalize(System.Action)
+extern void SparseSpatialMapController_add_MapStopLocalize_m147D04B995ECAD68C5CB37481EDAFCB5189690DE (void);
+// 0x00000AF6 System.Void easyar.SparseSpatialMapController::remove_MapStopLocalize(System.Action)
+extern void SparseSpatialMapController_remove_MapStopLocalize_m57102E64D4591F060A57FA1A9AD7E94344DB145F (void);
+// 0x00000AF7 System.Void easyar.SparseSpatialMapController::add_MapLoad(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapController_add_MapLoad_m70FE53F79C3B9F08F182B0F768501AF09F932B62 (void);
+// 0x00000AF8 System.Void easyar.SparseSpatialMapController::remove_MapLoad(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapController_remove_MapLoad_mA238572B4A6BF3CA7CCA2BA4D63B6DFBD54FF7DD (void);
+// 0x00000AF9 System.Void easyar.SparseSpatialMapController::add_MapUnload(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapController_add_MapUnload_m48D85FFBF2B3487474B143DD2359FFBB0D134D37 (void);
+// 0x00000AFA System.Void easyar.SparseSpatialMapController::remove_MapUnload(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapController_remove_MapUnload_mFC90E04902BC0D63CD389BD7F79DCFC6D3C8B6E8 (void);
+// 0x00000AFB System.Void easyar.SparseSpatialMapController::add_MapHost(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapController_add_MapHost_mD5CF6935651E541C960C56F1263B1ECAA58913BE (void);
+// 0x00000AFC System.Void easyar.SparseSpatialMapController::remove_MapHost(System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapController_remove_MapHost_m436B3CE0FF5FFCA5DB463D17CDCC1C315B116CF2 (void);
+// 0x00000AFD easyar.SparseSpatialMapWorkerFrameFilter easyar.SparseSpatialMapController::get_MapWorker()
+extern void SparseSpatialMapController_get_MapWorker_mC979D0EC95B4EE298E7D96D6BC484C29D4D69121 (void);
+// 0x00000AFE System.Void easyar.SparseSpatialMapController::set_MapWorker(easyar.SparseSpatialMapWorkerFrameFilter)
+extern void SparseSpatialMapController_set_MapWorker_m9DA2072453D035DC40E6830E0250D7269557C5D3 (void);
+// 0x00000AFF easyar.SparseSpatialMapController/ParticleParameter easyar.SparseSpatialMapController::get_PointCloudParticleParameter()
+extern void SparseSpatialMapController_get_PointCloudParticleParameter_mA7CBE56DA76344EBDB34499751E9A215ACEC1CDC (void);
+// 0x00000B00 System.Void easyar.SparseSpatialMapController::set_PointCloudParticleParameter(easyar.SparseSpatialMapController/ParticleParameter)
+extern void SparseSpatialMapController_set_PointCloudParticleParameter_m170E033A6A7DA9236A404DB2F7CFB280361C3C53 (void);
+// 0x00000B01 System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.SparseSpatialMapController::get_PointCloud()
+extern void SparseSpatialMapController_get_PointCloud_m0DC7A69DC293F62B25695EF2701A628653FD8A3D (void);
+// 0x00000B02 System.Void easyar.SparseSpatialMapController::set_PointCloud(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void SparseSpatialMapController_set_PointCloud_m406A737D3C5C51390B9855C3C254342236904BD6 (void);
+// 0x00000B03 System.Boolean easyar.SparseSpatialMapController::get_ShowPointCloud()
+extern void SparseSpatialMapController_get_ShowPointCloud_m937B55083182119C7C4741EB585CACB58694A02F (void);
+// 0x00000B04 System.Void easyar.SparseSpatialMapController::set_ShowPointCloud(System.Boolean)
+extern void SparseSpatialMapController_set_ShowPointCloud_mDFCD5BCCAB368683368861F63FF304918EC9432E (void);
+// 0x00000B05 System.Boolean easyar.SparseSpatialMapController::get_IsLocalizing()
+extern void SparseSpatialMapController_get_IsLocalizing_m1A18429FECD69065199E8775CA816E69F9D66E4E (void);
+// 0x00000B06 System.Void easyar.SparseSpatialMapController::set_IsLocalizing(System.Boolean)
+extern void SparseSpatialMapController_set_IsLocalizing_mB7899EFB43DC0113535A9A5303FDD6A2F8A86116 (void);
+// 0x00000B07 System.Void easyar.SparseSpatialMapController::Awake()
+extern void SparseSpatialMapController_Awake_mF7842945B82E959B3FED909498C9A8BAC88AC55B (void);
+// 0x00000B08 System.Void easyar.SparseSpatialMapController::Start()
+extern void SparseSpatialMapController_Start_m41A09AD40F5639B82AE0943891E4AF1C264DD57E (void);
+// 0x00000B09 System.Void easyar.SparseSpatialMapController::OnDestroy()
+extern void SparseSpatialMapController_OnDestroy_mA8AC770CE8CEB8C948CFFFA3780318C60BF872AE (void);
+// 0x00000B0A System.Collections.Generic.List`1<UnityEngine.Vector3> easyar.SparseSpatialMapController::HitTest(UnityEngine.Vector2)
+extern void SparseSpatialMapController_HitTest_mE7F5E6BFDD83142CA0DF8D37D0BF74A0C87A48E5 (void);
+// 0x00000B0B System.Void easyar.SparseSpatialMapController::Host(System.String,easyar.Optional`1<easyar.Image>)
+extern void SparseSpatialMapController_Host_mA78374506F3153E547AE662CABEF0B63D3955B21 (void);
+// 0x00000B0C System.Void easyar.SparseSpatialMapController::OnLocalization(System.Boolean)
+extern void SparseSpatialMapController_OnLocalization_m45F0C0602FED5B40BCC0C0E73E85393F7CB2A90D (void);
+// 0x00000B0D System.Void easyar.SparseSpatialMapController::UpdatePointCloud(easyar.Buffer)
+extern void SparseSpatialMapController_UpdatePointCloud_mDD8E48585AC7C19DD2DBC0D52F8ABBDC2A2F7B59 (void);
+// 0x00000B0E System.Void easyar.SparseSpatialMapController::UpdatePointCloud()
+extern void SparseSpatialMapController_UpdatePointCloud_m8208E6DED79A610F111332F066706983C71BD01A (void);
+// 0x00000B0F System.Void easyar.SparseSpatialMapController::LoadMapBuilderInfo()
+extern void SparseSpatialMapController_LoadMapBuilderInfo_mAAD3F18583BFC952F388BE5F37E09B736BAF7185 (void);
+// 0x00000B10 System.Void easyar.SparseSpatialMapController::LoadMapManagerInfo(easyar.SparseSpatialMapController/MapManagerSourceData)
+extern void SparseSpatialMapController_LoadMapManagerInfo_m9E8FF5FC1226E2EAB829084BA52913538C396043 (void);
+// 0x00000B11 System.Void easyar.SparseSpatialMapController::LoadMapInfo(easyar.SparseSpatialMapController/SparseSpatialMapInfo)
+extern void SparseSpatialMapController_LoadMapInfo_m481A311B383CED8D98A4941572C5587E04E9A490 (void);
+// 0x00000B12 System.Void easyar.SparseSpatialMapController::UpdateMapInLocalizer()
+extern void SparseSpatialMapController_UpdateMapInLocalizer_m2E2F0464B902C2C35792A248AE77CF75032F8B06 (void);
+// 0x00000B13 System.Void easyar.SparseSpatialMapController::.ctor()
+extern void SparseSpatialMapController__ctor_mEA0ADC21731910B6B04B449AF84427F173A4C607 (void);
+// 0x00000B14 System.Void easyar.SparseSpatialMapController::<Host>b__56_0(easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String)
+extern void SparseSpatialMapController_U3CHostU3Eb__56_0_m4B9C3D58624055435890217D1BF1996F88C829FF (void);
+// 0x00000B15 UnityEngine.ParticleSystem/Particle easyar.SparseSpatialMapController::<UpdatePointCloud>b__59_0(UnityEngine.Vector3)
+extern void SparseSpatialMapController_U3CUpdatePointCloudU3Eb__59_0_mC48BA651405025AB3EAF896A3515568BA7B4A7DF (void);
+// 0x00000B16 System.Void easyar.SparseSpatialMapController::<UpdateMapInLocalizer>b__63_0(easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String)
+extern void SparseSpatialMapController_U3CUpdateMapInLocalizerU3Eb__63_0_m64991E8E21B0D39637822FFE9207218A97A62675 (void);
+// 0x00000B17 System.Void easyar.SparseSpatialMapController/SparseSpatialMapInfo::.ctor()
+extern void SparseSpatialMapInfo__ctor_mAAA02B58C0C3BA1136DDF81E7D50522240F60FE3 (void);
+// 0x00000B18 System.Void easyar.SparseSpatialMapController/MapManagerSourceData::.ctor()
+extern void MapManagerSourceData__ctor_mFF100EC397196912ADE3B6540258A26BDC8EBC73 (void);
+// 0x00000B19 System.Void easyar.SparseSpatialMapController/ParticleParameter::.ctor()
+extern void ParticleParameter__ctor_m47EEC0EDA690CB3E463EDFED443352C0BD22418F (void);
+// 0x00000B1A System.Void easyar.SparseSpatialMapController/<>c__DisplayClass58_0::.ctor()
+extern void U3CU3Ec__DisplayClass58_0__ctor_m5AD52797BB2733E48783FA86B12B82A3228599F7 (void);
+// 0x00000B1B UnityEngine.Vector3 easyar.SparseSpatialMapController/<>c__DisplayClass58_0::<UpdatePointCloud>b__0(System.Int32)
+extern void U3CU3Ec__DisplayClass58_0_U3CUpdatePointCloudU3Eb__0_m8244F7E6B9C96F8138264FBDB12BCF0EB7FDE312 (void);
+// 0x00000B1C System.Void easyar.SparseSpatialMapController/<>c__DisplayClass63_0::.ctor()
+extern void U3CU3Ec__DisplayClass63_0__ctor_mF8E30D32A51CF0B9EAF4D0247444131486D8D109 (void);
+// 0x00000B1D System.Void easyar.SparseSpatialMapController/<>c__DisplayClass63_0::<UpdateMapInLocalizer>b__1(easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String)
+extern void U3CU3Ec__DisplayClass63_0_U3CUpdateMapInLocalizerU3Eb__1_m77A39593F7EDEA5B38FFC2BB616D46AFE0CA1746 (void);
+// 0x00000B1E easyar.SparseSpatialMapRootController easyar.SparseSpatialMapHolder::get_MapRoot()
+extern void SparseSpatialMapHolder_get_MapRoot_mA4412E51D83E51B3F310069C22695CEB82A08B80 (void);
+// 0x00000B1F System.Void easyar.SparseSpatialMapHolder::set_MapRoot(easyar.SparseSpatialMapRootController)
+extern void SparseSpatialMapHolder_set_MapRoot_mA25D06F11F3071770E79CA046C059C467FDBAFC5 (void);
+// 0x00000B20 System.Collections.Generic.List`1<easyar.SparseSpatialMapController> easyar.SparseSpatialMapHolder::get_Maps()
+extern void SparseSpatialMapHolder_get_Maps_mEDE030EECAC979C628B72A228DD43AA35FE74329 (void);
+// 0x00000B21 System.Boolean easyar.SparseSpatialMapHolder::get_EnablePoseStabilizer()
+extern void SparseSpatialMapHolder_get_EnablePoseStabilizer_mDB1BAF4968B23DCEC4B5093ED1E45B039723BEF5 (void);
+// 0x00000B22 System.Void easyar.SparseSpatialMapHolder::set_EnablePoseStabilizer(System.Boolean)
+extern void SparseSpatialMapHolder_set_EnablePoseStabilizer_mD7F99CF578126C51D14B683123057E4903C5050B (void);
+// 0x00000B23 System.Void easyar.SparseSpatialMapHolder::Awake()
+extern void SparseSpatialMapHolder_Awake_m03E93CF34C0B196155346A73D0DEF19223E3426E (void);
+// 0x00000B24 System.Void easyar.SparseSpatialMapHolder::OnDestroy()
+extern void SparseSpatialMapHolder_OnDestroy_m2D279738107C39E0135DC1A9D39CA0A0FE892C1B (void);
+// 0x00000B25 easyar.SparseSpatialMapController easyar.SparseSpatialMapHolder::Hold(easyar.SparseSpatialMapController)
+extern void SparseSpatialMapHolder_Hold_m05DF1988CB2CF3B02012BC8DC2693A34E18C3E61 (void);
+// 0x00000B26 System.Boolean easyar.SparseSpatialMapHolder::Unhold(easyar.SparseSpatialMapController)
+extern void SparseSpatialMapHolder_Unhold_mE5C35F9C083E2834E494BDFB84AA899EE2BF44FA (void);
+// 0x00000B27 System.Void easyar.SparseSpatialMapHolder::OnLocalize(easyar.SparseSpatialMapHolder/ResolvedMapInfo,System.Boolean)
+extern void SparseSpatialMapHolder_OnLocalize_mF2228810CC9E84DD1501B0EFEC6BFAD10F620BFF (void);
+// 0x00000B28 System.Boolean easyar.SparseSpatialMapHolder::Localized()
+extern void SparseSpatialMapHolder_Localized_m954B9BDFB0521354AD2B030A53A3861959112709 (void);
+// 0x00000B29 System.Void easyar.SparseSpatialMapHolder::UpdateMotion(UnityEngine.Pose,System.Nullable`1<UnityEngine.Pose>)
+extern void SparseSpatialMapHolder_UpdateMotion_mF17B6A0B601BA47E985649A1347F71ED19AC64CE (void);
+// 0x00000B2A System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose> easyar.SparseSpatialMapHolder::TryGetCenter()
+extern void SparseSpatialMapHolder_TryGetCenter_mCB0D5A173F6352A26AC9E259A19DC2495F587DCA (void);
+// 0x00000B2B System.Void easyar.SparseSpatialMapHolder::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+extern void SparseSpatialMapHolder_UpdateTransform_mA22C3A63E2E1AB95E557BC791DAB3156558A53EB (void);
+// 0x00000B2C System.Void easyar.SparseSpatialMapHolder::OnMapChange()
+extern void SparseSpatialMapHolder_OnMapChange_m722F953AE0D44C2D04DAE3E841BB54DE9B040C7A (void);
+// 0x00000B2D System.Void easyar.SparseSpatialMapHolder::OnTrack()
+extern void SparseSpatialMapHolder_OnTrack_m029172B8E221249F0D80539A69466C4521188743 (void);
+// 0x00000B2E easyar.SparseSpatialMapController easyar.SparseSpatialMapHolder::TryGetMapController(System.String)
+extern void SparseSpatialMapHolder_TryGetMapController_m9BDC8980B7E991E1F925B72F81443C32939BBEA2 (void);
+// 0x00000B2F System.Void easyar.SparseSpatialMapHolder::.ctor()
+extern void SparseSpatialMapHolder__ctor_mEF149CDD1EBC5372225BE9D0E3369AEC5864CB09 (void);
+// 0x00000B30 System.Void easyar.SparseSpatialMapHolder/ResolvedMapInfo::.ctor()
+extern void ResolvedMapInfo__ctor_m7D3C36E92CA39B55A1DE8552F008D90C1AC70923 (void);
+// 0x00000B31 System.Void easyar.SparseSpatialMapRootController::add_MapFound(System.Action)
+extern void SparseSpatialMapRootController_add_MapFound_m9FDB3D38E4168DF0C0BE818F557086FDB440CDCE (void);
+// 0x00000B32 System.Void easyar.SparseSpatialMapRootController::remove_MapFound(System.Action)
+extern void SparseSpatialMapRootController_remove_MapFound_m5AB7AB7649310D78410717D12C93E321FB3115FF (void);
+// 0x00000B33 System.Void easyar.SparseSpatialMapRootController::OnFound()
+extern void SparseSpatialMapRootController_OnFound_m49F22A86D2F937E9A8192236C07945CCA5D17E49 (void);
+// 0x00000B34 System.Void easyar.SparseSpatialMapRootController::.ctor()
+extern void SparseSpatialMapRootController__ctor_m58C3425F79FD0EA73BD212299358FC5B512B622E (void);
+// 0x00000B35 easyar.SparseSpatialMap easyar.SparseSpatialMapWorkerFrameFilter::get_Builder()
+extern void SparseSpatialMapWorkerFrameFilter_get_Builder_m5C84CF457315950B75B15132EEDC8FF6A44BCB05 (void);
+// 0x00000B36 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_Builder(easyar.SparseSpatialMap)
+extern void SparseSpatialMapWorkerFrameFilter_set_Builder_m28B20A5CC62DE16863580008BAE56AF90AFCEC37 (void);
+// 0x00000B37 easyar.SparseSpatialMap easyar.SparseSpatialMapWorkerFrameFilter::get_Localizer()
+extern void SparseSpatialMapWorkerFrameFilter_get_Localizer_m04CB27384DCBF123CFF495F520AD847602700060 (void);
+// 0x00000B38 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_Localizer(easyar.SparseSpatialMap)
+extern void SparseSpatialMapWorkerFrameFilter_set_Localizer_m7346003AA50BE377E04E4AC9F19D09330DE65F68 (void);
+// 0x00000B39 easyar.SparseSpatialMapManager easyar.SparseSpatialMapWorkerFrameFilter::get_Manager()
+extern void SparseSpatialMapWorkerFrameFilter_get_Manager_m594DACAD696BA60E365DF36DA78DD7956B0CEDCA (void);
+// 0x00000B3A System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_Manager(easyar.SparseSpatialMapManager)
+extern void SparseSpatialMapWorkerFrameFilter_set_Manager_mAE29FF0B6CA17915DC732D950B19FD201C72F918 (void);
+// 0x00000B3B System.Void easyar.SparseSpatialMapWorkerFrameFilter::add_MapLoad(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapWorkerFrameFilter_add_MapLoad_mD884950D2A02FA426505444830403A13FF0C143A (void);
+// 0x00000B3C System.Void easyar.SparseSpatialMapWorkerFrameFilter::remove_MapLoad(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapWorkerFrameFilter_remove_MapLoad_mD7468FA7036FC89C2038423524480A85554D1576 (void);
+// 0x00000B3D System.Void easyar.SparseSpatialMapWorkerFrameFilter::add_MapUnload(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapWorkerFrameFilter_add_MapUnload_mAF0D4BF8CA9D98A24CA6DF2FFC3419D87242FAD0 (void);
+// 0x00000B3E System.Void easyar.SparseSpatialMapWorkerFrameFilter::remove_MapUnload(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapWorkerFrameFilter_remove_MapUnload_mCDD7E3A0F2515CD67CFD737806EFCA208B72114A (void);
+// 0x00000B3F System.Void easyar.SparseSpatialMapWorkerFrameFilter::add_MapHost(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapWorkerFrameFilter_add_MapHost_m4200053B69CA8EDB9648F866CEA65538ED3D2440 (void);
+// 0x00000B40 System.Void easyar.SparseSpatialMapWorkerFrameFilter::remove_MapHost(System.Action`4<easyar.SparseSpatialMapController,easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapWorkerFrameFilter_remove_MapHost_mE4B1F4036A686615C4E8A8AFD8F3EE3E28F2D351 (void);
+// 0x00000B41 System.Int32 easyar.SparseSpatialMapWorkerFrameFilter::get_BufferRequirement()
+extern void SparseSpatialMapWorkerFrameFilter_get_BufferRequirement_m6AC85AFA549C019EFC6F17C8460B29A6EE3A1A5C (void);
+// 0x00000B42 easyar.SparseSpatialMapWorkerFrameFilter/Mode easyar.SparseSpatialMapWorkerFrameFilter::get_WorkingMode()
+extern void SparseSpatialMapWorkerFrameFilter_get_WorkingMode_m339D4D316CEED6F42C101A8E74045DC4AD65A540 (void);
+// 0x00000B43 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_WorkingMode(easyar.SparseSpatialMapWorkerFrameFilter/Mode)
+extern void SparseSpatialMapWorkerFrameFilter_set_WorkingMode_m9AF125FFB4F8EB784FF042FBDAA0B1F0D6CA3ED6 (void);
+// 0x00000B44 easyar.SparseSpatialMapController easyar.SparseSpatialMapWorkerFrameFilter::get_LocalizedMap()
+extern void SparseSpatialMapWorkerFrameFilter_get_LocalizedMap_m0FB9646B5CD46EA9159F6DF1C6BE8355ABF97031 (void);
+// 0x00000B45 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_LocalizedMap(easyar.SparseSpatialMapController)
+extern void SparseSpatialMapWorkerFrameFilter_set_LocalizedMap_mC1A616C1D1D314F22DA9A6B0FA58FDC9ECD1DDF9 (void);
+// 0x00000B46 easyar.SparseSpatialMapController easyar.SparseSpatialMapWorkerFrameFilter::get_BuilderMapController()
+extern void SparseSpatialMapWorkerFrameFilter_get_BuilderMapController_m6F720BDBC32CF097E8BC061802555D132E4E38E3 (void);
+// 0x00000B47 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_BuilderMapController(easyar.SparseSpatialMapController)
+extern void SparseSpatialMapWorkerFrameFilter_set_BuilderMapController_m732AE90F993EF8339A753B8784394077426C3165 (void);
+// 0x00000B48 easyar.SparseSpatialMapHolder easyar.SparseSpatialMapWorkerFrameFilter::get_MapHolder()
+extern void SparseSpatialMapWorkerFrameFilter_get_MapHolder_mA8996F0C71193113A83C150F87F8D3EEE4B33620 (void);
+// 0x00000B49 System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_MapHolder(easyar.SparseSpatialMapHolder)
+extern void SparseSpatialMapWorkerFrameFilter_set_MapHolder_mE5A3A61AF8F87B44938CFA8EFE4E5610BDFEE708 (void);
+// 0x00000B4A System.Boolean easyar.SparseSpatialMapWorkerFrameFilter::get_EnablePoseStabilizer()
+extern void SparseSpatialMapWorkerFrameFilter_get_EnablePoseStabilizer_mFDD8D0F65FEFB4EFD7190815DF3ABB9C247A0BC0 (void);
+// 0x00000B4B System.Void easyar.SparseSpatialMapWorkerFrameFilter::set_EnablePoseStabilizer(System.Boolean)
+extern void SparseSpatialMapWorkerFrameFilter_set_EnablePoseStabilizer_m7E0B319D21D125E4AAD7066573265C5CB5C1AD64 (void);
+// 0x00000B4C System.Void easyar.SparseSpatialMapWorkerFrameFilter::Awake()
+extern void SparseSpatialMapWorkerFrameFilter_Awake_mD8B18294F2A5F1B2B39E9DF086066BBA6093FAC6 (void);
+// 0x00000B4D System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnEnable()
+extern void SparseSpatialMapWorkerFrameFilter_OnEnable_mD1BEF7EA614082F78A976CC05EEF93F0AD78302B (void);
+// 0x00000B4E System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnDisable()
+extern void SparseSpatialMapWorkerFrameFilter_OnDisable_mBC5323BB7753308EB1C3FA9054C0F82870F56C6B (void);
+// 0x00000B4F System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnDestroy()
+extern void SparseSpatialMapWorkerFrameFilter_OnDestroy_mC309ECA995F3A4A97B8524CA28E43AD62CEFAEB7 (void);
+// 0x00000B50 System.Void easyar.SparseSpatialMapWorkerFrameFilter::LoadMap(easyar.SparseSpatialMapController)
+extern void SparseSpatialMapWorkerFrameFilter_LoadMap_mA80A7F253AD33F0AF476E4473FA5B0D30BCAE364 (void);
+// 0x00000B51 System.Void easyar.SparseSpatialMapWorkerFrameFilter::UnloadMap(easyar.SparseSpatialMapController)
+extern void SparseSpatialMapWorkerFrameFilter_UnloadMap_m5A1D966E07D131C019B21056AE37291EC57F5E86 (void);
+// 0x00000B52 System.Void easyar.SparseSpatialMapWorkerFrameFilter::HostMap(easyar.SparseSpatialMapController,System.String,easyar.Optional`1<easyar.Image>)
+extern void SparseSpatialMapWorkerFrameFilter_HostMap_m85F2E6F13F95BD941072F7437E57FDA92B89C4FC (void);
+// 0x00000B53 easyar.InputFrameSink easyar.SparseSpatialMapWorkerFrameFilter::InputFrameSink()
+extern void SparseSpatialMapWorkerFrameFilter_InputFrameSink_m34F389561B0FA17EFAD74FCDEA017CEF66FAAEFD (void);
+// 0x00000B54 easyar.OutputFrameSource easyar.SparseSpatialMapWorkerFrameFilter::OutputFrameSource()
+extern void SparseSpatialMapWorkerFrameFilter_OutputFrameSource_m9E7965CDC732F3459837856429EECD3ADF77180D (void);
+// 0x00000B55 System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnAssemble(easyar.ARSession)
+extern void SparseSpatialMapWorkerFrameFilter_OnAssemble_m518C6512B6A2E4908C836251564DBC0771A00FB7 (void);
+// 0x00000B56 System.Void easyar.SparseSpatialMapWorkerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+extern void SparseSpatialMapWorkerFrameFilter_OnResult_m8385660E3DBFE973609304F3B39164D4C3C83ABB (void);
+// 0x00000B57 System.Void easyar.SparseSpatialMapWorkerFrameFilter::UpdateMotion(System.Double,easyar.MotionTrackingStatus,easyar.Matrix44F)
+extern void SparseSpatialMapWorkerFrameFilter_UpdateMotion_m80DCE24D60B3FB41DEC87E24C7FF06BF6B4EFFAF (void);
+// 0x00000B58 easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.SparseSpatialMapWorkerFrameFilter::TryGetCenter(UnityEngine.GameObject)
+extern void SparseSpatialMapWorkerFrameFilter_TryGetCenter_m08459500DEEEA0EC0B595F0093DF28B0DB1A8DE3 (void);
+// 0x00000B59 System.Void easyar.SparseSpatialMapWorkerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+extern void SparseSpatialMapWorkerFrameFilter_UpdateTransform_m1DBD707AE56817237452F5E93E64CC0A1D6C7E84 (void);
+// 0x00000B5A System.Void easyar.SparseSpatialMapWorkerFrameFilter::LoadSparseSpatialMap(easyar.SparseSpatialMapController,System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapWorkerFrameFilter_LoadSparseSpatialMap_mCC349A35473058F6EBBEAD6B6CAE9A1D8073611B (void);
+// 0x00000B5B System.Void easyar.SparseSpatialMapWorkerFrameFilter::UnloadSparseSpatialMap(easyar.SparseSpatialMapController,System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapWorkerFrameFilter_UnloadSparseSpatialMap_m29810D1DFBA28F92B3399E0B13599B07AB51CCB9 (void);
+// 0x00000B5C System.Void easyar.SparseSpatialMapWorkerFrameFilter::HostSparseSpatialMap(easyar.SparseSpatialMapController,System.String,easyar.Optional`1<easyar.Image>,System.Action`3<easyar.SparseSpatialMapController/SparseSpatialMapInfo,System.Boolean,System.String>)
+extern void SparseSpatialMapWorkerFrameFilter_HostSparseSpatialMap_m96F74FF58B53904FC878E8AEAA9A5F9282DE18ED (void);
+// 0x00000B5D System.Void easyar.SparseSpatialMapWorkerFrameFilter::LoadSparseSpatialMapBuild(easyar.SparseSpatialMapController)
+extern void SparseSpatialMapWorkerFrameFilter_LoadSparseSpatialMapBuild_mC2BEE6A1BB83844E49CD1CB5FCD6DD03CD1ACA51 (void);
+// 0x00000B5E System.Void easyar.SparseSpatialMapWorkerFrameFilter::UnloadSparseSpatialMapBuild(easyar.SparseSpatialMapController)
+extern void SparseSpatialMapWorkerFrameFilter_UnloadSparseSpatialMapBuild_m9A7276698FBD9670D298EC4C9C092158C5B7D831 (void);
+// 0x00000B5F System.Void easyar.SparseSpatialMapWorkerFrameFilter::NotifyEmptyConfig(easyar.SparseSpatialMapWorkerFrameFilter/SpatialMapServiceConfig)
+extern void SparseSpatialMapWorkerFrameFilter_NotifyEmptyConfig_mEB25ACAE42DA1F4CB5C68A60B1C6F30CD4EBC500 (void);
+// 0x00000B60 System.Void easyar.SparseSpatialMapWorkerFrameFilter::.ctor()
+extern void SparseSpatialMapWorkerFrameFilter__ctor_m82105167B88503D86C2A0510BCD261325145B3CB (void);
+// 0x00000B61 System.Void easyar.SparseSpatialMapWorkerFrameFilter/MapLocalizerConfig::.ctor()
+extern void MapLocalizerConfig__ctor_mF51E53093AFDC3CC8C8128E3738260878307B62B (void);
+// 0x00000B62 System.Void easyar.SparseSpatialMapWorkerFrameFilter/SpatialMapServiceConfig::.ctor()
+extern void SpatialMapServiceConfig__ctor_m286884DDC610EC2931915C241E2A001A00408EBB (void);
+// 0x00000B63 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass69_0::.ctor()
+extern void U3CU3Ec__DisplayClass69_0__ctor_mDEC89C289CA2F6E62C9A94A4306C6213142781C2 (void);
+// 0x00000B64 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass69_0::<LoadSparseSpatialMap>b__0(System.Boolean,System.String)
+extern void U3CU3Ec__DisplayClass69_0_U3CLoadSparseSpatialMapU3Eb__0_m13E61292370AC024256C7851768583D78148B8C9 (void);
+// 0x00000B65 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass70_0::.ctor()
+extern void U3CU3Ec__DisplayClass70_0__ctor_m385D7FA2A3322CA4FCA800EFF4EBEC214F27556B (void);
+// 0x00000B66 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass70_0::<UnloadSparseSpatialMap>b__0(System.Boolean)
+extern void U3CU3Ec__DisplayClass70_0_U3CUnloadSparseSpatialMapU3Eb__0_m419B9C96466AE1E1DF1AF6DD42175A0D88D55613 (void);
+// 0x00000B67 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass71_0::.ctor()
+extern void U3CU3Ec__DisplayClass71_0__ctor_m04723749E211B6BAC1CD00E22A598CEDFC3F19C4 (void);
+// 0x00000B68 System.Void easyar.SparseSpatialMapWorkerFrameFilter/<>c__DisplayClass71_0::<HostSparseSpatialMap>b__0(System.Boolean,System.String,System.String)
+extern void U3CU3Ec__DisplayClass71_0_U3CHostSparseSpatialMapU3Eb__0_m7383DE525D16D3ACB45CF45416BB84E86A92DCBD (void);
+// 0x00000B69 System.Void easyar.SurfaceTargetController::OnTracking()
+extern void SurfaceTargetController_OnTracking_m0E7E8874514A5A8E9806EFF2DA1DD3DFF5000158 (void);
+// 0x00000B6A System.Void easyar.SurfaceTargetController::Load()
+extern void SurfaceTargetController_Load_m36A8F7D0AA6B762C2F58D0C4D03A732250D312BF (void);
+// 0x00000B6B System.Void easyar.SurfaceTargetController::.ctor()
+extern void SurfaceTargetController__ctor_m2B0597B301A7D7C30E32326690FDF722CB73493C (void);
+// 0x00000B6C easyar.SurfaceTracker easyar.SurfaceTrackerFrameFilter::get_Tracker()
+extern void SurfaceTrackerFrameFilter_get_Tracker_m016864AB165082CE90DAC189CB1E8FEDA347A1E4 (void);
+// 0x00000B6D System.Void easyar.SurfaceTrackerFrameFilter::set_Tracker(easyar.SurfaceTracker)
+extern void SurfaceTrackerFrameFilter_set_Tracker_m2C0AE9C5F57BB25F1FAD37479B63E72FD40D9E72 (void);
+// 0x00000B6E System.Int32 easyar.SurfaceTrackerFrameFilter::get_BufferRequirement()
+extern void SurfaceTrackerFrameFilter_get_BufferRequirement_m10D8C10D81887A6A218CD41B8E24EA04CB6325F3 (void);
+// 0x00000B6F easyar.SurfaceTargetController easyar.SurfaceTrackerFrameFilter::get_Target()
+extern void SurfaceTrackerFrameFilter_get_Target_m34CA11EC590A7EFA09D0ACF1636339397A512D2D (void);
+// 0x00000B70 System.Void easyar.SurfaceTrackerFrameFilter::set_Target(easyar.SurfaceTargetController)
+extern void SurfaceTrackerFrameFilter_set_Target_m0A6AE6AA893FF281EAC0F39107672873A4A62F1C (void);
+// 0x00000B71 System.Void easyar.SurfaceTrackerFrameFilter::Awake()
+extern void SurfaceTrackerFrameFilter_Awake_mFA94942AAC942EDEC51CB36CDB5230822A63BA6D (void);
+// 0x00000B72 System.Void easyar.SurfaceTrackerFrameFilter::OnEnable()
+extern void SurfaceTrackerFrameFilter_OnEnable_m93C356856D0A69C93D2D7E80B65E8B003979A8D5 (void);
+// 0x00000B73 System.Void easyar.SurfaceTrackerFrameFilter::OnDisable()
+extern void SurfaceTrackerFrameFilter_OnDisable_mA89FC2C1689FAD751DC527359033AF2C19FA0246 (void);
+// 0x00000B74 System.Void easyar.SurfaceTrackerFrameFilter::OnDestroy()
+extern void SurfaceTrackerFrameFilter_OnDestroy_m2DDAAB21368FCFC4D657861B70A0A227825BF120 (void);
+// 0x00000B75 easyar.InputFrameSink easyar.SurfaceTrackerFrameFilter::InputFrameSink()
+extern void SurfaceTrackerFrameFilter_InputFrameSink_mA8369D1452F84F7B448A20416513933CE5E230A2 (void);
+// 0x00000B76 easyar.OutputFrameSource easyar.SurfaceTrackerFrameFilter::OutputFrameSource()
+extern void SurfaceTrackerFrameFilter_OutputFrameSource_m2EDF85B04F3F7535545539CCBD728DD07AB68A3C (void);
+// 0x00000B77 System.Void easyar.SurfaceTrackerFrameFilter::OnAssemble(easyar.ARSession)
+extern void SurfaceTrackerFrameFilter_OnAssemble_m6399AF1D59B98ED874F0F6A89594B4EF256A9C34 (void);
+// 0x00000B78 System.Void easyar.SurfaceTrackerFrameFilter::OnResult(easyar.Optional`1<easyar.FrameFilterResult>)
+extern void SurfaceTrackerFrameFilter_OnResult_m2BFC2E74DCF6ABE08B6A3F43502EB04A08672E48 (void);
+// 0x00000B79 easyar.Optional`1<System.Tuple`2<UnityEngine.GameObject,UnityEngine.Pose>> easyar.SurfaceTrackerFrameFilter::TryGetCenter(UnityEngine.GameObject)
+extern void SurfaceTrackerFrameFilter_TryGetCenter_mF304454E6636524BD64D410CD4226B7CB41DD5C2 (void);
+// 0x00000B7A System.Void easyar.SurfaceTrackerFrameFilter::UpdateTransform(UnityEngine.GameObject,UnityEngine.Pose)
+extern void SurfaceTrackerFrameFilter_UpdateTransform_m1D167D3B2C83E01C4122BA3AD6121EF4DED449E0 (void);
+// 0x00000B7B System.Void easyar.SurfaceTrackerFrameFilter::.ctor()
+extern void SurfaceTrackerFrameFilter__ctor_m724C05CE8BD73735DECA35CB50EF5240CA058C48 (void);
+static Il2CppMethodPointer s_methodPointers[2939] = 
+{
+	Detail_easyar_String_from_utf8_m245B08EF9583DE8567F2A213289322424ACF35CB,
+	Detail_easyar_String_from_utf8_begin_mF245B95BD61E15556769EA70E369CBDD02E5F723,
+	Detail_easyar_String_begin_m59E8B741BEF9EBAA63749F46AE760C246953D08B,
+	Detail_easyar_String_end_m1B9C5CEDB5ABD9A115CA026A671016C03679ABA4,
+	Detail_easyar_String_copy_m2D512BC1524050C8E9C4E57F2A8378ED8942BD1D,
+	Detail_easyar_String__dtor_mCDD6DFF1D2FCAB18987A9C167C466BCADCE2027E,
+	Detail_easyar_ObjectTargetParameters__ctor_m96B4DB0EFC409A26B5E7F782CF651897CEEFDF73,
+	Detail_easyar_ObjectTargetParameters_bufferDictionary_m8398919831CA646B6F8F7D82D6F97F1F854D8CD2,
+	Detail_easyar_ObjectTargetParameters_setBufferDictionary_mDCCB03EA5F43BC113A89387BDDA6E381BDB55EBC,
+	Detail_easyar_ObjectTargetParameters_objPath_mC381A5EDCBD01A5BEED44E0A513F6AB1504E313A,
+	Detail_easyar_ObjectTargetParameters_setObjPath_mEA00868DB507DB749803F1A1D48C01E640B52293,
+	Detail_easyar_ObjectTargetParameters_name_m863FCBD7AFCC1872CE55F9750F122C2FE0581D22,
+	Detail_easyar_ObjectTargetParameters_setName_mB9EE14B189A006E5003A263F6BF962059D7297F5,
+	Detail_easyar_ObjectTargetParameters_uid_m5C0F918E9704CEDE170F150DDABA19B9BCBA9BA4,
+	Detail_easyar_ObjectTargetParameters_setUid_mE4F4190B2CE5E236725BA9E81472BA4A7CA7B00D,
+	Detail_easyar_ObjectTargetParameters_meta_m1CB781B705A80D5E6F38207ED5BAC3E46B171A45,
+	Detail_easyar_ObjectTargetParameters_setMeta_m8C3C5040748C58A7910FBECBE61E504D2B5E7BD3,
+	Detail_easyar_ObjectTargetParameters_scale_m06B711AEFC9F86866A65FBDF2136740310AD1219,
+	Detail_easyar_ObjectTargetParameters_setScale_mE263FFAC995AF16F5E0A4E68B3DAB4EDD65A00FC,
+	Detail_easyar_ObjectTargetParameters__dtor_mA045F644CD0D43F772DB0A7ACFBA22917C22EEDE,
+	Detail_easyar_ObjectTargetParameters__retain_mD4AF160397ACC032948C185BC70BB09903B8AC7B,
+	Detail_easyar_ObjectTargetParameters__typeName_mAD887E3EDABB6979967FDEA49181708A1692381F,
+	Detail_easyar_ObjectTarget__ctor_mDE6FBA0C7CE77E80571A2E2A95330EB7B56CA29E,
+	Detail_easyar_ObjectTarget_createFromParameters_mDAA9CE3CFEA5AAE6C0A0151F20864CD380362444,
+	Detail_easyar_ObjectTarget_createFromObjectFile_mEB45A788406CBB7C26C5B7BC2EDC405884A5F96E,
+	Detail_easyar_ObjectTarget_scale_mCD11A1729FC83AB935E0E18B9BB04A11BA459664,
+	Detail_easyar_ObjectTarget_boundingBox_mADEAD1D8B43BDC6F83E9E47D3B44671CA7EA6465,
+	Detail_easyar_ObjectTarget_setScale_m4CE75B5F09B36DE4B815E79710B59B716CA2C37E,
+	Detail_easyar_ObjectTarget_runtimeID_mFA438EE533E0DB21CC8AB0315E22BA12FE40965D,
+	Detail_easyar_ObjectTarget_uid_mE3461568F378C8BABEA22783B2C2149D825B7F2A,
+	Detail_easyar_ObjectTarget_name_mB9CB10AAB9D6AB45BF20EF20D3886E52BDE0819C,
+	Detail_easyar_ObjectTarget_setName_mF10255FF4995EDD44BB4CE14236BB57A3EC119DC,
+	Detail_easyar_ObjectTarget_meta_m647B4B84348AA3D318CE6E4EF0A491C334CC5B9D,
+	Detail_easyar_ObjectTarget_setMeta_m58EBF87CD3E8F5467A3837426573BC0864CC4B75,
+	Detail_easyar_ObjectTarget__dtor_m0E67F3829532BDFA05694F97169C54F804C4A267,
+	Detail_easyar_ObjectTarget__retain_m1EC94B55001B4F58F7D359A945FE03F0D73B4320,
+	Detail_easyar_ObjectTarget__typeName_m4E597A8BACA77FA589C49F31347DB2AC4A38B5CB,
+	Detail_easyar_castObjectTargetToTarget_mD8A80DDB0F397570D629D67473CDD5F57DB97057,
+	Detail_easyar_tryCastTargetToObjectTarget_m619DCFFD6EEBDE3999A0A7145348DC989788EEB4,
+	Detail_easyar_ObjectTrackerResult_targetInstances_m4D29ACBB7B8561D5ABE7325367B0FD137C4E945E,
+	Detail_easyar_ObjectTrackerResult_setTargetInstances_m6D625433BF208E1C88C0A889B526644C83D73B07,
+	Detail_easyar_ObjectTrackerResult__dtor_mD63EA3BA3F6B7B757FEF30DF12D1630439D390D6,
+	Detail_easyar_ObjectTrackerResult__retain_mDDDFF3AA6488787D8F56029F951EA3C8983D9573,
+	Detail_easyar_ObjectTrackerResult__typeName_m7C00F6F2A651CCB609F47F38AADA1601E0D21F30,
+	Detail_easyar_castObjectTrackerResultToFrameFilterResult_mB1D3B516D7EF716A594AB6ECA1621AD653AE71A6,
+	Detail_easyar_tryCastFrameFilterResultToObjectTrackerResult_m2EF7ED0B460654B6971A9818F78E1595D97F0A07,
+	Detail_easyar_castObjectTrackerResultToTargetTrackerResult_mDBC0892C0A91625D3137A57805920189BFF685FC,
+	Detail_easyar_tryCastTargetTrackerResultToObjectTrackerResult_m7424EB505C12A22FFFC0085F84E98232CD9B450E,
+	Detail_easyar_ObjectTracker_isAvailable_m728D3D036AA50B691590AEC597BE1D68E765B50E,
+	Detail_easyar_ObjectTracker_feedbackFrameSink_m96746DE0024485BF9BA32071FA6B0AC0967A20C4,
+	Detail_easyar_ObjectTracker_bufferRequirement_mA4929E1C6FC12F073E815DF5293450D3D11B4D2D,
+	Detail_easyar_ObjectTracker_outputFrameSource_m06DDE2126AC04098594EEF83070D0F7A738B33C9,
+	Detail_easyar_ObjectTracker_create_m681A94C7E8694D18EF057A21A6F70183AA131CFE,
+	Detail_easyar_ObjectTracker_start_m83A7EC428800101574D15154CEAE5B9171088BDB,
+	Detail_easyar_ObjectTracker_stop_m3EB1E19E83D5C0DEE3F8A1D97389575DA56BA061,
+	Detail_easyar_ObjectTracker_close_mBCB1B644F304066D6E6F15427296382BB1623E84,
+	Detail_easyar_ObjectTracker_loadTarget_mECB96DEDF46798A8B1A886AFCFD186D4A98CA707,
+	Detail_easyar_ObjectTracker_unloadTarget_m0C74ECDDDD4E26AEBB9B659621B96A2E301A3E3F,
+	Detail_easyar_ObjectTracker_targets_mD5ED440D1B489086842F1B8799994D687AB5D6B1,
+	Detail_easyar_ObjectTracker_setSimultaneousNum_m9AEEA70AF6C237CD6C091369AF1294FB75786893,
+	Detail_easyar_ObjectTracker_simultaneousNum_mFF0295B64F7BC7C85C0ACFDEA90F086DC9D23995,
+	Detail_easyar_ObjectTracker__dtor_m1AD9B0FC853CD9DBE43DCD9CDC40458E434CABE3,
+	Detail_easyar_ObjectTracker__retain_m34A7911E093CF1AF4AFA9C5B3B3384A15F06BEB2,
+	Detail_easyar_ObjectTracker__typeName_m578CA53641A7603FB65882835C492CBDA68527A9,
+	Detail_easyar_CalibrationDownloader__ctor_m471FA09DB25D7C4675AFCAE7DAD32D42B8D1503F,
+	Detail_easyar_CalibrationDownloader_download_mF0CDA454F64CE3C9ACF26989636A0C316D0F8B8F,
+	Detail_easyar_CalibrationDownloader__dtor_m4E0CAB74FF2FBE09D6E503AC2C44D72773D02BDC,
+	Detail_easyar_CalibrationDownloader__retain_mB1D4B4B64D0177BF8F82ED72CD44B61E4ADAC70A,
+	Detail_easyar_CalibrationDownloader__typeName_m8A6FCFEFBDA347A759985AB3E73EDD271A786B38,
+	Detail_easyar_CloudLocalizeResult_getLocalizeStatus_mCC032862C182D021D7E71046DA6B3054BD28D274,
+	Detail_easyar_CloudLocalizeResult_getLocalizedMapID_mF1C4A3246C9E603DC36BACC5E817A7F325AC1390,
+	Detail_easyar_CloudLocalizeResult_getLocalizedMapName_m671E921F0AF916A1EF8D30B9A376BA0518768BAE,
+	Detail_easyar_CloudLocalizeResult_getPose_m7D9770E8CD60B92C987FF1C8247AA12742E76888,
+	Detail_easyar_CloudLocalizeResult_getDeltaT_m770A8064C7AF1F65DD3C373B0AFE26D4C77F04AE,
+	Detail_easyar_CloudLocalizeResult_getAllLocalizedMapID_mDE135A756A0C37F4328A122F1677C7A50923F8A8,
+	Detail_easyar_CloudLocalizeResult_getAllPose_m6AA22B770BAECE5B3C870EF887BC0A83E4B8D5A1,
+	Detail_easyar_CloudLocalizeResult_getAllDeltaT_mFFFC5CE67A6A6E3E904BC993CF3B8B0697F27B92,
+	Detail_easyar_CloudLocalizeResult_getExtraInfo_m2B0B14E4CAB20EDBE03C9DE4F7296662824BC9A6,
+	Detail_easyar_CloudLocalizeResult_getExceptionInfo_m79A993B0D95CA918159BC00347366C6240EFE221,
+	Detail_easyar_CloudLocalizeResult_getLocalizedBlockId_mE710AF528C33FC1F0E43EC96B461E7DF6CB0F0ED,
+	Detail_easyar_CloudLocalizeResult_getLocalizedBlockTimestamp_m8D00E4793BF9FDED9E5237BAC995D3384A646EA3,
+	Detail_easyar_CloudLocalizeResult_getLocalizedBlockLocation_m439C5C41B85F77BDE4628EE7C12DE37B77735B42,
+	Detail_easyar_CloudLocalizeResult_getLocalizedClusterId_mAB5B6D18A67E80ECAB75A3C877051EBEC080B4C7,
+	Detail_easyar_CloudLocalizeResult_getLocalizedClusterLocation_mDC86268A82F9ECDCFE0F8C763D04E0748B7BF592,
+	Detail_easyar_CloudLocalizeResult_getPoseInCluster_mEE766CB20BA81BF2C1A9E372F6459E8ED435B27D,
+	Detail_easyar_CloudLocalizeResult_getDeltaTForCluster_mD3C79432D4F3DA72DE63BE62A52D532869B603A8,
+	Detail_easyar_CloudLocalizeResult_getDeviceLocation_mB64B915047B5A5C3D9F730E11FBC2D4F8722680E,
+	Detail_easyar_CloudLocalizeResult__dtor_m202EAD2AB2081981078DA9E766959924DD8F6B0E,
+	Detail_easyar_CloudLocalizeResult__retain_mA9B5422290690B6394A7E29530F7B29C6F8FF94D,
+	Detail_easyar_CloudLocalizeResult__typeName_m8BC70363CA25F69F69367F8EB1DA1D76160F180D,
+	Detail_easyar_castCloudLocalizeResultToFrameFilterResult_m905F38ADD91BE89890CA661A2CAF2EEAAF55E16E,
+	Detail_easyar_tryCastFrameFilterResultToCloudLocalizeResult_mEDE7C7B2CA7BB0B05FC724F754328A26580D2631,
+	Detail_easyar_CloudLocalizer_isAvailable_mDCE6F29D77CDB450DD5911109D052B041FA05734,
+	Detail_easyar_CloudLocalizer_create_mF31274AF419EA290548EBA18B2C666A9048E6E47,
+	Detail_easyar_CloudLocalizer_resolve_m41C3C7CA2583AF79A282D059D9AF383A11D8B7AD,
+	Detail_easyar_CloudLocalizer_close_m66E5F113A40EBCDBFFBF227833AE203A551DFCF0,
+	Detail_easyar_CloudLocalizer__dtor_m4B14E60D71F7E6E9C8D8ECC9D57E0DD6B4A08056,
+	Detail_easyar_CloudLocalizer__retain_m3BFF1239AE8B390EAADFF33157A851835886BA3D,
+	Detail_easyar_CloudLocalizer__typeName_mCF263DB319EA2387A143E8C319403682CE9411F6,
+	Detail_easyar_CloudRecognizationResult_getStatus_mBBD96B31D3700DA83B80DFFEB44DA506EF6A8281,
+	Detail_easyar_CloudRecognizationResult_getTarget_m6FC7A4A57A4819F063FD47FB7E7A3D354F535D3B,
+	Detail_easyar_CloudRecognizationResult_getUnknownErrorMessage_mF0D0FABFAF357221CC8D955DAE7C30B46A3DE32B,
+	Detail_easyar_CloudRecognizationResult__dtor_m07F9BC44B1773657033C554FE16BE8FEEA3AC37D,
+	Detail_easyar_CloudRecognizationResult__retain_mD30DBD1C3965A361812BA4157C43E1D4A0FDF898,
+	Detail_easyar_CloudRecognizationResult__typeName_m4A74E92D5B0266F0A18B4484F0214DC0C704DAAC,
+	Detail_easyar_CloudRecognizer_isAvailable_m5B251B0112CC868C0F2D14B0E5A5744402E68418,
+	Detail_easyar_CloudRecognizer_create_m84B7FADD26A1C0976309789D99ADBA0CED9FD409,
+	Detail_easyar_CloudRecognizer_createByCloudSecret_m453723865B44427AABD64DA117844881FF798F1E,
+	Detail_easyar_CloudRecognizer_resolve_m45DA5A47316E70DEFC8A6C467E1B5C5F70E3BB03,
+	Detail_easyar_CloudRecognizer_close_m07DF638788E9CE637BD5497B2F580C7E052E2357,
+	Detail_easyar_CloudRecognizer__dtor_m4F7CE4F2FF987E178125636087F8590DD7106D8C,
+	Detail_easyar_CloudRecognizer__retain_m5A02910FCF7D1F8C8D50D0BB8CB3CAAC56DFAD7F,
+	Detail_easyar_CloudRecognizer__typeName_mDD2DFE18CEA7CA7B93DEACAB38D87ED9A31335F6,
+	Detail_easyar_Buffer_wrap_mF777FCE16709E0ED32DCEADCE6E4EC022157743F,
+	Detail_easyar_Buffer_create_m3E78A8DCF79F6E12EA493554FECAA939364A45F4,
+	Detail_easyar_Buffer_data_m28099875FF229A396334A39D1B9CC9ECC1451B93,
+	Detail_easyar_Buffer_size_m8AD828B24C5EBD9FB6F14EF5656364DE1DC5CA68,
+	Detail_easyar_Buffer_memoryCopy_m564DAD1FBB2FDACB83CF715098A25A4DA2402D7A,
+	Detail_easyar_Buffer_tryCopyFrom_mA2BB777496B5168F1FC8A645CA249B44326D61DA,
+	Detail_easyar_Buffer_tryCopyTo_m50AFD4E84F777512F9647B7F502A00B7D07C0472,
+	Detail_easyar_Buffer_partition_m92531E5DC2522D0D5A99B10B989FB95E325D4301,
+	Detail_easyar_Buffer__dtor_mD4CDD6939AC9A223A304001A8A0D82325DF48C86,
+	Detail_easyar_Buffer__retain_m86DB7EBC147C2C24F154FA68649EE36AF2A46812,
+	Detail_easyar_Buffer__typeName_m7F3F4B579BB9680680BDCCCCA67BACBB5570E373,
+	Detail_easyar_BufferDictionary__ctor_m9611E4579ED3C3E31C101EBECE4521E0C45B416C,
+	Detail_easyar_BufferDictionary_count_m1762DA60D209F349068B9A49566C88010D004ED3,
+	Detail_easyar_BufferDictionary_contains_m56D6E89BB0319D33D6889046F6B90FFEB8B18F6B,
+	Detail_easyar_BufferDictionary_tryGet_mFFA79AEE73467EA32DCF921E80DD84ACF8268A6D,
+	Detail_easyar_BufferDictionary_set_m833DCEF576570ACDAD27E786098D91604F2D0161,
+	Detail_easyar_BufferDictionary_remove_mE4ED9B6F5C7BA88E7BD3FB5253F9A6730EC50477,
+	Detail_easyar_BufferDictionary_clear_m53125BDB10A59CAD92C6140AF1F49DCFB8E4EC37,
+	Detail_easyar_BufferDictionary__dtor_mBE539DB8739142175FE2A503D0848D7D531AD3E0,
+	Detail_easyar_BufferDictionary__retain_m0FE92251172AFDF385C0F253986DABB6F79B3825,
+	Detail_easyar_BufferDictionary__typeName_mCB673F6AA183E3B8126FF2798BB2F092E118DCAE,
+	Detail_easyar_BufferPool__ctor_m3CCDFD8064DB1EE21BF18A6EF8B7F4F7A6FC1C8E,
+	Detail_easyar_BufferPool_block_size_m215F33CD8C18756BA312AA38EC08B9CC2191CEDD,
+	Detail_easyar_BufferPool_capacity_m65E999205696A586DB11A266D84997F2F8C67D4B,
+	Detail_easyar_BufferPool_size_mC5D648A6F6D686971A5DF15352FDEDB2199FA7E8,
+	Detail_easyar_BufferPool_tryAcquire_m9AB82B50BDF08CDC67475B54326C81CE4338376E,
+	Detail_easyar_BufferPool__dtor_m56392C45B5B4AA28141072D877710132D57DCA47,
+	Detail_easyar_BufferPool__retain_mF448CD381D9766B87C97303C611546F842C1C8E2,
+	Detail_easyar_BufferPool__typeName_m38902EB1B5C9AAD405BE903D787E03884701E28E,
+	Detail_easyar_CameraParameters__ctor_mE8FB7140C503FD2D9802D1E3180F18629BA69A5A,
+	Detail_easyar_CameraParameters_size_m17390A2D548369DF8FC39BD6A9F24520F3EDBF51,
+	Detail_easyar_CameraParameters_focalLength_m5C9C6DEB53030331DCBB013CF90839386B89FB87,
+	Detail_easyar_CameraParameters_principalPoint_m12F2501F454760254BCBEF27315025A1C4B70134,
+	Detail_easyar_CameraParameters_cameraDeviceType_mB0EB38E395DBDA65D2BAD86640959B0A74A7B5CD,
+	Detail_easyar_CameraParameters_cameraOrientation_m5EAB10F82AE9EB96F2EE0874B1E5C2FF210FF765,
+	Detail_easyar_CameraParameters_createWithDefaultIntrinsics_m1F2AA65BA4E11FDF7B1610C6802108CB58B83645,
+	Detail_easyar_CameraParameters_getResized_m8A8D8C4AA36001416913D504B5F5ABAC56CF9EB8,
+	Detail_easyar_CameraParameters_imageOrientation_mB0EE0CDFB5EACEE559A80CCFA56BA6F5E039A76D,
+	Detail_easyar_CameraParameters_imageHorizontalFlip_m4056A5A3B20730758B9894589E9D8D7F0C0C6AA4,
+	Detail_easyar_CameraParameters_projection_m921CE1080BE26818F2E2B1CE21871E28B6AB9FC5,
+	Detail_easyar_CameraParameters_imageProjection_m29568B25B142F00A7D9D38C00D19AF879FA857A5,
+	Detail_easyar_CameraParameters_screenCoordinatesFromImageCoordinates_mB7DAACB2033F7C823443844A96B35D28478F1F97,
+	Detail_easyar_CameraParameters_imageCoordinatesFromScreenCoordinates_m76216100D8255BE2003DDF8557828C6CCE17D766,
+	Detail_easyar_CameraParameters_equalsTo_mB00983A8A2C75C951600E67B786F4797FD6C67EF,
+	Detail_easyar_CameraParameters__dtor_m7ED77135603F0688DDA731631594F80D8BC26E43,
+	Detail_easyar_CameraParameters__retain_m01FA6626DF93308DB14AD1F1FC5214C6C3E7918E,
+	Detail_easyar_CameraParameters__typeName_m9DDEC8AC4282FF5FDC51402173A2919300C87DCD,
+	Detail_easyar_Image__ctor_m16A3666B6CD0510316B0704E8A54A0FDF8664F8C,
+	Detail_easyar_Image_buffer_m4B44C069F9220A2C5699BBC55EFF36957AE229A6,
+	Detail_easyar_Image_format_m29B22380F4981B5BDDF1CCAE2E2171942D7713C3,
+	Detail_easyar_Image_width_mBCC49B819FB820EF23F5E35231AB4E1A7183C2FD,
+	Detail_easyar_Image_height_mFA1CB867A33E99FB306888243B502A146A88A80C,
+	Detail_easyar_Image_pixelWidth_mB0FA5898A5B66F1B7EF990ACD96656C8E905F373,
+	Detail_easyar_Image_pixelHeight_m089D5F7CABA0F1A7B95E18655A70F190A1DFFF0C,
+	Detail_easyar_Image_create_mEBD40A7C92B45C6D079E4B595940DFEB996102A9,
+	Detail_easyar_Image__dtor_mB63614684072A311156A57AEF63093A6CBA7369F,
+	Detail_easyar_Image__retain_mB5DB23AA9311B57671DA837BE3A6BAA558790258,
+	Detail_easyar_Image__typeName_mB8F6D87169AFFA1640F8F12A8552324291F17C63,
+	Detail_easyar_DenseSpatialMap_isAvailable_m47C374717D50261B454438D242FD62C287D39B5A,
+	Detail_easyar_DenseSpatialMap_inputFrameSink_m25FC1B22350CE395CAC182DCE89608D8BCC2D17D,
+	Detail_easyar_DenseSpatialMap_bufferRequirement_m814D758AFB4CA051CBD79A14D0266D3D6F9BBB67,
+	Detail_easyar_DenseSpatialMap_create_m0C14307E24A71FBE4556A070C1DA824F950291E5,
+	Detail_easyar_DenseSpatialMap_start_m7A592A02515F6E2AA7A304F9658ED20919B4ECE7,
+	Detail_easyar_DenseSpatialMap_stop_m6F113ECBD6A111CD8C5CA586542D3EF94C878664,
+	Detail_easyar_DenseSpatialMap_close_mCBBAB48B4AEEE391792275C9D4BC2717B4A310FB,
+	Detail_easyar_DenseSpatialMap_getMesh_m330937E911043BCC8C9C486230CB56D538B46F6A,
+	Detail_easyar_DenseSpatialMap_updateSceneMesh_m8C648AE66241D1F9DA8002588D3B69A6D3007731,
+	Detail_easyar_DenseSpatialMap__dtor_mD92A084738F5C3AE6B32F2097FBBA512FACCA7B4,
+	Detail_easyar_DenseSpatialMap__retain_mCCF21BE5E99378C7FE65D0DD84678BDCF6BCA8FD,
+	Detail_easyar_DenseSpatialMap__typeName_m84506F5F6923696F047BFCE4D2539BEBF27229CA,
+	Detail_easyar_SceneMesh_getNumOfVertexAll_m301F39358DB19610A0224F0F5AFF8BD09711CA2E,
+	Detail_easyar_SceneMesh_getNumOfIndexAll_m23550E6E8809A4BBA2D0D04101D0869406A11ACF,
+	Detail_easyar_SceneMesh_getVerticesAll_mF396407314C8804E3D386A847B64AD0FA02739C8,
+	Detail_easyar_SceneMesh_getNormalsAll_mCFD34CEEA2ECD4FFF803947F605669E96400E44A,
+	Detail_easyar_SceneMesh_getIndicesAll_m2092689C78FAFA2E98E02B653E90C44A86369122,
+	Detail_easyar_SceneMesh_getNumOfVertexIncremental_m8A0182FE0A2B14CC426DF0857A21C85F6FC39DC2,
+	Detail_easyar_SceneMesh_getNumOfIndexIncremental_m6413084DB4F706AB3CF70667707AB7BE95E59A43,
+	Detail_easyar_SceneMesh_getVerticesIncremental_m5DF3F6146137B323D8603542DF5E595FC72C1B5E,
+	Detail_easyar_SceneMesh_getNormalsIncremental_m4D1936D40B23FCCA586439C45DB4FFE7095CB0E2,
+	Detail_easyar_SceneMesh_getIndicesIncremental_m62E358B77C5B7AA2158CDD339EFBE170A8D8065A,
+	Detail_easyar_SceneMesh_getBlocksInfoIncremental_mE8AB4C5165EA6ED25D3F6D7B91F01B25DAEC348C,
+	Detail_easyar_SceneMesh_getBlockDimensionInMeters_m0BC45D122F6A164A9E1297B53E9CAE3F5A93D093,
+	Detail_easyar_SceneMesh__dtor_mE82941A25E9E3D3E433AF5F5F0A3FB6B87B58C83,
+	Detail_easyar_SceneMesh__retain_mCF89E41188F251A2294F1A62C9A163F4BDB159D1,
+	Detail_easyar_SceneMesh__typeName_m5174F4B391C1E65EA3EECD0CA61BC4FCEB04BD9E,
+	Detail_easyar_Accelerometer__ctor_m24593608F76A03C5FBFC26566AD2FBA8E81EE7BA,
+	Detail_easyar_Accelerometer_isAvailable_mE3FC54B72D682585C49BDDE8497B38D258AABFB0,
+	Detail_easyar_Accelerometer_open_m94E82E07172E71E9C063A98363D201BDFCA67072,
+	Detail_easyar_Accelerometer_openWithSamplingPeriod_mABF620349CFD4A50581A78DC300EE5D2F9119197,
+	Detail_easyar_Accelerometer_close_mCE750F0070E8F61C08E61C90C41BEBA26B256629,
+	Detail_easyar_Accelerometer_getCurrentResult_m4CEBF758AA20CA7FCC5A615385E18E446812A4AD,
+	Detail_easyar_Accelerometer__dtor_m6054B65F5F1C26CBE170A651CE661F480B6F193A,
+	Detail_easyar_Accelerometer__retain_mCE776EE3F1846938AAA0F653C8EEB0100B68E634,
+	Detail_easyar_Accelerometer__typeName_m3DD5C126ECF3641470F811C351D3A2D1F80C37C6,
+	Detail_easyar_ARCoreCameraDevice__ctor_mFCFBC2F922A8271A3775E48D25FE3577632BE061,
+	Detail_easyar_ARCoreCameraDevice_isAvailable_mE989CE8CCB9E15FBC2BD8C9F7BAE6085E5563D9F,
+	Detail_easyar_ARCoreCameraDevice_bufferCapacity_mD14C1F1739F0E19A90789E0B70C17A2D43C82A17,
+	Detail_easyar_ARCoreCameraDevice_setBufferCapacity_m6A5A0472252288EDF028B34E401EF4ACDE95476F,
+	Detail_easyar_ARCoreCameraDevice_inputFrameSource_mB8678522010D27BE4A5F580E5401D873543CDEA9,
+	Detail_easyar_ARCoreCameraDevice_setFocusMode_mCB5B11C6A2DEDF4778215FBD95E64AB053C6434F,
+	Detail_easyar_ARCoreCameraDevice_start_m0D4DECBCFD1CBC9C67126773FAA85DB5EC2E4D9A,
+	Detail_easyar_ARCoreCameraDevice_stop_mBBC1F43CBDB3903D8BF1D2296005EDCD8BB043D5,
+	Detail_easyar_ARCoreCameraDevice_close_m5D52FD47F2742AE387A60FE2E88ACBBF7A67D79A,
+	Detail_easyar_ARCoreCameraDevice__dtor_mA6DF41FD752FD1E65912F4225DEC479E7934025E,
+	Detail_easyar_ARCoreCameraDevice__retain_m4C613960717505EC091BF53CFD729A0E3BA98855,
+	Detail_easyar_ARCoreCameraDevice__typeName_m3B2F02D05B5634023FE2757B35D45D56EFE3E84B,
+	Detail_easyar_ARKitCameraDevice__ctor_m7D731C4BD49FE207194A2C4E39488F7D710A2AF8,
+	Detail_easyar_ARKitCameraDevice_isAvailable_m4C963680AAF73ED1029F6C3C8898B837041CB635,
+	Detail_easyar_ARKitCameraDevice_bufferCapacity_mCAED30E9135D6D369071E5B665A0EF5523983CD7,
+	Detail_easyar_ARKitCameraDevice_setBufferCapacity_mA5E346C4C77A756E4F76218AD435C6506282E7CA,
+	Detail_easyar_ARKitCameraDevice_inputFrameSource_m3361B5B6D4A55749BCA51787A5AB02FBF3497CDC,
+	Detail_easyar_ARKitCameraDevice_setFocusMode_m14507884758941B7C600AAE57EAE1A9C4AD349BC,
+	Detail_easyar_ARKitCameraDevice_start_mC1E2E5505396591A091BFAB989DDD5B52339AF01,
+	Detail_easyar_ARKitCameraDevice_stop_m5C1DEB7A0A7909DD047DBFA02EF4E0E8D8055235,
+	Detail_easyar_ARKitCameraDevice_close_mFCF6EC1A95EE7DA3AEC002AE0E2E76E852034BD6,
+	Detail_easyar_ARKitCameraDevice__dtor_m753D99D6E65F67D489C9C6AA642EB850B105163B,
+	Detail_easyar_ARKitCameraDevice__retain_m1B6349F1E3F3D067EA83ABFE83AA58890237603A,
+	Detail_easyar_ARKitCameraDevice__typeName_m75941EB99A94672DA1AC02FA8F9AC5FA84AA25F5,
+	Detail_easyar_CameraDevice__ctor_m027C345B000150FE2E93A3483FBD25FCE3C1FD9A,
+	Detail_easyar_CameraDevice_isAvailable_mCE5AD0E79F655A6D3359A73539FF6010174654CE,
+	Detail_easyar_CameraDevice_androidCameraApiType_m3EF40F0C2978AD843CAE16C65E1DF7B4A1FEB514,
+	Detail_easyar_CameraDevice_setAndroidCameraApiType_m571C56B5B90E287FC35C3CF2123DF61EB7602FC4,
+	Detail_easyar_CameraDevice_bufferCapacity_m3CFFDDC4E5D42DE65BDD8F3DD4ECD9BD100F9079,
+	Detail_easyar_CameraDevice_setBufferCapacity_m2B346965428D8CBA6C9621ACA9BDE5E61454B916,
+	Detail_easyar_CameraDevice_inputFrameSource_m4A6C74E6177A57B04EFFEAF4CCE8E0FC72CDFFD7,
+	Detail_easyar_CameraDevice_setStateChangedCallback_m9AB79CC0B33BC4D400638BDC59E996989E14F1AF,
+	Detail_easyar_CameraDevice_requestPermissions_m2F7AD132C37FB5C6A08609E69B80DDBED732C511,
+	Detail_easyar_CameraDevice_cameraCount_m2F4EA82BE7ECD7F8DCE803B1DE707FEC418F2818,
+	Detail_easyar_CameraDevice_openWithIndex_mE500D65B77B68B760C44AC82EA5975725C54700E,
+	Detail_easyar_CameraDevice_openWithSpecificType_mF741F87BC6A8E8644B11F1A188B6D13FA689715A,
+	Detail_easyar_CameraDevice_openWithPreferredType_m66637DB8E5D321685846DFDC8BA124628FA42964,
+	Detail_easyar_CameraDevice_start_mB6FB449869749A542C47EEAE4872A18F25AC816D,
+	Detail_easyar_CameraDevice_stop_m38A240FDD0DB27391B45EB4D80E50D583835E459,
+	Detail_easyar_CameraDevice_close_m6FCF60E45AA4260EDEB9271C2F7E7C89DCEF0B90,
+	Detail_easyar_CameraDevice_index_mF2515A4F0A8C53BD785D1188FFBDEFBEB7C0AA11,
+	Detail_easyar_CameraDevice_type_m51F87F835C2D0514F7F358D50A5EFC822B62B5E0,
+	Detail_easyar_CameraDevice_cameraParameters_m31EBB6D6A2D12491BE3BFD5568D52486D8DB6A44,
+	Detail_easyar_CameraDevice_setCameraParameters_mD307F0612E5B205EADB13B1DF94A3E26EFF64406,
+	Detail_easyar_CameraDevice_size_mDF69DDFA439427A8919961560C098CE0B5D91F4A,
+	Detail_easyar_CameraDevice_supportedSizeCount_mE6D2C7CB756F58A26CC300B56C086CDF9B95C14B,
+	Detail_easyar_CameraDevice_supportedSize_mD38CF45097767DE518D7E03D508B9DA318AD1F03,
+	Detail_easyar_CameraDevice_setSize_mC6F6C5C6A79C14DE3F4B541ACCEAEBC477D8ABF0,
+	Detail_easyar_CameraDevice_supportedFrameRateRangeCount_mD70DA823BBF140E12ADBE6C845C946AAC8B2E1E1,
+	Detail_easyar_CameraDevice_supportedFrameRateRangeLower_mF7E35F8200C7E5FC6E707FBD248CADDA7F6B4907,
+	Detail_easyar_CameraDevice_supportedFrameRateRangeUpper_mC33627FDB9B47799FA8BD77DA7DF4CB5F04F6130,
+	Detail_easyar_CameraDevice_frameRateRange_mE3038FA3EE34CCAA96E358BBDE4ED2E26F82940E,
+	Detail_easyar_CameraDevice_setFrameRateRange_mFCAC4FB189F53496298BF80ECE683565AA86B633,
+	Detail_easyar_CameraDevice_setFlashTorchMode_mC976CAE6A3C449BACD653434B17C70E9B264DE30,
+	Detail_easyar_CameraDevice_setFocusMode_m4404807803C99BD6CE3B787F0D7F922435EE1CB5,
+	Detail_easyar_CameraDevice_autoFocus_mDB91FF1CD260EABFC4F1548B3A95C1B297071986,
+	Detail_easyar_CameraDevice__dtor_mE4CA26C5D9E94AE8FA9A6A0B1CBBF52C1EE00C80,
+	Detail_easyar_CameraDevice__retain_mB5ECBEE57944B4A8311B4DC25AF0C0DE9E775742,
+	Detail_easyar_CameraDevice__typeName_mD0335E01D4D0A29B6D6C56065A0A9766BEDDBD0A,
+	Detail_easyar_CameraDeviceSelector_getAndroidCameraApiType_m86840ECE52EE214E0B0F778FB22BEEBA97CBFC0E,
+	Detail_easyar_CameraDeviceSelector_createCameraDevice_mD219A24A38436DDFDEF04CB9186C8DE99433372C,
+	Detail_easyar_CameraDeviceSelector_getFocusMode_mA222D6631EF61111FC891F814F34BA33EA0F8AA0,
+	Detail_easyar_SurfaceTrackerResult_transform_m1F8E6244C00AD1BCE05F0A5804D5883404FFFCC9,
+	Detail_easyar_SurfaceTrackerResult__dtor_mF9366F129400F02F761DB264E66844719E351056,
+	Detail_easyar_SurfaceTrackerResult__retain_m15F1B5A970F922380F874A546240118C187E0F46,
+	Detail_easyar_SurfaceTrackerResult__typeName_m816280606E20B5A24165C4ACD65D14953D08C001,
+	Detail_easyar_castSurfaceTrackerResultToFrameFilterResult_m25547E85C18A620A56755BB29F2B8EB6B2724FF1,
+	Detail_easyar_tryCastFrameFilterResultToSurfaceTrackerResult_mC5D506889FBAA6B7F67A64BA5C7FD7EAFC1701DB,
+	Detail_easyar_SurfaceTracker_isAvailable_mADED874123BCECB1C8ED5083822FFAB4EDFEAD5A,
+	Detail_easyar_SurfaceTracker_inputFrameSink_m62951FF5715820F1728D7A2D91E0A693B607AB55,
+	Detail_easyar_SurfaceTracker_bufferRequirement_mF360C7A8D67ADB77DCEF41FEE2A04B7636F99290,
+	Detail_easyar_SurfaceTracker_outputFrameSource_m7CEBB950EA897CF754FA4ACD84C05D277FA11892,
+	Detail_easyar_SurfaceTracker_create_mA9044B905082690464850C1009860637C5E56416,
+	Detail_easyar_SurfaceTracker_start_m4E68BC3378B0AE5CEB48D54A9E5E0EDAA5A93FAD,
+	Detail_easyar_SurfaceTracker_stop_m68B36CC3AFE96AF0FAB177CD954896731E0FC2D7,
+	Detail_easyar_SurfaceTracker_close_m22015019C7E3E1DC85B4A526178268D4A6BE17FF,
+	Detail_easyar_SurfaceTracker_alignTargetToCameraImagePoint_m07504B69601519C5A0028432CE90781598758DC1,
+	Detail_easyar_SurfaceTracker__dtor_mF01BE98BEC98771328846141FB815D9891567E9A,
+	Detail_easyar_SurfaceTracker__retain_mBB80ED390DF0FA4AC8E5B4FE022BE78531E9C183,
+	Detail_easyar_SurfaceTracker__typeName_m886A7D60BDCB66D47BF2F2A0691AF2C3EB86EE72,
+	Detail_easyar_MotionTrackerCameraDevice__ctor_mBAB8858F35A43D1C1E06812DFBAD126555AB65F5,
+	Detail_easyar_MotionTrackerCameraDevice_isAvailable_mF557DD4A07ED65E5C8EEECDEF0F6FBB46F6F3D72,
+	Detail_easyar_MotionTrackerCameraDevice_getQualityLevel_mCACCFD338A5C65501599FEB51BFD1425FC867C6E,
+	Detail_easyar_MotionTrackerCameraDevice_setFrameRateType_m3D48863DCFD8E191A9D93D3C039039652F880BB9,
+	Detail_easyar_MotionTrackerCameraDevice_setFocusMode_mA0ED7017943E924D8F529FDC9A5F1F56731E1C01,
+	Detail_easyar_MotionTrackerCameraDevice_setFrameResolutionType_m9176ED4BC8EFA5D63DEDDC5FA34FF5EB3D04ABE2,
+	Detail_easyar_MotionTrackerCameraDevice_setTrackingMode_m626D988EC348E332F716B4EFB7EE93CCD226217E,
+	Detail_easyar_MotionTrackerCameraDevice_setBufferCapacity_mD430399B4F6C1F85FEDB61C6E580B0994282CB66,
+	Detail_easyar_MotionTrackerCameraDevice_bufferCapacity_mE719E3305532FBE17A3BFF8FFAB8E46520740272,
+	Detail_easyar_MotionTrackerCameraDevice_inputFrameSource_mD2D015EF22D19E59AFE86FF243C0701A50FB2F13,
+	Detail_easyar_MotionTrackerCameraDevice_start_m0E1FADA4B7D4B7C1A6B175BFB64DB8561B39A8AB,
+	Detail_easyar_MotionTrackerCameraDevice_stop_m244E04A29074C1146286F702EB217D431F0D0ED7,
+	Detail_easyar_MotionTrackerCameraDevice_close_mD05544E8E99D703FCDD81623A4FB8337514C2A77,
+	Detail_easyar_MotionTrackerCameraDevice_hitTestAgainstPointCloud_m34128715999462F7614D6B962A981E49399F8A6F,
+	Detail_easyar_MotionTrackerCameraDevice_hitTestAgainstHorizontalPlane_mE24E7CE4ED2B7B202B72C7CE3779A47403556A95,
+	Detail_easyar_MotionTrackerCameraDevice_getLocalPointsCloud_mB1AF73CC3469BB1E87DA44F5CA32061303F50B5A,
+	Detail_easyar_MotionTrackerCameraDevice__dtor_m1D7212AA8B1FDC4A8861BA909D532422F27695DD,
+	Detail_easyar_MotionTrackerCameraDevice__retain_m3A76B6DFF0D2EF4AE4C7FD7F276DCC86DB6E1C90,
+	Detail_easyar_MotionTrackerCameraDevice__typeName_m4C3B52C352A029DCB56D49F998FCEFB2A5D7D479,
+	Detail_easyar_InputFrameRecorder_input_m4A5DE708F55453AD72EBFDF4B632F341B71B7FF6,
+	Detail_easyar_InputFrameRecorder_bufferRequirement_m98308699A45F5032FC0EBC72B18CCB6194F395EB,
+	Detail_easyar_InputFrameRecorder_output_mAD019DB1A20527F3221DB2AB47045BF7207F4109,
+	Detail_easyar_InputFrameRecorder_create_mF379DC685064A26B9751C3E0B9F23F3CACF4B98E,
+	Detail_easyar_InputFrameRecorder_start_m103BE85FA303897109C0676D09F0D0AD9211E41B,
+	Detail_easyar_InputFrameRecorder_stop_mA804D6D79523A6B792FD000B4710B3EAD227A019,
+	Detail_easyar_InputFrameRecorder__dtor_m1C853045AB8400185480BDA13D333A91FB9580E6,
+	Detail_easyar_InputFrameRecorder__retain_m63CBF0BC661FEB9E205CDBD09C13E31FB54571D6,
+	Detail_easyar_InputFrameRecorder__typeName_m0FB7F3BD264B53034D5439D6B647AFC5063E5C86,
+	Detail_easyar_InputFramePlayer_output_m874FD4C1130232BC52F0FDE8D86C7545B595A41F,
+	Detail_easyar_InputFramePlayer_create_m0647230CEF3BE961A7C94400DD97A74A7F09F104,
+	Detail_easyar_InputFramePlayer_start_m343C88688CC89F3F19B78F5BBD6E61F7FAD6E2F7,
+	Detail_easyar_InputFramePlayer_stop_mCCE36619366F32704A20B1BF8FD1B558636B63F0,
+	Detail_easyar_InputFramePlayer_pause_m44AC989529FBAE72562B1E2E98FF209E1A4474F9,
+	Detail_easyar_InputFramePlayer_resume_m6970EFD8F06DEF2AAE4059F5D4DE26DC256597A3,
+	Detail_easyar_InputFramePlayer_totalTime_m786C01C685058ED4AAC35E505C1B4BDD1CA814CE,
+	Detail_easyar_InputFramePlayer_currentTime_m7C0DF2091CC5B3501C250C4E93313640CFBEA1E9,
+	Detail_easyar_InputFramePlayer_initalScreenRotation_mD87D644E6F98AA4D5269F0AEE8E23A7453440289,
+	Detail_easyar_InputFramePlayer_isCompleted_m40FDE3EEF798180E42CC0F27AECF60514DC64BBB,
+	Detail_easyar_InputFramePlayer__dtor_m75BE89586DDA248CF728F3C4E342EEA274E86DB4,
+	Detail_easyar_InputFramePlayer__retain_m64190757DA136E762EE0F523886EFA114F3F2915,
+	Detail_easyar_InputFramePlayer__typeName_mE7DFD103CB557FF2A541122B1F3D636CAF4027F5,
+	Detail_easyar_CallbackScheduler__dtor_m5A74275AEAC8E0A328B305E31845CA35B7BD544F,
+	Detail_easyar_CallbackScheduler__retain_mB19386C87A245F08E5EFDBF7BB9E50F17BB12078,
+	Detail_easyar_CallbackScheduler__typeName_m375CF9D83ADC17437B9310EA40D2088666A41211,
+	Detail_easyar_DelayedCallbackScheduler__ctor_m24252DC0D5C351E5B194D56B713611689E2F6B1F,
+	Detail_easyar_DelayedCallbackScheduler_runOne_mB1C190FBB27AAA0BFB199B8A79798BB5077F6287,
+	Detail_easyar_DelayedCallbackScheduler__dtor_m4B9055F7C93D8B89E9C0E2189DF7978D6B072A72,
+	Detail_easyar_DelayedCallbackScheduler__retain_mE38E427D7A24BEFE5E598B1508A1790333EF3CA7,
+	Detail_easyar_DelayedCallbackScheduler__typeName_m85CF936A13EF9E339B3FEA029BB2931E870760A9,
+	Detail_easyar_castDelayedCallbackSchedulerToCallbackScheduler_mFF122AFC78AA57624E09CB3FE5C3ADB4535B9BEF,
+	Detail_easyar_tryCastCallbackSchedulerToDelayedCallbackScheduler_mDDD2A301E6EB3253620DCB5E9069D36976A390A2,
+	Detail_easyar_ImmediateCallbackScheduler_getDefault_m725D5DC93269FA290239FFCDB9247B7BC4DF055F,
+	Detail_easyar_ImmediateCallbackScheduler__dtor_m07B064B7BA7B78AAE30D06BE9B08685EA7C0E539,
+	Detail_easyar_ImmediateCallbackScheduler__retain_mB45CCE96F57A18FA396B6ED638BB94D045DEB7DA,
+	Detail_easyar_ImmediateCallbackScheduler__typeName_mE2AB755C1EF6D9BD1068A3841F9A139EE5AD498E,
+	Detail_easyar_castImmediateCallbackSchedulerToCallbackScheduler_m25D409951E4DF04E062BBAF1E2E0258C73F8D240,
+	Detail_easyar_tryCastCallbackSchedulerToImmediateCallbackScheduler_m4D3F30EA9DF5B9F077E8C5074BE9543BE562B365,
+	Detail_easyar_JniUtility_wrapByteArray_m50030C464C2B8C3A0BBCCE8CA5DE766C67101499,
+	Detail_easyar_JniUtility_wrapBuffer_mCCAF0D524737B40A6F5FE6E3067DE1C9B75DB906,
+	Detail_easyar_JniUtility_getDirectBufferAddress_m653094788989987EDBACE581B1A49E6CF190CA38,
+	Detail_easyar_Log_setLogFunc_m6706F27D9DEF1AFB173E797C8F0EFAD59333B75E,
+	Detail_easyar_Log_setLogFuncWithScheduler_m9B7351D03E1AC7726D87A59F6363456ACE22FDD9,
+	Detail_easyar_Log_resetLogFunc_m10195D3A416358590915E6B45A1B68AEBBC2BB7F,
+	Detail_easyar_Storage_setAssetDirPath_m4CBD99CB5BC063C6B1DEBB2388E9C00E8A6A12C7,
+	Detail_easyar_ImageTargetParameters__ctor_mD29B55191D61F5D473AF2E5C97838F12DC244EC2,
+	Detail_easyar_ImageTargetParameters_image_mAD6BD27AC0BE90C699737C278B7A1A5B6600FE06,
+	Detail_easyar_ImageTargetParameters_setImage_m26DB834DEFCC5261B2AEAA24DCC2D047690ADEF5,
+	Detail_easyar_ImageTargetParameters_name_m78F4F3BFD9DFC9502045EE049942314CFD45AA1D,
+	Detail_easyar_ImageTargetParameters_setName_m9921284CF8BD70ECABFC1D994DCB80E2D755772C,
+	Detail_easyar_ImageTargetParameters_uid_m07F18ECCC92BAD22B7DB3CCF5A1808E1125175D8,
+	Detail_easyar_ImageTargetParameters_setUid_mA3B7D0566CC0DD67522A4DC0A47F67DAD95334DA,
+	Detail_easyar_ImageTargetParameters_meta_m0C3C7978EED5E85135E7BE83F4BA8276FBA22128,
+	Detail_easyar_ImageTargetParameters_setMeta_mC23247D8523BA377015101EE42ED9D618DF4D594,
+	Detail_easyar_ImageTargetParameters_scale_mA5CFAC98151854BFD9FA179565F9C213C379E2F8,
+	Detail_easyar_ImageTargetParameters_setScale_mF18EE937DA112AA6F093F86FFA190C403A6A72A4,
+	Detail_easyar_ImageTargetParameters__dtor_mCA44C37FCFCE09A06EED6147CC1715BB1729A967,
+	Detail_easyar_ImageTargetParameters__retain_mD0760AD876842CCEC26393096B617F59EF5DDC99,
+	Detail_easyar_ImageTargetParameters__typeName_m629717BB4829D21098E57F3E795E826F685CEDC0,
+	Detail_easyar_ImageTarget__ctor_m21B498F52548730B4A2A793618A9FEFCA3DF5003,
+	Detail_easyar_ImageTarget_createFromParameters_m92BCD8D74FD2976D2CDEE81DE466F1A58300598E,
+	Detail_easyar_ImageTarget_createFromTargetFile_m60186F4D17549CF2AEB808B59767D466F816B654,
+	Detail_easyar_ImageTarget_createFromTargetData_mC56A5450DDE10DA7AFC9B09B7F7169CEEDD8088F,
+	Detail_easyar_ImageTarget_save_mF1214147A4CAC741E0EF2D09988BAA5EF93F9ED0,
+	Detail_easyar_ImageTarget_createFromImageFile_m52FBDEACF09EC91E60873EA7B0716A521368449E,
+	Detail_easyar_ImageTarget_scale_m4F95D3226FE7A3E0013FCE95BCAAECD4430B3AA0,
+	Detail_easyar_ImageTarget_aspectRatio_m16486B80FA234020EE82D2C63F3E78E3BF9A2CFC,
+	Detail_easyar_ImageTarget_setScale_m79B99B1BB09A51C7A33ECCB8098EC437E5511DDE,
+	Detail_easyar_ImageTarget_images_mD5D7C505F249D051163EA66EC916AA8577AEECD6,
+	Detail_easyar_ImageTarget_runtimeID_m347D0027EB7555C41CFA1CF4DD940587FFA3E007,
+	Detail_easyar_ImageTarget_uid_m0A44CFAB9908DA34B857ADEBD90D8A75CBB6F569,
+	Detail_easyar_ImageTarget_name_mAA1164C7C6E14B941128DA8302F3762C247D0809,
+	Detail_easyar_ImageTarget_setName_m5F22CDC160947DCAEF0721AAA8EABC56F567003E,
+	Detail_easyar_ImageTarget_meta_m53036B68AE0F3539848B404348C4F41139DF8343,
+	Detail_easyar_ImageTarget_setMeta_m28CBAF48570C205E196A92B978FD81FD3952458A,
+	Detail_easyar_ImageTarget__dtor_m3D6B0F7D57B251E279F24D0C01721A6A497E8A62,
+	Detail_easyar_ImageTarget__retain_mCD003B40A1E79AB99ACE6F956032D11CACAD0421,
+	Detail_easyar_ImageTarget__typeName_m90F15473D8F3DFE6BE36C360B394740E3083CA13,
+	Detail_easyar_castImageTargetToTarget_mA0A3206EE213BE30E0148A82CA1085EFF51E2399,
+	Detail_easyar_tryCastTargetToImageTarget_m726B97B2A13FC2FB4820BB15C637CB3B2AEB5C65,
+	Detail_easyar_ImageTrackerResult_targetInstances_m25DA6F2A1EB8E87890011D57B11C55F8CAA29629,
+	Detail_easyar_ImageTrackerResult_setTargetInstances_mCAA405DAA2470AAEAFBE59200F4848AD929D2B44,
+	Detail_easyar_ImageTrackerResult__dtor_mE18890537954FCE762E2BDF928F130D24D757E0B,
+	Detail_easyar_ImageTrackerResult__retain_m775DC4CC8AD5F294EF9D47E7E4B22CDEC655E56E,
+	Detail_easyar_ImageTrackerResult__typeName_mADFE153A98B06EC9F990313E0F0CEBA99DD42F85,
+	Detail_easyar_castImageTrackerResultToFrameFilterResult_m3E09392AC17690411C7A0C3B577395FF8406CC6F,
+	Detail_easyar_tryCastFrameFilterResultToImageTrackerResult_m8DC55A4AE386A042C41013518A5AA72800858D5F,
+	Detail_easyar_castImageTrackerResultToTargetTrackerResult_mDCA4A028612C3F49D8B596DB156375E1EA7C71FD,
+	Detail_easyar_tryCastTargetTrackerResultToImageTrackerResult_m6692ABA641DE129AD59EEFD97D1DB819CC7127F9,
+	Detail_easyar_ImageTracker_isAvailable_m3654ECE88C5D64CA57BEB8996A593D7C4D4E4BC6,
+	Detail_easyar_ImageTracker_feedbackFrameSink_m3E12958E19519E6A390A1CCF5A95311A88E9A0E8,
+	Detail_easyar_ImageTracker_bufferRequirement_m220E824FEE1553299F382EDD913C331762537738,
+	Detail_easyar_ImageTracker_outputFrameSource_m37FC8E041513D2AAE7880B7195F1DFFAD4B3E1F4,
+	Detail_easyar_ImageTracker_create_m256D51E7B713BE7D9A6D1AF31B552AFFBEEB8E3F,
+	Detail_easyar_ImageTracker_createWithMode_m377F1CC4A70200A35FBD6E1F4298AE0598540C29,
+	Detail_easyar_ImageTracker_start_m359BD39A698380AB6D3F5628B45C4CB507BD35AA,
+	Detail_easyar_ImageTracker_stop_m58136E3965BBA7C403E6EDE143AA670D51330151,
+	Detail_easyar_ImageTracker_close_m1C2B55BE0ADE84B8C7B066C1EB80E26E3E8ACC2D,
+	Detail_easyar_ImageTracker_loadTarget_m297C82873FE6899E8051E930F4B92A3CAEF4D805,
+	Detail_easyar_ImageTracker_unloadTarget_m2DD9A13EC6D88F93D132355FA7362A1B845E2EC0,
+	Detail_easyar_ImageTracker_targets_mB99F28786912D8D40AB46A8E5FF60E0DA143D73D,
+	Detail_easyar_ImageTracker_setSimultaneousNum_mBB385A9C3BEEFE6FFE7983DE62447EDB318F9807,
+	Detail_easyar_ImageTracker_simultaneousNum_m84C60D7E9E3C9E0959006D0570E2A195CDCDE1EF,
+	Detail_easyar_ImageTracker__dtor_mE88B550999CF8CFABA6CF088DA3F53AC4C14320B,
+	Detail_easyar_ImageTracker__retain_mF2E03C03611D7931AE46D89D8EE12FBEDEABA448,
+	Detail_easyar_ImageTracker__typeName_mB8CCCE199A60B61B6C68D623F0058BA54FBE4D22,
+	Detail_easyar_RealTimeCoordinateTransform__ctor_m65D6C4FB8F5BA9A511B1597D5821D6FE3BD8D98B,
+	Detail_easyar_RealTimeCoordinateTransform_setBufferSize_mF3B012B0E831C4FAFE911C20302B5A6972A2033A,
+	Detail_easyar_RealTimeCoordinateTransform_getBufferSize_mF49D250C81C1FC8644B73E87CC3407707F79CF61,
+	Detail_easyar_RealTimeCoordinateTransform_insertData_m29C96CD540EB3E99E5B99885E5AC634300C1D0E2,
+	Detail_easyar_RealTimeCoordinateTransform_getPoseInMap_m20399956F38812F9FA09F3BAE68617A84CB8D616,
+	Detail_easyar_RealTimeCoordinateTransform__dtor_mCFB852D0392E51D25E005B4FCFAA456EC4EC0084,
+	Detail_easyar_RealTimeCoordinateTransform__retain_m9BAF463F68BFB9A255C549EB30EB26D7DC3EB954,
+	Detail_easyar_RealTimeCoordinateTransform__typeName_m42B037D5F8BB78BADF14246871A48FF70361F1C3,
+	Detail_easyar_Recorder_isAvailable_m55EEED384A6E6F1EFD53DB6A0CE8D5DADD183033,
+	Detail_easyar_Recorder_requestPermissions_m2B23BBCB7F9E756EDB4AA8A2ABA9DCE9C2987B73,
+	Detail_easyar_Recorder_create_m1F030E420D8DCA0BCDA1099C6ADC355857253D29,
+	Detail_easyar_Recorder_start_mA618DAD20B130B0BFCBF2077E9C8814D93597170,
+	Detail_easyar_Recorder_updateFrame_m1DE101EFEA24688C1A93E37FE2ACA0A57479A5DF,
+	Detail_easyar_Recorder_stop_m230EEAC20A65A5A69E4718957E6908771F75BEF6,
+	Detail_easyar_Recorder__dtor_m5CADBD93D8943343462602512ADB43621812137A,
+	Detail_easyar_Recorder__retain_m17BEB53736CCE77B654BF69A4727B1E3A5603109,
+	Detail_easyar_Recorder__typeName_m8195D4294731C602A39523DB5001D9162C22718E,
+	Detail_easyar_RecorderConfiguration__ctor_mA234385B908DCAF3806AC784783CF18C21D29267,
+	Detail_easyar_RecorderConfiguration_setOutputFile_m23E28D0036926E36394AB15B55A6607C34AC27DA,
+	Detail_easyar_RecorderConfiguration_setProfile_m34A6C4C20A9471C7EB7A97BC4B4BA2383F81FB0A,
+	Detail_easyar_RecorderConfiguration_setVideoSize_mC5F84344997EEF2435EE037AC061BB91AE6F9A8D,
+	Detail_easyar_RecorderConfiguration_setVideoBitrate_mA4F2B364EE48E8E190933076BB5E4069624F10A7,
+	Detail_easyar_RecorderConfiguration_setChannelCount_mDBDF8633578D42DBB27DC6062EF12464ED4F214F,
+	Detail_easyar_RecorderConfiguration_setAudioSampleRate_mAE40A152EC7AB95F9616AA9A1B400256B8FEE6BE,
+	Detail_easyar_RecorderConfiguration_setAudioBitrate_mB5FDDED660E35129E4E8F16C26958CC991DD9C85,
+	Detail_easyar_RecorderConfiguration_setVideoOrientation_mA46042763C3F8FB193D29393A6A7549049885C53,
+	Detail_easyar_RecorderConfiguration_setZoomMode_m27B9C7B35E298FF617747520229898AE8170C653,
+	Detail_easyar_RecorderConfiguration__dtor_mEB9060676D58F9FA48B5F33E36B83FE34BACFBF2,
+	Detail_easyar_RecorderConfiguration__retain_m5B96D88BAB129FADD6C5EAEBD1791DFC6209F670,
+	Detail_easyar_RecorderConfiguration__typeName_m9BA68FB06145BDA17CE34592441EBCFF500759CA,
+	Detail_easyar_SparseSpatialMapResult_getMotionTrackingStatus_m12975CC54018AEF9B8CFE2177A93948D1B1CF580,
+	Detail_easyar_SparseSpatialMapResult_getVioPose_mF10DF3A29827F3BCAC8ABEDF8DF79429FC1642D6,
+	Detail_easyar_SparseSpatialMapResult_getMapPose_mD598F79995905AF99F6F34DE003B9F86B0DF42A9,
+	Detail_easyar_SparseSpatialMapResult_getLocalizationStatus_m959509F53E3C3934BF34A7F5C409EB557D61FB07,
+	Detail_easyar_SparseSpatialMapResult_getLocalizationMapID_mED0C02D082DA9153CB19A20573FE50A8760DB1B2,
+	Detail_easyar_SparseSpatialMapResult__dtor_m8E2B0EE20EFB693ACA76F77D80F7C137962B0909,
+	Detail_easyar_SparseSpatialMapResult__retain_m7ED69CFA899616D1550B1302E3A21673B3B3307C,
+	Detail_easyar_SparseSpatialMapResult__typeName_mB7228966C34DC072087D7AF13FECDE631605A88D,
+	Detail_easyar_castSparseSpatialMapResultToFrameFilterResult_m8D8A7449EF79AABDB3077108F717284762D67C54,
+	Detail_easyar_tryCastFrameFilterResultToSparseSpatialMapResult_mAAB907E41A23F38E865A53101A9D357E517A8443,
+	Detail_easyar_PlaneData__ctor_mD48C7682DF996A96DF9E750E255A5F65A00D6FEE,
+	Detail_easyar_PlaneData_getType_m353BAC18F4A3D881F899F30B61F639800134CEF2,
+	Detail_easyar_PlaneData_getPose_m4322A78B93F6DB914208D7007944C746643E85FD,
+	Detail_easyar_PlaneData_getExtentX_m4A19CB257F0E015F0F10388E43BB71CE1859C4F7,
+	Detail_easyar_PlaneData_getExtentZ_mEF3216F101F31045DE09C9DA147012B5C3F3494C,
+	Detail_easyar_PlaneData__dtor_mDD5876DDAF7D22966BC36ECE012B9D421BDEE07A,
+	Detail_easyar_PlaneData__retain_m4A58381F3FF91E08B33C6E3B983D3A481F0C059B,
+	Detail_easyar_PlaneData__typeName_m26ADB09E98A294A8FF3C52B75F112F2336E41EF5,
+	Detail_easyar_SparseSpatialMapConfig__ctor_mC2E00B7D70B844777ABA44B5A73F3FCB1BCDD88D,
+	Detail_easyar_SparseSpatialMapConfig_setLocalizationMode_m605AE9803EF92157C4D6F928357216AF769ECA0F,
+	Detail_easyar_SparseSpatialMapConfig_getLocalizationMode_m04FD0607B903E4795D7C0BA46AC6B0399497B601,
+	Detail_easyar_SparseSpatialMapConfig__dtor_m34BE185F26F61B0A6B4CFCCCEFA91819288BB30A,
+	Detail_easyar_SparseSpatialMapConfig__retain_mCC116AC507B75D0E8BE4BC05EA3DC182C44708B5,
+	Detail_easyar_SparseSpatialMapConfig__typeName_m7CDA429A1C0552F05C1B945CC2CF52288F6BA9FE,
+	Detail_easyar_SparseSpatialMap_isAvailable_m780D177C5B3CBE25C90A9730671FC0C6CBBE3B2F,
+	Detail_easyar_SparseSpatialMap_inputFrameSink_m70441F8296BF06AA574E9B12DBFE67914C1F5E5D,
+	Detail_easyar_SparseSpatialMap_bufferRequirement_m7B82AD365A0D63E6D621B975D7A8BBC62EE2D3A1,
+	Detail_easyar_SparseSpatialMap_outputFrameSource_m607840B7A2D2F098FD0D1E3434F0E591B367C274,
+	Detail_easyar_SparseSpatialMap_create_mFADE1586087CB3F0B9F1C4CCB6BDC9364CF7667E,
+	Detail_easyar_SparseSpatialMap_start_m72501E3AA93D6F5A1ABDF407BAFF5C2A52CDDC06,
+	Detail_easyar_SparseSpatialMap_stop_m91A3F3D7E56038DF010D44F367162C367A26B6FE,
+	Detail_easyar_SparseSpatialMap_close_m46A3F9D4277EC8F96C44CA3320861E457990AB0F,
+	Detail_easyar_SparseSpatialMap_getPointCloudBuffer_m9DE583DB7022F8F24BFC9CE7BC1E2775A2520622,
+	Detail_easyar_SparseSpatialMap_getMapPlanes_m715D82A428740BA6B214578A929D5B49A57B0F79,
+	Detail_easyar_SparseSpatialMap_hitTestAgainstPointCloud_mF48543EB21DDFC6CBA0D0EF84F888873243D2987,
+	Detail_easyar_SparseSpatialMap_hitTestAgainstPlanes_mE69BFD90C4D2120E8F32F7BC20868B744E7609AD,
+	Detail_easyar_SparseSpatialMap_getMapVersion_mCA1177BCD3282720478155E748F45761CF8279CA,
+	Detail_easyar_SparseSpatialMap_unloadMap_mB80EA6C08A53449C9CD1D72578CB6681DA18BEBA,
+	Detail_easyar_SparseSpatialMap_setConfig_mF61E29D6B68B25BF63DB80300972263DC12E5139,
+	Detail_easyar_SparseSpatialMap_getConfig_mA5E4C4E0C55E911C76983B170BF39F0BDA32A2C7,
+	Detail_easyar_SparseSpatialMap_startLocalization_m84E8D50B801A670C4F19902CA69A5878D97C24F8,
+	Detail_easyar_SparseSpatialMap_stopLocalization_mC05027468687071A212FAFEBDE6668F676F5FE07,
+	Detail_easyar_SparseSpatialMap__dtor_m0E406B9BC5F3AA870CF2585EC895D13935079C30,
+	Detail_easyar_SparseSpatialMap__retain_m4A107B754E64CE40C8827214862E67BA4EDEE5F9,
+	Detail_easyar_SparseSpatialMap__typeName_mADED1E35AC9971CAE3C0C8CA364142609889BA84,
+	Detail_easyar_SparseSpatialMapManager_isAvailable_m984090284167BE49363F679134028D005F27C1A2,
+	Detail_easyar_SparseSpatialMapManager_create_m8B94F3A394F0FF52F328DB53E0019BC9E3556CEB,
+	Detail_easyar_SparseSpatialMapManager_host_m0E4167F5E49BF8462156209AEFC8451DDD20DF02,
+	Detail_easyar_SparseSpatialMapManager_load_mA80D32454ABAA27D7D9A27C71ED0E3BFE21AAB2A,
+	Detail_easyar_SparseSpatialMapManager_clear_m901D4A742054BE85D384FA4BBF1B0555A500480A,
+	Detail_easyar_SparseSpatialMapManager__dtor_m28C4F00D9C525415DB9C0C82CB725C5FD7C5683B,
+	Detail_easyar_SparseSpatialMapManager__retain_mF3A7440BF67DB891A3DC7FBCBF0D39A3B96845D7,
+	Detail_easyar_SparseSpatialMapManager__typeName_m24BCF360762EAD37EBDB664788B4983B5E993487,
+	Detail_easyar_Engine_schemaHash_m6BCAE4776B0E67E9DC7ABAA2EB95D6F2347358E7,
+	Detail_easyar_Engine_initialize_mD7F0733B20A8483696E2F26F7C20475A25D31AA1,
+	Detail_easyar_Engine_onPause_m99283AA2DC6F28615D9BDC701C861EF307AB94BC,
+	Detail_easyar_Engine_onResume_mC6439AF642FA79E02E91084018ACF8FBC8B7A76A,
+	Detail_easyar_Engine_errorMessage_m67BF22C40212CD74BA88935503E6CDE1BD3073FB,
+	Detail_easyar_Engine_versionString_m307BCAE2430CFBA9FDCED699A2D0868A3650372C,
+	Detail_easyar_Engine_name_mC5ECCB3E1B4E20DBE1A97485AE7F70CE504F3434,
+	Detail_easyar_Engine_variant_m89DF3A784B7AA981BB143778C577218772C9FC6A,
+	Detail_easyar_Engine_isLicenseKeyMatched_m8A981CBB85BE5955A9F066965121598861B0BE0B,
+	Detail_easyar_VideoPlayer__ctor_mCF2194F3DED76A978DE66BB5426A2A58411693DB,
+	Detail_easyar_VideoPlayer_isAvailable_mE17FDE0C6D4818342E43D10C3AD65E4A028BE17F,
+	Detail_easyar_VideoPlayer_setVideoType_m7D7E44071E9F133FA0DC4D0E5128893465C4BFDE,
+	Detail_easyar_VideoPlayer_setRenderTexture_mF85ED19B40A2254FE9920C8EA9E4A306A50D6B58,
+	Detail_easyar_VideoPlayer_open_m05E27BA9567BE23D16A451BBACA51C3169A768C3,
+	Detail_easyar_VideoPlayer_close_mB40F38CB6B0BB5775DC2B5CE2786136AA27A95FC,
+	Detail_easyar_VideoPlayer_play_m4D90323DE2C70CEEE6370CDEE28C7BF02349CFF3,
+	Detail_easyar_VideoPlayer_stop_m94FC7499FB13B1F62932FBD7C0AF08483F0BD551,
+	Detail_easyar_VideoPlayer_pause_m6893F52FF9B2A9458B6BAA955F8F5EEF877D3CDF,
+	Detail_easyar_VideoPlayer_isRenderTextureAvailable_m58F6D90E4051AF81628371FECF5BE795C70AFCC3,
+	Detail_easyar_VideoPlayer_updateFrame_mDF9F9BE27358335E135A9CC1D42DC394AE12CBD2,
+	Detail_easyar_VideoPlayer_duration_m65979278DC69E7C8D24DC5DD69C3F61855073F7A,
+	Detail_easyar_VideoPlayer_currentPosition_m68FED22C64191DC6067FB2BD618F686F2CFB966D,
+	Detail_easyar_VideoPlayer_seek_mA9CA74678018AE375C35E810BA31F0EB803614B8,
+	Detail_easyar_VideoPlayer_size_m34004DE528849B9F33A6088D10C682BA3A83612D,
+	Detail_easyar_VideoPlayer_volume_m3258DB786E850166C438C389CEF6CAD7EA3A51F5,
+	Detail_easyar_VideoPlayer_setVolume_m901A04436B6C131B5A73866C8D5B2555B57A6640,
+	Detail_easyar_VideoPlayer__dtor_m044923E01FA608C169C52A37CBEC7BCEAE1E9496,
+	Detail_easyar_VideoPlayer__retain_m78E4FD05FFACED3BFA19A1B3D45D3E26694E326A,
+	Detail_easyar_VideoPlayer__typeName_m957DAF7C3C7144CBED365E1DD56994F8F2AA3BA8,
+	Detail_easyar_ImageHelper_decode_m6E64435711A5CBB3242FAE189BD1244CD457C66B,
+	Detail_easyar_SignalSink_handle_m4E59050E8E26BAED949B4FBA683518BD705A9C2C,
+	Detail_easyar_SignalSink__dtor_m26C2006F4A4EFAD1F7A95BD91CF02D57A35886BF,
+	Detail_easyar_SignalSink__retain_mA27A1B74BFA558DFA13C22772AC439D430EC560C,
+	Detail_easyar_SignalSink__typeName_m5C2F36B825AD384997839BE4325C0A5BDE0107E7,
+	Detail_easyar_SignalSource_setHandler_m8EDAE5202E02F3801811F0548FFC5D4D4CBDB3A1,
+	Detail_easyar_SignalSource_connect_mB79A62429A970775185D30F1D6E2AE06CD63A52D,
+	Detail_easyar_SignalSource_disconnect_mB02D3DD7359617AA5811F3B8AC5CAD786D96816A,
+	Detail_easyar_SignalSource__dtor_m8568757F2E972E92ED97DDEF276A50D71533B800,
+	Detail_easyar_SignalSource__retain_m61BB39A455AE5861AC70D9023AD2F69945CB2BBB,
+	Detail_easyar_SignalSource__typeName_m31237C36C77C2F122C21911D0C287FAC17C35A9B,
+	Detail_easyar_InputFrameSink_handle_m1CDFCF5214EF1A6E2D23D658651C90BB8AEAFF18,
+	Detail_easyar_InputFrameSink__dtor_mC38357FC280697697F7B9BE51EB39153E66C909E,
+	Detail_easyar_InputFrameSink__retain_m2DE1117C33F4C1411069A135DF2FCE5B81D0B38C,
+	Detail_easyar_InputFrameSink__typeName_mB976EBB2E6991ED8CAD84A209DC966C0C51CEA17,
+	Detail_easyar_InputFrameSource_setHandler_mF39583CD115F5018BB0472C119506CFED7A7C61F,
+	Detail_easyar_InputFrameSource_connect_mA415CC345BF8CF286839BDF356A3EC0A53044219,
+	Detail_easyar_InputFrameSource_disconnect_m10F2C5D18E9C17A88CA94677CD5B66E1A1697AB8,
+	Detail_easyar_InputFrameSource__dtor_m34C1A5EBEF2039B8A0E8497DE7CE491BE746B95C,
+	Detail_easyar_InputFrameSource__retain_m96E295856C0307B72AA1FA704E3C1B25FA51492B,
+	Detail_easyar_InputFrameSource__typeName_m30845774C5BD5F73CA6670FB99F845CF6D284D57,
+	Detail_easyar_OutputFrameSink_handle_m5D66BF5F939BC3F4F6171656BA4BB1A7D37E9EB2,
+	Detail_easyar_OutputFrameSink__dtor_mE215A4DBE59BAFA0CE98695DED125C74A04AA8FC,
+	Detail_easyar_OutputFrameSink__retain_mCA9495B17D3E34B65C2A4F8B7676313405B9299C,
+	Detail_easyar_OutputFrameSink__typeName_mEC01DFB4300BE7F15095BBC3FF0F066198FF6296,
+	Detail_easyar_OutputFrameSource_setHandler_m0D0F8E7B0D5D6FB77DF4D6A43F820E28B7C7AB92,
+	Detail_easyar_OutputFrameSource_connect_m63029C33159A076F855783549ACE3B431A8FFA27,
+	Detail_easyar_OutputFrameSource_disconnect_mF9CED3DC5AC9BCBF84FE5B88B1961E9A5483CD6D,
+	Detail_easyar_OutputFrameSource__dtor_m6AEA67BBB9475C01FFFDA71D3B3E56788E3237DB,
+	Detail_easyar_OutputFrameSource__retain_m10030E2AB2B7BD818A1A233BA508BA24E32B5E67,
+	Detail_easyar_OutputFrameSource__typeName_m413CD7FF9B025732AC138855C10B2F4A33F31017,
+	Detail_easyar_FeedbackFrameSink_handle_mA438C5D09D68EEF9E3ECBCAA58A42AB8697D4822,
+	Detail_easyar_FeedbackFrameSink__dtor_m7064631EE7E8690FDE092A6C6697E39D7BE08652,
+	Detail_easyar_FeedbackFrameSink__retain_m1052977B494D7E495F1AB1259FD167D8C2B4F946,
+	Detail_easyar_FeedbackFrameSink__typeName_m50538DADCF39C3125F042B91FD77652320D56059,
+	Detail_easyar_FeedbackFrameSource_setHandler_mB718CAF236525924E3E89B80481902320D03ED36,
+	Detail_easyar_FeedbackFrameSource_connect_mD817D41B1FBD2D931E5EC757A29FB4D0F1536AC0,
+	Detail_easyar_FeedbackFrameSource_disconnect_m092D277A88308EEF369987A1ECDD08DBE1ED60B9,
+	Detail_easyar_FeedbackFrameSource__dtor_m53A4CA2CD2FC6700E76C9DE6B43C08DFF50040C5,
+	Detail_easyar_FeedbackFrameSource__retain_mB2F0411EA10C8F0F2764621073ABE0B31E49158F,
+	Detail_easyar_FeedbackFrameSource__typeName_mE4DDA49C392B330ECF3C86483AF51B3726D5F504,
+	Detail_easyar_InputFrameFork_input_mE9B52A6A72350BE347E47B6448A32F39A36A99A4,
+	Detail_easyar_InputFrameFork_output_m769E620FFD1D6CB3EAB792BE58344098CF2D9C73,
+	Detail_easyar_InputFrameFork_outputCount_mB914B6B93C0F5B8533D83382A89F017AD16DCBDC,
+	Detail_easyar_InputFrameFork_create_m3CF6262414127B2CF587BF72E536021233F6ED4C,
+	Detail_easyar_InputFrameFork__dtor_m284E0244A0D651DA1DBBFCB157147E760F3190CB,
+	Detail_easyar_InputFrameFork__retain_m4F713786C75E3391CF203AE2EF9CF428708A356E,
+	Detail_easyar_InputFrameFork__typeName_m838B140EC017067AC28A10953DA8F26FAE51B858,
+	Detail_easyar_OutputFrameFork_input_m367E808BDD7144E5DA9BAD2ADF66E3F9AF50CB4C,
+	Detail_easyar_OutputFrameFork_output_m839FD8681AF2CD8D9E6069DDA7F6347E8E39FCAC,
+	Detail_easyar_OutputFrameFork_outputCount_mDF50A9F1288F7C343023F6E91B1331AC16AC5AFE,
+	Detail_easyar_OutputFrameFork_create_m145AD93F6E03C71B81D6D2313874BC3DA0A8A53F,
+	Detail_easyar_OutputFrameFork__dtor_m8FFFCEC3A255B648CE69016188690119713F6BEF,
+	Detail_easyar_OutputFrameFork__retain_m133CF153E6D6F4F1F120F07780090DBF1E3CBB8C,
+	Detail_easyar_OutputFrameFork__typeName_mD7A29D501E45907F087A925FACB8D5C6D171EE59,
+	Detail_easyar_OutputFrameJoin_input_m25B8B31255D18F63E457933B674F5FBE924089CC,
+	Detail_easyar_OutputFrameJoin_output_mC7D51A001099612BA62EBC676A4A4682FFA4F326,
+	Detail_easyar_OutputFrameJoin_inputCount_mF11B5971634E79EBAF19362C57AB0825F3B06563,
+	Detail_easyar_OutputFrameJoin_create_m91C43E4EE42BFCFCED7038565423A85201C2C132,
+	Detail_easyar_OutputFrameJoin_createWithJoiner_mDAD2A7D6F78720086235B026A08DE350AB22E434,
+	Detail_easyar_OutputFrameJoin__dtor_m7E59661C1F8302671F5F36211526D5E971812AB7,
+	Detail_easyar_OutputFrameJoin__retain_m689ABB6B9E00B4D3ECFDB1CFD8C5AE39219651AE,
+	Detail_easyar_OutputFrameJoin__typeName_m31DF197489A4187CB1FB2F94C6B983C159018D14,
+	Detail_easyar_FeedbackFrameFork_input_m16BC8AF0A25713853C8DE280EE95A5567F6D1B0C,
+	Detail_easyar_FeedbackFrameFork_output_mEBCBEB192284D1ED6AD520A460316F189B7FBFE9,
+	Detail_easyar_FeedbackFrameFork_outputCount_m1B4E528ABF7F5ABDC0DF597C6F4167454D2B7F16,
+	Detail_easyar_FeedbackFrameFork_create_mA8EBE15E3FCA2BAEB6F5043566D8AABC62F1832D,
+	Detail_easyar_FeedbackFrameFork__dtor_mD3D5ED9F32ABC502C3E8C9BC417C65C61B016397,
+	Detail_easyar_FeedbackFrameFork__retain_mFA8F65323468E2EDF587B0EC15E185C5E74650C4,
+	Detail_easyar_FeedbackFrameFork__typeName_m16CE373D77D1D90D820E6474E9C9C32BA453B412,
+	Detail_easyar_InputFrameThrottler_input_m241D04B605C995DA2A9924B6D1B9DEFA4EB649AE,
+	Detail_easyar_InputFrameThrottler_bufferRequirement_m3C1195F9E641C2E373861ACCBCE32D8F342F5367,
+	Detail_easyar_InputFrameThrottler_output_m8722380E270BEE9AD96B8E52E9AD651B630ECE21,
+	Detail_easyar_InputFrameThrottler_signalInput_mECE5E50A679F01F49E66EDB774EA1C1F8941B86A,
+	Detail_easyar_InputFrameThrottler_create_m3C34C37CE64217C9DF6B1EC9A9D6E6AA77C0F32C,
+	Detail_easyar_InputFrameThrottler__dtor_m9D09401E7BB08B85614BE0590A7AC68C8C47A71A,
+	Detail_easyar_InputFrameThrottler__retain_m70DC934100AE170F59C2A1A014989B85A443B8D5,
+	Detail_easyar_InputFrameThrottler__typeName_mB907CE5B4C69069728EB3F39E3B4DDDCB3B8CC3C,
+	Detail_easyar_OutputFrameBuffer_input_m6D876AC8D1B6102526F0A447B495BC945802A815,
+	Detail_easyar_OutputFrameBuffer_bufferRequirement_mB0CDDF0ACD86C0625C09409E07D872C777D064B2,
+	Detail_easyar_OutputFrameBuffer_signalOutput_m06C674DCD542E9BF6BC1D82CD676B627C6037B71,
+	Detail_easyar_OutputFrameBuffer_peek_m0CF4D4F738CE2599D71069C3F0FDA5F275AE1A63,
+	Detail_easyar_OutputFrameBuffer_create_m1D9F19DFC7B5280A8E5AFEF90B4276384714CE25,
+	Detail_easyar_OutputFrameBuffer_pause_m821CA8AEA87F3B07FDB0EA7EEB242C15D1C9030D,
+	Detail_easyar_OutputFrameBuffer_resume_m75F28DA763191EA00F4E7715826BF114E212218A,
+	Detail_easyar_OutputFrameBuffer__dtor_m96315B9FF01C3CCD2C2F5B9BC54EA68C855B3BBA,
+	Detail_easyar_OutputFrameBuffer__retain_m423618AE1E1847C2C11B08B577CC10D529FE7787,
+	Detail_easyar_OutputFrameBuffer__typeName_m6A13E6FC89179C058EA0072B2593B81C28C7A450,
+	Detail_easyar_InputFrameToOutputFrameAdapter_input_m6D7BD6ED87C8023277BA622570D94EDB4CD1C503,
+	Detail_easyar_InputFrameToOutputFrameAdapter_output_mCB76C9B859D6CB2EE01414B31E433A82BEE604BA,
+	Detail_easyar_InputFrameToOutputFrameAdapter_create_m44610BE4AB931FFF17C8053E03A522450D0083EE,
+	Detail_easyar_InputFrameToOutputFrameAdapter__dtor_mD68C7AC54D2861171C5781222BEADB3361DE56B8,
+	Detail_easyar_InputFrameToOutputFrameAdapter__retain_m90DFE05BC1E05EE65C54B7B9971A28EB89404468,
+	Detail_easyar_InputFrameToOutputFrameAdapter__typeName_m64A5B83470B623A7B3A08B5BF1CF1AC6DCB074FE,
+	Detail_easyar_InputFrameToFeedbackFrameAdapter_input_mEFBA3EF4304DC823EC188ABD5E5974DB7207625D,
+	Detail_easyar_InputFrameToFeedbackFrameAdapter_bufferRequirement_mA4D5057C271FDC590B6776B784CF42C6593E8B31,
+	Detail_easyar_InputFrameToFeedbackFrameAdapter_sideInput_m5A4BC0E52CF371F40A3E364AB294D5A37283A726,
+	Detail_easyar_InputFrameToFeedbackFrameAdapter_output_m4E08DDE8D750DC726842415B0AEBBE682EFF7281,
+	Detail_easyar_InputFrameToFeedbackFrameAdapter_create_m2F3C42B08294A24C94157FA316EE3DCB276E0F0C,
+	Detail_easyar_InputFrameToFeedbackFrameAdapter__dtor_mA5D6F888FC17045DE01388171F33F48B23156E6C,
+	Detail_easyar_InputFrameToFeedbackFrameAdapter__retain_m2DA3F68A912CB139E9B78F34DD9A8CED2F0B7340,
+	Detail_easyar_InputFrameToFeedbackFrameAdapter__typeName_mC76899F336CC058E17037E7D288DE3C499B587DF,
+	Detail_easyar_InputFrame_index_m7FBFA77264CE21388B90E295F0C88193AFBC7D4B,
+	Detail_easyar_InputFrame_image_mD80DFFF14419875C779CD09AE08245BEEC7B54E8,
+	Detail_easyar_InputFrame_hasCameraParameters_m6F3DD0DF2CB5C6B41B7CD8C2BFFF0335538A6D34,
+	Detail_easyar_InputFrame_cameraParameters_mB72A5C33F3D4B20AA544EF0CD2F49978A44A8230,
+	Detail_easyar_InputFrame_hasTemporalInformation_m0D983559CFB191563746AF6CE4B9E5AC1AE49CCD,
+	Detail_easyar_InputFrame_timestamp_m7559ABED2DBFDA1CCF9569102988D0BD0A5FC9EA,
+	Detail_easyar_InputFrame_hasSpatialInformation_mC37DC128648A2B421D3043262F1819B4B8D190C6,
+	Detail_easyar_InputFrame_cameraTransform_m5F4CC0A67EF63054DBFE553FBA5A576E256BF2BD,
+	Detail_easyar_InputFrame_trackingStatus_m576A7E3B063C4A8E4F2ABDE4DC672CC0138E1A57,
+	Detail_easyar_InputFrame_create_mE1C6BDFCF8BC5AA2EAC528865D53F04D14340083,
+	Detail_easyar_InputFrame_createWithImageAndCameraParametersAndTemporal_m679AF9D0515C22E2E660972BB3792774A29CD924,
+	Detail_easyar_InputFrame_createWithImageAndCameraParameters_m351DA72CA3273F90D2F0D88396EC17C33A38DF28,
+	Detail_easyar_InputFrame_createWithImage_m9C08085647B74233D7816FCE44ACCEDB82DD34B2,
+	Detail_easyar_InputFrame__dtor_mCE347A0A63CF907233196ACFB3328696057F147B,
+	Detail_easyar_InputFrame__retain_mC00917E89FC8203AB16426242BC131A1F28C0211,
+	Detail_easyar_InputFrame__typeName_m85B64BAD2C20604E170D1F097E6FE7B5B54A6CAC,
+	Detail_easyar_FrameFilterResult__dtor_m19E78FF977C940EE1DCD7785DA515DD11B469DE6,
+	Detail_easyar_FrameFilterResult__retain_m187A78F4F269D476213BFD36154909CCC95F158D,
+	Detail_easyar_FrameFilterResult__typeName_m08D2720F90A0BC9C3DF21A5F05480115ACE8971A,
+	Detail_easyar_OutputFrame__ctor_m257487F94834369B0F4F7680E9F140B220AA2E25,
+	Detail_easyar_OutputFrame_index_m4AA2844FA7F2A7DD7F8BA3D0858C56FE10A03FED,
+	Detail_easyar_OutputFrame_inputFrame_m1E75BDF91598A60CEFFBE8FE07723C6DBE0CE2C3,
+	Detail_easyar_OutputFrame_results_mE5A34582604F3321DF371B0CC5D1D97050C8DA8E,
+	Detail_easyar_OutputFrame__dtor_mDA8C148293BAFB33ECF518DAB862899BEE15DFF8,
+	Detail_easyar_OutputFrame__retain_mFD12A6B15C3AF3015EF82338DF33A806F4A5C72D,
+	Detail_easyar_OutputFrame__typeName_m608C3A3605CE523CBEDCA3C8F3F11BDC029A68ED,
+	Detail_easyar_FeedbackFrame__ctor_mB0944AF12BAA7354D0A536B058EABB877FB9EBC9,
+	Detail_easyar_FeedbackFrame_inputFrame_mC0072ECFDE761ECB7C8FF0E75F15F43D113AB6E5,
+	Detail_easyar_FeedbackFrame_previousOutputFrame_m8A49819B9DF7C2CDF9F670F452200EBF3F12C9AE,
+	Detail_easyar_FeedbackFrame__dtor_m300D6AC92BFDFBFC752C0B1044CBCC187EB73408,
+	Detail_easyar_FeedbackFrame__retain_m41B167A476625E2489FA3E9AFD59322286CE16CB,
+	Detail_easyar_FeedbackFrame__typeName_mF3D618540B20BAB3E549E0679979BBEDA97F7A34,
+	Detail_easyar_Target_runtimeID_m797A6924FB46AE0E73AEDEA53C9DF609D99D701B,
+	Detail_easyar_Target_uid_m9DDD51A9F7C85B3690DEB41990615D996D335F54,
+	Detail_easyar_Target_name_m8F95FEDEDFD07B112E7DE343B0A000BD6A0689FE,
+	Detail_easyar_Target_setName_mF75BF61D14D914BB8E3E5853F7F8184A4724214E,
+	Detail_easyar_Target_meta_m957386115A0F516D8D3994CAE84C3A4C29F74BF8,
+	Detail_easyar_Target_setMeta_m51ED2715710649ACFC7C90B3F38041DDFAAE83E8,
+	Detail_easyar_Target__dtor_m09014BEF7FCD0B2BB2A96F9157978602D6623ED3,
+	Detail_easyar_Target__retain_m4EDFEED0B2DA1ED5824511442D04C09193016999,
+	Detail_easyar_Target__typeName_m5954A048B5C7A5B808935FE36A12FD17FB552F7B,
+	Detail_easyar_TargetInstance__ctor_mCD49E1244071524A29741469AA4B4DA5FA501783,
+	Detail_easyar_TargetInstance_status_m11C69900AE734E4EA2E7B365F432E403FD4B8D16,
+	Detail_easyar_TargetInstance_target_m6997E86401767D9822EC3B5A97C6D6CC7BBCF512,
+	Detail_easyar_TargetInstance_pose_mAB75AEA924D0AD0D74ED09DE79F7156DCB192BBB,
+	Detail_easyar_TargetInstance__dtor_m13BBFB5C0EF5B5FFF268C0D443C72EE71B171A1C,
+	Detail_easyar_TargetInstance__retain_mABB3C8018D23214FA534667611F63A918A29337C,
+	Detail_easyar_TargetInstance__typeName_m373D3387596C9C1A16A3341752D5B090ED669AE9,
+	Detail_easyar_TargetTrackerResult_targetInstances_mC3D8EAF261387DA7ACBEAE70ED3D1EAB71A830CA,
+	Detail_easyar_TargetTrackerResult_setTargetInstances_m304E6621198CD21390CD7B4DE3707110277728B5,
+	Detail_easyar_TargetTrackerResult__dtor_mA784508EF1ED47C03408D25CFE0350554E01DF26,
+	Detail_easyar_TargetTrackerResult__retain_m95B593006ED7E495D368D48E7DBC92DC1F139B6C,
+	Detail_easyar_TargetTrackerResult__typeName_mD04F6CB12E74A513A117F9DA3A5CE46187A1C7FB,
+	Detail_easyar_castTargetTrackerResultToFrameFilterResult_mE67298605BA04F77787E0E28D179C6BDB1F53284,
+	Detail_easyar_tryCastFrameFilterResultToTargetTrackerResult_mCCA416030D66C2F85FFDD72DB0EF98C22FA93AFE,
+	Detail_easyar_TextureId_getInt_m3A8622719195893E3F973C3ADA84A8FC14527D7B,
+	Detail_easyar_TextureId_getPointer_mE17D5C4AF8E645CC8E1D00B728B5CCA6B4AA07D5,
+	Detail_easyar_TextureId_fromInt_mE12C2261825C5511CC2DDC52FBE0DC8C53CE312C,
+	Detail_easyar_TextureId_fromPointer_m7C12D195BCA95B5001929CF681E46B0AE7C18691,
+	Detail_easyar_TextureId__dtor_m015FD991B9803788EB62ABA0C4A2F84F23765FFF,
+	Detail_easyar_TextureId__retain_m321D0119241301B0C1F99638E7C5FAC125A64C6D,
+	Detail_easyar_TextureId__typeName_m40A7449276E55582CF78501BDD284E001A6B612A,
+	Detail_easyar_ListOfVec3F__ctor_m9FA82066ACAD83064B7F596A6F6CCFA3272685E6,
+	Detail_easyar_ListOfVec3F__dtor_m8244DDFF1477D22BF86EF99F6DF0346F6D98BCA3,
+	Detail_easyar_ListOfVec3F_copy_m01C2DD25A3B452269AA5E62F3E43DE94BECCE9C9,
+	Detail_easyar_ListOfVec3F_size_mEA72A0E5A0899589859B9712E0C498E49573EB83,
+	Detail_easyar_ListOfVec3F_at_m4D070B4D1B9CAF9D8F8955DCD441F06136B51E0B,
+	Detail_easyar_ListOfTargetInstance__ctor_mB9B0E3BD32541D8AD8ED7E2399C6F139100169E3,
+	Detail_easyar_ListOfTargetInstance__dtor_m19B49E39C1DDB4704790531A41F63A391B06484B,
+	Detail_easyar_ListOfTargetInstance_copy_mDACFEB3533B9CB5C9C85CDA434DABB8A1966A164,
+	Detail_easyar_ListOfTargetInstance_size_mAF4BC7E9A017D0307CD11E1EBF238458F49CC99B,
+	Detail_easyar_ListOfTargetInstance_at_m22E3A6F19217E894C75CB1F1C235538B5869A659,
+	Detail_easyar_ListOfOptionalOfFrameFilterResult__ctor_mCE07A34C5E37D1AA8D732D79D303715E7D688DDD,
+	Detail_easyar_ListOfOptionalOfFrameFilterResult__dtor_mB22A86B7B5A617EC775E275915BD554B9AA78EB4,
+	Detail_easyar_ListOfOptionalOfFrameFilterResult_copy_m47EC292540D9924A6207937A612819F3F7090E3B,
+	Detail_easyar_ListOfOptionalOfFrameFilterResult_size_m75C6163B559166B7C134C254684F8DD6F337A2F9,
+	Detail_easyar_ListOfOptionalOfFrameFilterResult_at_m8F395CB834CF34FD0EB4D7AF588AF8049DE787F5,
+	Detail_easyar_ListOfTarget__ctor_mE42ACCDEFF6439FDA49107120655F85FD2FC57E0,
+	Detail_easyar_ListOfTarget__dtor_m472A327D652A04B053C8CA0A5AF9BBC62AF1E9F3,
+	Detail_easyar_ListOfTarget_copy_mC838EB1D7EDC2E472C986FD210C417536CF80AC4,
+	Detail_easyar_ListOfTarget_size_m44FCC9111D76A38A7E30CADC0046656759260C56,
+	Detail_easyar_ListOfTarget_at_m8B5E9C360E3880C6C1ED3A99AEB947672F1B359A,
+	Detail_easyar_ListOfString__ctor_m790176A3DC01F8AB7F74C9C07A922B79A80B4A0B,
+	Detail_easyar_ListOfString__dtor_m775A92E9E42C438108C53475168A1D806480C7F4,
+	Detail_easyar_ListOfString_copy_m8ED1F9A9359ABFAEDDB3F198A6705F2A5C086A85,
+	Detail_easyar_ListOfString_size_m2FED7BE3F40D38848A84AAC9ED654E86CC200519,
+	Detail_easyar_ListOfString_at_m79E5829FF28857BAE840B6153CDA78BD5A0E1B26,
+	Detail_easyar_ListOfMatrix44F__ctor_mC4B2C7B0E42DC28DB214E637819D05C70E44B2F3,
+	Detail_easyar_ListOfMatrix44F__dtor_m815A72F5354B0C6AF4F0D42B3568109EA4F01DFF,
+	Detail_easyar_ListOfMatrix44F_copy_mE434DEFBB92005DD17835DD3B1756F80037CCF0F,
+	Detail_easyar_ListOfMatrix44F_size_m4EF5D4CC03135F97D1F27D572D6383AD496F2B32,
+	Detail_easyar_ListOfMatrix44F_at_mC3F1A21204BBDA89F0C2912C3E3E19C250E9E7E9,
+	Detail_easyar_ListOfImage__ctor_m67756E17E83B923A4FF1050CBBC08613DC3A759A,
+	Detail_easyar_ListOfImage__dtor_m54D0D451987BE3B100847BB8DE15F649EB27F8E0,
+	Detail_easyar_ListOfImage_copy_m5E0207DDDA7B8BC6E753298E4F812CAC3773706B,
+	Detail_easyar_ListOfImage_size_m88257F242F239002FF3D85C52798A207D8D6ED11,
+	Detail_easyar_ListOfImage_at_mBD369202422D87DE1BE1E59D6E1957D055D50B2E,
+	Detail_easyar_ListOfBlockInfo__ctor_m030E3992376BA9377C890BB1B7E7EA3DA5F1902C,
+	Detail_easyar_ListOfBlockInfo__dtor_mDC7F9F1CFC6D68E17701BA58871553FD383EFF7B,
+	Detail_easyar_ListOfBlockInfo_copy_m4BD8C429C853D05E626B5713F6346619DB5A2CF6,
+	Detail_easyar_ListOfBlockInfo_size_m6DA7D093E8ACEE0454629609A2039DF197701295,
+	Detail_easyar_ListOfBlockInfo_at_mE8CD79230AD9BDC767C410956C197DFC76887692,
+	Detail_easyar_ListOfPlaneData__ctor_mF5B5C3CC0185870F6F9E41AB64B600C3411C7A6B,
+	Detail_easyar_ListOfPlaneData__dtor_m7185DDDC1C96B725FBD22090FE895FB6E39B2642,
+	Detail_easyar_ListOfPlaneData_copy_m34F07E7FB143DB5A85EB185F95B81FE5E809553F,
+	Detail_easyar_ListOfPlaneData_size_mED7D4275D133900E11C777E43B951C3C0C16A2D3,
+	Detail_easyar_ListOfPlaneData_at_mD9ECBAFAA22DF5E2F26FC24A58EBC59F024DBF33,
+	Detail_easyar_ListOfOutputFrame__ctor_m6CF285490FC46C6196544D37DD81BB802789F560,
+	Detail_easyar_ListOfOutputFrame__dtor_m1B8876C2AA464D65500E12978F236731FD877C66,
+	Detail_easyar_ListOfOutputFrame_copy_mC2B2B0CDEB7B32B3CBDDCE923133AFD656DCBDC2,
+	Detail_easyar_ListOfOutputFrame_size_m0A23AA7B04E7AF4189B043F2FEBDF37288132712,
+	Detail_easyar_ListOfOutputFrame_at_m90D13F41551571FAB28F2F4333382A83B1F50EAF,
+	Detail_String_to_c_mC56EF8B231955F6B88224E4F2B9F853A20C03D30,
+	Detail_String_to_c_inner_mDB57855A5B08A44D8651416466CD6D3803A1D58B,
+	Detail_String_from_c_m0FC0FEDE79E5D090D6FC1EA6254637E53E68B235,
+	Detail_String_from_cstring_mA6EAD99A138648F89DEDD1E69176D8D356D102CC,
+	NULL,
+	NULL,
+	Detail_FunctorOfVoid_func_m9B3A25DFCDAA1DA9B34D8C26D12720078904A7AE,
+	Detail_FunctorOfVoid_destroy_m5E3E6D4C5E3646C932CF287C430B2BBA89AAD985,
+	Detail_FunctorOfVoid_to_c_m2D304EBD66E5B76FCE7F8150791141F10CD2C717,
+	Detail_ListOfVec3F_to_c_mBDB2A96F6152DAEE5CF47B573C8654332B6FA4F7,
+	Detail_ListOfVec3F_from_c_m0AD5DFC54EF301677DA4AD63E6FA4DB7D018C561,
+	Detail_ListOfTargetInstance_to_c_m233739332C360EC848362D6D67AB2E4E79FA6DA1,
+	Detail_ListOfTargetInstance_from_c_mC933D981B4F7E1E7960BF3F83A639F170534953E,
+	Detail_ListOfOptionalOfFrameFilterResult_to_c_m876548B7F069B82E0449D6390090C9CE832987AD,
+	Detail_ListOfOptionalOfFrameFilterResult_from_c_mA6ACFE5E98C7B4F9C198C9F764FCC3951F8853E0,
+	Detail_FunctorOfVoidFromOutputFrame_func_mA503D140DC254EBD50B6FF51E10826AF0C772F26,
+	Detail_FunctorOfVoidFromOutputFrame_destroy_mD420F425F20F505E4C5D043C8AD7410CBAF5EDC5,
+	Detail_FunctorOfVoidFromOutputFrame_to_c_m2E9CA9299C4343F99E526B1B5A3546EEF60929C4,
+	Detail_FunctorOfVoidFromTargetAndBool_func_m3A49203A0B28CB5C535DF756759D60767CD45DE4,
+	Detail_FunctorOfVoidFromTargetAndBool_destroy_m9B8753165488859C46E1FAA8DA1A2A8F2F17F7A9,
+	Detail_FunctorOfVoidFromTargetAndBool_to_c_m8436C74EF7C1700E20F29DB07ADB4005097A3A8B,
+	Detail_ListOfTarget_to_c_mCC27A8F913A4E44A510A8D7F70146F06D8211512,
+	Detail_ListOfTarget_from_c_m1306F5F65982CDCE5DC1009B216542815AD2398D,
+	Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_func_m0E20234492C341A0132FE31EE48393CC1DF1C90D,
+	Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_destroy_m956150E051D46D33D6C835806C52DB9D878384E8,
+	Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_to_c_mC7D823B476B6C5CF9DFB08609777247F05C145F6,
+	Detail_ListOfString_to_c_m7D707A912645C44835A0F1368D73B75772C776A1,
+	Detail_ListOfString_from_c_m1122145FB8974F356A64ABC8277FB2EBEF4E0D09,
+	Detail_ListOfMatrix44F_to_c_m9D1DF027DF8F39941950FA51DBB4209F5A3EDA72,
+	Detail_ListOfMatrix44F_from_c_mE38C8F48FAB7B5FABF77B72F12F8E4E0524746D8,
+	Detail_FunctorOfVoidFromCloudLocalizeResult_func_m59565EF3FE8BE260527646DF98C6D079BFF464E3,
+	Detail_FunctorOfVoidFromCloudLocalizeResult_destroy_mC6590432763B0BC30047B24F24F0AE808680013D,
+	Detail_FunctorOfVoidFromCloudLocalizeResult_to_c_m7A3706F5F49D337C6FE2D1382ADD1CB03294ECDA,
+	Detail_ListOfImage_to_c_m62021F5A23D0730FBDB1F11AB80809380B4D7734,
+	Detail_ListOfImage_from_c_m172809FDD8ACABBCDA5B266349DBFA7BAE669839,
+	Detail_FunctorOfVoidFromCloudRecognizationResult_func_m44523CC4CB1D9428DB13CC0874B0FDD5300BF250,
+	Detail_FunctorOfVoidFromCloudRecognizationResult_destroy_mB58D4BA7DE6FD4246AFD9469C6A50A326F30E1DF,
+	Detail_FunctorOfVoidFromCloudRecognizationResult_to_c_m538D05B1CDFDD6A9D402C6E9C940F7A0CB1C9D1E,
+	Detail_ListOfBlockInfo_to_c_m303643F15FC33276BDFB5C655F214CF77C93AA32,
+	Detail_ListOfBlockInfo_from_c_m0CBC082B70887ADE84A1A52A020FAB802E100E55,
+	Detail_FunctorOfVoidFromInputFrame_func_m13A3A5E746D82B8E57973F7F42090FCAE2538701,
+	Detail_FunctorOfVoidFromInputFrame_destroy_m60ED302B9C246CC4E71CD3E66DDB615400013DB8,
+	Detail_FunctorOfVoidFromInputFrame_to_c_m0E88A2DE55228AF3DA3040127765B9A73E0A6D00,
+	Detail_FunctorOfVoidFromCameraState_func_mD650B25B88459727467D4E81043A0DF2785B028C,
+	Detail_FunctorOfVoidFromCameraState_destroy_mABCBFD76BDDF9AC8A2175B9F7A238BD6A65E53DE,
+	Detail_FunctorOfVoidFromCameraState_to_c_m85AC170445AC8C0A4CE94BE0FE61B6FE68C64FF3,
+	Detail_FunctorOfVoidFromPermissionStatusAndString_func_mF75CF9B2CB5233199D16ABFA0D6C3E646128CCC7,
+	Detail_FunctorOfVoidFromPermissionStatusAndString_destroy_mA11B2EC3A6F1A24515F97F2EC88046B405EC88B3,
+	Detail_FunctorOfVoidFromPermissionStatusAndString_to_c_m78E8B0DF3E1BCC18039640C3B702101723EFE393,
+	Detail_FunctorOfVoidFromLogLevelAndString_func_m146B9A0B7CD02BC1E22221A865E217AEF6F4A182,
+	Detail_FunctorOfVoidFromLogLevelAndString_destroy_m35191A39C014A6C4A574F07E05B11C82EC5480C7,
+	Detail_FunctorOfVoidFromLogLevelAndString_to_c_m91B279A2AD8708E4548369AFA58B00F81BBEBEA8,
+	Detail_FunctorOfVoidFromRecordStatusAndString_func_mF8F6F417420C8B60382532E66F3E212B4A246419,
+	Detail_FunctorOfVoidFromRecordStatusAndString_destroy_m5754CF07AE8DF6F757F145DE496EB4AFBE9CD64E,
+	Detail_FunctorOfVoidFromRecordStatusAndString_to_c_m8C62AC8B88DA4D880F49942EC8C1150806726B61,
+	Detail_ListOfPlaneData_to_c_m758D2008730B430858F71C39ED6E1CA4BFB0FAA6,
+	Detail_ListOfPlaneData_from_c_mEA7CB6A58626F1F659CD76B895D3914669C5F810,
+	Detail_FunctorOfVoidFromBool_func_m15C146E55E9FEEFB127F1D868C94A243FF03ABFD,
+	Detail_FunctorOfVoidFromBool_destroy_m12E1A68BAF4A5B12827A8F826BB564DC2770ED70,
+	Detail_FunctorOfVoidFromBool_to_c_m1AA90A83959A5D9481E10921C9042724426D30F1,
+	Detail_FunctorOfVoidFromBoolAndStringAndString_func_mC4BC9C9A2BB2577123B4C370F3A9081C83BDC266,
+	Detail_FunctorOfVoidFromBoolAndStringAndString_destroy_m6A47B4D9DE52BC54CC26290A51E5439F9AD7BD7E,
+	Detail_FunctorOfVoidFromBoolAndStringAndString_to_c_m4E4F9D1E7E57A65ECE5FB17186D9314CA01AED77,
+	Detail_FunctorOfVoidFromBoolAndString_func_mE4D0144F3E1BE474B77ADACA14760879A02C7D97,
+	Detail_FunctorOfVoidFromBoolAndString_destroy_m296A146091B8A384D9E953B33C64C0C70C2D7738,
+	Detail_FunctorOfVoidFromBoolAndString_to_c_m6B644A8088A46B7809B7BD3879D387FC7EB5DF71,
+	Detail_FunctorOfVoidFromVideoStatus_func_m83A0D47C1E81D24241299838F24A18F712B64318,
+	Detail_FunctorOfVoidFromVideoStatus_destroy_m10274A0BA716DC8F2801999302489EF4FDD299AA,
+	Detail_FunctorOfVoidFromVideoStatus_to_c_mD662E3E8BE68D386AD9A3A8EB30E9E95B459B9EF,
+	Detail_FunctorOfVoidFromFeedbackFrame_func_m95A335E9E1F592E176AE16FF05D25B5EA6244F98,
+	Detail_FunctorOfVoidFromFeedbackFrame_destroy_m5E85B54BC06925986835682FD9FB074112BB50FE,
+	Detail_FunctorOfVoidFromFeedbackFrame_to_c_mC062CC9FE4D688A4BEE78DE77860EE09C88F59D5,
+	Detail_FunctorOfOutputFrameFromListOfOutputFrame_func_m8D2C75EC80DD97F91D30449C94581F212E709C4C,
+	Detail_FunctorOfOutputFrameFromListOfOutputFrame_destroy_mF1A5464EE57BB31C84BF56FE37B8216303CBCE9E,
+	Detail_FunctorOfOutputFrameFromListOfOutputFrame_to_c_m548DA0C26165C2F7C7F52A6DF80A8324D97E98EA,
+	Detail_ListOfOutputFrame_to_c_m91171736A8D1FAFA4727CF038F4612A6E9257AA2,
+	Detail_ListOfOutputFrame_from_c_m60FF68238C6DE4DFECA760065F94F295F519E621,
+	Detail__cctor_mB172153B01F8B3921F12E227BB7051F4E09D2990,
+	AutoRelease_Add_mB0EB3D7FCCE6917816123FE1F924C7A4B1F3356A,
+	NULL,
+	AutoRelease_Dispose_mA5715DF0F5164B80497142C9388EAE9FF2F93AAB,
+	AutoRelease__ctor_mE72EEA2DE0CC0DD5BEF361C94038E370900B2B51,
+	NULL,
+	NULL,
+	OptionalOfBuffer_get_has_value_m77FBC17E0DAFB3A38B29E22B88CE8E481DC9EDF1,
+	OptionalOfBuffer_set_has_value_m17019E4D30096E17664D807802593879A41D8ACE,
+	FunctionDelegate__ctor_m6E49CBD31E9119C657BA2F98935A974B5BF228FB,
+	FunctionDelegate_Invoke_m6B3E140D7F685A1A33A4D634808E04BEBA8D3E01,
+	FunctionDelegate_BeginInvoke_m808F36099CFBDF4370DCCE5986A09792F39A046C,
+	FunctionDelegate_EndInvoke_m15D2BCB83BBA3311DAD25CEF6A7EB18403EE3040,
+	DestroyDelegate__ctor_m64269C058F17CD59BAD7C431C21C9C579205701A,
+	DestroyDelegate_Invoke_m2F7509F1753871474D27406BBD2D88A05202CE89,
+	DestroyDelegate_BeginInvoke_mDCF9137EEABD3B1D194FE1E6F2237D6CA31EE3E7,
+	DestroyDelegate_EndInvoke_m869B959E501DE360EF73B6218E8A434920FB338A,
+	OptionalOfObjectTarget_get_has_value_mCC0801248558F78FAAE73D673AC5DA81603E9C92,
+	OptionalOfObjectTarget_set_has_value_mDF8C74286CCCC224C14C84E2E4D08C9F95EA8A1A,
+	OptionalOfTarget_get_has_value_mE51C341E2CA247ADD6190295388443ED3EC34BFF,
+	OptionalOfTarget_set_has_value_mD199D24DF6F5A9B6A2F7BA8D86029392329D2031,
+	OptionalOfOutputFrame_get_has_value_mB8A678C291F4A9276447547EC402815933C53DCF,
+	OptionalOfOutputFrame_set_has_value_mB12EF0CE5B5170FDD6E5E9BCBB7BBA10C8690F01,
+	OptionalOfFrameFilterResult_get_has_value_m570189857259536E710422246228D05FAFDDD97E,
+	OptionalOfFrameFilterResult_set_has_value_m462CBB83722AD3A05AF06C774EC330E67C45ADE4,
+	OptionalOfFunctorOfVoidFromOutputFrame_get_has_value_mA5BED644FB4CC48EDA59A1BC4A0CF4283A058C87,
+	OptionalOfFunctorOfVoidFromOutputFrame_set_has_value_mDBF814AD3A9228354CC0FDD54C4CE3B3EF5A25C2,
+	FunctionDelegate__ctor_mA3355E40E079CE42407BB1FD2743DC998A7E7E30,
+	FunctionDelegate_Invoke_m2B28D7356779F21D3D1DD51D83480088FDD1CC1E,
+	FunctionDelegate_BeginInvoke_m034C5808979AAF254B5D5883562E29DA351F25EF,
+	FunctionDelegate_EndInvoke_mFA32E4208727C9F0CA40A00AFF5315011FC3455A,
+	DestroyDelegate__ctor_m555232B46367F920F3F1B1C5401C37C32884A20E,
+	DestroyDelegate_Invoke_m562BEE644A3CA625B9818E6780F5C4A27BFA6227,
+	DestroyDelegate_BeginInvoke_mCE009ED5A69D2168BA65E3B6B71482C3F59D31D7,
+	DestroyDelegate_EndInvoke_mF15CAFB1677ACA04EFA111BB4765AB68058AB153,
+	FunctionDelegate__ctor_m7D87F43DDA79765159EAA5D3EF37BC2DC19C82C5,
+	FunctionDelegate_Invoke_m9A16031A1B90FB6408B86C96F273D861CBB11DC3,
+	FunctionDelegate_BeginInvoke_m43F5CB89AF6040F9CC37865C78C02933C05E02E5,
+	FunctionDelegate_EndInvoke_m4BB0A30B02ADF6810FB64F53D330F9C78B113E5F,
+	DestroyDelegate__ctor_mD61C98C1B5D7C577C56B3AC11BE2C6E27C95CC07,
+	DestroyDelegate_Invoke_mEFFA99C90A401A8909580479C31261CFEB90EAE8,
+	DestroyDelegate_BeginInvoke_m39C32EEC8C8D462A501F53FD102CBDEC3669BE46,
+	DestroyDelegate_EndInvoke_m8D37C3FFDFDCDA6BF3CBAE0CEB346927EEB80725,
+	OptionalOfInt_get_has_value_m95EA5D5814B1B321915E3C7724F0FE10EFBFDE2A,
+	OptionalOfInt_set_has_value_m659849AB2B4C267AF131BFE3DF40CEABA0F08573,
+	FunctionDelegate__ctor_m90EF222C7CBB0517AC60EF5A0F29A9CFF477F60C,
+	FunctionDelegate_Invoke_mC04774BDB19666276826BFED4C414B2A16EA4773,
+	FunctionDelegate_BeginInvoke_mD2DB5F38915EA8286FB2F95A4A30A864DE9F5B5C,
+	FunctionDelegate_EndInvoke_mFF8E56DD4A89706CA4264C0B86FB68A56BC7E6C3,
+	DestroyDelegate__ctor_m84FF08EB8D3C958DCE94B1EC1201848C78F7782D,
+	DestroyDelegate_Invoke_m082771B36EC69984CFBD833C925BFF4FEDA22CA2,
+	DestroyDelegate_BeginInvoke_mD99053E71FD357E94B6FD833AB848F7915EA34DE,
+	DestroyDelegate_EndInvoke_mA6CB22961E4C75A91B51E413600ED86F74DAEDD8,
+	OptionalOfString_get_has_value_mC7BE094936D7977926EDDFA69A58409A0FD663E4,
+	OptionalOfString_set_has_value_m8E2C78B4A6C2556E9EF3EBF23020649118193E5E,
+	OptionalOfMatrix44F_get_has_value_mEB7D753D936645EC16606584EFC54C1D89C5BE19,
+	OptionalOfMatrix44F_set_has_value_m4A3F4A2DA877D9910090D6607D258052DA0AAE62,
+	OptionalOfVec3D_get_has_value_m73D356A7E1D4E269D4A8974448E96FB22889BEBE,
+	OptionalOfVec3D_set_has_value_m0D598BB8F044A1A9D0E566AF78D32A66FC01B7BD,
+	OptionalOfVec3F_get_has_value_m2F947EFB0411920AE6CCF350AD8B473FBB29EB5E,
+	OptionalOfVec3F_set_has_value_mD7DB7F36ECDDE0BD3D193B338004F412C412807C,
+	FunctionDelegate__ctor_mCF51E3BD9AAA6A27CFAFC4B542D1B36109E24653,
+	FunctionDelegate_Invoke_mA94017F924CCAD7756525DE027D2D969362F542C,
+	FunctionDelegate_BeginInvoke_m5E4F8464BD406807CEEEF909732690F86C399434,
+	FunctionDelegate_EndInvoke_m30F5A734603361D9A578ABE920D9E23529E888FE,
+	DestroyDelegate__ctor_m7E0800F8FFB537C6CB867510F8A55208D5E15035,
+	DestroyDelegate_Invoke_m3A00D7316D0A46C072086891BA451912BD07A20C,
+	DestroyDelegate_BeginInvoke_m3AEFB7652188D0098DF0412917B37EF1FFA6BFD3,
+	DestroyDelegate_EndInvoke_m6844CA913DFF200ECC365C357DA975D8D657C0AB,
+	OptionalOfImageTarget_get_has_value_m3CA15AB2279B8B0A587AB003F7C3368812D521AC,
+	OptionalOfImageTarget_set_has_value_m1CA88109BF80DACEAE5A450554DF5EBD1EF747AD,
+	FunctionDelegate__ctor_mCD39474D97C8C97AB6A688C407507E47FD96BFDC,
+	FunctionDelegate_Invoke_m2AFA0B3269530668620A59E1FCAA47A3107FDD98,
+	FunctionDelegate_BeginInvoke_m380D0A5292058A1A2A055EEE7D06030CFD086D82,
+	FunctionDelegate_EndInvoke_m286D592F2D15893BD19CDCFA62F599FAAFE4F654,
+	DestroyDelegate__ctor_m6F79E00D7E09AFD18D810EF9F4D47F5B0974519D,
+	DestroyDelegate_Invoke_m4A265B99C1959D339496ED3FE9F3F0E1449DB08E,
+	DestroyDelegate_BeginInvoke_m5394DB442F9B9EAE8AAC33C0DCDF18070DA37CEB,
+	DestroyDelegate_EndInvoke_mB89A716747DE9590A670559EFC9A55DB8805353F,
+	OptionalOfAccelerometerResult_get_has_value_mDAB20C3900E88BF81D4AF7682DC2EC55CE411AC2,
+	OptionalOfAccelerometerResult_set_has_value_mCAAD0E057899B872B5A625745CF3481077212DF0,
+	OptionalOfFunctorOfVoidFromInputFrame_get_has_value_m23574D1711D11A1D25EBB7C603A381FFB94CFDFC,
+	OptionalOfFunctorOfVoidFromInputFrame_set_has_value_m6AFD8EBA283615AA243BC82669C36DF16109920B,
+	FunctionDelegate__ctor_mACC2D6E5826E7CFE96B3BC73897D2DF6B8E57A4F,
+	FunctionDelegate_Invoke_m6F2DFC1C990C6573D3EBC8425AEDE3C3F76D0AAE,
+	FunctionDelegate_BeginInvoke_m37200DD36BCD93AC8AA92A32F3BAD5C0C3A3089C,
+	FunctionDelegate_EndInvoke_m80E2926748EB93C2896E545E42530E4353DD3704,
+	DestroyDelegate__ctor_m5A4FAAF97FE2AAFA6446DF93E27865A4A2E8D83B,
+	DestroyDelegate_Invoke_m917DB41BAFCDB2BCD9C91183959F84147B703B90,
+	DestroyDelegate_BeginInvoke_mF81811A22D24BFA5893746626372FFF3851E4B7F,
+	DestroyDelegate_EndInvoke_mF7ADD46929725FDD0FC2012A7BA424D690B1CF70,
+	OptionalOfFunctorOfVoidFromCameraState_get_has_value_mB14A491DE54ED06B5711BC7A9FA49DC0A903CABD,
+	OptionalOfFunctorOfVoidFromCameraState_set_has_value_m0241EF5EB622037D5A18FC973C5F7BE971FD1890,
+	FunctionDelegate__ctor_mC6A9D168A197BE9B9C404C6F8F1D022952C7EC3F,
+	FunctionDelegate_Invoke_m77FC8810D2AC63C137C21CFE7E1137F2D5B85A5D,
+	FunctionDelegate_BeginInvoke_mB9EF63103AF72BEAB5D2D16F6933EC33C4DA0847,
+	FunctionDelegate_EndInvoke_m2CC66B18729CEBF5A3BD275BB3BBE8B3DD4D7396,
+	DestroyDelegate__ctor_mDABCA95E2DED758BB49A0F01D9CFB4236E56323D,
+	DestroyDelegate_Invoke_mC50287A3F5005260BB4ED1FB91B63FB86AF60C68,
+	DestroyDelegate_BeginInvoke_m0AF37583F85161A5829F12E31DEBA17D399D327C,
+	DestroyDelegate_EndInvoke_mCFB930EF3582415BA58C630810E1E0AD4453065B,
+	OptionalOfFunctorOfVoidFromPermissionStatusAndString_get_has_value_mC7941BBDB06D03AD18E99F7C33D79E6C702D5B47,
+	OptionalOfFunctorOfVoidFromPermissionStatusAndString_set_has_value_mA9E6E25D462A4371C2618CC7BA9ADFA710D3A4D0,
+	FunctionDelegate__ctor_m7CF3E226A7734ABAC146C4DE9B5028DA4B5D0EAE,
+	FunctionDelegate_Invoke_m25D150AC50A7245EFDB6884E68FF1AE75A627A16,
+	FunctionDelegate_BeginInvoke_mA3E558B41F17A0C261D6F12245F2F7BBE1BE4B33,
+	FunctionDelegate_EndInvoke_m892ABEC48161B5B3FF98F591869DF366EB36898C,
+	DestroyDelegate__ctor_mB4BD92ABA3F8716777ADA1930222D477C41E2C13,
+	DestroyDelegate_Invoke_m6B12C39D15344A2E50AD8D5ED8344B7077CC0F04,
+	DestroyDelegate_BeginInvoke_m537A46BC1596870447203BA8401A356A6CDFF36C,
+	DestroyDelegate_EndInvoke_m87A1BE5A85465AB49D7E68AFD3141AEEE4E8D522,
+	FunctionDelegate__ctor_m62770BBCC9831153500FCF19E77E7DD093808151,
+	FunctionDelegate_Invoke_mC47C886EA16E864946D3636E8756EF10A74EE6A7,
+	FunctionDelegate_BeginInvoke_m7EDBDEB578E6953E62A56D4CA3F187234C61D355,
+	FunctionDelegate_EndInvoke_m5BF6EBFFE1F65498A181C98383889331893FD523,
+	DestroyDelegate__ctor_mAC481093091CB62D3C1C62551B2CC0C82A644BEF,
+	DestroyDelegate_Invoke_m78C8D3413590EDC7FCEA137C40E791F7CFE2BB50,
+	DestroyDelegate_BeginInvoke_m0C91E9DB4B0E66A38256F35C836400835F0396CF,
+	DestroyDelegate_EndInvoke_m3AD848F9FFE17376496EF76DC4E8EFE31F248AA8,
+	OptionalOfFunctorOfVoidFromRecordStatusAndString_get_has_value_m4AC8D7E62E782F1958C7D1DE9A5F74878EDEF399,
+	OptionalOfFunctorOfVoidFromRecordStatusAndString_set_has_value_m9407732BBB93383BC57906FAE0C346150BA38D13,
+	FunctionDelegate__ctor_m86E55233801C6ECFD055D2FB490C8736CD5C9AA0,
+	FunctionDelegate_Invoke_m118351CC9B19FEE58D30B2664F129161620533F7,
+	FunctionDelegate_BeginInvoke_m69E57764838C0587C1FC3C8425F582795FB25E02,
+	FunctionDelegate_EndInvoke_m3E21B06C1DA20F17F1D71AF7221EFAAA2E2641D2,
+	DestroyDelegate__ctor_m346D1764A90921848BD8ACEC801E8F3467F2EF05,
+	DestroyDelegate_Invoke_m640407C9FD35EFA8A67478DABBA0B5D8ECC0AEA1,
+	DestroyDelegate_BeginInvoke_m93B4F8C1A0BB28FDAEED84984BB5F0EAF57FD654,
+	DestroyDelegate_EndInvoke_mF20416B92F42E875845A6D0C808AD49B099C9E61,
+	OptionalOfFunctorOfVoidFromBool_get_has_value_mB11F9DA29E1BBA3B9D6125B2E41CD3F94C3C6B1C,
+	OptionalOfFunctorOfVoidFromBool_set_has_value_m8DD19830D2584A2E1D09626CB4399B4317616E72,
+	FunctionDelegate__ctor_m694F672241F41DDEA830FA01933137BBEC885C8E,
+	FunctionDelegate_Invoke_m4C7B0EAA7D96CF862D096C5B4A65EE6A733E9A49,
+	FunctionDelegate_BeginInvoke_m5B492E1E386F1E44CB8165B2EAC9B6C6501DD348,
+	FunctionDelegate_EndInvoke_m98672A084E152408BC5E50CFFF56D00E46E4CBC0,
+	DestroyDelegate__ctor_m5C4C07B469FB011021FD50BDB0DBD736C2D3EA5F,
+	DestroyDelegate_Invoke_m971BC29FEB24D30694C56BC00AEFA642AA9886E6,
+	DestroyDelegate_BeginInvoke_m3B1F75DA85FBB976F5D9ABE572093972E4A73CA6,
+	DestroyDelegate_EndInvoke_m28B6C8A853CEB5C88F9D69DE5C2E5B5907B697C7,
+	OptionalOfImage_get_has_value_mB4A61B0EEA9C00DECDC24D23D96A939468AAE8EA,
+	OptionalOfImage_set_has_value_mC335593EFBE203FBFC48BBA92D02249BC87410C9,
+	FunctionDelegate__ctor_m393DA39413D4DA573B928F858004B035350EA059,
+	FunctionDelegate_Invoke_mD91D668E337D7BD5A2CA1DD5764DFE6A2CFC201C,
+	FunctionDelegate_BeginInvoke_m2BF14FB31CE30ACE5FF14C9187A0A46B396E1529,
+	FunctionDelegate_EndInvoke_mD900F28BEFB8A395AD4FC24A08157268A2F3FD21,
+	DestroyDelegate__ctor_mCFC0DB48836F87035306CDF2E1568B66F656D56B,
+	DestroyDelegate_Invoke_mA5B3B990263D0B6ADCCFB82554619ED174B25A66,
+	DestroyDelegate_BeginInvoke_mC32B161736D5120F2D3E67E0F3AB3D481D427C3B,
+	DestroyDelegate_EndInvoke_m01D305C0C10754F70FBEDFBC7804204743893F1B,
+	FunctionDelegate__ctor_mD71CCF0A9DD6D568443A7DB607E8FE747EFD86EE,
+	FunctionDelegate_Invoke_mE8E49A48E0D2E4CD5301CC636E966AD586D0A402,
+	FunctionDelegate_BeginInvoke_m71115B3D9CCA7C9C03115744DB804B86E6F97D0F,
+	FunctionDelegate_EndInvoke_m6E3A511D8BE7CDA8C835DEC5D578412C0B974CB4,
+	DestroyDelegate__ctor_m64E7A6AF1BCE00084D9F70C0385B046FAB5A6F8E,
+	DestroyDelegate_Invoke_mB3AA33F56048B7CD6E4DCE47B8AC895D7FD0E185,
+	DestroyDelegate_BeginInvoke_m58E74FC4588FF433E87814EB7F447E44763C729B,
+	DestroyDelegate_EndInvoke_m0EC4855787FA18AF1D4CDDB4AF268BF5E58CC907,
+	OptionalOfFunctorOfVoidFromVideoStatus_get_has_value_m6F8A2513CEF5AF14D1B54A5FF5043831B7455415,
+	OptionalOfFunctorOfVoidFromVideoStatus_set_has_value_m150E5F64F0CE891AE7B1EB89C349164558413663,
+	FunctionDelegate__ctor_m50E5030D74EACCC71B3586BCB0F719DDEAFA7B59,
+	FunctionDelegate_Invoke_mA513D63531CC1C590AC2312D4B4E763DE50624D0,
+	FunctionDelegate_BeginInvoke_mA86E1BD4F62CE9BC86B096CDDCFFFA86A3C00A52,
+	FunctionDelegate_EndInvoke_mBA3320DC8482F7C586D113DA001C3884D3FE3D6C,
+	DestroyDelegate__ctor_m543DC86B2F941801DFCC05667398874D912477F4,
+	DestroyDelegate_Invoke_m237A64324ECC95F13B2432D59768DB0F010FFD15,
+	DestroyDelegate_BeginInvoke_m731C9B8F4CDB5E33717E613D4BEDE811BA7460D5,
+	DestroyDelegate_EndInvoke_m8645167E372325B6627BA9CD60D8B9475F801A4C,
+	OptionalOfFunctorOfVoid_get_has_value_mE09302646C6B2FBE58B6326ECDF5F99D8CDA8EFD,
+	OptionalOfFunctorOfVoid_set_has_value_m20BDD582DF5758793006ECAA1512D748F6FDCA31,
+	OptionalOfFunctorOfVoidFromFeedbackFrame_get_has_value_m4D272E56883B810AFD35DA74846B12CC8E50B8CF,
+	OptionalOfFunctorOfVoidFromFeedbackFrame_set_has_value_mB8C4B69C5C9EB38FD0C30DDDFAC621ACC185D989,
+	FunctionDelegate__ctor_m131B878F012C00612E00A89DEE0A110EE849D717,
+	FunctionDelegate_Invoke_mE9E960A030D1B135A9E7658B51FE80D4532210DD,
+	FunctionDelegate_BeginInvoke_m1DC7C9BB94C549932030A4AF3C68690D6CD5C511,
+	FunctionDelegate_EndInvoke_mE5A70EB2264DB3608360408513D79E28B55964A9,
+	DestroyDelegate__ctor_mA5AACB3A6EA31F8E685934CC2E3C23C586E11D6D,
+	DestroyDelegate_Invoke_mD1CD41E50E6CD863FFBBB8A5A3F938F467A27D70,
+	DestroyDelegate_BeginInvoke_mFB6A1AB481DC6A8B7C0A82C0E208AA936C560A89,
+	DestroyDelegate_EndInvoke_m0EF9677A5743F1912BA2353CBE1EC849859AAF68,
+	FunctionDelegate__ctor_m2A98DFD900547E949783961D1F8B219D6B33A332,
+	FunctionDelegate_Invoke_m4908DB727D8FC963D87E3CBEC4E48588FF1A1652,
+	FunctionDelegate_BeginInvoke_mB20B61087DFF13F703728AEE1D6B4BDCDF19FB58,
+	FunctionDelegate_EndInvoke_m0235C5F00082DB56C584A794689829694C540B01,
+	DestroyDelegate__ctor_m3E2C870200F3CE409060651F96CA99EF49C1AD21,
+	DestroyDelegate_Invoke_m7D62C0DE77387B16EE3452FB0A937D7189868AA2,
+	DestroyDelegate_BeginInvoke_mB14FD95D74617E69D905995B8523AA729ACB5901,
+	DestroyDelegate_EndInvoke_m7902B1C7AD1AD6863E1D13564B24EDE1FA6BC79D,
+	U3CU3Ec__cctor_m925061A3A7824F896BF6AEF72AAF5175DC4EF5A5,
+	U3CU3Ec__ctor_m0C3075D2CBF2B98F1A2B5DDBCBB8622D8123E2B5,
+	U3CU3Ec_U3CListOfVec3F_to_cU3Eb__753_0_m5C9F2BBDC13CAD22F2BEE2765F2EA7C72844A49E,
+	U3CU3Ec_U3CListOfTargetInstance_to_cU3Eb__755_0_mD4DBCB108ABBD5A36E6E715E2460C92E7FF477B7,
+	U3CU3Ec_U3CListOfOptionalOfFrameFilterResult_to_cU3Eb__759_0_m6CE190953ECE714ACA4C26C9C58D8259F15079DB,
+	U3CU3Ec_U3CListOfOptionalOfFrameFilterResult_to_cU3Eb__759_1_mC632C1AB7D49A56867947BB3AB00C959DF83FB8A,
+	U3CU3Ec_U3CListOfOptionalOfFrameFilterResult_from_cU3Eb__760_0_mA19D89D05D867CB544BAFCD3A52EB577EEFE92AF,
+	U3CU3Ec_U3CListOfTarget_to_cU3Eb__771_0_m11CDE338870D5764DE2375F1A52FF60DEA876E95,
+	U3CU3Ec_U3CListOfMatrix44F_to_cU3Eb__782_0_m3E6F530CF39B1EDB6128086B80BB758C5BCA3D10,
+	U3CU3Ec_U3CListOfImage_to_cU3Eb__791_0_mC0AA339734F61ACCCAFB952FB93E38B54A42E33E,
+	U3CU3Ec_U3CListOfBlockInfo_to_cU3Eb__797_0_m9ED9A3EEA03770D2E0324C73368F86C0EF44343C,
+	U3CU3Ec_U3CListOfPlaneData_to_cU3Eb__824_0_mC5CE782C81FD4FF3DA7B5B621261B506F93F4E21,
+	U3CU3Ec_U3CListOfOutputFrame_to_cU3Eb__855_0_m73E9F3F4EDBD3B7BA19706344A85D91CBD1741D5,
+	U3CU3Ec_U3C_cctorU3Eb__857_0_m3D44B19FEEBDAB664A3B13A5FC7210F70E3E01A9,
+	U3CU3Ec_U3C_cctorU3Eb__857_1_mF79A94C154817F27B50EE5F0C8F538B1005950E1,
+	U3CU3Ec_U3C_cctorU3Eb__857_2_mD6E37BA47389F7EFD5A568A946395C2A2AA22724,
+	U3CU3Ec_U3C_cctorU3Eb__857_3_m33910A6634220A2B07B1C491C8286739F9AD9E8B,
+	U3CU3Ec_U3C_cctorU3Eb__857_4_m175A46929B2F772399939EDE4DA4A367F0CBE261,
+	U3CU3Ec_U3C_cctorU3Eb__857_5_m1DDA5B881BE0ABCB40720F28D5EF5B4A1C8650ED,
+	U3CU3Ec_U3C_cctorU3Eb__857_6_mF1187818EDFA28D0E72A40F0B739E01EA97D8727,
+	U3CU3Ec_U3C_cctorU3Eb__857_7_m115B0E263DA996CCAB864F41571B50DE755085CC,
+	U3CU3Ec_U3C_cctorU3Eb__857_8_m5301FC1E7EBF6543E66E240036F925CC71228254,
+	U3CU3Ec_U3C_cctorU3Eb__857_9_mDE2AEC5144471ECFE5B96889B2B038E0A16DE176,
+	U3CU3Ec_U3C_cctorU3Eb__857_10_m1C741678E4F634D84404001F509ABA9BB1C3BA97,
+	U3CU3Ec_U3C_cctorU3Eb__857_11_mD1BF7ED144CAB6443C5818E5C0DF7251ED53C969,
+	U3CU3Ec_U3C_cctorU3Eb__857_12_m7B4DC87F17F4334ADDE2C6461D0331ED63F5E652,
+	U3CU3Ec_U3C_cctorU3Eb__857_13_m5692CF0A4D48AAB605A5251FB05ED6A8DD9F62AE,
+	U3CU3Ec_U3C_cctorU3Eb__857_14_mB3ED77125E6E176692C42E3BDF690AAF5B218D8E,
+	U3CU3Ec_U3C_cctorU3Eb__857_15_m29F5B5065823AB59463A4DFD0540452C5EC487B5,
+	U3CU3Ec_U3C_cctorU3Eb__857_16_m0821BDB6AC328ED9844F7D8830664C3CB35EC0C1,
+	U3CU3Ec_U3C_cctorU3Eb__857_17_mB6154E5CAE50C854C238862E6CEAC9B638293425,
+	U3CU3Ec_U3C_cctorU3Eb__857_18_m7BB3A9D044F6261776372FE60809EFE267F43C67,
+	U3CU3Ec_U3C_cctorU3Eb__857_19_mC32B760A087E10F29F51FC8C48991673F9A8069B,
+	U3CU3Ec_U3C_cctorU3Eb__857_20_m4EDBCACD5D41ADFA0F4B29AB8CC9EC402C2D86D7,
+	U3CU3Ec_U3C_cctorU3Eb__857_21_mB21719F9B8F536587A16B7F0301F319780E01BAD,
+	U3CU3Ec_U3C_cctorU3Eb__857_22_mF663D2A264A7A198B3E7221CA219C9B096ED1AAE,
+	U3CU3Ec_U3C_cctorU3Eb__857_23_m578108D0C079BB474BA02090246F881972E5FCC2,
+	U3CU3Ec_U3C_cctorU3Eb__857_24_m3B7B583A2A938F45E7D82B784021EFCFE64D7309,
+	U3CU3Ec_U3C_cctorU3Eb__857_25_m11FDEA1612B7C6C85010B865F8EAFC90C7DACAA3,
+	U3CU3Ec_U3C_cctorU3Eb__857_26_mF095673AF506EDEF862A5E44469D81E3CFCBA044,
+	U3CU3Ec_U3C_cctorU3Eb__857_27_m06DD22282D450755CA109D2063303B746DBB1E57,
+	U3CU3Ec_U3C_cctorU3Eb__857_28_m67F2671B1542A1E3D9DB612258E292FB4A747C54,
+	U3CU3Ec_U3C_cctorU3Eb__857_29_mD580FB13E30E848ACE9746B74D12BB1A87BB8781,
+	U3CU3Ec_U3C_cctorU3Eb__857_30_mC7D72CC0BE0EEED88B03623F0A0300B24D04EB9F,
+	U3CU3Ec_U3C_cctorU3Eb__857_31_m50F6EEB4BE9F46F91F38EAC636F41607AC9734A4,
+	U3CU3Ec_U3C_cctorU3Eb__857_32_m496474B87A4BCBD2621F7F9DC2231DE67D7628FB,
+	U3CU3Ec_U3C_cctorU3Eb__857_33_m0F1CBFCB58F793F958FB2ECD13ECBC4E30944260,
+	U3CU3Ec_U3C_cctorU3Eb__857_34_m22B11E344D95B85FB150C4C399866B3D36A2BFED,
+	U3CU3Ec_U3C_cctorU3Eb__857_35_m61C994E332635349CDFB5C2B45E002491F15EDEF,
+	U3CU3Ec_U3C_cctorU3Eb__857_36_mB8A9E959236A597D64ECBB091D9611DA146263A5,
+	U3CU3Ec_U3C_cctorU3Eb__857_37_m6CBC73518D1DBC1DB2E7F5BAE6FF7BF19E2B15B0,
+	U3CU3Ec_U3C_cctorU3Eb__857_38_m41B5F31F6D22F1728D8E78655FCB66BE7BCDB195,
+	U3CU3Ec_U3C_cctorU3Eb__857_39_m7285E9502B2227DEB5C55682DB082FC3520346C7,
+	U3CU3Ec_U3C_cctorU3Eb__857_40_m4EFDD73CE6E33711AB715B0CFDB69C7F63982955,
+	U3CU3Ec_U3C_cctorU3Eb__857_41_mEDF1F3AFA78A9A3330B3F03ABDF470D3BD666783,
+	U3CU3Ec_U3C_cctorU3Eb__857_42_m3CAC4C1F2FCE2704876C52685B35A0E8FB6169ED,
+	U3CU3Ec_U3C_cctorU3Eb__857_43_m3FF9CDBE647DBB4A1358C3E7B62022F7B01A7FB4,
+	U3CU3Ec_U3C_cctorU3Eb__857_44_mEF148AFABC9EAB0D1AEED538C136C21567D832A2,
+	U3CU3Ec_U3C_cctorU3Eb__857_45_m9CF776E410BBB77511E59576F88F98E6678EBE86,
+	U3CU3Ec_U3C_cctorU3Eb__857_46_mF292ABD59BDC4BA4ADC3BE38A9F169E519F64CC3,
+	U3CU3Ec_U3C_cctorU3Eb__857_47_mF55620AF4C1938923C7D926D5674FB3BA328A2F4,
+	U3CU3Ec_U3C_cctorU3Eb__857_48_m4F12DCC0A61B74104158AF993B2ADB8E846A25DF,
+	U3CU3Ec_U3C_cctorU3Eb__857_49_m79C821F1EC028D6273C89AAE8C2CB41ECC5C02D8,
+	U3CU3Ec_U3C_cctorU3Eb__857_50_m982F6964A452DFCA9205C7D75D9D5DD21D56BBBF,
+	U3CU3Ec_U3C_cctorU3Eb__857_51_mEFC1EE8FEE0EF8F943D9D3D2ABB77E9A558863A3,
+	U3CU3Ec_U3C_cctorU3Eb__857_52_m9F83A26D9F839D03CF54C2DA0D43BA957A4205DF,
+	U3CU3Ec_U3C_cctorU3Eb__857_53_m87CE28839265B89AD50F34743E72847CAB75EC5E,
+	U3CU3Ec_U3C_cctorU3Eb__857_54_m3BC8C9AC0EAFFD0EF795C1C540394EFE30552DCF,
+	U3CU3Ec_U3C_cctorU3Eb__857_55_m60A7DF9FDE95AF87CBA13F5FA1A223E40FB0FFC1,
+	U3CU3Ec_U3C_cctorU3Eb__857_56_m82A6B051DDA26F7F02F467723C3F12AA71847F9B,
+	U3CU3Ec_U3C_cctorU3Eb__857_57_mAF8C2F8A799111354AB7353C875AC57F93A2D733,
+	U3CU3Ec_U3C_cctorU3Eb__857_58_m743B771D9F21120835E0325AA2246713599DE610,
+	U3CU3Ec_U3C_cctorU3Eb__857_59_m028FF93A85CC8CC26A594D5301E103B844A9E41C,
+	U3CU3Ec_U3C_cctorU3Eb__857_60_mFE10BBBBA684A828D060743669EA47AB6DDD3733,
+	U3CU3Ec_U3C_cctorU3Eb__857_61_m4B1D5F89DD8BD84E248DC2559DD9794278D28855,
+	U3CU3Ec_U3C_cctorU3Eb__857_62_m0C14BDB1C976DCF93CC618FD4B99631EA049D2A5,
+	U3CU3Ec_U3C_cctorU3Eb__857_63_m3EB83BC2ECC1A91AE4A9989DB13D0B44D46967BA,
+	U3CU3Ec_U3C_cctorU3Eb__857_64_m5218BDF8EA7E7DEAD30D7A220626EAA11F453C39,
+	U3CU3Ec__DisplayClass764_0__ctor_mC12D3C28494341A9156C0D463494C2FD8E2E7C6E,
+	U3CU3Ec__DisplayClass764_0_U3CFunctorOfVoidFromOutputFrame_funcU3Eb__0_m7044166392CD31C23ADAD859BEFD54AF1C20FC35,
+	U3CU3Ec__DisplayClass768_0__ctor_m2DE5CA3AE1BB3F0AB33AA5852238BF44447BEFE6,
+	U3CU3Ec__DisplayClass768_0_U3CFunctorOfVoidFromTargetAndBool_funcU3Eb__0_mC7B3304480C3394454385F9102103C292129DC01,
+	U3CU3Ec__DisplayClass775_0__ctor_m5C440F90E507E69C42EDD418C37BBA035D2F0445,
+	U3CU3Ec__DisplayClass775_0_U3CFunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_funcU3Eb__0_mA5D77FE6EA17F1B326C40C0F1D81E5ADD2CEC57D,
+	U3CU3Ec__DisplayClass780_0__ctor_m38BE9E0A267F4BDEC9E287975E90B473C65CC263,
+	U3CU3Ec__DisplayClass780_0_U3CListOfString_to_cU3Eb__0_m39DD4E5CFCD96C7691404E5F51BD53BD0E1C7016,
+	U3CU3Ec__DisplayClass787_0__ctor_mA057929C7848BDDD1F6F51C7262C9FD4DC4C0A25,
+	U3CU3Ec__DisplayClass787_0_U3CFunctorOfVoidFromCloudLocalizeResult_funcU3Eb__0_m09CB474FF19782630F67CF9CE1321E046E05BF70,
+	U3CU3Ec__DisplayClass794_0__ctor_m096CC12DD55930E9335A8809C020297C4D86C5F0,
+	U3CU3Ec__DisplayClass794_0_U3CFunctorOfVoidFromCloudRecognizationResult_funcU3Eb__0_m10729FF4E449B54CF345D76BB90A3F2F2B3AA2A3,
+	U3CU3Ec__DisplayClass802_0__ctor_mD32E65AA4B0B355118E20F3EF5270884F23F72A4,
+	U3CU3Ec__DisplayClass802_0_U3CFunctorOfVoidFromInputFrame_funcU3Eb__0_m16113842E66639F2DDF8EC6A177B1B7D4EF921C9,
+	U3CU3Ec__DisplayClass848_0__ctor_m85846EC59686B1AC2F8C167FCFD2C56F30472C8B,
+	U3CU3Ec__DisplayClass848_0_U3CFunctorOfVoidFromFeedbackFrame_funcU3Eb__0_m3E022CBE85669BB9C402E5EF653807265E674A12,
+	U3CU3Ec__DisplayClass852_0__ctor_mC8A18FFCD2880582F521772F13D8542E04491D08,
+	U3CU3Ec__DisplayClass852_0_U3CFunctorOfOutputFrameFromListOfOutputFrame_funcU3Eb__0_mD661EF141874034A65E8743D301B83544B564596,
+	U3CU3Ec__DisplayClass852_1__ctor_m4DFC44AFB4ED4463B64080DDECC2B1FEF8A7B193,
+	U3CU3Ec__DisplayClass852_1_U3CFunctorOfOutputFrameFromListOfOutputFrame_funcU3Eb__1_mD6BA99C3D3C161F1A0567BB70D2110058C47772A,
+	RefBase__ctor_m1F89F1D069DD380C7B51129C109F7989D854246A,
+	RefBase_get_cdata_m6BACEDB7D17969AA0151AAC1473283B95E33A87A,
+	RefBase_Finalize_m91ADEEA63DE271C576F496C0B5279A44700FABD7,
+	RefBase_Dispose_m0C0F6CBAAFDD4D732F27B09F76D1A77AC6D44B75,
+	NULL,
+	RefBase_Clone_m001D1EA8E35D34434F8DA918AB0885931FC872E0,
+	Retainer__ctor_m03ED548CEF1EC8A84CEC7F85CA1D8F2ADFDA20B9,
+	Retainer_Invoke_mAE6440576152AFF79D3692B99D7123EB84655CA8,
+	Retainer_BeginInvoke_m4DF3F358FD6044FBD204C02A0EDAAB73DC005F64,
+	Retainer_EndInvoke_mEBBBE2473B8364071DDAE4E00C7C30C2C5E033D2,
+	ObjectTargetParameters__ctor_m0EEB5D09DA2586ED94B2B24BCBC92D8B5349CB02,
+	ObjectTargetParameters_CloneObject_m5F41EDD4EBF42B6C1D4A6C73AAD7792D79488E42,
+	ObjectTargetParameters_Clone_m1ED737CB850C6F4A76543F0786A4C3420C6349F3,
+	ObjectTargetParameters__ctor_m588A6946D595EFF494B9C914819D7ABDD9970251,
+	ObjectTargetParameters_bufferDictionary_m09EF2CA047183F56633D7F7B50CFA3BB4B8C51DC,
+	ObjectTargetParameters_setBufferDictionary_m14AE86F14B3C3AAC11ADC65B04E996A6F4B8D634,
+	ObjectTargetParameters_objPath_m755483E8773042F4EFA9F5B537C69708493A8533,
+	ObjectTargetParameters_setObjPath_m99DA24A6E69BB756964E81703707479281283313,
+	ObjectTargetParameters_name_m9B80CB84375AD9BE94E1EA3C4FEE82C6F9A46312,
+	ObjectTargetParameters_setName_mA69F1CCFC37A14916590F41C504D5A77EADB6D35,
+	ObjectTargetParameters_uid_m7AB1E5254AFEF8510D7F6F7DF5A03DC9D9F022DE,
+	ObjectTargetParameters_setUid_mC3911C26B5CDD8162EF486417CD36B67EE6DFF12,
+	ObjectTargetParameters_meta_mA2F4CD0E19BFB20D1D28915C7613325CE8484DE7,
+	ObjectTargetParameters_setMeta_m0C2436A8A92107C42A27AAFEB8A8AE6DFD786191,
+	ObjectTargetParameters_scale_mD86F34270FE80F323A2176182D143F5F2A782541,
+	ObjectTargetParameters_setScale_m0B1E23D925B59B68C99049DC48A7B17E4BFEEE65,
+	ObjectTarget__ctor_mBFEE68304A2318D1A7ED9F96DA8AA45ACADA829E,
+	ObjectTarget_CloneObject_mCA31C9290346E54CD94EDE528F3EAC6D157C74DA,
+	ObjectTarget_Clone_mEA2EE78A7833AA0BE0ECA81B71295DD92B5AD13E,
+	ObjectTarget__ctor_mAEC72DC0B4390330D813FBF68AA9FEE4565352BC,
+	ObjectTarget_createFromParameters_m83FD34A7503D82952ADDA29D68486D2ACDEEE8A1,
+	ObjectTarget_createFromObjectFile_m64E0E8C29425663D64C103C4EE7B6DFD3FBC883C,
+	ObjectTarget_scale_m0855EBE37D1786BAF0D89337E6D221FFC0F93EBB,
+	ObjectTarget_boundingBox_m40FE1C87961E2104101CE1E55AD82AFE9DC9523E,
+	ObjectTarget_setScale_m204D8553A7454A3F4F3D3319440C770C1F0FFDBA,
+	ObjectTarget_runtimeID_m80227FCE54A748D1B88C512DE8670EF6A4C309CD,
+	ObjectTarget_uid_mAE7C7645BF23FB05C8D9283950D8374F32C41E69,
+	ObjectTarget_name_mB7E1747E826616E191AA75D9CFECD36E40A3BB87,
+	ObjectTarget_setName_mF6C2447349E5512891DE4DA6C06535FF151912AB,
+	ObjectTarget_meta_m4B328FDF586D7A6AF4F4B2FFA3E0C97F0132AFAC,
+	ObjectTarget_setMeta_mB33085788E363F3D8F4C7AFC897DD7C1F2F001D8,
+	U3CU3Ec__cctor_mAD3E5390B37378678CBE1FF3842FE1CEAD5DEA63,
+	U3CU3Ec__ctor_m1D4A02E453FDF20529C683E4B8C26A1EC04AE7DF,
+	U3CU3Ec_U3CcreateFromParametersU3Eb__4_0_m2DD54B82E09BA1D93A8CC3DEA7A375501F555980,
+	U3CU3Ec_U3CcreateFromObjectFileU3Eb__5_0_mA8B6D512B8EDCFFE3F9F2F61E8E2B0652E8017E8,
+	ObjectTrackerResult__ctor_mA16761B5F0D36A795BD629EC6777D7362BB29690,
+	ObjectTrackerResult_CloneObject_m8BF83B39AAA9AB8FCFF2C74FA8D8B9E388B4C96E,
+	ObjectTrackerResult_Clone_m0468DE3422ADBA40C1141779675EFC738F136129,
+	ObjectTrackerResult_targetInstances_mF82C17CC05BC4D28B73C0196AB457B102C439CBE,
+	ObjectTrackerResult_setTargetInstances_m01BD76AF0CDACBD39FCD3750DD236BF82FBB456A,
+	ObjectTracker__ctor_m1EA9E3E8EE7303C2BC50007E8EE2FE424FA985E8,
+	ObjectTracker_CloneObject_m7FFD186181B61CB8BF52883086E8CD6C4C64EF34,
+	ObjectTracker_Clone_m4846A06A36F1427B016A91650CB8557D5410D2BB,
+	ObjectTracker_isAvailable_m17607660BE010F1D6D7D734378AA3AAE86094AA0,
+	ObjectTracker_feedbackFrameSink_mF123F0A3D9FC8403735340714A79796F8051ED9C,
+	ObjectTracker_bufferRequirement_m3FD68FA3B7973FB0CD0A05EFEE96559E05B389EF,
+	ObjectTracker_outputFrameSource_m35EED707B592B4E4535E27789190943735176580,
+	ObjectTracker_create_m76B8C6BF9D89BDB95E0309A17CFCD2FDF1A0BF58,
+	ObjectTracker_start_m10668BB70850B92CFB5AACAE99C2ED612EE487C9,
+	ObjectTracker_stop_m3968F8FA53B6A4D034A26EEDA2CFBFC9988FC3EC,
+	ObjectTracker_close_mB86845BE996509CAEE0C1CF248123FE5FDBE9766,
+	ObjectTracker_loadTarget_m56BEBC9170AA0C67F6B98D224F1406731727695B,
+	ObjectTracker_unloadTarget_mD315FE0AE31CDA5E218C164520B77C2E4473EEC9,
+	ObjectTracker_targets_m4BB6C06FF80C49FB8F266E24DA8E022B848A2865,
+	ObjectTracker_setSimultaneousNum_m11E6B2F9AB71458CF926383E384B32DF97CCCCC2,
+	ObjectTracker_simultaneousNum_m53FE7C0BF47E5855A4DC2240ADE6730CB25AD409,
+	CalibrationDownloader__ctor_m30FAFD2AF8F69D0039C0F5469C79A28AC66E45A9,
+	CalibrationDownloader_CloneObject_m36218D46445872BD75612EEB015DCB744EE27C73,
+	CalibrationDownloader_Clone_mB2855C552B254DF6B6B4D2D4812C1229A9D407EC,
+	CalibrationDownloader__ctor_m0162EE599B0DA35B15E0E5E2374F963D34565FCB,
+	CalibrationDownloader_download_mC0678B53092DFC8A264153D458456534B15E30DB,
+	U3CU3Ec__cctor_m9FE4E50AA8A3B51B194AB08FBDD2E3672CF91EE2,
+	U3CU3Ec__ctor_m2E2DE6E96D661D5555E4E6ADC2690F254926A553,
+	U3CU3Ec_U3CdownloadU3Eb__4_0_m7D7A05DCD69258EFBC9960F2366F7A7651BE300F,
+	CloudLocalizeResult__ctor_m1DA45211BBE7F3CB5DCDDFF041D6B6FD81A57441,
+	CloudLocalizeResult_CloneObject_mA4BC0F14C71DC13A36E215EE65402C81B76D91D4,
+	CloudLocalizeResult_Clone_m83F139DDF988BF27F008FA860C19ACD97C9DD320,
+	CloudLocalizeResult_getLocalizeStatus_mC8FB7D529F0C9CB79C8D69C83BC1D24AD79D46DE,
+	CloudLocalizeResult_getLocalizedMapID_m73A48820448F8900075C7DF7874D095020B2A332,
+	CloudLocalizeResult_getLocalizedMapName_mC633304441DD95DEF43D82E791BAD4CBA9F1E83E,
+	CloudLocalizeResult_getPose_m8D19D70AA34134B9EE9F436EDE3615D59B63A82B,
+	CloudLocalizeResult_getDeltaT_mEC96AA83BDF00765653FD5CD59981AE3D3CE5B3D,
+	CloudLocalizeResult_getAllLocalizedMapID_m8AA50BCE3E87A32C71AB2C84FFABD51C7A38374C,
+	CloudLocalizeResult_getAllPose_m4DCD57EE21B7004782208CD797F4F30B37265A1C,
+	CloudLocalizeResult_getAllDeltaT_m31B9D1360494A4A227532E723492EDB26340D3F5,
+	CloudLocalizeResult_getExtraInfo_mF3F0EEF1BBC69786267AE7F70A4B1680A01EB51B,
+	CloudLocalizeResult_getExceptionInfo_mA55ED102BED086DC8E22EA2ECECE605AF7CF1AAF,
+	CloudLocalizeResult_getLocalizedBlockId_m7F02C5E90485FBDE67C62CD6B4B971266F0D4216,
+	CloudLocalizeResult_getLocalizedBlockTimestamp_m82506D9FC97657043674277A75212978A0D40E2C,
+	CloudLocalizeResult_getLocalizedBlockLocation_m86B79D6A31400CAA011E590F24A125F2DD7413F0,
+	CloudLocalizeResult_getLocalizedClusterId_mEB07EF8AC5B9898D22C451A6DFC9B6CCCA63636C,
+	CloudLocalizeResult_getLocalizedClusterLocation_mB013406B90F65DA61F4897275D54BCC2FB008932,
+	CloudLocalizeResult_getPoseInCluster_m7718424CFA79FBBBAFB203E1897A1DC60450EAF9,
+	CloudLocalizeResult_getDeltaTForCluster_mA81755B33895EC5C5F9F6E00D6B963B627CD0413,
+	CloudLocalizeResult_getDeviceLocation_m879202AEB62E7C78C60CA5C70784284EF1EADB89,
+	U3CU3Ec__cctor_mDBD5E6E744B0BDB2A70A2C20ED1D5895E002D121,
+	U3CU3Ec__ctor_mCFF8E22A34FD8F1F22E7586ABFBE1A4FF78519D5,
+	U3CU3Ec_U3CgetDeltaTU3Eb__7_0_m26A87F0C6A166DD030853334C7642282EE0CBA74,
+	U3CU3Ec_U3CgetLocalizedBlockLocationU3Eb__15_0_mBAB1CF72DBB2F1D6674FEDD1BADDD8B208C968E0,
+	U3CU3Ec_U3CgetLocalizedClusterLocationU3Eb__17_0_m509732F9866DFCCBE591D3ACE125D56C68416F05,
+	U3CU3Ec_U3CgetDeltaTForClusterU3Eb__19_0_mD3DE8AD1E4375AD63369C647B9C37338207900B2,
+	U3CU3Ec_U3CgetDeviceLocationU3Eb__20_0_m57715783D95195C3140439FDEAEB7B96EF8BA502,
+	CloudLocalizer__ctor_m5F29C9BEAA07B8D8747A1D92A8031A7A13A636A4,
+	CloudLocalizer_CloneObject_mF4C1902D02B05F600841D8B6DC0289C8F9C4E653,
+	CloudLocalizer_Clone_mCCFA6C0C70A53B3C57D4F7B1DE95AC73D1BCFCEF,
+	CloudLocalizer_isAvailable_m0E49E3C8B9AF3D9A6002D34C2367F8D1BA060E50,
+	CloudLocalizer_create_m91E3E58DAC174342193D2082382AFB5293C565FC,
+	CloudLocalizer_resolve_mB672AE956D457922F46F62268E6B2BB81CD78ADE,
+	CloudLocalizer_close_m128CE256723358845C7476701AC940A639FB8B53,
+	U3CU3Ec__cctor_mC39572AD6119CE2E94EA91748C54165FC0F1D83D,
+	U3CU3Ec__ctor_m6260D2A6641320C8D1D323E0243E62742897651F,
+	U3CU3Ec_U3CresolveU3Eb__5_0_m0E8371693097EB70E97A04BD01467FE0B1D50FF2,
+	U3CU3Ec_U3CresolveU3Eb__5_1_mFC67F76B6F8337725BF655846768D134F0DF447D,
+	U3CU3Ec_U3CresolveU3Eb__5_2_m0590D32D88BF96E38156AC8F43E76C561DE4D5F7,
+	CloudRecognizationResult__ctor_m178612828CC63D03C0FEF986A041EE8A5C3FAEBA,
+	CloudRecognizationResult_CloneObject_m7BC4E6899491D86D2D9773F78FC30873F252D7C2,
+	CloudRecognizationResult_Clone_m7C1CA0F27EC46AAAA7638070C5523D73D10ACF77,
+	CloudRecognizationResult_getStatus_mEC742A0EA16D279B91BBB0445B0EB8C9DF5E04B7,
+	CloudRecognizationResult_getTarget_m116742FBCF35F8EC0842D7CBA4E0F1CFE83B08E4,
+	CloudRecognizationResult_getUnknownErrorMessage_mDFF8572B70A35641CB0025AE5847978FDE233D93,
+	U3CU3Ec__cctor_m5EE00591B4F4E889F12C241BC2B512DAF27F29B9,
+	U3CU3Ec__ctor_m732ED6055AE589632016F0D05E61B353B90D6BC6,
+	U3CU3Ec_U3CgetTargetU3Eb__4_0_m7EC030F3006CA8A12247D66B411D378FE4117B1B,
+	U3CU3Ec__DisplayClass5_0__ctor_mF3D58530E202308B3F212CC64926DE54D206E12B,
+	U3CU3Ec__DisplayClass5_0_U3CgetUnknownErrorMessageU3Eb__0_m8EC3BDF495052FED9FB5F7232A73D50A6D0E9176,
+	CloudRecognizer__ctor_mB0517C0B6E7AED872240B7C56F022BCEC7349D6B,
+	CloudRecognizer_CloneObject_mC3F8A26B882E756296390C32876103CEA018DE4F,
+	CloudRecognizer_Clone_m5349459C3F6D2831E33C5B267B33F81E49A9AAAD,
+	CloudRecognizer_isAvailable_mA5E2C790C6DDA74229FA2897BD9DD704EBC3488E,
+	CloudRecognizer_create_m64D3A5A499C005071ACAA5E3B255D6570BB65248,
+	CloudRecognizer_createByCloudSecret_mB89F4BC43AF0E5277CDA9C6DDEBFFC6FDCA947AF,
+	CloudRecognizer_resolve_mB6C231A3E375174C74A7D75343FBEF7ACDE6492E,
+	CloudRecognizer_close_m1534BB9A3F8ECAA842F7C9C40D03C4E89E0FEA15,
+	U3CU3Ec__cctor_m49ED6DF5E40C2FB5EF0C8DA14ABA359FACDBA809,
+	U3CU3Ec__ctor_m18BA9174E763E6E6C07CD13609BBF1CB76D91039,
+	U3CU3Ec_U3CresolveU3Eb__6_0_m506F386F3B3611B8059AB7B1C5F30C14594E317C,
+	Buffer__ctor_m26DC41F60DA76BDD202C86D2D4E97ADDE7C6A5BC,
+	Buffer_CloneObject_mA8F027F7B931565F1DB3B5601D0DEFD219DD91FA,
+	Buffer_Clone_m5FE5FFB21CD5BFF7A659CFF2CABA0615E8594CEC,
+	Buffer_wrap_m929117704335F152039C2192292FF4185C123A40,
+	Buffer_create_m2A88BD5DEA6C8E75354F888A459B78B152CF786C,
+	Buffer_data_m56F819D9485F00889A82D67988DA6191AEE37D22,
+	Buffer_size_m0CCF1E4505B512949AFAF6C25B5FB58181DA4B79,
+	Buffer_memoryCopy_mB309138DD3E32BD3C603068E532E45AF30DDE252,
+	Buffer_tryCopyFrom_m98CDDCBFCDD53EFE46B09AAB177D69381618C547,
+	Buffer_tryCopyTo_mD671C85684973FB5EC92E0AF10D8F83D54B7A361,
+	Buffer_partition_m607E74A4C8D42050D6CA581922D92DC8CCC61D38,
+	Buffer_wrapByteArray_m58B5F3930D9359DF15A2885201DB7A0799C98621,
+	Buffer_wrapByteArray_mCA07EDE300DA4708EB5C26236CE92E0D2D1E63F8,
+	Buffer_wrapByteArray_mE673D78D67C0E9C7F317848E84AEFFD3EA944735,
+	Buffer_copyFromByteArray_mD050045CEB05A2AC3BF4C720D104E545423B0CFA,
+	Buffer_copyFromByteArray_m6A8CE20B8FBC65AD5D66F83770AF9B6D18E4EAA1,
+	Buffer_copyToByteArray_mB5D2007627835034CCB3968281D74DB9DE13312B,
+	Buffer_copyToByteArray_m1F8700108D430A3796F9EC752009E9CADAF62407,
+	U3CU3Ec__DisplayClass11_0__ctor_mA98CBE92152C8E7842B41895533676114B8F2628,
+	U3CU3Ec__DisplayClass11_0_U3CwrapByteArrayU3Eb__0_m845779D74CD34596D858CE1A2B2905157F1B43D2,
+	U3CU3Ec__cctor_mE2FBFECEBEA5045ECE6C32915AD9958CAA5446FA,
+	U3CU3Ec__ctor_mC1E0D761D11F63186938FF6D513031BEF48ED3FB,
+	U3CU3Ec_U3CwrapByteArrayU3Eb__12_0_m0AD6AA483E3AF73751BDA3E6F8E11FD9C1EC9163,
+	U3CU3Ec__DisplayClass13_0__ctor_m522C4E94E095D86B0637C614DF01E43ED843ACCA,
+	U3CU3Ec__DisplayClass13_0_U3CwrapByteArrayU3Eb__0_mEB10EB6BC7A10E0E5DB0FF9E0AC31D48092303D9,
+	BufferDictionary__ctor_mE93203BE36F7D3D2215B37BA8BE82F450D6030D8,
+	BufferDictionary_CloneObject_m480D95ED71CC664260C96631400570253C67B450,
+	BufferDictionary_Clone_mE614ACD3E7F243FC3CC2B03CF511BADEA3A5C09E,
+	BufferDictionary__ctor_mE62FDF347908688343AD0704EFC5B0FA64475326,
+	BufferDictionary_count_m8690F327A932FA228BA8493E664E68ABCD8A3374,
+	BufferDictionary_contains_mDC9EA0BA61FFDB5A344F011EB712045D17DF55F1,
+	BufferDictionary_tryGet_m21D2DF520EB780DC39E31DCAEED224E48882D0C4,
+	BufferDictionary_set_mDC802FFB09B4D88E329E9EAE7041DEA4975440EE,
+	BufferDictionary_remove_m1C97018CEA90D0DF4D7042927DF13DE1CFBBABFC,
+	BufferDictionary_clear_m47F4DEAF9D8C5D9C10863CEDD6DF2360436F5F10,
+	U3CU3Ec__cctor_m1693AFCD1498D85866EAD45DC6A91DE29E10D1E9,
+	U3CU3Ec__ctor_mF330F5020773E8320FE8ACFD8CD778D9E752AF91,
+	U3CU3Ec_U3CtryGetU3Eb__6_0_mE5643E479B50BA61FAA6ECD62836FE10B43B4C5C,
+	BufferPool__ctor_mEE73BF57F5AA80B6943CFED2D2462691CC7F7904,
+	BufferPool_CloneObject_mBC011D1B2A85CE7C28025BE9C9A419470CF407CB,
+	BufferPool_Clone_m2C95C698DAEF710E215F62AF23F5E5D9605BAABB,
+	BufferPool__ctor_mFCFCBAF5DB3A92496E81A627C7AD4D1D8729B910,
+	BufferPool_block_size_m8F7EAB42E5189A99A33B877FCBCFAE38964EDC2B,
+	BufferPool_capacity_m91C741702862BD13B5293BF6CEC96FF4CFE91F32,
+	BufferPool_size_mC04F36B5A52472CDC2D4C0EB089A6478ABBCBF30,
+	BufferPool_tryAcquire_mE06568EC5642C2F6D6719E08B5E73054169BBEE5,
+	U3CU3Ec__cctor_m8562992A45D45220C57FE7A6C6F4F57580A27E35,
+	U3CU3Ec__ctor_mD004FF89764517D9621DC302E16050EE84BFFEBF,
+	U3CU3Ec_U3CtryAcquireU3Eb__7_0_mBEEC7ACABA4BE9DDABCB3EAB0B22DA34D8F852D7,
+	CameraParameters__ctor_mFBFACA125B023E15C6DF6EE606CD348540D3226A,
+	CameraParameters_CloneObject_m71DA7CECC52DBD98A79261228BC18300713ADE84,
+	CameraParameters_Clone_m44C450C88927E940D3CCB2CA81C40256EA341F28,
+	CameraParameters__ctor_m6EBC6F4C73D67F442228E3D0BCEE522396EE8463,
+	CameraParameters_size_mE4B2D55F83BC3A65FBAB25E1E21FA83857AB0C11,
+	CameraParameters_focalLength_m780986702E035CAA1FD0935049D4D9996A492885,
+	CameraParameters_principalPoint_m1813D7576FA9646261E9F2FA2EBD7537A9AD3835,
+	CameraParameters_cameraDeviceType_m41CA64FCEC9FDA1A15578A616E9918D23E9F11AD,
+	CameraParameters_cameraOrientation_mD5D261A52179446B0EAF1A75D52C1368AC4C63FD,
+	CameraParameters_createWithDefaultIntrinsics_mCF43FB0C8DE020BDC8CABBA79EEBDBA55667A243,
+	CameraParameters_getResized_mD6F750DA00DC3A06E1CC61318999E67FA4DE24BD,
+	CameraParameters_imageOrientation_mF5835974FE4D4863C29C912D3EC34B2E8424B43E,
+	CameraParameters_imageHorizontalFlip_m0CA9DF4DF89A1ED2D557BA4C4D60359642BB1ACB,
+	CameraParameters_projection_mE2FAA94F2BEDA37595BCF7B51F9765715C196655,
+	CameraParameters_imageProjection_mE124FBDB4C5104D3AB78F7EBC6CDA0810609AD99,
+	CameraParameters_screenCoordinatesFromImageCoordinates_m896A79E55287CC18513ECDC2BC4E723879BFAF5E,
+	CameraParameters_imageCoordinatesFromScreenCoordinates_m01E7DD368DB06820A17C168CBE57D70C729DB5B9,
+	CameraParameters_equalsTo_m2D423D6524565855E55664481C21F4F1752E0CBE,
+	Image__ctor_m6617F9816C0CFAD5916AB50DF610F9E9F1BBFDDC,
+	Image_CloneObject_m6F2A01127929CD1071ADC9981AED2452DEC7658E,
+	Image_Clone_mC78FE31B47680B79BB9FB7F54D2166D9430275D6,
+	Image__ctor_mDAC93A07D1E7B5C6ACAACAC2352F2A64059DB629,
+	Image_buffer_mB332AD78B51DE4D691BF8FB738B5D503BD0E8AEB,
+	Image_format_m819C249E74DCADB13E7F5B449E94EB36C4D7F416,
+	Image_width_m91D699D1BCB7AAB669E4A2BBF7E1DC028B1A5143,
+	Image_height_mBD168B2A425D4A75DAEC6AB879C95450248E58F4,
+	Image_pixelWidth_m75F090792E83A57D5DF6F3DC47187844B305FE7E,
+	Image_pixelHeight_mF03DBEF5187877060682572C0CB855DDEB2FFB4B,
+	Image_create_m6F7BD4C6EE618F1C9434F07F8A95D890126EFDFE,
+	Matrix44F_get_data_mE77FF5E16E55FBCAC06469C74E39437D4307BB8A,
+	Matrix44F_set_data_m54597E72FA553D22B405C3EFC71564714482A0BC,
+	Matrix44F__ctor_m4803E02BB0E49BAA0F6CE875B35926239625CF23,
+	Matrix33F_get_data_m74CF6765E1A0960B928A7ABBB710A8DBAEE24F0B,
+	Matrix33F_set_data_mFA581D8DA48B8CDBC3483AA4211E4AC4E6E1A77F,
+	Matrix33F__ctor_mA939B7CC4D5DE20F1236CD87C81C1A7BD6553135,
+	Vec3D_get_data_m769BFE7AD72625C69D2146AA33AE9D0C469FE6EA,
+	Vec3D_set_data_mD2219E24803B8BE42977AA94655812DC6C8B66AF,
+	Vec3D__ctor_mEAB237B2AF2A488F0E49444F2FC26F25DC00CA5A,
+	Vec4F_get_data_m33ED9139841508EE548400F434A0B9CA007A7FDF,
+	Vec4F_set_data_m3E0AD7B2963637469C577153911AC872B361D807,
+	Vec4F__ctor_mEC76032B5DC5593D5E8CE994BE33A0489B7C0BF2,
+	Vec3F_get_data_mBB2B21ACD48ABA0E855C2B471670F22439589C3A,
+	Vec3F_set_data_m1001214543FBB48CDF22AE2DE534027C811A52F9,
+	Vec3F__ctor_mEEFBBF220ED8CCA58956F770B21E90DE02B58351,
+	Vec2F_get_data_mCAE058FB2EF977B4A6638E262856609E49E63076,
+	Vec2F_set_data_m3E46A80965D83E95C58F0C078D635694C2405A6F,
+	Vec2F__ctor_m75206440B316C9C40BCC12B40D7D531200B06E01,
+	Vec4I_get_data_m67106794F8E1FEC2A5A9420744606462E3A288B9,
+	Vec4I_set_data_mE2F0FC5F4A4E35BE975BF750170832ACD9E928C7,
+	Vec4I__ctor_m5C13AA838AB5460F49F5504F0AF3A283447FD771,
+	Vec2I_get_data_m31388735C2417E365CC82E677A5D859518E45007,
+	Vec2I_set_data_m7AEF40F2388A51351E3B36E98F356202054F2DDE,
+	Vec2I__ctor_m19B1C050F928300518B9D0F4DEA02800F98EDAD3,
+	DenseSpatialMap__ctor_m85A1668DA3765C412A007608CC2004E3D03F300E,
+	DenseSpatialMap_CloneObject_m51D2DF98EF51801FABD938B755D3756710B7103F,
+	DenseSpatialMap_Clone_m137DE90DB5E798A4ADAB631C7F3B17EB282F1DFE,
+	DenseSpatialMap_isAvailable_m5999C81DBEADA3ACDF5FAF5F396F386AAB319403,
+	DenseSpatialMap_inputFrameSink_m7AC70ECF43274BD3A007AB92C4014F9D68AA2930,
+	DenseSpatialMap_bufferRequirement_mA9C9A55C96436FE58FBF78517D5B567BF2AF9FDF,
+	DenseSpatialMap_create_m6F78259CD460B2758F3F8338B8699A0B2EAFCA27,
+	DenseSpatialMap_start_m1F1161F4D3CB432AC36EA3085FB32C4DBB6C2C26,
+	DenseSpatialMap_stop_m3CFA3CE3FE80DF1778F3377114EDF9210FFF7DB3,
+	DenseSpatialMap_close_m735EF49094391FBCAB933A559303B3EC5E3229F7,
+	DenseSpatialMap_getMesh_mB3532E616C31FDEC389D8898B30D2CE28FAD6625,
+	DenseSpatialMap_updateSceneMesh_m674152D28245BE9B0298611185C2F730FD00AA05,
+	BlockInfo__ctor_m26EDDEE23D9260B5FCC87110BB87940C97C9988F,
+	SceneMesh__ctor_mDDF56D8590FCE56353EDF1836D837B91041D8C9A,
+	SceneMesh_CloneObject_mDEFF1B2673CB9389E39067DFBD1353F926C893BC,
+	SceneMesh_Clone_m6670B09FE9BF19133AC6F419A9FFFDD35D35A028,
+	SceneMesh_getNumOfVertexAll_mD87946351E716E12838CE28E4E8C9133F94F5871,
+	SceneMesh_getNumOfIndexAll_mE4F9B029CDD0CF7B0629C2C6F6A86F974C8A09CB,
+	SceneMesh_getVerticesAll_mDACC3270F48615EAC89703EFB0D57528C4B96D08,
+	SceneMesh_getNormalsAll_m9068B4574BD72CAF463B2C31D0C26538EC3E8800,
+	SceneMesh_getIndicesAll_m92F7B39EB08D006B061E351B6152A96543FE1132,
+	SceneMesh_getNumOfVertexIncremental_m8FC7BC2B92493A73241491284D1B85E0EB01B10D,
+	SceneMesh_getNumOfIndexIncremental_m306E5FC8DF70C7F7C5D4B10EBD1204A90F4F03B2,
+	SceneMesh_getVerticesIncremental_m7015A551665796AD16F103F8CCF029BB6ACC875C,
+	SceneMesh_getNormalsIncremental_mF27A3C53FE365BA980AFBF2204A7F683B695A763,
+	SceneMesh_getIndicesIncremental_m9D43E4A19EB87F891C11B80EC807C505D02319A3,
+	SceneMesh_getBlocksInfoIncremental_m289D470AD7249CD4BAE1F350D5262558FD67812F,
+	SceneMesh_getBlockDimensionInMeters_m4A3A85863C1563E6CADFC639A768E2CF2F619534,
+	AccelerometerResult__ctor_m64E9CFD846C5CD53076F3FFD23A1F6D781E2AD92,
+	Accelerometer__ctor_m7B1564DA9C0FEF5970E701ED97D1CA309FE1BCF9,
+	Accelerometer_CloneObject_mF2AB281ED41FE98DEA96AC2D28CF48731E35CF58,
+	Accelerometer_Clone_m5964C26253454394EDFC0A91BB4EE4EBE95A336B,
+	Accelerometer__ctor_m1E5138EB92212DFCE3A75DC23C8D8F2ADD8E5AC6,
+	Accelerometer_isAvailable_m51549C0B634196696F127E4803ECFC2D63024F62,
+	Accelerometer_open_mEB20D4AF54744A32002F9156DEEC49965529A03A,
+	Accelerometer_openWithSamplingPeriod_m0B7BB95A0E67555B2DAAA970B6E101FBE920C949,
+	Accelerometer_close_mAF80D7DAA8FF70F44DD98E15F410CB01D7C4D429,
+	Accelerometer_getCurrentResult_m7E3E6566E5B311E4039522BA848088ADD03D5F14,
+	U3CU3Ec__cctor_mCC824BFD89148E3A61876DEAF8962FC241E05779,
+	U3CU3Ec__ctor_m0F7AE222A10788154E5A3AF76496C8B78291F1B7,
+	U3CU3Ec_U3CgetCurrentResultU3Eb__8_0_m928A21C6053C55E3B26976A18712F3E9A6863E4F,
+	ARCoreCameraDevice__ctor_m3B080099B18A29B605B152CBCDEA155E259845C8,
+	ARCoreCameraDevice_CloneObject_mF28424F9113D61F4822A45EAB2C54EB9276D92C1,
+	ARCoreCameraDevice_Clone_m0119AE61514BFE119296FD6D14F542AA2803601E,
+	ARCoreCameraDevice__ctor_mE899A8A090C0C9536D124CD755FFFF645FFD8857,
+	ARCoreCameraDevice_isAvailable_mA40A785F551C004B2B1F47B589DDFA9F9F7BC5D2,
+	ARCoreCameraDevice_bufferCapacity_m200E382F5FBAB106E64C5EC97EBC38F6D7DE8087,
+	ARCoreCameraDevice_setBufferCapacity_m430C73D92485A3DFBBA4B1426B56C87E35DBC7DD,
+	ARCoreCameraDevice_inputFrameSource_m4F385895FE85466B7AECE6D2FB8851E9BACA73D8,
+	ARCoreCameraDevice_setFocusMode_m72542F443E32B579A12A79D07FB8903AEA2ADC08,
+	ARCoreCameraDevice_start_m67BC1C6279485F714E4F7DA4706DC0402ADF01B0,
+	ARCoreCameraDevice_stop_mD427DE76DC9312DD59C00CFE7A174B2DFA6E6DA2,
+	ARCoreCameraDevice_close_mD8F4C965FFEC7E76A15293F2AD72A8A7B3994F90,
+	ARKitCameraDevice__ctor_m04CAD0ED2A74A3C49C6A073FCBB5B3C43D29BC01,
+	ARKitCameraDevice_CloneObject_m7191E7A7F58DC6888CFC1492B8A2B081A2F14747,
+	ARKitCameraDevice_Clone_mDB000935184406F50667E939FB5ACCFF8178ABC1,
+	ARKitCameraDevice__ctor_mE1F6B15AA7D377C336E22ED8F004A5A4231E57F6,
+	ARKitCameraDevice_isAvailable_mEF0BBE6F1BB3341D348BF0B82310E27113FD33EE,
+	ARKitCameraDevice_bufferCapacity_mDD3A9DA8CA82AAAB078EF789DEE2AC17DA7053E8,
+	ARKitCameraDevice_setBufferCapacity_mFCD8C2581F72EE5136BC718362CEF744B4C2ADF2,
+	ARKitCameraDevice_inputFrameSource_m298BF4D5B70C25E6E19B8B054FF0C96149498312,
+	ARKitCameraDevice_setFocusMode_m077F4A7A35A73D2045F65A99BBAC3157AE182833,
+	ARKitCameraDevice_start_m524542219757C44DFAA48803F306814EAFA01218,
+	ARKitCameraDevice_stop_m60FF14BE18409D0525EE6456705C34218A5C8EE8,
+	ARKitCameraDevice_close_m765F04F25E611748425BEEC998F7EE71F8CC2A38,
+	CameraDevice__ctor_mE4985F1C257011B28D71A1AC25177D9745E237EE,
+	CameraDevice_CloneObject_m397FF3336160F3E22FCD75ED42CD98487AC88C4C,
+	CameraDevice_Clone_m49C8505F9A170557677779C375EFE5F4EFAA6644,
+	CameraDevice__ctor_m543A41D3E72251A627AB82453261948D713B20EB,
+	CameraDevice_isAvailable_m2C2D21C5A4545B22DCA918F712C2441AC96507B4,
+	CameraDevice_androidCameraApiType_mE85B0C46735ED6FB77630A086B9674C8C94638B4,
+	CameraDevice_setAndroidCameraApiType_m116D3447E1C8E70F3DCEB51613C503DDB9C1D3DB,
+	CameraDevice_bufferCapacity_m1FB1C489597AC3A3F66CCEE18F7DF53F778025FA,
+	CameraDevice_setBufferCapacity_m803085F021DA5BBB58892A0FB9B08F2FAB6E1C7C,
+	CameraDevice_inputFrameSource_mF83FBDA48CE4BB947199E49D3B5688429DC12839,
+	CameraDevice_setStateChangedCallback_m049C478870C70389474E7E950541B8A46DDA6765,
+	CameraDevice_requestPermissions_m64A213E5EC9FC67F43D668D026AE723B2E084F4B,
+	CameraDevice_cameraCount_mEB52B8E4E10962E6687A667356587F4803CFF1F7,
+	CameraDevice_openWithIndex_m57D8950B365DB88CCD962EA1A695AD4B303C93F0,
+	CameraDevice_openWithSpecificType_mFAE0E7BC045A102D71A87845F928CC52AB58EB10,
+	CameraDevice_openWithPreferredType_mD229731A5E32B57DEB0ABCBD8295A18DAD850F88,
+	CameraDevice_start_m6302AAA9FDDFFAE4AF53E3DDE94FC5D590D78612,
+	CameraDevice_stop_mEBA78A812A63D6C6741352F3BF1D6928961685C8,
+	CameraDevice_close_m4B66F53F2FF065121112129081169B971493F4B0,
+	CameraDevice_index_m1F21AF87959136EA6BAC85C07AF180D3088FEE38,
+	CameraDevice_type_mB520E03F4C7C7ADF07B17564BAABFECFE362BC09,
+	CameraDevice_cameraParameters_mB3F562AAB1CBD2AF5E53BDE9AC134F89B3F2E3FF,
+	CameraDevice_setCameraParameters_m3151C15820846B6D31949D66CB0B04DE2EBD522F,
+	CameraDevice_size_mF744D43F7F60E8B3B063819FA4A3573B7C26F699,
+	CameraDevice_supportedSizeCount_mD8EF27F4291EA333B2A727EB91338B5F5A9250D5,
+	CameraDevice_supportedSize_m03913BDAF5A354B82FB18BE5BA5F3C4BFF3833E9,
+	CameraDevice_setSize_m3F2D39A0F95D250D3066A5262CCEB6D388003547,
+	CameraDevice_supportedFrameRateRangeCount_m3669E66D26D64231BB8E495B987B2EDE354FDBF5,
+	CameraDevice_supportedFrameRateRangeLower_mA02BF11840085AFECEEC590CD9448CF46CCF3B03,
+	CameraDevice_supportedFrameRateRangeUpper_m61338A3D8794BA6544B6831F139373FFAC945561,
+	CameraDevice_frameRateRange_mEFC03A551AC25E57BFE695DA8C4FFE40A4B72AE6,
+	CameraDevice_setFrameRateRange_m071BC243A5F70674B60C9A571D0B43A042D27798,
+	CameraDevice_setFlashTorchMode_m3357C279EDF382CDAE6067C7DBFD5D18A7E9F70B,
+	CameraDevice_setFocusMode_mE0BAE42108D1E1A87B17E1758B55507059EA74B2,
+	CameraDevice_autoFocus_m90BC6B819E10CA2D7D9795AD03136584A81C17FF,
+	U3CU3Ec__cctor_mBBA7C0243C50B82883F4CB990A368FDE1E6C1892,
+	U3CU3Ec__ctor_m4CAB6616B57FB3DAA67989448EE7DE654A4748D6,
+	U3CU3Ec_U3CsetStateChangedCallbackU3Eb__10_0_m4100D7FE0A3A9D5E11A71F665C980E4E05EFCA83,
+	U3CU3Ec_U3CrequestPermissionsU3Eb__11_0_m13D728ABF942A88BC4FAEFEB1D42965CE423BAC9,
+	CameraDeviceSelector_getAndroidCameraApiType_m7267BC6BA65C1D88E8432C25A046818339D4F7D5,
+	CameraDeviceSelector_createCameraDevice_mDD800E19CB4877097279EB323C285C7C3CAE68C5,
+	CameraDeviceSelector_getFocusMode_m9A34547D4BF4EF2047613498E7812C314C8BF081,
+	CameraDeviceSelector__ctor_mA2200F29F3DFD70955D0F7B34BF4C85D463F44E3,
+	MagnetometerResult__ctor_mD0948B897C36EF739B9B9ED9686B854CAEBD9954,
+	SurfaceTrackerResult__ctor_mE4DC10A0416CA3085ADA3495CD6FDB402B6EF396,
+	SurfaceTrackerResult_CloneObject_mB1DAFBB0C3199577605864B36E81D727527802D1,
+	SurfaceTrackerResult_Clone_m47A217554830D8675C96519862732B78C24FB2CF,
+	SurfaceTrackerResult_transform_mFFD875EE0298781A9986D4574619A42BD2EF2D7D,
+	SurfaceTracker__ctor_m25527FEF9E045AE61CF1A51E8DA2BD1A32568EDC,
+	SurfaceTracker_CloneObject_m94C7882F10F9B8CB256CCF046A6036BE722F5381,
+	SurfaceTracker_Clone_mE59B7AB1319D67E37139F3ABADE82E8EE6F0C930,
+	SurfaceTracker_isAvailable_mC826307F8EC4986CFF96E70A1F1E3EF52847D443,
+	SurfaceTracker_inputFrameSink_mB5CECC8CB96F2D84643B3E35F9B6BE3803A2E6B3,
+	SurfaceTracker_bufferRequirement_m9B2CB71B6C874D373D18452D1F736392FE8F03CA,
+	SurfaceTracker_outputFrameSource_mCC75F1793DB1327113CC5BE0F82BE7D6C1E2233B,
+	SurfaceTracker_create_mBE5266F3251E0BF2DD27A0B36074A5FEB4E882FC,
+	SurfaceTracker_start_m2157EDF18E41FAE18336FDE2F18681A9C1B55961,
+	SurfaceTracker_stop_mBA50EA07C3FA842199725C77BF62659461C9751A,
+	SurfaceTracker_close_m9D29D9A1E12EC042FEC0F043596EC121607F0088,
+	SurfaceTracker_alignTargetToCameraImagePoint_m4C423DF1DBF0786334894EFFC502A488F70EA75A,
+	MotionTrackerCameraDevice__ctor_m15AD438A899F161BA05C4AB104D635430A5FABAC,
+	MotionTrackerCameraDevice_CloneObject_m39DF31BA97973EF7A77E1BF9D5EA075C638C7620,
+	MotionTrackerCameraDevice_Clone_mB80D2C0707F793880910D5AEA054A9963A619D73,
+	MotionTrackerCameraDevice__ctor_mABCFD839D1194A3D16F5576AF88FBCA914C51D0E,
+	MotionTrackerCameraDevice_isAvailable_m8456E208701C46204CBB0A7264DFF1BD43078640,
+	MotionTrackerCameraDevice_getQualityLevel_mC7EE0BA229C5BC1E0647F7CD968D674F7107B141,
+	MotionTrackerCameraDevice_setFrameRateType_m5FCACB7F04D11C383AA1A2F934A288348FEEE217,
+	MotionTrackerCameraDevice_setFocusMode_mF87615FE335A8672B5B570DAD459BC1AD74B457B,
+	MotionTrackerCameraDevice_setFrameResolutionType_m48987224A8EBEAF1824B1D50885370A660E05B66,
+	MotionTrackerCameraDevice_setTrackingMode_m2EE5986E8F4A09B83C5E7EBC1DFF1AE2A8F80587,
+	MotionTrackerCameraDevice_setBufferCapacity_mC864962FB18410BC6F121E476F07361FCB7737DD,
+	MotionTrackerCameraDevice_bufferCapacity_m8140910D868AB17C56AC8131154432E79245F359,
+	MotionTrackerCameraDevice_inputFrameSource_mFB6857EECD65269E9D86E959F6C587FD3297AE31,
+	MotionTrackerCameraDevice_start_mBC5E45E4DC5BA9B304A45E3F659D18599AB3614F,
+	MotionTrackerCameraDevice_stop_mD275F60428DE3D5D8EB53A61208F061AF543BB3B,
+	MotionTrackerCameraDevice_close_mFA43DBF7D8260140F5B515465AB827CF8F4DF5BF,
+	MotionTrackerCameraDevice_hitTestAgainstPointCloud_m1CFAB28361B14348FDBA05FDD945877C8DB15AA7,
+	MotionTrackerCameraDevice_hitTestAgainstHorizontalPlane_m6D11BE3BA3BE77766A3945B35AAE1AF868148DF5,
+	MotionTrackerCameraDevice_getLocalPointsCloud_m1196D352403DA900341D8F2FAF6E932DFA7797D5,
+	InputFrameRecorder__ctor_m9EC35CE3568614CC21D5EA2C97DF12BAB2092736,
+	InputFrameRecorder_CloneObject_mD9C81E0196A2EBF1EC5C70D003CBED931F61FD92,
+	InputFrameRecorder_Clone_m3F05CAB34B127FB374283B205F4EA0E2E0B53473,
+	InputFrameRecorder_input_mB6BEFCD20CDE70A6F8A77A8AEBAFA03B2315A501,
+	InputFrameRecorder_bufferRequirement_mEA38CFD0C0DE5180B721F53BB8BFA75FD675DBA8,
+	InputFrameRecorder_output_m95A787A25BBE97EBD765C2A17387B035F66764D6,
+	InputFrameRecorder_create_m3F1B3B112A6BE8C30F0B8D1ADE2141B22DAFFD1F,
+	InputFrameRecorder_start_mD4E91DC76367D273B2765E3517BC7492A080A47E,
+	InputFrameRecorder_stop_m9BF020736695B8852824B9A9514D1BEC71CC74BC,
+	InputFramePlayer__ctor_mE1AC4F9B77AAAEA27C6726A7092960948FF23D73,
+	InputFramePlayer_CloneObject_mA9E5C1F04BA786EBB7CF12D2DB597D5CA937DD28,
+	InputFramePlayer_Clone_mA6CE16DD950F728A27D2DB72BECAD55C6B5F2E61,
+	InputFramePlayer_output_m8260453790642DD9E2659C1AF98653965A5B064B,
+	InputFramePlayer_create_m92CAD1F5AB4B84D33E9077E93A7737A09711CBE8,
+	InputFramePlayer_start_mF400B9D537F4405C8D2DA8A35DD62115379FD10A,
+	InputFramePlayer_stop_m153447216C7E8FA48F87DE3E2449E9B6C4AC853E,
+	InputFramePlayer_pause_mE8039F5B7420C41A73C11098C21F11BBA0270BCF,
+	InputFramePlayer_resume_m2C08CD48CD5C3485F04F99410AAE46A6EDB9BF1F,
+	InputFramePlayer_totalTime_m7378C7288BF0C33EAA1CECAFA4E4237B3DEB5578,
+	InputFramePlayer_currentTime_m0CE5D16C073A65162C842331B8CC4BF030EC8EB9,
+	InputFramePlayer_initalScreenRotation_mCBB6AAA340096070A0A6CB7C9E36FB357F726F14,
+	InputFramePlayer_isCompleted_m4B7C618D2400B86399F01DD726544BFFCD2FB923,
+	CallbackScheduler__ctor_m4B8975B6F0630B472C5981A144978E0D7CC11FDE,
+	CallbackScheduler_CloneObject_m9B3B3A5BFEE4E64A8DD36E278EC013C95D0C69A0,
+	CallbackScheduler_Clone_mCD53C4949418E06096A175502CAB1DA22B984C60,
+	DelayedCallbackScheduler__ctor_m4A14C6D833A070FCCAE452A055B987E09C6BCAB4,
+	DelayedCallbackScheduler_CloneObject_m8F687D70521E7B02FAA4E49FDA7C6A76098D65B1,
+	DelayedCallbackScheduler_Clone_mD80E45CDEF1E8F170B6001794796D6D5ABECFEB6,
+	DelayedCallbackScheduler__ctor_m8279AA3A0FA97EF6D909B976B380F08AEA02F1B5,
+	DelayedCallbackScheduler_runOne_m538BB256BC607329018029843D26A433B0CD20A5,
+	ImmediateCallbackScheduler__ctor_m2FC6C9F75121151BF2E54BB43DD90913976C5435,
+	ImmediateCallbackScheduler_CloneObject_mC2BCBF1E6710E128FA637D8C85E6BF7446A88E1B,
+	ImmediateCallbackScheduler_Clone_m9717491F5B2AF6E12FBB7A35D9B40FE3D6497091,
+	ImmediateCallbackScheduler_getDefault_m7360F21B65B7FDF5259B72A7DE54DBA7DFC462FA,
+	JniUtility_wrapByteArray_m835FDC5FFB1FCEB6CAE15422AB78B898C325399D,
+	JniUtility_wrapBuffer_mD577DDC80EED1D4BD06A8453F75D9050762CE6E7,
+	JniUtility_getDirectBufferAddress_m02D9099E6B566EF4A0732E51D3D19C154DE21DD4,
+	JniUtility__ctor_mF2A55E9C18704A7B753A109FCFE60B7A31563F8D,
+	Log_setLogFunc_m7913D44D35F742D1133D339365ED8AFEAB407B91,
+	Log_setLogFuncWithScheduler_m15B290DFDF572ED472103FE44D11D634E6D5934A,
+	Log_resetLogFunc_m4AE932015018983394C5CBE1D6675DDB6DCC4DBC,
+	Log__ctor_m68D097B5BB2DDC53D30D7A6C727C19AA1ACB9FFC,
+	Storage_setAssetDirPath_m6AA764F8CEA5706F76DFBE20D92935A003F1A9D2,
+	Storage__ctor_mE51FA537D4AB875D80B26169A8FF20FD2D3092B6,
+	ImageTargetParameters__ctor_m67BCAFFB16FC9EC81A3FA64FE630DEEF53316EE0,
+	ImageTargetParameters_CloneObject_m7D25BB6B637E481C0FA2B89F623558697E6550E3,
+	ImageTargetParameters_Clone_mEDA1A852B216E4E06924C4A6B9BD5134AA670105,
+	ImageTargetParameters__ctor_m51DAFFAA165CEA8ED16F7D23D24AC3A69D4D45A0,
+	ImageTargetParameters_image_mD97F69F8C4835C701BD241F580F6238EA290BEA9,
+	ImageTargetParameters_setImage_m00E6A72B92F8D9BC54A58BC0BD1613B0ED30F9B8,
+	ImageTargetParameters_name_m1D8B10AC9E93692AAD8D27D31BE78A3874BABCAC,
+	ImageTargetParameters_setName_mB0E67E28FC391FA3B1A9A02CD7DCFEE69DB97904,
+	ImageTargetParameters_uid_m35FCEED4751F718F8868CE34F4D544D7992CF002,
+	ImageTargetParameters_setUid_mA63FB4238A742241EAD41B9AB95A9F69D8BD8895,
+	ImageTargetParameters_meta_m81348E6F23FF89369B51D2E053647F3CB507D16F,
+	ImageTargetParameters_setMeta_m31DE94F4483DD65DF6645FAAA9C42F57BEBB3594,
+	ImageTargetParameters_scale_m8A3E3BBB5FE32635FA3958E2090828763E7D6A97,
+	ImageTargetParameters_setScale_m4CD84FAC353051B6E434B3A245815AE41E730C12,
+	ImageTarget__ctor_mA97DC41882620A1A683AFC7439061EB8F7A2EE0E,
+	ImageTarget_CloneObject_mEE9DB84A827D13579289C9E9DD6D0B58A38D523B,
+	ImageTarget_Clone_mB80FB41B187C20727843FC5ACB430E7385CBC83C,
+	ImageTarget__ctor_mAAF5206E55E6369D57061F11DC5BC3A538312B25,
+	ImageTarget_createFromParameters_m4926D38420ABE721B7B27DE0E9621BDC7098C3DC,
+	ImageTarget_createFromTargetFile_m8DDE489316C92077E0E36F3A8D033C2599812300,
+	ImageTarget_createFromTargetData_m2CB28E1B2F98BE2AE0CA5B270E8B7492AF9580A6,
+	ImageTarget_save_m327C09CEDC2626B0CC7F1FE949A596B245F475FB,
+	ImageTarget_createFromImageFile_m97D0F3FC1DFB4DFFE5F43389B4464ABD23B6C44F,
+	ImageTarget_scale_m33B60BBA18499AB8842E483A6B326460E13ABB10,
+	ImageTarget_aspectRatio_m0F45B9EDCD12832B5664377FDFF3FEFD74DC23E9,
+	ImageTarget_setScale_m3A27430C4429DB3FB7B069D6FA2F673D8AB09556,
+	ImageTarget_images_m6639B48DA1F04810E10E87F3C6C5B85025021D10,
+	ImageTarget_runtimeID_m8CD4930BE501368B9F6F9ECB4265A8460827A562,
+	ImageTarget_uid_m6CEDE400A63BDB450C3AC71890691878A6B56E9E,
+	ImageTarget_name_m394FBB8B662E9A79146898D6E63A67D5A3CD14D7,
+	ImageTarget_setName_mDA48909F87DD30DFBED0667DB13EBD052B49330C,
+	ImageTarget_meta_mDAD773E46863DBB8394CD75444B8E85B7118198E,
+	ImageTarget_setMeta_mBD63DDCCB4CBBF2D4FB1906CAB7DDF3D94E08E77,
+	U3CU3Ec__cctor_mE57E54677DA12E42EB6C5E30DB1D19B797997665,
+	U3CU3Ec__ctor_mDE04A73839F7C462D5EB517AB4BEC7862B4EAB08,
+	U3CU3Ec_U3CcreateFromParametersU3Eb__4_0_mC677DEECAB70BA718EA4DB5ABF734D1D6923FE66,
+	U3CU3Ec_U3CcreateFromTargetFileU3Eb__5_0_m3972FB41B02120214C92A4FCF57F20EE44CCCEA3,
+	U3CU3Ec_U3CcreateFromTargetDataU3Eb__6_0_mE126CE5BC6FBBD6268FA0FBC5213151F01AF8EB9,
+	U3CU3Ec_U3CcreateFromImageFileU3Eb__8_0_mE4B52F1B7DC35176AB3CB8821E56E92B1B28BE06,
+	ImageTrackerResult__ctor_mAB404DA4FD0A5417887C0EBE2833C0BBF949DDE5,
+	ImageTrackerResult_CloneObject_m1B9DB8CA342DEF00ECC75560A8D4AF88A9733A22,
+	ImageTrackerResult_Clone_m942F595DDD3EA19CC50178012A13A60E5CA836D5,
+	ImageTrackerResult_targetInstances_m98BED4B464496E04427711166B25AAA3F716A5CA,
+	ImageTrackerResult_setTargetInstances_m0593E360FFC46BE96E8A0763EF0C705C6DA831A3,
+	ImageTracker__ctor_m88D5F8C9ACD54A6C1120A6A0D0D65420B406EDD3,
+	ImageTracker_CloneObject_m9B24D833FD7D019B5A75AA3889FA3CFA121ACE8F,
+	ImageTracker_Clone_mCBA43708E38C84F188EAB2C329EF3688C37C314F,
+	ImageTracker_isAvailable_m7B7DDC997276419F2B8DB3B52457E4A1980EC776,
+	ImageTracker_feedbackFrameSink_m0A834F8A72A8B8356BD7270000C155D251AF34B6,
+	ImageTracker_bufferRequirement_mA6B678F88BF52232782C6C3ACFF7D7F03BA1CA03,
+	ImageTracker_outputFrameSource_m40CB98093C2D917FC1FB3C9AC02F687D2F616A64,
+	ImageTracker_create_m33D0F266ADB80294737348159A9DE23B4D0DF634,
+	ImageTracker_createWithMode_m9C0F2AD912102297A4F2BC993A609B965FFD0B04,
+	ImageTracker_start_m6A8AD4F65ADCB1FB28FAE08A4312B229F72DAA8E,
+	ImageTracker_stop_m2FCFF381F09117761378B978A8DE970A2EB0FD98,
+	ImageTracker_close_m3D4CDFCED75F482DCE8B53B51E68CB8DDA349B18,
+	ImageTracker_loadTarget_mF3E8A477ABC0AA1A725AC4B4D213FF7E725DC06A,
+	ImageTracker_unloadTarget_m540E1FFFA95C235529DD3BE5F37E1F0CCFDB2154,
+	ImageTracker_targets_mDBE64ACA3D053626B2F7534290E2ACC53AA1AB4B,
+	ImageTracker_setSimultaneousNum_mE1B53331F6D89C7114637D7FA125165BB5CA8AB8,
+	ImageTracker_simultaneousNum_mDF8DD9F12D0CC879ED70EBECD5166A589CEE833E,
+	RealTimeCoordinateTransform__ctor_m282C5C7BB7A9185CC5C816BFF2A8623932E54591,
+	RealTimeCoordinateTransform_CloneObject_m72B0F8FE005558FD149BB25AE55185E15AAB60E9,
+	RealTimeCoordinateTransform_Clone_m4743ECA3C80FBF02E0F0FFC34523EF42F70177A1,
+	RealTimeCoordinateTransform__ctor_m552918E4FC05808CEABCB65D129EB0F03654A73B,
+	RealTimeCoordinateTransform_setBufferSize_m42EF0F704CDDE77AAECF231279F4671B51FFE2F6,
+	RealTimeCoordinateTransform_getBufferSize_m353B38A9226583C771BB82635DEF7DBE4F3E848D,
+	RealTimeCoordinateTransform_insertData_m5919CD34B0E754CAF6F88DD46077DFC04230E67E,
+	RealTimeCoordinateTransform_getPoseInMap_m8FF27FBD12F35400B0E0E06F4EAE9BF2233CC2B7,
+	Recorder__ctor_mE5F77BD0865CA546FC00F7DA86D34B30C3723FE4,
+	Recorder_CloneObject_m9F44F74ED32FA60065F63A47899C9E126C3E1DDB,
+	Recorder_Clone_m2DF75D4BD9C1D897C6A6501F033433997865CEE9,
+	Recorder_isAvailable_mA161F2064F3208A2926EC88CD5F78CFC02B02716,
+	Recorder_requestPermissions_m0FA42D2693F8E035F80243597359FA25DA009755,
+	Recorder_create_m618573E4EC835355EB63224703B79B0B5C4CB0B9,
+	Recorder_start_m71D5E35753F0D8D9392C41A387872D839B73F0A2,
+	Recorder_updateFrame_m53364AB98404FD635FE76AF8403EB17D3BBB2152,
+	Recorder_stop_m2D6824062047218F20D70FFA33C1EE17B1653924,
+	U3CU3Ec__cctor_mC3450136635B7686036F8BBF92CBAE602A543BD6,
+	U3CU3Ec__ctor_mFA29B8FEAA89A9E16EF1A0C82B80F1808FF843BF,
+	U3CU3Ec_U3CrequestPermissionsU3Eb__4_0_m1E4060156B05A8C5937775A48A171816425F07C3,
+	U3CU3Ec_U3CcreateU3Eb__5_0_mE08EBC74D63AF58DF40A06CDA2752DA14A8739D6,
+	RecorderConfiguration__ctor_m5F20F43F58A4B513E96A925B9E6FDD1003D6EDA1,
+	RecorderConfiguration_CloneObject_m848ED15C4A8D36DF05D4C8A8DCA7205BBF94AF16,
+	RecorderConfiguration_Clone_m552FE1A8DAE5F8CBA8D1738F1862EE8B31F2B233,
+	RecorderConfiguration__ctor_mCED7B6186185F1C3E911AEB5F3CD2D2319E4F95C,
+	RecorderConfiguration_setOutputFile_mC833A0D8C9946B49815C135A29EE4F7699FE8061,
+	RecorderConfiguration_setProfile_m2490090113DCFAAD4D0FFDB8DEB9B48C19CFDF3A,
+	RecorderConfiguration_setVideoSize_m6A5FCF50D0C2293E5694BFE2B28CC04780BBEC9C,
+	RecorderConfiguration_setVideoBitrate_mA66983F000D364B98024B54835E1243CE57FA9E7,
+	RecorderConfiguration_setChannelCount_mE2023F05B6D2C91A38B87E678CC709F79D2DD4D0,
+	RecorderConfiguration_setAudioSampleRate_mFCB8C82724108EC51ECCCB20A32607A259927F1C,
+	RecorderConfiguration_setAudioBitrate_m4A593F5BBE9E8B004373259C8EE8B5EFE3969430,
+	RecorderConfiguration_setVideoOrientation_m6ED4CDA170BA7F28F129B6043EF9090F45FA07B0,
+	RecorderConfiguration_setZoomMode_m55632BC4D6EE377F9E498159DDB4D88B3EFD614E,
+	SparseSpatialMapResult__ctor_mCDCB00D08E8E6099F62F604D6D5FC77A32E3F75C,
+	SparseSpatialMapResult_CloneObject_m3386ACE0AB14B262E11B6C0ADBF06A44692F136F,
+	SparseSpatialMapResult_Clone_m95D7020C3363851A8CB7502E9862C057C7A02702,
+	SparseSpatialMapResult_getMotionTrackingStatus_m0592EEC771950B398894650D2E561CC0CB889FFE,
+	SparseSpatialMapResult_getVioPose_mE9BAB795BF8CA2356F2493AB95991FFDB63A9E39,
+	SparseSpatialMapResult_getMapPose_mDBE16D5A914B8048FAC12D49AFED5F3584547A0F,
+	SparseSpatialMapResult_getLocalizationStatus_m56D250EC0AFAFCB36AC77BAF1E833C7DBC3B9AF3,
+	SparseSpatialMapResult_getLocalizationMapID_m3571F588A3BA5100B09D3160F0E2617A4CD36009,
+	U3CU3Ec__cctor_m0CB2D6118D57F59E039B613457BF10B54199B3D4,
+	U3CU3Ec__ctor_m1310A36F110EBF4FAC311CD461F44FD4C519C4DB,
+	U3CU3Ec_U3CgetVioPoseU3Eb__4_0_m751ACD3401E7E826B204385D198AFF115EE84B63,
+	U3CU3Ec_U3CgetMapPoseU3Eb__5_0_m16E0CCE8B23355475769F0EA208687B5A21079D2,
+	PlaneData__ctor_m581568FE4C8C2B186BFA525422DF94BD86D72573,
+	PlaneData_CloneObject_m86B11B239A3E8ACE6FFCF942EC49517C3B260FD8,
+	PlaneData_Clone_m0ED392EEDA3A90B7F13545594B29C32E570454B4,
+	PlaneData__ctor_m72D3E8BFBBB2E76190AB3BD893CF14EDF0242C1F,
+	PlaneData_getType_m675FF816943D4EC6384964C8D5D6DAF6D69416CE,
+	PlaneData_getPose_mF2A6B31837CC63CC8D87568F6421D7B1435AF9D7,
+	PlaneData_getExtentX_m315C79DC127599709E861078271ADD01D7E44A95,
+	PlaneData_getExtentZ_m0D7EF207ADC19D6D75577CE50F81B1F98C8C2289,
+	SparseSpatialMapConfig__ctor_mBDBEA223AD60D11CE4E70C49D533358B3A5CAD2B,
+	SparseSpatialMapConfig_CloneObject_m8A836838F1AE6C343A67B5B2A59DACA87979529F,
+	SparseSpatialMapConfig_Clone_m6B56583DD043B5C903B6C5D60B632BB09AF9FFCC,
+	SparseSpatialMapConfig__ctor_m7619FA68AF4DF3AD70E6549CD8AF1E316A78FC49,
+	SparseSpatialMapConfig_setLocalizationMode_mD95E092A70C8A3960451854160AE626B2C80706E,
+	SparseSpatialMapConfig_getLocalizationMode_m9DAE09A33AA78EA0D98B30DBF76E1B3D699816B5,
+	SparseSpatialMap__ctor_m7F73B44DA59F1723D3296C7A1BDEC8B424522C6F,
+	SparseSpatialMap_CloneObject_mF52FA1E48B5DD86FF6C35532A32A222F69B79B50,
+	SparseSpatialMap_Clone_m8F1122B0209AADAFBE62F9CF82042A57BFD4090F,
+	SparseSpatialMap_isAvailable_mE1B211FCBB978A72173E0B29F9027AEEA0A5A0E5,
+	SparseSpatialMap_inputFrameSink_m0D009EE7717E49594F3B7C499258B14360D5A568,
+	SparseSpatialMap_bufferRequirement_mD68C3E378D931B1A5E267FB1874BBD44FF59CEF7,
+	SparseSpatialMap_outputFrameSource_m19C5528E1BA621D78D0745632DABCE1E81550DF0,
+	SparseSpatialMap_create_m5DB578AB8E9EC9036EAED216E12730CB4C3E07AD,
+	SparseSpatialMap_start_m30A92A53AB15AF5B10B95339D494F632C4D7E15B,
+	SparseSpatialMap_stop_m541BED4A8BDB342A91EB7F464E409B119B2F281D,
+	SparseSpatialMap_close_mA20BEEE73BF7A78C6D38A09D160080DE18BDACFB,
+	SparseSpatialMap_getPointCloudBuffer_m7A96C879166FFF14C7BFC6E544E77C1E10645EDD,
+	SparseSpatialMap_getMapPlanes_mFE8403A99E7B43C146BA58A6F713063C84DB3FC1,
+	SparseSpatialMap_hitTestAgainstPointCloud_mBA3AB59DAB01DDCD32C1D2E8A7FC08BE9E6AAD94,
+	SparseSpatialMap_hitTestAgainstPlanes_m7719669BB4410B75C9A27C3DC25D414EBEA59ED2,
+	SparseSpatialMap_getMapVersion_m64029BA23FFFB9A060F299A6BC833D6351FE9D68,
+	SparseSpatialMap_unloadMap_m8BDACB760C6DBF25197813D91F1B95F972475C97,
+	SparseSpatialMap_setConfig_m26B6D8D4BFA6B8C75935007D89729D0DFCF32C62,
+	SparseSpatialMap_getConfig_m108FAFEC3E079C9EA27EB7960CCCBA32EB2CEC5D,
+	SparseSpatialMap_startLocalization_m4D5705CA05EF37849FFDCAC7C02DDAA87C9A86B0,
+	SparseSpatialMap_stopLocalization_m60F972FE033D71DF21C42D26DB8EE742D98E5679,
+	U3CU3Ec__cctor_m4FAA9AFE3D433D79A56C998F5F6374215D06991E,
+	U3CU3Ec__ctor_m5CD9929441891F6CB09948A90AF6F5E330C7A791,
+	U3CU3Ec_U3CunloadMapU3Eb__16_0_mF75746009991B55138C845E20B1A05940B1F9BA0,
+	SparseSpatialMapManager__ctor_mFFE6D92AD7417E833BCB2FE6D27E5EDE2D527C1B,
+	SparseSpatialMapManager_CloneObject_m46C352A3BF804A4567AD4B8F0E63373EC9A61874,
+	SparseSpatialMapManager_Clone_m9A1B3495099906121F510082B6F7BAF49CD39A5B,
+	SparseSpatialMapManager_isAvailable_m5B9A071B68FEA769DCF0F833CADC5FD0B86ED20B,
+	SparseSpatialMapManager_create_mA415B78C115724AEFA7BDAFCDB089F8641F3E317,
+	SparseSpatialMapManager_host_m3516056633F8D5E468B4897926FB0E4EA92B9DD2,
+	SparseSpatialMapManager_load_m66185C9B3EA13116BA28F1CCB514A9959735C9AF,
+	SparseSpatialMapManager_clear_m53993940ECE5E8439BBB3AAA9AB4F18ED695335B,
+	U3CU3Ec__cctor_mAC8B6CFCE5A5984AF78328A93B2AFFB290FC9D58,
+	U3CU3Ec__ctor_m14B31DF5D7CD0E46D11ABE3387EF30F72180938C,
+	U3CU3Ec_U3ChostU3Eb__5_0_m6E806C4FAE1164B0D00F8B5CF7E3C130DB027A6B,
+	U3CU3Ec_U3ChostU3Eb__5_1_mDA6CDFA6A2C0FC5EF4EF120EED642F4F3740734B,
+	U3CU3Ec_U3CloadU3Eb__6_0_mAE18F814109C7316D465F28EB1F53B923511428A,
+	Engine_schemaHash_mDD93BA2F0DA2D767EDAAAD18AD914D80B2689B47,
+	Engine_initialize_m319783C42D95F450CDB6AD6088FA287253D809AA,
+	Engine_onPause_m55F1ED94EB1CC7BCA6C101DB08DFC8D640E3CF36,
+	Engine_onResume_m7951E6E148C4074AE40B3C5034218708F0BDB326,
+	Engine_errorMessage_mA1399F0A71564361CBFB87A9B28ADBB9C7979589,
+	Engine_versionString_m4EE56383BCF1D8355326658ED7579D6177B90D61,
+	Engine_name_mAAAEA53AE682C9CFD4F69D6829678E112EF0C44C,
+	Engine_variant_m0665395B7A9B4743499F6B08727E7AF5BEC41F44,
+	Engine_isLicenseKeyMatched_mBB184C7DE4AE7679B2FB3D301C9BDDDD1423C179,
+	Engine__ctor_m44F1610FD8150442AA26EB8115E7A410C48D9A5A,
+	VideoPlayer__ctor_m5F871ECB662E4C6D6023AAF72CADC0DB4EB9E738,
+	VideoPlayer_CloneObject_mD6617D1D67078C0C9AF9DC195E04DF74C002D359,
+	VideoPlayer_Clone_m387BBCBF28F300508139498C6E828A0DF704120D,
+	VideoPlayer__ctor_m4D75835FA914924FF9097042393597A7C172578F,
+	VideoPlayer_isAvailable_mDB0275C30AD05798B43B34C33C84CDAB0767BF02,
+	VideoPlayer_setVideoType_mAB32975331DD6CD5AEC9BC77B732517197267691,
+	VideoPlayer_setRenderTexture_mF69C339088C550ED2A33E7B166968D79DE292A81,
+	VideoPlayer_open_m5CB41C589F4E74501AA920CEF371BE3F0379645A,
+	VideoPlayer_close_mCE1931C09F585DAC0DB0E7C2F9BF28C619BE4877,
+	VideoPlayer_play_m1CA00BB3D27852EA7A4546D1EF07D59A001F01F7,
+	VideoPlayer_stop_mEB5BFDB02F0B6C74B8A79D950F2EB99251C948B3,
+	VideoPlayer_pause_mFDAD8F193E6A2FE8C0C0750645A29CEA648F43F7,
+	VideoPlayer_isRenderTextureAvailable_mD0F8DDBCED8282911504C35B87C6523C5081DB75,
+	VideoPlayer_updateFrame_mF3724D873554FBCB7F9E46CE627F3F4AB78F34CC,
+	VideoPlayer_duration_mC2EE4F63D151A286D1BFC4543FEFB52E43B1F89A,
+	VideoPlayer_currentPosition_m7EBD4126CC3450D040FD8DD7C2AA4EE356725B62,
+	VideoPlayer_seek_mF9FEAFE2FD670A7D1E936FFAA598DD270C584703,
+	VideoPlayer_size_m1E078E6A28E5F6B2B409D7AB0A26DDC32C4BC8F0,
+	VideoPlayer_volume_m405805739D017FAF2AC564CCB102F7A2EFC6C0DE,
+	VideoPlayer_setVolume_mA4C3A48C47ECB755AF20F537FBB3D2F817D760DC,
+	U3CU3Ec__cctor_mB97C82415EB2B3A7F97EC4C55D5F91D79274C372,
+	U3CU3Ec__ctor_m6BADC90A1BD33D9E4255952135696FE0B06BFBB4,
+	U3CU3Ec_U3CopenU3Eb__7_0_mA671400A2D4C507CA7C18E86D4C4B7B1899EFDED,
+	ImageHelper_decode_m360429BACE4313236CAA6C2088FEF800D76A928D,
+	ImageHelper__ctor_m174F3D3FD677BDB5A454A21649C11D349804798D,
+	U3CU3Ec__cctor_m918CE1F02E3338A57504730233143D36388C1B9C,
+	U3CU3Ec__ctor_m65A07FABCB12303A8F2EC4BBF8574400C4AAB673,
+	U3CU3Ec_U3CdecodeU3Eb__0_0_mA65A11EFF5290C5ECB8EAE02175D0F366BDB81A7,
+	SignalSink__ctor_m19C99B2254C54C1B549DC56A1A0F6B39191E85F7,
+	SignalSink_CloneObject_mF7835107DD718401582388F56117C2A1F8ADA188,
+	SignalSink_Clone_mC3D97572FF0DADEC66C6853C882835CBD7D301B7,
+	SignalSink_handle_mE2572D5CC7AB975E59D1528C501D5C37F118B74F,
+	SignalSource__ctor_m7E543E711B38DD870B98DDFA5183203FC59657BA,
+	SignalSource_CloneObject_mC73B093E4166DA8178A658E1A04AF82F2E844425,
+	SignalSource_Clone_m885B6E4E058413349EC09A54F2AD77928A1F62DF,
+	SignalSource_setHandler_mFB1B76277DCDA701F70E14656AE9D6C528E75A8A,
+	SignalSource_connect_m2F748A514223A2DA1679C504A4FDB4A418B89B5A,
+	SignalSource_disconnect_m46E185363069198439CF177DF48A5B7BD0E54104,
+	U3CU3Ec__cctor_m11BE9301905F5CF0E15DCE43C8BA6E99BEAD52D1,
+	U3CU3Ec__ctor_mCDA541F710DA62A4C3F56D2D81EBBAECDFB0AA69,
+	U3CU3Ec_U3CsetHandlerU3Eb__3_0_m15A89729399A33DD50643EA65B0711C626D1CD31,
+	InputFrameSink__ctor_m153177C8EA1F311628D3E53493C22E48961C1B56,
+	InputFrameSink_CloneObject_m205150975E0B7369F65819A580EBC72FA079892E,
+	InputFrameSink_Clone_mA89A2CDE968B67299A79E190B30D3DE4EA34AAA6,
+	InputFrameSink_handle_mE649ABEA3F506152D8D21FB5BEF4EC63C14E10F7,
+	InputFrameSource__ctor_m0E9D1AD93F1D883A7A89B8544987A0053FB92E06,
+	InputFrameSource_CloneObject_m86948B1A60EF391194ABDCD77105FD6C7FC92056,
+	InputFrameSource_Clone_mD5F6B75721C7D0038C60C2BFE4944340ADF4985C,
+	InputFrameSource_setHandler_m58E8B40A43E22A670154C41F5AEE71AA5D67715C,
+	InputFrameSource_connect_m2D7A7F2F7655A1D97A5A0E695AAC6419AA124DC8,
+	InputFrameSource_disconnect_mDB6000ADE313DB3860D4729A1F7AF2D11F75BB1C,
+	U3CU3Ec__cctor_mE5194E7255AA63017BD2FA5B1CFB8E5D3DBE61AC,
+	U3CU3Ec__ctor_m965DB0AB99278F86D0E76270562D1B13013E0183,
+	U3CU3Ec_U3CsetHandlerU3Eb__3_0_m2E3547E0A7484E76F3881205D2ECF01A885B25A1,
+	OutputFrameSink__ctor_m5129F13A052FEA9E5F18D7ED6D6DFAF8D2C24272,
+	OutputFrameSink_CloneObject_mD38239BDD3006728656EE9715B3F0ABDFE8E3AC3,
+	OutputFrameSink_Clone_m783AAF0B70A73E35F90C59B9BA017D3A13E6AD2F,
+	OutputFrameSink_handle_mD61983DA7644D1969246A18FC94AB109F51CF850,
+	OutputFrameSource__ctor_m38E2837B4CC24F177135E7C167C5DBF45C501F57,
+	OutputFrameSource_CloneObject_m89F389984D389860E3F9AC65A86F9BD90C4AA42E,
+	OutputFrameSource_Clone_m4C9EAA7252188F1833E8745830FA9232558F806E,
+	OutputFrameSource_setHandler_m24D853C7D42AA53C4CD592738232146202A27BE6,
+	OutputFrameSource_connect_m66C69B8246D5AB3BB0CB5DC7BCB36F7DA2664669,
+	OutputFrameSource_disconnect_mB1F33CEB783BD56E71997C49B379406B30679355,
+	U3CU3Ec__cctor_mDDEF1206B234C91A54E1CF21AC4458A1640F8184,
+	U3CU3Ec__ctor_m4BA7C08719BF5AC43FDE2B562C660715BF28400C,
+	U3CU3Ec_U3CsetHandlerU3Eb__3_0_mDFADEBA82A35934F63F37875BD2732E45F07EB0B,
+	FeedbackFrameSink__ctor_m18AA67C34BF7830CE8E7F058F2FC814219C576DF,
+	FeedbackFrameSink_CloneObject_m6335414E22D3104C920A95AF8773F63AF9E566FA,
+	FeedbackFrameSink_Clone_mA5B9D31C9977EE01E68417A959848A1A579839AA,
+	FeedbackFrameSink_handle_mC2D1E5AE9EF8A0E773C78E6606AF4B91A376B94C,
+	FeedbackFrameSource__ctor_m24CBE0026A86028CA448EDB163CD6595C2F8359F,
+	FeedbackFrameSource_CloneObject_m06E2F46014FCA29DED35F4547E832CD499A391EC,
+	FeedbackFrameSource_Clone_m00F7FFE8626535231984538DB706B5DB79A25534,
+	FeedbackFrameSource_setHandler_m003DE59F0DBFC9D7AC22C7F3F44170D1665C9AE4,
+	FeedbackFrameSource_connect_mFCC5DB019229528ADF58898F6BE20C314569A351,
+	FeedbackFrameSource_disconnect_m004E409A33049B12A7F3A636F351F50D0EAB342B,
+	U3CU3Ec__cctor_mD3E9AB2F5948582F5A629A7BCCD6423E4EA8FD99,
+	U3CU3Ec__ctor_m73C720E9736D638B7E0C34B25037B101B3FAE0B7,
+	U3CU3Ec_U3CsetHandlerU3Eb__3_0_mC57531CBA48F919303DE951AB38B1F3E63800E68,
+	InputFrameFork__ctor_m3C4DE68AC452175DA10B7E402757192E70AE1C13,
+	InputFrameFork_CloneObject_m1939FCC8FE555B2C8B3AECA4E4A298B42FF51876,
+	InputFrameFork_Clone_m48957CA737CA98CE5BF93157C7FD0149BF547CC3,
+	InputFrameFork_input_m4B1D370B4AFB5E226454D94A6E7BBC76512FD0E6,
+	InputFrameFork_output_mBA5E09DAA94DA06D17CD742DB24BB001386C843F,
+	InputFrameFork_outputCount_m5A89AB971DC08F75B9EBDA4D7EBD00AF28DB2AC7,
+	InputFrameFork_create_mD0E8F05EED74752A05FD021784C3F55187616870,
+	OutputFrameFork__ctor_mA28AFDB10619C430520255BD3D516B3A946AD6AF,
+	OutputFrameFork_CloneObject_mEBFCD54DEA5171A3D89F501EF31C60C868B5A390,
+	OutputFrameFork_Clone_mAEF285C24CAE7FDC966CF26DC276D24B0BB5B28A,
+	OutputFrameFork_input_m9E1FA5F868EEAF359AF956B1A1A4A3320F0C8522,
+	OutputFrameFork_output_m0FF359E48DA5991A9A4D2EDABA66FA3B3D3E9D07,
+	OutputFrameFork_outputCount_mD33D86018A639F5A52AE46B96DC72FA373B9E7E8,
+	OutputFrameFork_create_m73350744D8A876443155CC0A269B1E9C07081252,
+	OutputFrameJoin__ctor_m1687257F0EA7177E56323E91AE5830B601630854,
+	OutputFrameJoin_CloneObject_mF97DC492CDEB06F00CE38EC083B6919A1763236E,
+	OutputFrameJoin_Clone_m5195FEA99630397CE60258F5CE90C8C3A9B15BD0,
+	OutputFrameJoin_input_m95D35B9CB211190BD8CF90C2A7A7688E698C705C,
+	OutputFrameJoin_output_m206F0D6C2877F0AA16DDC32695D4482A346929D8,
+	OutputFrameJoin_inputCount_mE72879D3CDF490474D2E9123F48759993A5B549A,
+	OutputFrameJoin_create_m367B671D771396CEFAB39F911F0273DA2D368E94,
+	OutputFrameJoin_createWithJoiner_m9B948C00F42519A46253EC511860D7E4760C1A67,
+	FeedbackFrameFork__ctor_m0EFD848100F201E685341898F365E1B91DF2E4B0,
+	FeedbackFrameFork_CloneObject_mFF72FC65902BDEE6341E83DBA8E8E12A442F8952,
+	FeedbackFrameFork_Clone_mAB81C16C99998231E7307B4134998CE4F63AC898,
+	FeedbackFrameFork_input_m89609CDEDFC8DBCB30FBFF6102C933EB3DB75E93,
+	FeedbackFrameFork_output_mB862F9591F7DAA430E7240B48D010A622FBA0F4B,
+	FeedbackFrameFork_outputCount_mE64F6CA305322E1083E6ED1937013BD752E4609B,
+	FeedbackFrameFork_create_mA30BDD2E9D0AB72B25D97E3BE1E011936951124B,
+	InputFrameThrottler__ctor_m71072FD8DCABF6850DF29178A541B3BD6B52EBE5,
+	InputFrameThrottler_CloneObject_mFDD401D2337814347B7C616DC2E3A6A4DB08D0B0,
+	InputFrameThrottler_Clone_m7C0CAA5558A32E541C1783B0EB6D49D880F458EC,
+	InputFrameThrottler_input_m6587D9C08AACE34E969C9A6DC34E1FA4A89263BB,
+	InputFrameThrottler_bufferRequirement_m386D52DA6CC7BDB46F6CE55F50FBE581D3FE11F2,
+	InputFrameThrottler_output_m76832569F52918A55392F57A7CF68F38377502A8,
+	InputFrameThrottler_signalInput_m9D4C90AABBC210EC74E3EC9A4FFDE4CDA0754A7F,
+	InputFrameThrottler_create_mA96A2E1392722EDE77D2D61A1396FF284B43862A,
+	OutputFrameBuffer__ctor_m42943E55348EE5542155F023943E5FB3807B4E24,
+	OutputFrameBuffer_CloneObject_mD200C5822D29340BF34F552171E634F7995E3643,
+	OutputFrameBuffer_Clone_m8F0DDF71E0E5C99D38A64CB4E32ADA02C0312F89,
+	OutputFrameBuffer_input_m92F5F9C43F6A18BCB48AC3B59F25ABAAC6092825,
+	OutputFrameBuffer_bufferRequirement_m4EA8EF8830559A927D7BA01E8A996607A220B503,
+	OutputFrameBuffer_signalOutput_m36D8556B8D8735C0E1A5CB2B0988B6809578B248,
+	OutputFrameBuffer_peek_mC1A553173F72591A3C53C425A034CB8AE89A099D,
+	OutputFrameBuffer_create_mAAAD294053975F93F23C2A573BB4BA7CED239CED,
+	OutputFrameBuffer_pause_m83191056C0AF25662D76ABF93156A27FA9229D53,
+	OutputFrameBuffer_resume_mA8C0DA8F24D013F1ECDB8CA140C1C3702EC0D113,
+	U3CU3Ec__cctor_mD6C6703EB1F44504A2C142326D4AAFBFE19EE412,
+	U3CU3Ec__ctor_m1185515936EE432C5E8905FD0F8A6A4AA97D6FF4,
+	U3CU3Ec_U3CpeekU3Eb__6_0_m48B5948D929E4A318ED7EAAE00ACEEE95451697D,
+	InputFrameToOutputFrameAdapter__ctor_mCC17126A0A691CBC4DDFFBDA531921E3DA4FE8E0,
+	InputFrameToOutputFrameAdapter_CloneObject_mCA0DFA6F303F9414043D095E06883B268F85AF86,
+	InputFrameToOutputFrameAdapter_Clone_mE80AE185A32AA0A120412E10AFB375768780134F,
+	InputFrameToOutputFrameAdapter_input_mB79E24041377FE34809C01C68820FCC5C8F61A05,
+	InputFrameToOutputFrameAdapter_output_m6E8151C4A1A9C040042969ADD09661295F2DA8A5,
+	InputFrameToOutputFrameAdapter_create_mF8EA9F19529F4B583B471BD07EE9F4A7E997FD13,
+	InputFrameToFeedbackFrameAdapter__ctor_m3175DD6A1C36DEA71405410EC66B58E1405CD14B,
+	InputFrameToFeedbackFrameAdapter_CloneObject_m50B1B5782D402952AE0B20AF0E7431AEB9DDED63,
+	InputFrameToFeedbackFrameAdapter_Clone_m76A081DFF4AA0633E5E9006A76CB570FF3277E29,
+	InputFrameToFeedbackFrameAdapter_input_m917F5B1A80100C874850AD1F390DEB94455455AA,
+	InputFrameToFeedbackFrameAdapter_bufferRequirement_m25B69AF1029084ED70DB1D5950D9B49D20583D3E,
+	InputFrameToFeedbackFrameAdapter_sideInput_m140A8A4F8FFE2A4EA2A762727B6F5B1AA089ED9D,
+	InputFrameToFeedbackFrameAdapter_output_m0D8EE6B41DF172EEB02ABE251F616F871AAAE09D,
+	InputFrameToFeedbackFrameAdapter_create_m01D26D61B76A2B9411A4ACF43A9619931C4DA956,
+	InputFrame__ctor_m20CC1132C2A3CB1F68EABC8E11D3DB7560051D29,
+	InputFrame_CloneObject_m56502344C62CFA29DE5585BF1519D412CF3A0039,
+	InputFrame_Clone_m4B780666AECD883AF39FC1F0DAF43D7134564058,
+	InputFrame_index_m461F0649929E7C8B10CBE28B0072CBDEE24324E8,
+	InputFrame_image_m0FB03F4DDDAD622E442B0F07FDB96C384EDE8D61,
+	InputFrame_hasCameraParameters_mA559A9EB9D4B85DCC705131E78F32D15ABB1003C,
+	InputFrame_cameraParameters_mA5FDFC2E553A78CC978A7D93F8C28EA7FE903F2C,
+	InputFrame_hasTemporalInformation_m5CCDC2357961FDA4D512DC203CD296DBA9A0AC45,
+	InputFrame_timestamp_m53F8C8F0FF402B3253BBEAF634426D98724EC1C0,
+	InputFrame_hasSpatialInformation_m5477E271CDCD2D0BD5F26EE331E70831EC8AD9BB,
+	InputFrame_cameraTransform_m5C5428BCEDE2DC3D949BE62927BBB4D97E84F1CD,
+	InputFrame_trackingStatus_mDC21EFB90AD83427D1D1D9205043986E4204993D,
+	InputFrame_create_mB86F8409D6A36FD853772F76836BB55E6AB4EDFE,
+	InputFrame_createWithImageAndCameraParametersAndTemporal_mE50A71DE04CE85335E9868DEFAA7F57BC531FE06,
+	InputFrame_createWithImageAndCameraParameters_m549357F6311AAC1A91F304DB65DB914EE08B78CD,
+	InputFrame_createWithImage_m48E124FB8265EBEB53FD3ED488C862736D0D3A6E,
+	FrameFilterResult__ctor_m82A6974BBC521386B8BC59B6D1BA10242E574E73,
+	FrameFilterResult_CloneObject_m3D5456AA1335485930CF978870CE73B864C5A73D,
+	FrameFilterResult_Clone_m94B0FED3F3ACC4DA64008C57A368994264E186EE,
+	OutputFrame__ctor_m0BB5E5CEB0A8BB436B3C0848355EA050BA8372D9,
+	OutputFrame_CloneObject_m1DDC4ABFC817F051A916A329101B1A01B6EFD2F5,
+	OutputFrame_Clone_m9DB619B44DB96789FE53B8715255301CE210E766,
+	OutputFrame__ctor_mB325F8766A616D6801D9FFE2B8F1CA3D4F76B820,
+	OutputFrame_index_m0C0F89A7F3BB95BA528F4443E29F4DCE41594661,
+	OutputFrame_inputFrame_m41D93832130B34C2256325C10998F6D5AFD7E961,
+	OutputFrame_results_m1B612CF9FC69D708FECAFC8A5ACEB7BCC6FE9904,
+	FeedbackFrame__ctor_m42A014055A6678508D044E2E38296AD1DB30850E,
+	FeedbackFrame_CloneObject_m968BF1EF92D8F596A1345417596937A35A9A9830,
+	FeedbackFrame_Clone_m0006BC7CFBC2ABA288174173EC8B170045AEAC8D,
+	FeedbackFrame__ctor_mD5E0AA071A120FFCB54C75BF9A92BFD4E6DE8ED3,
+	FeedbackFrame_inputFrame_m7C86ECD871328A48EC407E3383126E77C0CC6831,
+	FeedbackFrame_previousOutputFrame_mAA27634777B3AFFC818CA6775F5C35FA6926515D,
+	U3CU3Ec__cctor_mD59F345E6F8BD9C9A86D9583B7E3F6CC0E9A86E2,
+	U3CU3Ec__ctor_mF5C2D9E3E45F90F887BEA41E94E2E070208786F9,
+	U3CU3Ec_U3C_ctorU3Eb__3_0_m83E00571206394186C8889E411C0E1D5ADA605F2,
+	U3CU3Ec_U3CpreviousOutputFrameU3Eb__5_0_mBDC47E2C3AF70F3FF36F13F3B1EBA7BDF364595C,
+	Target__ctor_m2CAD736174A25C2FDBC016E04786D3357790BCAA,
+	Target_CloneObject_m3D4D5F8B71C028BDBD7EEE6557CEC5C5A2FCAEBA,
+	Target_Clone_m3540538D3B9CF31B7C89469F7777D2305A7C25F5,
+	Target_runtimeID_mF7135F804800456CAAE0F4472CCB26E8E0B8434C,
+	Target_uid_m3C68A9298250E45CB05647D50F7EBC6FCE41A56C,
+	Target_name_m3E61454506263D92A09EFA3EDC3FCD86BAF005D3,
+	Target_setName_mDF24134D881521A903EC8DF9AE1F8BAFAD3B3B48,
+	Target_meta_m72F366EEDFACA48B639CE0916D1464DC663F9D16,
+	Target_setMeta_m871D732023F0A7601D7B27405EDFDFBD06B7F766,
+	TargetInstance__ctor_m7DA0AECB96E615D4671B3E88EB07E8A9D41C67BA,
+	TargetInstance_CloneObject_mD5995A9B48A1637DA5122DE688419A708D6F3548,
+	TargetInstance_Clone_m29F5E02FFDE3F4257FF772D13359C1681FFEC8B6,
+	TargetInstance__ctor_m1C02288F931EB00A3634918AECF51230FB46968F,
+	TargetInstance_status_m0EE320F506A558CC55DC3606C1D0CA8EF9DCA2D4,
+	TargetInstance_target_mC37BEA9D9D42A9893F846AD42386C5F0203CCCD5,
+	TargetInstance_pose_m0A19B54E0EAD7AEE3E4B4AA0FD467EE79572B9B0,
+	U3CU3Ec__cctor_mD3D63F8B79C7818A30978E19B23EC7C08382DB7C,
+	U3CU3Ec__ctor_mB8A7D7518A0C3EC8A53CFC318E9E5F2302CA3D1D,
+	U3CU3Ec_U3CtargetU3Eb__5_0_m25E94049FC5FD166BC0515CCF1A9437C55CE9D58,
+	TargetTrackerResult__ctor_m330FA7122F2116E858ADB42FB911240F15FEBEAF,
+	TargetTrackerResult_CloneObject_m94BD03A6FE173E5E378934920C4D46AAFAE6EA78,
+	TargetTrackerResult_Clone_mBF7FB00A7C3F1FDD19287923240CF5D171D4A045,
+	TargetTrackerResult_targetInstances_m00D6601A69ECCC067938C174EFA3D71527646812,
+	TargetTrackerResult_setTargetInstances_mB53CD85BAD0162E26612FAE1E912C7D8D75CDB9C,
+	TextureId__ctor_m91EDAEDD5A61BF7D26162288A5FCDA2FD8EFDB94,
+	TextureId_CloneObject_m4AEB0F54468BF64B5030DE4706564EF186216377,
+	TextureId_Clone_mFF5B760B88B5C4D06D4621E2ED0A1D6EC44168D4,
+	TextureId_getInt_m28DEFEA8979612D68B4336C737DF3E0065AF96CB,
+	TextureId_getPointer_m8348ECBB81E10B082ADB15E6B550C099DEA6CCF5,
+	TextureId_fromInt_m25F2ABC455D30F6F7A053AFFA19552ABD1E14826,
+	TextureId_fromPointer_mDA8AB7F4E373235EF7838D65598FD7CA219AEF15,
+	CameraImageMaterial__ctor_mC7B8EFC560BBC7325698B1F9203E09E8C9CFDF39,
+	CameraImageMaterial_Finalize_mCB34A9A24F708C93FC3593EDB493B6E326B56713,
+	CameraImageMaterial_Dispose_m6035C94A4356C43C3BA581427197F449A6BC96CC,
+	CameraImageMaterial_UpdateByImage_mD125E489D7EF75482859095860549C16CBC3A7F2,
+	CameraImageMaterial_DisposeResources_m32BFEE88E792E0FFF11822D2EDE447D4AA1D021D,
+	CameraImageShaders__ctor_m5A8B50C1F78BF9043F0A2AB9D24CBD33EA363D33,
+	CameraImageRenderer_add_OnFrameRenderUpdate_mADA632258D9442E4068E4C353B29B4C527FC1DA0,
+	CameraImageRenderer_remove_OnFrameRenderUpdate_mBCBD8BCE848690C3470DFC773E69D4356E380BBA,
+	CameraImageRenderer_add_TargetTextureChange_m28403DAB30BC4BA245F4DAA0C07B7839961DCED1,
+	CameraImageRenderer_remove_TargetTextureChange_m6898EFA56FB05C450AAEA0C201411C6724B9661C,
+	CameraImageRenderer_get_Material_m76125AB90C6876E943C24BDD62A62B758EAF1C47,
+	CameraImageRenderer_get_UserTexture_m1A0D64C7003C9673E16FB2E2E5C22D88057D2E50,
+	CameraImageRenderer_set_UserTexture_m845F18CD91DCCF9F937CF1C9AA1F01AB0F0C5781,
+	CameraImageRenderer_get_InvertCulling_mB7EF27859664ED8F0CEBBCC1E8A7F06400C4FCB9,
+	CameraImageRenderer_set_InvertCulling_m0D0AE9989804E3D27DC6FD5F87293CA1B1170E59,
+	CameraImageRenderer_Awake_m0358BF2D132CA55C44911879690AE8CEC9C11DBB,
+	CameraImageRenderer_OnEnable_m7B74FAFF4C19A785F1AF1FF770EC0291442A26B9,
+	CameraImageRenderer_OnDisable_m53B8CDF5E4F56020D7DA69CAECB344E6EE910205,
+	CameraImageRenderer_OnDestroy_m40F0C2104F92B7252A5F1FD15333FA35F0E8B186,
+	CameraImageRenderer_RequestTargetTexture_m72CEA2C6573A1796C51105382DD370453DC0E07A,
+	CameraImageRenderer_DropTargetTexture_m37C9902FC34AB9975CF6CCE899706B90BF1DA88F,
+	CameraImageRenderer_OnAssemble_mC416A1F0F7D390D027AB7AD7CBEFCEF33C85ED71,
+	CameraImageRenderer_SetHFilp_mB0D67898548420B378D0DE87C2E544D821231CEF,
+	CameraImageRenderer_OnFrameChange_mF077CC2D6C2C1FF244CCF01611951CB5E26A4FEE,
+	CameraImageRenderer_TryGetRenderer_m0012DF29124DD29F03F5313E75C770BC051B0F6E,
+	CameraImageRenderer_OnFrameUpdate_mD4A000CFA9DD2D5DB2EA655D4881EFC6A1B076E7,
+	CameraImageRenderer_DisplayTransform_m2329BDEEA34B5C9D870ED4DED2BF8D6035838B73,
+	CameraImageRenderer_UpdateCommandBuffer_m9BBC779174A59F146867E904C95C730AF4BA4028,
+	CameraImageRenderer_RemoveCommandBuffer_m7DC1654FDABC44108682FB075C842B18074712DD,
+	CameraImageRenderer__ctor_m8BF36A3277D7A8054AC53240DA979C4BAD68A815,
+	CameraImageRenderer__cctor_m41B56F61A311213EAA00AC3FA0F5606273DD9BF2,
+	UserRequest_Finalize_m4A11F649A6CB38D958E17B8631F196954E26FDCC,
+	UserRequest_Dispose_mAAEBA24314FFCFB8CB88EBDB7F789C0861C9FC53,
+	UserRequest_UpdateTexture_mDC2F56E4260D9E9A5D505D5628E67BCF2BBD4D2C,
+	UserRequest_UpdateCommandBuffer_m366CEC9B792FE418D39C0FCAC644A057FDE436EF,
+	UserRequest_RemoveCommandBuffer_m0604DB28CEC37D77BCE96FE5EBC774ABC519CE34,
+	UserRequest__ctor_mB73169C2AD599618B3D62CF475CE7D13D4B18E47,
+	EasyARCameraImageRendererFeature_Create_mA1886DD47F6543482C9FA2E2DF78D288F933DF13,
+	EasyARCameraImageRendererFeature_AddRenderPasses_m20A5BEDD0482FBE2E6B9DB7F4F62053E745A7CE7,
+	EasyARCameraImageRendererFeature__ctor_m17251CCF9AF2315F3ACB797213294556FEEC3A8F,
+	CameraImageRenderPass__ctor_m5B4F1084495D028FF000923C8B7C1BD07D22A4EB,
+	CameraImageRenderPass_Setup_m4AE12355D6DEAF5D371B9DCE423361B99CD2AE97,
+	CameraImageRenderPass_SetupTarget_m247847829865DF501A855033C92BC23E2155DD7A,
+	CameraImageRenderPass_Configure_m0DC28E83B7C9E348355A73F621FF9C6898EA5717,
+	CameraImageRenderPass_Execute_m655A0D28BA2B12A00ADA94C53467ADB7F445D162,
+	CameraImageRenderPass_FrameCleanup_m2424CA39841B11E1490C52F266127A4CF6A90F5B,
+	CameraImageRenderPass__cctor_m633367C003207997C53EF1ED3015674092EFBF68,
+	NULL,
+	Display__ctor_m638F6C87A738EF2174E467B6E3DA73A70007F0B9,
+	Display_Finalize_mA7DCD370DB360517A48F8BFB31E59EB76791F2FF,
+	Display_get_Rotation_m60E305599881A31BF545FBC71835F63FEC3FCF76,
+	Display_Dispose_m4AC5F077EBAD070CCE485D86E9E62B5833D720F5,
+	Display_InitializeIOS_mA0879FD01DAB767A002F40B3530AA2FFAAAC75D9,
+	Display_InitializeAndroid_m933C06CA64BE775C1D2FDC08FE8796F0350A74A6,
+	Display_DeleteAndroidJavaObjects_m8C1192E54A5DF766B945B16DC025371E707F5E7B,
+	DisplayEmulator_get_Rotation_m5E08F71C4A5FFB488E2589A208E6301798026CA4,
+	DisplayEmulator_set_Rotation_m8FB54B32051497A83C0CE0C04EEAFE8595EEF51C,
+	DisplayEmulator_EmulateRotation_mD78C64BD198F07CDB6D709ACA0A1E46D18FF9B67,
+	DisplayEmulator__ctor_m2E354D3E3217E5B913FE035B351E61279394E6DC,
+	ARCoreFrameSource_get_Device_mB802624820870324F80EF334DC9642CF87903AB4,
+	ARCoreFrameSource_set_Device_m9753CB07B43E0567E443251E94C751A215559688,
+	ARCoreFrameSource_add_DeviceCreated_m0CBF85271E170D520A42D92174EDA5C4DAEA3B8C,
+	ARCoreFrameSource_remove_DeviceCreated_m4E98F9AE113F468F9DE5A346F5FC4066A1F25991,
+	ARCoreFrameSource_add_DeviceOpened_m1A3CAA67800C11522BE2CC038078A1700BD3B79D,
+	ARCoreFrameSource_remove_DeviceOpened_mDB1BD19DFF5D0F0D7AC6AA18FF9F4439CACF160B,
+	ARCoreFrameSource_add_DeviceClosed_m0B6C727EDF2346F84F83B4386564A2770A280566,
+	ARCoreFrameSource_remove_DeviceClosed_mCC489C1F7FC84AA09DE605F304824EEF38EF64BC,
+	ARCoreFrameSource_get_IsAvailable_m9392DDD1F37ADEA111B2BCDAE2D01FD795A4A258,
+	ARCoreFrameSource_get_BufferCapacity_m525F9AA68E11E37FB58AD54AC6C0EED1D86B3AD3,
+	ARCoreFrameSource_set_BufferCapacity_mD35814A1049E9B94E34D9D3772E7AC1FB1D079D5,
+	ARCoreFrameSource_get_WorldRoot_mDA114B7DDF8CEF81B3D753594AE0B249FF14F76D,
+	ARCoreFrameSource_set_WorldRoot_m5EF6A56D0DB3C2CF0B22B122918295727BCE9257,
+	ARCoreFrameSource_get_Origin_mF3FB2C4BF95C638AD2E756B096C9BECF686CE694,
+	ARCoreFrameSource_Awake_mA095AB931D04261DC4E87A6367FE70D62B1C2EAE,
+	ARCoreFrameSource_OnEnable_mFFEFC66053BAF5CD02C1FFD04C0D7D9D65A123B6,
+	ARCoreFrameSource_OnDisable_m315312598F3A42D103FEDEDF6CB60813FC06CCA5,
+	ARCoreFrameSource_OnDestroy_mA956C4E20FF4E9AC9CC230A52DEE53B5E44843D5,
+	ARCoreFrameSource_OnAssemble_mDD27ECA1D274E928F4355766D2640D42BCF37A9A,
+	ARCoreFrameSource_Open_m0314E28128B2B0E39A9F1922A7F77C07B05A4011,
+	ARCoreFrameSource_Close_mF5E03895144F13C9505F77B38281FEA3E3710BB0,
+	ARCoreFrameSource_Connect_m2233E21736F0FB3ACF0E9333215C6A3D59F23B09,
+	ARCoreFrameSource_AutoOpen_mCCD5492252D92BD7E16DEAD5732FF0E913100125,
+	ARCoreFrameSource_SetupOriginUsingWorldRoot_mD3989807A52AE36BA9E53EFB18D1710526E2B051,
+	ARCoreFrameSource__ctor_mB0C964E63194B06D4D25158C330A8E63D6247912,
+	ARCoreFrameSource_U3COpenU3Eb__36_0_mFA68C2C9CE7F33B47163BFF789985BE6483BF458,
+	U3CAutoOpenU3Ed__39__ctor_m0DB472B5B8BD73CBBAD6968736090E53738CC913,
+	U3CAutoOpenU3Ed__39_System_IDisposable_Dispose_mA97C72F84CF63B692BA38E366A3E5FC2F92598F2,
+	U3CAutoOpenU3Ed__39_MoveNext_mAD82BDD554F688477693A66FF4487A0EB0F7192F,
+	U3CAutoOpenU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB9BC4842ECCDA94114C0AD4F123A9B89A72E9A33,
+	U3CAutoOpenU3Ed__39_System_Collections_IEnumerator_Reset_mA2D35E92F3A238BAA03C989978221875B6B6B156,
+	U3CAutoOpenU3Ed__39_System_Collections_IEnumerator_get_Current_m32038AB20AF92E37C1A5E858873E1728F7517F57,
+	ARFoundationFrameSource_get_ARSessionOrigin_m2A7B73E872B39FC0ED9819982B706F7C78BDEF7C,
+	ARFoundationFrameSource_set_ARSessionOrigin_mC4987BF164D3BE0AC4C8197637E032066B68A063,
+	ARFoundationFrameSource_get_IsAvailable_m4C056B794A8062F7BD473E3CD76EE469FABC07F7,
+	ARFoundationFrameSource__ctor_m66ADCF9A68D3CA9E711B4E04979728049A9394D9,
+	ARKitFrameSource_get_Device_m1BE29AA9CA3290E3FAB1D887107D642F96C634B1,
+	ARKitFrameSource_set_Device_mCC1BEE4CD9E02822311B7A7A327998EEF481E591,
+	ARKitFrameSource_add_DeviceCreated_mA2856FCFF04EB06889ADD9B9DF9E504B8AC897B5,
+	ARKitFrameSource_remove_DeviceCreated_m1E8BF38C88E1FEA827D7C7B61E4D9D9209BBAD4C,
+	ARKitFrameSource_add_DeviceOpened_m7DEFB1C68012F7F63C30371F1F375D7C86D4CEEA,
+	ARKitFrameSource_remove_DeviceOpened_m0FF92C28045991FC7C1311F7FD8C3B6440EA5E06,
+	ARKitFrameSource_add_DeviceClosed_m810FA7C4BD9669158BF2653B7E8CA2D30710B332,
+	ARKitFrameSource_remove_DeviceClosed_m0A77B08ACDC48F723D0A57E6667A272AA5EEE7B8,
+	ARKitFrameSource_get_IsAvailable_mA0F7F10817609F4BF82D3A964BB2129E18A4F319,
+	ARKitFrameSource_get_BufferCapacity_m744356A0C3708AC674E94B13309F6430C62F9907,
+	ARKitFrameSource_set_BufferCapacity_mAB5ACD78C9EF0A254EE72161781F8FB0A2F5A1FC,
+	ARKitFrameSource_get_WorldRoot_mBE08372A7C3F534FE9A8FA10CAA7B20AF9A34BF8,
+	ARKitFrameSource_set_WorldRoot_mAC0711D2A60566DC024AE71EDBB9CBDC6C01FFED,
+	ARKitFrameSource_get_Origin_m8F8075EACCD5EDAA7BD64254C154D1AF06DD2726,
+	ARKitFrameSource_Awake_mBFB699020F1BC7FD401C69DD97E1F494DBE71D23,
+	ARKitFrameSource_OnEnable_mCB1CA0D71FE11CB208895F301E145803679FF148,
+	ARKitFrameSource_OnDisable_mE991F10919B31F070CC275F2ECA39BDD60E2079E,
+	ARKitFrameSource_OnDestroy_mCAD07346D0A4B7BF8764B2521E10609426CB88F0,
+	ARKitFrameSource_OnAssemble_mB95EB60739E85053823BC10B808A5377D37B03F6,
+	ARKitFrameSource_Open_mF89D1BD1FE09FCA1B4EE90A86F631E27224434CF,
+	ARKitFrameSource_Close_m392F6AEF79E52FD366D0DCFB505ADAECC1086F65,
+	ARKitFrameSource_Connect_mA6F44D58AC20EFDCC293464A4CED31CBAF708670,
+	ARKitFrameSource_AutoOpen_mC41651BE0FAF06D67FCFA7D298F4713DDAC2AEC1,
+	ARKitFrameSource_SetupOriginUsingWorldRoot_mDC239D3ABE56E1E4280435B8CE00855F87ED1F70,
+	ARKitFrameSource__ctor_m52203E5C68FC320572B11D1CA06FE379996C0AC3,
+	ARKitFrameSource_U3COpenU3Eb__35_0_mF705645FF343C874719D782EE50CAC25B0164A50,
+	U3CAutoOpenU3Ed__38__ctor_mACDBAC5FA087457C07CF536E7959B1A2EE06AD68,
+	U3CAutoOpenU3Ed__38_System_IDisposable_Dispose_m52A7DDEBE410EBC6B7D007C2F74824A2722EE170,
+	U3CAutoOpenU3Ed__38_MoveNext_m6284285E9F63E7B033C222D14D050395EFAF88B7,
+	U3CAutoOpenU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m057B6EE817E7AAD5F1A4D2EC9934180A84E9C9B0,
+	U3CAutoOpenU3Ed__38_System_Collections_IEnumerator_Reset_m42E7C5EC2F71569FAD00A3BDB4A67A9E01E129C7,
+	U3CAutoOpenU3Ed__38_System_Collections_IEnumerator_get_Current_mAD96A44DD95046A08E8506DC750842184E4D6A95,
+	CameraDeviceFrameSource_get_Device_mFBF96962AC6D4A698F2F9586D28AF1654B7F0708,
+	CameraDeviceFrameSource_set_Device_mAE6594D620E64B812F45298BC08D47D7CFF736DB,
+	CameraDeviceFrameSource_add_DeviceCreated_m603CC11D9DF9A4C99B9BC1BBBFC79E3714EC704C,
+	CameraDeviceFrameSource_remove_DeviceCreated_mAA29A4F0A63520E0851E830FCF5C9A88D07D88D8,
+	CameraDeviceFrameSource_add_DeviceOpened_mC07B3BB07D1B47CC045B017E14C283A07C589F8F,
+	CameraDeviceFrameSource_remove_DeviceOpened_m4CA048D5C7E113E6B5548097B5EB4657A45B3171,
+	CameraDeviceFrameSource_add_DeviceClosed_m28B561E3C2AE255D7DD3DC2CA5A8B79B83D1F089,
+	CameraDeviceFrameSource_remove_DeviceClosed_mE294BFF392FA01445636A27F72AE52B76681BA40,
+	CameraDeviceFrameSource_get_IsAvailable_mB38C390E59A610B7B353BF84C287C1B9964862FA,
+	CameraDeviceFrameSource_get_AvailableCenterMode_m97876AC4988C9D6F2337EE6D3CD0DE9C586825F1,
+	CameraDeviceFrameSource_get_BufferCapacity_m85FADA48A373C166A15F3A39EE40D5CC48A24B4E,
+	CameraDeviceFrameSource_set_BufferCapacity_m234876E6BEF676A441B4DFC7A1509D9430A3417F,
+	CameraDeviceFrameSource_get_CameraPreference_mB05327374BAA6AB1AA5CF2AA8847F46916E9B578,
+	CameraDeviceFrameSource_set_CameraPreference_m4EC7688BBEEFA4BEAC67A02B121FC0A5BDAE0709,
+	CameraDeviceFrameSource_get_Parameters_mF6DD3EF25A8D7AADAC36BB9CF6C3EE455B8D5BB0,
+	CameraDeviceFrameSource_set_Parameters_mB55E857B8D1BAB01520ED2C7A6EFDBE231238F35,
+	CameraDeviceFrameSource_OnEnable_m03283B88EEB0CD4399114A8BA71E9C6775737692,
+	CameraDeviceFrameSource_OnDisable_m0AEA8D2A34EE4275F299B2060EE34B65739197EC,
+	CameraDeviceFrameSource_OnDestroy_m3F5EB9EDCE96E44115E5176B9D3513654C219BCF,
+	CameraDeviceFrameSource_OnAssemble_mD223E238E402A9DB083151D808907836E65A1D8C,
+	CameraDeviceFrameSource_Open_mE2216EE221BA2AE360C82DCEAF46D15F5C8A5C64,
+	CameraDeviceFrameSource_Close_m793AEC528A686677A144635A43D6169693D8C91F,
+	CameraDeviceFrameSource_Connect_m8819CE4AB52E5C836A04149DB902095260A0967E,
+	CameraDeviceFrameSource_AutoOpen_m3E902B9365FB5F95FA37E6EBDA50821E9BFE7ED0,
+	CameraDeviceFrameSource__ctor_mE6C35B41B398AB3F11D55A95EE4B1C300335A22F,
+	CameraDeviceFrameSource__cctor_m1517ABF90FB016BF7F4540518F2D54B7E8ABD9E1,
+	CameraDeviceFrameSource_U3COpenU3Eb__41_0_m3255FD896FFE68737A26392A0C1F7DD2124CC0AD,
+	U3CAutoOpenU3Ed__44__ctor_m76E7084CD9404D46BC267060E591FF50E9C2CBF5,
+	U3CAutoOpenU3Ed__44_System_IDisposable_Dispose_m8FF55E326E2C923C175710CA9944394C10DBD715,
+	U3CAutoOpenU3Ed__44_MoveNext_m1C85E2FA45C8D6801651DD209C3118816CDABC25,
+	U3CAutoOpenU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBE99ACC8BDCE4B92FC0FA60F910592E60C630655,
+	U3CAutoOpenU3Ed__44_System_Collections_IEnumerator_Reset_m64B724CFFDE84CBEB10C496494FAFD44A78BA0D8,
+	U3CAutoOpenU3Ed__44_System_Collections_IEnumerator_get_Current_m738990CC88B6937BAC40376556E5C43A9D2571F6,
+	HuaweiAREngineFrameSource_get_WorldRoot_m6C6DB8021433074E77379928EBD6A7258008D2E0,
+	HuaweiAREngineFrameSource_set_WorldRoot_mA450F39C15290A37D2D9813DF8F47BE4DA49D0AB,
+	HuaweiAREngineFrameSource_get_IsAvailable_mC309B7CBB93456A9E2F01050D9B231871AC03D17,
+	HuaweiAREngineFrameSource__ctor_mF82F915808BA92861A810C58D44BF896255A9905,
+	MotionTrackerFrameSource_get_Device_mC0E3FFC702FE8394DBEE46E8E26DFD9BD5D61518,
+	MotionTrackerFrameSource_set_Device_m1C93C53A2C9FAF376ED68836300E941B440091A4,
+	MotionTrackerFrameSource_add_DeviceCreated_m21D3F63B4F97BC1EC3B051283189AD81B1B92273,
+	MotionTrackerFrameSource_remove_DeviceCreated_m94031C02A19E8594DFD3C19B2510A51AA7B6D969,
+	MotionTrackerFrameSource_add_DeviceOpened_m8F5D512356A5E64659E2D544F4F93042E3EDD611,
+	MotionTrackerFrameSource_remove_DeviceOpened_mE5AF4AB7A982720B82EA79A430C06C1365FEFBFB,
+	MotionTrackerFrameSource_add_DeviceClosed_m449F250E83D8B2B30B29658F0359FAE35C7E2530,
+	MotionTrackerFrameSource_remove_DeviceClosed_m77A8292180FCBA846A448A52E74CB495FA502D7C,
+	MotionTrackerFrameSource_get_IsAvailable_m5C8EA316729774A5163771D168132988709DEA91,
+	MotionTrackerFrameSource_get_BufferCapacity_m041643749FBBEC59E2E9D9DE913377E69CBCD1E8,
+	MotionTrackerFrameSource_set_BufferCapacity_mA2315803750E9CF62BE690622150A21EDFA9B3DC,
+	MotionTrackerFrameSource_get_WorldRoot_m565C4739E69F2769D52580E2B35890F4B0B3893E,
+	MotionTrackerFrameSource_set_WorldRoot_mEC8083C225A67E3D0D1D46F7ACFF82702AFC42A6,
+	MotionTrackerFrameSource_get_Origin_m0D8090CD6DD170D6E0953CA81C2AFF39696B3C0E,
+	MotionTrackerFrameSource_Awake_mF2CB447EFE19FF2EE3BF9CB40A93AD3170CB685D,
+	MotionTrackerFrameSource_OnEnable_m3BDF8CA834343BA54A2F7CECB3771C6EC4E606CC,
+	MotionTrackerFrameSource_OnDisable_m678E4F5EDBA14F75C9CE4B1BA9BF54C10BE1B7AD,
+	MotionTrackerFrameSource_OnDestroy_m6B295A9279590FACA0C8F1359A60F914BF20EC95,
+	MotionTrackerFrameSource_OnAssemble_mAB9082D2697749A34CEDE2FA9CE284D775AA3FCC,
+	MotionTrackerFrameSource_CheckAvailability_mB4AD73CA1DB39613A2768912E39B5F090E4601D9,
+	MotionTrackerFrameSource_Open_m9439B2166854F4926B89B1E9D7D0ECB56B5EF79A,
+	MotionTrackerFrameSource_Close_mC8E7D0BC0B22354BD885A8540C3F475F69E1F41D,
+	MotionTrackerFrameSource_Connect_m6C754F4AE7E4B3049F31EC0F3940EDC03520616A,
+	MotionTrackerFrameSource_HitTestAgainstHorizontalPlane_mA57D0D72394ABB73C4ABD0FA961D14F57CC4F09B,
+	MotionTrackerFrameSource_HitTestAgainstPointCloud_mCA46991F2C22595C4FC61B21F6975FBAEAD7DF8B,
+	MotionTrackerFrameSource_AutoOpen_mB82B4E39600E4E3D8238B3A551E24E545A98FE75,
+	MotionTrackerFrameSource_SetupOriginUsingWorldRoot_mD34E4B28D8866C60E9CC481BA9BE246F8603C9B3,
+	MotionTrackerFrameSource__ctor_m88638CE5DB20220A3927EBF61FF0952BCC968446,
+	MotionTrackerFrameSource_U3COpenU3Eb__39_0_m615C5346B88CE0CAF29633443203DB23467C789F,
+	MotionTrackerCameraDeviceParameters__ctor_m5388411269A2A765305F09E3763D7A27BA52F0C7,
+	U3CU3Ec__DisplayClass38_0__ctor_m68F6713911E2F8A2AF8CDB418EFABFAC6853A454,
+	U3CU3Ec__DisplayClass38_0_U3CCheckAvailabilityU3Eb__0_m46555DBFC84BBAD0D68DD56A4B3437DA48E975FE,
+	U3CCheckAvailabilityU3Ed__38__ctor_m7FF5BA992100A91BF3111B047AAA3921E1C87BE4,
+	U3CCheckAvailabilityU3Ed__38_System_IDisposable_Dispose_m3DACECAC8DBF05F3FCE7023C0DB4A2A6D055F417,
+	U3CCheckAvailabilityU3Ed__38_MoveNext_m3287000DB6823FAC669549A678C4B1FF8A09CF28,
+	U3CCheckAvailabilityU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA5A014FE2E9D6E68E031891293F546AEC9199D12,
+	U3CCheckAvailabilityU3Ed__38_System_Collections_IEnumerator_Reset_m0DB7424E57EF7E2AB9283FE52DCFD1A0DFD521B0,
+	U3CCheckAvailabilityU3Ed__38_System_Collections_IEnumerator_get_Current_m6301AF5A5E425A2B5AAC654DAF0FB3B360F4D1A1,
+	U3CAutoOpenU3Ed__44__ctor_m3BAFAF2986F0CF83944AB4E494AA7FB2E5473A2F,
+	U3CAutoOpenU3Ed__44_System_IDisposable_Dispose_mA05858D17B25B0740F3E0229B343A9B333421C80,
+	U3CAutoOpenU3Ed__44_MoveNext_mFCF9A74FBF7BCC03F2990E908C2A43A017FE0806,
+	U3CAutoOpenU3Ed__44_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m86F7922C43930E340326D231B8CC96C9417CD688,
+	U3CAutoOpenU3Ed__44_System_Collections_IEnumerator_Reset_m9972C6825A2DAF91E940E08850E454F9FB1E67AC,
+	U3CAutoOpenU3Ed__44_System_Collections_IEnumerator_get_Current_mB3AE66D74940F3A6BDD2A4CEC2360C59BFD446BA,
+	NrealFrameSource_get_CameraRig_mF515686ED1419A201F2E8214C79E9B646DA2C8E9,
+	NrealFrameSource_set_CameraRig_m675353CD914B208469C2CFBCD1FE3CACEA5AD097,
+	NrealFrameSource_get_WorldRoot_m010CDC0E1AE85C0375483BDBE43B0888766FC5DC,
+	NrealFrameSource_set_WorldRoot_mDA106EDDA134511E2DF244D3038CF2657A712E3B,
+	NrealFrameSource_get_ReceivedFrameCount_m1A7C0D301FBF7AC4B8E5491180AADB4D2F9C8A3B,
+	NrealFrameSource_set_ReceivedFrameCount_m04A761CA553925874D07EF00AC9EC63B726CA2E8,
+	NrealFrameSource_get_IsAvailable_m5D9C30489F663AC95C4BF29A5A940B2D48FA8490,
+	NrealFrameSource__ctor_m3D4D1A232ECD4740D1E1C17A166DC77DD4961494,
+	VideoRecorder_add_StatusUpdate_m82A5B02394D08ABCC23202E2DB0E3F1B29649114,
+	VideoRecorder_remove_StatusUpdate_m0F08AF2F520D338A23B24B5617C4F07B1B8A6504,
+	VideoRecorder_get_IsReady_m414189B01158947BCA5F7DED787FA38BD8982C8E,
+	VideoRecorder_set_IsReady_mA77771EAB389C9CB84DBD6795376B977C525BA41,
+	VideoRecorder_Start_m6EF77A1A4382464B8CC578BC9DBD811A9380DAA8,
+	VideoRecorder_OnDestroy_m7DB34D430A69EF0C480A4D3F17EE19C91C6BF51A,
+	VideoRecorder_StartRecording_m8030EC559BE731F50CD973FB3A676F9949000634,
+	VideoRecorder_StartRecording_m02B3EC89BAB43054A250BF5A0D8C086381D83B0C,
+	VideoRecorder_StopRecording_m553456D346BCCAE32CD1815569300704A12088D1,
+	VideoRecorder_RecordFrame_m32A4F65299E43598CF2C1FDA21DC868D4BB7ECAB,
+	VideoRecorder__ctor_m5E6559EF22C8ED00D581DE499A1C5C236837717C,
+	VideoRecorder_U3CStartU3Eb__14_0_m8EA67892A46AB5094F20E06897B0DC2FC0FB08F4,
+	VideoRecorder_U3CStartRecordingU3Eb__17_0_mD5ED12BFBDF698E38A235230A14DF16F583A51D8,
+	EasyARController_add_PostUpdate_m00777E3BBCEC23E277D62D7C0728C83E05214A09,
+	EasyARController_remove_PostUpdate_m98199FF80F3ED1B5F905D3206F8DA1C522F86E7D,
+	EasyARController_get_Instance_mFD49136A56B9212987C8989B045D463D2841C295,
+	EasyARController_set_Instance_m1C4B1EA692AD86008173774711884ED72E531CE6,
+	EasyARController_get_Initialized_m935DB2BF2CE8CA548AC7782D9785A3277D1813FD,
+	EasyARController_set_Initialized_m78E6205970E7A81B0E2FE484774414F574DB525B,
+	EasyARController_get_Scheduler_m46B02E14B7D33AAC9E730B677FE1CA94A28955E7,
+	EasyARController_set_Scheduler_m9A5FF4CBE8F1D45C03FD5E5FC2C3AD974C61B7A7,
+	EasyARController_get_Worker_mC0CE2BCBC0B1A9D6DCFAAE303EED4615168DD253,
+	EasyARController_set_Worker_m084F9786B7042B40EA561AB6951A533C0AD506AE,
+	EasyARController_get_Display_mD2AA8A02E26BAAFDB4A7F496DB6FC075D6D3CEAE,
+	EasyARController_set_Display_m0658B989504C86624A8433731D3882D0642EB2B5,
+	EasyARController_Initialize_m8B22CCA107E1673E64267B8CF2468CEE18167725,
+	EasyARController_Initialize_mD09947280F1ED5686DD4C350DB51E754FB77862F,
+	EasyARController_Deinitialize_mF275433F866011FEF4C50635968A42E2B794D0D6,
+	EasyARController_AttemptInitializeOnLoad_mDCA6D82F56A9597A358598CEBB435DB7E91CA0FB,
+	EasyARController_Awake_m601519A5C76AB3524B9AD0D5053B65C1A87D4213,
+	EasyARController_Update_m85082B57E8C415B1B9FE2E880F2D3BED56730AA3,
+	EasyARController_OnApplicationPause_m62C2A18AE6C526BF0E0D1FD953D6EF9549475B24,
+	EasyARController_OnDestroy_mE6D2E57D8A0F5BF442D2C30EB769961F587E09DE,
+	EasyARController_OnDomainUnload_mA9642E9B44AC03E5322A4609C79FF65FF1C6FA8D,
+	EasyARController_ShowErrorMessage_m204C1B87EBD8DFB12C144853604AC4AD0177DE9D,
+	EasyARController__ctor_mDABC01DBECE8F9E38A722D4EAC4D94136E9555C9,
+	EasyARController__cctor_m9298F4BEC4CE577F6C0E16039A0BABFE6EE4E94A,
+	EasyARSettings_get_Instance_m68BACFA529C0DCF60767E7787A7A3182D8C69AE7,
+	EasyARSettings_set_Instance_m8AE5F4D451722AD3D46DBEE7ABA986E2C8EF944E,
+	EasyARSettings_Awake_m5460B65B70A6DA4588C42C4EB6E208AB582D8B85,
+	EasyARSettings__ctor_m4E81829EA86690ECA623878B0425EDB81248C5F9,
+	TargetGizmoConfig__ctor_m02AF7296C70852C866A18E0DE36A0CA219D0760F,
+	ImageTargetConfig__ctor_m7AC89A436AB197E26FA4A3999C37597FB60C61C0,
+	ObjectTargetConfig__ctor_m12DA781CC950FA5756AC34DD5F975DB22750E00E,
+	Permission__ctor_mF7FD74D660BF966E3302DF05F964CD37956B4851,
+	CloudRecognizerFrameFilter_get_BufferRequirement_m61ED01010C26E1FE242C646A46F9AB51ABCA9C48,
+	CloudRecognizerFrameFilter_OnDestroy_m7A1225B7CB0E6398036944E5416FA443CE0028D4,
+	CloudRecognizerFrameFilter_OnAssemble_m8D9932E714C473F875FEE8F35583C6009FFD7F29,
+	CloudRecognizerFrameFilter_Resolve_m7DBDE2696A616BDD19BDAE6F7C98E737A2FDD888,
+	CloudRecognizerFrameFilter_OnFrameUpdate_m58458D44937C6F68850080357CF64017481236C6,
+	CloudRecognizerFrameFilter_AutoCreate_m606DC8A31BB82B96FC0F6BFF911580A9CD4FE579,
+	CloudRecognizerFrameFilter_CheckRequest_mC06491E3A62BBE5AB22BA84D4473B23EE0C28CA2,
+	CloudRecognizerFrameFilter_NotifyEmptyConfig_m26969C3738B9C4803C13B71AF6243FD6F0A47A05,
+	CloudRecognizerFrameFilter_NotifyEmptyPrivateConfig_m7470361911BCCB7D9FA7C1B02AD81C308F99BF23,
+	CloudRecognizerFrameFilter__ctor_mD978B3A6E11E17707CCCA0A9A858D02F0C8BDEB0,
+	CloudRecognizerServiceConfig__ctor_mFCC69F49222B30F8652DD295C20777BE6E69CD70,
+	PrivateCloudRecognizerServiceConfig__ctor_m87A67BC3C46CC4F73B2CB8647290D9E7BBBEDC3F,
+	Request__ctor_mD6075734E30778A049C9FD391E6D7CBF706574AE,
+	U3CU3Ec__DisplayClass14_0__ctor_mD6771162042FB00F993607E35001ECD99E802F91,
+	U3CU3Ec__DisplayClass14_0_U3COnFrameUpdateU3Eb__0_mA23D6033EC1042F3CD3D8570C6D9090BE95D0A1E,
+	U3CAutoCreateU3Ed__15__ctor_mB1DCA8E02969AA4660BC569DFA5F359DFD22D6B6,
+	U3CAutoCreateU3Ed__15_System_IDisposable_Dispose_m64F5F366F504D605C1665389272A8B93E8890F4B,
+	U3CAutoCreateU3Ed__15_MoveNext_m48AE40CDFDE1A87AC0B4F16C459BA1AF5FED5021,
+	U3CAutoCreateU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m249913B381A2327EA7656802C3F3D89282710169,
+	U3CAutoCreateU3Ed__15_System_Collections_IEnumerator_Reset_m84F89FA67290DEA335F2B0A1C9113D6701706865,
+	U3CAutoCreateU3Ed__15_System_Collections_IEnumerator_get_Current_mC571AB893F5A23F4FA92FEF554D3A814DEDA11D8,
+	U3CCheckRequestU3Ed__16__ctor_m8A358626118CDD6FEA7953E5BF6C13C5DD75EA9B,
+	U3CCheckRequestU3Ed__16_System_IDisposable_Dispose_m63CC08F70F4ABD5729D7E7B262195A2BDBDE38AD,
+	U3CCheckRequestU3Ed__16_MoveNext_mBC609333EF05624FDF13F089F4E8F54677D1DE2C,
+	U3CCheckRequestU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCCA6140075ECF88226ECD4A160986E73075E19E0,
+	U3CCheckRequestU3Ed__16_System_Collections_IEnumerator_Reset_mCC4D9C7EC82CB25F7BD5F9E02BB00D4128FEB3F0,
+	U3CCheckRequestU3Ed__16_System_Collections_IEnumerator_get_Current_m29969A3417CD306871A477E3D0A541381AFD5F10,
+	ImageTargetController_get_Target_m51F32E8D1467745044F011BE80719C022258BC95,
+	ImageTargetController_set_Target_m02DC8AE90C9743C75D8502B044DA5B0EB3356E8A,
+	ImageTargetController_add_TargetAvailable_m937FA387361513207C8AAE979D13D797A0724EA2,
+	ImageTargetController_remove_TargetAvailable_m0558BAFEE1A42D0DD63F37DB135286DBAF74E199,
+	ImageTargetController_add_TargetLoad_m91633BAF45092ADF09E6F663EF292B891ACC505C,
+	ImageTargetController_remove_TargetLoad_m310D54B475130460865992875BCCC8A3C6A11F3C,
+	ImageTargetController_add_TargetUnload_m118D9AE2DAB3F7F26C90A3D4B3F7E647503CDCF9,
+	ImageTargetController_remove_TargetUnload_m7C7C2CCE318D0CF8115CE778AB0227E18E560556,
+	ImageTargetController_get_Tracker_mC362601661B2A96E13FAC68FF2B09E0946BF9E73,
+	ImageTargetController_set_Tracker_mA9CCBB114C5479A0679FEF22A74B67DB9D1AD26B,
+	ImageTargetController_get_Size_m81B778F198A8854934002A378CB53FF3A6D50225,
+	ImageTargetController_set_Size_mA93F24B229CA629BA077580ECE3A53A76D1CC1F8,
+	ImageTargetController_Start_mBD0CBD1B20D1249267C0A5D44268EE31020ED5FD,
+	ImageTargetController_Update_m84653120D4AE5517F8225CEA13EEC106AE8866E5,
+	ImageTargetController_OnDestroy_mB3E0CBA4BBA1427E4F352EC02FE87B9B8D55E9FE,
+	ImageTargetController_OnTracking_mAD21A55082EA4D5888D5C820BEF549228E75779D,
+	ImageTargetController_LoadImageFile_m0C96CA4B52C406C7E6E43C118DBCC8A4E65EC484,
+	ImageTargetController_LoadTargetDataFile_mAA4A193BCEFA50F50A6581482E302325551EAD2F,
+	ImageTargetController_LoadTarget_mF5B64EE4AED15B3DD9A209046D6B7BCC8CC622D0,
+	ImageTargetController_LoadImageBuffer_m7F9B49796221F397B3DD20951D026A9C61255743,
+	ImageTargetController_LoadTargetDataBuffer_m77A49E66DE709773C4D9010C6C32B6F7B0719AEC,
+	ImageTargetController_UpdateTargetInTracker_mA8685BBF994D73477605C7A03D93BE17304DF5A9,
+	ImageTargetController_UpdateScale_m8CB7C3BBFF1AAC4589F22B56D9B843C29F8FF489,
+	ImageTargetController_CheckScale_mCE751A9504DDF5A8C08D9516D98674A030375D6B,
+	ImageTargetController__ctor_m004DC8AA0E97C9147CFCF146D8DD207538FB052E,
+	ImageTargetController_U3CLoadTargetDataFileU3Eb__35_0_m88987798ABB5ADF18A83E7627783F501F871E491,
+	ImageTargetController_U3CUpdateTargetInTrackerU3Eb__39_0_m1939D3182BBC11CF34DDC6687AFEEC1C11BB1E08,
+	ImageFileSourceData__ctor_m1FC12618D065F916C968FE7C694746EDBE03D2A8,
+	TargetDataFileSourceData__ctor_m55BE27C785B522450B12B613325E49C7731E0055,
+	U3CU3Ec__DisplayClass34_0__ctor_mEEE0EA8D94387806F61F425BA6D79A5198333424,
+	U3CU3Ec__DisplayClass34_0_U3CLoadImageFileU3Eb__0_m616BBCE47ECFA27A653B3C807DBDE783579D6A78,
+	U3CU3Ec__DisplayClass37_0__ctor_m55CAEE5D05CF2B1BC1FC759F1151DBD249384AD0,
+	U3CU3Ec__DisplayClass37_0_U3CLoadImageBufferU3Eb__0_m908DA97E0CF44CBB4DB8084D116E2908C745EFC8,
+	U3CLoadImageBufferU3Ed__37__ctor_mAD7298F8B7F8975D392A33A3A50D7668B26F0879,
+	U3CLoadImageBufferU3Ed__37_System_IDisposable_Dispose_m220F5BF09CE799351978CCE59ACD8830C3B20157,
+	U3CLoadImageBufferU3Ed__37_MoveNext_m6CE2A3E85D2046407EBBD691BD999143B17EDE78,
+	U3CLoadImageBufferU3Ed__37_U3CU3Em__Finally1_mBBC56EA8BC7B9C5F6A816F48197E78B10EDE72FD,
+	U3CLoadImageBufferU3Ed__37_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1571018AEBB7D7FDD8CBE5AC34A28E6AD12BC832,
+	U3CLoadImageBufferU3Ed__37_System_Collections_IEnumerator_Reset_m96AA7FEF3DC081296374215C27A186598DCF0D7D,
+	U3CLoadImageBufferU3Ed__37_System_Collections_IEnumerator_get_Current_m79D4068A594A4DE4C1D8CC210962989F48C356E6,
+	U3CU3Ec__DisplayClass38_0__ctor_mDBF0C8B30A87E3FB11A4E0B5216F4257C35B4E79,
+	U3CU3Ec__DisplayClass38_0_U3CLoadTargetDataBufferU3Eb__0_m2CB1073B8B676B783FDFB32C1D1F14F08AE734B3,
+	U3CLoadTargetDataBufferU3Ed__38__ctor_mB97520DE4D20C4DB13475167C96FFDE7BA1956CE,
+	U3CLoadTargetDataBufferU3Ed__38_System_IDisposable_Dispose_m90FB65BC91CC7E1EA14679CC2B5A663B991729EF,
+	U3CLoadTargetDataBufferU3Ed__38_MoveNext_mF7EF73B52308C200F0A2A9930FC26ECB998FA076,
+	U3CLoadTargetDataBufferU3Ed__38_U3CU3Em__Finally1_mD671D788B0E9E550EB045FEBA1688343E7177F65,
+	U3CLoadTargetDataBufferU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0D9AB50CF422D2AB69329C3A13EA09A711BCEE92,
+	U3CLoadTargetDataBufferU3Ed__38_System_Collections_IEnumerator_Reset_mE7AAF6C8ED5FF484E0638E28FF075939FF70B1E7,
+	U3CLoadTargetDataBufferU3Ed__38_System_Collections_IEnumerator_get_Current_m209A42BD82B9B9817C0D0FCDADBEBDB2D249248B,
+	U3CU3Ec__DisplayClass39_0__ctor_mBD5D59053BEF1610917495065283499B4E3CA842,
+	U3CU3Ec__DisplayClass39_0_U3CUpdateTargetInTrackerU3Eb__1_m028FA0DB06BF9BE40C859E47761473ADABCF4D44,
+	ImageTrackerFrameFilter_get_Tracker_mD35CBEDB7003023C3A0492EA90098A6677875AAD,
+	ImageTrackerFrameFilter_set_Tracker_m22F80D8B8C22D223F4C38612B2C0BE20D5D3846C,
+	ImageTrackerFrameFilter_add_TargetLoad_m1BC28A46E4BFD888FD8B828DA242226B5B5A4520,
+	ImageTrackerFrameFilter_remove_TargetLoad_mAFD90E2E92CE785FBCBF7B6FE501CE9061490953,
+	ImageTrackerFrameFilter_add_TargetUnload_m7A46334F1E5B386098F2A8936B5EF6B18807B426,
+	ImageTrackerFrameFilter_remove_TargetUnload_m14DA555B7D9A8C981840FC4050D2322A1D7DC4CD,
+	ImageTrackerFrameFilter_add_SimultaneousNumChanged_mA65F772F18A27A613DED284D48B830694EB66E83,
+	ImageTrackerFrameFilter_remove_SimultaneousNumChanged_m612F1CE2F0FD49A876063DA51F5468A83B2AE710,
+	ImageTrackerFrameFilter_get_BufferRequirement_m93C5CC941CFE7C3FBCB2471FC5C1BB7F2C197635,
+	ImageTrackerFrameFilter_get_SimultaneousNum_m7E1117AC138AE194DF048CD1A260B7225ED06615,
+	ImageTrackerFrameFilter_set_SimultaneousNum_m85D85FBB0B69D08BF61A5BF45376983C613CD3AD,
+	ImageTrackerFrameFilter_get_TargetControllers_m6313B7C8605D2C92100F567EF5BE221110CC327C,
+	ImageTrackerFrameFilter_set_TargetControllers_m079F6F6DE3E01AE9898876D9FC55E8D53F86BB68,
+	ImageTrackerFrameFilter_get_EnableMotionFusion_mC4D52F28714ABED973C7CF6FC70E7D974CC4ACCC,
+	ImageTrackerFrameFilter_set_EnableMotionFusion_m111F851A26E20E66E83F4BDE93E32D525E27884E,
+	ImageTrackerFrameFilter_Awake_mDE685EA4923DF83CEEB77ABDF134312F1CC340A2,
+	ImageTrackerFrameFilter_OnEnable_m1127574FBB5E43B9AFFD4291E033A246B9CE44D5,
+	ImageTrackerFrameFilter_OnDisable_m180E1689FE4B350945F5DB08DBBC48750A14E11D,
+	ImageTrackerFrameFilter_OnDestroy_mBC043F5929C3C4ABC49C35CCE7625D27CAC1BFD7,
+	ImageTrackerFrameFilter_LoadTarget_mCF99432D1E37FDB493795B7B9AAE59E7EC02BAD0,
+	ImageTrackerFrameFilter_UnloadTarget_m3DF61D5F6672C7B66936062F0C5214B2F4A80641,
+	ImageTrackerFrameFilter_FeedbackFrameSink_mA86D903FC35C37A8F7A87AE092CFD7140EAFC663,
+	ImageTrackerFrameFilter_OutputFrameSource_m41EA1D49D255DF5950DE6467826F7EE3716BDD24,
+	ImageTrackerFrameFilter_OnAssemble_m91583CA9B01C6561013AF899E9BCDBA655DD19EA,
+	ImageTrackerFrameFilter_OnResult_m9EEE9F72A95FB8A6C43169B1A371912DCD9A4069,
+	ImageTrackerFrameFilter_UpdateMotion_mFCE6D67688E076BEEC2FF37CE9E6473235211076,
+	ImageTrackerFrameFilter_TryGetCenter_m43D74ED575255655F9B44A82C9C90A563A4080C6,
+	ImageTrackerFrameFilter_UpdateTransform_m81391CE52554A3863BF61AA31F1ADFF755EBA285,
+	ImageTrackerFrameFilter_LoadImageTarget_m1913C46E1811F7617F711317DEE0849AD59B56F1,
+	ImageTrackerFrameFilter_UnloadImageTarget_m140DDFA97B4C5CE3D2D0DF57B16BC7417236D115,
+	ImageTrackerFrameFilter_OnHFlipChange_mADC44897088650649AADE000EA05EDC6C37E221F,
+	ImageTrackerFrameFilter_TryGetTargetController_m0229449EC763B1A249355AB021F3B83BA12C13D6,
+	ImageTrackerFrameFilter__ctor_m9DA1119CF91ACED35ADC96600D9719EA2741AA93,
+	U3CU3Ec__DisplayClass45_0__ctor_m92CAF5411A261422786A56EE1CF56A765A55E3E2,
+	U3CU3Ec__DisplayClass45_0_U3CLoadImageTargetU3Eb__0_m871082FDED8C1C322C4E3F7850229AF4438236CD,
+	U3CU3Ec__DisplayClass46_0__ctor_m6A170CAF1B2D0FBBD4924F9960EDBBD62EABCC4B,
+	U3CU3Ec__DisplayClass46_0_U3CUnloadImageTargetU3Eb__0_m3A36235677BB21F9BDB9A894407FAE5B61C64041,
+	ObjectTargetController_get_Target_m68ACD08B1961274389988847AB9C00725BF35FD1,
+	ObjectTargetController_set_Target_m424F61A0D108DF516FFB4DCA198F9C1C99382AD6,
+	ObjectTargetController_add_TargetAvailable_mDB6CB23F244357819D1FE55ACAA862C5F7E7AC3D,
+	ObjectTargetController_remove_TargetAvailable_mE4C4922BD29D938A4ED7EAAF8C67E9846BC58B90,
+	ObjectTargetController_add_TargetLoad_m8C34E94866C0354A070331B5FE1C383828C8AF57,
+	ObjectTargetController_remove_TargetLoad_m68F1BC759DB4442876C76409E2151900F734AFD1,
+	ObjectTargetController_add_TargetUnload_mA40853B603DD443FDA0461573E438DC5C7C92880,
+	ObjectTargetController_remove_TargetUnload_mD48E24CF0DF5650607A67D2252CBF76AC5BA540F,
+	ObjectTargetController_get_Tracker_m29D2CE3DE8759D95F3F6B57A86AFF0CF0FDE1229,
+	ObjectTargetController_set_Tracker_mED9D067AF53EC65C87BD58724F9936358BD50FA2,
+	ObjectTargetController_get_BoundingBox_m18B19F8D01A4AAC4C7E41419E378F6C8F34EC0B6,
+	ObjectTargetController_set_BoundingBox_m6937B54CB4E041EF3ED39064F1DFF8C9DD66C646,
+	ObjectTargetController_Start_m4E08F934430E37B3A02BD5E627E9F258907EB484,
+	ObjectTargetController_Update_m823545DFFF6AA22E835D0B278F60EC618F131144,
+	ObjectTargetController_OnDestroy_mDA1A1567AD6ADC1868769975FD35AABD3EC78C55,
+	ObjectTargetController_OnTracking_m55DBEBD245EEB008451E6571BCFF7ECFCD9B5E18,
+	ObjectTargetController_LoadObjFile_m514FEFFD00E8C964D18C691BD967457BCB14489D,
+	ObjectTargetController_LoadTarget_m97DE83C58022ED98AC330EE99C7D9E1755FA4B69,
+	ObjectTargetController_LoadObjFileFromSource_m161EED430F897AD636667F7AC73B7DE66863408B,
+	ObjectTargetController_UpdateTargetInTracker_m7AF46A415F20D4DBC79E9BEA4C79285C50F690BE,
+	ObjectTargetController_UpdateScale_mA2481965F25B0A906118374F27983B633BB4A580,
+	ObjectTargetController_CheckScale_mE6107D0B643C1CBFD33975A732FC7238F4A5632A,
+	ObjectTargetController__ctor_m1270AF020C533B6959296716657551F9D2372370,
+	ObjectTargetController_U3CUpdateTargetInTrackerU3Eb__36_0_m0EF159A0FF2AE08CB8BF9B968078DDF984A01EA9,
+	ObjFileSourceData__ctor_mED731E21ED70A57C221B8DF9B1E97CB62C727E01,
+	U3CU3Ec__DisplayClass35_0__ctor_m323041982EBA8DC1686D8FE149F6BDBB8927189D,
+	U3CU3Ec__DisplayClass35_0_U3CLoadObjFileFromSourceU3Eb__0_mE5F673C4D64B19EC30C413B5A6823213E9E97D48,
+	U3CU3Ec__DisplayClass35_1__ctor_mED4C324C78D20DF2135734FC2FA54EB9741D639E,
+	U3CU3Ec__DisplayClass35_1_U3CLoadObjFileFromSourceU3Eb__1_m5EC928183F73FC2E7A0A446D40802BA367A1E1B9,
+	U3CLoadObjFileFromSourceU3Ed__35__ctor_mDBAECBF92D75C2CA4451954AA55633799D71C4EF,
+	U3CLoadObjFileFromSourceU3Ed__35_System_IDisposable_Dispose_m26A87B842EF470403700866A04505F3B8AE37116,
+	U3CLoadObjFileFromSourceU3Ed__35_MoveNext_m9E981AC03B97301ABFD11A06280ABE477C27D18E,
+	U3CLoadObjFileFromSourceU3Ed__35_U3CU3Em__Finally1_m5D896F038C6263FE2A76C7EFCBC9F9046AEC41E5,
+	U3CLoadObjFileFromSourceU3Ed__35_U3CU3Em__Finally2_mA935AA5C1A3AADD316BFF934C98E7FFE781FD868,
+	U3CLoadObjFileFromSourceU3Ed__35_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA26CEDF7C5181138F1B920F9D90A7A6DD3A6D3AE,
+	U3CLoadObjFileFromSourceU3Ed__35_System_Collections_IEnumerator_Reset_m4FD824F7F01FB0E3832B920F9B432A593145D480,
+	U3CLoadObjFileFromSourceU3Ed__35_System_Collections_IEnumerator_get_Current_m4B6543D28012C97259D791AF30A751CEE2E3ED73,
+	U3CU3Ec__DisplayClass36_0__ctor_m5C414A2844BCF166ECE0BA531F0CB053FF112608,
+	U3CU3Ec__DisplayClass36_0_U3CUpdateTargetInTrackerU3Eb__1_mE03F83BCC6599AE5A2EB68C9844365A937187919,
+	ObjectTrackerFrameFilter_get_Tracker_m92A32BAE08944E46F323C122E3C416CFC0F2D1C9,
+	ObjectTrackerFrameFilter_set_Tracker_mDE4337E7800351B90461D568A32505738AC842A1,
+	ObjectTrackerFrameFilter_add_TargetLoad_m072EBAF8C1D02A417A8B0AE8CF3DCF9C48472750,
+	ObjectTrackerFrameFilter_remove_TargetLoad_m84F18892E2982A9F4FC20CBBE32B19C33CF27795,
+	ObjectTrackerFrameFilter_add_TargetUnload_m6956A25317D1BF0306138308877577B6ECC51585,
+	ObjectTrackerFrameFilter_remove_TargetUnload_m768F101F6B980D24CDB3AB322D4D6B2622AFF033,
+	ObjectTrackerFrameFilter_add_SimultaneousNumChanged_m36A394540186BB9353C41417652FC0204490C208,
+	ObjectTrackerFrameFilter_remove_SimultaneousNumChanged_m853EA424C508DE986F70321CF822FB35B09814C4,
+	ObjectTrackerFrameFilter_get_BufferRequirement_mB97710256FD0511E1EFBCBE7764A4532EA377556,
+	ObjectTrackerFrameFilter_get_SimultaneousNum_m8C0A051FA03C851FFCE6003DAE5D722B61043D39,
+	ObjectTrackerFrameFilter_set_SimultaneousNum_mC767D106DFDA4B732C1C96E2FB9378B6D05C6BB0,
+	ObjectTrackerFrameFilter_get_TargetControllers_m31872F2D91399332A2264657AE5BC552E52A3702,
+	ObjectTrackerFrameFilter_set_TargetControllers_mD459B0E195D9BE18B9211348C716C0DA5E0C4B9D,
+	ObjectTrackerFrameFilter_get_EnableMotionFusion_mAEA63F43FBADE6433BD974C85BDF8FED34C759CB,
+	ObjectTrackerFrameFilter_set_EnableMotionFusion_mFB0B1056018F90972B7FA5901DF0F616D8507432,
+	ObjectTrackerFrameFilter_Awake_m28F9BDDBBC93F5E4C79BC39D611F7C337F325B3F,
+	ObjectTrackerFrameFilter_OnEnable_m69BA15DB8CFC43D98ACC442EC12D9520C24D704C,
+	ObjectTrackerFrameFilter_OnDisable_mE69CE7942751186A0A38D607C5820D5D3632D703,
+	ObjectTrackerFrameFilter_OnDestroy_m3BF9BE4808FA353ECB45E8FCD07C57C752935316,
+	ObjectTrackerFrameFilter_LoadTarget_m19D567DFEAD310E65C64BE2F22984F98645B7721,
+	ObjectTrackerFrameFilter_UnloadTarget_mA21E310D46AD0AE128DE47A6A492EEB1C1E944C8,
+	ObjectTrackerFrameFilter_FeedbackFrameSink_m8AD59ACACCEA6BED01AB4677348BBC0CDBC437DC,
+	ObjectTrackerFrameFilter_OutputFrameSource_mB62B684E34CAB6A7D4EDF15B463CB948CBB7BDA2,
+	ObjectTrackerFrameFilter_OnAssemble_m07B45196243F59C6D9C9C0D6BF3ACEC857C57911,
+	ObjectTrackerFrameFilter_OnResult_mD02B9176B371950DEF1BE793B354688494688FBB,
+	ObjectTrackerFrameFilter_UpdateMotion_m48704AF84E56D44F136C4E9526E5F506795FF88B,
+	ObjectTrackerFrameFilter_TryGetCenter_m8769C189054B7453B94194655CFFFFC560CD9E7B,
+	ObjectTrackerFrameFilter_UpdateTransform_m64FB4B279A1BF9664C522D1B23E6024A381AA554,
+	ObjectTrackerFrameFilter_LoadObjectTarget_m864D67FB3A7A21BB63350049CCAAA6047D0EAE28,
+	ObjectTrackerFrameFilter_UnloadObjectTarget_m28716FD90A62AE918D74EC84644C1B1CF420851D,
+	ObjectTrackerFrameFilter_OnHFlipChange_m0F38AD0D30D55402EFE57F98F864A83C9704BEC8,
+	ObjectTrackerFrameFilter_TryGetTargetController_m490FFE0027A76CFE009D4429A198A9D02DAED842,
+	ObjectTrackerFrameFilter__ctor_mC60BF6D3B71CFF3767EF7956DC78B22118837796,
+	U3CU3Ec__DisplayClass44_0__ctor_mBDE4631C1B7528AC844052FC66EAACC1F03D76A9,
+	U3CU3Ec__DisplayClass44_0_U3CLoadObjectTargetU3Eb__0_mBD991C50454EA761F83E9A5652F31B88C7451290,
+	U3CU3Ec__DisplayClass45_0__ctor_m5CC9EA0B63B33EBC09D7F8E7C05FA717D3FC92FD,
+	U3CU3Ec__DisplayClass45_0_U3CUnloadObjectTargetU3Eb__0_m01A7DF7B3CCBC4EA1F9DEAA93C19019875193343,
+	ObsoletePrefabNotifier_OnEnable_m177908BC00FE2AA47DB3BAC2989F33003C9924A4,
+	ObsoletePrefabNotifier__ctor_m6AA6AB1C6D7CF76FCAB9FA3E5E8D73B629B73D66,
+	VIOCameraDeviceUnion_get_Device_mFA83E8EF045F503B4A3DF2E1CB625C343A6F3218,
+	VIOCameraDeviceUnion_set_Device_m840F8C2035DC3F1DC370F13B8B0E57732344C8F4,
+	VIOCameraDeviceUnion_add_DeviceCreated_m8173B6FA4F5A390B11D95C6EAD02E8379BA74F54,
+	VIOCameraDeviceUnion_remove_DeviceCreated_mC6E37FF807F3B668F8A52E75C2C7BA58A0DCBF6B,
+	VIOCameraDeviceUnion_add_DeviceOpened_mF5F418880E4C61747A8F8112E89071A166EDC024,
+	VIOCameraDeviceUnion_remove_DeviceOpened_mE756A1F4510EC2A3EF1970A1491203D8510BD007,
+	VIOCameraDeviceUnion_add_DeviceClosed_mC7789887E339B8F2BF48BED184614DD5457C0531,
+	VIOCameraDeviceUnion_remove_DeviceClosed_mE1E333047F9F4B20FE8E51109E3137AFBC863E19,
+	VIOCameraDeviceUnion_get_IsAvailable_m8EB1C42B654A9CA4AD7367D13881A2CA937E1829,
+	VIOCameraDeviceUnion_get_BufferCapacity_m208E41EEA8DCAC75245822F24BC03D6EFF366FB1,
+	VIOCameraDeviceUnion_set_BufferCapacity_mD08CAFCB38736B5A1BAD8F61D36B5E9B285B51E5,
+	VIOCameraDeviceUnion_get_WorldRoot_m7EE787C12B0A2D5A42274C182578C99FC7BF718C,
+	VIOCameraDeviceUnion_set_WorldRoot_m62C1D0816BC9CBE8FA83A0313ED4F2B823748F9E,
+	VIOCameraDeviceUnion_get_Origin_mEAD692C2099D1F389CF7746CD319D36B6F7A0633,
+	VIOCameraDeviceUnion_Awake_m853098ADA576A8DBF42314EAD2AE55490163DD0F,
+	VIOCameraDeviceUnion_OnEnable_mEA2EE77FE9F8756B7E390C47C49B5952082476EC,
+	VIOCameraDeviceUnion_OnDisable_m6168C86BC0A90D54FBD576D2122353DEA701AB96,
+	VIOCameraDeviceUnion_OnDestroy_m1850526D0ABC4ED80903E3AF568658E22B8FB58F,
+	VIOCameraDeviceUnion_OnAssemble_m642583715A58E0EC5CD561409D315330CA961AF8,
+	VIOCameraDeviceUnion_CheckAvailability_m99BB54996772A8B58538D77CB7E5127BEF35F85C,
+	VIOCameraDeviceUnion_HitTestAgainstHorizontalPlane_m513A87FCC57F62E7AEA708AD577CAA58543E24C3,
+	VIOCameraDeviceUnion_HitTestAgainstPointCloud_m9F8AC20B7EBD7A13757F40C03675918B280B5EA3,
+	VIOCameraDeviceUnion_Open_m1025253815BF17EF047F0AB7AB6E55E0AB86090E,
+	VIOCameraDeviceUnion_Close_m8B694397E7FEF145585424012C02A7785398FA10,
+	VIOCameraDeviceUnion_Connect_m8D3A4E5E22F5C04A888C2AC162537DE5412D76FF,
+	VIOCameraDeviceUnion_CreateMotionTrackerCameraDevice_m5538D6B4DA6C2A284CBF4F7C3A4FBE84D806E635,
+	VIOCameraDeviceUnion_CreateARKitCameraDevice_m20950702C1BC46A565A0172854557B927205CC04,
+	VIOCameraDeviceUnion_CreateARCoreCameraDevice_m767A8D655251154A2E0292CBAAD459DD2A31E82F,
+	VIOCameraDeviceUnion_AutoOpen_m2320177C38C8DDFCCA72242ED76B793BA9419997,
+	VIOCameraDeviceUnion_SetupOriginUsingWorldRoot_mF0989FC52DEC3A228D0DBD05655276AA97AAE8FD,
+	VIOCameraDeviceUnion__ctor_m32E07CEF426EC6E22DCFEEEE239E8728E20BE9E6,
+	VIOCameraDeviceUnion__cctor_mCDB035E2C735C45E019D07986343995760F2B719,
+	VIOCameraDeviceUnion_U3COpenU3Eb__52_0_mD6ACA52D1F1D765A42458B358A6C4592F3E0F119,
+	DeviceUnion__ctor_m91D7599D3BBD4B9D67FEAAF42679B9EEEE276229,
+	DeviceUnion__ctor_m6B917AFC3FFAAD7B1F403ADF9D9D0EA3EA3B2D11,
+	DeviceUnion__ctor_mA7EB5749B006C31947F07E5A4D71943E8518154F,
+	DeviceUnion_get_DeviceType_m5A46E0DF928A2AB558B1A614B99623CB7634E6A1,
+	DeviceUnion_set_DeviceType_m02336E185348C8C97F1B7B134F215A7A8E768701,
+	DeviceUnion_get_MotionTrackerCameraDevice_mF8D24938E5E967B0DF8B0314AB1717CD25505978,
+	DeviceUnion_set_MotionTrackerCameraDevice_m03E5030A20A5E8980F167550645C422829143DE2,
+	DeviceUnion_get_ARKitCameraDevice_mA845CB37F2636F555986E2503B7D1BF123902446,
+	DeviceUnion_set_ARKitCameraDevice_m2896864B2976F74D893556C3A92278F29B391153,
+	DeviceUnion_get_ARCoreCameraDevice_mC5000824A08E0A6CB76F0CA50B8259AD60ED3AB2,
+	DeviceUnion_set_ARCoreCameraDevice_mF517223BD16736DC91BE0621ECE3DA7CF3B996B8,
+	DeviceUnion_op_Explicit_mAC7182BAD6C57AC4E396CC6ECC46A2420E96FE06,
+	DeviceUnion_op_Explicit_mE2A9B7E4A97D60EE3CDE65C44E50A3652B4FE308,
+	DeviceUnion_op_Explicit_m68D49DF6256FEA270866B41945B51F7183EBA6DE,
+	DeviceUnion_op_Implicit_m8869B8479DE139FAA2F96551AC6943BAB9BC5371,
+	DeviceUnion_op_Implicit_m65996D0FD2D7B4C28828D15757CB109994D7ACA7,
+	DeviceUnion_op_Implicit_m0029E402A88E24939B732BFAC133DC46AF0AB057,
+	DeviceUnion_Type_m2F2F0EF03A8360996DAF2FCE56D2FB4CCF79CA76,
+	DeviceUnion_ToString_m0DA63FA086F4AC7CDCC3667F7DA05B0B7650497C,
+	MotionTrackerCameraDeviceParameters__ctor_mF8785BB2DC350F0A95CB04BB395EF8B571EA571E,
+	U3CU3Ec__DisplayClass49_0__ctor_m91ECE52B3265C1E2FFE285477929E296AC082603,
+	U3CU3Ec__DisplayClass49_0_U3CCheckAvailabilityU3Eb__0_m323200DA02808A6A38A1F5C5281E9DDBD68773D1,
+	U3CCheckAvailabilityU3Ed__49__ctor_m5ECDFD62746D74C5A84A01D07D1B9C9AAEA48825,
+	U3CCheckAvailabilityU3Ed__49_System_IDisposable_Dispose_m3B3F6FF62E68395E0D9EC229FD7AB173022FE39C,
+	U3CCheckAvailabilityU3Ed__49_MoveNext_m2081A0F35746FFF5972FDD0047EDE94EAAAEEBFE,
+	U3CCheckAvailabilityU3Ed__49_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9A3C120FAAFDD7E86878C7D14E8A4D186E150692,
+	U3CCheckAvailabilityU3Ed__49_System_Collections_IEnumerator_Reset_m2FD68951EE420A6CFEF676A9085D8E0A200C8016,
+	U3CCheckAvailabilityU3Ed__49_System_Collections_IEnumerator_get_Current_mB4BEE271B9DE1911FE82F3804D8C7F6B149294B1,
+	U3CU3Ec__DisplayClass55_0__ctor_m0CDAA85A4174C00F5AA05CB20C2FECA1118D6200,
+	U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__0_m99FAF5101F97E957B9E02D20C8B912630C3D94AA,
+	U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__1_m33732EFFDAAA31972E918CF730F4DF3CFB0A29AD,
+	U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__2_m4CBE60B3B33AE50B992877620B10ED79A6029E90,
+	U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__3_mEE012BEC5DD046B0D75590A71EEB5F57BBD0D878,
+	U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__4_mAC27636AC0B932A57F89AF9CDEF4344B34B38B1F,
+	U3CU3Ec__DisplayClass55_0_U3CCreateMotionTrackerCameraDeviceU3Eb__5_m048DC4C503AFA5EB82A82B50157B0A75452E7C2C,
+	U3CU3Ec__DisplayClass56_0__ctor_mB4D06BBAFADB7DFF777D966D3567C3862AE4AE62,
+	U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__0_m314A55831D6119FA90245E157D41DFE8E6096117,
+	U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__1_mCB259ABC520CB2C8783D651C582C3CDF790D04C7,
+	U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__2_mBB6561561F306F23335BC29859F36AD83F5A5D4C,
+	U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__3_m8F1983EDD1AEDF4C494003C76E510D8AB9324F04,
+	U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__4_m20AF51E1D93FCD3D3910B7383F041741BABD0BFB,
+	U3CU3Ec__DisplayClass56_0_U3CCreateARKitCameraDeviceU3Eb__5_m466480BC16D31C8A712850CDAF4F77FD352133F9,
+	U3CU3Ec__DisplayClass57_0__ctor_mD1AF8DD1BC98CF2457998AB269E89B90B4E86097,
+	U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__0_m451A54476A4B91057ECDA0D0465D1C7BCEAF7E37,
+	U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__1_m02FBF6F04F94B1AEE568883049ABD3DC55340472,
+	U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__2_mC11B7DD95CF292E22FC5D541ECCCAFC3AEDDB4D0,
+	U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__3_mC961D6A6C304812D9538DA09EF01E0A4AE1519C3,
+	U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__4_mCEC4CD6D5F0C5096BF8EA82FC843817AC85E2330,
+	U3CU3Ec__DisplayClass57_0_U3CCreateARCoreCameraDeviceU3Eb__5_m14E3CD3866C121AF07682CD78DE86213D3853668,
+	U3CAutoOpenU3Ed__58__ctor_m0B1F52EC2B49CBA1A2C97B5A140C2386674687FE,
+	U3CAutoOpenU3Ed__58_System_IDisposable_Dispose_m1F9E6AFF807930FAE5108BC7B9F52F9710A89861,
+	U3CAutoOpenU3Ed__58_MoveNext_m2CB7FC32E0B7BE3064A5A9E0B184101B7D76A5DC,
+	U3CAutoOpenU3Ed__58_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF3F0FD028597C00D410FF73B2E03A0AE461F6BD6,
+	U3CAutoOpenU3Ed__58_System_Collections_IEnumerator_Reset_m8B2652E996712745A6C90CD4B0267A0E7F9F0BC3,
+	U3CAutoOpenU3Ed__58_System_Collections_IEnumerator_get_Current_mCFA419A8C6BF1B7EA41A22EE3D12EB4BA6A707C4,
+	AliasAttribute__ctor_m9EBB2AF5E9169D1200342D77E11283ECA036EE2F,
+	RecordAttribute__ctor_m73F55D638982DBE053CB6A2FC0B842D53AD5463A,
+	TaggedUnionAttribute__ctor_m4BBE70C6113EDBBF3DB96DFB9266E999A15B7781,
+	TagAttribute__ctor_m7AE4E4D96814E796BB07F8F5FA48AB61BFD22E74,
+	TupleAttribute__ctor_mBF72C1D704258557799C79A169447A68757FB92B,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	APIExtend_ToUnityMatrix_m246EBB5E10CAFE1C74099C6CCF3D4FE39B81CB33,
+	APIExtend_ToEasyARMatrix_m0B3A225B96F990A9BA03CD46178F8D773088DE28,
+	APIExtend_ToUnityPose_mFFF67DE2B42DCA48E0C8EE12C642ECEB8925F80D,
+	APIExtend_ToEasyARPose_m9C8DE87F341DB9580CC87EF48C1005F869AAB3FF,
+	APIExtend_ToEasyARVector_mA9BAAFC70177249A371F67ECD7DCEB93071A686F,
+	APIExtend_ToEasyARVector_m665D3E21E60A24CFA3A1C6C076F46C3871DFDAEF,
+	APIExtend_ToUnityVector_m873EAAC343F09BC9CD42EC24CACD174EE2AC9685,
+	APIExtend_ToUnityVector_m218A3A2091F462A35677C7051F0E3A10EBE99326,
+	APIExtend_Inverse_mBD6FABEC78A7388AAFC3C1FAEA4FAFC3D725510A,
+	APIExtend_FlipX_m4B1503113C6A2E5034124752AB504E8185E76D9F,
+	FileUtil_LoadFile_m610E1F14E43803D915077BB5C0E2CE4BD0481703,
+	FileUtil_LoadFile_m81391E37EAE00EA7E8EBBF9928A25D2B71AA7C49,
+	FileUtil_PathToUrl_mB231105B0AF2D403A3A9BD811921067A7112CDF1,
+	FileUtil_ImportSampleStreamingAssets_m5BA4634D419CBEECA88F006AB9614B768CF5110A,
+	U3CU3Ec__DisplayClass1_0__ctor_m154091B11FEE186F996B0920A9FC8044374314D1,
+	U3CU3Ec__DisplayClass1_0_U3CLoadFileU3Eb__0_mF735644B1372A8A29DBBEABD6BEC8D20C4D2EBA4,
+	U3CLoadFileU3Ed__2__ctor_mF46E3F99265D45E45F528E39E1B91D6B43C09C9D,
+	U3CLoadFileU3Ed__2_System_IDisposable_Dispose_m7980F12FA90023EC0621C13A21B922A3A7A56ED5,
+	U3CLoadFileU3Ed__2_MoveNext_m2528306E3AED3DE23D334F4B576E2DB09EAA7A9C,
+	U3CLoadFileU3Ed__2_U3CU3Em__Finally1_mEB59E4E60DB6374223F5553502521898F70E7BA1,
+	U3CLoadFileU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m00528705AFB3952F9E3B6BBFC8A0E026C5F690F4,
+	U3CLoadFileU3Ed__2_System_Collections_IEnumerator_Reset_mF9B5C3E4F6503E0CE41CCD802485CEA1A50C744A,
+	U3CLoadFileU3Ed__2_System_Collections_IEnumerator_get_Current_mF1E3BC7407B1C220DBFB40F37BFBDDC968B1A01D,
+	GUIPopup_Start_m0C82A4A8A667B4C19FE7BC84D5D1265FB493A575,
+	GUIPopup_OnDestroy_m1FABB703528E69981FF566CD3FB6757D73372A19,
+	GUIPopup_EnqueueMessage_mE38C2A9433BEC0EDF3015528068A89C522B85139,
+	GUIPopup_ShowMessage_m248135411D5F3C8EA3F3A3F8F229E2B5E0109155,
+	GUIPopup_OnGUI_mFBB72848CE3804F3C085521534F39694A1E1CEE6,
+	GUIPopup_ShowMessage_mDF7104B94135E814850CB954C9952BDDFF1B5333,
+	GUIPopup__ctor_mBFC3EC7BDBEF74704420959C921819007C1AE56C,
+	U3CShowMessageU3Ed__9__ctor_mE85282FBDCE17CF659885C18ADEFBDFFCA593E52,
+	U3CShowMessageU3Ed__9_System_IDisposable_Dispose_m688740C7FEB3ADD028C5B80E5110ED291CFE5CC5,
+	U3CShowMessageU3Ed__9_MoveNext_m7BD048D055C1CBFFBAB2A55486DD373361AC51BF,
+	U3CShowMessageU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4EBBA75D1E500F19C2D4F0159A27C7F5CE9311AA,
+	U3CShowMessageU3Ed__9_System_Collections_IEnumerator_Reset_m09A0C3BF5C45E9025C91101055E783B4E93E587F,
+	U3CShowMessageU3Ed__9_System_Collections_IEnumerator_get_Current_m7F35A03744BF040DA39B1681D22C6A0576B46301,
+	UIPopupException__ctor_mD0A82FF416EEFB798E10E1C32F9EC5CE449DB258,
+	UIPopupException__ctor_m2028C0A495324E4FAD33E2E48EDE7347C6BF2F6C,
+	ImageUtil_CheckPixelFormat_mE676917F9EAD35174E4C592F568D37A3E77FCDF2,
+	ImageUtil_GetPixelSize_mE4DC57DA13C7FFEA87235AB77E23B502F80CC991,
+	ImageUtil_FillImageBuffer_mFB9D84124DBBED7D64A6AF886C1CA047FE78D97A,
+	ThreadWorker_Finalize_mAF2DB6D28678A142E1A18F491CA41DF6B03CB150,
+	ThreadWorker_Dispose_mCB163CDEF06B33B778EFDD19339F44CE7B0BF2A1,
+	ThreadWorker_Run_mE19FF9BF70FEBC298AB58494630216F2FB775F03,
+	ThreadWorker_CreateThread_mAA57B2B09B3ADA3CE29E8F7EBA45A2B00C9EAAE9,
+	ThreadWorker_Finish_m5A3FDD0AEFFAB94BB82B0FE7A1FD85AEE5BCA54A,
+	ThreadWorker__ctor_m7C3D8587DDFFE05853F60422C3A65F292A057E8C,
+	ThreadWorker_U3CCreateThreadU3Eb__6_0_m4BD149C1C0325DC3B62BBF637308E7A03733C84A,
+	EasyARVersion__ctor_mB8593FCE7A0F4CF143DDBC6FF60D6017435482FC,
+	ARAssembly_Finalize_m071A060913C2454EF80B9F994BA5A7E3F54E4033,
+	ARAssembly_get_FrameSource_m90C2102DAB3E58792051000792948892BD1F1377,
+	ARAssembly_set_FrameSource_mCF676C86759E116F94970A77EA82DEB038DE0474,
+	ARAssembly_get_FrameRecorder_m466821D55D7E6C20E6855683F0B61BAB31BC3663,
+	ARAssembly_set_FrameRecorder_m03799B51699EF19881CE19B399AB488BEED8FE68,
+	ARAssembly_get_FrameFilters_m1385B673BF63B3C979935AA0880B60C3E305174C,
+	ARAssembly_set_FrameFilters_m9CB2DD721F390B4D5239DCE7299F9C46233ADD48,
+	ARAssembly_get_Camera_mC6B606117E775EE115EDE9C2F99DBCE08992370A,
+	ARAssembly_set_Camera_m159D5EA6B6DB6368D610DF725D56FC45C54A428E,
+	ARAssembly_get_Ready_m2E13F66DD9CC20F59FFCA7B7483031FD4C552690,
+	ARAssembly_set_Ready_m79EDF61D92FFBB19B0753FC4B022667CD61D9D5F,
+	ARAssembly_get_OutputFrame_m84D142561D62180449E5698D5F86D3EFE652B567,
+	ARAssembly_get_ExtraBufferCapacity_m1D381FA46040088603566DB305B090EB42FB38FF,
+	ARAssembly_set_ExtraBufferCapacity_m1DAC470DA0AD4ECE62EACA8146A8B4E9873FDC39,
+	ARAssembly_get_Display_m7F71F9A9B8D7AAAC1A9072887BF47E1162B1EEF2,
+	ARAssembly_Dispose_mCFDF4627BF98CB976EEE4C3A31A685C594D7F481,
+	ARAssembly_Assemble_m7EFE2BDB1537EB65541AF74C9CB73268247EC25C,
+	ARAssembly_Break_mE1A3C456E2806307DF6E8C91CD38142225207C84,
+	ARAssembly_Pause_m8335982C4F232C269D460E695A58A43AEFABA6B6,
+	ARAssembly_Resume_m73D8536F91A35F46FD54BC9552574A2CD9B2E9F2,
+	ARAssembly_ResetBufferCapacity_m6B744F3E1C8069E4E4B28398E475848353983AC9,
+	ARAssembly_GetBufferRequirement_m80F55059DD7EA31BE2E49F7ABE3633C01663C74D,
+	NULL,
+	ARAssembly_Assemble_m84029F899F2089E6ED719F01FB7026AAAB457B06,
+	ARAssembly_DisposeAll_m518D9EE99FF74A359C204F4FF9AC07D26F89AAD0,
+	ARAssembly__ctor_m45C2E5D2DD6A9D23FDA22288B1E58E5AFDD7EDC5,
+	Components__ctor_m4D53A82CD7347BD0DC53DF4A1A9402924CA1E685,
+	ARComponentPicker_Pick_mD7E53BCCC442B61B8125D9674D64E515E34150E9,
+	ARComponentPicker_Preview_mDD91448832626E7E0FE2BA98806E73A18742048B,
+	NULL,
+	ARComponentPicker_PickFrameSourceForPreview_mAB22923F69F647BABA3D423BB121B1A43E775905,
+	ARComponentPicker_PickFrameFilter_m2B894D1958E51F93BEE265D430D3D44E6E104303,
+	ARComponentPicker_PickFrameRecorder_m9FC9B73251905282BD82C012D4A558E55FB67ABA,
+	ARComponentPicker_PickFramePlayer_m29128F52CFA448C1F099B7D579AACE34B99773E6,
+	ARComponentPicker_PickFrameSource_mC5FFF86128DEEE6C147676282FDE3B84B390D4F6,
+	ARComponentPicker_SelectFirstAvailableActiveFrameSource_m6E0160C138331579D521C54F440810802449D812,
+	NULL,
+	ARComponentPicker__ctor_m41F61F8F9553FF5716D0C643BA66D0EF222876B5,
+	U3CPickU3Ed__7__ctor_m4EE934EB1682A77CE1BF8557C2DD73D8C54DDB96,
+	U3CPickU3Ed__7_System_IDisposable_Dispose_m3AC35BE30B3C853A039E7873DB26962121401ED7,
+	U3CPickU3Ed__7_MoveNext_m68F9A05A55B56404517B3425C7D4D4BA1A793788,
+	U3CPickU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m00B768879614670DA55E3AC6295D9F1AC5AA7489,
+	U3CPickU3Ed__7_System_Collections_IEnumerator_Reset_m083C41743E441CDB9EA721895E456B24616E9E94,
+	U3CPickU3Ed__7_System_Collections_IEnumerator_get_Current_mB8ADFF3714C23FCD43170A9ECD9F08EE45BA2693,
+	U3CU3Ec__DisplayClass14_0__ctor_m4FB6D93CF3D4BAAD78764DCF284D95D39D97F0B3,
+	U3CU3Ec__DisplayClass14_0_U3CPickFrameSourceU3Eb__0_m14232108237D0A718278FCDB61623D2008D87FC8,
+	U3CPickFrameSourceU3Ed__14__ctor_mA8CEB85EA7EB8C1814EB1E2BFD24495F633E123E,
+	U3CPickFrameSourceU3Ed__14_System_IDisposable_Dispose_m7CF6A960F1C0D570D03D912796E0F0C7B3DBBFF9,
+	U3CPickFrameSourceU3Ed__14_MoveNext_m62F22CE653A5E8EEC509B5CA6A28783745A03E81,
+	U3CPickFrameSourceU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD38BA6895C5CEA33E9F44B9310777961443CF73D,
+	U3CPickFrameSourceU3Ed__14_System_Collections_IEnumerator_Reset_mD6ED6F6D6A43B86287D57F345D9A398BAF3A749A,
+	U3CPickFrameSourceU3Ed__14_System_Collections_IEnumerator_get_Current_m2F3248B140B93E998B74400B8F0FEE31D137C5C8,
+	U3CSelectFirstAvailableActiveFrameSourceU3Ed__15__ctor_mAA75564C7E7493E1B504093FE8320599BE40619F,
+	U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_System_IDisposable_Dispose_m2772A217D716A1854F6A6E3124F18C4B853E6A86,
+	U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_MoveNext_mEEA8F0D0A2DA2672601EC9624DCD4A027727312E,
+	U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_U3CU3Em__Finally1_mB92134C7D5FAACEC861428EB8C935510D4BBFE9C,
+	U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE67838EF3E39375FB8F9AE75CC05938EF2A5497B,
+	U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_System_Collections_IEnumerator_Reset_mADCE01B7B19AE54303D0FA7246ED8FD8F7BD6B4C,
+	U3CSelectFirstAvailableActiveFrameSourceU3Ed__15_System_Collections_IEnumerator_get_Current_mE4E1EED59492E9A35BF9613410A38EE80665B177,
+	ARSession_add_FrameChange_mF5107795C3D4A240E859492CFDA751E428D7C02F,
+	ARSession_remove_FrameChange_m69AC18D52490B6E616B42FCE7F9E781CF7DFC459,
+	ARSession_add_FrameUpdate_mE9E2D5B99E1B74A74DF30DAB09A35981B0512C81,
+	ARSession_remove_FrameUpdate_m070FDF096917B4C4F07FAFCB8AECA50FB66B1E6C,
+	ARSession_add_StateChanged_mB48474C43E473D3D6BE692B2304C4218DE66D16E,
+	ARSession_remove_StateChanged_m1C2297C682430AB13D8E2EAB5829453A119D58E1,
+	ARSession_get_SpecificTargetCenter_m073B46773B64BF6D53D8209991AAFBCCD659FD1F,
+	ARSession_set_SpecificTargetCenter_mFF8A89316911782D564948580448B36C953EC2D2,
+	ARSession_get_CenterObject_mBB894C35750938190298F7D5FF92758174A303D5,
+	ARSession_set_CenterObject_m5E99FC89653FF9CD078C0F7228861BF6150A33B8,
+	ARSession_get_Assembly_mD1EE98F79892BB336FDEB644E9E2FE68B5EF3994,
+	ARSession_set_Assembly_m30CE5F39EA56E76FE3B1B96ABA52F6DC9EA308D6,
+	ARSession_get_FrameCameraParameters_mB35C4603E0D0ECA742D25DE6B0FF51750D69AEF9,
+	ARSession_set_FrameCameraParameters_m1728242106C822603033D07AB1ED2DBE29780640,
+	ARSession_get_AvailableCenterMode_mE27967E2CB5EA8A2D922FCEF0576EBB8646D2610,
+	ARSession_get_Origin_m45A40C95EFFF621EA4A2DA09BEA6EC5AFFFE5005,
+	ARSession_get_TrackingStatus_m52BB5973FA0C5433DB5DE85A2CC9EACEB394B0E7,
+	ARSession_get_State_mD075FC4C3644F367D17BE26B7D6A018925655245,
+	ARSession_set_State_m94CE0C3A59F5C42DDA406E8AC4ACD45FD0A10738,
+	ARSession_Start_mF04C0150C150F06769E349547D13473F2478A7DF,
+	ARSession_OnDestroy_mF5A6E1A0C48F44C4EDDFF26E8904AFD008D1E4BC,
+	ARSession_UpdateSession_mAE0D223D4379B54483585D93FF9789FD56889B9D,
+	ARSession_ImageCoordinatesFromScreenCoordinates_mC77A19D85FCBA0836F2077706A51699A38AC65FC,
+	ARSession_OnFrameUpdate_m45173BDF97784D3262BEB637107EA7D71B779867,
+	ARSession_OnEmptyFrame_mDED2C86E05C346A6B4F2834A870E7D7F99912856,
+	ARSession__ctor_mD69EF89E59AAF597EF5B54239387D956ED622936,
+	ARSession_U3CStartU3Eb__44_0_m1AC676313D82D5114744DB64519CB5B313D933D2,
+	ARSession_U3COnFrameUpdateU3Eg__disposeResultsU7C48_0_mB7CC7C2255F3729057C240B282FF03CC0C3C01D3,
+	FrameChangeAction__ctor_m785D930385A2E527988D65AFC722B2B26D303ADB,
+	FrameChangeAction_Invoke_m29858D2C52B8F2670C6DF0702F62C57418E63E38,
+	FrameChangeAction_BeginInvoke_m116FC07710E85094C29C2CB56B23B191B65B6917,
+	FrameChangeAction_EndInvoke_mB2B72EFBB20BE9862E2E8E7D5A502FDA1EA4F7AC,
+	U3CU3Ec__cctor_mABC56E2BCCD266167F42369507B7CE1D09E111F3,
+	U3CU3Ec__ctor_m131BC1DD09E6381C0E9E66CD870427178A5AD073,
+	U3CU3Ec_U3COnFrameUpdateU3Eb__48_1_m6C06AD4F403B70AA5B52FFD059F6F9E5AEA538DD,
+	U3CU3Ec_U3COnFrameUpdateU3Eb__48_2_m5D25AC7172F8EEDDE7F3030790D0B129A99E5ECD,
+	U3CU3Ec_U3COnEmptyFrameU3Eb__49_0_m6AEC915DDE469A932A61FD961E4B3C2E8BBC7CA0,
+	NULL,
+	FrameFilter_OnAssemble_mFC0ACCAA2717E67A5813187806E6CC7BC54E29B6,
+	FrameFilter_UpdateMotion_mEF0DE3293ED0DE2A4A39C7929E2FF5C1E5B6B3A4,
+	FrameFilter_TryGetCenter_m56525C41F7CA38DF3EB63293C6EEA9BE04823F56,
+	FrameFilter_UpdateTransform_m6DF0EB6DE6A4FE9C9B608B9BF027A33C8491F6CD,
+	FrameFilter_SetHFlip_mE696BC63124468018A99A51D7ECE2A9759A4A1BA,
+	FrameFilter_OnHFlipChange_m2B4CE814B4C3649E59C8484308C421127B92B089,
+	FrameFilter_TryGetCenterTarget_m80F02FD5762F438788D3B765F7F1A92FE66E13B8,
+	FrameFilter_UpdateTargetTransform_m4A7CBF9404A439EF323808B698C1F1933472C7A6,
+	FrameFilter__ctor_m3294372A748440126E65D15A1246C002035B00A0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	U3CU3Ec__DisplayClass14_0__ctor_mBA1D7AADFD2D9950AF092BEA80486D170188D04A,
+	U3CU3Ec__DisplayClass14_0_U3CTryGetCenterTargetU3Eb__0_m92E6D0E3B95979A1164579A767F258F7D4F27998,
+	U3CU3Ec__DisplayClass15_0__ctor_m98E284C43040DF5A7A0EC28319B4FC1AAA3D07BA,
+	U3CU3Ec__DisplayClass15_0_U3CUpdateTargetTransformU3Eb__0_mF6D1495E8EA5A331754ABDC6630EF1771D78660B,
+	FramePlayer_get_IsAvailable_m6AE06264FAC43BF4D293FBAFDF9B54CC20890A60,
+	FramePlayer_get_AvailableCenterMode_m7FB89CA5361900D35AAC5CD163AD5FCCE7D2B1DC,
+	FramePlayer_get_IsCompleted_m60683BBD7FB3ED7C9A287D98A169CF975308D8FD,
+	FramePlayer_get_Length_m0519F7B87D7E4CFD016163332DB15382A6966FC1,
+	FramePlayer_get_Time_mC4E752ED506623380C3902DB6512BDE9A8C84346,
+	FramePlayer_get_WorldRoot_m3B89424FAD4374B85A7E7199DBD7F3F6A9794C48,
+	FramePlayer_set_WorldRoot_mC470CD508089E1F9F70096FA2873058C8BD328B6,
+	FramePlayer_get_Origin_mA13D6048135EFEF6227D4064AA6ABAF61878C685,
+	FramePlayer_get_Display_m7EA09D6046F01987860158179E4B729E1FA3A60A,
+	FramePlayer_Awake_m5B28F60D51E41FE2145CDFC8FCC2DC4275BB0B72,
+	FramePlayer_OnEnable_mBE1F36134F0F8E5FF937BEEB2410E976D6245008,
+	FramePlayer_OnDisable_mB91EE27CA27D924EAB19879911D852DA1EEDC7FC,
+	FramePlayer_OnDestroy_mD6A947F06382027DB958E6F4A638C5F34480CD39,
+	FramePlayer_OnAssemble_m10330B88303F160FCD73D1D4A78D1BB2CDADB591,
+	FramePlayer_Play_m797ACA61DD16B138C21349FD5FC17BFC9885AC98,
+	FramePlayer_Stop_mC62077E600768AEB0EBB2C178594820CBCA1A304,
+	FramePlayer_Pause_m9AF41889F41206FF9B962A8406A8A3F8B43EA209,
+	FramePlayer_Connect_mF212FFC99EADE575C501B0B60A5D13330EDE0FF6,
+	FramePlayer_RequireSpatial_mE6BC9894573F202EB85C2BFDFA47E66AC3BC7235,
+	FramePlayer_AutoPlay_m7209D4C5C17639865DC6E5FB31AD1639AE70EF68,
+	FramePlayer_SetupOriginUsingWorldRoot_m395A57DB650FE366B5DB453BC0A02FCF5D5D1DA9,
+	FramePlayer__ctor_m7B5A2FEB32B485D16BB473C62A39EC8A3276AAFA,
+	FramePlayer__cctor_mBB9666993ED9D56BB5ED06F53AD3B816D2CFFDD5,
+	U3CAutoPlayU3Ed__40__ctor_m63113553FC82FE11E392209BEC0B6F755BCFC33F,
+	U3CAutoPlayU3Ed__40_System_IDisposable_Dispose_m4A33CAD01A5BEB054DA5816F80E594F98C873787,
+	U3CAutoPlayU3Ed__40_MoveNext_mCCD02B0A1F6CB96BADC3198AA7C0E4913BB5A0F2,
+	U3CAutoPlayU3Ed__40_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD9A70A25C11D5781410DFB351E9FCE875E8439E8,
+	U3CAutoPlayU3Ed__40_System_Collections_IEnumerator_Reset_mC5E31342D1B9A818FAC98202164DDF38BC3CC547,
+	U3CAutoPlayU3Ed__40_System_Collections_IEnumerator_get_Current_m0CE91C97DA905D54322F41457263FE9AD77DDBBD,
+	FrameRecorder_get_BufferRequirement_m3E261DD8D43D619451E2F1146EE03383CAF7111D,
+	FrameRecorder_Awake_m1BA3559A88628E3193BD569797EA70828CBFF7D9,
+	FrameRecorder_OnEnable_mA0791867B53609D17BDEB54FD922AE7878373509,
+	FrameRecorder_OnDisable_mDDC934AB61931454A3EF691BDFD21F16255EC023,
+	FrameRecorder_OnDestroy_m529CE1A009994CD7F500FE51E1D28A95866906D7,
+	FrameRecorder_OnAssemble_m8E89ECD25D234ECBE102C526E36726951266C1C0,
+	FrameRecorder_Output_mF49FF71FEAC20E345A10DF412138FB1AC9ADE0F8,
+	FrameRecorder_Input_m4D84888D46A2E58F0AC1A1ADA0CEAEE3C0B655E1,
+	FrameRecorder__ctor_m9FC145E10D9CA0E020A14A93202120F77027CC57,
+	NULL,
+	FrameSource_get_AvailableCenterMode_mAF1C0ABD9F5C80A7045F8FC2A1F5AF81C53B3656,
+	FrameSource_get_IsHMD_m6384BC0C41C2280F23D4CA4081FE9ED2F1DE1350,
+	FrameSource_get_BufferCapacity_mCC372D784110C205D976F830227352AAD80900F5,
+	FrameSource_set_BufferCapacity_m6A2F5CEFC52246DC2F5C7F5A38AC03EF32BED7F1,
+	FrameSource_get_Camera_m3AF1F542AD50439D16055E236943B5BBDB27202A,
+	FrameSource_set_Camera_mF11F14D8320714F3F9826EEECAF9FE114275BB5D,
+	FrameSource_get_IsCameraUnderControl_mDEBBF0D9E6763AD9794200623832FCF0607B56CB,
+	FrameSource_get_Origin_m4DA98EAB57568A4DE1E8E2B0117A6F6A89C6F70D,
+	FrameSource_Awake_m11E6765105A5E748DB55E5DFC5458FBEA6962FE9,
+	FrameSource_OnEnable_mFE4B5075843171A5281632B4EDB305E63E02FFBB,
+	FrameSource_OnDisable_m1972517C0BF7D983F15BACF488CCA5B8A2834167,
+	FrameSource_Connect_mB09DED105CF24C36911E1072F20605A273CEE7D2,
+	FrameSource_OnAssemble_mC11B5EA8F8B8F56A6D3EEC2D832168CEACEF575A,
+	FrameSource_CheckAvailability_mF047C9B9D47647B036AE9A2E9847CE8C6932E516,
+	FrameSource_PickCamera_m2F3B812929F8B2CA84D53445F507048B4F072323,
+	FrameSource_SetHFlip_m5971D2B83E282F4AF350605962B580F0CAB0318B,
+	FrameSource_IsValidCamera_mCF68B1F0FA0B0ED565D047CE025C660AA9F57981,
+	FrameSource__ctor_mF2C3C0EA283D25EE25EC48941CA63A5F8944D3F1,
+	FrameSource__cctor_m15F522F750BD45059D70111B2F78013AB5967B78,
+	RenderCameraController_OnEnable_mF5A417E283A29A5BF6602650F39BF1EB1D110D39,
+	RenderCameraController_OnDisable_mA377ED37EF2E1FAF7E1F1061A7574B744A13B46B,
+	RenderCameraController_OnDestroy_mBE878FFB3CD2775755EB87388E216479B64A7A7C,
+	RenderCameraController_OnAssemble_m67698AC3C9B8ABA6D6EAADF72C47D15721B11D81,
+	RenderCameraController_SetProjectHFlip_mB5075F4A143546CB7AB8A9B5F77E9F07B93A172D,
+	RenderCameraController_SetRenderImageHFilp_m2F0558420FE15A7C340789CD047EC847C4B48D7B,
+	RenderCameraController_OnFrameChange_m4C9B9B9A6D7CDAEECABB7677BF2ED4CB641189A8,
+	RenderCameraController_OnFrameUpdate_mC0D61175A5FB26EEC9827E1F2AC3FAC5DB1CD3D5,
+	RenderCameraController__ctor_m681B5935656EC5DB9BD86ECED9A514EDC1688E39,
+	TargetController_add_TargetFound_mD4B9C4D3662E282B491F617E22AA14D3775AB57B,
+	TargetController_remove_TargetFound_mD5395D7D698DE8C0AFE8B4DDAF9889F087279AD6,
+	TargetController_add_TargetLost_mB6790A7172B5C303E3143155672D27F4BF6E4ECC,
+	TargetController_remove_TargetLost_mB2952BDE30C3EF2FFBCD61610F6BCB4009338D19,
+	TargetController_get_IsTracked_m5D4CFC7F83447DDB475C2593BF1A1E32D412B775,
+	TargetController_set_IsTracked_m2CE4B37E2DCFDA583D608EE42E7CD482B445B2EB,
+	TargetController_get_IsLoaded_m664FA600C560DDD419101466B8A4F3F61062A5FA,
+	TargetController_set_IsLoaded_mC04541B10A598C71AC8341C94B97C419089F00F1,
+	TargetController_Start_m6884CD51BDC42ADD477A0073A0F603D1E391007F,
+	TargetController_OnTracking_m7D2AC6C286576BF1C4EBA84B0C1D484E6C096CE2,
+	NULL,
+	TargetController__ctor_mDD9C4ABEA7BA2296F0538270A52EDECE78395AAC,
+	WorldRootController_add_TrackingStatusChanged_m718197BD1093B5C9C2923D23F7E4DD480F5AD832,
+	WorldRootController_remove_TrackingStatusChanged_mADB6FC26DA6FCFD87B66FBAD9814C3FA370A4417,
+	WorldRootController_get_TrackingStatus_m243CCD944CB60980C159C482411724E39A787945,
+	WorldRootController_set_TrackingStatus_mB92BD9325C2E5891699476E29D28E44A5349224E,
+	WorldRootController_Start_m338A99D7CF5960BB34C169D2A780E60E540586C5,
+	WorldRootController_OnTracking_m06EE5F55F9C297537C89103B18F5C5891B1A3FA0,
+	WorldRootController__ctor_m7FD3627D85E9CBE14CF7050B0716801D07AF782E,
+	CloudSpatialMapLocalizerFrameFilter_get_Accelerometer_mFFAFA3293B4AADFBF4668045C041A13AE6ADCCD2,
+	CloudSpatialMapLocalizerFrameFilter_set_Accelerometer_m0C52BA9FFFA788AB71EEB307304F3C1C95C14CCA,
+	CloudSpatialMapLocalizerFrameFilter_get_BufferRequirement_m4EDF599C94EC167CC35146E4F740FDA256D6EAAF,
+	CloudSpatialMapLocalizerFrameFilter_get_RealTimeCoordinateTransform_m153C00C103C1B2632BD9C89E836A96A01362837D,
+	CloudSpatialMapLocalizerFrameFilter_Awake_m0CA63EFC8134C82553A6E8652CD827B0AD4F26AE,
+	CloudSpatialMapLocalizerFrameFilter_OnEnable_m37C983260EC4A694E4B7A211DC1633223528FC5D,
+	CloudSpatialMapLocalizerFrameFilter_OnDisable_mEE5C5C3CB209B89FBD0CD37E00E2B7C645A4BA7E,
+	CloudSpatialMapLocalizerFrameFilter_OnDestroy_mDB5285506267A6E17F60A626049334AEFF1DCAC3,
+	CloudSpatialMapLocalizerFrameFilter_OnAssemble_m4D60083CC9E4FDE50B9C314BC7C65C14102155BB,
+	CloudSpatialMapLocalizerFrameFilter_ResetRealTimeCoordinateTransform_mD9389D84B235AA28E3AE6C08DF2F2C13303F3129,
+	CloudSpatialMapLocalizerFrameFilter_Resolve_m422396D2B2A14219E73EC7A4D5C8E9DC357B13F5,
+	CloudSpatialMapLocalizerFrameFilter_ResolveRaw_mC24E432867CE502C087961E998CFC30D380AEF17,
+	CloudSpatialMapLocalizerFrameFilter_SetMessage_mFEF60BF88039D7E15EED72CA790B1405AC8FA9B8,
+	CloudSpatialMapLocalizerFrameFilter_ResetResolve_mC6654D9827EAC4F7AE3014E3EB4E1DFAB4DE4172,
+	CloudSpatialMapLocalizerFrameFilter_AutoCreate_m7CC20988DBA1CA8EB9056778D6965BF264E3177F,
+	CloudSpatialMapLocalizerFrameFilter_CheckRequest_mCDD917B9F0BA29828C28C4CB237FF01B88AB23C6,
+	CloudSpatialMapLocalizerFrameFilter_NotifyEmptyConfig_m69D634D0C0A91E7F4B864A2D311229633D945A65,
+	CloudSpatialMapLocalizerFrameFilter__ctor_mE84E24277D29F471DCAEBED6EDDACF94E155096C,
+	CloudLocalizerServiceConfig__ctor_mC9CB65687D69F5BAE0E7866B30CD16F124C7F1F8,
+	Input__ctor_m43800623F29B4B877B54E3583220A55145A7B6EA,
+	Request__ctor_mB9A9F11AA2FC2D0AE215DA10A1F9D438B8D22FAC,
+	U3CU3Ec__DisplayClass22_0__ctor_mD81A934B5A79A05CF3E723837D6B3F3BBCF23E1E,
+	U3CU3Ec__DisplayClass22_0_U3COnAssembleU3Eb__0_m0252A63BE9CDF695615EA3B4ED53BC647C51456F,
+	U3CU3Ec__DisplayClass22_1__ctor_mDAF71A5236B3766E0E48EAD11ADC18F24EA3D8C3,
+	U3CU3Ec__DisplayClass22_1_U3COnAssembleU3Eb__1_m03B375751D41041436F1F496001837DAA9EF56FC,
+	U3CU3Ec__DisplayClass24_0__ctor_m0B42E57F53FE599870690CC94E8D12619FA19126,
+	U3CU3Ec__DisplayClass24_0_U3CResolveU3Eb__0_mEA9847CC09112D25A360CAEB1B08328226BD989F,
+	U3CAutoCreateU3Ed__28__ctor_mBE566061522BA9406170E471ECAFE8818CA22A9F,
+	U3CAutoCreateU3Ed__28_System_IDisposable_Dispose_m41AA00A19A70A1430896E5AE4E60C46338923F11,
+	U3CAutoCreateU3Ed__28_MoveNext_m057DC4C3A7AB7A2304EE608B245E5583B2C0CDEB,
+	U3CAutoCreateU3Ed__28_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB78DC72A5CBE029BB79B50127397E938F3862879,
+	U3CAutoCreateU3Ed__28_System_Collections_IEnumerator_Reset_mDDDE96EC367C634B58125F6AAAA12F5308CB6FF7,
+	U3CAutoCreateU3Ed__28_System_Collections_IEnumerator_get_Current_m3D035E6BAA66F21028FC5DF6394D65BF975E26F4,
+	U3CCheckRequestU3Ed__29__ctor_mDCA9FD7A8B90298502A02DDD871D592BA325B74E,
+	U3CCheckRequestU3Ed__29_System_IDisposable_Dispose_mAD294B1AF6D83BF4166DA408AAE7C4038F15396F,
+	U3CCheckRequestU3Ed__29_MoveNext_mC1453FBEFB4C599D28D9F140364EB9D4DD638EF5,
+	U3CCheckRequestU3Ed__29_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m44CB1474A2C5CEC62B75AB1D522FDA481689518F,
+	U3CCheckRequestU3Ed__29_System_Collections_IEnumerator_Reset_mB9279A3D81945BA9AB231ABAF23B57379F629324,
+	U3CCheckRequestU3Ed__29_System_Collections_IEnumerator_get_Current_mABDD30DC417FDA2F6D2082D56F5B06B202BEB46A,
+	DenseSpatialMapBlockController_get_Info_m7278DD9DD8F053DBFE2E8627CC2623EBA85017A4,
+	DenseSpatialMapBlockController_set_Info_m57732C5399BFAE762E1D0AF0E1455C0F6C61A1D4,
+	DenseSpatialMapBlockController_Awake_m67C128FCA97A65A6AF17BEDDEFD0D2660AF2E608,
+	DenseSpatialMapBlockController_OnDestroy_m878F28B12C7A64024DAF0B49EECD332F45CE1172,
+	DenseSpatialMapBlockController_UpdateData_m6526C2C26825A9C993B697449E655DA899723A1E,
+	DenseSpatialMapBlockController_UpdateMesh_m5604B7BAD9C8976D3EC784C770D47C774FBFB9D0,
+	DenseSpatialMapBlockController_CopyMeshData_mD26F39706665B87D4E39B9442DF9C3F20F21980E,
+	DenseSpatialMapBlockController__ctor_m52568E475C979BB3F47EF8295FBF536D49E10A02,
+	DenseSpatialMapBuilderFrameFilter_get_Builder_mC96240A903F87859C4E27D0D20A84F7FFA6D0593,
+	DenseSpatialMapBuilderFrameFilter_set_Builder_mEE6041945DC6D1522B163C7E2199F04C50CB2B8C,
+	DenseSpatialMapBuilderFrameFilter_add_MapCreate_mC25619374F8BDD9ADADE568E82CD714F222CD733,
+	DenseSpatialMapBuilderFrameFilter_remove_MapCreate_mC50280A24207A5F2BDBF987969651B9E76CDEFD3,
+	DenseSpatialMapBuilderFrameFilter_add_MapUpdate_m5C45C0C9FD33CDCFF2AA4541FA0A5001D72D7E72,
+	DenseSpatialMapBuilderFrameFilter_remove_MapUpdate_m365F1929D7B83DED95808CDA0010BB8F1A33F644,
+	DenseSpatialMapBuilderFrameFilter_get_BufferRequirement_mF2C7D1A0B5C5F4C5F38276264B739C11DFF8ECA1,
+	DenseSpatialMapBuilderFrameFilter_get_RenderMesh_mE59A90DB44443079D62EE4851DA2A4A63C567DB3,
+	DenseSpatialMapBuilderFrameFilter_set_RenderMesh_mA6848D296CEB7490CEC5346D533F69484DF279D2,
+	DenseSpatialMapBuilderFrameFilter_get_MeshColor_m258BC88ECD44787198459AA862E89FC8C349FE40,
+	DenseSpatialMapBuilderFrameFilter_set_MeshColor_mC8AE837D8778E40C6C4238EA0881D453849A0C7D,
+	DenseSpatialMapBuilderFrameFilter_get_MeshBlocks_m65A1E2703288994551F68427EB3178F5AC2E27A4,
+	DenseSpatialMapBuilderFrameFilter_Awake_m814B0F1EF5C6D042BF6B55175229C85D92DEFE55,
+	DenseSpatialMapBuilderFrameFilter_OnEnable_m9E59A600FEEFEF0D5232057A4EB0DD88B16E5209,
+	DenseSpatialMapBuilderFrameFilter_Update_m187A7BEF684BB3C320BAD257D2CAC4BA95BD4750,
+	DenseSpatialMapBuilderFrameFilter_OnDisable_m73005452F2A37AC4BB55C8EC840EF77FDE4495C2,
+	DenseSpatialMapBuilderFrameFilter_OnDestroy_m89F46707352B5CA1CC4D86708489DC9FEE8B368F,
+	DenseSpatialMapBuilderFrameFilter_InputFrameSink_mCC8E09F677819229D860D2A7234A9BAC8AD8FF3A,
+	DenseSpatialMapBuilderFrameFilter_OnAssemble_mEB66833791E8F4CB7309E528C96D818BB5C03BD2,
+	DenseSpatialMapBuilderFrameFilter__ctor_mFB894AB92F64157F855D7565E72A187C33F75817,
+	DenseSpatialMapDepthRenderer_get_RenderDepthCamera_m3432D9FF7C2B2D746AEA34158C122AFA73E7A9EB,
+	DenseSpatialMapDepthRenderer_set_RenderDepthCamera_m92362CDCAAA748630A17FE14FD8F9258A920ACAF,
+	DenseSpatialMapDepthRenderer_get_MapMeshMaterial_m155E770B10D2424EBB161F5F799751BAA5BF7818,
+	DenseSpatialMapDepthRenderer_set_MapMeshMaterial_m3DBDAD505937806292A39670316850BA6A8D0931,
+	DenseSpatialMapDepthRenderer_OnEnable_mB5F9EE52496DE82DD7940BF3DF4FFD4CB269823A,
+	DenseSpatialMapDepthRenderer_OnDisable_m022BF4696AD6D4534F221AE9C60A8480E3ED4CCC,
+	DenseSpatialMapDepthRenderer_OnBeforeRender_m8F276F4E6561F90AF2390296DD509ACEAF76382C,
+	DenseSpatialMapDepthRenderer_OnDestroy_m390A0DAF3E9673290E1BFDF166F6A9886396D2B6,
+	DenseSpatialMapDepthRenderer__ctor_mEDAE8910C9E48CE9CD36A1E557423C373B0D9D56,
+	SparseSpatialMapActiveController_Start_m17CB7A9E44DCAC263EBDFB44DE34EDDD33C0F27E,
+	SparseSpatialMapActiveController_OnFound_mD3F1067B4C46B7B332070E6B2EB1AE32A8752DA5,
+	SparseSpatialMapActiveController__ctor_m968CB70E63C0227B4B34797D54D4A6B1DAA3810B,
+	SparseSpatialMapController_get_MapInfo_m12BE7B543F4E94CA1415534DBA64640E933B46FA,
+	SparseSpatialMapController_set_MapInfo_m53EA02CD343CA4822495D16DB6091AFB52FAB615,
+	SparseSpatialMapController_add_MapInfoAvailable_m4DA391BAB852D8299684B3B0570E4919B02498CC,
+	SparseSpatialMapController_remove_MapInfoAvailable_m305DB8A58FDEFECDC54D548D69D69067E45A654D,
+	SparseSpatialMapController_add_MapLocalized_m9318C46989E352C77AF18A79CBCA2D0447528CDD,
+	SparseSpatialMapController_remove_MapLocalized_m5F5CBA12C0664F98807E1C85355B4313F999FB61,
+	SparseSpatialMapController_add_MapStopLocalize_m147D04B995ECAD68C5CB37481EDAFCB5189690DE,
+	SparseSpatialMapController_remove_MapStopLocalize_m57102E64D4591F060A57FA1A9AD7E94344DB145F,
+	SparseSpatialMapController_add_MapLoad_m70FE53F79C3B9F08F182B0F768501AF09F932B62,
+	SparseSpatialMapController_remove_MapLoad_mA238572B4A6BF3CA7CCA2BA4D63B6DFBD54FF7DD,
+	SparseSpatialMapController_add_MapUnload_m48D85FFBF2B3487474B143DD2359FFBB0D134D37,
+	SparseSpatialMapController_remove_MapUnload_mFC90E04902BC0D63CD389BD7F79DCFC6D3C8B6E8,
+	SparseSpatialMapController_add_MapHost_mD5CF6935651E541C960C56F1263B1ECAA58913BE,
+	SparseSpatialMapController_remove_MapHost_m436B3CE0FF5FFCA5DB463D17CDCC1C315B116CF2,
+	SparseSpatialMapController_get_MapWorker_mC979D0EC95B4EE298E7D96D6BC484C29D4D69121,
+	SparseSpatialMapController_set_MapWorker_m9DA2072453D035DC40E6830E0250D7269557C5D3,
+	SparseSpatialMapController_get_PointCloudParticleParameter_mA7CBE56DA76344EBDB34499751E9A215ACEC1CDC,
+	SparseSpatialMapController_set_PointCloudParticleParameter_m170E033A6A7DA9236A404DB2F7CFB280361C3C53,
+	SparseSpatialMapController_get_PointCloud_m0DC7A69DC293F62B25695EF2701A628653FD8A3D,
+	SparseSpatialMapController_set_PointCloud_m406A737D3C5C51390B9855C3C254342236904BD6,
+	SparseSpatialMapController_get_ShowPointCloud_m937B55083182119C7C4741EB585CACB58694A02F,
+	SparseSpatialMapController_set_ShowPointCloud_mDFCD5BCCAB368683368861F63FF304918EC9432E,
+	SparseSpatialMapController_get_IsLocalizing_m1A18429FECD69065199E8775CA816E69F9D66E4E,
+	SparseSpatialMapController_set_IsLocalizing_mB7899EFB43DC0113535A9A5303FDD6A2F8A86116,
+	SparseSpatialMapController_Awake_mF7842945B82E959B3FED909498C9A8BAC88AC55B,
+	SparseSpatialMapController_Start_m41A09AD40F5639B82AE0943891E4AF1C264DD57E,
+	SparseSpatialMapController_OnDestroy_mA8AC770CE8CEB8C948CFFFA3780318C60BF872AE,
+	SparseSpatialMapController_HitTest_mE7F5E6BFDD83142CA0DF8D37D0BF74A0C87A48E5,
+	SparseSpatialMapController_Host_mA78374506F3153E547AE662CABEF0B63D3955B21,
+	SparseSpatialMapController_OnLocalization_m45F0C0602FED5B40BCC0C0E73E85393F7CB2A90D,
+	SparseSpatialMapController_UpdatePointCloud_mDD8E48585AC7C19DD2DBC0D52F8ABBDC2A2F7B59,
+	SparseSpatialMapController_UpdatePointCloud_m8208E6DED79A610F111332F066706983C71BD01A,
+	SparseSpatialMapController_LoadMapBuilderInfo_mAAD3F18583BFC952F388BE5F37E09B736BAF7185,
+	SparseSpatialMapController_LoadMapManagerInfo_m9E8FF5FC1226E2EAB829084BA52913538C396043,
+	SparseSpatialMapController_LoadMapInfo_m481A311B383CED8D98A4941572C5587E04E9A490,
+	SparseSpatialMapController_UpdateMapInLocalizer_m2E2F0464B902C2C35792A248AE77CF75032F8B06,
+	SparseSpatialMapController__ctor_mEA0ADC21731910B6B04B449AF84427F173A4C607,
+	SparseSpatialMapController_U3CHostU3Eb__56_0_m4B9C3D58624055435890217D1BF1996F88C829FF,
+	SparseSpatialMapController_U3CUpdatePointCloudU3Eb__59_0_mC48BA651405025AB3EAF896A3515568BA7B4A7DF,
+	SparseSpatialMapController_U3CUpdateMapInLocalizerU3Eb__63_0_m64991E8E21B0D39637822FFE9207218A97A62675,
+	SparseSpatialMapInfo__ctor_mAAA02B58C0C3BA1136DDF81E7D50522240F60FE3,
+	MapManagerSourceData__ctor_mFF100EC397196912ADE3B6540258A26BDC8EBC73,
+	ParticleParameter__ctor_m47EEC0EDA690CB3E463EDFED443352C0BD22418F,
+	U3CU3Ec__DisplayClass58_0__ctor_m5AD52797BB2733E48783FA86B12B82A3228599F7,
+	U3CU3Ec__DisplayClass58_0_U3CUpdatePointCloudU3Eb__0_m8244F7E6B9C96F8138264FBDB12BCF0EB7FDE312,
+	U3CU3Ec__DisplayClass63_0__ctor_mF8E30D32A51CF0B9EAF4D0247444131486D8D109,
+	U3CU3Ec__DisplayClass63_0_U3CUpdateMapInLocalizerU3Eb__1_m77A39593F7EDEA5B38FFC2BB616D46AFE0CA1746,
+	SparseSpatialMapHolder_get_MapRoot_mA4412E51D83E51B3F310069C22695CEB82A08B80,
+	SparseSpatialMapHolder_set_MapRoot_mA25D06F11F3071770E79CA046C059C467FDBAFC5,
+	SparseSpatialMapHolder_get_Maps_mEDE030EECAC979C628B72A228DD43AA35FE74329,
+	SparseSpatialMapHolder_get_EnablePoseStabilizer_mDB1BAF4968B23DCEC4B5093ED1E45B039723BEF5,
+	SparseSpatialMapHolder_set_EnablePoseStabilizer_mD7F99CF578126C51D14B683123057E4903C5050B,
+	SparseSpatialMapHolder_Awake_m03E93CF34C0B196155346A73D0DEF19223E3426E,
+	SparseSpatialMapHolder_OnDestroy_m2D279738107C39E0135DC1A9D39CA0A0FE892C1B,
+	SparseSpatialMapHolder_Hold_m05DF1988CB2CF3B02012BC8DC2693A34E18C3E61,
+	SparseSpatialMapHolder_Unhold_mE5C35F9C083E2834E494BDFB84AA899EE2BF44FA,
+	SparseSpatialMapHolder_OnLocalize_mF2228810CC9E84DD1501B0EFEC6BFAD10F620BFF,
+	SparseSpatialMapHolder_Localized_m954B9BDFB0521354AD2B030A53A3861959112709,
+	SparseSpatialMapHolder_UpdateMotion_mF17B6A0B601BA47E985649A1347F71ED19AC64CE,
+	SparseSpatialMapHolder_TryGetCenter_mCB0D5A173F6352A26AC9E259A19DC2495F587DCA,
+	SparseSpatialMapHolder_UpdateTransform_mA22C3A63E2E1AB95E557BC791DAB3156558A53EB,
+	SparseSpatialMapHolder_OnMapChange_m722F953AE0D44C2D04DAE3E841BB54DE9B040C7A,
+	SparseSpatialMapHolder_OnTrack_m029172B8E221249F0D80539A69466C4521188743,
+	SparseSpatialMapHolder_TryGetMapController_m9BDC8980B7E991E1F925B72F81443C32939BBEA2,
+	SparseSpatialMapHolder__ctor_mEF149CDD1EBC5372225BE9D0E3369AEC5864CB09,
+	ResolvedMapInfo__ctor_m7D3C36E92CA39B55A1DE8552F008D90C1AC70923,
+	SparseSpatialMapRootController_add_MapFound_m9FDB3D38E4168DF0C0BE818F557086FDB440CDCE,
+	SparseSpatialMapRootController_remove_MapFound_m5AB7AB7649310D78410717D12C93E321FB3115FF,
+	SparseSpatialMapRootController_OnFound_m49F22A86D2F937E9A8192236C07945CCA5D17E49,
+	SparseSpatialMapRootController__ctor_m58C3425F79FD0EA73BD212299358FC5B512B622E,
+	SparseSpatialMapWorkerFrameFilter_get_Builder_m5C84CF457315950B75B15132EEDC8FF6A44BCB05,
+	SparseSpatialMapWorkerFrameFilter_set_Builder_m28B20A5CC62DE16863580008BAE56AF90AFCEC37,
+	SparseSpatialMapWorkerFrameFilter_get_Localizer_m04CB27384DCBF123CFF495F520AD847602700060,
+	SparseSpatialMapWorkerFrameFilter_set_Localizer_m7346003AA50BE377E04E4AC9F19D09330DE65F68,
+	SparseSpatialMapWorkerFrameFilter_get_Manager_m594DACAD696BA60E365DF36DA78DD7956B0CEDCA,
+	SparseSpatialMapWorkerFrameFilter_set_Manager_mAE29FF0B6CA17915DC732D950B19FD201C72F918,
+	SparseSpatialMapWorkerFrameFilter_add_MapLoad_mD884950D2A02FA426505444830403A13FF0C143A,
+	SparseSpatialMapWorkerFrameFilter_remove_MapLoad_mD7468FA7036FC89C2038423524480A85554D1576,
+	SparseSpatialMapWorkerFrameFilter_add_MapUnload_mAF0D4BF8CA9D98A24CA6DF2FFC3419D87242FAD0,
+	SparseSpatialMapWorkerFrameFilter_remove_MapUnload_mCDD7E3A0F2515CD67CFD737806EFCA208B72114A,
+	SparseSpatialMapWorkerFrameFilter_add_MapHost_m4200053B69CA8EDB9648F866CEA65538ED3D2440,
+	SparseSpatialMapWorkerFrameFilter_remove_MapHost_mE4B1F4036A686615C4E8A8AFD8F3EE3E28F2D351,
+	SparseSpatialMapWorkerFrameFilter_get_BufferRequirement_m6AC85AFA549C019EFC6F17C8460B29A6EE3A1A5C,
+	SparseSpatialMapWorkerFrameFilter_get_WorkingMode_m339D4D316CEED6F42C101A8E74045DC4AD65A540,
+	SparseSpatialMapWorkerFrameFilter_set_WorkingMode_m9AF125FFB4F8EB784FF042FBDAA0B1F0D6CA3ED6,
+	SparseSpatialMapWorkerFrameFilter_get_LocalizedMap_m0FB9646B5CD46EA9159F6DF1C6BE8355ABF97031,
+	SparseSpatialMapWorkerFrameFilter_set_LocalizedMap_mC1A616C1D1D314F22DA9A6B0FA58FDC9ECD1DDF9,
+	SparseSpatialMapWorkerFrameFilter_get_BuilderMapController_m6F720BDBC32CF097E8BC061802555D132E4E38E3,
+	SparseSpatialMapWorkerFrameFilter_set_BuilderMapController_m732AE90F993EF8339A753B8784394077426C3165,
+	SparseSpatialMapWorkerFrameFilter_get_MapHolder_mA8996F0C71193113A83C150F87F8D3EEE4B33620,
+	SparseSpatialMapWorkerFrameFilter_set_MapHolder_mE5A3A61AF8F87B44938CFA8EFE4E5610BDFEE708,
+	SparseSpatialMapWorkerFrameFilter_get_EnablePoseStabilizer_mFDD8D0F65FEFB4EFD7190815DF3ABB9C247A0BC0,
+	SparseSpatialMapWorkerFrameFilter_set_EnablePoseStabilizer_m7E0B319D21D125E4AAD7066573265C5CB5C1AD64,
+	SparseSpatialMapWorkerFrameFilter_Awake_mD8B18294F2A5F1B2B39E9DF086066BBA6093FAC6,
+	SparseSpatialMapWorkerFrameFilter_OnEnable_mD1BEF7EA614082F78A976CC05EEF93F0AD78302B,
+	SparseSpatialMapWorkerFrameFilter_OnDisable_mBC5323BB7753308EB1C3FA9054C0F82870F56C6B,
+	SparseSpatialMapWorkerFrameFilter_OnDestroy_mC309ECA995F3A4A97B8524CA28E43AD62CEFAEB7,
+	SparseSpatialMapWorkerFrameFilter_LoadMap_mA80A7F253AD33F0AF476E4473FA5B0D30BCAE364,
+	SparseSpatialMapWorkerFrameFilter_UnloadMap_m5A1D966E07D131C019B21056AE37291EC57F5E86,
+	SparseSpatialMapWorkerFrameFilter_HostMap_m85F2E6F13F95BD941072F7437E57FDA92B89C4FC,
+	SparseSpatialMapWorkerFrameFilter_InputFrameSink_m34F389561B0FA17EFAD74FCDEA017CEF66FAAEFD,
+	SparseSpatialMapWorkerFrameFilter_OutputFrameSource_m9E7965CDC732F3459837856429EECD3ADF77180D,
+	SparseSpatialMapWorkerFrameFilter_OnAssemble_m518C6512B6A2E4908C836251564DBC0771A00FB7,
+	SparseSpatialMapWorkerFrameFilter_OnResult_m8385660E3DBFE973609304F3B39164D4C3C83ABB,
+	SparseSpatialMapWorkerFrameFilter_UpdateMotion_m80DCE24D60B3FB41DEC87E24C7FF06BF6B4EFFAF,
+	SparseSpatialMapWorkerFrameFilter_TryGetCenter_m08459500DEEEA0EC0B595F0093DF28B0DB1A8DE3,
+	SparseSpatialMapWorkerFrameFilter_UpdateTransform_m1DBD707AE56817237452F5E93E64CC0A1D6C7E84,
+	SparseSpatialMapWorkerFrameFilter_LoadSparseSpatialMap_mCC349A35473058F6EBBEAD6B6CAE9A1D8073611B,
+	SparseSpatialMapWorkerFrameFilter_UnloadSparseSpatialMap_m29810D1DFBA28F92B3399E0B13599B07AB51CCB9,
+	SparseSpatialMapWorkerFrameFilter_HostSparseSpatialMap_m96F74FF58B53904FC878E8AEAA9A5F9282DE18ED,
+	SparseSpatialMapWorkerFrameFilter_LoadSparseSpatialMapBuild_mC2BEE6A1BB83844E49CD1CB5FCD6DD03CD1ACA51,
+	SparseSpatialMapWorkerFrameFilter_UnloadSparseSpatialMapBuild_m9A7276698FBD9670D298EC4C9C092158C5B7D831,
+	SparseSpatialMapWorkerFrameFilter_NotifyEmptyConfig_mEB25ACAE42DA1F4CB5C68A60B1C6F30CD4EBC500,
+	SparseSpatialMapWorkerFrameFilter__ctor_m82105167B88503D86C2A0510BCD261325145B3CB,
+	MapLocalizerConfig__ctor_mF51E53093AFDC3CC8C8128E3738260878307B62B,
+	SpatialMapServiceConfig__ctor_m286884DDC610EC2931915C241E2A001A00408EBB,
+	U3CU3Ec__DisplayClass69_0__ctor_mDEC89C289CA2F6E62C9A94A4306C6213142781C2,
+	U3CU3Ec__DisplayClass69_0_U3CLoadSparseSpatialMapU3Eb__0_m13E61292370AC024256C7851768583D78148B8C9,
+	U3CU3Ec__DisplayClass70_0__ctor_m385D7FA2A3322CA4FCA800EFF4EBEC214F27556B,
+	U3CU3Ec__DisplayClass70_0_U3CUnloadSparseSpatialMapU3Eb__0_m419B9C96466AE1E1DF1AF6DD42175A0D88D55613,
+	U3CU3Ec__DisplayClass71_0__ctor_m04723749E211B6BAC1CD00E22A598CEDFC3F19C4,
+	U3CU3Ec__DisplayClass71_0_U3CHostSparseSpatialMapU3Eb__0_m7383DE525D16D3ACB45CF45416BB84E86A92DCBD,
+	SurfaceTargetController_OnTracking_m0E7E8874514A5A8E9806EFF2DA1DD3DFF5000158,
+	SurfaceTargetController_Load_m36A8F7D0AA6B762C2F58D0C4D03A732250D312BF,
+	SurfaceTargetController__ctor_m2B0597B301A7D7C30E32326690FDF722CB73493C,
+	SurfaceTrackerFrameFilter_get_Tracker_m016864AB165082CE90DAC189CB1E8FEDA347A1E4,
+	SurfaceTrackerFrameFilter_set_Tracker_m2C0AE9C5F57BB25F1FAD37479B63E72FD40D9E72,
+	SurfaceTrackerFrameFilter_get_BufferRequirement_m10D8C10D81887A6A218CD41B8E24EA04CB6325F3,
+	SurfaceTrackerFrameFilter_get_Target_m34CA11EC590A7EFA09D0ACF1636339397A512D2D,
+	SurfaceTrackerFrameFilter_set_Target_m0A6AE6AA893FF281EAC0F39107672873A4A62F1C,
+	SurfaceTrackerFrameFilter_Awake_mFA94942AAC942EDEC51CB36CDB5230822A63BA6D,
+	SurfaceTrackerFrameFilter_OnEnable_m93C356856D0A69C93D2D7E80B65E8B003979A8D5,
+	SurfaceTrackerFrameFilter_OnDisable_mA89FC2C1689FAD751DC527359033AF2C19FA0246,
+	SurfaceTrackerFrameFilter_OnDestroy_m2DDAAB21368FCFC4D657861B70A0A227825BF120,
+	SurfaceTrackerFrameFilter_InputFrameSink_mA8369D1452F84F7B448A20416513933CE5E230A2,
+	SurfaceTrackerFrameFilter_OutputFrameSource_m2EDF85B04F3F7535545539CCBD728DD07AB68A3C,
+	SurfaceTrackerFrameFilter_OnAssemble_m6399AF1D59B98ED874F0F6A89594B4EF256A9C34,
+	SurfaceTrackerFrameFilter_OnResult_m2BFC2E74DCF6ABE08B6A3F43502EB04A08672E48,
+	SurfaceTrackerFrameFilter_TryGetCenter_mF304454E6636524BD64D410CD4226B7CB41DD5C2,
+	SurfaceTrackerFrameFilter_UpdateTransform_m1D167D3B2C83E01C4122BA3AD6121EF4DED449E0,
+	SurfaceTrackerFrameFilter__ctor_m724C05CE8BD73735DECA35CB50EF5240CA058C48,
+};
+extern void OptionalOfBuffer_get_has_value_m77FBC17E0DAFB3A38B29E22B88CE8E481DC9EDF1_AdjustorThunk (void);
+extern void OptionalOfBuffer_set_has_value_m17019E4D30096E17664D807802593879A41D8ACE_AdjustorThunk (void);
+extern void OptionalOfObjectTarget_get_has_value_mCC0801248558F78FAAE73D673AC5DA81603E9C92_AdjustorThunk (void);
+extern void OptionalOfObjectTarget_set_has_value_mDF8C74286CCCC224C14C84E2E4D08C9F95EA8A1A_AdjustorThunk (void);
+extern void OptionalOfTarget_get_has_value_mE51C341E2CA247ADD6190295388443ED3EC34BFF_AdjustorThunk (void);
+extern void OptionalOfTarget_set_has_value_mD199D24DF6F5A9B6A2F7BA8D86029392329D2031_AdjustorThunk (void);
+extern void OptionalOfOutputFrame_get_has_value_mB8A678C291F4A9276447547EC402815933C53DCF_AdjustorThunk (void);
+extern void OptionalOfOutputFrame_set_has_value_mB12EF0CE5B5170FDD6E5E9BCBB7BBA10C8690F01_AdjustorThunk (void);
+extern void OptionalOfFrameFilterResult_get_has_value_m570189857259536E710422246228D05FAFDDD97E_AdjustorThunk (void);
+extern void OptionalOfFrameFilterResult_set_has_value_m462CBB83722AD3A05AF06C774EC330E67C45ADE4_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromOutputFrame_get_has_value_mA5BED644FB4CC48EDA59A1BC4A0CF4283A058C87_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromOutputFrame_set_has_value_mDBF814AD3A9228354CC0FDD54C4CE3B3EF5A25C2_AdjustorThunk (void);
+extern void OptionalOfInt_get_has_value_m95EA5D5814B1B321915E3C7724F0FE10EFBFDE2A_AdjustorThunk (void);
+extern void OptionalOfInt_set_has_value_m659849AB2B4C267AF131BFE3DF40CEABA0F08573_AdjustorThunk (void);
+extern void OptionalOfString_get_has_value_mC7BE094936D7977926EDDFA69A58409A0FD663E4_AdjustorThunk (void);
+extern void OptionalOfString_set_has_value_m8E2C78B4A6C2556E9EF3EBF23020649118193E5E_AdjustorThunk (void);
+extern void OptionalOfMatrix44F_get_has_value_mEB7D753D936645EC16606584EFC54C1D89C5BE19_AdjustorThunk (void);
+extern void OptionalOfMatrix44F_set_has_value_m4A3F4A2DA877D9910090D6607D258052DA0AAE62_AdjustorThunk (void);
+extern void OptionalOfVec3D_get_has_value_m73D356A7E1D4E269D4A8974448E96FB22889BEBE_AdjustorThunk (void);
+extern void OptionalOfVec3D_set_has_value_m0D598BB8F044A1A9D0E566AF78D32A66FC01B7BD_AdjustorThunk (void);
+extern void OptionalOfVec3F_get_has_value_m2F947EFB0411920AE6CCF350AD8B473FBB29EB5E_AdjustorThunk (void);
+extern void OptionalOfVec3F_set_has_value_mD7DB7F36ECDDE0BD3D193B338004F412C412807C_AdjustorThunk (void);
+extern void OptionalOfImageTarget_get_has_value_m3CA15AB2279B8B0A587AB003F7C3368812D521AC_AdjustorThunk (void);
+extern void OptionalOfImageTarget_set_has_value_m1CA88109BF80DACEAE5A450554DF5EBD1EF747AD_AdjustorThunk (void);
+extern void OptionalOfAccelerometerResult_get_has_value_mDAB20C3900E88BF81D4AF7682DC2EC55CE411AC2_AdjustorThunk (void);
+extern void OptionalOfAccelerometerResult_set_has_value_mCAAD0E057899B872B5A625745CF3481077212DF0_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromInputFrame_get_has_value_m23574D1711D11A1D25EBB7C603A381FFB94CFDFC_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromInputFrame_set_has_value_m6AFD8EBA283615AA243BC82669C36DF16109920B_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromCameraState_get_has_value_mB14A491DE54ED06B5711BC7A9FA49DC0A903CABD_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromCameraState_set_has_value_m0241EF5EB622037D5A18FC973C5F7BE971FD1890_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromPermissionStatusAndString_get_has_value_mC7941BBDB06D03AD18E99F7C33D79E6C702D5B47_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromPermissionStatusAndString_set_has_value_mA9E6E25D462A4371C2618CC7BA9ADFA710D3A4D0_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromRecordStatusAndString_get_has_value_m4AC8D7E62E782F1958C7D1DE9A5F74878EDEF399_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromRecordStatusAndString_set_has_value_m9407732BBB93383BC57906FAE0C346150BA38D13_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromBool_get_has_value_mB11F9DA29E1BBA3B9D6125B2E41CD3F94C3C6B1C_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromBool_set_has_value_m8DD19830D2584A2E1D09626CB4399B4317616E72_AdjustorThunk (void);
+extern void OptionalOfImage_get_has_value_mB4A61B0EEA9C00DECDC24D23D96A939468AAE8EA_AdjustorThunk (void);
+extern void OptionalOfImage_set_has_value_mC335593EFBE203FBFC48BBA92D02249BC87410C9_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromVideoStatus_get_has_value_m6F8A2513CEF5AF14D1B54A5FF5043831B7455415_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromVideoStatus_set_has_value_m150E5F64F0CE891AE7B1EB89C349164558413663_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoid_get_has_value_mE09302646C6B2FBE58B6326ECDF5F99D8CDA8EFD_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoid_set_has_value_m20BDD582DF5758793006ECAA1512D748F6FDCA31_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromFeedbackFrame_get_has_value_m4D272E56883B810AFD35DA74846B12CC8E50B8CF_AdjustorThunk (void);
+extern void OptionalOfFunctorOfVoidFromFeedbackFrame_set_has_value_mB8C4B69C5C9EB38FD0C30DDDFAC621ACC185D989_AdjustorThunk (void);
+extern void Matrix44F_get_data_mE77FF5E16E55FBCAC06469C74E39437D4307BB8A_AdjustorThunk (void);
+extern void Matrix44F_set_data_m54597E72FA553D22B405C3EFC71564714482A0BC_AdjustorThunk (void);
+extern void Matrix44F__ctor_m4803E02BB0E49BAA0F6CE875B35926239625CF23_AdjustorThunk (void);
+extern void Matrix33F_get_data_m74CF6765E1A0960B928A7ABBB710A8DBAEE24F0B_AdjustorThunk (void);
+extern void Matrix33F_set_data_mFA581D8DA48B8CDBC3483AA4211E4AC4E6E1A77F_AdjustorThunk (void);
+extern void Matrix33F__ctor_mA939B7CC4D5DE20F1236CD87C81C1A7BD6553135_AdjustorThunk (void);
+extern void Vec3D_get_data_m769BFE7AD72625C69D2146AA33AE9D0C469FE6EA_AdjustorThunk (void);
+extern void Vec3D_set_data_mD2219E24803B8BE42977AA94655812DC6C8B66AF_AdjustorThunk (void);
+extern void Vec3D__ctor_mEAB237B2AF2A488F0E49444F2FC26F25DC00CA5A_AdjustorThunk (void);
+extern void Vec4F_get_data_m33ED9139841508EE548400F434A0B9CA007A7FDF_AdjustorThunk (void);
+extern void Vec4F_set_data_m3E0AD7B2963637469C577153911AC872B361D807_AdjustorThunk (void);
+extern void Vec4F__ctor_mEC76032B5DC5593D5E8CE994BE33A0489B7C0BF2_AdjustorThunk (void);
+extern void Vec3F_get_data_mBB2B21ACD48ABA0E855C2B471670F22439589C3A_AdjustorThunk (void);
+extern void Vec3F_set_data_m1001214543FBB48CDF22AE2DE534027C811A52F9_AdjustorThunk (void);
+extern void Vec3F__ctor_mEEFBBF220ED8CCA58956F770B21E90DE02B58351_AdjustorThunk (void);
+extern void Vec2F_get_data_mCAE058FB2EF977B4A6638E262856609E49E63076_AdjustorThunk (void);
+extern void Vec2F_set_data_m3E46A80965D83E95C58F0C078D635694C2405A6F_AdjustorThunk (void);
+extern void Vec2F__ctor_m75206440B316C9C40BCC12B40D7D531200B06E01_AdjustorThunk (void);
+extern void Vec4I_get_data_m67106794F8E1FEC2A5A9420744606462E3A288B9_AdjustorThunk (void);
+extern void Vec4I_set_data_mE2F0FC5F4A4E35BE975BF750170832ACD9E928C7_AdjustorThunk (void);
+extern void Vec4I__ctor_m5C13AA838AB5460F49F5504F0AF3A283447FD771_AdjustorThunk (void);
+extern void Vec2I_get_data_m31388735C2417E365CC82E677A5D859518E45007_AdjustorThunk (void);
+extern void Vec2I_set_data_m7AEF40F2388A51351E3B36E98F356202054F2DDE_AdjustorThunk (void);
+extern void Vec2I__ctor_m19B1C050F928300518B9D0F4DEA02800F98EDAD3_AdjustorThunk (void);
+extern void BlockInfo__ctor_m26EDDEE23D9260B5FCC87110BB87940C97C9988F_AdjustorThunk (void);
+extern void AccelerometerResult__ctor_m64E9CFD846C5CD53076F3FFD23A1F6D781E2AD92_AdjustorThunk (void);
+extern void MagnetometerResult__ctor_mD0948B897C36EF739B9B9ED9686B854CAEBD9954_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[71] = 
+{
+	{ 0x06000337, OptionalOfBuffer_get_has_value_m77FBC17E0DAFB3A38B29E22B88CE8E481DC9EDF1_AdjustorThunk },
+	{ 0x06000338, OptionalOfBuffer_set_has_value_m17019E4D30096E17664D807802593879A41D8ACE_AdjustorThunk },
+	{ 0x06000341, OptionalOfObjectTarget_get_has_value_mCC0801248558F78FAAE73D673AC5DA81603E9C92_AdjustorThunk },
+	{ 0x06000342, OptionalOfObjectTarget_set_has_value_mDF8C74286CCCC224C14C84E2E4D08C9F95EA8A1A_AdjustorThunk },
+	{ 0x06000343, OptionalOfTarget_get_has_value_mE51C341E2CA247ADD6190295388443ED3EC34BFF_AdjustorThunk },
+	{ 0x06000344, OptionalOfTarget_set_has_value_mD199D24DF6F5A9B6A2F7BA8D86029392329D2031_AdjustorThunk },
+	{ 0x06000345, OptionalOfOutputFrame_get_has_value_mB8A678C291F4A9276447547EC402815933C53DCF_AdjustorThunk },
+	{ 0x06000346, OptionalOfOutputFrame_set_has_value_mB12EF0CE5B5170FDD6E5E9BCBB7BBA10C8690F01_AdjustorThunk },
+	{ 0x06000347, OptionalOfFrameFilterResult_get_has_value_m570189857259536E710422246228D05FAFDDD97E_AdjustorThunk },
+	{ 0x06000348, OptionalOfFrameFilterResult_set_has_value_m462CBB83722AD3A05AF06C774EC330E67C45ADE4_AdjustorThunk },
+	{ 0x06000349, OptionalOfFunctorOfVoidFromOutputFrame_get_has_value_mA5BED644FB4CC48EDA59A1BC4A0CF4283A058C87_AdjustorThunk },
+	{ 0x0600034A, OptionalOfFunctorOfVoidFromOutputFrame_set_has_value_mDBF814AD3A9228354CC0FDD54C4CE3B3EF5A25C2_AdjustorThunk },
+	{ 0x0600035B, OptionalOfInt_get_has_value_m95EA5D5814B1B321915E3C7724F0FE10EFBFDE2A_AdjustorThunk },
+	{ 0x0600035C, OptionalOfInt_set_has_value_m659849AB2B4C267AF131BFE3DF40CEABA0F08573_AdjustorThunk },
+	{ 0x06000365, OptionalOfString_get_has_value_mC7BE094936D7977926EDDFA69A58409A0FD663E4_AdjustorThunk },
+	{ 0x06000366, OptionalOfString_set_has_value_m8E2C78B4A6C2556E9EF3EBF23020649118193E5E_AdjustorThunk },
+	{ 0x06000367, OptionalOfMatrix44F_get_has_value_mEB7D753D936645EC16606584EFC54C1D89C5BE19_AdjustorThunk },
+	{ 0x06000368, OptionalOfMatrix44F_set_has_value_m4A3F4A2DA877D9910090D6607D258052DA0AAE62_AdjustorThunk },
+	{ 0x06000369, OptionalOfVec3D_get_has_value_m73D356A7E1D4E269D4A8974448E96FB22889BEBE_AdjustorThunk },
+	{ 0x0600036A, OptionalOfVec3D_set_has_value_m0D598BB8F044A1A9D0E566AF78D32A66FC01B7BD_AdjustorThunk },
+	{ 0x0600036B, OptionalOfVec3F_get_has_value_m2F947EFB0411920AE6CCF350AD8B473FBB29EB5E_AdjustorThunk },
+	{ 0x0600036C, OptionalOfVec3F_set_has_value_mD7DB7F36ECDDE0BD3D193B338004F412C412807C_AdjustorThunk },
+	{ 0x06000375, OptionalOfImageTarget_get_has_value_m3CA15AB2279B8B0A587AB003F7C3368812D521AC_AdjustorThunk },
+	{ 0x06000376, OptionalOfImageTarget_set_has_value_m1CA88109BF80DACEAE5A450554DF5EBD1EF747AD_AdjustorThunk },
+	{ 0x0600037F, OptionalOfAccelerometerResult_get_has_value_mDAB20C3900E88BF81D4AF7682DC2EC55CE411AC2_AdjustorThunk },
+	{ 0x06000380, OptionalOfAccelerometerResult_set_has_value_mCAAD0E057899B872B5A625745CF3481077212DF0_AdjustorThunk },
+	{ 0x06000381, OptionalOfFunctorOfVoidFromInputFrame_get_has_value_m23574D1711D11A1D25EBB7C603A381FFB94CFDFC_AdjustorThunk },
+	{ 0x06000382, OptionalOfFunctorOfVoidFromInputFrame_set_has_value_m6AFD8EBA283615AA243BC82669C36DF16109920B_AdjustorThunk },
+	{ 0x0600038B, OptionalOfFunctorOfVoidFromCameraState_get_has_value_mB14A491DE54ED06B5711BC7A9FA49DC0A903CABD_AdjustorThunk },
+	{ 0x0600038C, OptionalOfFunctorOfVoidFromCameraState_set_has_value_m0241EF5EB622037D5A18FC973C5F7BE971FD1890_AdjustorThunk },
+	{ 0x06000395, OptionalOfFunctorOfVoidFromPermissionStatusAndString_get_has_value_mC7941BBDB06D03AD18E99F7C33D79E6C702D5B47_AdjustorThunk },
+	{ 0x06000396, OptionalOfFunctorOfVoidFromPermissionStatusAndString_set_has_value_mA9E6E25D462A4371C2618CC7BA9ADFA710D3A4D0_AdjustorThunk },
+	{ 0x060003A7, OptionalOfFunctorOfVoidFromRecordStatusAndString_get_has_value_m4AC8D7E62E782F1958C7D1DE9A5F74878EDEF399_AdjustorThunk },
+	{ 0x060003A8, OptionalOfFunctorOfVoidFromRecordStatusAndString_set_has_value_m9407732BBB93383BC57906FAE0C346150BA38D13_AdjustorThunk },
+	{ 0x060003B1, OptionalOfFunctorOfVoidFromBool_get_has_value_mB11F9DA29E1BBA3B9D6125B2E41CD3F94C3C6B1C_AdjustorThunk },
+	{ 0x060003B2, OptionalOfFunctorOfVoidFromBool_set_has_value_m8DD19830D2584A2E1D09626CB4399B4317616E72_AdjustorThunk },
+	{ 0x060003BB, OptionalOfImage_get_has_value_mB4A61B0EEA9C00DECDC24D23D96A939468AAE8EA_AdjustorThunk },
+	{ 0x060003BC, OptionalOfImage_set_has_value_mC335593EFBE203FBFC48BBA92D02249BC87410C9_AdjustorThunk },
+	{ 0x060003CD, OptionalOfFunctorOfVoidFromVideoStatus_get_has_value_m6F8A2513CEF5AF14D1B54A5FF5043831B7455415_AdjustorThunk },
+	{ 0x060003CE, OptionalOfFunctorOfVoidFromVideoStatus_set_has_value_m150E5F64F0CE891AE7B1EB89C349164558413663_AdjustorThunk },
+	{ 0x060003D7, OptionalOfFunctorOfVoid_get_has_value_mE09302646C6B2FBE58B6326ECDF5F99D8CDA8EFD_AdjustorThunk },
+	{ 0x060003D8, OptionalOfFunctorOfVoid_set_has_value_m20BDD582DF5758793006ECAA1512D748F6FDCA31_AdjustorThunk },
+	{ 0x060003D9, OptionalOfFunctorOfVoidFromFeedbackFrame_get_has_value_m4D272E56883B810AFD35DA74846B12CC8E50B8CF_AdjustorThunk },
+	{ 0x060003DA, OptionalOfFunctorOfVoidFromFeedbackFrame_set_has_value_mB8C4B69C5C9EB38FD0C30DDDFAC621ACC185D989_AdjustorThunk },
+	{ 0x06000523, Matrix44F_get_data_mE77FF5E16E55FBCAC06469C74E39437D4307BB8A_AdjustorThunk },
+	{ 0x06000524, Matrix44F_set_data_m54597E72FA553D22B405C3EFC71564714482A0BC_AdjustorThunk },
+	{ 0x06000525, Matrix44F__ctor_m4803E02BB0E49BAA0F6CE875B35926239625CF23_AdjustorThunk },
+	{ 0x06000526, Matrix33F_get_data_m74CF6765E1A0960B928A7ABBB710A8DBAEE24F0B_AdjustorThunk },
+	{ 0x06000527, Matrix33F_set_data_mFA581D8DA48B8CDBC3483AA4211E4AC4E6E1A77F_AdjustorThunk },
+	{ 0x06000528, Matrix33F__ctor_mA939B7CC4D5DE20F1236CD87C81C1A7BD6553135_AdjustorThunk },
+	{ 0x06000529, Vec3D_get_data_m769BFE7AD72625C69D2146AA33AE9D0C469FE6EA_AdjustorThunk },
+	{ 0x0600052A, Vec3D_set_data_mD2219E24803B8BE42977AA94655812DC6C8B66AF_AdjustorThunk },
+	{ 0x0600052B, Vec3D__ctor_mEAB237B2AF2A488F0E49444F2FC26F25DC00CA5A_AdjustorThunk },
+	{ 0x0600052C, Vec4F_get_data_m33ED9139841508EE548400F434A0B9CA007A7FDF_AdjustorThunk },
+	{ 0x0600052D, Vec4F_set_data_m3E0AD7B2963637469C577153911AC872B361D807_AdjustorThunk },
+	{ 0x0600052E, Vec4F__ctor_mEC76032B5DC5593D5E8CE994BE33A0489B7C0BF2_AdjustorThunk },
+	{ 0x0600052F, Vec3F_get_data_mBB2B21ACD48ABA0E855C2B471670F22439589C3A_AdjustorThunk },
+	{ 0x06000530, Vec3F_set_data_m1001214543FBB48CDF22AE2DE534027C811A52F9_AdjustorThunk },
+	{ 0x06000531, Vec3F__ctor_mEEFBBF220ED8CCA58956F770B21E90DE02B58351_AdjustorThunk },
+	{ 0x06000532, Vec2F_get_data_mCAE058FB2EF977B4A6638E262856609E49E63076_AdjustorThunk },
+	{ 0x06000533, Vec2F_set_data_m3E46A80965D83E95C58F0C078D635694C2405A6F_AdjustorThunk },
+	{ 0x06000534, Vec2F__ctor_m75206440B316C9C40BCC12B40D7D531200B06E01_AdjustorThunk },
+	{ 0x06000535, Vec4I_get_data_m67106794F8E1FEC2A5A9420744606462E3A288B9_AdjustorThunk },
+	{ 0x06000536, Vec4I_set_data_mE2F0FC5F4A4E35BE975BF750170832ACD9E928C7_AdjustorThunk },
+	{ 0x06000537, Vec4I__ctor_m5C13AA838AB5460F49F5504F0AF3A283447FD771_AdjustorThunk },
+	{ 0x06000538, Vec2I_get_data_m31388735C2417E365CC82E677A5D859518E45007_AdjustorThunk },
+	{ 0x06000539, Vec2I_set_data_m7AEF40F2388A51351E3B36E98F356202054F2DDE_AdjustorThunk },
+	{ 0x0600053A, Vec2I__ctor_m19B1C050F928300518B9D0F4DEA02800F98EDAD3_AdjustorThunk },
+	{ 0x06000547, BlockInfo__ctor_m26EDDEE23D9260B5FCC87110BB87940C97C9988F_AdjustorThunk },
+	{ 0x06000557, AccelerometerResult__ctor_m64E9CFD846C5CD53076F3FFD23A1F6D781E2AD92_AdjustorThunk },
+	{ 0x060005A7, MagnetometerResult__ctor_mD0948B897C36EF739B9B9ED9686B854CAEBD9954_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[2939] = 
+{
+	9559,
+	10713,
+	11886,
+	11886,
+	10713,
+	12288,
+	12275,
+	10713,
+	10716,
+	10713,
+	10716,
+	10713,
+	10716,
+	10713,
+	10716,
+	10713,
+	10716,
+	12076,
+	10718,
+	12288,
+	10713,
+	11886,
+	12275,
+	10713,
+	7390,
+	12076,
+	10713,
+	9975,
+	11834,
+	10713,
+	10713,
+	10716,
+	10713,
+	10716,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	10713,
+	10716,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	10713,
+	10713,
+	13092,
+	10713,
+	11834,
+	10713,
+	12275,
+	11708,
+	12288,
+	12288,
+	8691,
+	8691,
+	10713,
+	9973,
+	11834,
+	12288,
+	10713,
+	11886,
+	12275,
+	8698,
+	12288,
+	10713,
+	11886,
+	11834,
+	10713,
+	10713,
+	11899,
+	13020,
+	10713,
+	10713,
+	10713,
+	10713,
+	10713,
+	10713,
+	10713,
+	13021,
+	10713,
+	13021,
+	11899,
+	13020,
+	13021,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	13092,
+	8044,
+	7290,
+	12288,
+	12288,
+	10713,
+	11886,
+	11834,
+	10713,
+	10713,
+	12288,
+	10713,
+	11886,
+	13092,
+	8044,
+	8690,
+	8045,
+	12288,
+	12288,
+	10713,
+	11886,
+	8684,
+	10701,
+	11886,
+	11834,
+	9563,
+	7643,
+	7642,
+	8681,
+	12288,
+	10713,
+	11886,
+	12275,
+	11834,
+	9974,
+	9559,
+	9565,
+	9974,
+	12288,
+	12288,
+	10713,
+	11886,
+	9535,
+	11834,
+	11834,
+	11834,
+	10713,
+	12288,
+	10713,
+	11886,
+	7571,
+	12240,
+	12238,
+	12238,
+	11834,
+	11834,
+	8753,
+	9575,
+	10202,
+	9972,
+	7350,
+	7788,
+	7510,
+	7510,
+	9974,
+	12288,
+	10713,
+	11886,
+	8040,
+	10713,
+	11834,
+	11834,
+	11834,
+	11834,
+	11834,
+	7387,
+	12288,
+	10713,
+	11886,
+	13092,
+	10713,
+	11834,
+	12275,
+	11708,
+	12288,
+	12288,
+	10713,
+	9972,
+	12288,
+	10713,
+	11886,
+	11834,
+	11834,
+	10713,
+	10713,
+	10713,
+	11834,
+	11834,
+	10713,
+	10713,
+	10713,
+	10713,
+	12076,
+	12288,
+	10713,
+	11886,
+	12275,
+	11708,
+	11708,
+	9973,
+	12288,
+	13019,
+	12288,
+	10713,
+	11886,
+	12275,
+	13092,
+	11834,
+	10715,
+	10713,
+	10715,
+	11708,
+	12288,
+	12288,
+	12288,
+	10713,
+	11886,
+	12275,
+	13092,
+	11834,
+	10715,
+	10713,
+	10715,
+	11708,
+	12288,
+	12288,
+	12288,
+	10713,
+	11886,
+	12275,
+	13092,
+	11834,
+	10715,
+	11834,
+	10715,
+	10713,
+	9571,
+	10725,
+	13109,
+	9973,
+	9973,
+	9973,
+	11708,
+	12288,
+	12288,
+	11834,
+	11834,
+	10713,
+	10716,
+	12240,
+	11834,
+	10487,
+	9976,
+	11834,
+	10397,
+	10397,
+	11834,
+	9973,
+	9972,
+	9973,
+	11708,
+	12288,
+	10713,
+	11886,
+	11832,
+	10701,
+	11832,
+	11899,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	13092,
+	10713,
+	11834,
+	10713,
+	12275,
+	11708,
+	12288,
+	12288,
+	10719,
+	12288,
+	10713,
+	11886,
+	12275,
+	13092,
+	13109,
+	9973,
+	9973,
+	9973,
+	9973,
+	10715,
+	11834,
+	10713,
+	11708,
+	12288,
+	12288,
+	9574,
+	9574,
+	10713,
+	12288,
+	10713,
+	11886,
+	10713,
+	11834,
+	10713,
+	12275,
+	8954,
+	12288,
+	12288,
+	10713,
+	11886,
+	10713,
+	12275,
+	9974,
+	12288,
+	12288,
+	11708,
+	11782,
+	11782,
+	11834,
+	11708,
+	12288,
+	10713,
+	11886,
+	12288,
+	10713,
+	11886,
+	12275,
+	11708,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	12275,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	8680,
+	9576,
+	11886,
+	12302,
+	10720,
+	13159,
+	12288,
+	12275,
+	10713,
+	10716,
+	10713,
+	10716,
+	10713,
+	10716,
+	10713,
+	10716,
+	12076,
+	10718,
+	12288,
+	10713,
+	11886,
+	12275,
+	10713,
+	9549,
+	10713,
+	9974,
+	7390,
+	12076,
+	12076,
+	9975,
+	10713,
+	11834,
+	10713,
+	10713,
+	10716,
+	10713,
+	10716,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	10713,
+	10716,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	10713,
+	10713,
+	13092,
+	10713,
+	11834,
+	10713,
+	12275,
+	10701,
+	11708,
+	12288,
+	12288,
+	8691,
+	8691,
+	10713,
+	9973,
+	11834,
+	12288,
+	10713,
+	11886,
+	12275,
+	10715,
+	11834,
+	8234,
+	8458,
+	12288,
+	10713,
+	11886,
+	13092,
+	10725,
+	8693,
+	12288,
+	8689,
+	11708,
+	12288,
+	10713,
+	11886,
+	12275,
+	10716,
+	9973,
+	10715,
+	10715,
+	10715,
+	10715,
+	10715,
+	10715,
+	10715,
+	12288,
+	10713,
+	11886,
+	11834,
+	13020,
+	13020,
+	11708,
+	10713,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	12275,
+	11834,
+	11899,
+	12076,
+	12076,
+	12288,
+	10713,
+	11886,
+	12275,
+	10715,
+	11834,
+	12288,
+	10713,
+	11886,
+	13092,
+	10713,
+	11834,
+	10713,
+	12275,
+	11708,
+	12288,
+	12288,
+	10713,
+	10713,
+	9574,
+	9574,
+	12275,
+	8692,
+	10716,
+	10713,
+	11708,
+	12288,
+	12288,
+	10713,
+	11886,
+	13092,
+	12275,
+	7212,
+	7236,
+	12288,
+	12288,
+	10713,
+	11886,
+	13109,
+	11708,
+	13159,
+	13159,
+	12275,
+	12275,
+	12275,
+	12275,
+	8236,
+	12275,
+	13092,
+	10715,
+	10716,
+	8043,
+	12288,
+	11708,
+	12288,
+	12288,
+	11708,
+	12288,
+	11834,
+	11834,
+	9973,
+	12240,
+	12076,
+	9975,
+	12288,
+	10713,
+	11886,
+	10713,
+	12288,
+	12288,
+	10713,
+	11886,
+	10721,
+	10716,
+	12288,
+	12288,
+	10713,
+	11886,
+	10716,
+	12288,
+	10713,
+	11886,
+	10723,
+	10716,
+	12288,
+	12288,
+	10713,
+	11886,
+	10716,
+	12288,
+	10713,
+	11886,
+	10724,
+	10716,
+	12288,
+	12288,
+	10713,
+	11886,
+	10716,
+	12288,
+	10713,
+	11886,
+	10722,
+	10716,
+	12288,
+	12288,
+	10713,
+	11886,
+	10713,
+	9549,
+	11834,
+	10701,
+	12288,
+	10713,
+	11886,
+	10713,
+	9549,
+	11834,
+	10701,
+	12288,
+	10713,
+	11886,
+	9549,
+	10713,
+	11834,
+	10701,
+	9545,
+	12288,
+	10713,
+	11886,
+	10713,
+	9549,
+	11834,
+	10701,
+	12288,
+	10713,
+	11886,
+	10713,
+	11834,
+	10713,
+	10713,
+	12275,
+	12288,
+	10713,
+	11886,
+	10713,
+	11834,
+	10713,
+	10713,
+	12275,
+	12288,
+	12288,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	12275,
+	12288,
+	10713,
+	11886,
+	10713,
+	11834,
+	10713,
+	10713,
+	12275,
+	12288,
+	10713,
+	11886,
+	11834,
+	10713,
+	11708,
+	10713,
+	11708,
+	11782,
+	11708,
+	11899,
+	11834,
+	7539,
+	8688,
+	9559,
+	10713,
+	12288,
+	10713,
+	11886,
+	12288,
+	10713,
+	11886,
+	9559,
+	11834,
+	10713,
+	10713,
+	12288,
+	10713,
+	11886,
+	9577,
+	10713,
+	10713,
+	12288,
+	10713,
+	11886,
+	11834,
+	10713,
+	10713,
+	10716,
+	10713,
+	10716,
+	12288,
+	10713,
+	11886,
+	12275,
+	11834,
+	10713,
+	11899,
+	12288,
+	10713,
+	11886,
+	10713,
+	10716,
+	12288,
+	10713,
+	11886,
+	10713,
+	10713,
+	11834,
+	11886,
+	10701,
+	10713,
+	12288,
+	10713,
+	11886,
+	9559,
+	12288,
+	10713,
+	11834,
+	10488,
+	9559,
+	12288,
+	10713,
+	11834,
+	10255,
+	9559,
+	12288,
+	10713,
+	11834,
+	11494,
+	9559,
+	12288,
+	10713,
+	11834,
+	10255,
+	9559,
+	12288,
+	10713,
+	11834,
+	10255,
+	9559,
+	12288,
+	10713,
+	11834,
+	10279,
+	9559,
+	12288,
+	10713,
+	11834,
+	10255,
+	9559,
+	12288,
+	10713,
+	11834,
+	9843,
+	9559,
+	12288,
+	10713,
+	11834,
+	10255,
+	9559,
+	12288,
+	10713,
+	11834,
+	10255,
+	10261,
+	11887,
+	10319,
+	11979,
+	0,
+	0,
+	10713,
+	12288,
+	13003,
+	10261,
+	10319,
+	10261,
+	10319,
+	10261,
+	10319,
+	9559,
+	12288,
+	13014,
+	8687,
+	12288,
+	13017,
+	10261,
+	10319,
+	8685,
+	12288,
+	13007,
+	10261,
+	10319,
+	10261,
+	10319,
+	9559,
+	12288,
+	13009,
+	10261,
+	10319,
+	9559,
+	12288,
+	13010,
+	10261,
+	10319,
+	9559,
+	12288,
+	13012,
+	9549,
+	12288,
+	13008,
+	8682,
+	12288,
+	13015,
+	8682,
+	12288,
+	13013,
+	8682,
+	12288,
+	13016,
+	10261,
+	10319,
+	9548,
+	12288,
+	13004,
+	8038,
+	12288,
+	13006,
+	8679,
+	12288,
+	13005,
+	9549,
+	12288,
+	13018,
+	9559,
+	12288,
+	13011,
+	8686,
+	12288,
+	13002,
+	10261,
+	10319,
+	13159,
+	5648,
+	0,
+	7008,
+	7008,
+	0,
+	0,
+	6783,
+	5546,
+	3239,
+	3208,
+	962,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	6783,
+	5546,
+	6783,
+	5546,
+	6783,
+	5546,
+	6783,
+	5546,
+	3239,
+	1771,
+	523,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	3239,
+	1077,
+	291,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	3239,
+	1075,
+	289,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	6783,
+	5546,
+	6783,
+	5546,
+	6783,
+	5546,
+	3239,
+	1771,
+	523,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	3239,
+	1771,
+	523,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	6783,
+	5546,
+	3239,
+	1771,
+	523,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	3239,
+	1770,
+	522,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	3239,
+	1074,
+	288,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	3239,
+	1074,
+	288,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	3239,
+	1074,
+	288,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	3239,
+	1769,
+	521,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	3239,
+	590,
+	201,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	3239,
+	1071,
+	287,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	3239,
+	1770,
+	522,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	6783,
+	5546,
+	6783,
+	5546,
+	3239,
+	1771,
+	523,
+	2706,
+	3239,
+	5620,
+	1521,
+	5648,
+	3239,
+	1076,
+	290,
+	1670,
+	3239,
+	5620,
+	1521,
+	5648,
+	13159,
+	7008,
+	5215,
+	4972,
+	6037,
+	6037,
+	3558,
+	4972,
+	5001,
+	4972,
+	3675,
+	4972,
+	4972,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	5025,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	3574,
+	7008,
+	4972,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	7008,
+	7008,
+	1774,
+	6850,
+	7008,
+	7008,
+	0,
+	6880,
+	3239,
+	3208,
+	962,
+	2706,
+	1774,
+	6880,
+	6880,
+	7008,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6937,
+	5702,
+	1774,
+	6880,
+	6880,
+	7008,
+	11581,
+	7413,
+	6937,
+	6880,
+	4152,
+	6847,
+	6880,
+	6880,
+	5648,
+	6880,
+	5648,
+	13159,
+	7008,
+	3572,
+	3572,
+	1774,
+	6880,
+	6880,
+	6880,
+	5648,
+	1774,
+	6880,
+	6880,
+	13092,
+	6880,
+	6847,
+	6880,
+	13117,
+	6783,
+	7008,
+	7008,
+	1827,
+	1827,
+	6880,
+	4061,
+	6847,
+	1774,
+	6880,
+	6880,
+	7008,
+	1665,
+	13159,
+	7008,
+	6060,
+	1774,
+	6880,
+	6880,
+	6847,
+	6880,
+	6880,
+	6873,
+	6682,
+	6880,
+	6880,
+	6880,
+	6880,
+	6880,
+	6880,
+	6880,
+	6691,
+	6880,
+	6691,
+	6873,
+	6682,
+	6691,
+	13159,
+	7008,
+	3561,
+	3576,
+	3576,
+	3561,
+	3576,
+	1774,
+	6880,
+	6880,
+	13092,
+	8526,
+	233,
+	7008,
+	13159,
+	7008,
+	6064,
+	6063,
+	6060,
+	1774,
+	6880,
+	6880,
+	6847,
+	6679,
+	6689,
+	13159,
+	7008,
+	3560,
+	7008,
+	3574,
+	1774,
+	6880,
+	6880,
+	13092,
+	8526,
+	9175,
+	1081,
+	7008,
+	13159,
+	7008,
+	6060,
+	1774,
+	6880,
+	6880,
+	9149,
+	11977,
+	6850,
+	6847,
+	9563,
+	668,
+	662,
+	2577,
+	11983,
+	9164,
+	8502,
+	5648,
+	1128,
+	5648,
+	1065,
+	7008,
+	7008,
+	13159,
+	7008,
+	7008,
+	7008,
+	7008,
+	1774,
+	6880,
+	6880,
+	7008,
+	6847,
+	4097,
+	3556,
+	3243,
+	4097,
+	7008,
+	13159,
+	7008,
+	3557,
+	1774,
+	6880,
+	6880,
+	2969,
+	6847,
+	6847,
+	6847,
+	6677,
+	13159,
+	7008,
+	3557,
+	1774,
+	6880,
+	6880,
+	644,
+	6992,
+	6991,
+	6991,
+	6847,
+	6847,
+	9209,
+	5044,
+	4740,
+	3995,
+	284,
+	949,
+	538,
+	538,
+	4097,
+	1774,
+	6880,
+	6880,
+	1128,
+	6880,
+	6847,
+	6847,
+	6847,
+	6847,
+	6847,
+	7479,
+	6880,
+	5648,
+	18,
+	6880,
+	5648,
+	107,
+	6880,
+	5648,
+	1703,
+	6880,
+	5648,
+	1200,
+	6880,
+	5648,
+	1871,
+	6880,
+	5648,
+	3296,
+	6880,
+	5648,
+	1055,
+	6880,
+	5648,
+	2969,
+	1774,
+	6880,
+	6880,
+	13092,
+	6880,
+	6847,
+	13117,
+	6783,
+	7008,
+	7008,
+	6880,
+	3995,
+	153,
+	1774,
+	6880,
+	6880,
+	6847,
+	6847,
+	6880,
+	6880,
+	6880,
+	6847,
+	6847,
+	6880,
+	6880,
+	6880,
+	6880,
+	6937,
+	1197,
+	1774,
+	6880,
+	6880,
+	7008,
+	6783,
+	6783,
+	4061,
+	7008,
+	6675,
+	13159,
+	7008,
+	3555,
+	1774,
+	6880,
+	6880,
+	7008,
+	13092,
+	6847,
+	5617,
+	6880,
+	5617,
+	6783,
+	7008,
+	7008,
+	1774,
+	6880,
+	6880,
+	7008,
+	13092,
+	6847,
+	5617,
+	6880,
+	5617,
+	6783,
+	7008,
+	7008,
+	1774,
+	6880,
+	6880,
+	7008,
+	13092,
+	6847,
+	5617,
+	6847,
+	5617,
+	6880,
+	3221,
+	10795,
+	13109,
+	4061,
+	4061,
+	4061,
+	6783,
+	7008,
+	7008,
+	6847,
+	6847,
+	6880,
+	5648,
+	6992,
+	6847,
+	5211,
+	4212,
+	6847,
+	5125,
+	5125,
+	6847,
+	4061,
+	3995,
+	4061,
+	6783,
+	13159,
+	7008,
+	6044,
+	6052,
+	11832,
+	11977,
+	11832,
+	7008,
+	1197,
+	1774,
+	6880,
+	6880,
+	6873,
+	1774,
+	6880,
+	6880,
+	13092,
+	6880,
+	6847,
+	6880,
+	13117,
+	6783,
+	7008,
+	7008,
+	5753,
+	1774,
+	6880,
+	6880,
+	7008,
+	13092,
+	13109,
+	4061,
+	4061,
+	4061,
+	4061,
+	5617,
+	6847,
+	6880,
+	6783,
+	7008,
+	7008,
+	5043,
+	5043,
+	6880,
+	1774,
+	6880,
+	6880,
+	6880,
+	6847,
+	6880,
+	13117,
+	2135,
+	7008,
+	1774,
+	6880,
+	6880,
+	6880,
+	13117,
+	4097,
+	7008,
+	7008,
+	6783,
+	6811,
+	6811,
+	6847,
+	6783,
+	1774,
+	6880,
+	6880,
+	1774,
+	6880,
+	6880,
+	7008,
+	6783,
+	1774,
+	6880,
+	6880,
+	13117,
+	9146,
+	10309,
+	11886,
+	7008,
+	12290,
+	10808,
+	13159,
+	7008,
+	12290,
+	7008,
+	1774,
+	6880,
+	6880,
+	7008,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6937,
+	5702,
+	1774,
+	6880,
+	6880,
+	7008,
+	11576,
+	9805,
+	11576,
+	4097,
+	7412,
+	6937,
+	6937,
+	4152,
+	6880,
+	6847,
+	6880,
+	6880,
+	5648,
+	6880,
+	5648,
+	13159,
+	7008,
+	3560,
+	3560,
+	3560,
+	3560,
+	1774,
+	6880,
+	6880,
+	6880,
+	5648,
+	1774,
+	6880,
+	6880,
+	13092,
+	6880,
+	6847,
+	6880,
+	13117,
+	11977,
+	6783,
+	7008,
+	7008,
+	1827,
+	1827,
+	6880,
+	4061,
+	6847,
+	1774,
+	6880,
+	6880,
+	7008,
+	5617,
+	6847,
+	1260,
+	1484,
+	1774,
+	6880,
+	6880,
+	13092,
+	10795,
+	9170,
+	7008,
+	1802,
+	6783,
+	13159,
+	7008,
+	6052,
+	6054,
+	1774,
+	6880,
+	6880,
+	7008,
+	5648,
+	4061,
+	5617,
+	5617,
+	5617,
+	5617,
+	5617,
+	5617,
+	5617,
+	1774,
+	6880,
+	6880,
+	6847,
+	6682,
+	6682,
+	6783,
+	6880,
+	13159,
+	7008,
+	3561,
+	3561,
+	1774,
+	6880,
+	6880,
+	7008,
+	6847,
+	6873,
+	6937,
+	6937,
+	1774,
+	6880,
+	6880,
+	7008,
+	5617,
+	6847,
+	1774,
+	6880,
+	6880,
+	13092,
+	6880,
+	6847,
+	6880,
+	13117,
+	6783,
+	7008,
+	7008,
+	6880,
+	6880,
+	5043,
+	5043,
+	13117,
+	1818,
+	5648,
+	6880,
+	6783,
+	7008,
+	13159,
+	7008,
+	6042,
+	1774,
+	6880,
+	6880,
+	13092,
+	13117,
+	99,
+	167,
+	7008,
+	13159,
+	7008,
+	6058,
+	6060,
+	6060,
+	13109,
+	11710,
+	13159,
+	13159,
+	13117,
+	13117,
+	13117,
+	13117,
+	8250,
+	7008,
+	1774,
+	6880,
+	6880,
+	7008,
+	13092,
+	5617,
+	5648,
+	1131,
+	7008,
+	6783,
+	7008,
+	7008,
+	6783,
+	7008,
+	6847,
+	6847,
+	4061,
+	6992,
+	6937,
+	4152,
+	13159,
+	7008,
+	6056,
+	11575,
+	7008,
+	13159,
+	7008,
+	3559,
+	1774,
+	6880,
+	6880,
+	7008,
+	1774,
+	6880,
+	6880,
+	5441,
+	5648,
+	7008,
+	13159,
+	7008,
+	6040,
+	1774,
+	6880,
+	6880,
+	5648,
+	1774,
+	6880,
+	6880,
+	5438,
+	5648,
+	7008,
+	13159,
+	7008,
+	6048,
+	1774,
+	6880,
+	6880,
+	5648,
+	1774,
+	6880,
+	6880,
+	5439,
+	5648,
+	7008,
+	13159,
+	7008,
+	6050,
+	1774,
+	6880,
+	6880,
+	5648,
+	1774,
+	6880,
+	6880,
+	5437,
+	5648,
+	7008,
+	13159,
+	7008,
+	6046,
+	1774,
+	6880,
+	6880,
+	6880,
+	5023,
+	6847,
+	11977,
+	1774,
+	6880,
+	6880,
+	6880,
+	5023,
+	6847,
+	11977,
+	1774,
+	6880,
+	6880,
+	5023,
+	6880,
+	6847,
+	11977,
+	10305,
+	1774,
+	6880,
+	6880,
+	6880,
+	5023,
+	6847,
+	11977,
+	1774,
+	6880,
+	6880,
+	6880,
+	6847,
+	6880,
+	6880,
+	13117,
+	1774,
+	6880,
+	6880,
+	6880,
+	6847,
+	6880,
+	6685,
+	13117,
+	7008,
+	7008,
+	13159,
+	7008,
+	3573,
+	1774,
+	6880,
+	6880,
+	6880,
+	6880,
+	13117,
+	1774,
+	6880,
+	6880,
+	6880,
+	6847,
+	6880,
+	6880,
+	13117,
+	1774,
+	6880,
+	6880,
+	6847,
+	6880,
+	6783,
+	6880,
+	6783,
+	6811,
+	6783,
+	6873,
+	6847,
+	7814,
+	9173,
+	10321,
+	11983,
+	1774,
+	6880,
+	6880,
+	1774,
+	6880,
+	6880,
+	3243,
+	6847,
+	6880,
+	6880,
+	1774,
+	6880,
+	6880,
+	3223,
+	6880,
+	6685,
+	13159,
+	7008,
+	6062,
+	3573,
+	1774,
+	6880,
+	6880,
+	6847,
+	6880,
+	6880,
+	5648,
+	6880,
+	5648,
+	1774,
+	6880,
+	6880,
+	7008,
+	6847,
+	6690,
+	6873,
+	13159,
+	7008,
+	3575,
+	1774,
+	6880,
+	6880,
+	6880,
+	5648,
+	1774,
+	6880,
+	6880,
+	6847,
+	6850,
+	11977,
+	11979,
+	7008,
+	7008,
+	7008,
+	5027,
+	7008,
+	7008,
+	5648,
+	5648,
+	5648,
+	5648,
+	6880,
+	6687,
+	5450,
+	6783,
+	5546,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	5648,
+	5648,
+	5546,
+	3247,
+	11983,
+	5648,
+	8461,
+	1821,
+	5648,
+	7008,
+	13159,
+	7008,
+	7008,
+	682,
+	1821,
+	5648,
+	7008,
+	7008,
+	3226,
+	7008,
+	7008,
+	3228,
+	5678,
+	3250,
+	3288,
+	5648,
+	13159,
+	0,
+	7008,
+	7008,
+	6847,
+	7008,
+	7008,
+	7008,
+	7008,
+	6847,
+	5617,
+	5617,
+	7008,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6676,
+	6847,
+	5617,
+	6880,
+	5648,
+	6880,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	7008,
+	7008,
+	5648,
+	6880,
+	7008,
+	7008,
+	2997,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	6880,
+	5648,
+	6676,
+	7008,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6676,
+	6847,
+	5617,
+	6880,
+	5648,
+	6880,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	7008,
+	7008,
+	5648,
+	6880,
+	7008,
+	7008,
+	2997,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6676,
+	6880,
+	6847,
+	5617,
+	6847,
+	5617,
+	6880,
+	5648,
+	7008,
+	7008,
+	7008,
+	5648,
+	7008,
+	7008,
+	5648,
+	6880,
+	7008,
+	13159,
+	2997,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	6880,
+	5648,
+	6676,
+	7008,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6676,
+	6847,
+	5617,
+	6880,
+	5648,
+	6880,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	6880,
+	7008,
+	7008,
+	5648,
+	5045,
+	5045,
+	6880,
+	7008,
+	7008,
+	2997,
+	7008,
+	7008,
+	2868,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	6880,
+	5648,
+	6880,
+	5648,
+	6847,
+	5617,
+	6676,
+	7008,
+	5648,
+	5648,
+	6783,
+	5546,
+	7008,
+	7008,
+	6783,
+	4097,
+	6783,
+	4097,
+	7008,
+	2997,
+	2997,
+	5648,
+	5648,
+	13117,
+	12290,
+	13092,
+	12280,
+	13117,
+	12290,
+	6880,
+	5648,
+	6880,
+	5648,
+	13092,
+	11710,
+	13159,
+	13159,
+	7008,
+	7008,
+	5546,
+	7008,
+	10808,
+	7008,
+	7008,
+	13159,
+	13117,
+	12290,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	6847,
+	7008,
+	5648,
+	3243,
+	5648,
+	6880,
+	5027,
+	5648,
+	5648,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6880,
+	5648,
+	6996,
+	5756,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	5648,
+	5648,
+	2592,
+	5027,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	3228,
+	7008,
+	7008,
+	7008,
+	5648,
+	7008,
+	7008,
+	5617,
+	7008,
+	6783,
+	7008,
+	6880,
+	7008,
+	6880,
+	7008,
+	7008,
+	5617,
+	7008,
+	6783,
+	7008,
+	6880,
+	7008,
+	6880,
+	7008,
+	3228,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6847,
+	6847,
+	5617,
+	6880,
+	5648,
+	6783,
+	5546,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	5648,
+	6880,
+	6880,
+	5648,
+	5444,
+	1706,
+	3554,
+	3244,
+	3243,
+	3243,
+	5546,
+	5023,
+	7008,
+	7008,
+	3228,
+	7008,
+	3228,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	5648,
+	5027,
+	7008,
+	7008,
+	7008,
+	7008,
+	3228,
+	7008,
+	7008,
+	5648,
+	7008,
+	5648,
+	5617,
+	7008,
+	6783,
+	7008,
+	7008,
+	6880,
+	7008,
+	6880,
+	7008,
+	3228,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6847,
+	6847,
+	5617,
+	6880,
+	5648,
+	6783,
+	5546,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	5648,
+	6880,
+	6880,
+	5648,
+	5444,
+	1706,
+	3554,
+	3244,
+	3243,
+	3243,
+	5546,
+	5023,
+	7008,
+	7008,
+	3228,
+	7008,
+	3228,
+	7008,
+	7008,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6676,
+	6847,
+	5617,
+	6880,
+	5648,
+	6880,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	6880,
+	5045,
+	5045,
+	7008,
+	7008,
+	5648,
+	7008,
+	7008,
+	7008,
+	6880,
+	7008,
+	7008,
+	13159,
+	2997,
+	5648,
+	5648,
+	5648,
+	6847,
+	5617,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	11983,
+	11983,
+	11983,
+	11983,
+	11983,
+	11983,
+	6880,
+	6880,
+	7008,
+	7008,
+	2868,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	7008,
+	7008,
+	7008,
+	7008,
+	5617,
+	6847,
+	5648,
+	7008,
+	7008,
+	7008,
+	7008,
+	5617,
+	6847,
+	5648,
+	7008,
+	7008,
+	7008,
+	7008,
+	5617,
+	6847,
+	5648,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	11904,
+	11900,
+	12020,
+	11901,
+	12239,
+	12243,
+	12247,
+	12258,
+	12021,
+	10355,
+	9165,
+	8505,
+	11983,
+	13159,
+	7008,
+	5648,
+	5617,
+	7008,
+	6783,
+	7008,
+	6880,
+	7008,
+	6880,
+	7008,
+	7008,
+	9618,
+	6880,
+	7008,
+	5456,
+	7008,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	3252,
+	5648,
+	7222,
+	8609,
+	7554,
+	7008,
+	7008,
+	5648,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6783,
+	5546,
+	6685,
+	6847,
+	5617,
+	6880,
+	7008,
+	3243,
+	7008,
+	7008,
+	7008,
+	7008,
+	6847,
+	0,
+	7008,
+	7008,
+	7008,
+	7008,
+	5027,
+	6880,
+	0,
+	5648,
+	5648,
+	5648,
+	4097,
+	5027,
+	5027,
+	0,
+	7008,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	7008,
+	5648,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	5617,
+	7008,
+	6783,
+	7008,
+	6880,
+	7008,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6678,
+	5443,
+	6880,
+	6880,
+	6683,
+	6847,
+	5617,
+	7008,
+	7008,
+	7008,
+	3577,
+	1828,
+	7008,
+	7008,
+	5648,
+	12275,
+	3239,
+	3247,
+	986,
+	5648,
+	13159,
+	7008,
+	3883,
+	4097,
+	4097,
+	0,
+	5648,
+	1706,
+	3554,
+	3244,
+	5617,
+	5546,
+	3554,
+	3244,
+	7008,
+	0,
+	0,
+	0,
+	0,
+	7008,
+	4097,
+	7008,
+	4097,
+	6676,
+	6880,
+	6783,
+	6937,
+	6937,
+	6880,
+	5648,
+	6880,
+	6880,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	6783,
+	7008,
+	7008,
+	5648,
+	7008,
+	6880,
+	7008,
+	7008,
+	13159,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	6847,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	6880,
+	6880,
+	7008,
+	0,
+	6880,
+	6783,
+	6847,
+	5617,
+	6880,
+	5648,
+	6783,
+	6880,
+	7008,
+	7008,
+	7008,
+	5648,
+	5648,
+	6880,
+	6880,
+	5617,
+	4097,
+	7008,
+	13159,
+	7008,
+	7008,
+	7008,
+	5648,
+	5546,
+	5546,
+	3247,
+	5648,
+	7008,
+	5648,
+	5648,
+	5648,
+	5648,
+	6783,
+	5546,
+	6783,
+	5546,
+	7008,
+	5546,
+	0,
+	7008,
+	5648,
+	5648,
+	6847,
+	5617,
+	7008,
+	5617,
+	7008,
+	6880,
+	5648,
+	6847,
+	6880,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	7008,
+	1666,
+	1666,
+	5648,
+	7008,
+	6880,
+	5027,
+	12290,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	7008,
+	5648,
+	7008,
+	2683,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	5617,
+	7008,
+	6783,
+	6880,
+	7008,
+	6880,
+	6779,
+	5542,
+	7008,
+	7008,
+	2718,
+	7008,
+	5648,
+	7008,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6847,
+	6783,
+	5546,
+	6786,
+	5550,
+	6880,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	6880,
+	5648,
+	7008,
+	6880,
+	5648,
+	6880,
+	5648,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	7008,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6783,
+	5546,
+	6783,
+	5546,
+	7008,
+	7008,
+	7008,
+	5045,
+	3222,
+	5546,
+	5648,
+	7008,
+	7008,
+	5648,
+	5648,
+	7008,
+	7008,
+	1791,
+	6084,
+	1791,
+	7008,
+	7008,
+	7008,
+	7008,
+	5226,
+	7008,
+	1791,
+	6880,
+	5648,
+	6880,
+	6783,
+	5546,
+	7008,
+	7008,
+	5027,
+	4097,
+	3228,
+	6783,
+	3273,
+	6880,
+	3244,
+	7008,
+	7008,
+	5027,
+	7008,
+	7008,
+	5648,
+	5648,
+	7008,
+	7008,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	5648,
+	6847,
+	6847,
+	5617,
+	6880,
+	5648,
+	6880,
+	5648,
+	6880,
+	5648,
+	6783,
+	5546,
+	7008,
+	7008,
+	7008,
+	7008,
+	5648,
+	5648,
+	1819,
+	6880,
+	6880,
+	5648,
+	5444,
+	1706,
+	3554,
+	3244,
+	3243,
+	3243,
+	1141,
+	5648,
+	5648,
+	5648,
+	7008,
+	7008,
+	7008,
+	7008,
+	2723,
+	7008,
+	5546,
+	7008,
+	1694,
+	7008,
+	7008,
+	7008,
+	6880,
+	5648,
+	6847,
+	6880,
+	5648,
+	7008,
+	7008,
+	7008,
+	7008,
+	6880,
+	6880,
+	5648,
+	5444,
+	3554,
+	3244,
+	7008,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[34] = 
+{
+	{ 0x060002E9, 34,  (void**)&Detail_FunctorOfVoid_func_m9B3A25DFCDAA1DA9B34D8C26D12720078904A7AE_RuntimeMethod_var, 0 },
+	{ 0x060002EA, 33,  (void**)&Detail_FunctorOfVoid_destroy_m5E3E6D4C5E3646C932CF287C430B2BBA89AAD985_RuntimeMethod_var, 0 },
+	{ 0x060002F2, 24,  (void**)&Detail_FunctorOfVoidFromOutputFrame_func_mA503D140DC254EBD50B6FF51E10826AF0C772F26_RuntimeMethod_var, 0 },
+	{ 0x060002F3, 23,  (void**)&Detail_FunctorOfVoidFromOutputFrame_destroy_mD420F425F20F505E4C5D043C8AD7410CBAF5EDC5_RuntimeMethod_var, 0 },
+	{ 0x060002F5, 30,  (void**)&Detail_FunctorOfVoidFromTargetAndBool_func_m3A49203A0B28CB5C535DF756759D60767CD45DE4_RuntimeMethod_var, 0 },
+	{ 0x060002F6, 29,  (void**)&Detail_FunctorOfVoidFromTargetAndBool_destroy_m9B8753165488859C46E1FAA8DA1A2A8F2F17F7A9_RuntimeMethod_var, 0 },
+	{ 0x060002FA, 10,  (void**)&Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_func_m0E20234492C341A0132FE31EE48393CC1DF1C90D_RuntimeMethod_var, 0 },
+	{ 0x060002FB, 9,  (void**)&Detail_FunctorOfVoidFromCalibrationDownloadStatusAndOptionalOfString_destroy_m956150E051D46D33D6C835806C52DB9D878384E8_RuntimeMethod_var, 0 },
+	{ 0x06000301, 14,  (void**)&Detail_FunctorOfVoidFromCloudLocalizeResult_func_m59565EF3FE8BE260527646DF98C6D079BFF464E3_RuntimeMethod_var, 0 },
+	{ 0x06000302, 13,  (void**)&Detail_FunctorOfVoidFromCloudLocalizeResult_destroy_mC6590432763B0BC30047B24F24F0AE808680013D_RuntimeMethod_var, 0 },
+	{ 0x06000306, 16,  (void**)&Detail_FunctorOfVoidFromCloudRecognizationResult_func_m44523CC4CB1D9428DB13CC0874B0FDD5300BF250_RuntimeMethod_var, 0 },
+	{ 0x06000307, 15,  (void**)&Detail_FunctorOfVoidFromCloudRecognizationResult_destroy_mB58D4BA7DE6FD4246AFD9469C6A50A326F30E1DF_RuntimeMethod_var, 0 },
+	{ 0x0600030B, 20,  (void**)&Detail_FunctorOfVoidFromInputFrame_func_m13A3A5E746D82B8E57973F7F42090FCAE2538701_RuntimeMethod_var, 0 },
+	{ 0x0600030C, 19,  (void**)&Detail_FunctorOfVoidFromInputFrame_destroy_m60ED302B9C246CC4E71CD3E66DDB615400013DB8_RuntimeMethod_var, 0 },
+	{ 0x0600030E, 12,  (void**)&Detail_FunctorOfVoidFromCameraState_func_mD650B25B88459727467D4E81043A0DF2785B028C_RuntimeMethod_var, 0 },
+	{ 0x0600030F, 11,  (void**)&Detail_FunctorOfVoidFromCameraState_destroy_mABCBFD76BDDF9AC8A2175B9F7A238BD6A65E53DE_RuntimeMethod_var, 0 },
+	{ 0x06000311, 26,  (void**)&Detail_FunctorOfVoidFromPermissionStatusAndString_func_mF75CF9B2CB5233199D16ABFA0D6C3E646128CCC7_RuntimeMethod_var, 0 },
+	{ 0x06000312, 25,  (void**)&Detail_FunctorOfVoidFromPermissionStatusAndString_destroy_mA11B2EC3A6F1A24515F97F2EC88046B405EC88B3_RuntimeMethod_var, 0 },
+	{ 0x06000314, 22,  (void**)&Detail_FunctorOfVoidFromLogLevelAndString_func_m146B9A0B7CD02BC1E22221A865E217AEF6F4A182_RuntimeMethod_var, 0 },
+	{ 0x06000315, 21,  (void**)&Detail_FunctorOfVoidFromLogLevelAndString_destroy_m35191A39C014A6C4A574F07E05B11C82EC5480C7_RuntimeMethod_var, 0 },
+	{ 0x06000317, 28,  (void**)&Detail_FunctorOfVoidFromRecordStatusAndString_func_mF8F6F417420C8B60382532E66F3E212B4A246419_RuntimeMethod_var, 0 },
+	{ 0x06000318, 27,  (void**)&Detail_FunctorOfVoidFromRecordStatusAndString_destroy_m5754CF07AE8DF6F757F145DE496EB4AFBE9CD64E_RuntimeMethod_var, 0 },
+	{ 0x0600031C, 8,  (void**)&Detail_FunctorOfVoidFromBool_func_m15C146E55E9FEEFB127F1D868C94A243FF03ABFD_RuntimeMethod_var, 0 },
+	{ 0x0600031D, 7,  (void**)&Detail_FunctorOfVoidFromBool_destroy_m12E1A68BAF4A5B12827A8F826BB564DC2770ED70_RuntimeMethod_var, 0 },
+	{ 0x0600031F, 4,  (void**)&Detail_FunctorOfVoidFromBoolAndStringAndString_func_mC4BC9C9A2BB2577123B4C370F3A9081C83BDC266_RuntimeMethod_var, 0 },
+	{ 0x06000320, 3,  (void**)&Detail_FunctorOfVoidFromBoolAndStringAndString_destroy_m6A47B4D9DE52BC54CC26290A51E5439F9AD7BD7E_RuntimeMethod_var, 0 },
+	{ 0x06000322, 6,  (void**)&Detail_FunctorOfVoidFromBoolAndString_func_mE4D0144F3E1BE474B77ADACA14760879A02C7D97_RuntimeMethod_var, 0 },
+	{ 0x06000323, 5,  (void**)&Detail_FunctorOfVoidFromBoolAndString_destroy_m296A146091B8A384D9E953B33C64C0C70C2D7738_RuntimeMethod_var, 0 },
+	{ 0x06000325, 32,  (void**)&Detail_FunctorOfVoidFromVideoStatus_func_m83A0D47C1E81D24241299838F24A18F712B64318_RuntimeMethod_var, 0 },
+	{ 0x06000326, 31,  (void**)&Detail_FunctorOfVoidFromVideoStatus_destroy_m10274A0BA716DC8F2801999302489EF4FDD299AA_RuntimeMethod_var, 0 },
+	{ 0x06000328, 18,  (void**)&Detail_FunctorOfVoidFromFeedbackFrame_func_m95A335E9E1F592E176AE16FF05D25B5EA6244F98_RuntimeMethod_var, 0 },
+	{ 0x06000329, 17,  (void**)&Detail_FunctorOfVoidFromFeedbackFrame_destroy_m5E85B54BC06925986835682FD9FB074112BB50FE_RuntimeMethod_var, 0 },
+	{ 0x0600032B, 2,  (void**)&Detail_FunctorOfOutputFrameFromListOfOutputFrame_func_m8D2C75EC80DD97F91D30449C94581F212E709C4C_RuntimeMethod_var, 0 },
+	{ 0x0600032C, 1,  (void**)&Detail_FunctorOfOutputFrameFromListOfOutputFrame_destroy_mF1A5464EE57BB31C84BF56FE37B8216303CBCE9E_RuntimeMethod_var, 0 },
+};
+static const Il2CppTokenRangePair s_rgctxIndices[8] = 
+{
+	{ 0x02000004, { 8, 2 } },
+	{ 0x0200013F, { 10, 17 } },
+	{ 0x060002E7, { 0, 1 } },
+	{ 0x060002E8, { 1, 2 } },
+	{ 0x06000332, { 3, 5 } },
+	{ 0x060009EE, { 27, 1 } },
+	{ 0x060009F5, { 28, 3 } },
+	{ 0x060009FC, { 31, 4 } },
+};
+extern const uint32_t g_rgctx_T_tDA323C8035076591F6EF8BE0A9CE26087B1C82F4;
+extern const uint32_t g_rgctx_Func_2_tD1B940516EEA2149973C6FB155382D2DBEC7ABCE;
+extern const uint32_t g_rgctx_Func_2_Invoke_m04C5D5840A59E30D1ECECF5FF9D306E3854CCDC4;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass2_0_1_tA4DEB8F5E142FEB8D100BCD4166C2FEF87AB4C81;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass2_0_1__ctor_mD2EA787DDE1E97F411082024DAA7A7642600FC41;
+extern const uint32_t g_rgctx_T_t0E9DBAC9D37670BA91DE5E5D8B096DD4A3039D7C;
+extern const Il2CppRGCTXConstrainedData g_rgctx_T_t0E9DBAC9D37670BA91DE5E5D8B096DD4A3039D7C_Object_Equals_m07105C4585D3FE204F2A80D58523D001DC43F63B;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass2_0_1_U3CAddU3Eb__0_mB2783BA4C2D1D5F57958B8F35ECD7AED9CCA3C70;
+extern const uint32_t g_rgctx_Action_1_t46359953A752746527F9D81FCC1B8D3930BA0D04;
+extern const uint32_t g_rgctx_Action_1_Invoke_mFBCD9D90FDB22DF4B9AA24B379E72DED5441082F;
+extern const uint32_t g_rgctx_Optional_1_CreateNone_m59EC1E55613312345B6A4419596D18362A6FE665;
+extern const uint32_t g_rgctx_Optional_1_t7E6B205BD21DCCBC66EC292A6BDC0032915E50AE;
+extern const uint32_t g_rgctx_T_t7C704965453DF39D1819BC6A7BEEEC37D4EEE0B3;
+extern const uint32_t g_rgctx_Optional_1_CreateSome_mF2E3EF12E0E1B08298CD481D5AC5DA4CCF320713;
+extern const uint32_t g_rgctx_Optional_1_get_OnNone_m19A5985B36673FDFF29DD8F09518F36F26723066;
+extern const uint32_t g_rgctx_Optional_1_Equals_mCBCBFDDD45FFDACEAB2814E4AFB31C095B298A0B;
+extern const uint32_t g_rgctx_Optional_1_Equals_mDF1BFAF8ABB632F65246C8C200C565276879884F;
+extern const uint32_t g_rgctx_Nullable_1_tDEBF068BC4708D4CFE5607241C5157DCFBB81369;
+extern const uint32_t g_rgctx_Nullable_1__ctor_mF3AEC2518BA36ED53855F9EEFA64F3D0C5EECF71;
+extern const uint32_t g_rgctx_Optional_1_t7E6B205BD21DCCBC66EC292A6BDC0032915E50AE;
+extern const uint32_t g_rgctx_Optional_1_t7E6B205BD21DCCBC66EC292A6BDC0032915E50AE;
+extern const Il2CppRGCTXConstrainedData g_rgctx_T_t7C704965453DF39D1819BC6A7BEEEC37D4EEE0B3_Object_GetHashCode_m372C5A7AB16CAC13307C11C4256D706CE57E090C;
+extern const Il2CppRGCTXConstrainedData g_rgctx_T_t7C704965453DF39D1819BC6A7BEEEC37D4EEE0B3_Object_Equals_m07105C4585D3FE204F2A80D58523D001DC43F63B;
+extern const uint32_t g_rgctx_Nullable_1_get_HasValue_m79E3ED225E21B34487FF6AC96557979D03401DE0;
+extern const uint32_t g_rgctx_Nullable_1_get_Value_mE3615E7756D7C241445031FDD1632AFB45D6D38A;
+extern const uint32_t g_rgctx_Optional_1_get_OnSome_m2C6108D05C3DE3D249BD636C012D12812A1AF22B;
+extern const Il2CppRGCTXConstrainedData g_rgctx_T_t7C704965453DF39D1819BC6A7BEEEC37D4EEE0B3_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F;
+extern const uint32_t g_rgctx_T_t15DDCD39C60C3FFECA4C54FA1CFF6F5FE24F8F37;
+extern const uint32_t g_rgctx_List_1_tD2B262F90158EDC834BE9C7E5D171BCFDAC770B7;
+extern const uint32_t g_rgctx_List_1__ctor_m18A920A50B7BB9F8056ED04401793FCA4E102D59;
+extern const uint32_t g_rgctx_ARComponentPicker_GetComponentsInChildrenTransformOrder_TisCType_t2A8B2A10FA7AD09AA398BAD56FFA94FAA7DD0DDC_m4F03DC8970EB5FE71F864B859A8F8AFF5AD519B8;
+extern const uint32_t g_rgctx_Component_GetComponents_TisCType_t47B64614F71E29941FBAD49F49EE801953185AF4_m20BBCA48015DC068E6FF094ACCD906367C8B1C6F;
+extern const uint32_t g_rgctx_List_1_tF4579AAC27CB71F6D485A93D81F2ACB6418D9339;
+extern const uint32_t g_rgctx_List_1_AddRange_m83EA6EEA75BB82A913574853A7A6F1FF54E3FDF0;
+extern const uint32_t g_rgctx_ARComponentPicker_GetComponentsInChildrenTransformOrder_TisCType_t47B64614F71E29941FBAD49F49EE801953185AF4_m58632A997076505A9D0AA1E405EE802099FF41C0;
+static const Il2CppRGCTXDefinition s_rgctxValues[35] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tDA323C8035076591F6EF8BE0A9CE26087B1C82F4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_2_tD1B940516EEA2149973C6FB155382D2DBEC7ABCE },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_2_Invoke_m04C5D5840A59E30D1ECECF5FF9D306E3854CCDC4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass2_0_1_tA4DEB8F5E142FEB8D100BCD4166C2FEF87AB4C81 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass2_0_1__ctor_mD2EA787DDE1E97F411082024DAA7A7642600FC41 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t0E9DBAC9D37670BA91DE5E5D8B096DD4A3039D7C },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_T_t0E9DBAC9D37670BA91DE5E5D8B096DD4A3039D7C_Object_Equals_m07105C4585D3FE204F2A80D58523D001DC43F63B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass2_0_1_U3CAddU3Eb__0_mB2783BA4C2D1D5F57958B8F35ECD7AED9CCA3C70 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Action_1_t46359953A752746527F9D81FCC1B8D3930BA0D04 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Action_1_Invoke_mFBCD9D90FDB22DF4B9AA24B379E72DED5441082F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Optional_1_CreateNone_m59EC1E55613312345B6A4419596D18362A6FE665 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Optional_1_t7E6B205BD21DCCBC66EC292A6BDC0032915E50AE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t7C704965453DF39D1819BC6A7BEEEC37D4EEE0B3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Optional_1_CreateSome_mF2E3EF12E0E1B08298CD481D5AC5DA4CCF320713 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Optional_1_get_OnNone_m19A5985B36673FDFF29DD8F09518F36F26723066 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Optional_1_Equals_mCBCBFDDD45FFDACEAB2814E4AFB31C095B298A0B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Optional_1_Equals_mDF1BFAF8ABB632F65246C8C200C565276879884F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Nullable_1_tDEBF068BC4708D4CFE5607241C5157DCFBB81369 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Nullable_1__ctor_mF3AEC2518BA36ED53855F9EEFA64F3D0C5EECF71 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_Optional_1_t7E6B205BD21DCCBC66EC292A6BDC0032915E50AE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Optional_1_t7E6B205BD21DCCBC66EC292A6BDC0032915E50AE },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_T_t7C704965453DF39D1819BC6A7BEEEC37D4EEE0B3_Object_GetHashCode_m372C5A7AB16CAC13307C11C4256D706CE57E090C },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_T_t7C704965453DF39D1819BC6A7BEEEC37D4EEE0B3_Object_Equals_m07105C4585D3FE204F2A80D58523D001DC43F63B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Nullable_1_get_HasValue_m79E3ED225E21B34487FF6AC96557979D03401DE0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Nullable_1_get_Value_mE3615E7756D7C241445031FDD1632AFB45D6D38A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Optional_1_get_OnSome_m2C6108D05C3DE3D249BD636C012D12812A1AF22B },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_T_t7C704965453DF39D1819BC6A7BEEEC37D4EEE0B3_Object_ToString_mF8AC1EB9D85AB52EC8FD8B8BDD131E855E69673F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t15DDCD39C60C3FFECA4C54FA1CFF6F5FE24F8F37 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_tD2B262F90158EDC834BE9C7E5D171BCFDAC770B7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1__ctor_m18A920A50B7BB9F8056ED04401793FCA4E102D59 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ARComponentPicker_GetComponentsInChildrenTransformOrder_TisCType_t2A8B2A10FA7AD09AA398BAD56FFA94FAA7DD0DDC_m4F03DC8970EB5FE71F864B859A8F8AFF5AD519B8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Component_GetComponents_TisCType_t47B64614F71E29941FBAD49F49EE801953185AF4_m20BBCA48015DC068E6FF094ACCD906367C8B1C6F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_tF4579AAC27CB71F6D485A93D81F2ACB6418D9339 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_AddRange_m83EA6EEA75BB82A913574853A7A6F1FF54E3FDF0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ARComponentPicker_GetComponentsInChildrenTransformOrder_TisCType_t47B64614F71E29941FBAD49F49EE801953185AF4_m58632A997076505A9D0AA1E405EE802099FF41C0 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_EasyAR_Sense_CodeGenModule;
+const Il2CppCodeGenModule g_EasyAR_Sense_CodeGenModule = 
+{
+	"EasyAR.Sense.dll",
+	2939,
+	s_methodPointers,
+	71,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	34,
+	s_reversePInvokeIndices,
+	8,
+	s_rgctxIndices,
+	35,
+	s_rgctxValues,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
