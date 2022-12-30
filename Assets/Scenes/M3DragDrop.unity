@@ -194,7 +194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAD70\uC6A9\uC804\uD654"
+  m_Text: "SCR-536 \uBB34\uC120\uC1A1\uC218\uC2E0\uAE30"
 --- !u!222 &29773894
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2838,7 +2838,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 265.6146, y: -499}
-  m_SizeDelta: {x: 166.5592, y: 101.4037}
+  m_SizeDelta: {x: 50, y: 181}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!54 &1537103035
 Rigidbody:
@@ -2912,7 +2912,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 915423da494ab46989d84ef5d047b96e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eeac1d5d74d0747b7bcd8006648e745d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

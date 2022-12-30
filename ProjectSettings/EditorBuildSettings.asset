@@ -32,9 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/M2Location.unity
     guid: 46056a3f4ba5d4e45b2838aec43959d6
-  - enabled: 1
-    path: Assets/Scenes/M2ARScan.unity
-    guid: 0a13ce7dce5b945338dc995350a0aed6
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/M2Tutorial.unity
     guid: f3202e01388344afb8050dce5527174f
@@ -50,9 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/M3Location.unity
     guid: 8a806d0695e984ca8837d7559a663fe3
-  - enabled: 1
-    path: Assets/Scenes/M3ARScan.unity
-    guid: a3d827ba2a58b4e589bdb82a98393970
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/M3Mission1.unity
     guid: ee73787a6fc044f74b79190af9858d99
@@ -101,6 +101,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/M4Clear.unity
     guid: 5395cd7babe714627b0fb1048c94f325
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: b049bd6a122ed48599205f55cd1052c6
   m_configObjects:
     EasyAR.Settings: {fileID: 11400000, guid: ef526d0aded28ac4191f771828a043f1, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b8b40982ece1b0048bf9002bfa7a835b, type: 2}

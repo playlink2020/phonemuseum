@@ -336,6 +336,7 @@ GameObject:
   - component: {fileID: 449470461}
   - component: {fileID: 449470460}
   - component: {fileID: 449470459}
+  - component: {fileID: 449470462}
   m_Layer: 5
   m_Name: btnNext
   m_TagString: Untagged
@@ -361,7 +362,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -431.5}
+  m_AnchoredPosition: {x: 0, y: -522}
   m_SizeDelta: {x: 220, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &449470459
@@ -458,6 +459,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449470457}
   m_CullTransparentMesh: 1
+--- !u!95 &449470462
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449470457}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0925e28925bda4beb80e59ba2732235c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &468945548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,8 +1491,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -82.25}
-  m_SizeDelta: {x: 397, y: 366}
+  m_AnchoredPosition: {x: 0, y: -141.25}
+  m_SizeDelta: {x: 410, y: 582}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1729828185
 MonoBehaviour:
@@ -1680,7 +1701,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1862459766}
   selectedCommands:
-  - {fileID: 1862459773}
+  - {fileID: 1862459770}
   variables: []
   description: 
   stepPause: 0
@@ -1721,8 +1742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "\uC544\uB798 \uC7A5\uC18C\uB85C \uC774\uB3D9\uD574\uC11C\nAR\uC774\uBBF8\uC9C0\uB97C
-    \uC2A4\uCE94\uD574\uC8FC\uC138\uC694."
+  storyText: "\uC544\uB798 AR\uC774\uBBF8\uC9C0\uB97C \uCC3E\uC544\uC11C\n\uC2A4\uCE94\uD574\uC8FC\uC138\uC694."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1781,7 +1801,7 @@ MonoBehaviour:
   indentLevel: 0
   images:
   - {fileID: 1729828185}
-  sprite: {fileID: 21300000, guid: 8c129b505ee624730b75950cbbaec095, type: 3}
+  sprite: {fileID: 21300000, guid: 1637657e5b9cf4e9e87533a83b43393a, type: 3}
 --- !u!1 &1972794506
 GameObject:
   m_ObjectHideFlags: 0
